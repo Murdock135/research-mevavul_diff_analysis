@@ -5,6 +5,9 @@ services:
     volumes:
       - ./code:/data/code           # Your C file pairs
       - ./output:/output            # Analysis results
+    env_file:
+      - .env
+    command: bash -lc 'git config --global url."https://${GH_TOKEN}@github.com/".insteadOf "https://github.com/"; exec bash'
     working_dir: /app
     stdin_open: true
     tty: true
