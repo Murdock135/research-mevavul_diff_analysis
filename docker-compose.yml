@@ -6,6 +6,7 @@ services:
       - ./code:/app/data/code           # Your C file pairs
       - ./output:/app/output            # Analysis results
       - ./scripts:/app/scripts        # Any additional scripts
+      - ./PrimeVul_v0.1:/app/PrimeVul_v0.1  # PrimeVul dataset
     env_file:
       - .env
     working_dir: /app
