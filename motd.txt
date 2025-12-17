@@ -1,0 +1,33 @@
+==========================================
+  Coming Analysis Tool
+==========================================
+
+Quick Start:
+coming                          # basic help
+coming -showentities            # List entity types
+coming -showactions             # List action types
+
+Test code repository:
+  /app/repogit4testv0/ is a sample Git repository
+  containing code files to analyze.
+
+Example Commands:
+  # Mine insertions of BinaryOperator
+  coming -location /app/repogit4testv0/ \
+    -mode mineinstance -action INS \
+    -entitytype BinaryOperator -output /output
+
+  # Change frequency analysis
+  coming -location /app/repogit4testv0/ \
+    -mode diff -output /output
+
+  # Extract code features
+  coming -location /app/repogit4testv0/ \
+    -mode features -output /output
+
+Directories:
+  Scripts: /app/scripts/
+  Output:  /output/
+  Test:    /app/repogit4testv0/
+
+==========================================

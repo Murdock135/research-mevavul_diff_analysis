@@ -3,14 +3,15 @@ services:
   coming-analysis:
     build: .
     volumes:
-      - ./code:/data/code           # Your C file pairs
-      - ./output:/output            # Analysis results
+      - ./code:/app/data/code           # Your C file pairs
+      - ./output:/app/output            # Analysis results
+      - ./scripts:/app/scripts        # Any additional scripts
     env_file:
       - .env
-    command: bash -lc 'git config --global url."https://${GH_TOKEN}@github.com/".insteadOf "https://github.com/"; exec bash'
     working_dir: /app
     stdin_open: true
     tty: true
+    command: ["/bin/bash"]
 
 # File Structure Required
 # ./code/
