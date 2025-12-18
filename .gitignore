@@ -11,11 +11,14 @@
 .mtj.tmp/
 
 # Package Files #
+# Ignore PrimeVul dataset
+PrimeVul*
 *.jar
 *.war
 *.nar
 *.ear
 *.zip
+# Track PrimeVul.zip explicitly
 !PrimeVul.zip
 *.tar.gz
 *.rar
@@ -24,8 +27,7 @@
 hs_err_pid*
 replay_pid*
 
-# Ignore PrimeVul dataset
-PrimeVul*
+
 
 .venv/
 venv/

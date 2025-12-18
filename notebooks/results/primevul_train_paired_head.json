@@ -1,0 +1,117 @@
+{
+    "idx": {
+        "0": 0,
+        "1": 157856,
+        "2": 1,
+        "3": 157857,
+        "4": 2
+    },
+    "project": {
+        "0": "openssl",
+        "1": "openssl",
+        "2": "savannah",
+        "3": "savannah",
+        "4": "savannah"
+    },
+    "commit_id": {
+        "0": "ca989269a2876bae79393bd54c3e72d49975fc75",
+        "1": "ca989269a2876bae79393bd54c3e72d49975fc75",
+        "2": "190cef6eed37d0e73a73c1e205eb31d45ab60a3c",
+        "3": "190cef6eed37d0e73a73c1e205eb31d45ab60a3c",
+        "4": "e82ef4545e9e98cbcb032f55d7c750b81e3a0450"
+    },
+    "project_url": {
+        "0": "https://github.com/openssl/openssl",
+        "1": "https://github.com/openssl/openssl",
+        "2": "https://git.savannah.gnu.org/gitweb/?p=gnutls",
+        "3": "https://git.savannah.gnu.org/gitweb/?p=gnutls",
+        "4": "https://git.savannah.gnu.org/gitweb/?p=gnutls"
+    },
+    "commit_url": {
+        "0": "https://git.openssl.org/gitweb/?p=openssl.git;a=commit;h=ca989269a2876bae79393bd54c3e72d49975fc75",
+        "1": "https://git.openssl.org/gitweb/?p=openssl.git;a=commit;h=ca989269a2876bae79393bd54c3e72d49975fc75",
+        "2": "https://git.savannah.gnu.org/gitweb/?p=gnutls.git;a=commitdiff;h=190cef6eed37d0e73a73c1e205eb31d45ab60a3c",
+        "3": "https://git.savannah.gnu.org/gitweb/?p=gnutls.git;a=commitdiff;h=190cef6eed37d0e73a73c1e205eb31d45ab60a3c",
+        "4": "https://git.savannah.gnu.org/gitweb/?p=gnutls.git;a=commitdiff;h=e82ef4545e9e98cbcb032f55d7c750b81e3a0450"
+    },
+    "commit_message": {
+        "0": "Use version in SSL_METHOD not SSL structure.\n\nWhen deciding whether to use TLS 1.2 PRF and record hash algorithms\nuse the version number in the corresponding SSL_METHOD structure\ninstead of the SSL structure. The SSL structure version is sometimes\ninaccurate. Note: OpenSSL 1.0.2 and later effectively do this already.\n(CVE-2013-6449)",
+        "1": "Use version in SSL_METHOD not SSL structure.\n\nWhen deciding whether to use TLS 1.2 PRF and record hash algorithms\nuse the version number in the corresponding SSL_METHOD structure\ninstead of the SSL structure. The SSL structure version is sometimes\ninaccurate. Note: OpenSSL 1.0.2 and later effectively do this already.\n(CVE-2013-6449)",
+        "2": "None",
+        "3": "None",
+        "4": "None"
+    },
+    "target": {
+        "0": 1,
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 1
+    },
+    "func": {
+        "0": " long ssl_get_algorithm2(SSL *s)\n        {\n        long alg2 = s->s3->tmp.new_cipher->algorithm2;\n       if (TLS1_get_version(s) >= TLS1_2_VERSION &&\n            alg2 == (SSL_HANDSHAKE_MAC_DEFAULT|TLS1_PRF))\n                return SSL_HANDSHAKE_MAC_SHA256 | TLS1_PRF_SHA256;\n        return alg2;\n\t}\n",
+        "1": " long ssl_get_algorithm2(SSL *s)\n        {\n        long alg2 = s->s3->tmp.new_cipher->algorithm2;\n       if (s->method->version == TLS1_2_VERSION &&\n            alg2 == (SSL_HANDSHAKE_MAC_DEFAULT|TLS1_PRF))\n                return SSL_HANDSHAKE_MAC_SHA256 | TLS1_PRF_SHA256;\n        return alg2;\n\t}\n",
+        "2": "gnutls_session_get_data (gnutls_session_t session,\n                         void *session_data, size_t * session_data_size)\n{\n\n  gnutls_datum_t psession;\n  int ret;\n\n  if (session->internals.resumable == RESUME_FALSE)\n    return GNUTLS_E_INVALID_SESSION;\n\n  psession.data = session_data;\n\n  ret = _gnutls_session_pack (session, &psession);\n  if (ret < 0)\n    {\n       gnutls_assert ();\n       return ret;\n     }\n  *session_data_size = psession.size;\n \n   if (psession.size > *session_data_size)\n     {\n       ret = GNUTLS_E_SHORT_MEMORY_BUFFER;\n       goto error;\n     }\n \n   if (session_data != NULL)\n     memcpy (session_data, psession.data, psession.size);\n\n  ret = 0;\n\nerror:\n  _gnutls_free_datum (&psession);\n  return ret;\n}\n",
+        "3": "gnutls_session_get_data (gnutls_session_t session,\n                         void *session_data, size_t * session_data_size)\n{\n\n  gnutls_datum_t psession;\n  int ret;\n\n  if (session->internals.resumable == RESUME_FALSE)\n    return GNUTLS_E_INVALID_SESSION;\n\n  psession.data = session_data;\n\n  ret = _gnutls_session_pack (session, &psession);\n  if (ret < 0)\n    {\n       gnutls_assert ();\n       return ret;\n     }\n \n   if (psession.size > *session_data_size)\n     {\n       ret = GNUTLS_E_SHORT_MEMORY_BUFFER;\n       goto error;\n     }\n  *session_data_size = psession.size;\n \n   if (session_data != NULL)\n     memcpy (session_data, psession.data, psession.size);\n\n  ret = 0;\n\nerror:\n  _gnutls_free_datum (&psession);\n  return ret;\n}\n",
+        "4": "gnutls_session_get_data (gnutls_session_t session,\n                         void *session_data, size_t * session_data_size)\n{\n\n  gnutls_datum_t psession;\n  int ret;\n\n  if (session->internals.resumable == RESUME_FALSE)\n    return GNUTLS_E_INVALID_SESSION;\n\n  psession.data = session_data;\n\n  ret = _gnutls_session_pack (session, &psession);\n  if (ret < 0)\n    {\n      gnutls_assert ();\n      return ret;\n    }\n \n   if (psession.size > *session_data_size)\n     {\n       ret = GNUTLS_E_SHORT_MEMORY_BUFFER;\n       goto error;\n     }\n\n  if (session_data != NULL)\n    memcpy (session_data, psession.data, psession.size);\n\n  ret = 0;\n\nerror:\n  _gnutls_free_datum (&psession);\n  return ret;\n}\n"
+    },
+    "func_hash": {
+        "0": 255087747659226932756944884868284698117,
+        "1": 185448168336389579295943711163093638128,
+        "2": 266005388725654386397960628110885023158,
+        "3": 217937088037221829579003352102231694649,
+        "4": 162619476999663411812822607346255778028
+    },
+    "file_name": {
+        "0": "None",
+        "1": "None",
+        "2": "None",
+        "3": "gnutls_session.c",
+        "4": "None"
+    },
+    "file_hash": {
+        "0": NaN,
+        "1": NaN,
+        "2": NaN,
+        "3": 1.7209028568383507e+38,
+        "4": NaN
+    },
+    "cwe": {
+        "0": [
+            "CWE-310"
+        ],
+        "1": [
+            "CWE-310"
+        ],
+        "2": [
+            "CWE-119"
+        ],
+        "3": [
+            "CWE-119"
+        ],
+        "4": [
+            "CWE-119"
+        ]
+    },
+    "cve": {
+        "0": "CVE-2013-6449",
+        "1": "CVE-2013-6449",
+        "2": "CVE-2011-4128",
+        "3": "CVE-2011-4128",
+        "4": "CVE-2011-4128"
+    },
+    "cve_desc": {
+        "0": "The ssl_get_algorithm2 function in ssl/s3_lib.c in OpenSSL before 1.0.2 obtains a certain version number from an incorrect data structure, which allows remote attackers to cause a denial of service (daemon crash) via crafted traffic from a TLS 1.2 client.",
+        "1": "The ssl_get_algorithm2 function in ssl/s3_lib.c in OpenSSL before 1.0.2 obtains a certain version number from an incorrect data structure, which allows remote attackers to cause a denial of service (daemon crash) via crafted traffic from a TLS 1.2 client.",
+        "2": "Buffer overflow in the gnutls_session_get_data function in lib/gnutls_session.c in GnuTLS 2.12.x before 2.12.14 and 3.x before 3.0.7, when used on a client that performs nonstandard session resumption, allows remote TLS servers to cause a denial of service (application crash) via a large SessionTicket.",
+        "3": "Buffer overflow in the gnutls_session_get_data function in lib/gnutls_session.c in GnuTLS 2.12.x before 2.12.14 and 3.x before 3.0.7, when used on a client that performs nonstandard session resumption, allows remote TLS servers to cause a denial of service (application crash) via a large SessionTicket.",
+        "4": "Buffer overflow in the gnutls_session_get_data function in lib/gnutls_session.c in GnuTLS 2.12.x before 2.12.14 and 3.x before 3.0.7, when used on a client that performs nonstandard session resumption, allows remote TLS servers to cause a denial of service (application crash) via a large SessionTicket."
+    },
+    "nvd_url": {
+        "0": "https://nvd.nist.gov/vuln/detail/CVE-2013-6449",
+        "1": "https://nvd.nist.gov/vuln/detail/CVE-2013-6449",
+        "2": "https://nvd.nist.gov/vuln/detail/CVE-2011-4128",
+        "3": "https://nvd.nist.gov/vuln/detail/CVE-2011-4128",
+        "4": "https://nvd.nist.gov/vuln/detail/CVE-2011-4128"
+    }
+}
