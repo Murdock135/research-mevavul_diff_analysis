@@ -38,9 +38,7 @@ https://github.com/php/php-src: 186 samples
 http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6: 149 samples
 https://github.com/FFmpeg/FFmpeg: 132 samples
 https://github.com/the-tcpdump-group/tcpdump: 124 samples
-
---------------------------------- Distribution of Samples per Project (Top 20) ---------------------------------
+--------------------------------- Distribution of Samples per Project ---------------------------------
 ![Samples per Project](samples_per_project.png)
---------------------------------- Distribution of Samples per CVE (Top 20) ---------------------------------
+--------------------------------- Distribution of Samples per CVE ---------------------------------
 ![Samples per CVE](samples_per_cve.png)
-
