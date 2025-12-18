@@ -16,7 +16,7 @@ RUN wget https://repo1.maven.org/maven2/com/github/spoonlabs/coming/6.0.0/coming
 RUN git clone https://github.com/SpoonLabs/repogit4testv0 
 
 # Create directories for analysis
-RUN mkdir -p /data/code /output
+RUN mkdir -p /output
 
 # Create the coming command-line script. Use 'EOF' to prevent variable expansion.
 RUN <<'EOF' cat > /usr/local/bin/coming
