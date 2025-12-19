@@ -4,7 +4,7 @@ WORKDIR /app
 
 # Install git
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends git ca-certificates vim neovim && \
+    apt-get install -y --no-install-recommends git ca-certificates vim neovim uv python3 && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
@@ -16,7 +16,7 @@ RUN wget https://repo1.maven.org/maven2/com/github/spoonlabs/coming/6.0.0/coming
 RUN git clone https://github.com/SpoonLabs/repogit4testv0 
 
 # Create directories for analysis
-RUN mkdir -p /output
+RUN mkdir -p /data/code /output
 
 # Create the coming command-line script. Use 'EOF' to prevent variable expansion.
 RUN <<'EOF' cat > /usr/local/bin/coming
