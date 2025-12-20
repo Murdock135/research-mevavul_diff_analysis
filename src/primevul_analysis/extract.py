@@ -7,6 +7,7 @@ import logging
 from typing import List, Optional, Dict
 
 import pandas as pd
+from tqdm import tqdm
 
 from primevul_analysis.types import CodePair
 
@@ -77,9 +78,9 @@ class CodePairExtractor:
                 failed += 1
                 continue
             
-            # Progress logging
-            if (i + 1) % 100 == 0:
-                logger.info(f"  Processed {i + 1}/{total_commits} commits")
+            # # Progress logging
+            # if (i + 1) % 100 == 0:
+            #     logger.info(f"  Processed {i + 1}/{total_commits} commits")
 
         self.code_pairs = code_pairs
         logger.info(f"Extracted {len(code_pairs)} complete pairs (skipped {skipped}, failed {failed})")
@@ -146,14 +147,14 @@ class ComingDataPreparator:
 
         logger.info(f"Writing {len(pairs)} code pairs to {output_dir}")
 
-        for index, pair in enumerate(pairs):
+        for index, pair in enumerate(tqdm(pairs, desc="Writing code pairs")):
             pair_dir = self.write_single_pair(pair, index, output_dir)
             self.pair_dirs.append(pair_dir)
             
-            if (index + 1) % 100 == 0:
-                logger.info(f"  Written {index + 1}/{len(pairs)} pairs")
+            # if (index + 1) % 100 == 0:
+            #     logger.info(f"  Written {index + 1}/{len(pairs)} pairs")
 
-        logger.info(f"Completed! Files in {output_dir}")
+        logger.info(f"Completed! Written {len(self.pair_dirs)} pairs to {output_dir}")
         return self.pair_dirs
 
     def write_single_pair(self, pair: CodePair, index: int, output_dir: Optional[Path] = None) -> Path:

@@ -20,12 +20,16 @@ def main():
 
     extractor = CodePairExtractor(input_path=input_path, output_path=output_path)
     code_pairs: List[CodePair] = extractor.extract_code_pairs()
-    code_pairs_df = extractor.save_code_pairs(code_pairs, format='csv', output_path=output_path / "code_pairs.csv")
+    _ = extractor.save_code_pairs(code_pairs, format='csv', output_path=output_path / "code_pairs.csv")
 
     logger.info("Code pair extraction completed.") 
 
-    preparator = ComingDataPreparator(input_dir=output_path, output_dir=output_path / "coming_data")
+    # Prepare Coming data
+    coming_output_dir = project_root / "data" / "coming_data"
+    preparator = ComingDataPreparator(output_dir=coming_output_dir)
+    _ = preparator.write_pairs(code_pairs)
 
+    logger.info("Finished preparing Coming data.")
 
 
 if __name__ == "__main__":
