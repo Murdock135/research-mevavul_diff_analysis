@@ -9,6 +9,7 @@ from typing import List, Optional, Dict
 import pandas as pd
 
 from primevul_analysis.types import CodePair
+from primevul_analysis.logging.logger import debug_here
 
 logger = logging.getLogger(__name__)
 
@@ -47,6 +48,8 @@ class CodePairExtractor:
         failed = 0
         
         for i, (commit_id, group) in enumerate(df.groupby('commit_id')):
+            debug_here(f"Check type(commit_id) = {type(commit_id)}")
+            
             try:
                 vuln_group = group[group['target'] == 1]
                 patched_group = group[group['target'] == 0]
