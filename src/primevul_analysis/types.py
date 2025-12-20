@@ -1,6 +1,10 @@
-from typing import List, Dict, Any, Optional
-from dataclasses import dataclass
-from pydantic import BaseModel, Field, 
+from __future__ import annotations
+
+from pathlib import Path
+from typing import List, Optional
+
+from pydantic import BaseModel, ConfigDict, Field
+
 
 class CodePair(BaseModel):
     id: str
@@ -13,26 +17,41 @@ class CodePair(BaseModel):
     cwe: List[str]
     commit_id: str
 
+
 class ComingChangeFrequencyEntry(BaseModel):
     """Single entry from Coming 'frequency' list."""
-    c: str = Field(..., description="The operation being affected by an action")
-    f: int = Field(..., description="The frequency of the action")
+
+    c: str = Field(..., description="The operation/entity affected by an action")
+    f: int = Field(..., ge=0, description="The frequency of the action")
+
 
 class ComingFrequencyParentEntry(BaseModel):
-    c: str = Field(..., description="The entity being effected in the parent by an action")
-    f: int = Field(..., description="The frequency of the action")
+    c: str = Field(..., description="Parent-level pattern/entity string")
+    f: int = Field(..., ge=0, description="The frequency of the action")
+
 
 class ComingChangeFrequency(BaseModel):
-    frequency: List[ComingChangeFrequencyEntry] = Field(default_factory=list, description="List of frequency entries")
-    frequency_parent: List[ComingFrequencyParentEntry] = Field(default_factory=list, description="List of frequency parent entries")
+    """Validated representation of Coming's change_frequency.json."""
+
+    model_config = ConfigDict(extra="ignore", populate_by_name=True)
+
+    frequency: List[ComingChangeFrequencyEntry] = Field(default_factory=list)
+    # Coming commonly uses `frequencyParent`; accept both.
+    frequency_parent: List[ComingFrequencyParentEntry] = Field(
+        default_factory=list,
+        alias="frequencyParent",
+    )
+
 
 class ComingRunResult(BaseModel):
-    pair_dir: str
+    model_config = ConfigDict(extra="ignore")
+
+    pair_dir: Path
     success: bool
-    error: Optional[str]
+    error: Optional[str] = None
     returncode: Optional[int] = None
 
-    change_frequency_path : Optional[str] = None
+    change_frequency_path: Optional[Path] = None
     change_frequency: Optional[ComingChangeFrequency] = None
 
     stdout: str = ""
