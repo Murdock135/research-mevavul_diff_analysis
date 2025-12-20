@@ -317,6 +317,371 @@ After processing, each record has ~65-70 features:
 
 **Note**: Coming features only available when `coming_success=True`
 
+## Coming Tool Guide
+
+### What is Coming?
+
+**Coming** is an extensible Java-based framework for mining and analyzing code changes at the Abstract Syntax Tree (AST) level. Developed by the SpoonLabs research group at INRIA, Coming provides automated pattern detection in code commits.
+
+**Repository**: https://github.com/SpoonLabs/coming  
+**Paper**: "Coming: A Tool for Mining Change Pattern Instances from Git Commits" (ASE 2019)  
+**License**: GPL-1.0
+
+**Key Capabilities**:
+- AST-level diff analysis (beyond line-based git diff)
+- Pattern mining across commit histories
+- Change operation classification (Insert, Delete, Update, Move)
+- Support for Java, C, and C++ (via Spoon and GumTree parsers)
+
+**Why Use Coming for Vulnerability Analysis?**
+
+Coming provides **semantic change detection** that captures security-relevant modifications:
+- **Structural Changes**: Detects added `if` statements (NULL checks, bounds checks)
+- **Operation Types**: Distinguishes insertions vs updates (new validation vs modified logic)
+- **AST Node Types**: Identifies method invocations (safe function replacements), assignments (initialization), return statements (error handling)
+- **Precision**: Ignores whitespace/comment changes, focuses on executable code
+
+Example: Traditional diff shows "+5 lines", Coming shows "Insert IfStatement with BinaryOperator (== NULL)"
+
+### Installation
+
+**Prerequisites**:
+- Java 11+ (JRE and JDK)
+- Maven 3.6+ (if building from source)
+- Git (for repository analysis)
+
+**Option 1: Download Pre-built JAR**
+```bash
+# Latest release (check GitHub for current version)
+wget https://github.com/SpoonLabs/coming/releases/download/v0.4.0/coming-0.4.0-jar-with-dependencies.jar
+
+# Verify
+java -jar coming-0.4.0-jar-with-dependencies.jar -help
+```
+
+**Option 2: Build from Source**
+```bash
+git clone https://github.com/SpoonLabs/coming.git
+cd coming
+mvn clean package -DskipTests
+
+# JAR will be in target/ directory
+ls target/coming-*-jar-with-dependencies.jar
+```
+
+**Verification**:
+```bash
+# Check Java version
+java -version  # Should be 11+
+
+# Test Coming
+java -jar coming.jar -help
+```
+
+### Command-Line Usage
+
+#### Basic Syntax
+
+```bash
+java -jar coming.jar [OPTIONS]
+```
+
+#### Core Arguments
+
+**Required Arguments**:
+
+- `-location <path>`: Path to git repository or directory containing code
+  - Example: `-location /path/to/repo`
+  - Example: `-location .` (current directory)
+
+- `-mode <mode>`: Analysis mode
+  - `diff`: Analyze code changes between commits (default)
+  - `repairpatterns`: Mine repair patterns
+  - `features`: Extract code features
+  - `miner`: Mine change patterns
+
+**Common Optional Arguments**:
+
+- `-parameters <key:value>`: Additional parameters (comma-separated)
+  - `commit:<hash>`: Analyze specific commit (e.g., `commit:HEAD`, `commit:abc123`)
+  - `branch:<name>`: Analyze specific branch (e.g., `branch:main`)
+  - `file:<path>`: Analyze specific file
+  - `maxrevisions:<n>`: Maximum number of commits to analyze
+  - `outputformat:json`: Output format (json, xml, csv)
+  
+- `-output <path>`: Output directory for results
+  - Example: `-output /tmp/coming_results`
+  - Creates JSON/XML files with analysis results
+
+- `-input <path>`: Input file with commit list
+  - Text file with one commit hash per line
+
+- `-filter <filter>`: Filter commits by criteria
+  - Example: `-filter bugfix` (only commits with bug-related keywords)
+
+#### Usage Examples
+
+**Analyze Latest Commit**:
+```bash
+java -jar coming.jar -location /path/to/repo -mode diff -parameters commit:HEAD
+```
+
+**Analyze Specific Commit**:
+```bash
+java -jar coming.jar \
+  -location /path/to/repo \
+  -mode diff \
+  -parameters commit:a1b2c3d4 \
+  -output /output/results
+```
+
+**Analyze Last 50 Commits**:
+```bash
+java -jar coming.jar \
+  -location /path/to/repo \
+  -mode diff \
+  -parameters maxrevisions:50 \
+  -output /output/batch_analysis
+```
+
+**Analyze with JSON Output**:
+```bash
+java -jar coming.jar \
+  -location /path/to/repo \
+  -mode diff \
+  -parameters commit:HEAD,outputformat:json \
+  -output /output/json_results
+```
+
+**Analyze Specific Branch**:
+```bash
+java -jar coming.jar \
+  -location /path/to/repo \
+  -mode diff \
+  -parameters branch:develop,maxrevisions:100
+```
+
+### Analyzing Code Pairs (PrimeVul Use Case)
+
+Coming requires a git repository. To analyze code pairs (vulnerable/patched):
+
+**Step 1: Create Temporary Git Repository**
+```bash
+mkdir temp_repo && cd temp_repo
+git init
+git config user.name "Analysis"
+git config user.email "analysis@example.com"
+```
+
+**Step 2: Commit Vulnerable Version**
+```bash
+# Copy or create vulnerable code
+cat > code.c << 'EOF'
+void process(char *input) {
+    char buffer[100];
+    strcpy(buffer, input);  // Vulnerable
+    printf("%s\n", buffer);
+}
+EOF
+
+git add code.c
+git commit -m "vulnerable version"
+```
+
+**Step 3: Commit Patched Version**
+```bash
+# Update with patched code
+cat > code.c << 'EOF'
+void process(char *input) {
+    char buffer[100];
+    if (input == NULL) return;  // Added NULL check
+    strncpy(buffer, input, 99);  // Safe function
+    buffer[99] = '\0';
+    printf("%s\n", buffer);
+}
+EOF
+
+git add code.c
+git commit -m "patched version"
+```
+
+**Step 4: Run Coming**
+```bash
+java -jar /path/to/coming.jar \
+  -location . \
+  -mode diff \
+  -parameters commit:HEAD,outputformat:json \
+  -output /output/analysis
+```
+
+### Output Format
+
+Coming generates JSON output in the specified output directory. Main output file: `output/commitXXX.json`
+
+**Structure**:
+```json
+{
+  "commitId": "abc123",
+  "date": "2024-01-15",
+  "author": "developer@example.com",
+  "message": "patched version",
+  "filesChanged": 1,
+  "operations": [
+    {
+      "operationType": "Insert",
+      "nodeType": "IfStatement",
+      "parentType": "Block",
+      "srcFile": "code.c",
+      "line": 3,
+      "codeElement": "if (input == NULL) return;",
+      "position": {
+        "file": "code.c",
+        "startLine": 3,
+        "endLine": 3
+      }
+    },
+    {
+      "operationType": "Update",
+      "nodeType": "MethodInvocation",
+      "srcFile": "code.c",
+      "line": 4,
+      "before": "strcpy(buffer, input)",
+      "after": "strncpy(buffer, input, 99)",
+      "position": {
+        "file": "code.c",
+        "startLine": 4,
+        "endLine": 4
+      }
+    }
+  ],
+  "summary": {
+    "totalOperations": 3,
+    "insertions": 2,
+    "updates": 1,
+    "deletions": 0,
+    "moves": 0
+  }
+}
+```
+
+**Key Fields**:
+- `operationType`: `Insert`, `Delete`, `Update`, `Move`
+- `nodeType`: AST node type (e.g., `IfStatement`, `MethodInvocation`, `Assignment`, `ReturnStatement`, `BinaryOperator`, `Literal`)
+- `codeElement`: The actual code that changed
+- `before`/`after`: For `Update` operations, shows old vs new code
+- `line`: Source file line number
+
+**Common Node Types**:
+- `IfStatement`: Conditional statements
+- `MethodInvocation`: Function/method calls
+- `BinaryOperator`: Operators like `==`, `!=`, `>`, `<`, `+`, `-`
+- `Assignment`: Variable assignments
+- `ReturnStatement`: Return statements
+- `Literal`: Constants (numbers, strings, NULL)
+- `Block`: Code blocks `{}`
+- `VariableDeclaration`: Variable declarations
+- `ForStatement`, `WhileStatement`: Loops
+
+### JVM Options
+
+**Memory Configuration**:
+```bash
+# Increase heap size for large repositories
+java -Xmx4G -jar coming.jar -location /large/repo -mode diff
+
+# Minimum and maximum heap
+java -Xms512M -Xmx2G -jar coming.jar -location /repo -mode diff
+```
+
+**Performance Tuning**:
+```bash
+# Garbage collection tuning
+java -XX:+UseG1GC -Xmx2G -jar coming.jar -location /repo -mode diff
+
+# Enable parallel GC
+java -XX:+UseParallelGC -Xmx2G -jar coming.jar -location /repo -mode diff
+```
+
+### Performance Characteristics
+
+**Processing Time**:
+- Simple changes (1-10 operations): 1-2 seconds
+- Medium changes (10-100 operations): 2-5 seconds
+- Complex changes (100+ operations): 5-30 seconds
+- JVM startup overhead: ~1-2 seconds per invocation
+
+**Memory Usage**:
+- Base: ~100-200 MB
+- Per commit: ~50-100 MB
+- Large files (>1000 LOC): up to 500 MB
+
+**Limitations**:
+- Requires valid git repository
+- C/C++ support via GumTree (may struggle with macros/preprocessor directives)
+- Performance degrades with very large files (>5000 LOC)
+- Each invocation starts new JVM (overhead for batch processing)
+
+### Troubleshooting
+
+**1. Java Not Found**
+```bash
+# Check Java installation
+java -version
+
+# Set JAVA_HOME if needed
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+export PATH=$JAVA_HOME/bin:$PATH
+```
+
+**2. Out of Memory Error**
+```bash
+# Increase heap size
+java -Xmx4G -jar coming.jar -location /repo -mode diff
+```
+
+**3. Parser Errors for C/C++**
+- Coming may fail on complex preprocessor macros
+- Try simplifying code or using preprocessed source
+- Fallback: Use line-based diff for problematic files
+
+**4. Empty Output**
+- Ensure code actually differs between commits
+- Check that git repository is valid: `git log`
+- Verify file types are supported (C, C++, Java)
+
+**5. Timeout Issues**
+- Large files may take 30+ seconds
+- Consider splitting large functions
+- Use timeout wrapper in calling script
+
+**6. No Operations Detected**
+- Coming ignores whitespace-only changes
+- Check that changes are semantic (not just formatting)
+- Verify correct commit hash: `git show <hash>`
+
+### Security-Relevant Patterns
+
+**Common patterns Coming can detect for vulnerability analysis**:
+
+| Pattern | Operation Type | Node Types | Example |
+|---------|---------------|------------|---------|
+| NULL check addition | Insert | IfStatement + BinaryOperator | `if (ptr == NULL) return;` |
+| Bounds check addition | Insert | IfStatement + BinaryOperator | `if (size > MAX) return -1;` |
+| Safe function replacement | Update | MethodInvocation | `strcpy()` → `strncpy()` |
+| Return value check | Insert | IfStatement + MethodInvocation | `if (func() < 0) return;` |
+| Variable initialization | Insert/Update | Assignment + Literal | `ptr = NULL;` |
+| Error handling | Insert | ReturnStatement / IfStatement | `return -EINVAL;` |
+| Memory cleanup | Insert | MethodInvocation | `free(ptr); ptr = NULL;` |
+| Size calculation | Insert | MethodInvocation | `strlen()`, `sizeof()` |
+
+### Additional Resources
+
+- **GitHub Repository**: https://github.com/SpoonLabs/coming
+- **Documentation**: See repository README and Wiki
+- **Paper**: Matias Martinez et al., "Coming: A Tool for Mining Change Pattern Instances from Git Commits", ASE 2019
+- **Spoon Framework**: https://spoon.gforge.inria.fr/ (underlying AST library)
+- **GumTree**: https://github.com/GumTreeDiff/gumtree (C/C++ parser)
+
 ## Data Processing Strategies
 
 ### Loading
