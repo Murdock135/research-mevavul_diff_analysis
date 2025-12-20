@@ -396,9 +396,14 @@ java -jar coming.jar [OPTIONS]
 
 - `-mode <mode>`: Analysis mode
   - `diff`: Analyze code changes between commits (default)
-  - `repairpatterns`: Mine repair patterns
-  - `features`: Extract code features
-  - `miner`: Mine change patterns
+  - `mineinstance`: Mine instances of change patterns
+  - `features`: Extract code features from changes
+  - `repairability`: Analyze repairability by automated repair tools
+
+- `-input <type>`: Input type specification (optional, default: `git`)
+  - `git`: Analyze git repository (default if not specified)
+  - `filespair`: Analyze single pair of files (before/after)
+  - `files`: Analyze files following specific directory hierarchy
 
 **Common Optional Arguments**:
 
@@ -413,11 +418,114 @@ java -jar coming.jar [OPTIONS]
   - Example: `-output /tmp/coming_results`
   - Creates JSON/XML files with analysis results
 
-- `-input <path>`: Input file with commit list
-  - Text file with one commit hash per line
+- `-input <path>`: NOT for commit list input - see `-input <type>` above for input type specification
 
 - `-filter <filter>`: Filter commits by criteria
   - Example: `-filter bugfix` (only commits with bug-related keywords)
+
+### Input Types
+
+Coming supports three input types specified via the `-input` argument:
+
+#### 1. git (Default)
+
+Analyze a git repository. If `-input` is not specified, `git` is used by default.
+
+**Usage**:
+```bash
+# Implicit git mode
+java -jar coming.jar -location /path/to/repo -mode diff
+
+# Explicit git mode
+java -jar coming.jar -input git -location /path/to/repo -mode diff
+```
+
+The `-location` path must be a valid git repository.
+
+#### 2. filespair
+
+Analyze a single pair of files (before/after versions). Useful for comparing two specific file versions without requiring a git repository.
+
+**Usage**:
+```bash
+java -jar coming.jar \
+  -input filespair \
+  -location <source_file_path>:<target_file_path> \
+  -mode diff
+```
+
+**Format**: `-location` takes the format `<source_file>:<target_file>` where:
+- `source_file`: Path to the original/vulnerable version
+- `target_file`: Path to the modified/patched version
+
+**Example**:
+```bash
+java -jar coming.jar \
+  -input filespair \
+  -location /tmp/vulnerable.c:/tmp/patched.c \
+  -mode diff \
+  -output /output/analysis
+```
+
+**Advantages for PrimeVul**:
+- No need to create temporary git repositories
+- Direct file-to-file comparison
+- Faster for single pair analysis
+- Simpler workflow for batch processing
+
+#### 3. files
+
+Analyze multiple file pairs organized in a specific directory hierarchy.
+
+**Usage**:
+```bash
+java -jar coming.jar \
+  -input files \
+  -location <location_arg> \
+  -mode diff
+```
+
+**Directory Structure**:
+The `-location` path should follow this hierarchy:
+```
+<location_arg>/
+├── <diff_folder>/
+│   ├── <nodiff_file>
+│   │   ├── <diff_folder>_<nodiff_file>_s.java
+│   │   └── <diff_folder>_<nodiff_file>_t.java
+│   └── ...
+└── ...
+```
+
+Where:
+- `<diff_folder>`: Container directory for file pairs
+- `<nodiff_file>`: Base name for the file pair
+- `_s.java`: Source (before) version
+- `_t.java`: Target (after) version
+
+**Example Structure**:
+```
+/analysis/
+├── pair_001/
+│   └── code/
+│       ├── pair_001_code_s.c
+│       └── pair_001_code_t.c
+├── pair_002/
+│   └── function/
+│       ├── pair_002_function_s.c
+│       └── pair_002_function_t.c
+```
+
+**Batch Analysis Example**:
+```bash
+java -jar coming.jar \
+  -input files \
+  -location /analysis \
+  -mode diff \
+  -output /output/batch_results
+```
+
+Coming will analyze all pairs found in the hierarchy: `<diff_folder>/<nodiff_file>_s.java` vs `<diff_folder>/<nodiff_file>_t.java`
 
 #### Usage Examples
 
@@ -463,7 +571,73 @@ java -jar coming.jar \
 
 ### Analyzing Code Pairs (PrimeVul Use Case)
 
-Coming requires a git repository. To analyze code pairs (vulnerable/patched):
+Coming supports multiple approaches for analyzing vulnerable/patched code pairs:
+
+#### Method 1: Using filespair Input (Recommended for Single Pairs)
+
+The simplest approach for analyzing a single code pair without creating a git repository:
+
+**Step 1: Save Code to Files**
+```bash
+# Save vulnerable version
+cat > /tmp/vulnerable.c << 'EOF'
+void process(char *input) {
+    char buffer[100];
+    strcpy(buffer, input);  // Vulnerable
+    printf("%s\n", buffer);
+}
+EOF
+
+# Save patched version
+cat > /tmp/patched.c << 'EOF'
+void process(char *input) {
+    char buffer[100];
+    if (input == NULL) return;  // Added NULL check
+    strncpy(buffer, input, 99);  // Safe function
+    buffer[99] = '\0';
+    printf("%s\n", buffer);
+}
+EOF
+```
+
+**Step 2: Run Coming with filespair**
+```bash
+java -jar /path/to/coming.jar \
+  -input filespair \
+  -location /tmp/vulnerable.c:/tmp/patched.c \
+  -mode diff \
+  -output /output/analysis
+```
+
+#### Method 2: Using files Input (Recommended for Batch Processing)
+
+For analyzing multiple pairs efficiently:
+
+**Step 1: Organize Files in Hierarchy**
+```bash
+mkdir -p /analysis/cve_2024_001/func
+echo "void vuln() { strcpy(buf, src); }" > /analysis/cve_2024_001/func/cve_2024_001_func_s.c
+echo "void vuln() { strncpy(buf, src, 99); }" > /analysis/cve_2024_001/func/cve_2024_001_func_t.c
+
+mkdir -p /analysis/cve_2024_002/func
+echo "void check() { *ptr = 1; }" > /analysis/cve_2024_002/func/cve_2024_002_func_s.c
+echo "void check() { if (ptr) *ptr = 1; }" > /analysis/cve_2024_002/func/cve_2024_002_func_t.c
+```
+
+**Step 2: Run Coming on All Pairs**
+```bash
+java -jar /path/to/coming.jar \
+  -input files \
+  -location /analysis \
+  -mode diff \
+  -output /output/batch_analysis
+```
+
+Coming will automatically detect and analyze all pairs in the directory structure.
+
+#### Method 3: Using git Input (Original Method)
+
+For full git repository analysis or when git history is needed:
 
 **Step 1: Create Temporary Git Repository**
 ```bash
@@ -516,62 +690,99 @@ java -jar /path/to/coming.jar \
 
 ### Output Format
 
-Coming generates JSON output in the specified output directory. Main output file: `output/commitXXX.json`
+Coming generates different output files depending on the mode:
 
-**Structure**:
+**For `-mode diff`**: Creates `change_frequency.json` (see "Change Frequency Output" section below)
+
+**For `-mode mineinstance`**: Creates `all_instances_found.json` with the following structure:
+
 ```json
 {
-  "commitId": "abc123",
-  "date": "2024-01-15",
-  "author": "developer@example.com",
-  "message": "patched version",
-  "filesChanged": 1,
-  "operations": [
+  "instances": [
     {
-      "operationType": "Insert",
-      "nodeType": "IfStatement",
-      "parentType": "Block",
-      "srcFile": "code.c",
-      "line": 3,
-      "codeElement": "if (input == NULL) return;",
-      "position": {
-        "file": "code.c",
-        "startLine": 3,
-        "endLine": 3
-      }
-    },
-    {
-      "operationType": "Update",
-      "nodeType": "MethodInvocation",
-      "srcFile": "code.c",
-      "line": 4,
-      "before": "strcpy(buffer, input)",
-      "after": "strncpy(buffer, input, 99)",
-      "position": {
-        "file": "code.c",
-        "startLine": 4,
-        "endLine": 4
-      }
+      "revision": "commit_hash",
+      "instance_detail": [
+        {
+          "pattern_action": "INS",
+          "pattern_entity": {
+            "entity_type": "BinaryOperator",
+            "entity_new value": "*",
+            "entity_role": "*",
+            "entity_parent": "null"
+          },
+          "concrete_change": {
+            "operator": "insert-node",
+            "src_type": "BinaryOperator",
+            "dst_type": "null",
+            "src": "i + 1",
+            "dst": "null",
+            "src_parent_type": "Invocation",
+            "dst_parent_type": "null",
+            "src_parent": "cs.charAt(i + 1)",
+            "dst_parent": "null"
+          },
+          "file": "/path/to/file.java",
+          "line": 171
+        }
+      ]
     }
-  ],
-  "summary": {
-    "totalOperations": 3,
-    "insertions": 2,
-    "updates": 1,
-    "deletions": 0,
-    "moves": 0
-  }
+  ]
 }
 ```
 
-**Key Fields**:
-- `operationType`: `Insert`, `Delete`, `Update`, `Move`
-- `nodeType`: AST node type (e.g., `IfStatement`, `MethodInvocation`, `Assignment`, `ReturnStatement`, `BinaryOperator`, `Literal`)
-- `codeElement`: The actual code that changed
-- `before`/`after`: For `Update` operations, shows old vs new code
-- `line`: Source file line number
+**For `-mode repairability`**: Creates `all_instances_found.json` with repairability analysis showing which repair tools could have generated each commit
 
-**Common Node Types**:
+**For `-mode features`**: Creates `features_<commit_hash>.json` files (one per revision) with extracted code features. Structure:
+
+```json
+{
+  "id": "commit_hash",
+  "files": [
+    {
+      "file_name": "/path/to/changed/file.java",
+      "features": [
+        {
+          "FEATURES_BINARYOPERATOR": {
+            "0_cs == null": {
+              "O1_IS_BIT": "false",
+              "O1_IS_COMPARE": "true",
+              "O1_IS_LOGICAL": "false",
+              "O1_IS_MATH": "false",
+              "O3_CONTAIN_NULL": "true"
+            }
+          },
+          "FEATURES_METHODS": {
+            "charAt": {
+              "M8_RETURN_PRIMITIVE": "true",
+              "M13_Argument_Has_Primitive": "true"
+            }
+          },
+          "FEATURES_VARS": { ... },
+          "S1_LOCAL_VAR_NOT_USED": "true",
+          "S3_TYPE_OF_FAULTY_STATEMENT": "...",
+          "ast_info": { ... }
+        }
+      ]
+    }
+  ]
+}
+```
+
+Feature categories include:
+- `FEATURES_BINARYOPERATOR`: Binary operator characteristics (bit, comparison, logical, math operations)
+- `FEATURES_METHODS`: Method characteristics (overloading, return types, guards, parameters)
+- `FEATURES_METHOD_INVOCATION`: Method call features
+- `FEATURES_TYPEACCESS`: Type usage patterns
+- `FEATURES_VARS`: Variable characteristics
+- `S*_` patterns: Security and code quality patterns (null guards, exception handling, variable usage, etc.)
+
+**Common Operation Types in Coming**:
+- `insert-node` (or `INS`): New code added
+- `delete-node` (or `DEL`): Code removed  
+- `update-node` (or `UPD`): Code modified
+- `move-tree` (or `MOV`): Code relocated
+
+**Common AST Node Types**:
 - `IfStatement`: Conditional statements
 - `MethodInvocation`: Function/method calls
 - `BinaryOperator`: Operators like `==`, `!=`, `>`, `<`, `+`, `-`
@@ -581,6 +792,86 @@ Coming generates JSON output in the specified output directory. Main output file
 - `Block`: Code blocks `{}`
 - `VariableDeclaration`: Variable declarations
 - `ForStatement`, `WhileStatement`: Loops
+
+### Change Frequency Output
+
+When running Coming in `-mode diff`, it also generates a `change_frequency.json` file that shows the frequency and probability of each type of change.
+
+**File**: `output/change_frequency.json`
+
+**Structure**:
+```json
+{
+  "frequency": [
+    {
+      "c": "BinaryOperator",
+      "f": "6"
+    },
+    {
+      "c": "TernaryOperator", 
+      "f": "2"
+    },
+    {
+      "c": "IF",
+      "f": "2"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "INS Invocation Block",
+      "f": "2"
+    },
+    {
+      "c": "UPD_BinaryOperator_If",
+      "f": "2"
+    },
+    {
+      "c": "INS If Block",
+      "f": "2"
+    }
+  ]
+}
+```
+
+**Field Descriptions**:
+
+**`frequency` array**: Frequency of affected entities (AST node types)
+- `c` (string): Entity type name (e.g., "BinaryOperator", "IfStatement", "MethodInvocation")
+- `f` (string): Number of times this entity was affected by changes
+
+**`frequencyParent` array**: Frequency of actions over affected entities and their parent types
+- `c` (string): Pattern in format `<operation>_<NodeType>_<ParentType>`
+  - Examples: "insert-node_If_Block", "update-node_BinaryOperator_If", "move-tree_VariableRead_Invocation"
+- `f` (string): Number of times this pattern occurred
+
+**Use Cases for Vulnerability Analysis**:
+
+1. **Pattern Discovery**: Identify most common types of security fixes
+   - High frequency of "INS IfStatement" → NULL/bounds checks commonly added
+   - High frequency of "UPD MethodInvocation" → Unsafe functions commonly replaced
+
+2. **CWE-Specific Patterns**: Compare frequency distributions across vulnerability types
+   - Buffer overflows (CWE-119) may show more "UPD MethodInvocation" (strcpy→strncpy)
+   - NULL pointer dereferences (CWE-476) may show more "INS IfStatement Block"
+
+3. **Feature Selection**: Use high-frequency patterns as treatment variables
+   - Focus causal analysis on patterns that occur frequently enough for statistical power
+
+4. **Validation**: Cross-check extracted features against frequency distributions
+   - If "INS IfStatement" is frequent but `added_null_check` feature has few positives, investigate extraction logic
+
+**Example Analysis**:
+```bash
+# Generate frequency analysis for a batch of commits
+java -jar coming.jar \
+  -input files \
+  -location /analysis/primevul_pairs \
+  -mode diff \
+  -output /output/frequency_analysis
+
+# The change_frequency.json will show aggregate patterns across all analyzed pairs
+cat /output/frequency_analysis/change_frequency.json
+```
 
 ### JVM Options
 

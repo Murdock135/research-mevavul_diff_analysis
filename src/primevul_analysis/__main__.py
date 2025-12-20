@@ -12,9 +12,11 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 def main():
+    # Set project root
     project_root = Path(__file__).parent.parent.parent
     logger.info(f"Project root determined as: {project_root}")
 
+    # Extract code pairs
     input_path = project_root / "PrimeVul_v0.1" / "primevul_train_paired.jsonl"
     output_path = project_root / "data"
 
@@ -24,7 +26,7 @@ def main():
 
     logger.info("Code pair extraction completed.") 
 
-    # Prepare Coming data
+    # Prepare extracted data for Coming
     coming_output_dir = project_root / "data" / "coming_data"
     preparator = ComingDataPreparator(output_dir=coming_output_dir)
     _ = preparator.write_pairs(code_pairs)
