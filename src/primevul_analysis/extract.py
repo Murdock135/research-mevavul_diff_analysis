@@ -44,7 +44,7 @@ class CodePairExtractor:
                     patched_code=patched_row['func'],
                     cve=vuln_row.get('cve', ''),
                     cwe=vuln_row.get('cwe', ''),
-                    commit_id=commit_id,
+                    commit_id=commit_id, # TODO: Verify this works as expected
                     project=vuln_row.get('project', ''),
                     vulnerable_hash=vuln_row.get('hash', None),
                     patched_hash=patched_row.get('hash', None),

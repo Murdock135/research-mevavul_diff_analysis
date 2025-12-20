@@ -3,7 +3,6 @@ services:
   coming-analysis:
     build: .
     container_name: primevul-coming-analysis
-    user: "${UID:-1000}:${GID:-1000}"
     volumes:
       - .:/app
       - /app/.venv
