@@ -136,8 +136,7 @@ class CodePairExtractor:
         return df['cwe'].value_counts().head(n).index.tolist()
 
 class ComingDataPreparator:
-    def __init__(self, input_dir: Path, output_dir: Path) -> None:
-        self.input_dir = Path(input_dir)
+    def __init__(self, output_dir: Path) -> None:
         self.output_dir = Path(output_dir)
         self.pair_dirs: List[Path] = []
 

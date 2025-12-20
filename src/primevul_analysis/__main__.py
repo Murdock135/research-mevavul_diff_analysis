@@ -1,6 +1,8 @@
-from primevul_analysis.extract import CodePairExtractor
+from primevul_analysis.extract import CodePairExtractor, ComingDataPreparator
+from primevul_analysis.types import CodePair
 
 from pathlib import Path
+from typing import List
 import logging
 
 logging.basicConfig(
@@ -17,10 +19,14 @@ def main():
     output_path = project_root / "data"
 
     extractor = CodePairExtractor(input_path=input_path, output_path=output_path)
-    code_pairs = extractor.extract_code_pairs()
-    extractor.save_code_pairs(code_pairs, format='csv', output_path=output_path / "code_pairs.csv")
+    code_pairs: List[CodePair] = extractor.extract_code_pairs()
+    code_pairs_df = extractor.save_code_pairs(code_pairs, format='csv', output_path=output_path / "code_pairs.csv")
 
     logger.info("Code pair extraction completed.") 
+
+    preparator = ComingDataPreparator(input_dir=output_path, output_dir=output_path / "coming_data")
+
+
 
 if __name__ == "__main__":
     main()
