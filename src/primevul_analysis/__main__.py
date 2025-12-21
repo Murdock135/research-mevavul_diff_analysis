@@ -1,4 +1,4 @@
-from primevul_analysis.extract import CodePairExtractor, ComingDataPreparator
+from primevul_analysis.extract import PrimeVulExtractor, DataPreparator
 from primevul_analysis.coming_tool import ComingTool
 from primevul_analysis.types import CodePair
 
@@ -13,13 +13,13 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 def extract_code_pairs(input_path: Path, output_path: Path) -> List[CodePair]:
-    extractor = CodePairExtractor(input_path=input_path, output_path=output_path)
+    extractor = PrimeVulExtractor(input_path=input_path, output_path=output_path)
     code_pairs: List[CodePair] = extractor.extract_code_pairs()
     _ = extractor.save_code_pairs(code_pairs, format='csv', output_path=output_path / "code_pairs.csv")
     return code_pairs
 
 def prepare_coming_data(code_pairs: List[CodePair], output_dir: Path) -> None:
-    preparator = ComingDataPreparator(output_dir=output_dir)
+    preparator = DataPreparator(output_dir=output_dir)
     _ = preparator.write_pairs(code_pairs)
 
 def run_coming_diff_mode(pairs_root: Path):
