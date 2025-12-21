@@ -2,7 +2,8 @@ import json
 import logging
 import subprocess
 from pathlib import Path
-from typing import List, Optional
+import shutil
+from typing import List
 
 import pandas as pd
 from tqdm import tqdm
@@ -12,36 +13,74 @@ from primevul_analysis.types import ComingChangeFrequency, ComingRunResult
 logger = logging.getLogger(__name__)
 
 
+def _truncate(text: str, limit: int = 2000) -> str:
+    if len(text) <= limit:
+        return text
+    return text[:limit] + f"... (truncated {len(text) - limit} chars)"
+
+
 class ComingTool:
     def __init__(self, coming_jar_path: Path = Path("/opt/coming.jar"), timeout: int = 300, xmx: str = "2G") -> None:
         """Wrapper for the Coming tool to extract AST-based change features."""
-        self.coming_jar_path = coming_jar_path
+        self.coming_jar_path = Path(coming_jar_path)
         self.timeout = timeout
         self.xmx = xmx
 
-        if not self.coming_jar_path.exists():
-            raise FileNotFoundError(f"Coming jar not found at {self.coming_jar_path}")
-        
-        logger.info(f"Initialized ComingTool with jar at {self.coming_jar_path}, timeout {self.timeout}s, and Xmx {self.xmx}")
+        self._coming_cli = shutil.which("coming")
 
-    def analyze_pair_dir(self, pair_dir: Path) -> ComingRunResult:
+        if not self._coming_cli:
+            raise FileNotFoundError("Coming CLI not found on PATH (expected `coming` executable)")
+
+        logger.info(
+            "Initialized ComingTool using CLI=%s timeout=%ss",
+            self._coming_cli,
+            self.timeout,
+        )
+
+    def analyze_pair(self, pair_dir: Path) -> ComingRunResult:
         """Run Coming analysis on a directory containing code pairs."""
         pair_dir = Path(pair_dir)
         vuln_path = pair_dir / "vulnerable.c"
         patched_path = pair_dir / "patched.c"
 
+        # Validate directory
+        if not pair_dir.exists() or not pair_dir.is_dir():
+            logger.error("Pair directory %s does not exist or is not a directory", pair_dir)
+            return ComingRunResult(
+                pair_dir=pair_dir,
+                success=False,
+                error=f"Directory exists={pair_dir.exists()}, is_dir={pair_dir.is_dir()}"
+            )
+
+        # Validate vulnerable and patched files
+        if not vuln_path.exists() or not patched_path.exists():
+            logger.error("Missing vulnerable or patched file in %s", pair_dir)
+            return ComingRunResult(
+                pair_dir=pair_dir,
+                success=False,
+                error=(
+                    "MissingFiles: "
+                    f"vulnerable={vuln_path.exists()}, patched={patched_path.exists()}"
+                )
+            )
+
         # Run Coming tool via subprocess
-        logger.info(f"Running Coming analysis on {pair_dir}")
+        logger.info("Running Coming analysis on %s", pair_dir)
         cmd = [
-            "java",
-            "-Xmx" + self.xmx,
-            "-jar", str(self.coming_jar_path),
-            "-input", "filespair",
-            "-location", f"{vuln_path}:{patched_path}",
-            "-mode", "diff",
-            "-parameters", "outputformat:json",
-            "-output", str(pair_dir)
+            self._coming_cli,
+            "-input",
+            "filespair",
+            "-location",
+            f"{vuln_path}:{patched_path}",
+            "-mode",
+            "diff",
+            "-parameters",
+            "outputformat:json",
+            "-output",
+            str(pair_dir),
         ]
+
+        logger.debug("Coming command: %s", " ".join(cmd))
 
         try:
             proc = subprocess.run(
@@ -52,7 +91,7 @@ class ComingTool:
                 check=False
             )
         except subprocess.TimeoutExpired as e:
-            logger.error(f"Coming analysis timed out for {pair_dir} after {self.timeout} seconds")
+            logger.warning("Coming analysis timed out for %s after %s seconds", pair_dir, self.timeout)
             return ComingRunResult(
                 pair_dir=pair_dir,
                 success=False,
@@ -78,12 +117,18 @@ class ComingTool:
         )
 
         if not result.success:
+            stderr_snippet = _truncate(result.stderr.strip())
+            stdout_snippet = _truncate(result.stdout.strip())
+            detail = stderr_snippet or stdout_snippet or "<no stdout/stderr captured>"
             logger.error(
-                "Coming analysis failed for %s returncode=%s", pair_dir, proc.returncode
+                "Coming analysis failed for %s returncode=%s details=%s",
+                pair_dir,
+                proc.returncode,
+                detail,
             )
             return result
 
-        # Coming commonly writes this in the output directory.
+        # Check if change_frequency.json exists after running Coming.
         freq_path = pair_dir / "change_frequency.json"
         if not freq_path.exists():
             logger.warning("change_frequency.json not found for %s", pair_dir)
@@ -91,8 +136,10 @@ class ComingTool:
             result.error = "OutputMissing: change_frequency.json not found"
             return result
 
+        # Fill in field in return type ComingRunResult
         result.change_frequency_path = freq_path
 
+        # Validate and parse change_frequency.json
         try:
             with open(freq_path, "r", encoding="utf-8") as f:
                 freq_data = json.load(f)
@@ -107,16 +154,19 @@ class ComingTool:
     def analyze_multiple_pairs(self, pairs_root: Path) -> List[ComingRunResult]:
         """Analyze multiple code pairs located in subdirectories of pairs_root."""
         pairs_root = Path(pairs_root)
-        pair_dirs = [d for d in pairs_root.iterdir() if d.is_dir()]
 
-        logger.info(f"Starting Coming analysis on {len(pair_dirs)} code pairs in {pairs_root}")
+        if not pairs_root.exists() or not pairs_root.is_dir():
+            logger.error("Pairs root directory %s does not exist or is not a directory", pairs_root)
+            return []
+
+        pair_dirs = sorted([d for d in pairs_root.iterdir() if d.is_dir()])
+
+        logger.info("Starting Coming analysis on %d code pairs in %s", len(pair_dirs), pairs_root)
 
         results: List[ComingRunResult] = []
         for pair_dir in tqdm(pair_dirs, desc="Analyzing code pairs with Coming"):
-            result = self.analyze_pair_dir(pair_dir)
-            
-            if result:
-                results.append(result)
+            result = self.analyze_pair(pair_dir)
+            results.append(result)
         
         logger.info("Completed Coming analysis on all code pairs.")
         return results
@@ -126,7 +176,7 @@ class ComingTool:
         summary_data = []
         for res in results:
             entry = {
-                "pair_dir": res.pair_dir,
+                "pair_dir": str(res.pair_dir),
                 "success": res.success,
                 "error": res.error,
                 "returncode": res.returncode,
