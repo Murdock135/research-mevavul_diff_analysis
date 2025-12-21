@@ -1,4 +1,4 @@
-from primevul_analysis.extract import CodePairExtractor, ComingDataPreparator
+from primevul_analysis.extract import PrimeVulExtractor, DataPreparator
 from primevul_analysis.types import CodePair
 
 from pathlib import Path
@@ -20,7 +20,7 @@ def main():
     input_path = project_root / "PrimeVul_v0.1" / "primevul_train_paired.jsonl"
     output_path = project_root / "data"
 
-    extractor = CodePairExtractor(input_path=input_path, output_path=output_path)
+    extractor = PrimeVulExtractor(input_path=input_path, output_path=output_path)
     code_pairs: List[CodePair] = extractor.extract_code_pairs()
     _ = extractor.save_code_pairs(code_pairs, format='csv', output_path=output_path / "code_pairs.csv")
 
@@ -28,7 +28,7 @@ def main():
 
     # Prepare extracted data for Coming
     coming_output_dir = project_root / "data" / "coming_data"
-    preparator = ComingDataPreparator(output_dir=coming_output_dir)
+    preparator = DataPreparator(output_dir=coming_output_dir)
     _ = preparator.write_pairs(code_pairs)
 
     logger.info("Finished preparing Coming data.")

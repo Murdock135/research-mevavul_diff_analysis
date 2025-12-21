@@ -1,5 +1,4 @@
 from pathlib import Path
-import tempfile
 import os
 from dataclasses import dataclass
 import json
@@ -13,7 +12,8 @@ from primevul_analysis.types import CodePair
 
 logger = logging.getLogger(__name__)
 
-class CodePairExtractor:
+class PrimeVulExtractor:
+    """Extract code pairs from the PrimeVul dataset."""
     def __init__(self, input_path: Path, output_path: Path) -> None:
         self.path = Path(input_path)
         self.output_path = Path(output_path)
@@ -136,7 +136,7 @@ class CodePairExtractor:
         df = pd.DataFrame([p.model_dump() for p in self.code_pairs])
         return df['cwe'].value_counts().head(n).index.tolist()
 
-class ComingDataPreparator:
+class DataPreparator:
     def __init__(self, output_dir: Path) -> None:
         self.output_dir = Path(output_dir)
         self.pair_dirs: List[Path] = []
