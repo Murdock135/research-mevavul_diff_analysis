@@ -1,8 +1,11 @@
 # docker-compose.yml
 services:
-  coming-analysis:
-    build: .
-    container_name: primevul-coming-analysis
+  primevul-analysis:
+    build:
+      context: .
+      dockerfile: Dockerfile.multistage
+    image: primevul-analysis:latest
+    container_name: primevul-analysis
     volumes:
       - .:/app
       - /app/.venv
@@ -13,6 +16,8 @@ services:
     tty: true
     environment:
       - PYTHONPATH=/app
+      - GUMTREE_HOME=/opt/gumtree
+      - JAVA_OPTS=-Xmx4G
     command: ["/bin/bash"]
 
 # File Structure Required
