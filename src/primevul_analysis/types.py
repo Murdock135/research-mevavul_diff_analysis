@@ -1,7 +1,5 @@
-from __future__ import annotations
-
 from pathlib import Path
-from typing import List, Optional
+from typing import List, Optional, Dict, Tuple
 
 from pydantic import BaseModel, ConfigDict, Field
 
@@ -62,6 +60,7 @@ class ComingRunResult(BaseModel):
             return 0
         return sum(entry.f for entry in self.change_frequency.frequency)
     
+# REFACTORING NOTE: Rename to something like GumTreeToolOutput to better reflect its purpose.
 class GumTreeDiffResult(BaseModel):
     """Result of a GumTree text diff operation."""
 
@@ -76,3 +75,38 @@ class GumTreeDiffResult(BaseModel):
     returncode: Optional[int] = None
     stdout: str = ""
     stderr: str = ""
+
+class NodeRef(BaseModel):
+    """Reference to a node in a GumTree AST."""
+    model_config = ConfigDict(frozen=True)
+
+    type: str = Field(..., description="The type of the AST node (e.g., 'if_statement', 'identifier', etc).")
+    label: Optional[str] = Field(None, description="The actual text/value (e.g. 'str_c', 'malloc'), if applicable.")
+    start: int = Field(..., description="The start position of the node in the source code.")
+    end: int = Field(..., description="The end position of the node in the source code.")
+
+    @property
+    def span(self) -> tuple[int, int]:
+        return (self.start, self.end)
+    
+    @property
+    def length(self) -> int:
+        return self.end - self.start
+
+class GumTreeAction(BaseModel):
+    """Represents a single action in a GumTree diff."""
+
+    kind: str = Field(..., description="The kind of action (e.g., 'insert', 'delete', 'update', 'move').")
+    tree: Optional[NodeRef] = Field(None, description="The AST node involved in the action.")
+    parent: Optional[NodeRef] = Field(None, description="The parent AST node (for insert/move actions).")
+    at: Optional[int] = Field(None, description="The position at which the action occurs, if applicable.")
+    label: Optional[str] = Field(None, description="The label associated with the action, if any.")
+    raw_attributes: Optional[Dict[str, str]] = Field(None, description="Raw attributes related to the action.")
+
+class GumTreeDiff(BaseModel):
+    """Structured representation of a GumTree diff."""
+
+    actions: List[GumTreeAction] = Field(default_factory=list, description="All edit actions to transform source AST to destination AST.")
+    matches: List[tuple[NodeRef, NodeRef]] = Field(default_factory=list, description="Pairs of matched nodes between source and destination ASTs.")
+    src_to_dst: Dict[Tuple[int, int], NodeRef] = Field(default_factory=dict, description="Lookup matched destination nodes by source node span.")
+    dst_to_src: Dict[Tuple[int, int], NodeRef] = Field(default_factory=dict, description="Lookup matched source nodes by destination node span.")
