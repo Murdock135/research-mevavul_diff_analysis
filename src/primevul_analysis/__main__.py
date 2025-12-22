@@ -1,6 +1,6 @@
-from primevul_analysis.extract import PrimeVulExtractor, DataPreparator
-from primevul_analysis.coming_tool import ComingTool
-from primevul_analysis.gumtree import GumTreeTool, GumTreeToolPairsExecutor
+from primevul_analysis.datapreparator.extract import PrimeVulExtractor, DataPreparator
+from primevul_analysis.difftools.coming_tool import ComingTool
+from primevul_analysis.difftools.gumtree import GumTreeTool, GumTreeToolPairsExecutor
 from primevul_analysis.types import CodePair
 from primevul_analysis.utils.gumtree_utils import results_to_dataframe
 

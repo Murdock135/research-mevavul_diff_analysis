@@ -66,10 +66,10 @@ class PrimeVulExtractor:
                     patched_code=patched_row['func'],
                     cve=vuln_row.get('cve', ''),
                     cwe=vuln_row.get('cwe', ''),
-                    commit_id=commit_id,
+                    commit_id=str(commit_id),
                     project=vuln_row.get('project', ''),
-                    vulnerable_hash=vuln_row.get('func_hash'),
-                    patched_hash=patched_row.get('func_hash'),
+                    vulnerable_hash=int(vuln_row.get('func_hash') or 0),
+                    patched_hash=int(patched_row.get('func_hash') or 0),
                 )
                 code_pairs.append(code_pair)
                 
@@ -142,6 +142,9 @@ class DataPreparator:
         self.pair_dirs: List[Path] = []
 
     def write_pairs(self, pairs: List[CodePair], output_path: Optional[str] = None) -> List[Path]:
+        """
+        Write code pairs (vulnerable and patched) to individual directories for analysis tools.
+        """
         output_dir = Path(output_path) if output_path is not None else self.output_dir
         output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -158,6 +161,8 @@ class DataPreparator:
         return self.pair_dirs
 
     def write_single_pair(self, pair: CodePair, index: int, output_dir: Optional[Path] = None) -> Path:
+        """Write a single code pair to its own directory."""
+        #FIXME: output_dir parameter is redundant since self.output_dir exists
         output_dir = output_dir if output_dir is not None else self.output_dir
 
         pair_dir = output_dir / f"pair_{index:05d}"
