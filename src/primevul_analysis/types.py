@@ -61,3 +61,17 @@ class ComingRunResult(BaseModel):
         if self.change_frequency is None:
             return 0
         return sum(entry.f for entry in self.change_frequency.frequency)
+    
+class GumTreeDiffResult(BaseModel):
+    """Result of a GumTree text diff operation."""
+
+    model_config = ConfigDict(extra="ignore")
+
+    file1: Path
+    file2: Path
+    diff_output: str
+
+    error: Optional[str] = None
+    returncode: Optional[int] = None
+    stdout: str = ""
+    stderr: str = ""

@@ -9,15 +9,9 @@ import pandas as pd
 from tqdm import tqdm
 
 from primevul_analysis.types import ComingChangeFrequency, ComingRunResult
+from primevul_analysis.utils import _truncate
 
 logger = logging.getLogger(__name__)
-
-
-def _truncate(text: str, limit: int = 2000) -> str:
-    if len(text) <= limit:
-        return text
-    return text[:limit] + f"... (truncated {len(text) - limit} chars)"
-
 
 class ComingTool:
     def __init__(self, coming_jar_path: Path = Path("/opt/coming.jar"), timeout: int = 300, xmx: str = "2G") -> None:
