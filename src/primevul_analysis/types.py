@@ -70,6 +70,7 @@ class GumTreeDiffResult(BaseModel):
     file1: Path
     file2: Path
     diff_output: str
+    diff_path: Optional[Path] = None
 
     error: Optional[str] = None
     returncode: Optional[int] = None

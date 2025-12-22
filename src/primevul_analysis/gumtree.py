@@ -6,7 +6,7 @@ import logging
 import shutil
 
 from primevul_analysis.types import GumTreeDiffResult
-from primevul_analysis.utils import _truncate
+from primevul_analysis.utils.str_utils import _truncate
 
 from tqdm import tqdm
 
@@ -14,6 +14,9 @@ logger = logging.getLogger(__name__)
 
 
 class GumTreeTool:
+    """
+    Wrapper for GumTree tool to extract AST-based diffs between code files.
+    """
     def __init__(
         self, gumtree_path: Path = Path("/usr/local/bin/gumtree"), timeout: int = 60
     ) -> None:
@@ -48,6 +51,7 @@ class GumTreeTool:
                 file2=file2,
                 diff_output="",
                 error=error_msg,
+                diff_path=None
             )
 
         # Build command
@@ -65,7 +69,7 @@ class GumTreeTool:
             output_path.parent.mkdir(parents=True, exist_ok=True)
             cmd.extend(["-o", str(output_path)])
         else:
-            logger.warning("No output_path specified for %s and %s; diff will be in stdout", file1, file2)
+            logger.debug("No output_path specified for %s and %s; diff will be in stdout", file1, file2)
 
         logger.debug("Running GumTree command: %s", " ".join(cmd))
 
@@ -87,6 +91,7 @@ class GumTreeTool:
                 file1=file1,
                 file2=file2,
                 diff_output="",
+                diff_path=None,
                 error=error_msg,
                 stderr=str(
                     e.stderr.decode()
@@ -110,6 +115,7 @@ class GumTreeTool:
                 file1=file1,
                 file2=file2,
                 diff_output="",
+                diff_path=None,
                 error=error_msg,
             )
 
@@ -128,6 +134,7 @@ class GumTreeTool:
             file1=file1,
             file2=file2,
             diff_output=diff_output,
+            diff_path=output_path,
             returncode=proc.returncode,
             stderr=proc.stderr,
             stdout=proc.stdout,
@@ -158,9 +165,9 @@ class GumTreeTool:
         output_dir.mkdir(parents=True, exist_ok=True)
 
         results = []
-        for file1, file2 in tqdm(file_pairs, desc="GumTree Text Diffs"):
-            # Create a unique output path based on input filenames
-            output_filename = f"{file1.stem}_to_{file2.stem}_diff.{output_format.lower()}"
+        for idx, (file1, file2) in enumerate(tqdm(file_pairs, desc="GumTree Text Diffs")):
+            # Create unique output path using index to avoid collisions
+            output_filename = f"{idx}_{file1.stem}_to_{file2.stem}_diff.{output_format.lower()}"
             output_path = output_dir / output_filename
 
             result = self.get_text_diff(
@@ -173,23 +180,32 @@ class GumTreeTool:
 
         return results
 
+
 class GumTreeToolPairsExecutor:
+    """
+    Wrapper for GumTree tool to extract AST-based diffs between code files in pair directories.
+
+    Structure of each pair directory is assumed to be:
+        pair_dir/
+            original.c
+            modified.c
+    """
     def __init__(
         self,
         gumtree_tool: GumTreeTool,
     ) -> None:
-        
         self.gumtree_tool = gumtree_tool
 
-    def analyze_pair(
-            self,
-            pair_dir: Path,
-            file_name1_prefix: str = "original",
-            file_name2_prefix: str = "modified",
-            suffix: Literal[".c", ".cpp", ".java", ".py"] = ".c",
-    ):
-        # FIXME: if foo/original.c, foo/modified.c exist and bar/original.c and bar/modified.c exist, then the 
-        # output names will collide. Need to fix this by adding more unique identifiers to output names.
+    def analyze_pair_dir(
+        self,
+        pair_dir: Path,
+        file1_stem: str = "original",
+        file2_stem: str = "modified",
+        suffix: Literal[".c", ".cpp", ".java", ".py"] = ".c",
+        output_dir: Optional[Path] = None,
+        output_format: Literal["XML", "JSON", "TEXT"] = "XML",
+        idx: Optional[int] = None,
+    ) -> GumTreeDiffResult:
         """Analyze a single pair directory for GumTree text diff."""
 
         # Validate directory
@@ -203,10 +219,9 @@ class GumTreeToolPairsExecutor:
                 diff_output="",
                 error=error_msg,
             )
-        
 
-        file1 = pair_dir / f"{file_name1_prefix}{suffix}"
-        file2 = pair_dir / f"{file_name2_prefix}{suffix}"
+        file1 = pair_dir / f"{file1_stem}{suffix}"
+        file2 = pair_dir / f"{file2_stem}{suffix}"
 
         # Validate files
         if not file1.exists() or not file2.exists():
@@ -223,40 +238,70 @@ class GumTreeToolPairsExecutor:
                 file2=file2,
                 diff_output="",
                 error=error_msg,
+                diff_path=None,
             )
-        
-        result = self.gumtree_tool.get_text_diff(file1, file2)
+
+        # Build output path
+        target_dir = output_dir if output_dir else pair_dir
+        prefix = f"{idx}_" if idx is not None else ""
+        output_path = target_dir / f"{prefix}{file1_stem}_to_{file2_stem}.{output_format.lower()}"
+
+        result = self.gumtree_tool.get_text_diff(
+            file1, 
+            file2, 
+            output_path=output_path,
+            output_format=output_format
+        )
+
         return result
-    
-    def batch_analyze_pairs(
+
+    def batch_analyze_pair_dirs(
         self,
         pairs_dirs: list[Path],
-        file_name1_prefix: str = "original",
-        file_name2_prefix: str = "modified",
+        file1_stem: str = "original",
+        file2_stem: str = "modified",
         suffix: Literal[".c", ".cpp", ".java", ".py"] = ".c",
+        output_dir: Optional[Path] = None,
+        output_format: Literal["XML", "JSON", "TEXT"] = "XML",
         max_workers: int = 4,
     ) -> list[GumTreeDiffResult]:
-        """Batch process multiple pair directories for GumTree text diffs."""
+        """Batch process multiple pair directories for GumTree text diffs.
+        
+        Args:
+            pairs_dirs: List of directories each containing a pair of code files.
+            file1_stem: Stem for the first file in each pair.
+            file2_stem: Stem for the second file in each pair.
+            suffix: Suffix/extension of the code files.
+            output_dir: Directory to save output diff files. If None, saves in each pair directory.
+            output_format: Format of the GumTree diff output.
+            max_workers: Number of parallel workers for processing.
+        """
+
+        # Sort pair directories for consistent processing order
+        pairs_dirs = sorted(pairs_dirs)
 
         results = []
         with ThreadPoolExecutor(max_workers=max_workers) as executor:
-            future_to_pair = {
+            future_to_data = {
                 executor.submit(
-                    self.analyze_pair,
+                    self.analyze_pair_dir,
                     pair_dir,
-                    file_name1_prefix,
-                    file_name2_prefix,
+                    file1_stem,
+                    file2_stem,
                     suffix,
-                ): pair_dir
-                for pair_dir in pairs_dirs
+                    output_dir,
+                    output_format,
+                    idx,
+                ): (idx, pair_dir)
+                for idx, pair_dir in enumerate(pairs_dirs)
             }
 
             for future in tqdm(
-                as_completed(future_to_pair),
-                total=len(future_to_pair),
+                as_completed(future_to_data),
+                total=len(future_to_data),
                 desc="GumTree Pair Diffs",
             ):
-                pair_dir = future_to_pair[future]
+                idx, pair_dir = future_to_data[future]
                 try:
                     result = future.result()
                     results.append(result)
