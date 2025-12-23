@@ -5,6 +5,7 @@ from typing import Dict, List, Tuple, Union
 
 from primevul_analysis.types import GumTreeDiff, NodeRef, GumTreeAction, GumTreeMatch
 
+_XML_DECL_RE = re.compile(r"<\?xml[^>]*\?>", re.IGNORECASE)
 
 class GumTreeDiffParser:
     """Parser for GumTree diff XML files."""
@@ -45,7 +46,8 @@ class GumTreeDiffParser:
         else:
             text = str(xml_input)
 
-        text = text.strip()
+        text = text.strip() # Remove leading/trailing whitespace
+        text = _XML_DECL_RE.sub("", text).strip() # Remove XML declaration
 
         # Wrap if it looks like multiple top-level elements
         if "<matches" in text and "<actions" in text and not re.search(r"^\s*<root[\s>]", text):
@@ -108,6 +110,11 @@ class GumTreeDiffParser:
             src_to_dst=src_to_dst,
             dst_to_src=dst_to_src,
         )
+    
+    def parse_batch(self, gumtree_diff_xmls: List[Union[str, Path]]) -> List[GumTreeDiff]:
+        """Parse multiple GumTree diff XML inputs"""
+        return [self.parse(xml_input) for xml_input in gumtree_diff_xmls]
+        
 # Example usage:
 # parser = GumTreeDiffParser()
 # gumtree_diff = parser.parse("path_to_gumtree_diff.xml")

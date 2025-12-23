@@ -1,5 +1,6 @@
 from pathlib import Path
 from typing import List, Optional, Dict, Tuple
+from dataclasses import dataclass
 
 from pydantic import BaseModel, ConfigDict, Field
 
@@ -118,3 +119,10 @@ class GumTreeDiff(BaseModel):
     # Convenience maps for quick lookup
     src_to_dst: Dict[Tuple[int, int], NodeRef] = Field(default_factory=dict, description="Lookup matched destination nodes by source node span.")
     dst_to_src: Dict[Tuple[int, int], NodeRef] = Field(default_factory=dict, description="Lookup matched source nodes by destination node span.")
+
+@dataclass(frozen=True)
+class ChangeGroup:
+    """A simple 'hunk' grouping of actions by overlapping spans."""
+    group_id: int
+    src_span: Tuple[int, int]
+    actions: Tuple[GumTreeAction, ...]
