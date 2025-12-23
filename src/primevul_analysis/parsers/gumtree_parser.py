@@ -6,6 +6,7 @@ from typing import Dict, List, Tuple, Union
 from primevul_analysis.types import GumTreeDiff, NodeRef, GumTreeAction, GumTreeMatch
 
 _XML_DECL_RE = re.compile(r"<\?xml[^>]*\?>", re.IGNORECASE)
+SPAN_RE = re.compile(r"\[\s*(\d+)\s*,\s*(\d+)\s*\]")
 
 class GumTreeDiffParser:
     """Parser for GumTree diff XML files."""
@@ -22,19 +23,41 @@ class GumTreeDiffParser:
 
     def parse_node_ref(self, node_str: str) -> NodeRef:
         s = (node_str or "").strip()
-        m = self.node_re.match(s)
+
+        m = SPAN_RE.search(s)
         if not m:
-            raise ValueError(f"Cannot parse node ref: {s!r}")
+            raise ValueError(f"Cannot parse node ref (no span): {s!r}")
 
-        label = m.group("label")
-        label = label.strip() if label is not None else None
+        start = int(m.group(1))
+        end = int(m.group(2))
 
-        return NodeRef(
-            type=m.group("type").strip(),
-            label=label,
-            start=int(m.group("start")),
-            end=int(m.group("end")),
-        )
+        # Everything before the span
+        head = s[: m.start()].strip()
+
+        # GumTree typically uses "type: label" with spaces around colon,
+        # but punctuation nodes can look odd. This split is much more robust.
+        type_part: str
+        label_part: str | None
+
+        if " : " in head:
+            type_part, label_part = head.split(" : ", 1) # split on first " : " (with spaces around colon)
+            type_part = type_part.strip()
+            label_part = label_part.strip() or None
+        elif ":" in head and not head.startswith("http"):
+            # fallback: split on first colon if present
+            type_part, label_part = head.split(":", 1) # split on first ":" (without spaces around colon)
+            type_part = type_part.strip()
+            label_part = label_part.strip() or None
+        else:
+            type_part = head
+            label_part = None
+
+        # If type is empty (can happen in weird preprocessor cases), preserve it
+        # as a sentinel rather than crashing.
+        if not type_part:
+            type_part = "<empty>"
+
+        return NodeRef(type=type_part, label=label_part, start=start, end=end)
 
     def _load_root(self, xml_input: Union[str, Path]) -> ET.Element:
         """
