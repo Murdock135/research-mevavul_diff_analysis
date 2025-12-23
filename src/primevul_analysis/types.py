@@ -92,6 +92,12 @@ class NodeRef(BaseModel):
     @property
     def length(self) -> int:
         return self.end - self.start
+    
+class GumTreeMatch(BaseModel):
+    """Represents a matched pair of nodes between source and destination ASTs."""
+
+    src: NodeRef = Field(..., description="The node from the source AST.")
+    dst: NodeRef = Field(..., description="The corresponding node from the destination AST.")
 
 class GumTreeAction(BaseModel):
     """Represents a single action in a GumTree diff."""
@@ -107,6 +113,8 @@ class GumTreeDiff(BaseModel):
     """Structured representation of a GumTree diff."""
 
     actions: List[GumTreeAction] = Field(default_factory=list, description="All edit actions to transform source AST to destination AST.")
-    matches: List[tuple[NodeRef, NodeRef]] = Field(default_factory=list, description="Pairs of matched nodes between source and destination ASTs.")
+    matches: List[GumTreeMatch] = Field(default_factory=list, description="Pairs of matched nodes between source and destination ASTs.")
+
+    # Convenience maps for quick lookup
     src_to_dst: Dict[Tuple[int, int], NodeRef] = Field(default_factory=dict, description="Lookup matched destination nodes by source node span.")
     dst_to_src: Dict[Tuple[int, int], NodeRef] = Field(default_factory=dict, description="Lookup matched source nodes by destination node span.")
