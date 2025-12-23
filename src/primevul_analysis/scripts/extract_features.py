@@ -85,6 +85,9 @@ def extract_features_from_xmls(
     # Create DataFrame
     df = pd.DataFrame(results)
 
+    # Fill NaNs with zeros
+    df.fillna(0, inplace=True)
+
     # Save results
     output_path.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(output_path, index=False)

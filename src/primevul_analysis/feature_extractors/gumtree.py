@@ -3,6 +3,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Dict, List, Optional, Tuple, Union
 from collections import Counter
+import re
 
 from primevul_analysis.types import GumTreeDiff, GumTreeAction, ChangeGroup
 
@@ -22,6 +23,27 @@ SENSITIVE_TYPES = {
 
 MEMORY_OPS = {"malloc", "calloc", "realloc", "free"}
 
+_PUNCT_RE = re.compile(r"^[\W_]+$")  # only non-alphanumerics/underscore
+
+def canonical_node_type(t: str) -> str:
+    t = (t or "").strip()
+
+    if not t or t == "<empty>":
+        return "unknown"
+
+    # GumTree sometimes produces "comment: <text...>"
+    if t.startswith("comment"):
+        return "comment"
+
+    # preprocessor families
+    if t.startswith("preproc") or t.startswith("#"):
+        return "preproc"
+
+    # punctuation / token-like nodes
+    if _PUNCT_RE.match(t):
+        return "token"
+
+    return t
 
 
 
@@ -235,7 +257,7 @@ class GumTreeFeatureExtractor:
         """
         feats: Dict[str, Union[int, bool]] = {}
 
-        touched = [a.tree.type for a in diff.actions if a.tree is not None]
+        touched = [canonical_node_type(a.tree.type) for a in diff.actions if a.tree is not None]
         c = Counter(touched)
 
         feats["n_unique_touched_types"] = len(c)

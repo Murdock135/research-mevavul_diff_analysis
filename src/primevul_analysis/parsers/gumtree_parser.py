@@ -7,6 +7,7 @@ from primevul_analysis.types import GumTreeDiff, NodeRef, GumTreeAction, GumTree
 
 _XML_DECL_RE = re.compile(r"<\?xml[^>]*\?>", re.IGNORECASE)
 SPAN_RE = re.compile(r"\[\s*(\d+)\s*,\s*(\d+)\s*\]")
+TYPE_TOKEN_RE = re.compile(r"^[A-Za-z_#][A-Za-z0-9_#-]*$")  # Simple token pattern for GumTree node types
 
 class GumTreeDiffParser:
     """Parser for GumTree diff XML files."""
@@ -31,34 +32,36 @@ class GumTreeDiffParser:
         start = int(m.group(1))
         end = int(m.group(2))
 
-        # Everything before the span
         head = s[: m.start()].strip()
 
-        # GumTree typically uses "type: label" with spaces around colon,
-        # but punctuation nodes can look odd. This split is much more robust.
-        type_part: str
-        label_part: str | None
+        # Default: everything is type, no label
+        type_part = head
+        label_part = None
 
-        if " : " in head:
-            type_part, label_part = head.split(" : ", 1) # split on first " : " (with spaces around colon)
-            type_part = type_part.strip()
-            label_part = label_part.strip() or None
-        elif ":" in head and not head.startswith("http"):
-            # fallback: split on first colon if present
-            type_part, label_part = head.split(":", 1) # split on first ":" (without spaces around colon)
-            type_part = type_part.strip()
-            label_part = label_part.strip() or None
-        else:
-            type_part = head
-            label_part = None
+        # If there is a colon, try to split into "type: label"
+        if ":" in head:
+            left, right = head.split(":", 1)
+            left = left.strip()
+            right = right.strip()
 
-        # If type is empty (can happen in weird preprocessor cases), preserve it
-        # as a sentinel rather than crashing.
+            # Only accept the split if the left side looks like a real GumTree node type.
+            # This prevents weird cases where head starts with ":" or punctuation.
+            if left and TYPE_TOKEN_RE.match(left):
+                type_part = left
+                label_part = right or None
+            else:
+                # Colon exists but left side isn't a sane type token -> treat as token-like
+                # Keep the full head as label so we don't lose info.
+                type_part = "token"
+                label_part = head
+
+        # Normalize empty/garbage type
+        type_part = (type_part or "").strip()
         if not type_part:
-            type_part = "<empty>"
+            type_part = "unknown"
 
         return NodeRef(type=type_part, label=label_part, start=start, end=end)
-
+    
     def _load_root(self, xml_input: Union[str, Path]) -> ET.Element:
         """
         GumTree sometimes emits two top-level elements (<matches>...</matches><actions>...</actions>).
