@@ -135,12 +135,7 @@ class GumTreeDiffParser:
             matches=matches,
             src_to_dst=src_to_dst,
             dst_to_src=dst_to_src,
-        )
-    
-    def parse_batch(self, gumtree_diff_xmls: List[Union[str, Path]]) -> List[GumTreeDiff]:
-        """Parse multiple GumTree diff XML inputs"""
-        return [self.parse(xml_input) for xml_input in gumtree_diff_xmls]
-        
+        )        
 # Example usage:
 # parser = GumTreeDiffParser()
 # gumtree_diff = parser.parse("path_to_gumtree_diff.xml")
