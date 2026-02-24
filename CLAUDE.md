@@ -10,72 +10,85 @@ The primary dataset file is `PrimeVul_v0.1/primevul_train_paired.jsonl`.
 
 ## Environment
 
-The project runs inside Docker (recommended), which provides GumTree and the Coming tool (Java-based AST diff tools) alongside the Python environment. All analysis tools require GumTree to be installed at `/usr/local/bin/gumtree`.
+The project runs inside Docker (recommended), which provides GumTree and the Coming tool (Java-based AST diff tools) alongside the Python environment. **GumTree is only available inside Docker** at `/usr/local/bin/gumtree`; steps 1–3 of the pipeline require it.
 
 ```bash
 # Start the Docker container (prompts to rebuild)
 ./_start.sh
 
-# Inside Docker, the Python package is installed via uv
-uv run primevul-analysis        # Run the main CLI entrypoint
-uv run python -m primevul_analysis  # Equivalent
+# Inside Docker, run the main pipeline (steps 1-3)
+uv run primevul-analysis        # or: uv run python -m primevul_analysis
+
+# Run individual pipeline scripts (steps 4-6, inside or outside Docker)
+uv run python src/primevul_analysis/scripts/extract_features.py
+uv run python src/primevul_analysis/scripts/merge_features_with_labels.py
+uv run python src/primevul_analysis/scripts/bayesian_network_analysis.py
 ```
 
 Outside Docker (Python only, no GumTree/Coming):
 
 ```bash
 uv sync          # Install dependencies
-uv run python src/primevul_analysis/scripts/<script>.py
 ```
+
+Docker internals: container name is `primevul-analysis`, Coming JAR at `/opt/coming.jar`, `GUMTREE_HOME=/opt/gumtree`, `JAVA_OPTS=-Xmx4G`. The `.` directory is mounted at `/app`; `.venv` is a separate volume so local edits are immediately reflected inside.
 
 ## Analysis Pipeline
 
-The pipeline runs as a sequence of standalone scripts under `src/primevul_analysis/scripts/`. Each script reads from `data/` and writes back to `data/`:
+Scripts under `src/primevul_analysis/scripts/`. Each reads from `data/` and writes back to `data/`:
 
-1. **`extract_data.py`** — Reads `PrimeVul_v0.1/primevul_train_paired.jsonl`, extracts vulnerable/patched function pairs, saves `data/code_pairs.csv`.
+1. **`extract_data.py`** — Reads `PrimeVul_v0.1/primevul_train_paired.jsonl`, filters to commits with exactly one vulnerable + one patched function, saves `data/code_pairs.csv`.
 2. **`create_pairs.py`** — Writes each pair as `data/coming_data/pair_NNNNN/{vulnerable.c, patched.c, metadata.json}`.
-3. **`get_diffs.py`** — Runs GumTree on each pair directory, saves XML diff files alongside the `.c` files in `data/coming_data/`.
+3. **`get_diffs.py`** — Runs GumTree on each pair directory (**requires Docker**), saves XML diff files inside `data/coming_data/pair_NNNNN/`.
 4. **`extract_features.py`** — Parses all GumTree XML diffs, extracts numeric features, saves `data/gumtree_features.csv`.
-5. **`merge_features_with_labels.py`** — Joins features with `code_pairs.csv` on extraction order (not ID), saves `data/features_with_labels.csv`.
-6. **`bayesian_network_analysis.py`** — Loads `data/features_with_labels.csv`, trains a Bayesian network (HillClimbSearch + BIC), saves graph and edges to `data/bayesian_network/`.
+5. **`merge_features_with_labels.py`** — Joins features with `code_pairs.csv` on `extraction_index` (sequential position in file, not the `id` field), saves `data/features_with_labels.csv`.
+6. **`bayesian_network_analysis.py`** — Trains a Bayesian network (HillClimbSearch + BIC) on `data/features_with_labels.csv`; saves graph and edges to `data/bayesian_network/`. Set `cwe_of_interest` and `USE_MANUAL`/`TOP_K` constants at the top of `main()` before running.
 
-The `__main__.py` entrypoint chains steps 1–3 together. Steps 4–6 must be run individually.
+`__main__.py` chains steps 1–3. Steps 4–6 must be run individually.
 
 ## Key Architecture
 
-### Core Types (`src/primevul_analysis/types.py`)
+### Core Types ([src/primevul_analysis/types.py](src/primevul_analysis/types.py))
 All data structures are Pydantic `BaseModel`s:
 - `CodePair` — One vulnerable/patched function pair from PrimeVul.
-- `GumTreeDiffResult` — Raw subprocess output from GumTree.
-- `GumTreeDiff` — Parsed AST diff: `actions` (insert/delete/update/move) + `matches` (node correspondences), with span-indexed lookup maps.
+- `GumTreeDiffResult` — Raw subprocess output from GumTree (note: a comment in the file flags this for renaming to `GumTreeToolOutput`).
+- `GumTreeDiff` — Parsed AST diff: `actions` + `matches`, plus span-keyed lookup dicts `src_to_dst` / `dst_to_src`.
 - `GumTreeAction` / `GumTreeMatch` / `NodeRef` — Fine-grained diff primitives.
-- `ComingRunResult` / `ComingChangeFrequency` — Results from the Coming tool.
+- `ChangeGroup` — A `@dataclass` (not Pydantic) grouping overlapping-span actions into a hunk.
 
-### Diff Tools (`src/primevul_analysis/difftools/`)
-- `GumTreeTool` — Subprocess wrapper for `gumtree textdiff`. Default output format: XML.
-- `GumTreeToolPairsExecutor` — Batch-processes `pair_NNNNN/` directories using `ThreadPoolExecutor`.
+### Diff Tools ([src/primevul_analysis/difftools/](src/primevul_analysis/difftools/))
+- `GumTreeTool` — Subprocess wrapper for `gumtree textdiff`. Raises `FileNotFoundError` at init if GumTree is not on PATH.
+- `GumTreeToolPairsExecutor` — Batch-processes `pair_NNNNN/` directories using `ThreadPoolExecutor`. **Sorts pair dirs before processing** to ensure deterministic `extraction_index` ordering.
 - `ComingTool` — Subprocess wrapper for the Coming JAR.
 
-### Parsers (`src/primevul_analysis/parsers/`)
-- `GumTreeDiffParser` — Parses GumTree XML output (handles GumTree's non-standard two-root XML) into `GumTreeDiff`. Node ref strings like `"if_statement: foo [10, 42]"` are parsed with regex into `NodeRef`.
+### Parsers ([src/primevul_analysis/parsers/gumtree_parser.py](src/primevul_analysis/parsers/gumtree_parser.py))
+- `GumTreeDiffParser` — Parses GumTree XML output. GumTree emits two sibling top-level elements (`<matches>` + `<actions>`); the parser wraps them in `<root>` to satisfy `ElementTree`. Node ref strings like `"if_statement: foo [10, 42]"` are parsed with regex into `NodeRef`. GumTree uses the attribute name `dest` (not `dst`) for match destinations.
 
-### Feature Extractors (`src/primevul_analysis/feature_extractors/`)
-- `GumTreeFeatureExtractor` — Converts a `GumTreeDiff` into a flat dict of numeric features (action counts by type/node, touch flags for control flow, safety tokens, etc.).
+### Feature Extractors ([src/primevul_analysis/feature_extractors/gumtree.py](src/primevul_analysis/feature_extractors/gumtree.py))
+- `GumTreeFeatureExtractor.extract()` — Returns a flat `dict` of scalars. Feature naming conventions:
+  - `n_*` — counts (actions, matches, groups, etc.)
+  - `act_*` — per-kind action counts (raw GumTree kind strings, e.g. `act_delete-node`)
+  - `node_*` — top-K counts by canonical node type (e.g. `node_if_statement`)
+  - `touches_*` / `deleted_*` / `inserted_*` — boolean flags for control-flow/security motifs
+  - `ratio_*` — normalized ratios
+  - `has_*` — boolean heuristics (e.g. `has_safety_token_update`)
+- Hunk grouping (`group_actions`) clusters actions by overlapping source spans, controlled by `span_merge_gap`.
+- Security features (`_security_features`) require both `vulnerable_code` and `patched_code` text; without them, boundary-check features default to `False`.
 
-### Data Preparation (`src/primevul_analysis/datapreparator/`)
-- `PrimeVulExtractor` — Loads the JSONL, groups by `commit_id`, keeps only commits with exactly one vulnerable + one patched function.
-- `DataPreparator` — Writes `pair_NNNNN/` directories to disk.
+### Data Preparation ([src/primevul_analysis/datapreparator/extract.py](src/primevul_analysis/datapreparator/extract.py))
+- `PrimeVulExtractor` — Loads the JSONL, groups by `commit_id`, keeps only commits with exactly one `target==1` (vulnerable) and one `target==0` (patched) row.
+- `DataPreparator.write_single_pair()` — Directories named `pair_{index:05d}`, so the 5-digit zero-padded index equals `extraction_index`.
 
 ### Project Root Detection
-`find_project_root()` in `utils/config_utils.py` walks up from `__file__` to find the directory containing `pyproject.toml`. All scripts use this to build absolute paths.
+`find_project_root()` in [`src/primevul_analysis/utils/config_utils.py`](src/primevul_analysis/utils/config_utils.py) walks up from `__file__` to find the directory containing `pyproject.toml`. All scripts use this for absolute paths.
 
 ## Notebooks
 
-Exploratory notebooks live in `notebooks/`. Generated reports/figures go to `notebooks/results/`. There is an `notebooks/AGENT_GUIDE.md` (missing at time of writing) intended for agent-assisted analysis.
+Exploratory notebooks in `notebooks/`. Generated reports/figures go to `notebooks/results/`.
 
 ## Important Notes
 
-- **Pair ordering matters**: `merge_features_with_labels.py` joins on `extraction_index` (sequential order of pairs in `code_pairs.csv`), not on the `id` field. The pair directory number `pair_NNNNN` matches this index.
-- **GumTree non-zero exit codes are normal**: GumTree returns non-zero when files differ, which is the expected case. Errors are only flagged when `stderr` is non-empty.
-- **Docker mounts `.` to `/app`** with a separate volume for `.venv`, so local edits are immediately reflected inside the container.
-- **`GUMTREE_HOME=/opt/gumtree`** and `JAVA_OPTS=-Xmx4G` are set in the container environment.
+- **Pair ordering is the join key**: `merge_features_with_labels.py` joins on `extraction_index` (row position in `code_pairs.csv`), not the `id` field. The directory `pair_NNNNN` number matches this index. `batch_analyze_pair_dirs` sorts dirs alphabetically before processing to keep this consistent.
+- **GumTree non-zero exit codes are normal**: GumTree returns non-zero when files differ (expected). Errors are only flagged when `stderr` is non-empty.
+- **Feature CSV column prefixes** used by `bayesian_network_analysis.py` to auto-discover candidate columns: `n_`, `node_`, `act_`, `touches_`, `deleted_`, `inserted_`, `ratio_`, `has_`.
+- **BN target CWE**: change `cwe_of_interest` constant in `bayesian_network_analysis.py:main()` before running. The `primary_cwe` column is the first element of each pair's CWE list.
