@@ -52,8 +52,9 @@ class GumTreeDiffParser:
             else:
                 # Colon exists but left side isn't a sane type token -> treat as token-like
                 # Keep the full head as label so we don't lose info.
+                # eg. "): ) [73,74], ;: ;"
                 type_part = "token"
-                label_part = head
+                label_part = right # e.g. ';: ;' -> 'token': ; 
 
         # Normalize empty/garbage type
         type_part = (type_part or "").strip()
@@ -122,7 +123,10 @@ class GumTreeDiffParser:
                 )
             )
 
-        # Build src_to_dst and dst_to_src maps (span-based)
+        # Build src_to_dst and dst_to_src maps (span-based) e.g. src_to_dst[(1, 5)] = NodeRef(...)
+        # This builds a mapping from source node spans to destination node references and vice versa.
+        # This helps quickly look up the corresponding node in the other tree given a node span.
+        # For example, if a source node spans lines 1-5, src_to_dst[(1, 5)] will give the corresponding destination node.
         src_to_dst: Dict[Tuple[int, int], NodeRef] = {}
         dst_to_src: Dict[Tuple[int, int], NodeRef] = {}
 
