@@ -5,9 +5,9 @@ from typing import Dict, List, Tuple, Union
 
 from primevul_analysis.types import GumTreeDiff, NodeRef, GumTreeAction, GumTreeMatch
 
-_XML_DECL_RE = re.compile(r"<\?xml[^>]*\?>", re.IGNORECASE)
-SPAN_RE = re.compile(r"\[\s*(\d+)\s*,\s*(\d+)\s*\]")
-TYPE_TOKEN_RE = re.compile(r"^[A-Za-z_#][A-Za-z0-9_#-]*$")  # Simple token pattern for GumTree node types
+_XML_DECL_RE = re.compile(r"<\?xml[^>]*\?>", re.IGNORECASE)  # Matches XML declaration
+SPAN_RE = re.compile(r"\[\s*(\d+)\s*,\s*(\d+)\s*\]")  # Matches spans like [start, end]
+TYPE_TOKEN_RE = re.compile(r"^[A-Za-z_#][A-Za-z0-9_#-]*$")  # Simple token pattern for GumTree node types ( matches words. Does not match punctuation or symbols)
 
 class GumTreeDiffParser:
     """Parser for GumTree diff XML files."""
@@ -25,14 +25,14 @@ class GumTreeDiffParser:
     def parse_node_ref(self, node_str: str) -> NodeRef:
         s = (node_str or "").strip()
 
-        m = SPAN_RE.search(s)
+        m = SPAN_RE.search(s) # Find the span [start, end]
         if not m:
             raise ValueError(f"Cannot parse node ref (no span): {s!r}")
 
-        start = int(m.group(1))
-        end = int(m.group(2))
+        start = int(m.group(1)) # Capture start index
+        end = int(m.group(2)) # Capture end index
 
-        head = s[: m.start()].strip()
+        head = s[: m.start()].strip()  # Extract the part before the span
 
         # Default: everything is type, no label
         type_part = head
@@ -41,8 +41,8 @@ class GumTreeDiffParser:
         # If there is a colon, try to split into "type: label"
         if ":" in head:
             left, right = head.split(":", 1)
-            left = left.strip()
-            right = right.strip()
+            left = left.strip() # Strip whitespace from the type part
+            right = right.strip() # Strip whitespace from the label part
 
             # Only accept the split if the left side looks like a real GumTree node type.
             # This prevents weird cases where head starts with ":" or punctuation.
