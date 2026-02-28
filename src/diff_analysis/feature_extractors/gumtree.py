@@ -5,7 +5,7 @@ from typing import Dict, List, Optional, Tuple, Union
 from collections import Counter
 import re
 
-from primevul_analysis.types import GumTreeDiff, GumTreeAction, ChangeGroup
+from diff_analysis.types import GumTreeDiff, GumTreeAction, ChangeGroup
 
 
 CONTROL_FLOW_TYPES = {

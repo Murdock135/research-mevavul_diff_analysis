@@ -2,7 +2,7 @@ from pathlib import Path
 import pandas as pd
 import logging
 
-from primevul_analysis.utils.config_utils import find_project_root
+from diff_analysis.utils.config_utils import find_project_root
 
 logging.basicConfig(
     level=logging.INFO,
@@ -84,9 +84,9 @@ def merge_features_with_labels(
 def main():
     # Set paths
     project_root = find_project_root()
-    features_path = project_root / "data" / "gumtree_features.csv"
-    code_pairs_path = project_root / "data" / "code_pairs.csv"
-    output_path = project_root / "data" / "features_with_labels.csv"
+    features_path = project_root / "data" / "processed" / "gumtree_features.csv"
+    code_pairs_path = project_root / "data" / "processed" / "code_pairs.csv"
+    output_path = project_root / "data" / "processed" / "features_with_labels.csv"
     
     logger.info(f"Project root: {project_root}")
     

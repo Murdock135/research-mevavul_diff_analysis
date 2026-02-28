@@ -1,5 +1,5 @@
-from primevul_analysis.difftools.coming_tool import ComingTool
-from primevul_analysis.utils.config_utils import find_project_root
+from diff_analysis.difftools.coming_tool import ComingTool
+from diff_analysis.utils.config_utils import find_project_root
 
 from pathlib import Path
 from typing import List
@@ -11,7 +11,7 @@ logging.basicConfig(
     level=logging.ERROR,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler("primevul_analysis.log"),
+        logging.FileHandler("diff_analysis.log"),
         logging.StreamHandler()
     ]
 )
@@ -40,7 +40,7 @@ def megavul_file_resolver(func_dir: Path):
 def main():
     project_root = find_project_root()
 
-    pairs_root = project_root / "data" / "megavul_pairs"
+    pairs_root = project_root / "data" / "interim" / "megavul_pairs"
     func_dirs = get_func_dirs(pairs_root)
 
     coming_tool = ComingTool()

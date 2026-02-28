@@ -3,7 +3,7 @@ import re
 from pathlib import Path
 from typing import Dict, List, Tuple, Union
 
-from primevul_analysis.types import GumTreeDiff, NodeRef, GumTreeAction, GumTreeMatch
+from diff_analysis.types import GumTreeDiff, NodeRef, GumTreeAction, GumTreeMatch
 
 _XML_DECL_RE = re.compile(r"<\?xml[^>]*\?>", re.IGNORECASE)  # Matches XML declaration
 SPAN_RE = re.compile(r"\[\s*(\d+)\s*,\s*(\d+)\s*\]")  # Matches spans like [start, end]

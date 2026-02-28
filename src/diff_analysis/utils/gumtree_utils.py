@@ -1,7 +1,7 @@
 import pandas as pd
 
-from primevul_analysis.types import GumTreeDiffResult
-from primevul_analysis.utils.str_utils import _truncate
+from diff_analysis.types import GumTreeDiffResult
+from diff_analysis.utils.str_utils import _truncate
 
 def results_to_dataframe(results: list[GumTreeDiffResult]) -> pd.DataFrame:
     """Convert GumTree diff results to a pandas DataFrame."""

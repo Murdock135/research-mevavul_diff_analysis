@@ -1,6 +1,6 @@
-from primevul_analysis.datapreparator.extract import DataPreparator
-from primevul_analysis.types import PrimeVCodePair
-from primevul_analysis.utils.config_utils import find_project_root
+from diff_analysis.datapreparator.primevul import DataPreparator
+from diff_analysis.types import PrimeVCodePair
+from diff_analysis.utils.config_utils import find_project_root
 
 import pandas as pd
 
@@ -12,7 +12,7 @@ logging.basicConfig(
     level=logging.DEBUG,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler("primevul_analysis.log"),
+        logging.FileHandler("diff_analysis.log"),
         logging.StreamHandler()
     ]
 )
@@ -43,11 +43,11 @@ def write_pairs(code_pairs: List[PrimeVCodePair], output_dir: Path) -> None:
 def main():
     # Load code pairs from CSV
     project_root = find_project_root()
-    code_pairs_csv = project_root / "data" / "code_pairs.csv"
+    code_pairs_csv = project_root / "data" / "processed" / "code_pairs.csv"
     df = pd.read_csv(code_pairs_csv)
 
     code_pairs: List[PrimeVCodePair] = create_code_pairs_from_dataframe(df)
-    write_pairs(code_pairs=code_pairs, output_dir=project_root / "data" / "coming_data")
+    write_pairs(code_pairs=code_pairs, output_dir=project_root / "data" / "interim" / "coming_data")
     
 if __name__ == "__main__":
     main()

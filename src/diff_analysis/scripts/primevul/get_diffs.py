@@ -1,6 +1,6 @@
-from primevul_analysis.difftools.gumtree import GumTreeTool, GumTreeToolPairsExecutor
-from primevul_analysis.utils.config_utils import find_project_root
-from primevul_analysis.utils.gumtree_utils import results_to_dataframe
+from diff_analysis.difftools.gumtree import GumTreeTool, GumTreeToolPairsExecutor
+from diff_analysis.utils.config_utils import find_project_root
+from diff_analysis.utils.gumtree_utils import results_to_dataframe
 
 from pathlib import Path
 from typing import List
@@ -10,7 +10,7 @@ logging.basicConfig(
     level=logging.DEBUG,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler("primevul_analysis.log"),
+        logging.FileHandler("diff_analysis.log"),
         logging.StreamHandler()
     ]
 )
@@ -40,7 +40,7 @@ def main():
     logger.info(f"Project root determined as: {project_root}")
 
     # Define paths
-    pairs_root = project_root / "data" / "coming_data"
+    pairs_root = project_root / "data" / "interim" / "coming_data"
 
     # Get GumTree diffs
     results_df = get_gumtree_diffs(pairs_root=pairs_root)
@@ -48,7 +48,7 @@ def main():
     logger.info("Got diff results from GumTree.")
 
     # Save GumTree results
-    gumtree_results_path = project_root / "data" / "gumtree_diff_results.csv"
+    gumtree_results_path = project_root / "data" / "processed" / "gumtree_diff_results.csv"
     results_df.to_csv(gumtree_results_path, index=False)
     logger.info("GumTree diff results saved to %s", gumtree_results_path)
 

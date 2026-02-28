@@ -1,5 +1,5 @@
 [project]
-name = "primevul-analysis"
+name = "diff-analysis"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -20,7 +20,7 @@ dependencies = [
 ]
 
 [project.scripts]
-primevul-analysis = "primevul_analysis:main"
+diff-analysis = "diff_analysis:main"
 
 [build-system]
 requires = ["uv_build>=0.9.18,<0.10.0"]

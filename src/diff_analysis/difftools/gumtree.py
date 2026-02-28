@@ -5,8 +5,8 @@ import subprocess
 import logging
 import shutil
 
-from primevul_analysis.types import GumTreeDiffResult
-from primevul_analysis.utils.str_utils import _truncate
+from diff_analysis.types import GumTreeDiffResult
+from diff_analysis.utils.str_utils import _truncate
 
 from tqdm import tqdm
 

@@ -1,4 +1,4 @@
-# src/primevul_analysis/scripts/bayesian_network_analysis.py
+# src/diff_analysis/scripts/bayesian_network_analysis.py
 
 from __future__ import annotations
 
@@ -16,7 +16,7 @@ from pgmpy.estimators import MaximumLikelihoodEstimator
 
 from sklearn.feature_selection import mutual_info_classif
 
-from primevul_analysis.utils.config_utils import find_project_root
+from diff_analysis.utils.config_utils import find_project_root
 
 logging.basicConfig(
     level=logging.INFO,
@@ -152,9 +152,9 @@ def draw_bn(model: BayesianNetwork, out_path: Path) -> None:
 
 def main():
     project_root = find_project_root()
-    data_path = project_root / "data" / "features_with_labels.csv"
+    data_path = project_root / "data" / "processed" / "features_with_labels.csv"
 
-    out_dir = project_root / "data" / "bayesian_network"
+    out_dir = project_root / "data" / "results" / "bayesian_network"
     out_png = out_dir / "bn_structure.png"
     out_edges = out_dir / "bn_edges.csv"
     out_used_cols = out_dir / "bn_used_columns.txt"

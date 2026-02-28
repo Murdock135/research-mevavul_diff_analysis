@@ -7,7 +7,7 @@ from typing import Dict, List, Optional
 import pandas as pd
 from tqdm import tqdm
 
-from primevul_analysis.types import MegaVCodePair
+from diff_analysis.types import MegaVCodePair
 
 logger = logging.getLogger(__name__)
 

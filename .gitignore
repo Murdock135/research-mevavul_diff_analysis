@@ -149,7 +149,7 @@ lerna-debug.log*
 # Project Specific
 PrimeVul*
 !PrimeVul.zip
-megavul/megavul_graphs/
+data/raw/megavul/megavul_graphs/
 
 # Machine Learning / Data Science
 *.h5
@@ -161,7 +161,8 @@ megavul/megavul_graphs/
 *.pt
 *.pth
 *.onnx
-data/
+data/*
+!data/raw/
 datasets/
 checkpoints/
 wandb/

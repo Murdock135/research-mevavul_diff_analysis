@@ -1,6 +1,6 @@
-from primevul_analysis.datapreparator.megavul import MegaVulExtractor
-from primevul_analysis.types import MegaVCodePair
-from primevul_analysis.utils.config_utils import find_project_root
+from diff_analysis.datapreparator.megavul import MegaVulExtractor
+from diff_analysis.types import MegaVCodePair
+from diff_analysis.utils.config_utils import find_project_root
 
 from pathlib import Path
 from typing import List
@@ -10,7 +10,7 @@ logging.basicConfig(
     level=logging.DEBUG,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler("primevul_analysis.log"),
+        logging.FileHandler("diff_analysis.log"),
         logging.StreamHandler()
     ]
 )
@@ -26,8 +26,8 @@ def main():
     project_root = find_project_root()
     logger.info(f"Project root determined as: {project_root}")
 
-    input_path = project_root / "megavul" / "cve_with_graph_abstract_commit.json"
-    output_path = project_root / "data"
+    input_path = project_root / "data" / "raw" / "megavul" / "cve_with_graph_abstract_commit.json"
+    output_path = project_root / "data" / "processed"
 
     _ = extract_code_pairs(input_path=input_path, output_path=output_path)
     logger.info("MegaVul extraction completed.")

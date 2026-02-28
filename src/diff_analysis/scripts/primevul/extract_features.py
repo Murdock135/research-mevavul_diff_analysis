@@ -5,9 +5,9 @@ import pandas as pd
 import logging
 from tqdm import tqdm
 
-from primevul_analysis.parsers.gumtree_parser import GumTreeDiffParser
-from primevul_analysis.feature_extractors.gumtree import GumTreeFeatureExtractor
-from primevul_analysis.utils.config_utils import find_project_root
+from diff_analysis.parsers.gumtree_parser import GumTreeDiffParser
+from diff_analysis.feature_extractors.gumtree import GumTreeFeatureExtractor
+from diff_analysis.utils.config_utils import find_project_root
 
 logging.basicConfig(
     level=logging.DEBUG,
@@ -105,8 +105,8 @@ def extract_features_from_xmls(
 def main():
     # Set paths
     project_root = find_project_root()
-    xml_dir = project_root / "data" / "coming_data"
-    output_path = project_root / "data" / "gumtree_features.csv"
+    xml_dir = project_root / "data" / "interim" / "coming_data"
+    output_path = project_root / "data" / "processed" / "gumtree_features.csv"
 
     logger.info(f"Project root: {project_root}")
     logger.info(f"XML directory: {xml_dir}")

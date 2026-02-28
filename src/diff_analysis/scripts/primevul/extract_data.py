@@ -1,6 +1,6 @@
-from primevul_analysis.datapreparator.extract import PrimeVulExtractor
-from primevul_analysis.types import PrimeVCodePair
-from primevul_analysis.utils.config_utils import find_project_root
+from diff_analysis.datapreparator.primevul import PrimeVulExtractor
+from diff_analysis.types import PrimeVCodePair
+from diff_analysis.utils.config_utils import find_project_root
 
 from pathlib import Path
 from typing import List
@@ -10,7 +10,7 @@ logging.basicConfig(
     level=logging.DEBUG,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler("primevul_analysis.log"),
+        logging.FileHandler("diff_analysis.log"),
         logging.StreamHandler()
     ]
 )
@@ -28,8 +28,8 @@ def main():
     logger.info(f"Project root determined as: {project_root}")
 
     # Extract code pairs
-    input_path = project_root / "PrimeVul_v0.1" / "primevul_train_paired.jsonl"
-    output_path = project_root / "data"
+    input_path = project_root / "data" / "raw" / "PrimeVul_v0.1" / "primevul_train_paired.jsonl"
+    output_path = project_root / "data" / "processed"
 
     _ = extract_code_pairs(input_path=input_path, output_path=output_path)
     logger.info("Code pair extraction completed.") 

@@ -8,7 +8,7 @@ from typing import List, Optional, Dict
 import pandas as pd
 from tqdm import tqdm
 
-from primevul_analysis.types import PrimeVCodePair
+from diff_analysis.types import PrimeVCodePair
 
 logger = logging.getLogger(__name__)
 

@@ -1,6 +1,6 @@
-from primevul_analysis.datapreparator.megavul import MegaVulDataPreparator
-from primevul_analysis.types import MegaVCodePair
-from primevul_analysis.utils.config_utils import find_project_root
+from diff_analysis.datapreparator.megavul import MegaVulDataPreparator
+from diff_analysis.types import MegaVCodePair
+from diff_analysis.utils.config_utils import find_project_root
 
 import pandas as pd
 
@@ -13,7 +13,7 @@ logging.basicConfig(
     level=logging.DEBUG,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler("primevul_analysis.log"),
+        logging.FileHandler("diff_analysis.log"),
         logging.StreamHandler()
     ]
 )
@@ -42,12 +42,12 @@ def create_code_pairs_from_dataframe(df: pd.DataFrame) -> List[MegaVCodePair]:
 
 def main():
     project_root = find_project_root()
-    megavul_csv = project_root / "data" / "megavul_pairs.csv"
+    megavul_csv = project_root / "data" / "processed" / "megavul_pairs.csv"
     df = pd.read_csv(megavul_csv)
 
     code_pairs: List[MegaVCodePair] = create_code_pairs_from_dataframe(df)
 
-    output_dir = project_root / "data" / "megavul_pairs"
+    output_dir = project_root / "data" / "interim" / "megavul_pairs"
     preparator = MegaVulDataPreparator(output_dir=output_dir)
     preparator.write_pairs(code_pairs)
     logger.info(f"Written {len(code_pairs)} pairs to {output_dir}")

@@ -8,8 +8,8 @@ from typing import Callable, List, Optional, Tuple
 import pandas as pd
 from tqdm import tqdm
 
-from primevul_analysis.types import ComingChangeFrequency, ComingRunResult
-from primevul_analysis.utils.str_utils import _truncate
+from diff_analysis.types import ComingChangeFrequency, ComingRunResult
+from diff_analysis.utils.str_utils import _truncate
 
 logger = logging.getLogger(__name__)
 
