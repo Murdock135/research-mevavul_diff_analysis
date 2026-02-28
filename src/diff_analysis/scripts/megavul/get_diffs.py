@@ -5,16 +5,11 @@ from pathlib import Path
 from typing import List
 import logging
 
+from diff_analysis.utils.logging import setup_logging
+
 from tqdm import tqdm
 
-logging.basicConfig(
-    level=logging.ERROR,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler("diff_analysis.log"),
-        logging.StreamHandler()
-    ]
-)
+setup_logging(level=logging.ERROR)
 logger = logging.getLogger(__name__)
 
 

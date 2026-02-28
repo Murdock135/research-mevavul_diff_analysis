@@ -3,20 +3,15 @@
 from pathlib import Path
 import pandas as pd
 import logging
+
+from diff_analysis.utils.logging import setup_logging
 from tqdm import tqdm
 
 from diff_analysis.parsers.gumtree_parser import GumTreeDiffParser
 from diff_analysis.feature_extractors.gumtree import GumTreeFeatureExtractor
 from diff_analysis.utils.config_utils import find_project_root
 
-logging.basicConfig(
-    level=logging.DEBUG,
-    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-    handlers=[
-        logging.FileHandler("gumtree_feature_extraction.log"),
-        logging.StreamHandler(),
-    ],
-)
+setup_logging(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 

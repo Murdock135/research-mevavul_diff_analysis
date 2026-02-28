@@ -7,16 +7,11 @@ import pandas as pd
 from pathlib import Path
 from typing import List
 import logging
+
+from diff_analysis.utils.logging import setup_logging
 import ast
 
-logging.basicConfig(
-    level=logging.DEBUG,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler("diff_analysis.log"),
-        logging.StreamHandler()
-    ]
-)
+setup_logging(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 

@@ -22,14 +22,9 @@ from pathlib import Path
 from typing import List
 import logging
 
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler("primevul_analysis.log"),
-        logging.StreamHandler()
-    ]
-)
+from diff_analysis.utils.logging import setup_logging
+
+setup_logging(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 

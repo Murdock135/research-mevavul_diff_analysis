@@ -8,14 +8,9 @@ from pathlib import Path
 from typing import List
 import logging
 
-logging.basicConfig(
-    level=logging.DEBUG,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler("diff_analysis.log"),
-        logging.StreamHandler()
-    ]
-)
+from diff_analysis.utils.logging import setup_logging
+
+setup_logging(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 def create_code_pairs_from_dataframe(df: pd.DataFrame) -> List[PrimeVCodePair]:

@@ -4,6 +4,8 @@ from __future__ import annotations
 
 from pathlib import Path
 import logging
+
+from diff_analysis.utils.logging import setup_logging
 import numpy as np
 import pandas as pd
 
@@ -18,10 +20,7 @@ from sklearn.feature_selection import mutual_info_classif
 
 from diff_analysis.utils.config_utils import find_project_root
 
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-)
+setup_logging(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
