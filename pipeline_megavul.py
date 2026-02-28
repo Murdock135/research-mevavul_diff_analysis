@@ -1,15 +1,18 @@
 """
 MegaVul analysis pipeline — steps 1–3 (requires Docker / Coming tool).
 
+Usage:
+  uv run python pipeline_megavul.py bug_fixing
+  uv run python pipeline_megavul.py bug_inducing
+
 Steps:
   1. Extract code pairs from MegaVul JSON → data/processed/megavul_pairs.csv
   2. Write pair directories for Coming → data/interim/megavul_pairs/bug_fixing/
-  3. Run Coming on all pairs → data/interim/megavul_pairs/bug_fixing/<commit>/<func>/change_frequency.json
+  3. Run Coming on all pairs → .../change_frequency_{direction}.json
 
-Run individually:
-  uv run python -m diff_analysis.scripts.megavul.extract
-  uv run python -m diff_analysis.scripts.megavul.create_pairs
-  uv run python -m diff_analysis.scripts.megavul.get_diffs
+Run step 3 individually:
+  uv run python -m diff_analysis.scripts.megavul.get_diffs bug_fixing
+  uv run python -m diff_analysis.scripts.megavul.get_diffs bug_inducing
 """
 
 from diff_analysis.datapreparator.megavul import MegaVulExtractor, MegaVulDataPreparator
@@ -20,6 +23,7 @@ from diff_analysis.utils.config_utils import find_project_root
 from pathlib import Path
 from typing import List
 import logging
+import sys
 
 from diff_analysis.utils.logging import setup_logging
 
@@ -41,7 +45,7 @@ def prepare_pairs(code_pairs: List[MegaVCodePair], output_dir: Path) -> None:
     preparator.write_pairs(code_pairs)
 
 
-def run_coming_diffs(pairs_root: Path) -> None:
+def run_coming_diffs(pairs_root: Path, direction: str) -> None:
     def get_func_dirs(root: Path) -> List[Path]:
         func_dirs = []
         for commit_dir in sorted(root.iterdir()):
@@ -60,9 +64,17 @@ def run_coming_diffs(pairs_root: Path) -> None:
     coming_tool = ComingTool()
     func_dirs = get_func_dirs(pairs_root)
     succeeded = failed = 0
-    for func_dir in tqdm(func_dirs, desc="Running Coming"):
+    for func_dir in tqdm(func_dirs, desc=f"Running Coming ({direction})"):
         source_file, target_file = file_resolver(func_dir)
-        result = coming_tool.analyze_pair(func_dir, source_file=source_file, target_file=target_file)
+        # bug_inducing: swap source/target so patched→vulnerable
+        if direction == "bug_inducing":
+            source_file, target_file = target_file, source_file
+        result = coming_tool.analyze_pair(
+            func_dir,
+            source_file=source_file,
+            target_file=target_file,
+            output_suffix=direction,
+        )
         if result.success:
             succeeded += 1
         else:
@@ -72,6 +84,12 @@ def run_coming_diffs(pairs_root: Path) -> None:
 
 
 def main():
+    directions = ("bug_fixing", "bug_inducing")
+    if len(sys.argv) < 2 or sys.argv[1] not in directions:
+        print(__doc__)
+        sys.exit(1)
+    direction = sys.argv[1]
+
     project_root = find_project_root()
 
     input_path = project_root / "data" / "raw" / "megavul" / "cve_with_graph_abstract_commit.json"
@@ -86,8 +104,8 @@ def main():
     print("Step 2: Writing pair directories")
     prepare_pairs(code_pairs=code_pairs, output_dir=interim_dir)
 
-    print("Step 3: Running Coming diffs")
-    run_coming_diffs(pairs_root=interim_dir)
+    print(f"Step 3: Running Coming diffs ({direction})")
+    run_coming_diffs(pairs_root=interim_dir, direction=direction)
 
     print("Pipeline complete.")
 

@@ -2,8 +2,9 @@
 Entry point for `python -m diff_analysis`.
 
 Usage:
-  python -m diff_analysis primevul   # run the PrimeVul pipeline (steps 1-3)
-  python -m diff_analysis megavul    # run the MegaVul pipeline (steps 1-3)
+  python -m diff_analysis primevul                    # run the PrimeVul pipeline (steps 1-3)
+  python -m diff_analysis megavul bug_fixing          # run the MegaVul pipeline (bug_fixing direction)
+  python -m diff_analysis megavul bug_inducing        # run the MegaVul pipeline (bug_inducing direction)
 """
 
 import sys
@@ -27,6 +28,9 @@ def main():
     else:
         from pipeline_megavul import main as run
 
+    # Strip the dataset arg so the pipeline script sees its own args at sys.argv[1:].
+    # e.g. ["...", "megavul", "bug_fixing"] → ["...", "bug_fixing"]
+    sys.argv = [sys.argv[0]] + sys.argv[2:]
     run()
 
 

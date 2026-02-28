@@ -36,6 +36,7 @@ class ComingTool:
         pair_dir: Path,
         source_file: str = "vulnerable.c",
         target_file: str = "patched.c",
+        output_suffix: Optional[str] = None,
     ) -> ComingRunResult:
         """Run Coming analysis on a directory containing code pairs.
 
@@ -43,6 +44,10 @@ class ComingTool:
             pair_dir: Directory containing the source and target files.
             source_file: Filename of the vulnerable/before file within pair_dir.
             target_file: Filename of the patched/after file within pair_dir.
+            output_suffix: If given, rename change_frequency.json to
+                change_frequency_{output_suffix}.json after a successful run.
+                Use this to keep bug_fixing and bug_inducing outputs in the
+                same directory without overwriting each other.
         """
         pair_dir = Path(pair_dir)
         vuln_path = pair_dir / source_file
@@ -140,6 +145,14 @@ class ComingTool:
             result.success = False
             result.error = "OutputMissing: change_frequency.json not found"
             return result
+
+        # Rename output file if a suffix was requested (e.g. "bug_fixing" →
+        # change_frequency_bug_fixing.json) so that repeated runs in different
+        # directions don't overwrite each other.
+        if output_suffix:
+            dest = pair_dir / f"change_frequency_{output_suffix}.json"
+            freq_path.rename(dest)
+            freq_path = dest
 
         # Fill in field in return type ComingRunResult
         result.change_frequency_path = freq_path
