@@ -157,23 +157,21 @@ class MegaVulDataPreparator:
         return self.pair_dirs
 
     def write_single_pair(self, pair: MegaVCodePair) -> Path:
-        dir_name = f"{pair.commit_hash}_{pair.func_name}"
-        pair_dir = self.output_dir / dir_name
-        pair_dir.mkdir(parents=True, exist_ok=True)
+        # Coming format: <output>/<diff_folder>/<modif_file>/<diff_folder>_<modif_file>_{s,t}.java
+        diff_folder = pair.commit_hash
+        modif_file = pair.func_name
 
-        v0_dir = pair_dir / "v0"
-        v1_dir = pair_dir / "v1"
-        v0_dir.mkdir(exist_ok=True)
-        v1_dir.mkdir(exist_ok=True)
+        func_dir = self.output_dir / diff_folder / modif_file
+        func_dir.mkdir(parents=True, exist_ok=True)
 
-        with open(v0_dir / "Func.java", "w", encoding="utf-8") as f:
+        prefix = f"{diff_folder}_{modif_file}"
+        with open(func_dir / f"{prefix}_s.java", "w", encoding="utf-8") as f:
             f.write(pair.vulnerable_code)
 
-        with open(v1_dir / "Func.java", "w", encoding="utf-8") as f:
+        with open(func_dir / f"{prefix}_t.java", "w", encoding="utf-8") as f:
             f.write(pair.patched_code)
 
-        meta_file = pair_dir / "metadata.json"
-        with open(meta_file, "w", encoding="utf-8") as f:
+        with open(func_dir / "metadata.json", "w", encoding="utf-8") as f:
             json.dump({
                 "id": pair.id,
                 "func_name": pair.func_name,
@@ -186,4 +184,4 @@ class MegaVulDataPreparator:
                 "file_path": pair.file_path,
             }, f, indent=4)
 
-        return pair_dir
+        return func_dir
