@@ -138,3 +138,52 @@ class MegaVulExtractor:
                 .to_dict()
             ),
         }
+
+
+class MegaVulDataPreparator:
+    def __init__(self, output_dir: Path) -> None:
+        self.output_dir = Path(output_dir)
+        self.pair_dirs: List[Path] = []
+
+    def write_pairs(self, pairs: List[MegaVCodePair]) -> List[Path]:
+        self.output_dir.mkdir(parents=True, exist_ok=True)
+        logger.info(f"Writing {len(pairs)} code pairs to {self.output_dir}")
+
+        for pair in tqdm(pairs, desc="Writing MegaVul pairs"):
+            pair_dir = self.write_single_pair(pair)
+            self.pair_dirs.append(pair_dir)
+
+        logger.info(f"Completed! Written {len(self.pair_dirs)} pairs to {self.output_dir}")
+        return self.pair_dirs
+
+    def write_single_pair(self, pair: MegaVCodePair) -> Path:
+        dir_name = f"{pair.commit_hash}_{pair.func_name}"
+        pair_dir = self.output_dir / dir_name
+        pair_dir.mkdir(parents=True, exist_ok=True)
+
+        v0_dir = pair_dir / "v0"
+        v1_dir = pair_dir / "v1"
+        v0_dir.mkdir(exist_ok=True)
+        v1_dir.mkdir(exist_ok=True)
+
+        with open(v0_dir / "Func.java", "w", encoding="utf-8") as f:
+            f.write(pair.vulnerable_code)
+
+        with open(v1_dir / "Func.java", "w", encoding="utf-8") as f:
+            f.write(pair.patched_code)
+
+        meta_file = pair_dir / "metadata.json"
+        with open(meta_file, "w", encoding="utf-8") as f:
+            json.dump({
+                "id": pair.id,
+                "func_name": pair.func_name,
+                "cve_id": pair.cve_id,
+                "cwe_ids": pair.cwe_ids,
+                "commit_hash": pair.commit_hash,
+                "parent_commit_hash": pair.parent_commit_hash,
+                "repo_name": pair.repo_name,
+                "git_url": pair.git_url,
+                "file_path": pair.file_path,
+            }, f, indent=4)
+
+        return pair_dir
