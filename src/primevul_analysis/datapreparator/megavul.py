@@ -149,27 +149,41 @@ class MegaVulDataPreparator:
         self.output_dir.mkdir(parents=True, exist_ok=True)
         logger.info(f"Writing {len(pairs)} code pairs to {self.output_dir}")
 
+        # Track occurrences per (commit_hash, func_name) to disambiguate collisions.
+        # The same function name can appear in multiple files within a single commit
+        # (e.g. the same method name in different classes). The first occurrence keeps
+        # the plain func_name; subsequent ones get a numeric suffix (_1, _2, ...).
+        seen: Dict[tuple, int] = {}
         for pair in tqdm(pairs, desc="Writing MegaVul pairs"):
-            pair_dir = self.write_single_pair(pair)
+            key = (pair.commit_hash, pair.func_name)
+            count = seen.get(key, 0)
+            seen[key] = count + 1
+            pair_dir = self.write_single_pair(pair, disambig_idx=count if count > 0 else None)
             self.pair_dirs.append(pair_dir)
 
         logger.info(f"Completed! Written {len(self.pair_dirs)} pairs to {self.output_dir}")
         return self.pair_dirs
 
-    def write_single_pair(self, pair: MegaVCodePair) -> Path:
+    def write_single_pair(self, pair: MegaVCodePair, disambig_idx: Optional[int] = None) -> Path:
         # Coming format: <output>/<diff_folder>/<modif_file>/<diff_folder>_<modif_file>_{s,t}.java
         diff_folder = pair.commit_hash
-        modif_file = pair.func_name
+        # When disambig_idx is set, append it as a suffix to distinguish same-named
+        # functions patched in different files within the same commit.
+        modif_file = pair.func_name if disambig_idx is None else f"{pair.func_name}_{disambig_idx}"
 
         func_dir = self.output_dir / diff_folder / modif_file
         func_dir.mkdir(parents=True, exist_ok=True)
 
         prefix = f"{diff_folder}_{modif_file}"
+
+        def _wrap(code: str) -> str:
+            return f"class {modif_file} {{\n{code}\n}}\n"
+
         with open(func_dir / f"{prefix}_s.java", "w", encoding="utf-8") as f:
-            f.write(pair.vulnerable_code)
+            f.write(_wrap(pair.vulnerable_code))
 
         with open(func_dir / f"{prefix}_t.java", "w", encoding="utf-8") as f:
-            f.write(pair.patched_code)
+            f.write(_wrap(pair.patched_code))
 
         with open(func_dir / "metadata.json", "w", encoding="utf-8") as f:
             json.dump({

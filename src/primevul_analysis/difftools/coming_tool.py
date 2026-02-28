@@ -3,7 +3,7 @@ import logging
 import subprocess
 from pathlib import Path
 import shutil
-from typing import List
+from typing import Callable, List, Optional, Tuple
 
 import pandas as pd
 from tqdm import tqdm
@@ -31,11 +31,22 @@ class ComingTool:
             self.timeout,
         )
 
-    def analyze_pair(self, pair_dir: Path) -> ComingRunResult:
-        """Run Coming analysis on a directory containing code pairs."""
+    def analyze_pair(
+        self,
+        pair_dir: Path,
+        source_file: str = "vulnerable.c",
+        target_file: str = "patched.c",
+    ) -> ComingRunResult:
+        """Run Coming analysis on a directory containing code pairs.
+
+        Args:
+            pair_dir: Directory containing the source and target files.
+            source_file: Filename of the vulnerable/before file within pair_dir.
+            target_file: Filename of the patched/after file within pair_dir.
+        """
         pair_dir = Path(pair_dir)
-        vuln_path = pair_dir / "vulnerable.c"
-        patched_path = pair_dir / "patched.c"
+        vuln_path = pair_dir / source_file
+        patched_path = pair_dir / target_file
 
         # Validate directory
         if not pair_dir.exists() or not pair_dir.is_dir():
@@ -46,15 +57,15 @@ class ComingTool:
                 error=f"Directory exists={pair_dir.exists()}, is_dir={pair_dir.is_dir()}"
             )
 
-        # Validate vulnerable and patched files
+        # Validate source and target files
         if not vuln_path.exists() or not patched_path.exists():
-            logger.error("Missing vulnerable or patched file in %s", pair_dir)
+            logger.error("Missing source or target file in %s", pair_dir)
             return ComingRunResult(
                 pair_dir=pair_dir,
                 success=False,
                 error=(
                     "MissingFiles: "
-                    f"vulnerable={vuln_path.exists()}, patched={patched_path.exists()}"
+                    f"source={vuln_path.exists()}, target={patched_path.exists()}"
                 )
             )
 
@@ -145,8 +156,18 @@ class ComingTool:
 
         return result
 
-    def analyze_multiple_pairs(self, pairs_root: Path) -> List[ComingRunResult]:
-        """Analyze multiple code pairs located in subdirectories of pairs_root."""
+    def analyze_multiple_pairs(
+        self,
+        pairs_root: Path,
+        file_resolver: Optional[Callable[[Path], Tuple[str, str]]] = None,
+    ) -> List[ComingRunResult]:
+        """Analyze multiple code pairs located in subdirectories of pairs_root.
+
+        Args:
+            pairs_root: Root directory containing one subdirectory per pair.
+            file_resolver: Optional callable that takes a pair directory and returns
+                (source_filename, target_filename). Defaults to ("vulnerable.c", "patched.c").
+        """
         pairs_root = Path(pairs_root)
 
         if not pairs_root.exists() or not pairs_root.is_dir():
@@ -159,9 +180,13 @@ class ComingTool:
 
         results: List[ComingRunResult] = []
         for pair_dir in tqdm(pair_dirs, desc="Analyzing code pairs with Coming"):
-            result = self.analyze_pair(pair_dir)
+            if file_resolver is not None:
+                source_file, target_file = file_resolver(pair_dir)
+                result = self.analyze_pair(pair_dir, source_file=source_file, target_file=target_file)
+            else:
+                result = self.analyze_pair(pair_dir)
             results.append(result)
-        
+
         logger.info("Completed Coming analysis on all code pairs.")
         return results
 
