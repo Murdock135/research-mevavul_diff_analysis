@@ -42,7 +42,7 @@ def main():
     df = pd.read_csv(code_pairs_csv)
 
     code_pairs: List[PrimeVCodePair] = create_code_pairs_from_dataframe(df)
-    write_pairs(code_pairs=code_pairs, output_dir=project_root / "data" / "interim" / "coming_data")
+    write_pairs(code_pairs=code_pairs, output_dir=project_root / "data" / "interim" / "coming_data" / "bug_fixing")
     
 if __name__ == "__main__":
     main()

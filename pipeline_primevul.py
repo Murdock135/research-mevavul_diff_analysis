@@ -3,8 +3,8 @@ PrimeVul analysis pipeline — steps 1–3 (requires Docker / GumTree).
 
 Steps:
   1. Extract code pairs from the PrimeVul JSONL → data/processed/code_pairs.csv
-  2. Write pair directories for GumTree → data/interim/coming_data/
-  3. Run GumTree on all pairs → data/interim/coming_data/pair_NNNNN/*.xml
+  2. Write pair directories for GumTree → data/interim/coming_data/bug_fixing/
+  3. Run GumTree on all pairs → data/interim/coming_data/bug_fixing/pair_NNNNN/*.xml
 
 Steps 4–6 (feature extraction, merge, Bayesian network) are run individually:
   uv run python -m diff_analysis.scripts.primevul.extract_features
@@ -62,7 +62,7 @@ def main():
 
     input_path = project_root / "data" / "raw" / "PrimeVul_v0.1" / "primevul_train_paired.jsonl"
     processed_dir = project_root / "data" / "processed"
-    interim_dir = project_root / "data" / "interim" / "coming_data"
+    interim_dir = project_root / "data" / "interim" / "coming_data" / "bug_fixing"
 
     processed_dir.mkdir(parents=True, exist_ok=True)
 

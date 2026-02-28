@@ -35,7 +35,7 @@ def megavul_file_resolver(func_dir: Path):
 def main():
     project_root = find_project_root()
 
-    pairs_root = project_root / "data" / "interim" / "megavul_pairs"
+    pairs_root = project_root / "data" / "interim" / "megavul_pairs" / "bug_fixing"
     func_dirs = get_func_dirs(pairs_root)
 
     coming_tool = ComingTool()

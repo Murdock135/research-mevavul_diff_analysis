@@ -3,8 +3,8 @@ MegaVul analysis pipeline — steps 1–3 (requires Docker / Coming tool).
 
 Steps:
   1. Extract code pairs from MegaVul JSON → data/processed/megavul_pairs.csv
-  2. Write pair directories for Coming → data/interim/megavul_pairs/
-  3. Run Coming on all pairs → data/interim/megavul_pairs/<commit>/<func>/change_frequency.json
+  2. Write pair directories for Coming → data/interim/megavul_pairs/bug_fixing/
+  3. Run Coming on all pairs → data/interim/megavul_pairs/bug_fixing/<commit>/<func>/change_frequency.json
 
 Run individually:
   uv run python -m diff_analysis.scripts.megavul.extract
@@ -76,7 +76,7 @@ def main():
 
     input_path = project_root / "data" / "raw" / "megavul" / "cve_with_graph_abstract_commit.json"
     processed_dir = project_root / "data" / "processed"
-    interim_dir = project_root / "data" / "interim" / "megavul_pairs"
+    interim_dir = project_root / "data" / "interim" / "megavul_pairs" / "bug_fixing"
 
     processed_dir.mkdir(parents=True, exist_ok=True)
 

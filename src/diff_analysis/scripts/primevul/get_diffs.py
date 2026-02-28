@@ -35,7 +35,7 @@ def main():
     logger.info(f"Project root determined as: {project_root}")
 
     # Define paths
-    pairs_root = project_root / "data" / "interim" / "coming_data"
+    pairs_root = project_root / "data" / "interim" / "coming_data" / "bug_fixing"
 
     # Get GumTree diffs
     results_df = get_gumtree_diffs(pairs_root=pairs_root)

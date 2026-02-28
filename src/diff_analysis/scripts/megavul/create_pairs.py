@@ -42,7 +42,7 @@ def main():
 
     code_pairs: List[MegaVCodePair] = create_code_pairs_from_dataframe(df)
 
-    output_dir = project_root / "data" / "interim" / "megavul_pairs"
+    output_dir = project_root / "data" / "interim" / "megavul_pairs" / "bug_fixing"
     preparator = MegaVulDataPreparator(output_dir=output_dir)
     preparator.write_pairs(code_pairs)
     logger.info(f"Written {len(code_pairs)} pairs to {output_dir}")

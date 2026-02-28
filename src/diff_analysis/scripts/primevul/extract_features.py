@@ -100,7 +100,7 @@ def extract_features_from_xmls(
 def main():
     # Set paths
     project_root = find_project_root()
-    xml_dir = project_root / "data" / "interim" / "coming_data"
+    xml_dir = project_root / "data" / "interim" / "coming_data" / "bug_fixing"
     output_path = project_root / "data" / "processed" / "gumtree_features.csv"
 
     logger.info(f"Project root: {project_root}")
