@@ -5,7 +5,7 @@ from dataclasses import dataclass
 from pydantic import BaseModel, ConfigDict, Field
 
 
-class CodePair(BaseModel):
+class PrimeVCodePair(BaseModel):
     id: str
     vulnerable_code: str
     patched_code: str
@@ -15,6 +15,18 @@ class CodePair(BaseModel):
     cve: str
     cwe: List[str]
     commit_id: str
+class MegaVCodePair(BaseModel):
+    id: str                          # unique identifier: f"{commit_hash}_{func_name}_{index}"
+    func_name: str
+    vulnerable_code: str             # func_before
+    patched_code: str                # func_after
+    cve_id: str
+    cwe_ids: list[str]
+    commit_hash: str
+    parent_commit_hash: str
+    repo_name: str
+    git_url: str
+    file_path: str                   # relative path within repo
 
 
 class ComingChangeFrequencyEntry(BaseModel):

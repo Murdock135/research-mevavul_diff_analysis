@@ -1,7 +1,7 @@
 from primevul_analysis.datapreparator.extract import PrimeVulExtractor, DataPreparator
 from primevul_analysis.difftools.coming_tool import ComingTool
 from primevul_analysis.difftools.gumtree import GumTreeTool, GumTreeToolPairsExecutor
-from primevul_analysis.types import CodePair
+from primevul_analysis.types import PrimeVCodePair
 from primevul_analysis.utils.gumtree_utils import results_to_dataframe
 
 from pathlib import Path
@@ -18,13 +18,13 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-def extract_code_pairs(input_path: Path, output_path: Path) -> List[CodePair]:
+def extract_code_pairs(input_path: Path, output_path: Path) -> List[PrimeVCodePair]:
     extractor = PrimeVulExtractor(input_path=input_path, output_path=output_path)
-    code_pairs: List[CodePair] = extractor.extract_code_pairs()
+    code_pairs: List[PrimeVCodePair] = extractor.extract_code_pairs()
     _ = extractor.save_code_pairs(code_pairs, format='csv', output_path=output_path / "code_pairs.csv")
     return code_pairs
 
-def prepare_coming_data(code_pairs: List[CodePair], output_dir: Path) -> None:
+def prepare_coming_data(code_pairs: List[PrimeVCodePair], output_dir: Path) -> None:
     preparator = DataPreparator(output_dir=output_dir)
     _ = preparator.write_pairs(code_pairs)
 

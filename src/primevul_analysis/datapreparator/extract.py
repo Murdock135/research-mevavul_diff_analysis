@@ -8,7 +8,7 @@ from typing import List, Optional, Dict
 import pandas as pd
 from tqdm import tqdm
 
-from primevul_analysis.types import CodePair
+from primevul_analysis.types import PrimeVCodePair
 
 logger = logging.getLogger(__name__)
 
@@ -37,9 +37,9 @@ class PrimeVulExtractor:
         logger.info(f"Loaded {len(self.df)} records")
         return self.df
     
-    def extract_code_pairs(self) -> List[CodePair]:
+    def extract_code_pairs(self) -> List[PrimeVCodePair]:
         df = self._load_data()
-        code_pairs: List[CodePair] = []
+        code_pairs: List[PrimeVCodePair] = []
         
         total_commits = df['commit_id'].nunique()
         logger.info(f"Extracting pairs from {total_commits} unique commits")
@@ -60,7 +60,7 @@ class PrimeVulExtractor:
                 vuln_row = vuln_group.iloc[0]
                 patched_row = patched_group.iloc[0]
 
-                code_pair = CodePair(
+                code_pair = PrimeVCodePair(
                     id=str(vuln_row['idx']),
                     vulnerable_code=vuln_row['func'],
                     patched_code=patched_row['func'],
@@ -86,7 +86,7 @@ class PrimeVulExtractor:
         logger.info(f"Extracted {len(code_pairs)} complete pairs (skipped {skipped}, failed {failed})")
         return code_pairs
     
-    def save_code_pairs(self, code_pairs: List[CodePair], format: str = 'csv', output_path: Optional[Path] = None) -> pd.DataFrame:
+    def save_code_pairs(self, code_pairs: List[PrimeVCodePair], format: str = 'csv', output_path: Optional[Path] = None) -> pd.DataFrame:
         """
         Save the extracted code pairs to the specified format (csv or json).
         """
@@ -125,7 +125,7 @@ class PrimeVulExtractor:
             'top_cwes': df['cwe'].value_counts().head(10).to_dict(),
         }
     
-    def filter_by_cwe(self, cwe_list: List[str]) -> List[CodePair]:
+    def filter_by_cwe(self, cwe_list: List[str]) -> List[PrimeVCodePair]:
         """Filter pairs by CWE type."""
         return [p for p in self.code_pairs if p.cwe in cwe_list]
     
@@ -141,7 +141,7 @@ class DataPreparator:
         self.output_dir = Path(output_dir)
         self.pair_dirs: List[Path] = []
 
-    def write_pairs(self, pairs: List[CodePair], output_path: Optional[str] = None) -> List[Path]:
+    def write_pairs(self, pairs: List[PrimeVCodePair], output_path: Optional[str] = None) -> List[Path]:
         """
         Write code pairs (vulnerable and patched) to individual directories for analysis tools.
         """
@@ -160,7 +160,7 @@ class DataPreparator:
         logger.info(f"Completed! Written {len(self.pair_dirs)} pairs to {output_dir}")
         return self.pair_dirs
 
-    def write_single_pair(self, pair: CodePair, index: int, output_dir: Optional[Path] = None) -> Path:
+    def write_single_pair(self, pair: PrimeVCodePair, index: int, output_dir: Optional[Path] = None) -> Path:
         """Write a single code pair to its own directory."""
         #FIXME: output_dir parameter is redundant since self.output_dir exists
         output_dir = output_dir if output_dir is not None else self.output_dir

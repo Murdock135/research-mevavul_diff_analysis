@@ -1,5 +1,5 @@
 from primevul_analysis.datapreparator.extract import DataPreparator
-from primevul_analysis.types import CodePair
+from primevul_analysis.types import PrimeVCodePair
 from primevul_analysis.utils.config_utils import find_project_root
 
 import pandas as pd
@@ -18,10 +18,10 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-def create_CodePairs_from_dataframe(df: pd.DataFrame) -> List[CodePair]:
-    code_pairs: List[CodePair] = []
+def create_code_pairs_from_dataframe(df: pd.DataFrame) -> List[PrimeVCodePair]:
+    code_pairs: List[PrimeVCodePair] = []
     for i, row in df.iterrows():
-        pair = CodePair(
+        pair = PrimeVCodePair(
             id=str(row['id']),
             vulnerable_code=row['vulnerable_code'],
             patched_code=row['patched_code'],
@@ -36,7 +36,7 @@ def create_CodePairs_from_dataframe(df: pd.DataFrame) -> List[CodePair]:
 
     return code_pairs
 
-def write_pairs(code_pairs: List[CodePair], output_dir: Path) -> None:
+def write_pairs(code_pairs: List[PrimeVCodePair], output_dir: Path) -> None:
     preparator = DataPreparator(output_dir=output_dir)
     _ = preparator.write_pairs(code_pairs)
 
@@ -46,7 +46,7 @@ def main():
     code_pairs_csv = project_root / "data" / "code_pairs.csv"
     df = pd.read_csv(code_pairs_csv)
 
-    code_pairs: List[CodePair] = create_CodePairs_from_dataframe(df)
+    code_pairs: List[PrimeVCodePair] = create_code_pairs_from_dataframe(df)
     write_pairs(code_pairs=code_pairs, output_dir=project_root / "data" / "coming_data")
     
 if __name__ == "__main__":
