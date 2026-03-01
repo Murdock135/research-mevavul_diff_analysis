@@ -36,6 +36,19 @@ class MegaVCodePair(BaseModel):
     cvss_base_severity: str          # e.g. "HIGH", "MEDIUM"
     cvss_is_v3: bool                 # True if score is CVSSv3
 
+class FuncDir(BaseModel):
+    source: Path                        # <hash>_<func>_s.json
+    target: Path                        # <hash>_<func>_t.json
+    change_frequency_bug_fixing: Path   # change_frequency_bug_fixing.json
+    change_frequency_bug_inducing: Path # change_frequency_bug_inducing.json
+    metadata: Path                      # metadata.json
+
+
+class HashDir(BaseModel):
+    func_dirs: List[FuncDir]
+
+class ComingPairDataDir(BaseModel):
+    HashDirs: List[HashDir]
 
 class ComingChangeFrequencyEntry(BaseModel):
     """Single entry from Coming 'frequency' list."""
