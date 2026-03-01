@@ -118,7 +118,7 @@ Total AST operations per function (sum across all feature columns):
 
 Ranked by `|mean(vul) - mean(patch)|` — the mean absolute difference in feature value between the vulnerable and patched versions of the same functions:
 
-| Feature | |mean_vul − mean_patch| |
+| Feature | \|mean_vul − mean_patch\| |
 |---|---|
 | `delete-node_If_Block` | 0.1566 |
 | `insert-node_If_Block` | 0.1558 |
