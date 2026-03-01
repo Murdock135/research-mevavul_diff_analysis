@@ -44,15 +44,22 @@ class MegaVulExtractor:
         for cve_entry in tqdm(data, desc="Extracting MegaVul pairs"):
             cve_id: str = cve_entry.get("cve_id", "")
             cwe_ids: List[str] = cve_entry.get("cwe_ids", [])
+            cvss_vector: str = cve_entry.get("cvss_vector")
+            cvss_base_score: float = cve_entry.get("cvss_base_score")
+            cvss_base_severity: str = cve_entry.get("cvss_base_severity")
+            cvss_is_v3: bool = cve_entry.get("cvss_is_v3")
 
             for commit in cve_entry.get("commits", []):
                 commit_hash: str = commit.get("commit_hash", "")
                 parent_commit_hash: str = commit.get("parent_commit_hash", "")
                 repo_name: str = commit.get("repo_name", "")
                 git_url: str = commit.get("git_url", "")
+                commit_date: int = commit.get("commit_date")
+                commit_msg: str = commit.get("commit_msg")
 
                 for file_entry in commit.get("files", []):
                     file_path: str = file_entry.get("file_path", "")
+                    file_name: str = file_entry.get("file_name")
 
                     for idx, func in enumerate(file_entry.get("vulnerable_functions", [])):
                         try:
@@ -76,6 +83,13 @@ class MegaVulExtractor:
                                 repo_name=repo_name,
                                 git_url=git_url,
                                 file_path=file_path,
+                                file_name=file_name,
+                                commit_date=commit_date,
+                                commit_msg=commit_msg,
+                                cvss_vector=cvss_vector,
+                                cvss_base_score=cvss_base_score,
+                                cvss_base_severity=cvss_base_severity,
+                                cvss_is_v3=cvss_is_v3,
                             )
                             code_pairs.append(pair)
 
@@ -196,6 +210,13 @@ class MegaVulDataPreparator:
                 "repo_name": pair.repo_name,
                 "git_url": pair.git_url,
                 "file_path": pair.file_path,
+                "file_name": pair.file_name,
+                "commit_date": pair.commit_date,
+                "commit_msg": pair.commit_msg,
+                "cvss_vector": pair.cvss_vector,
+                "cvss_base_score": pair.cvss_base_score,
+                "cvss_base_severity": pair.cvss_base_severity,
+                "cvss_is_v3": pair.cvss_is_v3,
             }, f, indent=4)
 
         return func_dir

@@ -30,6 +30,13 @@ def create_code_pairs_from_dataframe(df: pd.DataFrame) -> List[MegaVCodePair]:
             repo_name=str(row['repo_name']),
             git_url=str(row['git_url']),
             file_path=str(row['file_path']),
+            file_name=str(row['file_name']),
+            commit_date=int(row['commit_date']),
+            commit_msg=str(row['commit_msg']),
+            cvss_vector=str(row['cvss_vector']),
+            cvss_base_score=float(row['cvss_base_score']),
+            cvss_base_severity=str(row['cvss_base_severity']),
+            cvss_is_v3=bool(row['cvss_is_v3']),
         )
         code_pairs.append(pair)
     return code_pairs

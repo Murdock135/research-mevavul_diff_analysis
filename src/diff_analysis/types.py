@@ -15,6 +15,7 @@ class PrimeVCodePair(BaseModel):
     cve: str
     cwe: List[str]
     commit_id: str
+    
 class MegaVCodePair(BaseModel):
     id: str                          # unique identifier: f"{commit_hash}_{func_name}_{index}"
     func_name: str
@@ -27,6 +28,13 @@ class MegaVCodePair(BaseModel):
     repo_name: str
     git_url: str
     file_path: str                   # relative path within repo
+    file_name: str                   # basename of the file containing the function
+    commit_date: int                 # Unix timestamp of the fixing commit
+    commit_msg: str                  # commit message of the fixing commit
+    cvss_vector: str                 # full CVSS vector string
+    cvss_base_score: float
+    cvss_base_severity: str          # e.g. "HIGH", "MEDIUM"
+    cvss_is_v3: bool                 # True if score is CVSSv3
 
 
 class ComingChangeFrequencyEntry(BaseModel):
