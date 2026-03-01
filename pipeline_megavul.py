@@ -7,7 +7,7 @@ Usage:
 
 Steps:
   1. Extract code pairs from MegaVul JSON → data/processed/megavul_pairs.csv
-  2. Write pair directories for Coming → data/interim/megavul_pairs/bug_fixing/
+  2. Write pair directories for Coming → data/interim/megavul_pairs/
   3. Run Coming on all pairs → .../change_frequency_{direction}.json
 
 Run step 3 individually:
@@ -94,7 +94,7 @@ def main():
 
     input_path = project_root / "data" / "raw" / "megavul" / "cve_with_graph_abstract_commit.json"
     processed_dir = project_root / "data" / "processed"
-    interim_dir = project_root / "data" / "interim" / "megavul_pairs" / "bug_fixing"
+    interim_dir = project_root / "data" / "interim" / "megavul_pairs"
 
     processed_dir.mkdir(parents=True, exist_ok=True)
 

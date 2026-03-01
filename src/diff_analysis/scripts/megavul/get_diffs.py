@@ -94,7 +94,7 @@ def main():
 
     project_root = find_project_root()
 
-    pairs_root = project_root / "data" / "interim" / "megavul_pairs" / "bug_fixing"
+    pairs_root = project_root / "data" / "interim" / "megavul_pairs"
 
     coming_tool = ComingTool()
 

@@ -81,7 +81,7 @@ data/
 │   └── megavul/             # LFS-tracked
 ├── interim/                 # Intermediate pipeline artifacts (gitignored)
 │   ├── coming_data/         # PrimeVul pair dirs + GumTree XML diffs
-│   └── megavul_pairs/       # MegaVul pair dirs + Coming change_frequency.json
+│   └── megavul_pairs/       # MegaVul pair dirs + Coming change_frequency_{direction}.json
 ├── processed/               # Analysis-ready CSVs (gitignored)
 │   ├── code_pairs.csv
 │   ├── megavul_pairs.csv
@@ -106,7 +106,7 @@ data/
 
 1. **`extract.py`** — Reads MegaVul JSON, saves `data/processed/megavul_pairs.csv`.
 2. **`create_pairs.py`** — Writes pair directories to `data/interim/megavul_pairs/<commit_hash>/<func_name>/`. Java snippets are wrapped in a class declaration so Spoon can parse them.
-3. **`get_diffs.py`** — Runs Coming on each pair directory (**requires Docker**), saves `change_frequency.json` inside each pair dir.
+3. **`get_diffs.py`** — Runs Coming on each pair directory (**requires Docker**), saves `change_frequency_{direction}.json` inside each pair dir (`direction` = `bug_fixing` or `bug_inducing`).
 
 ## Key Architecture
 
