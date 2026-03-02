@@ -137,6 +137,7 @@ class GumTreeFeatureExtractor:
         feats.update(self._control_flow_features(diff))
         feats.update(self._update_label_features(diff))
 
+        # TODO: We don't need this check. We can simply check if any of these aren't provided and exit early if so.
         if vulnerable_code is not None and patched_code is not None:
             feats.update(self._span_text_features(diff, vulnerable_code, patched_code))
             feats.update(self._security_features(
