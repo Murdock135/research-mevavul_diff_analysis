@@ -21,6 +21,8 @@ import logging
 import pickle
 from pathlib import Path
 
+import matplotlib.colors as mcolors
+import matplotlib.font_manager as fmgr
 import matplotlib.patches as mpatches
 import matplotlib.pyplot as plt
 import networkx as nx
@@ -37,25 +39,139 @@ from diff_analysis.utils.logging import setup_logging
 setup_logging(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+# ---------------------------------------------------------------------------
+# Font selection — prefer Fira Mono › Overpass Mono › Cascadia Mono › fallback
+# ---------------------------------------------------------------------------
+
+_AVAILABLE_FONTS = {f.name for f in fmgr.fontManager.ttflist}
+
+def _pick_font(candidates: list, fallback: str = "DejaVu Sans Mono") -> str:
+    for name in candidates:
+        if name in _AVAILABLE_FONTS:
+            logger.info(f"Figure font: {name}")
+            return name
+    logger.info(f"Figure font: {fallback} (fallback)")
+    return fallback
+
+FIGURE_FONT = _pick_font(["Fira Mono", "Overpass Mono", "Cascadia Mono"])
+
+# ---------------------------------------------------------------------------
+# Global figure style
+# ---------------------------------------------------------------------------
+
+plt.rcParams.update({
+    "font.family":           "monospace",
+    "font.monospace":        [FIGURE_FONT, "DejaVu Sans Mono", "Courier New"],
+    "font.size":             10,
+    "axes.titlesize":        12,
+    "axes.labelsize":        10,
+    "xtick.labelsize":       9,
+    "ytick.labelsize":       9,
+    "legend.fontsize":       9,
+    "legend.framealpha":     0.90,
+    "figure.facecolor":      "#F8F7FA",
+    "axes.facecolor":        "#F8F7FA",
+    "axes.edgecolor":        "#39364F",
+    "axes.linewidth":        0.8,
+    "axes.spines.top":       False,
+    "axes.spines.right":     False,
+    "grid.color":            "#d0cfe4",
+    "grid.linewidth":        0.6,
+    "savefig.dpi":           300,
+    "savefig.bbox":          "tight",
+    "savefig.facecolor":     "#F8F7FA",
+})
+
 TARGET_COL = "is_vul"
 
+# Internal short prefixes used by shorten() (for table Feature column)
 ACTION_PREFIXES = {
     "delete-node": "dn",
     "insert-node": "in",
     "move-tree":   "mt",
     "update-node": "un",
 }
-ACTION_COLORS = {
-    "delete-node": "#e74c3c",
-    "insert-node": "#2ecc71",
-    "move-tree":   "#3498db",
-    "update-node": "#f39c12",
+
+# Display abbreviations used by label() (for figure axes / node labels)
+ACTION_ABBR: dict[str, str] = {
+    "delete-node": "DEL",
+    "insert-node": "INS",
+    "move-tree":   "MV",
+    "update-node": "UPD",
 }
-DEFAULT_COLOR  = "#95a5a6"
-TARGET_COLOR   = "#8e44ad"
-EDGE_INTO_TGT  = "#27ae60"   # feature → is_vul
-EDGE_FROM_TGT  = "#e67e22"   # is_vul → feature
-EDGE_OTHER     = "#bdc3c7"
+
+NODE_ABBR: dict[str, str] = {
+    "Annotation":                    "ANNOT",
+    "ArrayRead":                     "ARRAY READ",
+    "ArrayTypeReference":            "ARRAY TYPE REF",
+    "Assert":                        "ASSERT",
+    "Assignment":                    "ASSIGNMENT",
+    "BinaryOperator":                "BINARY OP",
+    "Block":                         "BLOCK",
+    "Break":                         "BREAK",
+    "Case":                          "CASE",
+    "Catch":                         "CATCH",
+    "CatchVariable":                 "CATCH VAR",
+    "Class":                         "CLASS",
+    "Conditional":                   "CONDITIONAL",
+    "ConstructorCall":               "CONSTRUCTOR",
+    "Do":                            "DO",
+    "ExecutableReference":           "EXEC REF",
+    "ExecutableReferenceExpression": "EXEC REF EXPR",
+    "Field":                         "FIELD",
+    "FieldRead":                     "FIELD READ",
+    "FieldWrite":                    "FIELD WRITE",
+    "For":                           "FOR",
+    "ForEach":                       "FOR EACH",
+    "If":                            "IF",
+    "Invocation":                    "INVOCATION",
+    "Lambda":                        "LAMBDA",
+    "Literal":                       "LITERAL",
+    "LocalVariable":                 "LOCAL VAR",
+    "Method":                        "METHOD",
+    "NewArray":                      "NEW ARRAY",
+    "NewClass":                      "NEW CLASS",
+    "OperatorAssignment":            "OP ASSIGN",
+    "Parameter":                     "PARAMETER",
+    "Return":                        "RETURN",
+    "Switch":                        "SWITCH",
+    "Synchronized":                  "SYNCHRONIZED",
+    "ThisAccess":                    "THIS ACCESS",
+    "Throw":                         "THROW",
+    "Try":                           "TRY",
+    "TryWithResource":               "TRY WITH RESOURCE",
+    "TypeAccess":                    "TYPE ACCESS",
+    "TypeParameter":                 "TYPE PARAM",
+    "TypeParameterReference":        "TYPE PARAM REF",
+    "TypeReference":                 "TYPE REF",
+    "UnaryOperator":                 "UNARY OP",
+    "VariableRead":                  "VAR READ",
+    "VariableWrite":                 "VAR WRITE",
+    "VirtualElement":                "VIRTUAL ELEM",
+    "While":                         "WHILE",
+    "WildcardReference":             "WILDCARD REF",
+    "Wrapper":                       "WRAPPER",
+}
+
+# Custom brand palette
+# #F05537 coral red  · #3D64FF royal blue  · #1E0A3C deep indigo
+# #39364F slate      · #F8F7FA off-white   · #FFFFFF white
+ACTION_COLORS = {
+    "delete-node": "#F05537",   # coral red
+    "insert-node": "#3D64FF",   # royal blue
+    "move-tree":   "#39364F",   # slate
+    "update-node": "#1E0A3C",   # deep indigo
+}
+DEFAULT_COLOR  = "#39364F"      # slate
+TARGET_COLOR   = "#1E0A3C"      # deep indigo (target node)
+EDGE_INTO_TGT  = "#F05537"      # feature → is_vul  (coral — causal)
+EDGE_FROM_TGT  = "#3D64FF"      # is_vul → feature  (royal blue — associated)
+EDGE_OTHER     = "#d0cfe4"      # feature ↔ feature (muted lavender)
+
+# Diverging colormap: royal blue → off-white → coral red
+HEATMAP_CMAP = mcolors.LinearSegmentedColormap.from_list(
+    "brand_div", ["#3D64FF", "#F8F7FA", "#F05537"]
+)
 
 
 # ---------------------------------------------------------------------------
@@ -63,10 +179,23 @@ EDGE_OTHER     = "#bdc3c7"
 # ---------------------------------------------------------------------------
 
 def shorten(name: str) -> str:
+    """Short internal form used in table Feature column (e.g. dn_If_Block)."""
     for full, abbr in ACTION_PREFIXES.items():
         if name.startswith(full + "_"):
             return abbr + "_" + name[len(full) + 1:]
     return name
+
+
+def label(name: str) -> str:
+    """Human-readable block-letter display label for figures (e.g. DEL IF BLK)."""
+    if name == TARGET_COL:
+        return name.upper()
+    for action, abbr in ACTION_ABBR.items():
+        if name.startswith(action + "_"):
+            rest = name[len(action) + 1:]
+            toks = " ".join(NODE_ABBR.get(t, t.upper()) for t in rest.split("_"))
+            return f"{abbr} {toks}"
+    return name.upper()
 
 
 def action_type(name: str) -> str:
@@ -220,7 +349,7 @@ def figure_dag_full(pipeline: BNPipeline, figures_dir: Path, *, stem: str = "bn1
         pos = nx.spring_layout(G, seed=42)
 
     colors = [node_color(n) for n in G.nodes()]
-    labels = {n: (n if n == TARGET_COL else shorten(n)) for n in G.nodes()}
+    labels = {n: label(n) for n in G.nodes()}
     edge_colors = [
         EDGE_INTO_TGT if v == TARGET_COL else
         EDGE_FROM_TGT if u == TARGET_COL else
@@ -278,7 +407,7 @@ def figure_dag_ego(pipeline: BNPipeline, figures_dir: Path, *, stem: str = "bn1"
             pos[c] = (4.0, total / 2 - i * spacing)
 
     colors = [node_color(n) for n in ego.nodes()]
-    labels = {n: (n if n == TARGET_COL else shorten(n)) for n in ego.nodes()}
+    labels = {n: label(n) for n in ego.nodes()}
     edge_colors = [
         EDGE_INTO_TGT if v == TARGET_COL else EDGE_FROM_TGT
         for u, v in ego.edges()
@@ -324,7 +453,7 @@ def figure_heatmap(bn, figures_dir: Path, *, stem: str = "bn1") -> None:
     ve = VariableElimination(bn)
     parents  = list(bn.get_parents(TARGET_COL))       # 3 parents
     vul_idx  = list(bn.get_cpds(TARGET_COL).state_names[TARGET_COL]).index("1")
-    short_p  = [shorten(p) for p in parents]
+    short_p  = [label(p) for p in parents]
 
     records = []
     for vals in itertools.product(["0", "1"], repeat=3):
@@ -352,7 +481,7 @@ def figure_heatmap(bn, figures_dir: Path, *, stem: str = "bn1") -> None:
         sns.heatmap(
             sub, ax=ax, annot=True, fmt=".3f",
             vmin=vmin, vmax=vmax, center=0.5,
-            cmap="RdYlGn_r", linewidths=0.5, linecolor="white",
+            cmap=HEATMAP_CMAP, linewidths=0.5, linecolor="#F8F7FA",
             cbar=(p2_val == 1), annot_kws={"size": 12},
         )
         ax.set_title(f"{s2} = {p2_val}", fontsize=11)
@@ -372,14 +501,14 @@ def figure_heatmap(bn, figures_dir: Path, *, stem: str = "bn1") -> None:
 def figure_mi_bar(mi_series: pd.Series, figures_dir: Path, k: int = 20, *, stem: str = "bn1") -> None:
     top    = mi_series.head(k)
     colors = [ACTION_COLORS.get(action_type(f), DEFAULT_COLOR) for f in top.index]
-    names  = [shorten(f) for f in top.index]
+    names  = [label(f) for f in top.index]
 
-    fig, ax = plt.subplots(figsize=(8, 7))
+    fig, ax = plt.subplots(figsize=(11, 8))
     ax.barh(names[::-1], top.values[::-1], color=colors[::-1],
             edgecolor="white", height=0.72)
     ax.set_xlabel("Mutual Information with is_vul", fontsize=11)
     ax.set_title(f"Top-{k} Features by Mutual Information (BN1)", fontsize=12)
-    ax.tick_params(axis="y", labelsize=8)
+    ax.tick_params(axis="y", labelsize=9)
     ax.spines[["top", "right"]].set_visible(False)
 
     legend_handles = [
