@@ -247,7 +247,7 @@ def figure_dag_full(pipeline: BNPipeline, figures_dir: Path, *, stem: str = "bn1
     ax.set_title("BN1: Learned DAG — Code Changes → Vulnerability", fontsize=14)
     ax.axis("off")
     plt.tight_layout()
-    save_fig(fig, figures_dir / "dag_full", f"{stem}_dag_full")
+    save_fig(fig, figures_dir / "bn1" / "dag_full", f"{stem}_dag_full")
     plt.close(fig)
 
 
@@ -312,7 +312,7 @@ def figure_dag_ego(pipeline: BNPipeline, figures_dir: Path, *, stem: str = "bn1"
     ax.set_title(f"BN1: 1-Hop Neighbourhood of {TARGET_COL}", fontsize=13)
     ax.axis("off")
     plt.tight_layout()
-    save_fig(fig, figures_dir / "dag_ego", f"{stem}_dag_ego")
+    save_fig(fig, figures_dir / "bn1" / "dag_ego", f"{stem}_dag_ego")
     plt.close(fig)
 
 
@@ -361,7 +361,7 @@ def figure_heatmap(bn, figures_dir: Path, *, stem: str = "bn1") -> None:
 
     fig.suptitle(f"P(is_vul=1 | parent states) — BN1", fontsize=13, y=1.04)
     plt.tight_layout()
-    save_fig(fig, figures_dir / "heatmap", f"{stem}_heatmap")
+    save_fig(fig, figures_dir / "bn1" / "heatmap", f"{stem}_heatmap")
     plt.close(fig)
 
 
@@ -387,7 +387,7 @@ def figure_mi_bar(mi_series: pd.Series, figures_dir: Path, k: int = 20, *, stem:
     ]
     ax.legend(handles=legend_handles, fontsize=9, loc="lower right")
     plt.tight_layout()
-    save_fig(fig, figures_dir / "mi_bar", f"{stem}_mi_bar")
+    save_fig(fig, figures_dir / "bn1" / "mi_bar", f"{stem}_mi_bar")
     plt.close(fig)
 
 
@@ -431,17 +431,17 @@ if __name__ == "__main__":
 
     # ---- Tables ----
     logger.info("T1: dataset summary...")
-    save_table(table_dataset_summary(df_raw, TARGET_COL), tables_dir / "dataset", f"{stem}_dataset")
+    save_table(table_dataset_summary(df_raw, TARGET_COL), tables_dir / "bn1" / "dataset", f"{stem}_dataset")
 
     logger.info("T2/F3: computing MI on all 496 features...")
     mi_series = compute_mi_series(df_raw, TARGET_COL)
-    save_table(table_mi_top20(mi_series), tables_dir / "mi_top20", f"{stem}_mi_top20")
+    save_table(table_mi_top20(mi_series), tables_dir / "bn1" / "mi_top20", f"{stem}_mi_top20")
 
     logger.info("T3: structure summary...")
-    save_table(table_structure_summary(pipeline, TARGET_COL), tables_dir / "structure", f"{stem}_structure")
+    save_table(table_structure_summary(pipeline, TARGET_COL), tables_dir / "bn1" / "structure", f"{stem}_structure")
 
     logger.info("T4: lift table (VariableElimination)...")
-    save_table(table_lift(bn, TARGET_COL), tables_dir / "lift", f"{stem}_lift")
+    save_table(table_lift(bn, TARGET_COL), tables_dir / "bn1" / "lift", f"{stem}_lift")
 
     # ---- Figures ----
     logger.info("F1a: full DAG...")
