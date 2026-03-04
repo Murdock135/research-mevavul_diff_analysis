@@ -29,6 +29,7 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+from tqdm.auto import tqdm
 from pgmpy.base import DAG as PgmDAG
 from pgmpy.estimators import BayesianEstimator
 from pgmpy.estimators import BIC as BicScore
@@ -196,6 +197,7 @@ class BNPipeline:
         hcs_c: float = 0.05,
         hcs_max_restarts: int = 100,
         hcs_n_edges: int | None = None,
+        show_progress: bool = True,
     ) -> "BNPipeline":
         """Run structure learning on model_df; sets self.edges.
 
@@ -216,6 +218,7 @@ class BNPipeline:
         hcs_c             : missing-mass target; stop when cn < hcs_c
         hcs_max_restarts  : hard cap on restarts (safety valve)
         hcs_n_edges       : edges in each random starting DAG; default = n_nodes // 4
+        show_progress     : show tqdm bar per restart (True); fall back to per-restart INFO log (False)
         """
         assert self.model_df is not None, "Call preprocess() before learn_structure()"
 
@@ -247,41 +250,58 @@ class BNPipeline:
                 f"hcs_max={hcs_max_restarts}, n_edges_per_restart={n_edges}"
             )
             t0 = time.time()
+            converged = False
+            with tqdm(
+                range(hcs_max_restarts),
+                desc="HCS",
+                unit="restart",
+                disable=not show_progress,
+            ) as pbar:
+                for restart in pbar:
+                    n = restart + 1
+                    start_dag = (
+                        None if restart == 0
+                        else _random_dag(nodes, n_edges, random.Random(restart))
+                    )
+                    dag = HillClimbSearch(self.model_df).estimate(
+                        scoring_method=score,
+                        start_dag=start_dag,
+                        tabu_length=tabu_length,
+                        max_iter=max_iter,
+                        show_progress=False,
+                        **kwargs,
+                    )
+                    key = frozenset(dag.edges())
+                    s = dag_score(dag)
+                    edge_key_counts[key] = edge_key_counts.get(key, 0) + 1
+                    for edge in dag.edges():
+                        edge_inclusion_counts[edge] = edge_inclusion_counts.get(edge, 0) + 1
 
-            for restart in range(hcs_max_restarts):
-                n = restart + 1
-                start_dag = (
-                    None if restart == 0
-                    else _random_dag(nodes, n_edges, random.Random(restart))
-                )
-                dag = HillClimbSearch(self.model_df).estimate(
-                    scoring_method=score,
-                    start_dag=start_dag,
-                    tabu_length=tabu_length,
-                    max_iter=max_iter,
-                    show_progress=False,
-                    **kwargs,
-                )
-                key = frozenset(dag.edges())
-                s = dag_score(dag)
-                edge_key_counts[key] = edge_key_counts.get(key, 0) + 1
-                for edge in dag.edges():
-                    edge_inclusion_counts[edge] = edge_inclusion_counts.get(edge, 0) + 1
+                    if s > best_score:
+                        best_score, best_dag = s, dag
 
-                if s > best_score:
-                    best_score, best_dag = s, dag
+                    f1 = sum(1 for cnt in edge_key_counts.values() if cnt == 1)
+                    cn = f1 / n + _HCS_CONST * math.sqrt(math.log(3 / hcs_delta) / n)
+                    history.append({
+                        "restart": n, "score": s, "f1": f1, "cn": cn, "hcs_c": hcs_c,
+                        "edges": [list(e) for e in dag.edges()],
+                    })
+                    if show_progress:
+                        pbar.set_postfix(
+                            score=f"{s:.0f}", cn=f"{cn:.3f}",
+                            best=f"{best_score:.0f}", f1=f1, refresh=False,
+                        )
+                    else:
+                        logger.info(
+                            f"  restart {n:3d}: score={s:.1f}, edges={len(key)}, "
+                            f"f1={f1}, cn={cn:.4f} (target<{hcs_c}), best={best_score:.1f}"
+                        )
+                    if cn < hcs_c:
+                        logger.info(f"HCS converged after {n} restarts ({time.time()-t0:.1f}s)")
+                        converged = True
+                        break
 
-                f1 = sum(1 for cnt in edge_key_counts.values() if cnt == 1)
-                cn = f1 / n + _HCS_CONST * math.sqrt(math.log(3 / hcs_delta) / n)
-                history.append({"restart": n, "score": s, "f1": f1, "cn": cn, "hcs_c": hcs_c})
-                logger.info(
-                    f"  restart {n:3d}: score={s:.1f}, edges={len(list(dag.edges()))}, "
-                    f"f1={f1}, cn={cn:.4f} (target<{hcs_c}), best={best_score:.1f}"
-                )
-                if cn < hcs_c:
-                    logger.info(f"HCS converged after {n} restarts ({time.time()-t0:.1f}s)")
-                    break
-            else:
+            if not converged:
                 logger.warning(
                     f"HCS reached hard cap of {hcs_max_restarts} restarts without converging "
                     f"(final cn={cn:.4f}, target={hcs_c})"
@@ -314,8 +334,8 @@ class BNPipeline:
 
         self.edges = list(learned_dag.edges())
         target_edges = [(u, v) for u, v in self.edges if self.target_col in (u, v)]
-        logger.info(f"Total edges: {len(self.edges)}")
-        logger.info(f"Edges on {self.target_col} ({len(target_edges)}): {target_edges}")
+        logger.info(f"Total edges: {len(self.edges)}, on {self.target_col}: {len(target_edges)}")
+        logger.debug(f"Edges on {self.target_col}: {target_edges}")
         return self
 
     def load_edges(self, edges_file: Path | str) -> "BNPipeline":
