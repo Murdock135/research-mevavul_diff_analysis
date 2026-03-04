@@ -521,6 +521,109 @@ def figure_mi_bar(mi_series: pd.Series, figures_dir: Path, k: int = 20, *, stem:
 
 
 # ---------------------------------------------------------------------------
+# T5: Hyperparameter grid search results
+# ---------------------------------------------------------------------------
+
+def table_grid_results(grid_csv: Path) -> pd.DataFrame:
+    """Load tune_bn1_grid.csv and return it sorted by bic_score descending."""
+    df = pd.read_csv(grid_csv)
+    return df.sort_values("bic_score", ascending=False).reset_index(drop=True)
+
+
+# ---------------------------------------------------------------------------
+# F4: HCS convergence curve  (cn vs. restart n)
+# ---------------------------------------------------------------------------
+
+def figure_hcs_convergence(pipeline: BNPipeline, figures_dir: Path, *, stem: str = "bn1") -> None:
+    """Plot the HCS stopping-criterion bound cn vs. restart number.
+
+    Requires pipeline.hcs_history (set by learn_structure when HCS is used).
+    Skips gracefully if the attribute is missing (pre-HCS pipeline).
+    """
+    history = getattr(pipeline, "hcs_history", None)
+    if not history:
+        logger.warning("F4: pipeline has no hcs_history — skipping (re-run with HCS enabled)")
+        return
+
+    ns  = [r["restart"] for r in history]
+    cns = [r["cn"]      for r in history]
+    c   = history[-1].get("hcs_c", None)
+
+    fig, ax = plt.subplots(figsize=(8, 4))
+    ax.plot(ns, cns, color=ACTION_COLORS["delete-node"], linewidth=1.8,
+            marker="o", markersize=4, label="$c_n$ (missing-mass bound)")
+    if c is not None:
+        ax.axhline(c, color=ACTION_COLORS["insert-node"], linewidth=1.2,
+                   linestyle="--", label=f"threshold $c={c}$")
+    ax.set_xlabel("Restart  $n$")
+    ax.set_ylabel("$c_n$  (Good-Turing bound)")
+    ax.set_title("HCS Convergence — Missing-Mass Bound vs. Restarts", fontsize=12)
+    ax.legend(fontsize=9)
+    plt.tight_layout()
+    save_fig(fig, figures_dir / "bn1" / "hcs_convergence", f"{stem}_hcs_convergence")
+    plt.close(fig)
+
+
+# ---------------------------------------------------------------------------
+# F5: Edge inclusion / stability across HCS restarts
+# ---------------------------------------------------------------------------
+
+def figure_edge_stability(pipeline: BNPipeline, figures_dir: Path,
+                           *, stem: str = "bn1", min_freq: float = 0.1) -> None:
+    """Bar chart of edge inclusion frequency across HCS restarts.
+
+    Requires pipeline.edge_inclusion: dict mapping (u, v) -> count, and
+    pipeline.hcs_n_restarts: total number of restarts performed.
+    Skips gracefully if the attributes are missing.
+    """
+    edge_inclusion = getattr(pipeline, "edge_inclusion", None)
+    n_restarts     = getattr(pipeline, "hcs_n_restarts", None)
+    if not edge_inclusion or not n_restarts:
+        logger.warning("F5: pipeline has no edge_inclusion — skipping (re-run with HCS enabled)")
+        return
+
+    freqs = {e: cnt / n_restarts for e, cnt in edge_inclusion.items()}
+    freqs = {e: f for e, f in freqs.items() if f >= min_freq}
+    if not freqs:
+        logger.warning("F5: no edges above min_freq threshold — skipping")
+        return
+
+    # Sort by frequency descending; edges on TARGET_COL highlighted
+    edges_sorted = sorted(freqs, key=freqs.get, reverse=True)
+    vals   = [freqs[e] for e in edges_sorted]
+    colors = []
+    for u, v in edges_sorted:
+        if v == TARGET_COL:
+            colors.append(EDGE_INTO_TGT)
+        elif u == TARGET_COL:
+            colors.append(EDGE_FROM_TGT)
+        else:
+            colors.append(EDGE_OTHER)
+    bar_labels = [f"{label(u)} → {label(v)}" for u, v in edges_sorted]
+
+    fig_h = max(6, len(edges_sorted) * 0.28 + 2)
+    fig, ax = plt.subplots(figsize=(10, fig_h))
+    ax.barh(bar_labels[::-1], vals[::-1], color=colors[::-1],
+            edgecolor="white", height=0.75)
+    ax.axvline(0.5, color="#39364F", linewidth=0.8, linestyle="--",
+               label="50 % inclusion")
+    ax.set_xlabel(f"Inclusion frequency  (n={n_restarts} restarts)")
+    ax.set_title("Edge Stability Across HCS Restarts — BN1", fontsize=12)
+    ax.set_xlim(0, 1.05)
+    ax.tick_params(axis="y", labelsize=7)
+
+    legend_handles = [
+        mpatches.Patch(color=EDGE_INTO_TGT, label=f"feature → {TARGET_COL}"),
+        mpatches.Patch(color=EDGE_FROM_TGT, label=f"{TARGET_COL} → feature"),
+        mpatches.Patch(color=EDGE_OTHER,    label="feature ↔ feature"),
+    ]
+    ax.legend(handles=legend_handles, fontsize=8, loc="lower right")
+    plt.tight_layout()
+    save_fig(fig, figures_dir / "bn1" / "edge_stability", f"{stem}_edge_stability")
+    plt.close(fig)
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -538,6 +641,8 @@ if __name__ == "__main__":
     parser.add_argument("--output-dir", type=str, default="results")
     parser.add_argument("--stem", type=str, default=None,
                         help="Output filename stem; defaults to pipeline filename minus '_pipeline'")
+    parser.add_argument("--grid-csv", type=str, default=None,
+                        help="Path to tune_bn1_grid.csv for T5; skipped if not provided")
     args = parser.parse_args()
 
     project_root = find_project_root()
@@ -572,6 +677,14 @@ if __name__ == "__main__":
     logger.info("T4: lift table (VariableElimination)...")
     save_table(table_lift(bn, TARGET_COL), tables_dir / "bn1" / "lift", f"{stem}_lift")
 
+    if args.grid_csv:
+        logger.info("T5: hyperparameter grid search results...")
+        grid_path = Path(args.grid_csv)
+        if grid_path.exists():
+            save_table(table_grid_results(grid_path), tables_dir / "bn1" / "grid", f"{stem}_grid")
+        else:
+            logger.warning(f"T5: grid CSV not found at {grid_path} — skipping")
+
     # ---- Figures ----
     logger.info("F1a: full DAG...")
     figure_dag_full(pipeline, figures_dir, stem=stem)
@@ -584,5 +697,11 @@ if __name__ == "__main__":
 
     logger.info("F3: MI bar chart...")
     figure_mi_bar(mi_series, figures_dir, stem=stem)
+
+    logger.info("F4: HCS convergence curve...")
+    figure_hcs_convergence(pipeline, figures_dir, stem=stem)
+
+    logger.info("F5: edge stability...")
+    figure_edge_stability(pipeline, figures_dir, stem=stem)
 
     logger.info("All outputs saved.")
