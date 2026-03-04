@@ -6,10 +6,11 @@ Script: `src/diff_analysis/scripts/megavul/bn1/visualize_bn1.py`
 Outputs: `data/results/figures/bn1/`, `data/results/tables/bn1/`
 
 ### Methodology (HCS + grid search) — requires bn_utils.py HCS impl
-- [ ] Implement HCS random restarts in `bn_utils.py` (store `hcs_history`, `edge_inclusion` on pipeline)
-- [ ] Add HCS CLI args to `learn_dag_isvul.py`
-- [ ] Create `tune_bn1.py` grid search (27 configs × HCS adaptive restarts)
+- [x] Implement HCS random restarts in `bn_utils.py` (store `hcs_history`, `edge_inclusion` on pipeline)
+- [x] Add HCS CLI args to `learn_dag_isvul.py`
+- [x] Create `tune_bn1.py` grid search (27 configs × HCS adaptive restarts)
 - [ ] Re-run structure learning + fitting with best config from grid search
+- [ ] ESS sensitivity check: post-hoc script fitting best-config pipeline at ESS ∈ {1, 5, 10, 20}; compare P(is_vul=1 | parents) and lift ranking across values
 
 ### Tables
 - [x] **T1** — Dataset summary (rows, balance, CVEs, repos, features, sparsity)
