@@ -1,0 +1,21 @@
+Rank,Feature,Action,MI Score
+1,delete-node_If_Block,delete-node,0.03043
+2,insert-node_If_Block,insert-node,0.0304
+3,insert-node_Invocation_Block,insert-node,0.0183
+4,delete-node_Invocation_Block,delete-node,0.01821
+5,insert-node_LocalVariable_Block,insert-node,0.00982
+6,delete-node_LocalVariable_Block,delete-node,0.00924
+7,insert-node_Invocation_LocalVariable,insert-node,0.00521
+8,delete-node_Invocation_LocalVariable,delete-node,0.00521
+9,insert-node_VariableRead_Invocation,insert-node,0.00436
+10,delete-node_VariableRead_Invocation,delete-node,0.00427
+11,insert-node_Parameter_Method,insert-node,0.00352
+12,insert-node_Invocation_Invocation,insert-node,0.00323
+13,delete-node_Parameter_Method,delete-node,0.00322
+14,delete-node_Invocation_Invocation,delete-node,0.00305
+15,move-tree_BinaryOperator_LocalVariable,move-tree,0.00271
+16,insert-node_FieldRead_ConstructorCall,insert-node,0.00231
+17,delete-node_BinaryOperator_If,delete-node,0.0023
+18,delete-node_Annotation_Method,delete-node,0.00227
+19,insert-node_Annotation_Method,insert-node,0.00227
+20,delete-node_Block_If,delete-node,0.0022
