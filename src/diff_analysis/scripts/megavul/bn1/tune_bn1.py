@@ -46,7 +46,7 @@ TARGET_COL = "is_vul"
 # ---------------------------------------------------------------------------
 
 GRID = {
-    "mi_threshold": [50, 100, 200],
+    "mi_threshold": [100, 150, 200],
     "tabu_length":  [10, 50, 100],
     "max_indegree": [None, 3, 5],
 }
@@ -108,6 +108,7 @@ if __name__ == "__main__":
     logger.info(f"Loading feature matrix from {data_path}")
     df_raw = pd.read_parquet(data_path)
     logger.info(f"Grid search: {len(configs)} configs × HCS (max {HCS_MAX_RESTARTS} restarts each)")
+    t_experiment = time.time()
 
     for i, cfg in enumerate(configs, 1):
         mi    = cfg["mi_threshold"]
@@ -153,6 +154,7 @@ if __name__ == "__main__":
             )
         except Exception as e:
             logger.error(f"  FAILED: {e}")
+            total_s = time.time() - t_experiment
             result = {
                 "config_index": i,
                 "mi_threshold": mi, "tabu_length": tabu, "max_indegree": indeg,
@@ -161,10 +163,16 @@ if __name__ == "__main__":
                 "n_restarts_used": None, "n_distinct_optima": None,
                 "n_edges": None, "bic_score": None,
                 "n_edges_on_target": None,
-                "elapsed_s": round(time.time() - t0, 1),
+                "elapsed_s":         round(time.time() - t0, 1),
+                "total_elapsed_min": round(total_s / 60, 2),
+                "total_elapsed_h":   round(total_s / 3600, 4),
                 "error": str(e),
             }
             tracker.save_config_result(cfg_dir, result)
+            logger.error(
+                f"  config elapsed={result['elapsed_s']}s "
+                f"| total {total_s/60:.1f}min ({total_s/3600:.2f}h) [{i}/{len(configs)}]"
+            )
             continue
 
         if pipeline.hcs_history:
@@ -181,26 +189,30 @@ if __name__ == "__main__":
             for r in pipeline.hcs_history
         }) if pipeline.hcs_history else None
 
+        total_s = time.time() - t_experiment
         result = {
-            "config_index":      i,
-            "mi_threshold":      mi,
-            "tabu_length":       tabu,
-            "max_indegree":      indeg,
-            "started_at":        started_at,
-            "ended_at":          datetime.now().isoformat(timespec="seconds"),
-            "n_restarts_used":   pipeline.hcs_n_restarts,
-            "n_distinct_optima": n_distinct,
-            "n_edges":           len(pipeline.edges),
-            "bic_score":         round(bic, 2),
-            "n_edges_on_target": n_on_target,
-            "elapsed_s":         round(time.time() - t0, 1),
-            "error":             None,
+            "config_index":        i,
+            "mi_threshold":        mi,
+            "tabu_length":         tabu,
+            "max_indegree":        indeg,
+            "started_at":          started_at,
+            "ended_at":            datetime.now().isoformat(timespec="seconds"),
+            "n_restarts_used":     pipeline.hcs_n_restarts,
+            "n_distinct_optima":   n_distinct,
+            "n_edges":             len(pipeline.edges),
+            "bic_score":           round(bic, 2),
+            "n_edges_on_target":   n_on_target,
+            "elapsed_s":           round(time.time() - t0, 1),
+            "total_elapsed_min":   round(total_s / 60, 2),
+            "total_elapsed_h":     round(total_s / 3600, 4),
+            "error":               None,
         }
         tracker.save_config_result(cfg_dir, result)
         logger.info(
             f"  → bic={bic:.1f}, edges={len(pipeline.edges)}, "
             f"on_target={n_on_target}, restarts={pipeline.hcs_n_restarts}, "
-            f"distinct={n_distinct}, elapsed={result['elapsed_s']}s"
+            f"distinct={n_distinct}, config elapsed={result['elapsed_s']}s "
+            f"| total {total_s/60:.1f}min ({total_s/3600:.2f}h) [{i}/{len(configs)}]"
         )
 
     tracker.finalize()
