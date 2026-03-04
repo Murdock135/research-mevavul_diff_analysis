@@ -11,8 +11,16 @@ Directory layout
             config.json          hyperparams + started_at
             result.json          outcome + ended_at
             hcs_restarts.jsonl   one line per HCS restart (score, f1, cn, edges)
-    summary.csv                  appended after each config completes
+    summary.csv                  written by finalize() from all result.json files
     summary.jsonl                same, JSONL format
+
+Notes
+-----
+- save_config_result() writes only result.json (no shared file writes) — safe to
+  call from parallel worker processes.
+- finalize() collects all result.json files from configs_dir, builds summary.csv
+  and summary.jsonl sorted by bic_score descending.  Running finalize() after a
+  crash recovers all configs that completed successfully.
 
 Typical usage
 -------------
@@ -70,26 +78,30 @@ class ExperimentTracker:
                 f.write(json.dumps(entry) + "\n")
 
     def save_config_result(self, cfg_dir: Path, result: dict) -> None:
+        """Write result.json for one config. Safe to call from parallel workers."""
         with open(cfg_dir / "result.json", "w") as f:
             json.dump(result, f, indent=2, default=str)
-        pd.DataFrame([result]).to_csv(
-            self.summary_csv, mode="a", header=not self.summary_csv.exists(), index=False,
-        )
-        with open(self.summary_jsonl, "a") as f:
-            f.write(json.dumps(result, default=str) + "\n")
 
     def finalize(self) -> None:
-        """Re-sort summary CSV by bic_score descending and log the best config."""
-        if not self.summary_csv.exists():
+        """Collect all result.json files, write summary.csv + summary.jsonl, log best config."""
+        result_files = sorted(self.configs_dir.glob("*/result.json"))
+        if not result_files:
             logger.warning("No configs completed — nothing to finalize.")
             return
+        rows = []
+        for rf in result_files:
+            with open(rf) as f:
+                rows.append(json.load(f))
         df = (
-            pd.read_csv(self.summary_csv)
+            pd.DataFrame(rows)
             .sort_values("bic_score", ascending=False)
             .reset_index(drop=True)
         )
         df.to_csv(self.summary_csv, index=False)
-        logger.info(f"Final ranked results → {self.summary_csv}")
+        with open(self.summary_jsonl, "w") as f:
+            for row in df.to_dict(orient="records"):
+                f.write(json.dumps(row, default=str) + "\n")
+        logger.info(f"Final ranked results ({len(rows)} configs) → {self.summary_csv}")
         valid = df.dropna(subset=["bic_score"])
         if not valid.empty:
             best = valid.iloc[0]

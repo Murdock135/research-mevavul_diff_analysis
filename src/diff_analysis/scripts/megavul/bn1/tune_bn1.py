@@ -1,10 +1,10 @@
 """
-BN1 hyperparameter grid search.
+BN1 hyperparameter grid search — parallel config execution.
 
-Runs HillClimbSearch + HCS restarts for every combination in GRID,
-records BIC-d score and HCS metadata.  An ExperimentTracker handles
-all directory layout, naming, and incremental saves — a crash only
-loses the config currently in progress.
+Runs HillClimbSearch + HCS restarts for every combination in GRID using
+multiprocessing.Pool (N_WORKERS parallel configs).  Each worker writes only
+to its own isolated config directory; ExperimentTracker.finalize() collects
+all result.json files and builds summary.csv / summary.jsonl.
 
 Usage
 -----
@@ -17,16 +17,19 @@ Outputs (under data/results/tune_bn1/<timestamp>/)
         config.json              hyperparams + started_at
         result.json              outcome + ended_at
         hcs_restarts.jsonl       one line per HCS restart
-    summary.csv                  all configs, appended after each run
+    summary.csv                  written by finalize() sorted by bic_score desc
     summary.jsonl                same, JSONL format
 """
 
 import itertools
+import json
 import logging
 import time
 from datetime import datetime
+from multiprocessing import Pool
 
 import pandas as pd
+import tqdm
 from pgmpy.base import DAG as PgmDAG
 from pgmpy.estimators import BIC as BicScore
 
@@ -36,10 +39,11 @@ from diff_analysis.utils.config_utils import find_project_root
 from diff_analysis.utils.logging import setup_logging
 
 setup_logging(level=logging.INFO)
-logging.getLogger("pgmpy").setLevel(logging.WARNING)  # suppress per-restart datatype inference logs
+logging.getLogger("pgmpy").setLevel(logging.WARNING)
 logger = logging.getLogger(__name__)
 
 TARGET_COL = "is_vul"
+N_WORKERS  = 6
 
 # ---------------------------------------------------------------------------
 # Grid
@@ -62,14 +66,122 @@ SAMPLE_THRESHOLD  = 0.0
 
 
 # ---------------------------------------------------------------------------
-# Helpers
+# Worker function (module-level so Pool can pickle it)
 # ---------------------------------------------------------------------------
 
-def score_dag(dag, model_df: pd.DataFrame) -> float:
+def _score_dag(dag, model_df: pd.DataFrame) -> float:
     scorer = BicScore(model_df)
     return sum(
         scorer.local_score(n, list(dag.predecessors(n))) for n in dag.nodes()
     )
+
+
+def run_config(args: tuple) -> dict:
+    """Run one grid config; write config.json, result.json, hcs_restarts.jsonl."""
+    i, cfg, df_raw, cfg_dir = args
+
+    # Worker processes need their own logging setup
+    setup_logging(level=logging.INFO)
+    logging.getLogger("pgmpy").setLevel(logging.WARNING)
+    wlog = logging.getLogger(__name__)
+
+    mi    = cfg["mi_threshold"]
+    tabu  = cfg["tabu_length"]
+    indeg = cfg["max_indegree"]
+
+    started_at = datetime.now().isoformat(timespec="seconds")
+    with open(cfg_dir / "config.json", "w") as f:
+        json.dump({
+            "config_index": i,
+            "mi_threshold": mi, "tabu_length": tabu, "max_indegree": indeg,
+            "started_at":   started_at,
+        }, f, indent=2, default=str)
+
+    wlog.info(f"[cfg {i}] START mi={mi}, tabu={tabu}, indeg={indeg}")
+    t0 = time.time()
+
+    try:
+        pipeline = BNPipeline(df_raw, TARGET_COL)
+        pipeline.preprocess(
+            feature_threshold=FEATURE_THRESHOLD,
+            sample_threshold=SAMPLE_THRESHOLD,
+            mi_threshold=mi,
+        ).learn_structure(
+            method="hillclimb",
+            scoring_method=SCORING,
+            tabu_length=tabu,
+            max_indegree=indeg,
+            max_iter=MAX_ITER,
+            hcs_delta=HCS_DELTA,
+            hcs_c=HCS_C,
+            hcs_max_restarts=HCS_MAX_RESTARTS,
+            show_progress=False,
+        )
+    except Exception as e:
+        wlog.error(f"[cfg {i}] FAILED: {e}")
+        elapsed = round(time.time() - t0, 1)
+        result = {
+            "config_index":    i,
+            "mi_threshold":    mi, "tabu_length": tabu, "max_indegree": indeg,
+            "started_at":      started_at,
+            "ended_at":        datetime.now().isoformat(timespec="seconds"),
+            "n_restarts_used": None, "n_distinct_optima": None,
+            "n_edges":         None, "bic_score": None,
+            "n_edges_on_target": None,
+            "elapsed_s":       elapsed,
+            "error":           str(e),
+        }
+        with open(cfg_dir / "result.json", "w") as f:
+            json.dump(result, f, indent=2, default=str)
+        return result
+
+    # Narrow Optional types after successful pipeline run
+    model_df = pipeline.model_df
+    edges    = pipeline.edges
+    assert model_df is not None and edges is not None
+
+    if pipeline.hcs_history:
+        with open(cfg_dir / "hcs_restarts.jsonl", "w") as f:
+            for entry in pipeline.hcs_history:
+                f.write(json.dumps(entry) + "\n")
+
+    best_dag = PgmDAG()
+    best_dag.add_nodes_from(model_df.columns)
+    best_dag.add_edges_from(edges)
+    bic = _score_dag(best_dag, model_df)
+
+    n_on_target = sum(1 for u, v in edges if TARGET_COL in (u, v))
+    n_distinct  = len({
+        frozenset(tuple(e) for e in r["edges"])
+        for r in pipeline.hcs_history
+    }) if pipeline.hcs_history else None
+
+    elapsed = round(time.time() - t0, 1)
+    result = {
+        "config_index":      i,
+        "mi_threshold":      mi,
+        "tabu_length":       tabu,
+        "max_indegree":      indeg,
+        "started_at":        started_at,
+        "ended_at":          datetime.now().isoformat(timespec="seconds"),
+        "n_restarts_used":   pipeline.hcs_n_restarts,
+        "n_distinct_optima": n_distinct,
+        "n_edges":           len(edges),
+        "bic_score":         round(bic, 2),
+        "n_edges_on_target": n_on_target,
+        "elapsed_s":         elapsed,
+        "error":             None,
+    }
+    with open(cfg_dir / "result.json", "w") as f:
+        json.dump(result, f, indent=2, default=str)
+
+    wlog.info(
+        f"[cfg {i}] DONE mi={mi}, tabu={tabu}, indeg={indeg} → "
+        f"bic={bic:.1f}, edges={len(edges)}, "
+        f"on_target={n_on_target}, restarts={pipeline.hcs_n_restarts}, "
+        f"distinct={n_distinct}, elapsed={elapsed}s"
+    )
+    return result
 
 
 # ---------------------------------------------------------------------------
@@ -84,8 +196,9 @@ if __name__ == "__main__":
     configs = [dict(zip(keys, combo)) for combo in itertools.product(*GRID.values())]
 
     experiment_config = {
-        "script":   "diff_analysis.scripts.megavul.bn1.tune_bn1",
-        "grid":     GRID,
+        "script":    "diff_analysis.scripts.megavul.bn1.tune_bn1",
+        "n_workers": N_WORKERS,
+        "grid":      GRID,
         "hcs_params": {
             "delta": HCS_DELTA, "c": HCS_C, "max_restarts": HCS_MAX_RESTARTS,
         },
@@ -107,112 +220,24 @@ if __name__ == "__main__":
 
     logger.info(f"Loading feature matrix from {data_path}")
     df_raw = pd.read_parquet(data_path)
-    logger.info(f"Grid search: {len(configs)} configs × HCS (max {HCS_MAX_RESTARTS} restarts each)")
-    t_experiment = time.time()
+    logger.info(
+        f"Grid search: {len(configs)} configs × HCS (max {HCS_MAX_RESTARTS} restarts each)"
+        f" | {N_WORKERS} parallel workers"
+    )
 
+    # Create all config dirs upfront in the main process, then hand off to workers
+    work_items = []
     for i, cfg in enumerate(configs, 1):
-        mi    = cfg["mi_threshold"]
-        tabu  = cfg["tabu_length"]
-        indeg = cfg["max_indegree"]
+        cfg_dir = tracker.config_dir(i, cfg["mi_threshold"], cfg["tabu_length"], cfg["max_indegree"])
+        work_items.append((i, cfg, df_raw, cfg_dir))
 
-        # Prominent notice before the first mi=200 config
-        if mi == 200 and (i == 1 or configs[i - 2]["mi_threshold"] != 200):
-            logger.warning("─" * 60)
-            logger.warning(
-                f"STARTING mi_threshold=200 configs [{i}–{len(configs)}]"
-                " — expect significantly slower runs"
-            )
-            logger.warning("─" * 60)
-
-        logger.info(f"[{i}/{len(configs)}] mi={mi}, tabu={tabu}, indeg={indeg}")
-
-        cfg_dir    = tracker.config_dir(i, mi, tabu, indeg)
-        started_at = datetime.now().isoformat(timespec="seconds")
-        tracker.save_config_start(cfg_dir, {
-            "config_index": i,
-            "mi_threshold": mi, "tabu_length": tabu, "max_indegree": indeg,
-            "started_at":   started_at,
-        })
-
-        t0 = time.time()
-        try:
-            pipeline = BNPipeline(df_raw, TARGET_COL)
-            pipeline.preprocess(
-                feature_threshold=FEATURE_THRESHOLD,
-                sample_threshold=SAMPLE_THRESHOLD,
-                mi_threshold=mi,
-            ).learn_structure(
-                method="hillclimb",
-                scoring_method=SCORING,
-                tabu_length=tabu,
-                max_indegree=indeg,
-                max_iter=MAX_ITER,
-                hcs_delta=HCS_DELTA,
-                hcs_c=HCS_C,
-                hcs_max_restarts=HCS_MAX_RESTARTS,
-                show_progress=True,
-            )
-        except Exception as e:
-            logger.error(f"  FAILED: {e}")
-            total_s = time.time() - t_experiment
-            result = {
-                "config_index": i,
-                "mi_threshold": mi, "tabu_length": tabu, "max_indegree": indeg,
-                "started_at": started_at,
-                "ended_at":   datetime.now().isoformat(timespec="seconds"),
-                "n_restarts_used": None, "n_distinct_optima": None,
-                "n_edges": None, "bic_score": None,
-                "n_edges_on_target": None,
-                "elapsed_s":         round(time.time() - t0, 1),
-                "total_elapsed_min": round(total_s / 60, 2),
-                "total_elapsed_h":   round(total_s / 3600, 4),
-                "error": str(e),
-            }
-            tracker.save_config_result(cfg_dir, result)
-            logger.error(
-                f"  config elapsed={result['elapsed_s']}s "
-                f"| total {total_s/60:.1f}min ({total_s/3600:.2f}h) [{i}/{len(configs)}]"
-            )
-            continue
-
-        if pipeline.hcs_history:
-            tracker.save_hcs_restarts(cfg_dir, pipeline.hcs_history)
-
-        best_dag = PgmDAG()
-        best_dag.add_nodes_from(pipeline.model_df.columns)
-        best_dag.add_edges_from(pipeline.edges)
-        bic = score_dag(best_dag, pipeline.model_df)
-
-        n_on_target = sum(1 for u, v in pipeline.edges if TARGET_COL in (u, v))
-        n_distinct  = len({
-            frozenset(tuple(e) for e in r["edges"])
-            for r in pipeline.hcs_history
-        }) if pipeline.hcs_history else None
-
-        total_s = time.time() - t_experiment
-        result = {
-            "config_index":        i,
-            "mi_threshold":        mi,
-            "tabu_length":         tabu,
-            "max_indegree":        indeg,
-            "started_at":          started_at,
-            "ended_at":            datetime.now().isoformat(timespec="seconds"),
-            "n_restarts_used":     pipeline.hcs_n_restarts,
-            "n_distinct_optima":   n_distinct,
-            "n_edges":             len(pipeline.edges),
-            "bic_score":           round(bic, 2),
-            "n_edges_on_target":   n_on_target,
-            "elapsed_s":           round(time.time() - t0, 1),
-            "total_elapsed_min":   round(total_s / 60, 2),
-            "total_elapsed_h":     round(total_s / 3600, 4),
-            "error":               None,
-        }
-        tracker.save_config_result(cfg_dir, result)
-        logger.info(
-            f"  → bic={bic:.1f}, edges={len(pipeline.edges)}, "
-            f"on_target={n_on_target}, restarts={pipeline.hcs_n_restarts}, "
-            f"distinct={n_distinct}, config elapsed={result['elapsed_s']}s "
-            f"| total {total_s/60:.1f}min ({total_s/3600:.2f}h) [{i}/{len(configs)}]"
-        )
+    # Source: https://stackoverflow.com/a/40133278 (Tim, CC BY-SA 3.0)
+    with Pool(processes=N_WORKERS) as pool:
+        for _ in tqdm.tqdm(
+            pool.imap_unordered(run_config, work_items),
+            total=len(work_items),
+            desc="configs",
+        ):
+            pass
 
     tracker.finalize()

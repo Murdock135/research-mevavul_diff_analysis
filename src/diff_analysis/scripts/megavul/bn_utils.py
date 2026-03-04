@@ -268,7 +268,7 @@ class BNPipeline:
                         start_dag=start_dag,
                         tabu_length=tabu_length,
                         max_iter=max_iter,
-                        show_progress=True,
+                        show_progress=show_progress,
                         **kwargs,
                     )
                     key = frozenset(dag.edges())
