@@ -49,8 +49,9 @@ class ExperimentTracker:
         self.summary_csv   = self.run_dir / "summary.csv"
         self.summary_jsonl = self.run_dir / "summary.jsonl"
 
+        started_at = datetime.now().isoformat(timespec="seconds")
         with open(self.run_dir / "experiment.json", "w") as f:
-            json.dump(experiment_config, f, indent=2, default=str)
+            json.dump({"started_at": started_at, **experiment_config}, f, indent=2, default=str)
         logger.info(f"Experiment run → {self.run_dir}")
 
     def config_dir(self, index: int, mi: int, tabu: int, indeg: int | None) -> Path:
