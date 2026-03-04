@@ -50,7 +50,7 @@ N_WORKERS  = 6
 # ---------------------------------------------------------------------------
 
 GRID = {
-    "mi_threshold": [100, 150, 200],
+    "mi_threshold": [150, 200],
     "tabu_length":  [10, 50, 100],
     "max_indegree": [None, 3, 5],
 }
@@ -78,7 +78,7 @@ def _score_dag(dag, model_df: pd.DataFrame) -> float:
 
 def run_config(args: tuple) -> dict:
     """Run one grid config; write config.json, result.json, hcs_restarts.jsonl."""
-    i, cfg, df_raw, cfg_dir = args
+    i, cfg, df_raw, cfg_dir, show_progress = args
 
     # Worker processes need their own logging setup
     setup_logging(level=logging.INFO)
@@ -115,7 +115,8 @@ def run_config(args: tuple) -> dict:
             hcs_delta=HCS_DELTA,
             hcs_c=HCS_C,
             hcs_max_restarts=HCS_MAX_RESTARTS,
-            show_progress=False,
+            show_progress=show_progress,
+            hcs_restarts_file=cfg_dir / "hcs_restarts.jsonl",
         )
     except Exception as e:
         wlog.error(f"[cfg {i}] FAILED: {e}")
@@ -139,11 +140,6 @@ def run_config(args: tuple) -> dict:
     model_df = pipeline.model_df
     edges    = pipeline.edges
     assert model_df is not None and edges is not None
-
-    if pipeline.hcs_history:
-        with open(cfg_dir / "hcs_restarts.jsonl", "w") as f:
-            for entry in pipeline.hcs_history:
-                f.write(json.dumps(entry) + "\n")
 
     best_dag = PgmDAG()
     best_dag.add_nodes_from(model_df.columns)
@@ -229,7 +225,7 @@ if __name__ == "__main__":
     work_items = []
     for i, cfg in enumerate(configs, 1):
         cfg_dir = tracker.config_dir(i, cfg["mi_threshold"], cfg["tabu_length"], cfg["max_indegree"])
-        work_items.append((i, cfg, df_raw, cfg_dir))
+        work_items.append((i, cfg, df_raw, cfg_dir, i == 1))
 
     # Source: https://stackoverflow.com/a/40133278 (Tim, CC BY-SA 3.0)
     with Pool(processes=N_WORKERS) as pool:

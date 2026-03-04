@@ -198,6 +198,7 @@ class BNPipeline:
         hcs_max_restarts: int = 100,
         hcs_n_edges: int | None = None,
         show_progress: bool = True,
+        hcs_restarts_file: Path | None = None,
     ) -> "BNPipeline":
         """Run structure learning on model_df; sets self.edges.
 
@@ -282,10 +283,14 @@ class BNPipeline:
 
                     f1 = sum(1 for cnt in edge_key_counts.values() if cnt == 1)
                     cn = f1 / n + _HCS_CONST * math.sqrt(math.log(3 / hcs_delta) / n)
-                    history.append({
+                    entry = {
                         "restart": n, "score": s, "f1": f1, "cn": cn, "hcs_c": hcs_c,
                         "edges": [list(e) for e in dag.edges()],
-                    })
+                    }
+                    history.append(entry)
+                    if hcs_restarts_file is not None:
+                        with open(hcs_restarts_file, "a") as _f:
+                            _f.write(json.dumps(entry) + "\n")
                     if show_progress:
                         pbar.set_postfix(
                             score=f"{s:.0f}", cn=f"{cn:.3f}",
