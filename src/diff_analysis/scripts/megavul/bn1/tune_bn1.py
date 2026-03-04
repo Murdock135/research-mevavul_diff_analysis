@@ -36,6 +36,7 @@ from diff_analysis.utils.config_utils import find_project_root
 from diff_analysis.utils.logging import setup_logging
 
 setup_logging(level=logging.INFO)
+logging.getLogger("pgmpy").setLevel(logging.WARNING)  # suppress per-restart datatype inference logs
 logger = logging.getLogger(__name__)
 
 TARGET_COL = "is_vul"
