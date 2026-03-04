@@ -21,12 +21,17 @@ Fitting (fit_bn1.py):
 
 import json
 import logging
+import math
 import pickle
+import random
 import time
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
+from pgmpy.base import DAG as PgmDAG
 from pgmpy.estimators import BayesianEstimator
+from pgmpy.estimators import BIC as BicScore
 from pgmpy.models import DiscreteBayesianNetwork
 from sklearn.feature_selection import mutual_info_classif
 
@@ -78,6 +83,35 @@ def select_top_mi_features(X: pd.DataFrame, y: pd.Series, k: int) -> list[str]:
 
 
 # ---------------------------------------------------------------------------
+# HCS helpers
+# ---------------------------------------------------------------------------
+
+_HCS_CONST = 2 * math.sqrt(2) + math.sqrt(3)  # concentration constant from Dann et al.
+
+
+def _random_dag(nodes: list[str], n_edges: int, rng: random.Random) -> PgmDAG:
+    """Random acyclic graph via topological-order trick.
+
+    Shuffles nodes to fix a random total order, then only adds edges from
+    lower-index to higher-index positions — guaranteeing acyclicity without
+    any cycle checks.
+    """
+    dag = PgmDAG()
+    dag.add_nodes_from(nodes)
+    ordered = nodes[:]
+    rng.shuffle(ordered)
+    candidates = [
+        (ordered[i], ordered[j])
+        for i in range(len(ordered))
+        for j in range(i + 1, len(ordered))
+    ]
+    rng.shuffle(candidates)
+    for u, v in candidates[:n_edges]:
+        dag.add_edge(u, v)
+    return dag
+
+
+# ---------------------------------------------------------------------------
 # BNPipeline
 # ---------------------------------------------------------------------------
 
@@ -99,6 +133,10 @@ class BNPipeline:
         self.model_df: pd.DataFrame | None = None
         self.edges: list[tuple[str, str]] | None = None
         self.bn: DiscreteBayesianNetwork | None = None
+        # HCS restart metadata (populated by learn_structure when method='hillclimb')
+        self.hcs_history: list[dict] | None = None      # per-restart: {restart, score, f1, cn, hcs_c}
+        self.edge_inclusion: dict[tuple, int] | None = None  # edge -> count across restarts
+        self.hcs_n_restarts: int | None = None          # total restarts performed
 
     # ------------------------------------------------------------------
     # Preprocessing
@@ -150,22 +188,34 @@ class BNPipeline:
         scoring_method: str | None = None,
         significance_level: float = 0.01,
         ci_test: str = "chi_square",
-        tabu_length: int = 10,
+        tabu_length: int = 100,
         max_indegree: int | None = None,
-        max_iter: int = 1000,
+        max_iter: int = 1_000_000,
+        # HCS random-restart parameters (hillclimb only)
+        hcs_delta: float = 0.05,
+        hcs_c: float = 0.05,
+        hcs_max_restarts: int = 100,
+        hcs_n_edges: int | None = None,
     ) -> "BNPipeline":
         """Run structure learning on model_df; sets self.edges.
 
+        For hillclimb, uses the HCS stopping criterion (Dann, Dick & Wong):
+        runs random restarts until the Good-Turing missing-mass bound cn drops
+        below hcs_c with confidence 1-hcs_delta, or hcs_max_restarts is hit.
+
         Parameters
         ----------
-        method           : 'hillclimb' or 'mmhc'; defaults to 'hillclimb'
-        scoring_method   : scoring function; defaults to 'bdeu' (mmhc) or 'bic-d' (hillclimb)
+        method            : 'hillclimb' or 'mmhc'
+        scoring_method    : scoring function; defaults to 'bdeu' (mmhc) or 'bic-d' (hillclimb)
         significance_level: p-value threshold for MMHC independence tests
-        ci_test          : conditional independence test for MMHC skeleton phase
-                           ('chi_square', 'g_sq', 'log_likelihood')
-        tabu_length      : tabu list length (both methods)
-        max_indegree     : maximum parents per node; None = unrestricted
-        max_iter         : maximum hill-climbing iterations (hillclimb only)
+        ci_test           : CI test for MMHC skeleton phase
+        tabu_length       : tabu list length (both methods)
+        max_indegree      : maximum parents per node; None = unrestricted
+        max_iter          : maximum HC iterations per restart
+        hcs_delta         : confidence parameter δ; bound holds with prob ≥ 1-δ
+        hcs_c             : missing-mass target; stop when cn < hcs_c
+        hcs_max_restarts  : hard cap on restarts (safety valve)
+        hcs_n_edges       : edges in each random starting DAG; default = n_nodes // 4
         """
         assert self.model_df is not None, "Call preprocess() before learn_structure()"
 
@@ -175,19 +225,80 @@ class BNPipeline:
 
         if method == "hillclimb":
             from pgmpy.estimators import HillClimbSearch
+
             score = scoring_method or "bic-d"
-            logger.info(f"Starting HillClimbSearch (score={score}, max_iter={max_iter}, tabu_length={tabu_length})...")
-            t0 = time.time()
-            learned_dag = HillClimbSearch(self.model_df).estimate(
-                scoring_method=score,
-                tabu_length=tabu_length,
-                max_iter=max_iter,
-                **kwargs,
+            nodes = list(self.model_df.columns)
+            n_edges = hcs_n_edges if hcs_n_edges is not None else max(1, len(nodes) // 4)
+            scorer = BicScore(self.model_df)
+
+            def dag_score(dag) -> float:
+                return sum(
+                    scorer.local_score(n, list(dag.predecessors(n))) for n in dag.nodes()
+                )
+
+            edge_key_counts: dict[frozenset, int] = {}
+            edge_inclusion_counts: dict[tuple, int] = {}
+            history: list[dict] = []
+            best_dag, best_score = None, -np.inf
+
+            logger.info(
+                f"HCS HillClimbSearch: score={score}, tabu={tabu_length}, "
+                f"max_iter={max_iter}, hcs_c={hcs_c}, hcs_delta={hcs_delta}, "
+                f"hcs_max={hcs_max_restarts}, n_edges_per_restart={n_edges}"
             )
+            t0 = time.time()
+
+            for restart in range(hcs_max_restarts):
+                n = restart + 1
+                start_dag = (
+                    None if restart == 0
+                    else _random_dag(nodes, n_edges, random.Random(restart))
+                )
+                dag = HillClimbSearch(self.model_df).estimate(
+                    scoring_method=score,
+                    start_dag=start_dag,
+                    tabu_length=tabu_length,
+                    max_iter=max_iter,
+                    show_progress=False,
+                    **kwargs,
+                )
+                key = frozenset(dag.edges())
+                s = dag_score(dag)
+                edge_key_counts[key] = edge_key_counts.get(key, 0) + 1
+                for edge in dag.edges():
+                    edge_inclusion_counts[edge] = edge_inclusion_counts.get(edge, 0) + 1
+
+                if s > best_score:
+                    best_score, best_dag = s, dag
+
+                f1 = sum(1 for cnt in edge_key_counts.values() if cnt == 1)
+                cn = f1 / n + _HCS_CONST * math.sqrt(math.log(3 / hcs_delta) / n)
+                history.append({"restart": n, "score": s, "f1": f1, "cn": cn, "hcs_c": hcs_c})
+                logger.info(
+                    f"  restart {n:3d}: score={s:.1f}, edges={len(list(dag.edges()))}, "
+                    f"f1={f1}, cn={cn:.4f} (target<{hcs_c}), best={best_score:.1f}"
+                )
+                if cn < hcs_c:
+                    logger.info(f"HCS converged after {n} restarts ({time.time()-t0:.1f}s)")
+                    break
+            else:
+                logger.warning(
+                    f"HCS reached hard cap of {hcs_max_restarts} restarts without converging "
+                    f"(final cn={cn:.4f}, target={hcs_c})"
+                )
+
+            self.hcs_history = history
+            self.edge_inclusion = edge_inclusion_counts
+            self.hcs_n_restarts = len(history)
+            learned_dag = best_dag
+
         elif method == "mmhc":
             from pgmpy.estimators import MmhcEstimator
             score = scoring_method or "bdeu"
-            logger.info(f"Starting MMHC (score={score}, ci_test={ci_test}, significance_level={significance_level})...")
+            logger.info(
+                f"Starting MMHC (score={score}, ci_test={ci_test}, "
+                f"significance_level={significance_level})..."
+            )
             t0 = time.time()
             learned_dag = MmhcEstimator(self.model_df).estimate(
                 scoring_method=score,

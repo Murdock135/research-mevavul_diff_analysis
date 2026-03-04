@@ -1,9 +1,9 @@
 """
 BN1 structure learning: code change features -> is_vul.
 
-Learns a DAG, saves edges and a pipeline snapshot (pipeline.pkl) that
-preserves the preprocessed model_df so fit_bn1.py can fit without
-re-running preprocessing.
+Learns a DAG via HillClimbSearch with HCS random restarts (Dann, Dick & Wong),
+saves edges and a pipeline snapshot (pipeline.pkl) that preserves the preprocessed
+model_df so fit_bn1.py can fit without re-running preprocessing.
 
 Arguments
 ---------
@@ -12,11 +12,15 @@ Arguments
 --significance-level  float   0.01        Significance level for MMHC independence tests
 --ci-test             str     chi_square  CI test for MMHC skeleton phase ('chi_square', 'g_sq', 'log_likelihood')
 --mi-threshold        int     None        Retain top N features by MI before learning
---tabu-length         int     10          Tabu length for HillClimbSearch
---max-iter            int     1000        Max hill-climbing iterations (hillclimb only)
+--tabu-length         int     100         Tabu length for HillClimbSearch
+--max-iter            int     1000000     Max hill-climbing iterations per restart
 --max-indegree        int     None        Maximum parents per node (unrestricted if unset)
 --feature-threshold   float   0.0001      Min fraction of samples where a feature must be non-zero
 --sample-threshold    float   0.0         Min fraction of non-zero features a sample must have
+--hcs-delta           float   0.05        HCS confidence parameter δ (bound holds with prob ≥ 1-δ)
+--hcs-c               float   0.05        HCS missing-mass target; stop when cn < hcs-c
+--hcs-max-restarts    int     100         Hard cap on HCS restarts (safety valve)
+--hcs-n-edges         int     None        Edges in each random starting DAG (default: n_nodes // 4)
 --output-dir          str     results     Output directory relative to project root data/
 
 Outputs
@@ -43,7 +47,7 @@ TARGET_COL = "is_vul"
 
 def build_stem(method: str, mi_threshold: int | None) -> str:
     mi_tag = f"_mi{mi_threshold}" if mi_threshold is not None else ""
-    return f"bn1_{method}{mi_tag}"
+    return f"bn1_{method}{mi_tag}_hcs"
 
 
 def parse_args() -> argparse.Namespace:
@@ -58,11 +62,19 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--ci-test", type=str, default="chi_square",
                         choices=["chi_square", "g_sq", "log_likelihood"])
     parser.add_argument("--mi-threshold", type=int, default=None)
-    parser.add_argument("--tabu-length", type=int, default=10)
-    parser.add_argument("--max-iter", type=int, default=1000)
+    parser.add_argument("--tabu-length", type=int, default=100)
+    parser.add_argument("--max-iter", type=int, default=1_000_000)
     parser.add_argument("--max-indegree", type=int, default=None)
     parser.add_argument("--feature-threshold", type=float, default=0.0001)
     parser.add_argument("--sample-threshold", type=float, default=0.0)
+    parser.add_argument("--hcs-delta", type=float, default=0.05,
+                        help="HCS confidence parameter δ")
+    parser.add_argument("--hcs-c", type=float, default=0.05,
+                        help="HCS missing-mass target; stop when cn < hcs-c")
+    parser.add_argument("--hcs-max-restarts", type=int, default=100,
+                        help="Hard cap on HCS restarts")
+    parser.add_argument("--hcs-n-edges", type=int, default=None,
+                        help="Edges in each random starting DAG (default: n_nodes // 4)")
     parser.add_argument("--output-dir", type=str, default="results")
     return parser.parse_args()
 
@@ -90,6 +102,10 @@ if __name__ == "__main__":
         tabu_length=args.tabu_length,
         max_iter=args.max_iter,
         max_indegree=args.max_indegree,
+        hcs_delta=args.hcs_delta,
+        hcs_c=args.hcs_c,
+        hcs_max_restarts=args.hcs_max_restarts,
+        hcs_n_edges=args.hcs_n_edges,
     )
 
     print("\nEdge list:")
@@ -97,6 +113,7 @@ if __name__ == "__main__":
         print(f"  {u} -> {v}")
 
     stem = build_stem(args.method, args.mi_threshold)
+    logger.info(f"Output stem: {stem}")
     out_dir = project_root / "data" / args.output_dir
     pipeline.save_edges(out_dir, stem)
     pipeline.save_pipeline(out_dir / f"{stem}_pipeline.pkl")
