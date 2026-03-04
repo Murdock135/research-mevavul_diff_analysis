@@ -13,8 +13,10 @@ Usage
 """
 
 import logging
+from multiprocessing import Pool
 
 import pandas as pd
+import tqdm
 
 from diff_analysis.scripts.megavul.bn1.tune_bn1 import run_config
 from diff_analysis.utils.config_utils import find_project_root
@@ -38,19 +40,29 @@ if __name__ == "__main__":
             {"mi_threshold": 50, "tabu_length": 100, "max_indegree": 3},
         ),
         (
-            paper_dir / "mi100_150_200" / "configs" / "007_mi100_tabu100_indegNone",
+            paper_dir / "mi100" / "configs" / "007_mi100_tabu100_indegNone",
             7,
             {"mi_threshold": 100, "tabu_length": 100, "max_indegree": None},
         ),
         (
-            paper_dir / "mi100_150_200" / "configs" / "009_mi100_tabu100_indeg5",
+            paper_dir / "mi100" / "configs" / "009_mi100_tabu100_indeg5",
             9,
             {"mi_threshold": 100, "tabu_length": 100, "max_indegree": 5},
         ),
     ]
 
+    work_items = []
     for cfg_dir, i, cfg in missing:
         cfg_dir.mkdir(parents=True, exist_ok=True)
-        logger.info(f"Running config {i}: {cfg}")
-        result = run_config((i, cfg, df_raw, cfg_dir, False))
-        logger.info(f"Config {i} done — bic={result.get('bic_score')}, elapsed={result.get('elapsed_s')}s")
+        work_items.append((i, cfg, df_raw, cfg_dir, False))
+
+    with Pool(processes=len(work_items)) as pool:
+        for result in tqdm.tqdm(
+            pool.imap_unordered(run_config, work_items),
+            total=len(work_items),
+            desc="configs",
+        ):
+            logger.info(
+                f"Config {result['config_index']} done — "
+                f"bic={result.get('bic_score')}, elapsed={result.get('elapsed_s')}s"
+            )
