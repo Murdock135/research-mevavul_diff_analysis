@@ -7,25 +7,45 @@
       "source_timestamp": "20260303_225055",
       "started_at": "2026-03-03T22:50:55",
       "grid": {
-        "mi_threshold": [50],
-        "tabu_length": [10, 50, 100],
-        "max_indegree": [null, 3, 5]
+        "mi_threshold": [
+          50
+        ],
+        "tabu_length": [
+          10,
+          50,
+          100
+        ],
+        "max_indegree": [
+          null,
+          3,
+          5
+        ]
       },
-      "n_configs_completed": 7,
-      "note": "Config mi50_tabu100_indeg3 was interrupted before completion and is excluded."
+      "n_configs_completed": 8,
+      "note": "Derived from per-config result.json files currently present on disk."
     },
     {
-      "dir": "mi100_150_200",
+      "dir": "mi100",
       "source_timestamp": "20260304_003146",
       "started_at": "2026-03-04T00:31:46",
       "n_workers": 6,
       "grid": {
-        "mi_threshold": [100],
-        "tabu_length": [10, 50, 100],
-        "max_indegree": [null, 3, 5]
+        "mi_threshold": [
+          100
+        ],
+        "tabu_length": [
+          10,
+          50,
+          100
+        ],
+        "max_indegree": [
+          null,
+          3,
+          5
+        ]
       },
-      "n_configs_completed": 7,
-      "note": "MI=150 and MI=200 were never started; excluded. mi100_tabu100_indegNone and mi100_tabu100_indeg5 were incomplete and excluded."
+      "n_configs_completed": 9,
+      "note": "Derived from per-config result.json files currently present on disk."
     }
   ],
   "hcs_params": {
@@ -41,5 +61,5 @@
     "target_col": "is_vul"
   },
   "max_restarts_per_config": 50,
-  "total_configs_completed": 14
+  "total_configs_completed": 17
 }
