@@ -1,0 +1,36 @@
+{
+  "started_at": "2026-03-03T23:38:12",
+  "script": "diff_analysis.scripts.megavul.bn1.tune_bn1",
+  "grid": {
+    "mi_threshold": [
+      100,
+      150,
+      200
+    ],
+    "tabu_length": [
+      10,
+      50,
+      100
+    ],
+    "max_indegree": [
+      null,
+      3,
+      5
+    ]
+  },
+  "hcs_params": {
+    "delta": 0.05,
+    "c": 0.1,
+    "max_restarts": 50
+  },
+  "fixed_params": {
+    "scoring": "bic-d",
+    "max_iter": 1000000,
+    "feature_threshold": 0.0001,
+    "sample_threshold": 0.0,
+    "target_col": "is_vul"
+  },
+  "n_configs": 27,
+  "max_restarts_per_config": 50,
+  "max_total_restarts": 1350
+}
