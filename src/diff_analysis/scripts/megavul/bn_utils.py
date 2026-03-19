@@ -97,7 +97,7 @@ def _random_dag(nodes: list[str], n_edges: int, rng: random.Random) -> PgmDAG:
     lower-index to higher-index positions — guaranteeing acyclicity without
     any cycle checks.
     """
-    dag = PgmDAG()
+    dag = PgmDAG()                              # create an empty DAG
     dag.add_nodes_from(nodes)
     ordered = nodes[:]
     rng.shuffle(ordered)
@@ -240,9 +240,9 @@ class BNPipeline:
                     scorer.local_score(n, list(dag.predecessors(n))) for n in dag.nodes()
                 )
 
-            edge_key_counts: dict[frozenset, int] = {}
-            edge_inclusion_counts: dict[tuple, int] = {}
-            history: list[dict] = []
+            edge_key_counts: dict[frozenset, int] = {}      # count of unique edge sets across restarts
+            edge_inclusion_counts: dict[tuple, int] = {}    # count of individual edge occurrences
+            history: list[dict] = []                        # record of each restart's results - list of dicts with keys: restart, score, f1, cn, hcs_c, edges
             best_dag, best_score = None, -np.inf
 
             logger.info(
