@@ -1,0 +1,82 @@
+{
+  "frequency": [
+    {
+      "c": "LocalVariable",
+      "f": "2"
+    },
+    {
+      "c": "If",
+      "f": "2"
+    },
+    {
+      "c": "VariableRead",
+      "f": "1"
+    },
+    {
+      "c": "ConstructorCall",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "2"
+    },
+    {
+      "c": "insert-node_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_ConstructorCall_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_VariableRead_ConstructorCall",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "LocalVariable",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "If",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "VariableRead",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "ConstructorCall",
+      "f": "0.16666666666666666"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "insert-node_If_Block",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "update-node_ConstructorCall_LocalVariable",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "update-node_VariableRead_ConstructorCall",
+      "f": "0.16666666666666666"
+    }
+  ]
+}

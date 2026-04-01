@@ -1,0 +1,20 @@
+{
+    "id": "d28d7739089e1ae8961257d9da7135d1a01cb7d4_updateDocument_0",
+    "func_name": "updateDocument",
+    "cve_id": "CVE-2023-34465",
+    "cwe_ids": [
+        "CWE-269"
+    ],
+    "commit_hash": "d28d7739089e1ae8961257d9da7135d1a01cb7d4",
+    "parent_commit_hash": "8acde622a4c0d9c9712744c8ae2c3fda4d09e195",
+    "repo_name": "xwiki/xwiki-platform",
+    "git_url": "https://github.com/xwiki/xwiki-platform/commit/d28d7739089e1ae8961257d9da7135d1a01cb7d4",
+    "file_path": "xwiki-platform-core/xwiki-platform-mail/xwiki-platform-mail-send/xwiki-platform-mail-send-default/src/main/java/org/xwiki/mail/internal/MailConfigMandatoryDocumentInitializer.java",
+    "file_name": "MailConfigMandatoryDocumentInitializer.java",
+    "commit_date": 1675237985,
+    "commit_msg": "XWIKI-20519: Improve Mail.MailConfig initialization",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+    "cvss_base_score": 8.1,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

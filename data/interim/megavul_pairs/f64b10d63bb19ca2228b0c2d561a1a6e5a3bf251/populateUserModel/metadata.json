@@ -1,0 +1,20 @@
+{
+    "id": "f64b10d63bb19ca2228b0c2d561a1a6e5a3bf251_populateUserModel_1",
+    "func_name": "populateUserModel",
+    "cve_id": "CVE-2018-25084",
+    "cwe_ids": [
+        "CWE-79"
+    ],
+    "commit_hash": "f64b10d63bb19ca2228b0c2d561a1a6e5a3bf251",
+    "parent_commit_hash": "f0700bb72735ec085ef96d55c179cae8b63e31a3",
+    "repo_name": "pingidentity/ssam",
+    "git_url": "https://github.com/pingidentity/ssam/commit/f64b10d63bb19ca2228b0c2d561a1a6e5a3bf251",
+    "file_path": "src/main/java/com/unboundid/webapp/ssam/SSAMController.java",
+    "file_name": "SSAMController.java",
+    "commit_date": 1517400985,
+    "commit_msg": "Added html escaping to help with XSS. Added frame busting to help with XFS. Added a method override filter so that only GETs and POSTs are accepted. Disabled autocomplete for password fields. Added ability for customer to set their HPKP headers.",
+    "cvss_vector": "AV:N/AC:L/Au:S/C:N/I:P/A:N",
+    "cvss_base_score": 4.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

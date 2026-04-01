@@ -1,0 +1,20 @@
+{
+    "id": "3a448067ac9ebdf669951e90678c2daa592a81d3_visitUris_0",
+    "func_name": "visitUris",
+    "cve_id": "CVE-2023-21244",
+    "cwe_ids": [
+        "CWE-862"
+    ],
+    "commit_hash": "3a448067ac9ebdf669951e90678c2daa592a81d3",
+    "parent_commit_hash": "fa539c85503dc63bfb53c76b6f12b3549f14a709",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/3a448067ac9ebdf669951e90678c2daa592a81d3",
+    "file_path": "core/java/android/app/Notification.java",
+    "file_name": "Notification.java",
+    "commit_date": 1682091562,
+    "commit_msg": "Verify URI permissions for EXTRA_REMOTE_INPUT_HISTORY_ITEMS.\n\nAlso added the person URIs in the test, since they weren't being\nchecked.\n\nTest: atest NotificationManagerServiceTest & tested with POC from bug\nBug: 276729064\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:43b1711332763788c7abf05c3baa931296c45bbb)\nMerged-In: I848545f7aee202495c515f47a32871a2cb6ae707\nChange-Id: I848545f7aee202495c515f47a32871a2cb6ae707\n",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 6.7,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

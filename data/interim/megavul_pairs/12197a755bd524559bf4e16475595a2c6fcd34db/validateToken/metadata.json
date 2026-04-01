@@ -1,0 +1,20 @@
+{
+    "id": "12197a755bd524559bf4e16475595a2c6fcd34db_validateToken_0",
+    "func_name": "validateToken",
+    "cve_id": "CVE-2021-32631",
+    "cwe_ids": [
+        "CWE-290"
+    ],
+    "commit_hash": "12197a755bd524559bf4e16475595a2c6fcd34db",
+    "parent_commit_hash": "ad119be367ffe3ee625bbcff4e15fbe96a1fa52c",
+    "repo_name": "nimble-platform/common",
+    "git_url": "https://github.com/nimble-platform/common/commit/12197a755bd524559bf4e16475595a2c6fcd34db",
+    "file_path": "utility/src/main/java/eu/nimble/utility/validation/ValidationUtil.java",
+    "file_name": "ValidationUtil.java",
+    "commit_date": 1621468962,
+    "commit_msg": "Fixed JWT validation according to https://github.com/nimble-platform/common/security/advisories/GHSA-fjq8-896w-pv28",
+    "cvss_vector": "AV:N/AC:L/Au:S/C:N/I:P/A:N",
+    "cvss_base_score": 4.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

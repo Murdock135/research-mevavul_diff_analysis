@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="identifier: kernel_read [1107,1118]" dest="identifier: kernel_read [274,285]"/>
+  <match src="field_identifier: buf [1140,1143]" dest="field_identifier: buf [307,310]"/>
+  <match src="field_expression [1033,1052]" dest="field_expression [200,219]"/>
+  <match src="number_literal: 1 [1055,1056]" dest="number_literal: 1 [222,223]"/>
+  <match src="): ) [1160,1161]" dest="): ) [327,328]"/>
+  <match src="argument_list [994,1000]" dest="argument_list [161,167]"/>
+  <match src="if_statement [1003,1031]" dest="if_statement [170,198]"/>
+  <match src="(: ( [1006,1007]" dest="(: ( [173,174]"/>
+  <match src="(: ( [994,995]" dest="(: ( [161,162]"/>
+  <match src="identifier: security_bprm_set_creds [971,994]" dest="identifier: security_bprm_set_creds [138,161]"/>
+  <match src=";: ; [140,141]" dest=";: ; [62,63]"/>
+  <match src="if: if [1003,1005]" dest="if: if [170,172]"/>
+  <match src="return: return [1017,1023]" dest="return: return [184,190]"/>
+  <match src="identifier: bprm [995,999]" dest="identifier: bprm [162,166]"/>
+  <match src=",: , [1129,1130]" dest=",: , [296,297]"/>
+  <match src="): ) [45,46]" dest="): ) [45,46]"/>
+  <match src="identifier: prepare_binprm [5,19]" dest="identifier: prepare_binprm [5,19]"/>
+  <match src=";: ; [1161,1162]" dest=";: ; [328,329]"/>
+  <match src="identifier: BINPRM_BUF_SIZE [1081,1096]" dest="identifier: BINPRM_BUF_SIZE [248,263]"/>
+  <match src="-&gt;: -&gt; [1138,1140]" dest="-&gt;: -&gt; [305,307]"/>
+  <match src="parenthesized_expression [1006,1014]" dest="parenthesized_expression [173,181]"/>
+  <match src="return_statement [1100,1162]" dest="return_statement [267,329]"/>
+  <match src="identifier: retval [134,140]" dest="identifier: retval [56,62]"/>
+  <match src="return: return [1100,1106]" dest="return: return [267,273]"/>
+  <match src="declaration [130,141]" dest="declaration [52,63]"/>
+  <match src="assignment_expression [1033,1056]" dest="assignment_expression [200,223]"/>
+  <match src="number_literal: 0 [1131,1132]" dest="number_literal: 0 [298,299]"/>
+  <match src=",: , [1076,1077]" dest=",: , [243,244]"/>
+  <match src="call_expression [971,1000]" dest="call_expression [138,167]"/>
+  <match src="identifier: memset [1060,1066]" dest="identifier: memset [227,233]"/>
+  <match src=";: ; [1030,1031]" dest=";: ; [197,198]"/>
+  <match src="identifier: bprm [1033,1037]" dest="identifier: bprm [200,204]"/>
+  <match src="call_expression [1107,1161]" dest="call_expression [274,328]"/>
+  <match src="parameter_list [19,46]" dest="parameter_list [19,46]"/>
+  <match src="expression_statement [962,1001]" dest="expression_statement [129,168]"/>
+  <match src="struct: struct [20,26]" dest="struct: struct [20,26]"/>
+  <match src="field_expression [1067,1076]" dest="field_expression [234,243]"/>
+  <match src="function_definition [1,1164]" dest="function_definition [1,331]"/>
+  <match src="-&gt;: -&gt; [1123,1125]" dest="-&gt;: -&gt; [290,292]"/>
+  <match src="field_expression [1119,1129]" dest="field_expression [286,296]"/>
+  <match src="call_expression [1060,1097]" dest="call_expression [227,264]"/>
+  <match src="field_identifier: file [1125,1129]" dest="field_identifier: file [292,296]"/>
+  <match src="field_identifier: buf [1073,1076]" dest="field_identifier: buf [240,243]"/>
+  <match src=",: , [1079,1080]" dest=",: , [246,247]"/>
+  <match src="identifier: bprm [1067,1071]" dest="identifier: bprm [234,238]"/>
+  <match src="type_identifier: linux_binprm [27,39]" dest="type_identifier: linux_binprm [27,39]"/>
+  <match src="assignment_expression [962,1000]" dest="assignment_expression [129,167]"/>
+  <match src="}: } [1163,1164]" dest="}: } [330,331]"/>
+  <match src="identifier: bprm [1119,1123]" dest="identifier: bprm [286,290]"/>
+  <match src="primitive_type: int [1,4]" dest="primitive_type: int [1,4]"/>
+  <match src="identifier: bprm [41,45]" dest="identifier: bprm [41,45]"/>
+  <match src=";: ; [1056,1057]" dest=";: ; [223,224]"/>
+  <match src="primitive_type: int [130,133]" dest="primitive_type: int [52,55]"/>
+  <match src="{: { [48,49]" dest="{: { [48,49]"/>
+  <match src="argument_list [1118,1161]" dest="argument_list [285,328]"/>
+  <match src="struct_specifier [20,39]" dest="struct_specifier [20,39]"/>
+  <match src="compound_statement [48,1164]" dest="compound_statement [48,331]"/>
+  <match src="identifier: retval [1007,1013]" dest="identifier: retval [174,180]"/>
+  <match src="function_declarator [5,46]" dest="function_declarator [5,46]"/>
+  <match src="argument_list [1066,1097]" dest="argument_list [233,264]"/>
+  <match src="field_expression [1134,1143]" dest="field_expression [301,310]"/>
+  <match src=",: , [1143,1144]" dest=",: , [310,311]"/>
+  <match src="=: = [969,970]" dest="=: = [136,137]"/>
+  <match src="field_identifier: cred_prepared [1039,1052]" dest="field_identifier: cred_prepared [206,219]"/>
+  <match src="identifier: bprm [1134,1138]" dest="identifier: bprm [301,305]"/>
+  <match src="(: ( [19,20]" dest="(: ( [19,20]"/>
+  <match src="): ) [1096,1097]" dest="): ) [263,264]"/>
+  <match src="): ) [999,1000]" dest="): ) [166,167]"/>
+  <match src="-&gt;: -&gt; [1071,1073]" dest="-&gt;: -&gt; [238,240]"/>
+  <match src="=: = [1053,1054]" dest="=: = [220,221]"/>
+  <match src="return_statement [1017,1031]" dest="return_statement [184,198]"/>
+  <match src="pointer_declarator [40,45]" dest="pointer_declarator [40,45]"/>
+  <match src="translation_unit [1,1164]" dest="translation_unit [1,331]"/>
+  <match src=",: , [1132,1133]" dest=",: , [299,300]"/>
+  <match src="(: ( [1066,1067]" dest="(: ( [233,234]"/>
+  <match src="identifier: retval [962,968]" dest="identifier: retval [129,135]"/>
+  <match src="-&gt;: -&gt; [1037,1039]" dest="-&gt;: -&gt; [204,206]"/>
+  <match src="expression_statement [1033,1057]" dest="expression_statement [200,224]"/>
+  <match src="comment: /* fill in binprm security blob */ [925,959]" dest="comment: /* fill in binprm security blob */ [92,126]"/>
+  <match src="parameter_declaration [20,45]" dest="parameter_declaration [20,45]"/>
+  <match src="number_literal: 0 [1078,1079]" dest="number_literal: 0 [245,246]"/>
+  <match src="expression_statement [1060,1098]" dest="expression_statement [227,265]"/>
+  <match src="*: * [40,41]" dest="*: * [40,41]"/>
+  <match src=";: ; [1000,1001]" dest=";: ; [167,168]"/>
+  <match src="identifier: retval [1024,1030]" dest="identifier: retval [191,197]"/>
+  <match src="(: ( [1118,1119]" dest="(: ( [285,286]"/>
+  <match src=";: ; [1097,1098]" dest=";: ; [264,265]"/>
+  <match src="): ) [1013,1014]" dest="): ) [180,181]"/>
+  <match src="identifier: BINPRM_BUF_SIZE [1145,1160]" dest="identifier: BINPRM_BUF_SIZE [312,327]"/>
+</matches>
+<actions>
+  <insert-tree tree="expression_statement [67,87]" parent="compound_statement [48,1164]" at="4"/>
+  <delete-tree tree="declaration [51,96]"/>
+  <delete-tree tree="declaration [98,127]"/>
+  <delete-node tree="comment: /* clear any previous set[ug]id data from a previous binary */ [145,207]"/>
+  <delete-tree tree="expression_statement [209,243]"/>
+  <delete-tree tree="expression_statement [245,279]"/>
+  <delete-tree tree="if_statement [281,920]"/>
+</actions>

@@ -1,0 +1,20 @@
+{
+    "id": "702fbfdac7c4418f23bb5f6452482b4a88020061_get_0",
+    "func_name": "get",
+    "cve_id": "CVE-2020-36636",
+    "cwe_ids": [
+        "CWE-79"
+    ],
+    "commit_hash": "702fbfdac7c4418f23bb5f6452482b4a88020061",
+    "parent_commit_hash": "32cb17c232b9dac97e3523e577f2bfdf07e5c213",
+    "repo_name": "openmrs/openmrs-module-adminui",
+    "git_url": "https://github.com/openmrs/openmrs-module-adminui/commit/702fbfdac7c4418f23bb5f6452482b4a88020061",
+    "file_path": "omod/src/main/java/org/openmrs/module/adminui/page/controller/systemadmin/accounts/AccountPageController.java",
+    "file_name": "AccountPageController.java",
+    "commit_date": 1606098827,
+    "commit_msg": "RA-1865: Fix possible xss in account setup (#57)",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+    "cvss_base_score": 6.1,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

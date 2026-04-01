@@ -1,0 +1,20 @@
+{
+    "id": "1638945d4ed9403790962ec7abed1b7a232a9ff8_engineUpdateAAD_0",
+    "func_name": "engineUpdateAAD",
+    "cve_id": "CVE-2016-2461",
+    "cwe_ids": [
+        "CWE-264"
+    ],
+    "commit_hash": "1638945d4ed9403790962ec7abed1b7a232a9ff8",
+    "parent_commit_hash": "8bec47d2184fca7e8b7337d2a65b2b75a9bc8f54",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/external/conscrypt/+/1638945d4ed9403790962ec7abed1b7a232a9ff8",
+    "file_path": "src/main/java/org/conscrypt/OpenSSLCipher.java",
+    "file_name": "OpenSSLCipher.java",
+    "commit_date": 1458170838,
+    "commit_msg": "Fix updateAAD when offset is not 0\n\nDue to AAD data not being reset when a Cipher instance was re-used, this\nbug was never uncovered by tests that actually exercise this case.\n\n(cherry picked from commit 95cf7b9b7fbabb77cd341f17da79c947bcc934ab)\n\nBug: 27696681\nBug: 27324690\nChange-Id: Iae9b5794f212a8fc4eeff2a651332e7490f5cada\n",
+    "cvss_vector": "AV:N/AC:H/Au:N/C:C/I:C/A:C",
+    "cvss_base_score": 7.6,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

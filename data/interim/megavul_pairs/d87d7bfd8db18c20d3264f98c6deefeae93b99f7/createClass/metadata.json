@@ -1,0 +1,20 @@
+{
+    "id": "d87d7bfd8db18c20d3264f98c6deefeae93b99f7_createClass_0",
+    "func_name": "createClass",
+    "cve_id": "CVE-2023-26475",
+    "cwe_ids": [
+        "CWE-269"
+    ],
+    "commit_hash": "d87d7bfd8db18c20d3264f98c6deefeae93b99f7",
+    "parent_commit_hash": "05dc33154cecd4a4d542fc8f883718b378333be5",
+    "repo_name": "xwiki/xwiki-platform",
+    "git_url": "https://github.com/xwiki/xwiki-platform/commit/d87d7bfd8db18c20d3264f98c6deefeae93b99f7",
+    "file_path": "xwiki-platform-core/xwiki-platform-oldcore/src/main/java/com/xpn/xwiki/internal/mandatory/XWikiCommentsDocumentInitializer.java",
+    "file_name": "XWikiCommentsDocumentInitializer.java",
+    "commit_date": 1668753304,
+    "commit_msg": "XWIKI-20384: Use the new textarea restricted setup in comments",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 8.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="(: ( [143,144]" dest="(: ( [143,144]"/>
+  <match src="): ) [57,58]" dest="): ) [57,58]"/>
+  <match src="argument_list [97,111]" dest="argument_list [97,111]"/>
+  <match src="ERROR [10,14]" dest="ERROR [10,14]"/>
+  <match src=";: ; [111,112]" dest=";: ; [111,112]"/>
+  <match src="(: ( [31,32]" dest="(: ( [31,32]"/>
+  <match src="expression_statement [81,112]" dest="expression_statement [81,112]"/>
+  <match src="parameter_list [31,58]" dest="parameter_list [31,58]"/>
+  <match src="call_expression [117,181]" dest="call_expression [117,185]"/>
+  <match src="): ) [180,181]" dest="): ) [184,185]"/>
+  <match src="identifier: switches [144,152]" dest="identifier: switches [144,152]"/>
+  <match src="{: { [59,60]" dest="{: { [59,60]"/>
+  <match src="field_expression [117,143]" dest="field_expression [117,143]"/>
+  <match src="ERROR [80,81]" dest="ERROR [80,81]"/>
+  <match src=";: ; [181,182]" dest=";: ; [185,186]"/>
+  <match src=":: : [152,153]" dest=":: : [152,153]"/>
+  <match src="-&gt;: -&gt; [129,131]" dest="-&gt;: -&gt; [129,131]"/>
+  <match src="function_definition [2,186]" dest="function_definition [2,190]"/>
+  <match src=":: : [80,81]" dest=":: : [80,81]"/>
+  <match src=":: : [79,80]" dest=":: : [79,80]"/>
+  <match src="identifier: void [10,14]" dest="identifier: void [10,14]"/>
+  <match src="identifier: kEnableThreadedCompositing [154,180]" dest="identifier: kDisableAcceleratedCompositing [154,184]"/>
+  <match src="ERROR [144,154]" dest="ERROR [144,154]"/>
+  <match src="identifier: command_line [117,129]" dest="identifier: command_line [117,129]"/>
+  <match src="}: } [185,186]" dest="}: } [189,190]"/>
+  <match src="statement_identifier: GpuFeatureTest [65,79]" dest="statement_identifier: GpuFeatureTest [65,79]"/>
+  <match src="function_declarator [15,58]" dest="function_declarator [15,58]"/>
+  <match src="): ) [110,111]" dest="): ) [110,111]"/>
+  <match src="call_expression [81,111]" dest="call_expression [81,111]"/>
+  <match src=":: : [153,154]" dest=":: : [153,154]"/>
+  <match src="type_identifier: CommandLine [32,43]" dest="type_identifier: CommandLine [32,43]"/>
+  <match src="translation_unit [2,186]" dest="translation_unit [2,190]"/>
+  <match src="labeled_statement [65,112]" dest="labeled_statement [65,112]"/>
+  <match src="expression_statement [117,182]" dest="expression_statement [117,186]"/>
+  <match src="identifier: command_line [98,110]" dest="identifier: command_line [98,110]"/>
+  <match src="pointer_declarator [43,57]" dest="pointer_declarator [43,57]"/>
+  <match src="compound_statement [59,186]" dest="compound_statement [59,190]"/>
+  <match src="parameter_declaration [32,57]" dest="parameter_declaration [32,57]"/>
+  <match src="identifier: command_line [45,57]" dest="identifier: command_line [45,57]"/>
+  <match src="(: ( [97,98]" dest="(: ( [97,98]"/>
+  <match src="type_identifier: virtual [2,9]" dest="type_identifier: virtual [2,9]"/>
+  <match src="identifier: SetUpCommandLine [15,31]" dest="identifier: SetUpCommandLine [15,31]"/>
+  <match src="*: * [43,44]" dest="*: * [43,44]"/>
+  <match src="argument_list [143,181]" dest="argument_list [143,185]"/>
+  <match src="identifier: SetUpCommandLine [81,97]" dest="identifier: SetUpCommandLine [81,97]"/>
+  <match src="field_identifier: AppendSwitch [131,143]" dest="field_identifier: AppendSwitch [131,143]"/>
+</matches>
+<actions>
+  <update-node tree="identifier: kEnableThreadedCompositing [154,180]" label="kDisableAcceleratedCompositing"/>
+</actions>

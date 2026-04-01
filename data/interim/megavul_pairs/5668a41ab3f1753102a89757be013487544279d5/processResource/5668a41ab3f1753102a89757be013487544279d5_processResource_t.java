@@ -1,0 +1,80 @@
+class processResource {
+private QuestionItem processResource(ResourceType resource, Path imsmanifestPath, ManifestMetadataBuilder metadataBuilder) {
+		try {
+			String href = resource.getHref();
+			Path parentPath = imsmanifestPath.getParent();
+			Path assessmentItemPath = parentPath.resolve(href);
+			if(Files.notExists(assessmentItemPath)) {
+				return null;
+			}
+			
+			Path normalizedPath = assessmentItemPath.normalize();
+			if(!normalizedPath.startsWith(parentPath)) {
+				throw new IOException("Invalid Item");
+			}
+	
+			String dir = qpoolFileStorage.generateDir();
+			//storage
+			File itemStorage = qpoolFileStorage.getDirectory(dir);
+			File outputFile = new File(itemStorage, href);
+			if(!outputFile.getParentFile().exists()) {
+				outputFile.getParentFile().mkdirs();
+			}
+			QTI21Infos infos = getInfos(imsmanifestPath);
+			convertXmlFile(assessmentItemPath, outputFile.toPath(), infos);
+
+			QtiXmlReader qtiXmlReader = new QtiXmlReader(qtiService.jqtiExtensionManager());
+			ResourceLocator fileResourceLocator = new FileResourceLocator();
+			ResourceLocator inputResourceLocator = 
+					ImsQTI21Resource.createResolvingResourceLocator(fileResourceLocator);
+			
+			URI assessmentObjectSystemId = outputFile.toURI();
+			AssessmentObjectXmlLoader assessmentObjectXmlLoader = new AssessmentObjectXmlLoader(qtiXmlReader, inputResourceLocator);
+			ResolvedAssessmentItem resolvedAssessmentItem = assessmentObjectXmlLoader.loadAndResolveAssessmentItem(assessmentObjectSystemId);
+			AssessmentItem assessmentItem = resolvedAssessmentItem.getRootNodeLookup().extractIfSuccessful();
+			
+			if(!AssessmentItemChecker.checkAndCorrect(assessmentItem)) {
+				qtiService.persistAssessmentObject(outputFile, assessmentItem);
+			}
+			
+			AssessmentItemMetadata metadata = new AssessmentItemMetadata(metadataBuilder);
+
+			String editor = null;
+			String editorVersion = null;
+			if(StringHelper.containsNonWhitespace(assessmentItem.getToolName())) {
+				editor = assessmentItem.getToolName();
+			}
+			if(StringHelper.containsNonWhitespace(assessmentItem.getToolVersion())) {
+				editorVersion = assessmentItem.getToolVersion();
+			}
+
+			QuestionItemImpl qitem = processItem(assessmentItem, null, href,
+					editor, editorVersion, dir, metadata);
+
+			//create manifest
+			ManifestBuilder manifest = ManifestBuilder.createAssessmentItemBuilder();
+			String itemId = IdentifierGenerator.newAsIdentifier("item").toString();
+			ResourceType importedResource = manifest.appendAssessmentItem(itemId, href);
+			ManifestMetadataBuilder importedMetadataBuilder = manifest.getMetadataBuilder(importedResource, true);
+			importedMetadataBuilder.setMetadata(metadataBuilder.getMetadata());
+			manifest.write(new File(itemStorage, "imsmanifest.xml"));
+			
+			//process material
+			List<String> materials = ImportExportHelper.getMaterials(assessmentItem);
+			for(String material:materials) {
+				if(material.indexOf("://") < 0) {// material can be an external URL
+					Path materialFile = assessmentItemPath.getParent().resolve(material);
+					Path normalizedMaterialPath = materialFile.normalize();
+					if(!normalizedMaterialPath.startsWith(parentPath)) {
+						throw new IOException("Invalid Item");
+					}
+					PathUtils.copyFileToDir(materialFile, outputFile.getParentFile(), material);
+				}
+			}
+			return qitem;
+		} catch (Exception e) {
+			log.error("", e);
+			return null;
+		}
+	}
+}

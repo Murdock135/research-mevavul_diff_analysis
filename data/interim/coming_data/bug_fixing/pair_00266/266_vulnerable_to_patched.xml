@@ -1,0 +1,141 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="number_literal: 0 [470,471]" dest="number_literal: 0 [477,478]"/>
+  <match src="(: ( [508,509]" dest="(: ( [515,516]"/>
+  <match src="*: * [107,108]" dest="*: * [107,108]"/>
+  <match src="identifier: printk [331,337]" dest="identifier: printk [338,344]"/>
+  <match src="identifier: KERN_WARNING [338,350]" dest="identifier: KERN_WARNING [345,357]"/>
+  <match src="=: = [145,146]" dest="=: = [145,146]"/>
+  <match src="{: { [327,328]" dest="{: { [334,335]"/>
+  <match src="else: else [477,481]" dest="else: else [484,488]"/>
+  <match src="unary_expression [211,217]" dest="unary_expression [218,224]"/>
+  <match src="string_literal [360,430]" dest="string_literal [367,437]"/>
+  <match src="pointer_declarator [107,112]" dest="pointer_declarator [107,112]"/>
+  <match src="declaration [137,195]" dest="declaration [137,202]"/>
+  <match src="identifier: table [161,166]" dest="identifier: table [168,173]"/>
+  <match src="identifier: ret [204,207]" dest="identifier: ret [211,214]"/>
+  <match src="identifier: perf_cpu_time_max_percent_handler [4,37]" dest="identifier: perf_cpu_time_max_percent_handler [4,37]"/>
+  <match src="struct: struct [38,44]" dest="struct: struct [38,44]"/>
+  <match src="identifier: WRITE_ONCE [435,445]" dest="identifier: WRITE_ONCE [442,452]"/>
+  <match src="identifier: ret [141,144]" dest="identifier: ret [141,144]"/>
+  <match src="compound_statement [327,476]" dest="compound_statement [334,483]"/>
+  <match src=",: , [173,174]" dest=",: , [180,181]"/>
+  <match src="escape_sequence: \n [427,429]" dest="escape_sequence: \n [434,436]"/>
+  <match src="identifier: update_perf_cpu_limits [486,508]" dest="identifier: update_perf_cpu_limits [493,515]"/>
+  <match src="||: || [208,210]" dest="||: || [215,217]"/>
+  <match src=",: , [112,113]" dest=",: , [112,113]"/>
+  <match src="concatenated_string [338,430]" dest="concatenated_string [345,437]"/>
+  <match src="if: if [236,238]" dest="if: if [243,245]"/>
+  <match src="struct_specifier [38,54]" dest="struct_specifier [38,54]"/>
+  <match src=",: , [468,469]" dest=",: , [475,476]"/>
+  <match src="expression_statement [486,511]" dest="expression_statement [493,518]"/>
+  <match src="(: ( [337,338]" dest="(: ( [344,345]"/>
+  <match src="number_literal: 100 [276,279]" dest="number_literal: 100 [283,286]"/>
+  <match src="function_declarator [4,132]" dest="function_declarator [4,132]"/>
+  <match src="(: ( [160,161]" dest="(: ( [167,168]"/>
+  <match src="identifier: ppos [189,193]" dest="identifier: ppos [196,200]"/>
+  <match src="&quot;: &quot; [429,430]" dest="&quot;: &quot; [436,437]"/>
+  <match src="identifier: sysctl_perf_cpu_time_max_percent [288,320]" dest="identifier: sysctl_perf_cpu_time_max_percent [295,327]"/>
+  <match src="}: } [475,476]" dest="}: } [482,483]"/>
+  <match src="primitive_type: int [63,66]" dest="primitive_type: int [63,66]"/>
+  <match src=";: ; [525,526]" dest=";: ; [532,533]"/>
+  <match src="binary_expression [240,279]" dest="binary_expression [247,286]"/>
+  <match src="binary_expression [240,325]" dest="binary_expression [247,332]"/>
+  <match src="!: ! [211,212]" dest="!: ! [218,219]"/>
+  <match src="*: * [55,56]" dest="*: * [55,56]"/>
+  <match src="parameter_declaration [79,98]" dest="parameter_declaration [79,98]"/>
+  <match src="argument_list [508,510]" dest="argument_list [515,517]"/>
+  <match src="): ) [325,326]" dest="): ) [332,333]"/>
+  <match src="init_declarator [141,194]" dest="init_declarator [141,201]"/>
+  <match src=";: ; [431,432]" dest=";: ; [438,439]"/>
+  <match src="function_definition [0,528]" dest="function_definition [0,535]"/>
+  <match src="identifier: buffer [92,98]" dest="identifier: buffer [92,98]"/>
+  <match src="number_literal: 0 [324,325]" dest="number_literal: 0 [331,332]"/>
+  <match src="identifier: ppos [127,131]" dest="identifier: ppos [127,131]"/>
+  <match src="return: return [517,523]" dest="return: return [524,530]"/>
+  <match src="primitive_type: int [137,140]" dest="primitive_type: int [137,140]"/>
+  <match src="==: == [321,323]" dest="==: == [328,330]"/>
+  <match src="if_statement [236,514]" dest="if_statement [243,521]"/>
+  <match src=";: ; [472,473]" dest=";: ; [479,480]"/>
+  <match src="parameter_list [37,132]" dest="parameter_list [37,132]"/>
+  <match src="argument_list [160,194]" dest="argument_list [167,201]"/>
+  <match src="}: } [527,528]" dest="}: } [534,535]"/>
+  <match src=",: , [166,167]" dest=",: , [173,174]"/>
+  <match src="translation_unit [0,528]" dest="translation_unit [0,535]"/>
+  <match src="compound_statement [482,514]" dest="compound_statement [489,521]"/>
+  <match src="primitive_type: size_t [100,106]" dest="primitive_type: size_t [100,106]"/>
+  <match src="pointer_declarator [55,61]" dest="pointer_declarator [55,61]"/>
+  <match src="(: ( [37,38]" dest="(: ( [37,38]"/>
+  <match src="compound_statement [134,528]" dest="compound_statement [134,535]"/>
+  <match src="binary_expression [288,325]" dest="binary_expression [295,332]"/>
+  <match src="(: ( [203,204]" dest="(: ( [210,211]"/>
+  <match src="&quot;: &quot; [360,361]" dest="&quot;: &quot; [367,368]"/>
+  <match src="primitive_type: void [79,83]" dest="primitive_type: void [79,83]"/>
+  <match src="call_expression [331,431]" dest="call_expression [338,438]"/>
+  <match src="call_expression [147,194]" dest="call_expression [147,201]"/>
+  <match src="pointer_declarator [91,98]" dest="pointer_declarator [91,98]"/>
+  <match src="if_statement [200,233]" dest="if_statement [207,240]"/>
+  <match src="identifier: write [212,217]" dest="identifier: write [219,224]"/>
+  <match src="): ) [193,194]" dest="): ) [200,201]"/>
+  <match src="}: } [513,514]" dest="}: } [520,521]"/>
+  <match src="identifier: ret [229,232]" dest="identifier: ret [236,239]"/>
+  <match src="string_content: perf: Dynamic interrupt throttling disabled, can hang your system! [361,427]" dest="string_content: perf: Dynamic interrupt throttling disabled, can hang your system! [368,434]"/>
+  <match src="identifier: lenp [108,112]" dest="identifier: lenp [108,112]"/>
+  <match src=",: , [187,188]" dest=",: , [194,195]"/>
+  <match src="binary_expression [204,217]" dest="binary_expression [211,224]"/>
+  <match src="call_expression [486,510]" dest="call_expression [493,517]"/>
+  <match src=",: , [61,62]" dest=",: , [61,62]"/>
+  <match src="identifier: buffer [175,181]" dest="identifier: buffer [182,188]"/>
+  <match src="identifier: perf_sample_allowed_ns [446,468]" dest="identifier: perf_sample_allowed_ns [453,475]"/>
+  <match src="parameter_declaration [38,61]" dest="parameter_declaration [38,61]"/>
+  <match src="pointer_declarator [126,131]" dest="pointer_declarator [126,131]"/>
+  <match src="type_identifier: ctl_table [45,54]" dest="type_identifier: ctl_table [45,54]"/>
+  <match src="(: ( [445,446]" dest="(: ( [452,453]"/>
+  <match src=";: ; [232,233]" dest=";: ; [239,240]"/>
+  <match src="*: * [126,127]" dest="*: * [126,127]"/>
+  <match src="call_expression [435,472]" dest="call_expression [442,479]"/>
+  <match src="): ) [509,510]" dest="): ) [516,517]"/>
+  <match src="): ) [471,472]" dest="): ) [478,479]"/>
+  <match src="expression_statement [331,432]" dest="expression_statement [338,439]"/>
+  <match src="==: == [273,275]" dest="==: == [280,282]"/>
+  <match src="): ) [217,218]" dest="): ) [224,225]"/>
+  <match src="parenthesized_expression [203,218]" dest="parenthesized_expression [210,225]"/>
+  <match src="argument_list [337,431]" dest="argument_list [344,438]"/>
+  <match src="parameter_declaration [100,112]" dest="parameter_declaration [100,112]"/>
+  <match src="argument_list [445,472]" dest="argument_list [452,479]"/>
+  <match src="else_clause [477,514]" dest="else_clause [484,521]"/>
+  <match src=",: , [72,73]" dest=",: , [72,73]"/>
+  <match src="parameter_declaration [119,131]" dest="parameter_declaration [119,131]"/>
+  <match src="identifier: proc_dointvec [147,160]" dest="identifier: proc_dointvec_minmax [147,167]"/>
+  <match src=",: , [181,182]" dest=",: , [188,189]"/>
+  <match src=";: ; [194,195]" dest=";: ; [201,202]"/>
+  <match src="parenthesized_expression [239,326]" dest="parenthesized_expression [246,333]"/>
+  <match src=",: , [98,99]" dest=",: , [98,99]"/>
+  <match src="parameter_declaration [63,72]" dest="parameter_declaration [63,72]"/>
+  <match src="*: * [91,92]" dest="*: * [91,92]"/>
+  <match src="return_statement [222,233]" dest="return_statement [229,240]"/>
+  <match src="primitive_type: int [0,3]" dest="primitive_type: int [0,3]"/>
+  <match src="{: { [482,483]" dest="{: { [489,490]"/>
+  <match src="ERROR [84,90]" dest="ERROR [84,90]"/>
+  <match src="): ) [430,431]" dest="): ) [437,438]"/>
+  <match src="if: if [200,202]" dest="if: if [207,209]"/>
+  <match src="number_literal: 0 [524,525]" dest="number_literal: 0 [531,532]"/>
+  <match src="identifier: table [56,61]" dest="identifier: table [56,61]"/>
+  <match src="identifier: __user [84,90]" dest="identifier: __user [84,90]"/>
+  <match src="identifier: write [168,173]" dest="identifier: write [175,180]"/>
+  <match src="expression_statement [435,473]" dest="expression_statement [442,480]"/>
+  <match src="type_identifier: loff_t [119,125]" dest="type_identifier: loff_t [119,125]"/>
+  <match src="return_statement [517,526]" dest="return_statement [524,533]"/>
+  <match src=";: ; [510,511]" dest=";: ; [517,518]"/>
+  <match src="{: { [134,135]" dest="{: { [134,135]"/>
+  <match src="return: return [222,228]" dest="return: return [229,235]"/>
+  <match src="identifier: write [67,72]" dest="identifier: write [67,72]"/>
+  <match src="): ) [131,132]" dest="): ) [131,132]"/>
+  <match src="identifier: sysctl_perf_cpu_time_max_percent [240,272]" dest="identifier: sysctl_perf_cpu_time_max_percent [247,279]"/>
+  <match src="(: ( [239,240]" dest="(: ( [246,247]"/>
+  <match src="||: || [280,282]" dest="||: || [287,289]"/>
+  <match src="identifier: lenp [183,187]" dest="identifier: lenp [190,194]"/>
+</matches>
+<actions>
+  <update-node tree="identifier: proc_dointvec [147,160]" label="proc_dointvec_minmax"/>
+</actions>

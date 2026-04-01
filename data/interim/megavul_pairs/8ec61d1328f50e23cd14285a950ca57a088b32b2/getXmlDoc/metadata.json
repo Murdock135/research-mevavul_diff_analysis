@@ -1,0 +1,20 @@
+{
+    "id": "8ec61d1328f50e23cd14285a950ca57a088b32b2_getXmlDoc_0",
+    "func_name": "getXmlDoc",
+    "cve_id": "CVE-2019-5312",
+    "cwe_ids": [
+        "CWE-611"
+    ],
+    "commit_hash": "8ec61d1328f50e23cd14285a950ca57a088b32b2",
+    "parent_commit_hash": "d6923f253733783f662c165d112a5561396557b7",
+    "repo_name": "Wechat-Group/WxJava",
+    "git_url": "https://github.com/Wechat-Group/WxJava/commit/8ec61d1328f50e23cd14285a950ca57a088b32b2",
+    "file_path": "weixin-java-pay/src/main/java/com/github/binarywang/wxpay/bean/result/BaseWxPayResult.java",
+    "file_name": "BaseWxPayResult.java",
+    "commit_date": 1547087335,
+    "commit_msg": "#903 disable DOCTYPE to fix XXE Vulnerability",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

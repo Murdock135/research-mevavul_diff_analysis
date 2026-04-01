@@ -1,0 +1,790 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="{: { [1704,1705]" dest="{: { [1704,1705]"/>
+  <match src="if: if [1709,1711]" dest="if: if [1709,1711]"/>
+  <match src="break_statement [2227,2233]" dest="break_statement [2227,2233]"/>
+  <match src="break: break [2043,2048]" dest="break: break [2043,2048]"/>
+  <match src="identifier: hv_enabled [3464,3474]" dest="identifier: hv_enabled [3464,3474]"/>
+  <match src="else: else [2940,2944]" dest="else: else [2940,2944]"/>
+  <match src="binary_expression [2193,2222]" dest="binary_expression [2193,2222]"/>
+  <match src="(: ( [2220,2221]" dest="(: ( [2220,2221]"/>
+  <match src="expression_statement [3160,3166]" dest="expression_statement [3160,3166]"/>
+  <match src="
+: #elif defined(KVM_ARCH_WANT_MMU_NOTIFIER)
+ [2489,2490]" dest="
+: #elif defined(KVM_ARCH_WANT_MMU_NOTIFIER)
+ [2489,2490]"/>
+  <match src="expression_statement [1917,1954]" dest="expression_statement [1917,1954]"/>
+  <match src="assignment_expression [3009,3031]" dest="assignment_expression [3009,3031]"/>
+  <match src="identifier: KVM_CAP_PPC_SMT [1535,1550]" dest="identifier: KVM_CAP_PPC_SMT [1535,1550]"/>
+  <match src="compound_statement [1704,1799]" dest="compound_statement [1704,1799]"/>
+  <match src="break_statement [1451,1457]" dest="break_statement [1451,1457]"/>
+  <match src="case: case [2156,2160]" dest="case: case [2156,2160]"/>
+  <match src="expression_statement [1771,1795]" dest="expression_statement [1771,1795]"/>
+  <match src="assignment_expression [2492,2497]" dest="assignment_expression [2492,2497]"/>
+  <match src="=: = [2598,2599]" dest="=: = [2598,2599]"/>
+  <match src="(: ( [2967,2968]" dest="(: ( [2967,2968]"/>
+  <match src=";: ; [3095,3096]" dest=";: ; [3095,3096]"/>
+  <match src="expression_statement [3617,3623]" dest="expression_statement [3596,3602]"/>
+  <match src=":: : [616,617]" dest=":: : [616,617]"/>
+  <match src="||: || [914,916]" dest="||: || [914,916]"/>
+  <match src="case_statement [619,643]" dest="case_statement [619,643]"/>
+  <match src="assignment_expression [1433,1447]" dest="assignment_expression [1433,1447]"/>
+  <match src=";: ; [1389,1390]" dest=";: ; [1389,1390]"/>
+  <match src="preproc_defined [887,913]" dest="preproc_defined [887,913]"/>
+  <match src=";: ; [1091,1092]" dest=";: ; [1091,1092]"/>
+  <match src="case: case [2235,2239]" dest="case: case [2235,2239]"/>
+  <match src=";: ; [3378,3379]" dest=";: ; [3378,3379]"/>
+  <match src="): ) [58,59]" dest="): ) [58,59]"/>
+  <match src="number_literal: 1 [1756,1757]" dest="number_literal: 1 [1756,1757]"/>
+  <match src="break: break [3169,3174]" dest="break: break [3169,3174]"/>
+  <match src="): ) [1910,1911]" dest="): ) [1910,1911]"/>
+  <match src="number_literal: 8 [2022,2023]" dest="number_literal: 8 [2022,2023]"/>
+  <match src="case_statement [1810,2049]" dest="case_statement [1810,2049]"/>
+  <match src="break: break [1393,1398]" dest="break: break [1393,1398]"/>
+  <match src="assignment_expression [1655,1677]" dest="assignment_expression [1655,1677]"/>
+  <match src=";: ; [68,69]" dest=";: ; [68,69]"/>
+  <match src="break_statement [3035,3041]" dest="break_statement [3035,3041]"/>
+  <match src="case: case [854,858]" dest="case: case [854,858]"/>
+  <match src="=: = [2509,2510]" dest="=: = [2509,2510]"/>
+  <match src="break: break [1095,1100]" dest="break: break [1095,1100]"/>
+  <match src="field_expression [1659,1668]" dest="field_expression [1659,1668]"/>
+  <match src="=: = [1616,1617]" dest="=: = [1616,1617]"/>
+  <match src="parenthesized_expression [2898,2910]" dest="parenthesized_expression [2898,2910]"/>
+  <match src="call_expression [2317,2350]" dest="call_expression [2317,2350]"/>
+  <match src="case: case [3496,3500]" dest="case: case [3496,3500]"/>
+  <match src="): ) [1911,1912]" dest="): ) [1911,1912]"/>
+  <match src="{: { [60,61]" dest="{: { [60,61]"/>
+  <match src="case: case [2370,2374]" dest="case: case [2370,2374]"/>
+  <match src="case: case [530,534]" dest="case: case [530,534]"/>
+  <match src="identifier: KVM_CAP_ENABLE_CAP_VM [650,671]" dest="identifier: KVM_CAP_ENABLE_CAP_VM [650,671]"/>
+  <match src="#elif: #elif [2448,2453]" dest="#elif: #elif [2448,2453]"/>
+  <match src="number_literal: 0 [3621,3622]" dest="number_literal: 0 [3600,3601]"/>
+  <match src="identifier: KVM_CAP_PPC_PAPR [535,551]" dest="identifier: KVM_CAP_PPC_PAPR [535,551]"/>
+  <match src="break_statement [3479,3485]" dest="break_statement [3479,3485]"/>
+  <match src="binary_expression [2022,2035]" dest="binary_expression [2022,2035]"/>
+  <match src="identifier: KVM_CAP_PPC_IRQ_LEVEL [595,616]" dest="identifier: KVM_CAP_PPC_IRQ_LEVEL [595,616]"/>
+  <match src=";: ; [1757,1758]" dest=";: ; [1757,1758]"/>
+  <match src="identifier: KVM_MAX_VCPUS [3073,3086]" dest="identifier: KVM_MAX_VCPUS [3073,3086]"/>
+  <match src="=: = [1657,1658]" dest="=: = [1657,1658]"/>
+  <match src="): ) [2349,2350]" dest="): ) [2349,2350]"/>
+  <match src="assignment_expression [3460,3474]" dest="assignment_expression [3460,3474]"/>
+  <match src="function_definition [0,3649]" dest="function_definition [0,3628]"/>
+  <match src="): ) [2935,2936]" dest="): ) [2935,2936]"/>
+  <match src="field_identifier: arch [1623,1627]" dest="field_identifier: arch [1623,1627]"/>
+  <match src="identifier: KVM_CAP_PPC_GET_PVINFO [859,881]" dest="identifier: KVM_CAP_PPC_GET_PVINFO [859,881]"/>
+  <match src=":: : [2650,2651]" dest=":: : [2650,2651]"/>
+  <match src="): ) [2488,2489]" dest="): ) [2488,2489]"/>
+  <match src="identifier: kvm [337,340]" dest="identifier: kvm [337,340]"/>
+  <match src="identifier: cpu_has_feature [3345,3360]" dest="identifier: cpu_has_feature [3345,3360]"/>
+  <match src="identifier: r [2492,2493]" dest="identifier: r [2492,2493]"/>
+  <match src="argument_list [1893,1911]" dest="argument_list [1893,1911]"/>
+  <match src="break: break [2523,2528]" dest="break: break [2523,2528]"/>
+  <match src="identifier: hv_enabled [1692,1702]" dest="identifier: hv_enabled [1692,1702]"/>
+  <match src="identifier: r [1614,1615]" dest="identifier: r [1614,1615]"/>
+  <match src="binary_expression [1922,1952]" dest="binary_expression [1922,1952]"/>
+  <match src="defined: defined [887,894]" dest="defined: defined [887,894]"/>
+  <match src="case: case [590,594]" dest="case: case [590,594]"/>
+  <match src="}: } [1798,1799]" dest="}: } [1798,1799]"/>
+  <match src="=: = [1773,1774]" dest="=: = [1773,1774]"/>
+  <match src="identifier: r [1843,1844]" dest="identifier: r [1843,1844]"/>
+  <match src="identifier: CONFIG_PPC_BOOK3S_64 [3104,3124]" dest="identifier: CONFIG_PPC_BOOK3S_64 [3104,3124]"/>
+  <match src="assignment_expression [3324,3378]" dest="assignment_expression [3324,3378]"/>
+  <match src="}: } [3634,3635]" dest="}: } [3613,3614]"/>
+  <match src="break: break [2084,2089]" dest="break: break [2084,2089]"/>
+  <match src="(: ( [2934,2935]" dest="(: ( [2934,2935]"/>
+  <match src="identifier: CPU_FTR_ARCH_300 [1729,1745]" dest="identifier: CPU_FTR_ARCH_300 [1729,1745]"/>
+  <match src="else_clause [1958,2036]" dest="else_clause [1958,2036]"/>
+  <match src="break_statement [2973,2979]" dest="break_statement [2973,2979]"/>
+  <match src="#else: #else [471,476]" dest="#else: #else [471,476]"/>
+  <match src="=: = [2020,2021]" dest="=: = [2020,2021]"/>
+  <match src="break_statement [3217,3223]" dest="break_statement [3217,3223]"/>
+  <match src=";: ; [1398,1399]" dest=";: ; [1398,1399]"/>
+  <match src=";: ; [2936,2937]" dest=";: ; [2936,2937]"/>
+  <match src="case: case [749,753]" dest="case: case [749,753]"/>
+  <match src="unary_expression [3329,3340]" dest="unary_expression [3329,3340]"/>
+  <match src="break_statement [2614,2620]" dest="break_statement [2614,2620]"/>
+  <match src=":: : [3516,3517]" dest=":: : [3516,3517]"/>
+  <match src="preproc_else [2499,2513]" dest="preproc_else [2499,2513]"/>
+  <match src="&amp;&amp;: &amp;&amp; [2305,2307]" dest="&amp;&amp;: &amp;&amp; [2305,2307]"/>
+  <match src=";: ; [2089,2090]" dest=";: ; [2089,2090]"/>
+  <match src=":: : [3456,3457]" dest=":: : [3456,3457]"/>
+  <match src="=: = [3162,3163]" dest="=: = [3162,3163]"/>
+  <match src="case: case [2092,2096]" dest="case: case [2092,2096]"/>
+  <match src="case_statement [749,795]" dest="case_statement [749,795]"/>
+  <match src="identifier: r [3208,3209]" dest="identifier: r [3208,3209]"/>
+  <match src=";: ; [3213,3214]" dest=";: ; [3213,3214]"/>
+  <match src="assignment_expression [1086,1091]" dest="assignment_expression [1086,1091]"/>
+  <match src="else_clause [2940,2970]" dest="else_clause [2940,2970]"/>
+  <match src="if_statement [1852,2040]" dest="if_statement [1852,2040]"/>
+  <match src=";: ; [2153,2154]" dest=";: ; [2153,2154]"/>
+  <match src="identifier: CONFIG_KVM_E500V2 [895,912]" dest="identifier: CONFIG_KVM_E500V2 [895,912]"/>
+  <match src="break: break [1030,1035]" dest="break: break [1030,1035]"/>
+  <match src="#endif: #endif [2621,2627]" dest="#endif: #endif [2621,2627]"/>
+  <match src=";: ; [341,342]" dest=";: ; [341,342]"/>
+  <match src="assignment_expression [303,341]" dest="assignment_expression [303,341]"/>
+  <match src="identifier: hv_enabled [2600,2610]" dest="identifier: hv_enabled [2600,2610]"/>
+  <match src="(: ( [2461,2462]" dest="(: ( [2461,2462]"/>
+  <match src="break: break [3035,3040]" dest="break: break [3035,3040]"/>
+  <match src="else_clause [1762,1795]" dest="else_clause [1762,1795]"/>
+  <match src="identifier: CPU_FTR_ARCH_300 [1894,1910]" dest="identifier: CPU_FTR_ARCH_300 [1894,1910]"/>
+  <match src="(: ( [179,180]" dest="(: ( [179,180]"/>
+  <match src="): ) [2222,2223]" dest="): ) [2222,2223]"/>
+  <match src="{: { [185,186]" dest="{: { [185,186]"/>
+  <match src="expression_statement [780,786]" dest="expression_statement [780,786]"/>
+  <match src="case: case [3043,3047]" dest="case: case [3043,3047]"/>
+  <match src="call_expression [1878,1911]" dest="call_expression [1878,1911]"/>
+  <match src="(: ( [3539,3540]" dest="(: ( [3539,3540]"/>
+  <match src="identifier: CONFIG_BOOKE [370,382]" dest="identifier: CONFIG_BOOKE [370,382]"/>
+  <match src="case: case [674,678]" dest="case: case [674,678]"/>
+  <match src="(: ( [1566,1567]" dest="(: ( [1566,1567]"/>
+  <match src="assignment_expression [1843,1848]" dest="assignment_expression [1843,1848]"/>
+  <match src="-: - [1949,1950]" dest="-: - [1949,1950]"/>
+  <match src="#endif: #endif [553,559]" dest="#endif: #endif [553,559]"/>
+  <match src="identifier: r [3069,3070]" dest="identifier: r [3069,3070]"/>
+  <match src="identifier: KVM_USER_MEM_SLOTS [3013,3031]" dest="identifier: KVM_USER_MEM_SLOTS [3013,3031]"/>
+  <match src="number_literal: 1 [1607,1608]" dest="number_literal: 1 [1607,1608]"/>
+  <match src="identifier: hv_enabled [138,148]" dest="identifier: hv_enabled [138,148]"/>
+  <match src="unary_expression [3344,3378]" dest="unary_expression [3344,3378]"/>
+  <match src="case_statement [1297,1327]" dest="case_statement [1297,1327]"/>
+  <match src="unary_expression [2271,2351]" dest="unary_expression [2271,2351]"/>
+  <match src="if: if [1577,1579]" dest="if: if [1577,1579]"/>
+  <match src="identifier: num_online_cpus [2952,2967]" dest="identifier: num_online_cpus [2952,2967]"/>
+  <match src=";: ; [3622,3623]" dest=";: ; [3601,3602]"/>
+  <match src="break: break [3479,3484]" dest="break: break [3479,3484]"/>
+  <match src="parenthesized_expression [1580,1609]" dest="parenthesized_expression [1580,1609]"/>
+  <match src="!: ! [2190,2191]" dest="!: ! [2190,2191]"/>
+  <match src="identifier: KVM_CAP_PPC_HTM [3501,3516]" dest="identifier: KVM_CAP_PPC_HTM [3501,3516]"/>
+  <match src=":: : [642,643]" dest=":: : [642,643]"/>
+  <match src="case: case [2051,2055]" dest="case: case [2051,2055]"/>
+  <match src="#endif: #endif [1458,1464]" dest="#endif: #endif [1458,1464]"/>
+  <match src="|: | [2028,2029]" dest="|: | [2028,2029]"/>
+  <match src=";: ; [1641,1642]" dest=";: ; [1641,1642]"/>
+  <match src="case_statement [561,588]" dest="case_statement [561,588]"/>
+  <match src="case: case [1212,1216]" dest="case: case [1212,1216]"/>
+  <match src="case_statement [3043,3096]" dest="case_statement [3043,3096]"/>
+  <match src="assignment_expression [2507,2512]" dest="assignment_expression [2507,2512]"/>
+  <match src="if_statement [1577,1678]" dest="if_statement [1577,1678]"/>
+  <match src="break: break [2973,2978]" dest="break: break [2973,2978]"/>
+  <match src="unary_expression [3328,3340]" dest="unary_expression [3328,3340]"/>
+  <match src="break: break [3090,3095]" dest="break: break [3090,3095]"/>
+  <match src="identifier: kvm [1659,1662]" dest="identifier: kvm [1659,1662]"/>
+  <match src="(: ( [1712,1713]" dest="(: ( [1712,1713]"/>
+  <match src="case: case [2568,2572]" dest="case: case [2568,2572]"/>
+  <match src="argument_list [2220,2222]" dest="argument_list [2220,2222]"/>
+  <match src="identifier: kvm [45,48]" dest="identifier: kvm [45,48]"/>
+  <match src="&gt;: &gt; [1605,1606]" dest="&gt;: &gt; [1605,1606]"/>
+  <match src=";: ; [2144,2145]" dest=";: ; [2144,2145]"/>
+  <match src="else: else [1683,1687]" dest="else: else [1683,1687]"/>
+  <match src="expression_statement [3069,3087]" dest="expression_statement [3069,3087]"/>
+  <match src="if_statement [2895,2970]" dest="if_statement [2895,2970]"/>
+  <match src="break: break [2355,2360]" dest="break: break [2355,2360]"/>
+  <match src="?: ? [165,166]" dest="?: ? [165,166]"/>
+  <match src="binary_expression [1581,1608]" dest="binary_expression [1581,1608]"/>
+  <match src=":: : [1373,1374]" dest=":: : [1373,1374]"/>
+  <match src="unary_expression [2272,2351]" dest="unary_expression [2272,2351]"/>
+  <match src="unary_expression [1877,1911]" dest="unary_expression [1877,1911]"/>
+  <match src="else: else [1762,1766]" dest="else: else [1762,1766]"/>
+  <match src="expression_statement [2596,2611]" dest="expression_statement [2596,2611]"/>
+  <match src=":: : [412,413]" dest=":: : [412,413]"/>
+  <match src="}: } [1681,1682]" dest="}: } [1681,1682]"/>
+  <match src="expression_statement [2018,2036]" dest="expression_statement [2018,2036]"/>
+  <match src="identifier: KVM_CAP_NR_VCPUS [2634,2650]" dest="identifier: KVM_CAP_NR_VCPUS [2634,2650]"/>
+  <match src=";: ; [2528,2529]" dest=";: ; [2528,2529]"/>
+  <match src="{: { [1868,1869]" dest="{: { [1868,1869]"/>
+  <match src="case: case [3126,3130]" dest="case: case [3126,3130]"/>
+  <match src="identifier: num_present_cpus [2918,2934]" dest="identifier: num_present_cpus [2918,2934]"/>
+  <match src="case: case [3177,3181]" dest="case: case [3177,3181]"/>
+  <match src="#endif: #endif [1375,1381]" dest="#endif: #endif [1375,1381]"/>
+  <match src="case: case [1266,1270]" dest="case: case [1266,1270]"/>
+  <match src="identifier: r [2018,2019]" dest="identifier: r [2018,2019]"/>
+  <match src="#ifdef: #ifdef [1110,1116]" dest="#ifdef: #ifdef [1110,1116]"/>
+  <match src="call_expression [2952,2969]" dest="call_expression [2952,2969]"/>
+  <match src="identifier: hv_enabled [1856,1866]" dest="identifier: hv_enabled [1856,1866]"/>
+  <match src="break: break [3626,3631]" dest="break: break [3605,3610]"/>
+  <match src="else: else [1646,1650]" dest="else: else [1646,1650]"/>
+  <match src="case_statement [945,965]" dest="case_statement [945,965]"/>
+  <match src="break_statement [1802,1808]" dest="break_statement [1802,1808]"/>
+  <match src="assignment_expression [2186,2223]" dest="assignment_expression [2186,2223]"/>
+  <match src="identifier: hv_enabled [2436,2446]" dest="identifier: hv_enabled [2436,2446]"/>
+  <match src="(: ( [32,33]" dest="(: ( [32,33]"/>
+  <match src="identifier: KVM_CAP_DEVICE_CTRL [727,746]" dest="identifier: KVM_CAP_DEVICE_CTRL [727,746]"/>
+  <match src=";: ; [785,786]" dest=";: ; [785,786]"/>
+  <match src="function_declarator [4,59]" dest="function_declarator [4,59]"/>
+  <match src="case_statement [831,852]" dest="case_statement [831,852]"/>
+  <match src="identifier: cpu_has_feature [2317,2332]" dest="identifier: cpu_has_feature [2317,2332]"/>
+  <match src=";: ; [1026,1027]" dest=";: ; [1026,1027]"/>
+  <match src="init_declarator [138,172]" dest="init_declarator [138,172]"/>
+  <match src=";: ; [2978,2979]" dest=";: ; [2978,2979]"/>
+  <match src="comment: /* P9 can emulate dbells, so allow any mode */ [1967,2013]" dest="comment: /* P9 can emulate dbells, so allow any mode */ [1967,2013]"/>
+  <match src="): ) [3377,3378]" dest="): ) [3377,3378]"/>
+  <match src="identifier: r [2596,2597]" dest="identifier: r [2596,2597]"/>
+  <match src="identifier: KVM_CAP_PPC_RMA [2056,2071]" dest="identifier: KVM_CAP_PPC_RMA [2056,2071]"/>
+  <match src="=: = [1386,1387]" dest="=: = [1386,1387]"/>
+  <match src="identifier: KVM_CAP_SPAPR_RESIZE_HPT [3230,3254]" dest="identifier: KVM_CAP_SPAPR_RESIZE_HPT [3230,3254]"/>
+  <match src=":: : [1326,1327]" dest=":: : [1326,1327]"/>
+  <match src="struct: struct [33,39]" dest="struct: struct [33,39]"/>
+  <match src="expression_statement [3009,3032]" dest="expression_statement [3009,3032]"/>
+  <match src="identifier: r [2948,2949]" dest="identifier: r [2948,2949]"/>
+  <match src=";: ; [2035,2036]" dest=";: ; [2035,2036]"/>
+  <match src="break_statement [2355,2361]" dest="break_statement [2355,2361]"/>
+  <match src="preproc_ifdef [3396,3493]" dest="preproc_ifdef [3396,3493]"/>
+  <match src="if: if [1852,1854]" dest="if: if [1852,1854]"/>
+  <match src="break_statement [2084,2090]" dest="break_statement [2084,2090]"/>
+  <match src="argument_list [336,341]" dest="argument_list [336,341]"/>
+  <match src="if_statement [1563,1799]" dest="if_statement [1563,1799]"/>
+  <match src="number_literal: 1 [1946,1947]" dest="number_literal: 1 [1946,1947]"/>
+  <match src="binary_expression [2274,2304]" dest="binary_expression [2274,2304]"/>
+  <match src="identifier: CONFIG_KVM_BOOK3S_HV_POSSIBLE [2400,2429]" dest="identifier: CONFIG_KVM_BOOK3S_HV_POSSIBLE [2400,2429]"/>
+  <match src=";: ; [2080,2081]" dest=";: ; [2080,2081]"/>
+  <match src="assignment_expression [1384,1389]" dest="assignment_expression [1384,1389]"/>
+  <match src="case_statement [854,882]" dest="case_statement [854,882]"/>
+  <match src="call_expression [1713,1746]" dest="call_expression [1713,1746]"/>
+  <match src="break_statement [3626,3632]" dest="break_statement [3605,3611]"/>
+  <match src="case_statement [2629,2979]" dest="case_statement [2629,2979]"/>
+  <match src="(: ( [2898,2899]" dest="(: ( [2898,2899]"/>
+  <match src=":: : [1082,1083]" dest=":: : [1082,1083]"/>
+  <match src="parenthesized_expression [355,360]" dest="parenthesized_expression [355,360]"/>
+  <match src="identifier: r [2914,2915]" dest="identifier: r [2914,2915]"/>
+  <match src=":: : [2263,2264]" dest=":: : [2263,2264]"/>
+  <match src=":: : [1189,1190]" dest=":: : [1189,1190]"/>
+  <match src="identifier: r [1384,1385]" dest="identifier: r [1384,1385]"/>
+  <match src=":: : [964,965]" dest=":: : [964,965]"/>
+  <match src="identifier: r [3009,3010]" dest="identifier: r [3009,3010]"/>
+  <match src="identifier: KVM_CAP_PPC_SEGSTATE [483,503]" dest="identifier: KVM_CAP_PPC_SEGSTATE [483,503]"/>
+  <match src="=: = [1845,1846]" dest="=: = [1845,1846]"/>
+  <match src="if_statement [176,345]" dest="if_statement [176,345]"/>
+  <match src="identifier: CPU_FTR_TM_COMP [3540,3555]" dest="identifier: CPU_FTR_TM_COMP [3540,3555]"/>
+  <match src="#ifdef: #ifdef [1492,1498]" dest="#ifdef: #ifdef [1492,1498]"/>
+  <match src="): ) [1745,1746]" dest="): ) [1745,1746]"/>
+  <match src="case_statement [2156,2233]" dest="case_statement [2156,2233]"/>
+  <match src="number_literal: 0 [171,172]" dest="number_literal: 0 [171,172]"/>
+  <match src="identifier: kvm [180,183]" dest="identifier: kvm [180,183]"/>
+  <match src="case: case [3225,3229]" dest="case: case [3225,3229]"/>
+  <match src="identifier: KVM_CAP_IOEVENTFD [702,719]" dest="identifier: KVM_CAP_IOEVENTFD [702,719]"/>
+  <match src="break: break [2148,2153]" dest="break: break [2148,2153]"/>
+  <match src="): ) [2143,2144]" dest="): ) [2143,2144]"/>
+  <match src="case_statement [2235,2361]" dest="case_statement [2235,2361]"/>
+  <match src=":: : [503,504]" dest=":: : [503,504]"/>
+  <match src="switch: switch [348,354]" dest="switch: switch [348,354]"/>
+  <match src="number_literal: 1 [1951,1952]" dest="number_literal: 1 [1951,1952]"/>
+  <match src="expression_statement [2914,2937]" dest="expression_statement [2914,2937]"/>
+  <match src="identifier: CONFIG_PPC_BOOK3S_64 [1117,1137]" dest="identifier: CONFIG_PPC_BOOK3S_64 [1117,1137]"/>
+  <match src="argument_list [3539,3556]" dest="argument_list [3539,3556]"/>
+  <match src="parenthesized_expression [2192,2223]" dest="parenthesized_expression [2192,2223]"/>
+  <match src="number_literal: 4 [2026,2027]" dest="number_literal: 4 [2026,2027]"/>
+  <match src=":: : [851,852]" dest=":: : [851,852]"/>
+  <match src="identifier: KVM_CAP_NR_MEMSLOTS [2986,3005]" dest="identifier: KVM_CAP_NR_MEMSLOTS [2986,3005]"/>
+  <match src=";: ; [3165,3166]" dest=";: ; [3165,3166]"/>
+  <match src="): ) [912,913]" dest="): ) [912,913]"/>
+  <match src="break_statement [2523,2529]" dest="break_statement [2523,2529]"/>
+  <match src="case: case [945,949]" dest="case: case [945,949]"/>
+  <match src="): ) [183,184]" dest="): ) [183,184]"/>
+  <match src="case_statement [1242,1264]" dest="case_statement [1242,1264]"/>
+  <match src="case: case [561,565]" dest="case: case [561,565]"/>
+  <match src="call_expression [3345,3378]" dest="call_expression [3345,3378]"/>
+  <match src="break: break [789,794]" dest="break: break [789,794]"/>
+  <match src="number_literal: 1 [1388,1389]" dest="number_literal: 1 [1388,1389]"/>
+  <match src="field_expression [1581,1590]" dest="field_expression [1581,1590]"/>
+  <match src=";: ; [2446,2447]" dest=";: ; [2446,2447]"/>
+  <match src=";: ; [794,795]" dest=";: ; [794,795]"/>
+  <match src="|: | [2032,2033]" dest="|: | [2032,2033]"/>
+  <match src=":: : [3612,3613]" dest=":: : [3591,3592]"/>
+  <match src="identifier: kvm [1581,1584]" dest="identifier: kvm [1581,1584]"/>
+  <match src="&amp;&amp;: &amp;&amp; [2204,2206]" dest="&amp;&amp;: &amp;&amp; [2204,2206]"/>
+  <match src="preproc_ifdef [363,559]" dest="preproc_ifdef [363,559]"/>
+  <match src="preproc_ifdef [3097,3395]" dest="preproc_ifdef [3097,3395]"/>
+  <match src="comment: /* fallthrough */ [1193,1210]" dest="comment: /* fallthrough */ [1193,1210]"/>
+  <match src="number_literal: 0 [2079,2080]" dest="number_literal: 0 [2079,2080]"/>
+  <match src="#endif: #endif [966,972]" dest="#endif: #endif [966,972]"/>
+  <match src="preproc_defined [2454,2489]" dest="preproc_defined [2454,2489]"/>
+  <match src="-&gt;: -&gt; [1584,1586]" dest="-&gt;: -&gt; [1584,1586]"/>
+  <match src="expression_statement [3460,3475]" dest="expression_statement [3460,3475]"/>
+  <match src="case: case [384,388]" dest="case: case [384,388]"/>
+  <match src="!: ! [3344,3345]" dest="!: ! [3344,3345]"/>
+  <match src=";: ; [3031,3032]" dest=";: ; [3031,3032]"/>
+  <match src="identifier: KVM_CAP_IRQ_MPIC [1066,1082]" dest="identifier: KVM_CAP_IRQ_MPIC [1066,1082]"/>
+  <match src="identifier: KVM_CAP_PPC_ALLOC_HTAB [1407,1429]" dest="identifier: KVM_CAP_PPC_ALLOC_HTAB [1407,1429]"/>
+  <match src="=: = [1556,1557]" dest="=: = [1556,1557]"/>
+  <match src="assignment_expression [2018,2035]" dest="assignment_expression [2018,2035]"/>
+  <match src="identifier: KVM_CAP_ONE_REG [679,694]" dest="identifier: KVM_CAP_ONE_REG [679,694]"/>
+  <match src=",: , [48,49]" dest=",: , [48,49]"/>
+  <match src="identifier: KVM_CAP_SPAPR_TCE_VFIO [1217,1239]" dest="identifier: KVM_CAP_SPAPR_TCE_VFIO [1217,1239]"/>
+  <match src="comment: /* We support this only for PR */ [975,1008]" dest="comment: /* We support this only for PR */ [975,1008]"/>
+  <match src="expression_statement [1384,1390]" dest="expression_statement [1384,1390]"/>
+  <match src=":: : [1429,1430]" dest=":: : [1429,1430]"/>
+  <match src="case: case [1810,1814]" dest="case: case [1810,1814]"/>
+  <match src=";: ; [1447,1448]" dest=";: ; [1447,1448]"/>
+  <match src="case: case [1061,1065]" dest="case: case [1061,1065]"/>
+  <match src=":: : [828,829]" dest=":: : [828,829]"/>
+  <match src="): ) [2221,2222]" dest="): ) [2221,2222]"/>
+  <match src=";: ; [3222,3223]" dest=";: ; [3222,3223]"/>
+  <match src="break_statement [2148,2154]" dest="break_statement [2148,2154]"/>
+  <match src="comment: 		
+		 * Hooray - we know which VM type we're running on. Depend on
+		 * that rather than the guess above.
+		 */ [189,300]" dest="comment: 		
+		 * Hooray - we know which VM type we're running on. Depend on
+		 * that rather than the guess above.
+		 */ [189,300]"/>
+  <match src="case: case [1297,1301]" dest="case: case [1297,1301]"/>
+  <match src=";: ; [2512,2513]" dest=";: ; [2512,2513]"/>
+  <match src="): ) [359,360]" dest="): ) [359,360]"/>
+  <match src="assignment_expression [2075,2080]" dest="assignment_expression [2075,2080]"/>
+  <match src="case: case [449,453]" dest="case: case [449,453]"/>
+  <match src="case_statement [506,528]" dest="case_statement [506,528]"/>
+  <match src=";: ; [172,173]" dest=";: ; [172,173]"/>
+  <match src="case_statement [3434,3485]" dest="case_statement [3434,3485]"/>
+  <match src=":: : [1263,1264]" dest=":: : [1263,1264]"/>
+  <match src="(: ( [1728,1729]" dest="(: ( [1728,1729]"/>
+  <match src=";: ; [1848,1849]" dest=";: ; [1848,1849]"/>
+  <match src="case: case [722,726]" dest="case: case [722,726]"/>
+  <match src="number_literal: 1 [784,785]" dest="number_literal: 1 [784,785]"/>
+  <match src="case_statement [2981,3041]" dest="case_statement [2981,3041]"/>
+  <match src="=: = [3462,3463]" dest="=: = [3462,3463]"/>
+  <match src="identifier: r [1011,1012]" dest="identifier: r [1011,1012]"/>
+  <match src="call_expression [2918,2936]" dest="call_expression [2918,2936]"/>
+  <match src="binary_expression [3524,3591]" dest="binary_expression [3524,3570]"/>
+  <match src="=: = [1013,1014]" dest="=: = [1013,1014]"/>
+  <match src="preproc_ifdef [1037,1108]" dest="preproc_ifdef [1037,1108]"/>
+  <match src="identifier: hv_enabled [303,313]" dest="identifier: hv_enabled [303,313]"/>
+  <match src="
+: #if defined(CONFIG_KVM_E500V2) || defined(CONFIG_KVM_E500MC)
+ [943,944]" dest="
+: #if defined(CONFIG_KVM_E500V2) || defined(CONFIG_KVM_E500MC)
+ [943,944]"/>
+  <match src=";: ; [3040,3041]" dest=";: ; [3040,3041]"/>
+  <match src="argument_list [2332,2350]" dest="argument_list [2332,2350]"/>
+  <match src="assignment_expression [1614,1641]" dest="assignment_expression [1614,1641]"/>
+  <match src="break: break [3596,3601]" dest="break: break [3575,3580]"/>
+  <match src="=: = [3619,3620]" dest="=: = [3598,3599]"/>
+  <match src="binary_expression [2274,2350]" dest="binary_expression [2274,2350]"/>
+  <match src=";: ; [2497,2498]" dest=";: ; [2497,2498]"/>
+  <match src="=: = [314,315]" dest="=: = [314,315]"/>
+  <match src="case_statement [3496,3602]" dest="case_statement [3496,3581]"/>
+  <match src="assignment_expression [3069,3086]" dest="assignment_expression [3069,3086]"/>
+  <match src="identifier: CONFIG_KVM_MPIC [1044,1059]" dest="identifier: CONFIG_KVM_MPIC [1044,1059]"/>
+  <match src="assignment_expression [780,785]" dest="assignment_expression [780,785]"/>
+  <match src="): ) [1702,1703]" dest="): ) [1702,1703]"/>
+  <match src="identifier: r [3617,3618]" dest="identifier: r [3596,3597]"/>
+  <match src="case: case [1352,1356]" dest="case: case [1352,1356]"/>
+  <match src="comment: /* Disable this on POWER9 until code handles new HPTE format */ [3258,3321]" dest="comment: /* Disable this on POWER9 until code handles new HPTE format */ [3258,3321]"/>
+  <match src="case_statement [2051,2090]" dest="case_statement [2051,2090]"/>
+  <match src="case_statement [3126,3175]" dest="case_statement [3126,3175]"/>
+  <match src="case_statement [1402,1457]" dest="case_statement [1402,1457]"/>
+  <match src="(: ( [1855,1856]" dest="(: ( [1855,1856]"/>
+  <match src="#endif: #endif [3389,3395]" dest="#endif: #endif [3389,3395]"/>
+  <match src="parameter_declaration [33,48]" dest="parameter_declaration [33,48]"/>
+  <match src="comment: /* CONFIG_PPC_BOOK3S_64 */ [1465,1491]" dest="comment: /* CONFIG_PPC_BOOK3S_64 */ [1465,1491]"/>
+  <match src="parenthesized_expression [2273,2351]" dest="parenthesized_expression [2273,2351]"/>
+  <match src="expression_statement [3520,3592]" dest="expression_statement [3520,3571]"/>
+  <match src="identifier: ext [356,359]" dest="identifier: ext [356,359]"/>
+  <match src="pointer_declarator [44,48]" dest="pointer_declarator [44,48]"/>
+  <match src="#else: #else [2499,2504]" dest="#else: #else [2499,2504]"/>
+  <match src="=: = [2434,2435]" dest="=: = [2434,2435]"/>
+  <match src="(: ( [1580,1581]" dest="(: ( [1580,1581]"/>
+  <match src="=: = [2188,2189]" dest="=: = [2188,2189]"/>
+  <match src="defined: defined [917,924]" dest="defined: defined [917,924]"/>
+  <match src="&amp;&amp;: &amp;&amp; [3557,3559]" dest="&amp;&amp;: &amp;&amp; [3557,3559]"/>
+  <match src="case: case [645,649]" dest="case: case [645,649]"/>
+  <match src="break: break [1802,1807]" dest="break: break [1802,1807]"/>
+  <match src="(: ( [1922,1923]" dest="(: ( [1922,1923]"/>
+  <match src="(: ( [336,337]" dest="(: ( [336,337]"/>
+  <match src="field_identifier: arch [1664,1668]" dest="field_identifier: arch [1664,1668]"/>
+  <match src="case_statement [415,447]" dest="case_statement [415,447]"/>
+  <match src="assignment_expression [2596,2610]" dest="assignment_expression [2596,2610]"/>
+  <match src="break_statement [3382,3388]" dest="break_statement [3382,3388]"/>
+  <match src="): ) [942,943]" dest="): ) [942,943]"/>
+  <match src="case_statement [1139,1162]" dest="case_statement [1139,1162]"/>
+  <match src="case_statement [1530,1808]" dest="case_statement [1530,1808]"/>
+  <match src=".: . [1627,1628]" dest=".: . [1627,1628]"/>
+  <match src="preproc_ifdef [1492,2368]" dest="preproc_ifdef [1492,2368]"/>
+  <match src="switch_statement [348,3635]" dest="switch_statement [348,3614]"/>
+  <match src="case_statement [3225,3388]" dest="case_statement [3225,3388]"/>
+  <match src="identifier: hv_enabled [1437,1447]" dest="identifier: hv_enabled [1437,1447]"/>
+  <match src="): ) [1570,1571]" dest="): ) [1570,1571]"/>
+  <match src="if: if [1873,1875]" dest="if: if [1873,1875]"/>
+  <match src=":: : [2071,2072]" dest=":: : [2071,2072]"/>
+  <match src=";: ; [2360,2361]" dest=";: ; [2360,2361]"/>
+  <match src="case_statement [1352,1374]" dest="case_statement [1352,1374]"/>
+  <match src="assignment_expression [2267,2351]" dest="assignment_expression [2267,2351]"/>
+  <match src="identifier: KVM_CAP_IRQ_XICS [1357,1373]" dest="identifier: KVM_CAP_IRQ_XICS [1357,1373]"/>
+  <match src=";: ; [2969,2970]" dest=";: ; [2969,2970]"/>
+  <match src="case: case [697,701]" dest="case: case [697,701]"/>
+  <match src="identifier: KVM_CAP_ENABLE_CAP [624,642]" dest="identifier: KVM_CAP_ENABLE_CAP [624,642]"/>
+  <match src="call_expression [2289,2304]" dest="call_expression [2289,2304]"/>
+  <match src="case: case [1402,1406]" dest="case: case [1402,1406]"/>
+  <match src=";: ; [3484,3485]" dest=";: ; [3484,3485]"/>
+  <match src="identifier: KVM_CAP_IMMEDIATE_EXIT [754,776]" dest="identifier: KVM_CAP_IMMEDIATE_EXIT [754,776]"/>
+  <match src="assignment_expression [2432,2446]" dest="assignment_expression [2432,2446]"/>
+  <match src="=: = [1919,1920]" dest="=: = [1919,1920]"/>
+  <match src="expression_statement [1011,1027]" dest="expression_statement [1011,1027]"/>
+  <match src=":: : [169,170]" dest=":: : [169,170]"/>
+  <match src="declaration [63,69]" dest="declaration [63,69]"/>
+  <match src="(: ( [2332,2333]" dest="(: ( [2332,2333]"/>
+  <match src="argument_list [2142,2144]" dest="argument_list [2142,2144]"/>
+  <match src="#endif: #endif [2362,2368]" dest="#endif: #endif [2362,2368]"/>
+  <match src="expression_statement [2118,2145]" dest="expression_statement [2118,2145]"/>
+  <match src="assignment_expression [3208,3213]" dest="assignment_expression [3208,3213]"/>
+  <match src="break_statement [2043,2049]" dest="break_statement [2043,2049]"/>
+  <match src=";: ; [3591,3592]" dest=";: ; [3570,3571]"/>
+  <match src="compound_statement [60,3649]" dest="compound_statement [60,3628]"/>
+  <match src="-&gt;: -&gt; [1662,1664]" dest="-&gt;: -&gt; [1662,1664]"/>
+  <match src="): ) [340,341]" dest="): ) [340,341]"/>
+  <match src="(: ( [1691,1692]" dest="(: ( [1691,1692]"/>
+  <match src="identifier: ext [55,58]" dest="identifier: ext [55,58]"/>
+  <match src="break_statement [789,795]" dest="break_statement [789,795]"/>
+  <match src="call_expression [316,341]" dest="call_expression [316,341]"/>
+  <match src="break: break [2227,2232]" dest="break: break [2227,2232]"/>
+  <match src="assignment_expression [2914,2936]" dest="assignment_expression [2914,2936]"/>
+  <match src="identifier: r [67,68]" dest="identifier: r [67,68]"/>
+  <match src="binary_expression [3328,3378]" dest="binary_expression [3328,3378]"/>
+  <match src="expression_statement [1554,1560]" dest="expression_statement [1554,1560]"/>
+  <match src=";: ; [3601,3602]" dest=";: ; [3580,3581]"/>
+  <match src="if_statement [1873,2036]" dest="if_statement [1873,2036]"/>
+  <match src="case: case [797,801]" dest="case: case [797,801]"/>
+  <match src="struct_specifier [33,43]" dest="struct_specifier [33,43]"/>
+  <match src=";: ; [1035,1036]" dest=";: ; [1035,1036]"/>
+  <match src=":: : [1294,1295]" dest=":: : [1294,1295]"/>
+  <match src="expression_statement [1843,1849]" dest="expression_statement [1843,1849]"/>
+  <match src="identifier: hv_enabled [2274,2284]" dest="identifier: hv_enabled [2274,2284]"/>
+  <match src=";: ; [3645,3646]" dest=";: ; [3624,3625]"/>
+  <match src="assignment_expression [1554,1559]" dest="assignment_expression [1554,1559]"/>
+  <match src="compound_statement [1868,2040]" dest="compound_statement [1868,2040]"/>
+  <match src="break_statement [1095,1101]" dest="break_statement [1095,1101]"/>
+  <match src="identifier: threads_per_subcore [1923,1942]" dest="identifier: threads_per_subcore [1923,1942]"/>
+  <match src="assignment_expression [3617,3622]" dest="assignment_expression [3596,3601]"/>
+  <match src="break_statement [3090,3096]" dest="break_statement [3090,3096]"/>
+  <match src=":: : [746,747]" dest=":: : [746,747]"/>
+  <match src="=: = [3522,3523]" dest="=: = [3522,3523]"/>
+  <match src="identifier: radix_enabled [2207,2220]" dest="identifier: radix_enabled [2207,2220]"/>
+  <match src="break: break [1451,1456]" dest="break: break [1451,1456]"/>
+  <match src="identifier: KVM_CAP_PPC_GET_SMMU_INFO [3131,3156]" dest="identifier: KVM_CAP_PPC_GET_SMMU_INFO [3131,3156]"/>
+  <match src="type_identifier: kvm [40,43]" dest="type_identifier: kvm [40,43]"/>
+  <match src="expression_statement [1655,1678]" dest="expression_statement [1655,1678]"/>
+  <match src="primitive_type: int [63,66]" dest="primitive_type: int [63,66]"/>
+  <match src="identifier: r [2267,2268]" dest="identifier: r [2267,2268]"/>
+  <match src="identifier: KVM_CAP_PPC_FIXUP_HCALL [1271,1294]" dest="identifier: KVM_CAP_PPC_FIXUP_HCALL [1271,1294]"/>
+  <match src="!: ! [1015,1016]" dest="!: ! [1015,1016]"/>
+  <match src=";: ; [3631,3632]" dest=";: ; [3610,3611]"/>
+  <match src="identifier: r [3644,3645]" dest="identifier: r [3623,3624]"/>
+  <match src="identifier: KVM_CAP_PPC_ENABLE_HCALL [1302,1326]" dest="identifier: KVM_CAP_PPC_ENABLE_HCALL [1302,1326]"/>
+  <match src="expression_statement [2507,2513]" dest="expression_statement [2507,2513]"/>
+  <match src="identifier: KVM_CAP_PPC_HTAB_FD [2573,2592]" dest="identifier: KVM_CAP_PPC_HTAB_FD [2573,2592]"/>
+  <match src="identifier: r [3460,3461]" dest="identifier: r [3460,3461]"/>
+  <match src="binary_expression [2022,2031]" dest="binary_expression [2022,2031]"/>
+  <match src="preproc_ifdef [2393,2520]" dest="preproc_ifdef [2393,2520]"/>
+  <match src="argument_list [1728,1746]" dest="argument_list [1728,1746]"/>
+  <match src="field_identifier: smt_mode [1669,1677]" dest="field_identifier: smt_mode [1669,1677]"/>
+  <match src="identifier: cpu_has_feature [1878,1893]" dest="identifier: cpu_has_feature [1878,1893]"/>
+  <match src="!: ! [3328,3329]" dest="!: ! [3328,3329]"/>
+  <match src="binary_expression [887,943]" dest="binary_expression [887,943]"/>
+  <match src="if_statement [1688,1799]" dest="if_statement [1688,1799]"/>
+  <match src=";: ; [1794,1795]" dest=";: ; [1794,1795]"/>
+  <match src="sized_type_specifier [50,54]" dest="sized_type_specifier [50,54]"/>
+  <match src="field_expression [1618,1641]" dest="field_expression [1618,1641]"/>
+  <match src="}: } [344,345]" dest="}: } [344,345]"/>
+  <match src="primitive_type: int [0,3]" dest="primitive_type: int [0,3]"/>
+  <match src="case_statement [797,829]" dest="case_statement [797,829]"/>
+  <match src="expression_statement [3208,3214]" dest="expression_statement [3208,3214]"/>
+  <match src="expression_statement [1752,1758]" dest="expression_statement [1752,1758]"/>
+  <match src="primitive_type: int [134,137]" dest="primitive_type: int [134,137]"/>
+  <match src="identifier: KVM_CAP_SPAPR_TCE_64 [1169,1189]" dest="identifier: KVM_CAP_SPAPR_TCE_64 [1169,1189]"/>
+  <match src="identifier: r [1086,1087]" dest="identifier: r [1086,1087]"/>
+  <match src="identifier: radix_enabled [2289,2302]" dest="identifier: radix_enabled [2289,2302]"/>
+  <match src="case: case [2629,2633]" dest="case: case [2629,2633]"/>
+  <match src="case_statement [722,747]" dest="case_statement [722,747]"/>
+  <match src="number_literal: 1 [2034,2035]" dest="number_literal: 1 [2034,2035]"/>
+  <match src=";: ; [2232,2233]" dest=";: ; [2232,2233]"/>
+  <match src="identifier: kvm [1618,1621]" dest="identifier: kvm [1618,1621]"/>
+  <match src="number_literal: 1 [1090,1091]" dest="number_literal: 1 [1090,1091]"/>
+  <match src="parenthesized_expression [1712,1747]" dest="parenthesized_expression [1712,1747]"/>
+  <match src="case_statement [1266,1295]" dest="case_statement [1266,1295]"/>
+  <match src="#ifdef: #ifdef [3396,3402]" dest="#ifdef: #ifdef [3396,3402]"/>
+  <match src="number_literal: 0 [1558,1559]" dest="number_literal: 0 [1558,1559]"/>
+  <match src=".: . [1590,1591]" dest=".: . [1590,1591]"/>
+  <match src="expression_statement [1086,1092]" dest="expression_statement [1086,1092]"/>
+  <match src=";: ; [3086,3087]" dest=";: ; [3086,3087]"/>
+  <match src="identifier: KVM_CAP_PPC_SMT_POSSIBLE [1815,1839]" dest="identifier: KVM_CAP_PPC_SMT_POSSIBLE [1815,1839]"/>
+  <match src="(: ( [1921,1922]" dest="(: ( [1921,1922]"/>
+  <match src=":: : [2182,2183]" dest=":: : [2182,2183]"/>
+  <match src="identifier: r [2507,2508]" dest="identifier: r [2507,2508]"/>
+  <match src="parameter_declaration [50,58]" dest="parameter_declaration [50,58]"/>
+  <match src="identifier: KVM_CAP_PPC_OSI [836,851]" dest="identifier: KVM_CAP_PPC_OSI [836,851]"/>
+  <match src="case_statement [3177,3223]" dest="case_statement [3177,3223]"/>
+  <match src="comment: 		
+		 * Recommending a number of CPUs is somewhat arbitrary; we
+		 * return the number of present CPUs for -HV (since a host
+		 * will have secondary threads &quot;offline&quot;), and for other KVM
+		 * implementations just count online CPUs.
+		 */ [2654,2892]" dest="comment: 		
+		 * Recommending a number of CPUs is somewhat arbitrary; we
+		 * return the number of present CPUs for -HV (since a host
+		 * will have secondary threads &quot;offline&quot;), and for other KVM
+		 * implementations just count online CPUs.
+		 */ [2654,2892]"/>
+  <match src="identifier: kvm_vm_ioctl_check_extension [4,32]" dest="identifier: kvm_vm_ioctl_check_extension [4,32]"/>
+  <match src="expression_statement [1614,1642]" dest="expression_statement [1614,1642]"/>
+  <match src="preproc_elif [2448,2513]" dest="preproc_elif [2448,2513]"/>
+  <match src="number_literal: 1 [167,168]" dest="number_literal: 1 [167,168]"/>
+  <match src="&amp;&amp;: &amp;&amp; [3341,3343]" dest="&amp;&amp;: &amp;&amp; [3341,3343]"/>
+  <match src="expression_statement [303,342]" dest="expression_statement [303,342]"/>
+  <match src="case_statement [2370,2392]" dest="case_statement [2370,2392]"/>
+  <match src="!: ! [2272,2273]" dest="!: ! [2272,2273]"/>
+  <match src=";: ; [1953,1954]" dest=";: ; [1953,1954]"/>
+  <match src="expression_statement [2948,2970]" dest="expression_statement [2948,2970]"/>
+  <match src="!: ! [2271,2272]" dest="!: ! [2271,2272]"/>
+  <match src="identifier: CONFIG_KVM_XICS [1335,1350]" dest="identifier: CONFIG_KVM_XICS [1335,1350]"/>
+  <match src="case: case [506,510]" dest="case: case [506,510]"/>
+  <match src=":: : [2114,2115]" dest=":: : [2114,2115]"/>
+  <match src="*: * [44,45]" dest="*: * [44,45]"/>
+  <match src="parenthesized_expression [1876,1912]" dest="parenthesized_expression [1876,1912]"/>
+  <match src="case: case [1164,1168]" dest="case: case [1164,1168]"/>
+  <match src="identifier: KVM_ARCH_WANT_MMU_NOTIFIER [2462,2488]" dest="identifier: KVM_ARCH_WANT_MMU_NOTIFIER [2462,2488]"/>
+  <match src="=: = [2269,2270]" dest="=: = [2269,2270]"/>
+  <match src="expression_statement [3324,3379]" dest="expression_statement [3324,3379]"/>
+  <match src="(: ( [924,925]" dest="(: ( [924,925]"/>
+  <match src="identifier: hv_enabled [3330,3340]" dest="identifier: hv_enabled [3330,3340]"/>
+  <match src="identifier: CPU_FTR_ARCH_300 [2333,2349]" dest="identifier: CPU_FTR_ARCH_300 [2333,2349]"/>
+  <match src="(: ( [1893,1894]" dest="(: ( [1893,1894]"/>
+  <match src="case: case [3434,3438]" dest="case: case [3434,3438]"/>
+  <match src="=: = [2077,2078]" dest="=: = [2077,2078]"/>
+  <match src=":: : [1239,1240]" dest=":: : [1239,1240]"/>
+  <match src="break_statement [1393,1399]" dest="break_statement [1393,1399]"/>
+  <match src="else_clause [1683,1799]" dest="else_clause [1683,1799]"/>
+  <match src=":: : [776,777]" dest=":: : [776,777]"/>
+  <match src="identifier: KVM_CAP_PPC_MMU_RADIX [2161,2182]" dest="identifier: KVM_CAP_PPC_MMU_RADIX [2161,2182]"/>
+  <match src="expression_statement [2267,2352]" dest="expression_statement [2267,2352]"/>
+  <match src=":: : [587,588]" dest=":: : [587,588]"/>
+  <match src="identifier: KVM_CAP_PPC_BOOKE_WATCHDOG [420,446]" dest="identifier: KVM_CAP_PPC_BOOKE_WATCHDOG [420,446]"/>
+  <match src="assignment_expression [3160,3165]" dest="assignment_expression [3160,3165]"/>
+  <match src="case: case [415,419]" dest="case: case [415,419]"/>
+  <match src="case_statement [3605,3632]" dest="case_statement [3584,3611]"/>
+  <match src="return: return [3637,3643]" dest="return: return [3616,3622]"/>
+  <match src="identifier: r [780,781]" dest="identifier: r [780,781]"/>
+  <match src="#ifdef: #ifdef [1037,1043]" dest="#ifdef: #ifdef [1037,1043]"/>
+  <match src="default: default [3605,3612]" dest="default: default [3584,3591]"/>
+  <match src="call_expression [2207,2222]" dest="call_expression [2207,2222]"/>
+  <match src="identifier: KVM_CAP_PPC_RTAS [1247,1263]" dest="identifier: KVM_CAP_PPC_RTAS [1247,1263]"/>
+  <match src="): ) [1746,1747]" dest="): ) [1746,1747]"/>
+  <match src="case_statement [590,617]" dest="case_statement [590,617]"/>
+  <match src=";: ; [1559,1560]" dest=";: ; [1559,1560]"/>
+  <match src="): ) [1866,1867]" dest="): ) [1866,1867]"/>
+  <match src="preproc_ifdef [2530,2627]" dest="preproc_ifdef [2530,2627]"/>
+  <match src="call_expression [2122,2144]" dest="call_expression [2122,2144]"/>
+  <match src=";: ; [1677,1678]" dest=";: ; [1677,1678]"/>
+  <match src="case: case [478,482]" dest="case: case [478,482]"/>
+  <match src="call_expression [3524,3556]" dest="call_expression [3524,3556]"/>
+  <match src=".: . [1668,1669]" dest=".: . [1668,1669]"/>
+  <match src="unary_expression [2288,2304]" dest="unary_expression [2288,2304]"/>
+  <match src="argument_list [2967,2969]" dest="argument_list [2967,2969]"/>
+  <match src="compound_statement [185,345]" dest="compound_statement [185,345]"/>
+  <match src="&amp;&amp;: &amp;&amp; [2285,2287]" dest="&amp;&amp;: &amp;&amp; [2285,2287]"/>
+  <match src="=: = [2916,2917]" dest="=: = [2916,2917]"/>
+  <match src="compound_statement [1572,1682]" dest="compound_statement [1572,1682]"/>
+  <match src="field_identifier: arch [1586,1590]" dest="field_identifier: arch [1586,1590]"/>
+  <match src="break_statement [1030,1036]" dest="break_statement [1030,1036]"/>
+  <match src="!: ! [3329,3330]" dest="!: ! [3329,3330]"/>
+  <match src="unary_expression [2190,2223]" dest="unary_expression [2190,2223]"/>
+  <match src="identifier: r [1655,1656]" dest="identifier: r [1655,1656]"/>
+  <match src="preproc_ifdef [1328,1381]" dest="preproc_ifdef [1328,1381]"/>
+  <match src="(: ( [1876,1877]" dest="(: ( [1876,1877]"/>
+  <match src="number_literal: 0 [2511,2512]" dest="number_literal: 0 [2511,2512]"/>
+  <match src=":: : [1839,1840]" dest=":: : [1839,1840]"/>
+  <match src="defined: defined [2454,2461]" dest="defined: defined [2454,2461]"/>
+  <match src=";: ; [1456,1457]" dest=";: ; [1456,1457]"/>
+  <match src="identifier: CONFIG_KVM_E500MC [925,942]" dest="identifier: CONFIG_KVM_E500MC [925,942]"/>
+  <match src="case: case [1530,1534]" dest="case: case [1530,1534]"/>
+  <match src="=: = [782,783]" dest="=: = [782,783]"/>
+  <match src="parenthesized_expression [1855,1867]" dest="parenthesized_expression [1855,1867]"/>
+  <match src="unary_expression [1015,1026]" dest="unary_expression [1015,1026]"/>
+  <match src="): ) [1947,1948]" dest="): ) [1947,1948]"/>
+  <match src="argument_list [2302,2304]" dest="argument_list [2302,2304]"/>
+  <match src="number_literal: 1 [2496,2497]" dest="number_literal: 1 [2496,2497]"/>
+  <match src=":: : [3065,3066]" dest=":: : [3065,3066]"/>
+  <match src="expression_statement [1433,1448]" dest="expression_statement [1433,1448]"/>
+  <match src=";: ; [2619,2620]" dest=";: ; [2619,2620]"/>
+  <match src="if_statement [1709,1795]" dest="if_statement [1709,1795]"/>
+  <match src="identifier: r [1433,1434]" dest="identifier: r [1433,1434]"/>
+  <match src=":: : [2391,2392]" dest=":: : [2391,2392]"/>
+  <match src="=: = [3071,3072]" dest="=: = [3071,3072]"/>
+  <match src="(: ( [894,895]" dest="(: ( [894,895]"/>
+  <match src="return_statement [3637,3646]" dest="return_statement [3616,3625]"/>
+  <match src=":: : [3156,3157]" dest=":: : [3156,3157]"/>
+  <match src="case_statement [530,552]" dest="case_statement [530,552]"/>
+  <match src="case: case [1139,1143]" dest="case: case [1139,1143]"/>
+  <match src="case_statement [2568,2620]" dest="case_statement [2568,2620]"/>
+  <match src="): ) [1608,1609]" dest="): ) [1608,1609]"/>
+  <match src="else: else [1958,1962]" dest="else: else [1958,1962]"/>
+  <match src=":: : [694,695]" dest=":: : [694,695]"/>
+  <match src="identifier: r [1554,1555]" dest="identifier: r [1554,1555]"/>
+  <match src="identifier: kvm [1567,1570]" dest="identifier: kvm [1567,1570]"/>
+  <match src="assignment_expression [1011,1026]" dest="assignment_expression [1011,1026]"/>
+  <match src="parenthesized_expression [1566,1571]" dest="parenthesized_expression [1566,1571]"/>
+  <match src=":: : [671,672]" dest=":: : [671,672]"/>
+  <match src=";: ; [1100,1101]" dest=";: ; [1100,1101]"/>
+  <match src="else_clause [1646,1678]" dest="else_clause [1646,1678]"/>
+  <match src="=: = [1435,1436]" dest="=: = [1435,1436]"/>
+  <match src="break: break [3382,3387]" dest="break: break [3382,3387]"/>
+  <match src="preproc_if [883,972]" dest="preproc_if [883,972]"/>
+  <match src=";: ; [2048,2049]" dest=";: ; [2048,2049]"/>
+  <match src="field_identifier: emul_smt_mode [1628,1641]" dest="field_identifier: emul_smt_mode [1628,1641]"/>
+  <match src=":: : [3254,3255]" dest=":: : [3254,3255]"/>
+  <match src="identifier: CONFIG_KVM_BOOK3S_HV_POSSIBLE [2537,2566]" dest="identifier: CONFIG_KVM_BOOK3S_HV_POSSIBLE [2537,2566]"/>
+  <match src="identifier: KVM_CAP_PPC_BOOKE_SREGS [389,412]" dest="identifier: KVM_CAP_PPC_BOOKE_SREGS [389,412]"/>
+  <match src="identifier: KVM_CAP_PPC_PAIRED_SINGLES [802,828]" dest="identifier: KVM_CAP_PPC_PAIRED_SINGLES [802,828]"/>
+  <match src="preproc_defined [917,943]" dest="preproc_defined [917,943]"/>
+  <match src="case_statement [1061,1101]" dest="case_statement [1061,1101]"/>
+  <match src="identifier: hv_enabled [2193,2203]" dest="identifier: hv_enabled [2193,2203]"/>
+  <match src="assignment_expression [1917,1953]" dest="assignment_expression [1917,1953]"/>
+  <match src=":: : [719,720]" dest=":: : [719,720]"/>
+  <match src="=: = [2494,2495]" dest="=: = [2494,2495]"/>
+  <match src=";: ; [2610,2611]" dest=";: ; [2610,2611]"/>
+  <match src=";: ; [2351,2352]" dest=";: ; [2351,2352]"/>
+  <match src="(: ( [3360,3361]" dest="(: ( [3360,3361]"/>
+  <match src="case_statement [384,413]" dest="case_statement [384,413]"/>
+  <match src="(: ( [2192,2193]" dest="(: ( [2192,2193]"/>
+  <match src="declaration [134,173]" dest="declaration [134,173]"/>
+  <match src="identifier: cpu_has_feature [3524,3539]" dest="identifier: cpu_has_feature [3524,3539]"/>
+  <match src="identifier: r [3324,3325]" dest="identifier: r [3324,3325]"/>
+  <match src="=: = [3011,3012]" dest="=: = [3011,3012]"/>
+  <match src="expression_statement [2492,2498]" dest="expression_statement [2492,2498]"/>
+  <match src="#ifdef: #ifdef [2530,2536]" dest="#ifdef: #ifdef [2530,2536]"/>
+  <match src="identifier: r [2075,2076]" dest="identifier: r [2075,2076]"/>
+  <match src="case: case [1242,1246]" dest="case: case [1242,1246]"/>
+  <match src="identifier: CPU_FTR_ARCH_300 [3361,3377]" dest="identifier: CPU_FTR_ARCH_300 [3361,3377]"/>
+  <match src=":: : [2592,2593]" dest=":: : [2592,2593]"/>
+  <match src="identifier: hv_enabled [1016,1026]" dest="identifier: hv_enabled [1016,1026]"/>
+  <match src="case: case [2981,2985]" dest="case: case [2981,2985]"/>
+  <match src="field_identifier: emul_smt_mode [1591,1604]" dest="field_identifier: emul_smt_mode [1591,1604]"/>
+  <match src="identifier: kvmppc_hv_ops [151,164]" dest="identifier: kvmppc_hv_ops [151,164]"/>
+  <match src="{: { [361,362]" dest="{: { [361,362]"/>
+  <match src="identifier: KVM_CAP_PPC_HWRNG [2097,2114]" dest="identifier: KVM_CAP_PPC_HWRNG [2097,2114]"/>
+  <match src="!: ! [2288,2289]" dest="!: ! [2288,2289]"/>
+  <match src="identifier: KVM_CAP_SPAPR_MULTITCE [3182,3204]" dest="identifier: KVM_CAP_SPAPR_MULTITCE [3182,3204]"/>
+  <match src="number_literal: 2 [2030,2031]" dest="number_literal: 2 [2030,2031]"/>
+  <match src="identifier: KVM_CAP_MAX_VCPUS [3048,3065]" dest="identifier: KVM_CAP_MAX_VCPUS [3048,3065]"/>
+  <match src="identifier: r [3520,3521]" dest="identifier: r [3520,3521]"/>
+  <match src="case_statement [2092,2154]" dest="case_statement [2092,2154]"/>
+  <match src="identifier: KVM_CAP_PPC_EPR [454,469]" dest="identifier: KVM_CAP_PPC_EPR [454,469]"/>
+  <match src="assignment_expression [2118,2144]" dest="assignment_expression [2118,2144]"/>
+  <match src=";: ; [3474,3475]" dest=";: ; [3474,3475]"/>
+  <match src="#ifdef: #ifdef [2393,2399]" dest="#ifdef: #ifdef [2393,2399]"/>
+  <match src="case_statement [449,470]" dest="case_statement [449,470]"/>
+  <match src="=: = [2120,2121]" dest="=: = [2120,2121]"/>
+  <match src="number_literal: 1 [1847,1848]" dest="number_literal: 1 [1847,1848]"/>
+  <match src=":: : [1161,1162]" dest=":: : [1161,1162]"/>
+  <match src="parenthesized_expression [1691,1703]" dest="parenthesized_expression [1691,1703]"/>
+  <match src=":: : [3005,3006]" dest=":: : [3005,3006]"/>
+  <match src="!: ! [2191,2192]" dest="!: ! [2191,2192]"/>
+  <match src="case: case [619,623]" dest="case: case [619,623]"/>
+  <match src="parenthesized_expression [1921,1953]" dest="parenthesized_expression [1921,1953]"/>
+  <match src=";: ; [2223,2224]" dest=";: ; [2223,2224]"/>
+  <match src="): ) [2350,2351]" dest="): ) [2350,2351]"/>
+  <match src="if: if [1563,1565]" dest="if: if [1563,1565]"/>
+  <match src="field_expression [1659,1677]" dest="field_expression [1659,1677]"/>
+  <match src=";: ; [3174,3175]" dest=";: ; [3174,3175]"/>
+  <match src="identifier: CONFIG_KVM_BOOK3S_HV_POSSIBLE [3403,3432]" dest="identifier: CONFIG_KVM_BOOK3S_HV_POSSIBLE [3403,3432]"/>
+  <match src="unary_expression [2191,2223]" dest="unary_expression [2191,2223]"/>
+  <match src="!: ! [1877,1878]" dest="!: ! [1877,1878]"/>
+  <match src="argument_list [2934,2936]" dest="argument_list [2934,2936]"/>
+  <match src="case_statement [1212,1240]" dest="case_statement [1212,1240]"/>
+  <match src="assignment_expression [1771,1794]" dest="assignment_expression [1771,1794]"/>
+  <match src="case_statement [697,720]" dest="case_statement [697,720]"/>
+  <match src="translation_unit [0,3649]" dest="translation_unit [0,3628]"/>
+  <match src="}: } [3648,3649]" dest="}: } [3627,3628]"/>
+  <match src="parameter_list [32,59]" dest="parameter_list [32,59]"/>
+  <match src="identifier: r [3160,3161]" dest="identifier: r [3160,3161]"/>
+  <match src="identifier: r [2118,2119]" dest="identifier: r [2118,2119]"/>
+  <match src="preproc_ifdef [1110,1464]" dest="preproc_ifdef [1110,1464]"/>
+  <match src="identifier: KVM_CAP_PPC_FWNMI [3439,3456]" dest="identifier: KVM_CAP_PPC_FWNMI [3439,3456]"/>
+  <match src="=: = [1754,1755]" dest="=: = [1754,1755]"/>
+  <match src=":: : [527,528]" dest=":: : [527,528]"/>
+  <match src="|: | [2024,2025]" dest="|: | [2024,2025]"/>
+  <match src="identifier: KVM_CAP_SYNC_MMU [2375,2391]" dest="identifier: KVM_CAP_SYNC_MMU [2375,2391]"/>
+  <match src="if: if [1688,1690]" dest="if: if [1688,1690]"/>
+  <match src="): ) [2968,2969]" dest="): ) [2968,2969]"/>
+  <match src="#endif: #endif [1102,1108]" dest="#endif: #endif [1102,1108]"/>
+  <match src="{: { [1572,1573]" dest="{: { [1572,1573]"/>
+  <match src="#ifdef: #ifdef [1328,1334]" dest="#ifdef: #ifdef [1328,1334]"/>
+  <match src=":: : [469,470]" dest=":: : [469,470]"/>
+  <match src="assignment_expression [2948,2969]" dest="assignment_expression [2948,2969]"/>
+  <match src="expression_statement [2432,2447]" dest="expression_statement [2432,2447]"/>
+  <match src="identifier: r [2186,2187]" dest="identifier: r [2186,2187]"/>
+  <match src="case_statement [1164,1190]" dest="case_statement [1164,1190]"/>
+  <match src="#if: #if [883,886]" dest="#if: #if [883,886]"/>
+  <match src="identifier: r [1752,1753]" dest="identifier: r [1752,1753]"/>
+  <match src="identifier: KVM_CAP_PPC_UNSET_IRQ [566,587]" dest="identifier: KVM_CAP_PPC_UNSET_IRQ [566,587]"/>
+  <match src="field_expression [1618,1627]" dest="field_expression [1618,1627]"/>
+  <match src="number_literal: 1 [3164,3165]" dest="number_literal: 1 [3164,3165]"/>
+  <match src="(: ( [355,356]" dest="(: ( [355,356]"/>
+  <match src="expression_statement [2186,2224]" dest="expression_statement [2186,2224]"/>
+  <match src="identifier: KVM_CAP_PPC_HIOR [511,527]" dest="identifier: KVM_CAP_PPC_HIOR [511,527]"/>
+  <match src="break: break [3217,3222]" dest="break: break [3217,3222]"/>
+  <match src="#endif: #endif [3487,3493]" dest="#endif: #endif [3487,3493]"/>
+  <match src="case_statement [674,695]" dest="case_statement [674,695]"/>
+  <match src="identifier: r [1917,1918]" dest="identifier: r [1917,1918]"/>
+  <match src="identifier: hv_enabled [2899,2909]" dest="identifier: hv_enabled [2899,2909]"/>
+  <match src="): ) [2909,2910]" dest="): ) [2909,2910]"/>
+  <match src="=: = [2950,2951]" dest="=: = [2950,2951]"/>
+  <match src="case_statement [478,504]" dest="case_statement [478,504]"/>
+  <match src="identifier: CONFIG_KVM_BOOK3S_HV_POSSIBLE [1499,1528]" dest="identifier: CONFIG_KVM_BOOK3S_HV_POSSIBLE [1499,1528]"/>
+  <match src="binary_expression [1923,1947]" dest="binary_expression [1923,1947]"/>
+  <match src="expression_statement [2075,2081]" dest="expression_statement [2075,2081]"/>
+  <match src="#endif: #endif [2514,2520]" dest="#endif: #endif [2514,2520]"/>
+  <match src="binary_expression [2022,2027]" dest="binary_expression [2022,2027]"/>
+  <match src="comment: /* Assume we're using HV mode when the HV module is loaded */ [71,132]" dest="comment: /* Assume we're using HV mode when the HV module is loaded */ [71,132]"/>
+  <match src="identifier: r [1771,1772]" dest="identifier: r [1771,1772]"/>
+  <match src="): ) [1952,1953]" dest="): ) [1952,1953]"/>
+  <match src="identifier: KVM_CAP_SPAPR_TCE [1144,1161]" dest="identifier: KVM_CAP_SPAPR_TCE [1144,1161]"/>
+  <match src="-&gt;: -&gt; [1621,1623]" dest="-&gt;: -&gt; [1621,1623]"/>
+  <match src="field_expression [1581,1604]" dest="field_expression [1581,1604]"/>
+  <match src=";: ; [1807,1808]" dest=";: ; [1807,1808]"/>
+  <match src="#ifdef: #ifdef [3097,3103]" dest="#ifdef: #ifdef [3097,3103]"/>
+  <match src="): ) [2303,2304]" dest="): ) [2303,2304]"/>
+  <match src="identifier: is_kvmppc_hv_enabled [316,336]" dest="identifier: is_kvmppc_hv_enabled [316,336]"/>
+  <match src=";: ; [3387,3388]" dest=";: ; [3387,3388]"/>
+  <match src="break: break [2614,2619]" dest="break: break [2614,2619]"/>
+  <match src="case: case [831,835]" dest="case: case [831,835]"/>
+  <match src="compound_statement [361,3635]" dest="compound_statement [361,3614]"/>
+  <match src="parenthesized_expression [179,184]" dest="parenthesized_expression [179,184]"/>
+  <match src=":: : [881,882]" dest=":: : [881,882]"/>
+  <match src="identifier: r [2432,2433]" dest="identifier: r [2432,2433]"/>
+  <match src="if: if [2895,2897]" dest="if: if [2895,2897]"/>
+  <match src="conditional_expression [151,172]" dest="conditional_expression [151,172]"/>
+  <match src=":: : [551,552]" dest=":: : [551,552]"/>
+  <match src="identifier: cpu_has_feature [1713,1728]" dest="identifier: cpu_has_feature [1713,1728]"/>
+  <match src="assignment_expression [1752,1757]" dest="assignment_expression [1752,1757]"/>
+  <match src="identifier: threads_per_subcore [1775,1794]" dest="identifier: threads_per_subcore [1775,1794]"/>
+  <match src="(: ( [2302,2303]" dest="(: ( [2302,2303]"/>
+  <match src="argument_list [3360,3378]" dest="argument_list [3360,3378]"/>
+  <match src="number_literal: 1 [3212,3213]" dest="number_literal: 1 [3212,3213]"/>
+  <match src="=: = [3326,3327]" dest="=: = [3326,3327]"/>
+  <match src="}: } [2039,2040]" dest="}: } [2039,2040]"/>
+  <match src="if: if [176,178]" dest="if: if [176,178]"/>
+  <match src="&lt;&lt;: &lt;&lt; [1943,1945]" dest="&lt;&lt;: &lt;&lt; [1943,1945]"/>
+  <match src=":: : [1550,1551]" dest=":: : [1550,1551]"/>
+  <match src=":: : [3204,3205]" dest=":: : [3204,3205]"/>
+  <match src="parenthesized_expression [1922,1948]" dest="parenthesized_expression [1922,1948]"/>
+  <match src="break_statement [3596,3602]" dest="break_statement [3575,3581]"/>
+  <match src="identifier: kvmppc_hwrng_present [2122,2142]" dest="identifier: kvmppc_hwrng_present [2122,2142]"/>
+  <match src="): ) [3555,3556]" dest="): ) [3555,3556]"/>
+  <match src="identifier: KVM_CAP_PPC_MMU_HASH_V3 [2240,2263]" dest="identifier: KVM_CAP_PPC_MMU_HASH_V3 [2240,2263]"/>
+  <match src="#ifdef: #ifdef [363,369]" dest="#ifdef: #ifdef [363,369]"/>
+  <match src="=: = [149,150]" dest="=: = [149,150]"/>
+  <match src="case_statement [645,672]" dest="case_statement [645,672]"/>
+  <match src="(: ( [2273,2274]" dest="(: ( [2273,2274]"/>
+  <match src=":: : [446,447]" dest=":: : [446,447]"/>
+  <match src="=: = [3210,3211]" dest="=: = [3210,3211]"/>
+  <match src="long: long [50,54]" dest="long: long [50,54]"/>
+  <match src="preproc_else [471,552]" dest="preproc_else [471,552]"/>
+  <match src="(: ( [2142,2143]" dest="(: ( [2142,2143]"/>
+  <match src="identifier: KVM_CAP_SW_TLB [950,964]" dest="identifier: KVM_CAP_SW_TLB [950,964]"/>
+  <match src="=: = [1088,1089]" dest="=: = [1088,1089]"/>
+  <match src="assignment_expression [3520,3591]" dest="assignment_expression [3520,3570]"/>
+  <match src="break_statement [3169,3175]" dest="break_statement [3169,3175]"/>
+</matches>
+<actions>
+  <insert-node tree="identifier: hv_enabled [3560,3570]" parent="binary_expression [3524,3591]" at="2"/>
+  <delete-tree tree="call_expression [3566,3591]"/>
+</actions>

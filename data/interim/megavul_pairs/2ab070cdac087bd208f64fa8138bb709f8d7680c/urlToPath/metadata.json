@@ -1,0 +1,22 @@
+{
+    "id": "2ab070cdac087bd208f64fa8138bb709f8d7680c_urlToPath_0",
+    "func_name": "urlToPath",
+    "cve_id": "CVE-2019-10182",
+    "cwe_ids": [
+        "CWE-345",
+        "CWE-94",
+        "CWE-22"
+    ],
+    "commit_hash": "2ab070cdac087bd208f64fa8138bb709f8d7680c",
+    "parent_commit_hash": "f084eebaa278e5c65ee5c9bfca1ef140ccdbf17b",
+    "repo_name": "AdoptOpenJDK/IcedTea-Web",
+    "git_url": "https://github.com/AdoptOpenJDK/IcedTea-Web/commit/2ab070cdac087bd208f64fa8138bb709f8d7680c",
+    "file_path": "core/src/main/java/net/sourceforge/jnlp/cache/CacheUtil.java",
+    "file_name": "CacheUtil.java",
+    "commit_date": 1560836267,
+    "commit_msg": "Fixed bug when relative path (..) could leak up (even out of cache) - CVE-2019-10182\n\n* netx/net/sourceforge/jnlp/cache/CacheUtil.java: if path or query contains .. is saved to cache via its hash\n* netx/net/sourceforge/jnlp/util/FileUtils.java: added warning about different behavior on win/linux\n* tests/netx/unit/net/sourceforge/jnlp/cache/CacheUtilTest.java: added tests for hashing\n* tests/netx/unit/net/sourceforge/jnlp/runtime/JNLPClassLoaderTest.java:  added test for .. in path. Added test that verifies encoded .. (%2E%2E) do not leak from cahce\n* tests/netx/unit/net/sourceforge/jnlp/runtime/up.jnlp: example jnlp with .. full url\n* tests/netx/unit/net/sourceforge/jnlp/runtime/up.jnlp: example jnlp with encoded ..",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:N/I:P/A:P",
+    "cvss_base_score": 5.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

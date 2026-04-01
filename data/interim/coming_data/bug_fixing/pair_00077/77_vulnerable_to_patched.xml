@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="(: ( [31,32]" dest="(: ( [31,32]"/>
+  <match src="identifier: setDecoder [21,31]" dest="identifier: setDecoder [21,31]"/>
+  <match src="identifier: decoder [53,60]" dest="identifier: decoder [53,60]"/>
+  <match src="identifier: DocumentWriter [5,19]" dest="identifier: DocumentWriter [5,19]"/>
+  <match src="translation_unit [0,90]" dest="translation_unit [0,61]"/>
+  <match src="pointer_declarator [51,60]" dest="pointer_declarator [51,60]"/>
+  <match src="parameter_list [31,61]" dest="parameter_list [31,61]"/>
+  <match src="type_identifier: TextResourceDecoder [32,51]" dest="type_identifier: TextResourceDecoder [32,51]"/>
+  <match src=":: : [19,20]" dest=":: : [19,20]"/>
+  <match src="): ) [60,61]" dest="): ) [60,61]"/>
+  <match src="function_declarator [21,61]" dest="function_declarator [21,61]"/>
+  <match src="*: * [51,52]" dest="*: * [51,52]"/>
+  <match src="parameter_declaration [32,60]" dest="parameter_declaration [32,60]"/>
+  <match src=":: : [20,21]" dest=":: : [20,21]"/>
+  <match src="ERROR [5,21]" dest="ERROR [5,21]"/>
+</matches>
+<actions>
+  <insert-node tree="declaration [0,61]" parent="translation_unit [0,90]" at="0"/>
+  <insert-node tree="primitive_type: void [0,4]" parent="declaration [0,61]" at="0"/>
+  <move-tree tree="ERROR [5,21]" parent="declaration [0,61]" at="1"/>
+  <move-tree tree="function_declarator [21,61]" parent="declaration [0,61]" at="2"/>
+  <insert-node tree="; [61,61]" parent="declaration [0,61]" at="3"/>
+  <delete-node tree="primitive_type: void [0,4]"/>
+  <delete-tree tree="compound_statement [62,90]"/>
+  <delete-node tree="function_definition [0,90]"/>
+</actions>

@@ -1,0 +1,6 @@
+class readYamlTree {
+public static JsonNode readYamlTree(String contents) {
+        org.yaml.snakeyaml.Yaml yaml = new org.yaml.snakeyaml.Yaml();
+        return Json.mapper().convertValue(yaml.load(contents), JsonNode.class);
+    }
+}

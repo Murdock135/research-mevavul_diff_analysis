@@ -1,0 +1,20 @@
+{
+    "id": "70ec64dc5a2a816d6aa324190a726a85fd749b30_startActivityInner_0",
+    "func_name": "startActivityInner",
+    "cve_id": "CVE-2023-21269",
+    "cwe_ids": [
+        "CWE-269"
+    ],
+    "commit_hash": "70ec64dc5a2a816d6aa324190a726a85fd749b30",
+    "parent_commit_hash": "49773f9d871dd8975128fccf71513928a5a97345",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/70ec64dc5a2a816d6aa324190a726a85fd749b30",
+    "file_path": "services/core/java/com/android/server/wm/ActivityStarter.java",
+    "file_name": "ActivityStarter.java",
+    "commit_date": 1684862936,
+    "commit_msg": "Update Pip launches to not enter pinned task if in background.\n\nAddresses a BAL bypass where Pip could be started without the launcher\nbeing visible.\n\nBug: 271576718\nTest: atest CtsWindowManagerDeviceTestCases:PinnedStackTests\nTest: atest android.server.wm.BackgroundActivityLaunchTest#testPipCannotStartFromBackground\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:1848b559059e021d1a923513ca2a936c6212a7ac)\nMerged-In: Ibadc9c21f1d23f9904fc11009a9c2a40535db5e0\nChange-Id: Ibadc9c21f1d23f9904fc11009a9c2a40535db5e0\n",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 7.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

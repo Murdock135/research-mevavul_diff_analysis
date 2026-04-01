@@ -1,0 +1,20 @@
+{
+    "id": "a5e55363e69b3c84d3f4011c7b428edb1a25752c_verifyShortcutInfoPackage_0",
+    "func_name": "verifyShortcutInfoPackage",
+    "cve_id": "CVE-2023-40092",
+    "cwe_ids": [
+        "CWE-Other"
+    ],
+    "commit_hash": "a5e55363e69b3c84d3f4011c7b428edb1a25752c",
+    "parent_commit_hash": "0ec7b119d41adcbba23f9349e16de9e7e11683f6",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/a5e55363e69b3c84d3f4011c7b428edb1a25752c",
+    "file_path": "services/core/java/com/android/server/pm/ShortcutService.java",
+    "file_name": "ShortcutService.java",
+    "commit_date": 1690235936,
+    "commit_msg": "Validate userId when publishing shortcuts\n\nBug: 288110451\nTest: manual\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:01bfd04ff445db6290ae430d44ea1bf1a115fe3c)\nMerged-In: Idbde676f871db83825155730e3714f3727e25762\nChange-Id: Idbde676f871db83825155730e3714f3727e25762\n",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

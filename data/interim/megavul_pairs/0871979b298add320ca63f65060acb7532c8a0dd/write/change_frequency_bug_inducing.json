@@ -1,0 +1,66 @@
+{
+  "frequency": [
+    {
+      "c": "BinaryOperator",
+      "f": "4"
+    },
+    {
+      "c": "VariableRead",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "delete-node_BinaryOperator_BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_BinaryOperator_BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_VariableRead_BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_BinaryOperator_If",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_BinaryOperator_BinaryOperator",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "BinaryOperator",
+      "f": "0.8"
+    },
+    {
+      "c": "VariableRead",
+      "f": "0.2"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "delete-node_BinaryOperator_BinaryOperator",
+      "f": "0.2"
+    },
+    {
+      "c": "insert-node_BinaryOperator_BinaryOperator",
+      "f": "0.2"
+    },
+    {
+      "c": "move-tree_VariableRead_BinaryOperator",
+      "f": "0.2"
+    },
+    {
+      "c": "delete-node_BinaryOperator_If",
+      "f": "0.2"
+    },
+    {
+      "c": "move-tree_BinaryOperator_BinaryOperator",
+      "f": "0.2"
+    }
+  ]
+}

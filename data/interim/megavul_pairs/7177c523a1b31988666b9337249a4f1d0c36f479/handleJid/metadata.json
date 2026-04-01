@@ -1,0 +1,20 @@
+{
+    "id": "7177c523a1b31988666b9337249a4f1d0c36f479_handleJid_2",
+    "func_name": "handleJid",
+    "cve_id": "CVE-2018-18467",
+    "cwe_ids": [
+        "CWE-200"
+    ],
+    "commit_hash": "7177c523a1b31988666b9337249a4f1d0c36f479",
+    "parent_commit_hash": "71bbd379e9a04bb8692e2be49c26efb9029c57c0",
+    "repo_name": "iNPUTmice/Conversations",
+    "git_url": "https://github.com/iNPUTmice/Conversations/commit/7177c523a1b31988666b9337249a4f1d0c36f479",
+    "file_path": "src/main/java/eu/siacs/conversations/ui/StartConversationActivity.java",
+    "file_name": "StartConversationActivity.java",
+    "commit_date": 1539927571,
+    "commit_msg": "Do not insert text shared over XMPP uri when already drafting message\n\nXMPP uris in the style of `xmpp:test@domain.tld?body=Something` can be used to\ndirectly share a message with a specific contact. Previously the text was\nalways appended to the message currently in draft. The message was never send\nautomatically. Essentially those links where treated like normal text share\nintents (for example when sharing a URL from the browser) but without the\ncontact selection.\n\nThere is a concern (CVE-2018-18467) that when this URI is invoked automatically\nand the user is currently drafting a long message to that particular contact\nthe text could be inserted in the draft field (input box) without the user\nnoticing.\n\nTo circumvent that the text shared over XMPP uris that contain a particular\ncontact is now appended only if the draft box is currently empty.\n\nSharing text normally (**with** manual contact selection) is still treated the\nsame; meaning the shared text will be appended to the current draft. This is\nintended behaviour to make the\n'Hey I have this cool link here;' *open browser*, *share link* - secenario\nwork.",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

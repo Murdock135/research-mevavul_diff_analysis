@@ -1,0 +1,20 @@
+{
+    "id": "620418df247aebda3dd4be1dda10fe229ea505dd_messageReceived_0",
+    "func_name": "messageReceived",
+    "cve_id": "CVE-2014-125071",
+    "cwe_ids": [
+        "CWE-346"
+    ],
+    "commit_hash": "620418df247aebda3dd4be1dda10fe229ea505dd",
+    "parent_commit_hash": "704e3afde67fb68516519de623fe351c04c57cfb",
+    "repo_name": "lukehutch/gribbit",
+    "git_url": "https://github.com/lukehutch/gribbit/commit/620418df247aebda3dd4be1dda10fe229ea505dd",
+    "file_path": "src/gribbit/request/HttpRequestHandler.java",
+    "file_name": "HttpRequestHandler.java",
+    "commit_date": 1420013854,
+    "commit_msg": "Protect against CSWSH: (Cross-Site WebSocket Hijacking)",
+    "cvss_vector": "AV:A/AC:L/Au:S/C:P/I:P/A:P",
+    "cvss_base_score": 5.2,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

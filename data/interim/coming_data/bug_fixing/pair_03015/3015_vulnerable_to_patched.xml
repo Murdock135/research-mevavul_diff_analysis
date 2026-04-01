@@ -1,0 +1,224 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="true: true [2230,2234]" dest="true: true [2418,2422]"/>
+  <match src="): ) [209,210]" dest="): ) [209,210]"/>
+  <match src="number_literal: 3 [214,215]" dest="number_literal: 3 [214,215]"/>
+  <match src="=: = [122,123]" dest="=: = [122,123]"/>
+  <match src="): ) [2303,2304]" dest="): ) [2491,2492]"/>
+  <match src="=: = [89,90]" dest="=: = [89,90]"/>
+  <match src="{: { [2189,2190]" dest="{: { [2377,2378]"/>
+  <match src="init_declarator [117,142]" dest="init_declarator [117,142]"/>
+  <match src="primitive_type: bool [178,182]" dest="primitive_type: bool [178,182]"/>
+  <match src="(: ( [2196,2197]" dest="(: ( [2384,2385]"/>
+  <match src="): ) [2186,2187]" dest="): ) [2374,2375]"/>
+  <match src="argument_list [2257,2304]" dest="argument_list [2445,2492]"/>
+  <match src="declaration [178,216]" dest="declaration [178,216]"/>
+  <match src="unary_expression [2197,2218]" dest="unary_expression [2385,2406]"/>
+  <match src="(: ( [2324,2325]" dest="(: ( [2512,2513]"/>
+  <match src="identifier: vcpu [205,209]" dest="identifier: vcpu [205,209]"/>
+  <match src="identifier: cr4 [85,88]" dest="identifier: cr4 [85,88]"/>
+  <match src="}: } [2373,2374]" dest="}: } [2561,2562]"/>
+  <match src="storage_class_specifier [0,6]" dest="storage_class_specifier [0,6]"/>
+  <match src="primitive_type: bool [145,149]" dest="primitive_type: bool [145,149]"/>
+  <match src="identifier: cr4 [124,127]" dest="identifier: cr4 [124,127]"/>
+  <match src=";: ; [2352,2353]" dest=";: ; [2540,2541]"/>
+  <match src="primitive_type: bool [112,116]" dest="primitive_type: bool [112,116]"/>
+  <match src="==: == [211,213]" dest="==: == [211,213]"/>
+  <match src="field_identifier: kvm [2214,2217]" dest="field_identifier: kvm [2402,2405]"/>
+  <match src="identifier: is_user [2179,2186]" dest="identifier: is_user [2367,2374]"/>
+  <match src="identifier: smep [117,121]" dest="identifier: smep [117,121]"/>
+  <match src="identifier: sev_guest [2198,2207]" dest="identifier: sev_guest [2386,2395]"/>
+  <match src="escape_sequence: \n [2300,2302]" dest="escape_sequence: \n [2488,2490]"/>
+  <match src="}: } [2355,2356]" dest="}: } [2543,2544]"/>
+  <match src="identifier: kvm_read_cr4 [91,103]" dest="identifier: kvm_read_cr4 [91,103]"/>
+  <match src="parenthesized_expression [2196,2219]" dest="parenthesized_expression [2384,2407]"/>
+  <match src="if_statement [2157,2356]" dest="if_statement [2345,2544]"/>
+  <match src="return: return [2223,2229]" dest="return: return [2411,2417]"/>
+  <match src="&quot;: &quot; [2258,2259]" dest="&quot;: &quot; [2446,2447]"/>
+  <match src="identifier: X86_CR4_SMEP [130,142]" dest="identifier: X86_CR4_SMEP [130,142]"/>
+  <match src="if: if [2193,2195]" dest="if: if [2381,2383]"/>
+  <match src="parenthesized_expression [2169,2187]" dest="parenthesized_expression [2357,2375]"/>
+  <match src="identifier: kvm_make_request [2308,2324]" dest="identifier: kvm_make_request [2496,2512]"/>
+  <match src="argument_list [2207,2218]" dest="argument_list [2395,2406]"/>
+  <match src="unary_expression [2170,2175]" dest="unary_expression [2358,2363]"/>
+  <match src="call_expression [2239,2304]" dest="call_expression [2427,2492]"/>
+  <match src=";: ; [175,176]" dest=";: ; [175,176]"/>
+  <match src="(: ( [44,45]" dest="(: ( [44,45]"/>
+  <match src="binary_expression [2161,2187]" dest="binary_expression [2349,2375]"/>
+  <match src="(: ( [2160,2161]" dest="(: ( [2348,2349]"/>
+  <match src="struct: struct [45,51]" dest="struct: struct [45,51]"/>
+  <match src="declaration [71,110]" dest="declaration [71,110]"/>
+  <match src="compound_statement [68,2374]" dest="compound_statement [68,2562]"/>
+  <match src="&quot;: &quot; [2302,2303]" dest="&quot;: &quot; [2490,2491]"/>
+  <match src="||: || [2176,2178]" dest="||: || [2364,2366]"/>
+  <match src="identifier: svm_get_cpl [193,204]" dest="identifier: svm_get_cpl [193,204]"/>
+  <match src="field_expression [2208,2217]" dest="field_expression [2396,2405]"/>
+  <match src="binary_expression [157,175]" dest="binary_expression [157,175]"/>
+  <match src="sized_type_specifier [71,84]" dest="sized_type_specifier [71,84]"/>
+  <match src="identifier: smep [2171,2175]" dest="identifier: smep [2359,2363]"/>
+  <match src=";: ; [109,110]" dest=";: ; [109,110]"/>
+  <match src="function_definition [0,2374]" dest="function_definition [0,2562]"/>
+  <match src="&amp;: &amp; [128,129]" dest="&amp;: &amp; [128,129]"/>
+  <match src="!: ! [2170,2171]" dest="!: ! [2358,2359]"/>
+  <match src="expression_statement [2239,2305]" dest="expression_statement [2427,2493]"/>
+  <match src="init_declarator [150,175]" dest="init_declarator [150,175]"/>
+  <match src="{: { [68,69]" dest="{: { [68,69]"/>
+  <match src="binary_expression [124,142]" dest="binary_expression [124,142]"/>
+  <match src="(: ( [2257,2258]" dest="(: ( [2445,2446]"/>
+  <match src="init_declarator [85,109]" dest="init_declarator [85,109]"/>
+  <match src="primitive_type: bool [7,11]" dest="primitive_type: bool [7,11]"/>
+  <match src="identifier: cr4 [157,160]" dest="identifier: cr4 [157,160]"/>
+  <match src="call_expression [193,210]" dest="call_expression [193,210]"/>
+  <match src="return_statement [2359,2372]" dest="return_statement [2547,2560]"/>
+  <match src="false: false [2366,2371]" dest="false: false [2554,2559]"/>
+  <match src="binary_expression [2170,2186]" dest="binary_expression [2358,2374]"/>
+  <match src="argument_list [204,210]" dest="argument_list [204,210]"/>
+  <match src="identifier: vcpu [2347,2351]" dest="identifier: vcpu [2535,2539]"/>
+  <match src="!: ! [2197,2198]" dest="!: ! [2385,2386]"/>
+  <match src="type_identifier: kvm_vcpu [52,60]" dest="type_identifier: kvm_vcpu [52,60]"/>
+  <match src="compound_statement [2189,2356]" dest="compound_statement [2377,2544]"/>
+  <match src="=: = [155,156]" dest="=: = [155,156]"/>
+  <match src="identifier: vcpu [62,66]" dest="identifier: vcpu [62,66]"/>
+  <match src="argument_list [2324,2352]" dest="argument_list [2512,2540]"/>
+  <match src="translation_unit [0,2374]" dest="translation_unit [0,2562]"/>
+  <match src="return: return [2359,2365]" dest="return: return [2547,2553]"/>
+  <match src="call_expression [2308,2352]" dest="call_expression [2496,2540]"/>
+  <match src="=: = [191,192]" dest="=: = [191,192]"/>
+  <match src="call_expression [2198,2218]" dest="call_expression [2386,2406]"/>
+  <match src="call_expression [91,109]" dest="call_expression [91,109]"/>
+  <match src="): ) [2351,2352]" dest="): ) [2539,2540]"/>
+  <match src="string_content: KVM: SEV Guest triggered AMD Erratum 1096 [2259,2300]" dest="string_content: KVM: SEV Guest triggered AMD Erratum 1096 [2447,2488]"/>
+  <match src="identifier: svm_need_emulation_on_page_fault [12,44]" dest="identifier: svm_need_emulation_on_page_fault [12,44]"/>
+  <match src="return_statement [2223,2235]" dest="return_statement [2411,2423]"/>
+  <match src="binary_expression [193,215]" dest="binary_expression [193,215]"/>
+  <match src="identifier: vcpu [104,108]" dest="identifier: vcpu [104,108]"/>
+  <match src="): ) [2218,2219]" dest="): ) [2406,2407]"/>
+  <match src="): ) [108,109]" dest="): ) [108,109]"/>
+  <match src="identifier: X86_CR4_SMAP [163,175]" dest="identifier: X86_CR4_SMAP [163,175]"/>
+  <match src=";: ; [215,216]" dest=";: ; [215,216]"/>
+  <match src="-&gt;: -&gt; [2212,2214]" dest="-&gt;: -&gt; [2400,2402]"/>
+  <match src=";: ; [2304,2305]" dest=";: ; [2492,2493]"/>
+  <match src=";: ; [2234,2235]" dest=";: ; [2422,2423]"/>
+  <match src="): ) [2187,2188]" dest="): ) [2375,2376]"/>
+  <match src="declaration [145,176]" dest="declaration [145,176]"/>
+  <match src="&amp;&amp;: &amp;&amp; [2166,2168]" dest="&amp;&amp;: &amp;&amp; [2354,2356]"/>
+  <match src=",: , [2345,2346]" dest=",: , [2533,2534]"/>
+  <match src="if_statement [2193,2235]" dest="if_statement [2381,2423]"/>
+  <match src="static: static [0,6]" dest="static: static [0,6]"/>
+  <match src="long: long [80,84]" dest="long: long [80,84]"/>
+  <match src="): ) [2217,2218]" dest="): ) [2405,2406]"/>
+  <match src="identifier: pr_err_ratelimited [2239,2257]" dest="identifier: pr_err_ratelimited [2427,2445]"/>
+  <match src="struct_specifier [45,60]" dest="struct_specifier [45,60]"/>
+  <match src="argument_list [103,109]" dest="argument_list [103,109]"/>
+  <match src="identifier: smap [150,154]" dest="identifier: smap [150,154]"/>
+  <match src="&amp;: &amp; [161,162]" dest="&amp;: &amp; [161,162]"/>
+  <match src="if: if [2157,2159]" dest="if: if [2345,2347]"/>
+  <match src="unsigned: unsigned [71,79]" dest="unsigned: unsigned [71,79]"/>
+  <match src=";: ; [142,143]" dest=";: ; [142,143]"/>
+  <match src="parameter_list [44,67]" dest="parameter_list [44,67]"/>
+  <match src="): ) [66,67]" dest="): ) [66,67]"/>
+  <match src="comment: 	
+	 * Detect and workaround Errata 1096 Fam_17h_00_0Fh.
+	 *
+	 * Errata:
+	 * When CPU raise #NPF on guest data access and vCPU CR4.SMAP=1, it is
+	 * possible that CPU microcode implementing DecodeAssist will fail
+	 * to read bytes of instruction which caused #NPF. In this case,
+	 * GuestIntrBytes field of the VMCB on a VMEXIT will incorrectly
+	 * return 0 instead of the correct guest instruction bytes.
+	 *
+	 * This happens because CPU microcode reading instruction bytes
+	 * uses a special opcode which attempts to read data using CPL=0
+	 * priviledges. The microcode reads CS:RIP and if it hits a SMAP
+	 * fault, it gives up and returns no instruction bytes.
+	 *
+	 * Detection:
+	 * We reach here in case CPU supports DecodeAssist, raised #NPF and
+	 * returned 0 in GuestIntrBytes field of the VMCB.
+	 * First, errata can only be triggered in case vCPU CR4.SMAP=1.
+	 * Second, if vCPU CR4.SMEP=1, errata could only be triggered
+	 * in case vCPU CPL==3 (Because otherwise guest would have triggered
+	 * a SMEP fault instead of #NPF).
+	 * Otherwise, vCPU CR4.SMEP=0, errata could be triggered by any vCPU CPL.
+	 * As most guests enable SMAP if they have also enabled SMEP, use above
+	 * logic in order to attempt minimize false-positive of detecting errata
+	 * while still preserving all cases semantic correctness.
+	 *
+	 * Workaround:
+	 * To determine what instruction the guest was executing, the hypervisor
+	 * will have to decode the instruction at the instruction pointer.
+	 *
+	 * In non SEV guest, hypervisor will be able to read the guest
+	 * memory to decode the instruction pointer when insn_len is zero
+	 * so we return true to indicate that decoding is possible.
+	 *
+	 * But in the SEV guest, the guest memory is encrypted with the
+	 * guest specific key and hypervisor will not be able to decode the
+	 * instruction pointer so we will not able to workaround it. Lets
+	 * print the error and request to kill the guest.
+	 */ [219,2155]" dest="comment: 	
+	 * Detect and workaround Errata 1096 Fam_17h_00_0Fh.
+	 *
+	 * Errata:
+	 * When CPU raise #NPF on guest data access and vCPU CR4.SMAP=1, it is
+	 * possible that CPU microcode implementing DecodeAssist will fail
+	 * to read bytes of instruction which caused #NPF. In this case,
+	 * GuestIntrBytes field of the VMCB on a VMEXIT will incorrectly
+	 * return 0 instead of the correct guest instruction bytes.
+	 *
+	 * This happens because CPU microcode reading instruction bytes
+	 * uses a special opcode which attempts to read data using CPL=0
+	 * priviledges. The microcode reads CS:RIP and if it hits a SMAP
+	 * fault, it gives up and returns no instruction bytes.
+	 *
+	 * Detection:
+	 * We reach here in case CPU supports DecodeAssist, raised #NPF and
+	 * returned 0 in GuestIntrBytes field of the VMCB.
+	 * First, errata can only be triggered in case vCPU CR4.SMAP=1.
+	 * Second, if vCPU CR4.SMEP=1, errata could only be triggered
+	 * in case vCPU CPL==3 (Because otherwise guest would have triggered
+	 * a SMEP fault instead of #NPF).
+	 * Otherwise, vCPU CR4.SMEP=0, errata could be triggered by any vCPU CPL.
+	 * As most guests enable SMAP if they have also enabled SMEP, use above
+	 * logic in order to attempt minimize false-positive of detecting errata
+	 * while still preserving all cases semantic correctness.
+	 *
+	 * Workaround:
+	 * To determine what instruction the guest was executing, the hypervisor
+	 * will have to decode the instruction at the instruction pointer.
+	 *
+	 * In non SEV guest, hypervisor will be able to read the guest
+	 * memory to decode the instruction pointer when insn_len is zero
+	 * so we return true to indicate that decoding is possible.
+	 *
+	 * But in the SEV guest, the guest memory is encrypted with the
+	 * guest specific key and hypervisor will not be able to decode the
+	 * instruction pointer so we will not able to workaround it. Lets
+	 * print the error and request to kill the guest.
+	 */ [407,2343]"/>
+  <match src="string_literal [2258,2303]" dest="string_literal [2446,2491]"/>
+  <match src="pointer_declarator [61,66]" dest="pointer_declarator [61,66]"/>
+  <match src="(: ( [2207,2208]" dest="(: ( [2395,2396]"/>
+  <match src="identifier: KVM_REQ_TRIPLE_FAULT [2325,2345]" dest="identifier: KVM_REQ_TRIPLE_FAULT [2513,2533]"/>
+  <match src=";: ; [2371,2372]" dest=";: ; [2559,2560]"/>
+  <match src="init_declarator [183,215]" dest="init_declarator [183,215]"/>
+  <match src="*: * [61,62]" dest="*: * [61,62]"/>
+  <match src="identifier: vcpu [2208,2212]" dest="identifier: vcpu [2396,2400]"/>
+  <match src="(: ( [103,104]" dest="(: ( [103,104]"/>
+  <match src="expression_statement [2308,2353]" dest="expression_statement [2496,2541]"/>
+  <match src="function_declarator [12,67]" dest="function_declarator [12,67]"/>
+  <match src="parameter_declaration [45,66]" dest="parameter_declaration [45,66]"/>
+  <match src="declaration [112,143]" dest="declaration [112,143]"/>
+  <match src="identifier: smap [2161,2165]" dest="identifier: smap [2349,2353]"/>
+  <match src="parenthesized_expression [2160,2188]" dest="parenthesized_expression [2348,2376]"/>
+  <match src="identifier: is_user [183,190]" dest="identifier: is_user [183,190]"/>
+  <match src="(: ( [2169,2170]" dest="(: ( [2357,2358]"/>
+  <match src="(: ( [204,205]" dest="(: ( [204,205]"/>
+</matches>
+<actions>
+  <insert-node tree="comment: 	
+	 * If RIP is invalid, go ahead with emulation which will cause an
+	 * internal error exit.
+	 */ [219,318]" parent="compound_statement [68,2374]" at="5"/>
+  <insert-tree tree="if_statement [320,404]" parent="compound_statement [68,2374]" at="6"/>
+</actions>

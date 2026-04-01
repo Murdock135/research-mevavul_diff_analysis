@@ -1,0 +1,20 @@
+{
+    "id": "063183589218fec19a9293ed2f17ec53ea80ba88__deserializeFromArray_0",
+    "func_name": "_deserializeFromArray",
+    "cve_id": "CVE-2022-42004",
+    "cwe_ids": [
+        "CWE-502"
+    ],
+    "commit_hash": "063183589218fec19a9293ed2f17ec53ea80ba88",
+    "parent_commit_hash": "851351238a9897ae9c5e3fc09d7c20b5b2b88e7f",
+    "repo_name": "FasterXML/jackson-databind",
+    "git_url": "https://github.com/FasterXML/jackson-databind/commit/063183589218fec19a9293ed2f17ec53ea80ba88",
+    "file_path": "src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializer.java",
+    "file_name": "BeanDeserializer.java",
+    "commit_date": 1661284482,
+    "commit_msg": "Fix #3582",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

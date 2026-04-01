@@ -1,0 +1,340 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="string_content: Unable to allocate struct vhost_scsi_tpg [490,530]" dest="string_content: Unable to allocate struct vhost_scsi_tpg [495,535]"/>
+  <match src=",: , [148,149]" dest=",: , [148,149]"/>
+  <match src="number_literal: 10 [346,348]" dest="number_literal: 10 [337,339]"/>
+  <match src="return: return [380,386]" dest="return: return [385,391]"/>
+  <match src="pointer_expression [945,962]" dest="pointer_expression [950,967]"/>
+  <match src="binary_expression [327,375]" dest="binary_expression [317,380]"/>
+  <match src="(: ( [326,327]" dest="(: ( [316,317]"/>
+  <match src="): ) [464,465]" dest="): ) [469,470]"/>
+  <match src=",: , [274,275]" dest=",: , [264,265]"/>
+  <match src="(: ( [471,472]" dest="(: ( [476,477]"/>
+  <match src="): ) [928,929]" dest="): ) [933,934]"/>
+  <match src="): ) [94,95]" dest="): ) [94,95]"/>
+  <match src="): ) [292,293]" dest="): ) [282,283]"/>
+  <match src="&amp;: &amp; [893,894]" dest="&amp;: &amp; [898,899]"/>
+  <match src="argument_list [311,320]" dest="argument_list [301,310]"/>
+  <match src="(: ( [857,858]" dest="(: ( [862,863]"/>
+  <match src="*: * [123,124]" dest="*: * [123,124]"/>
+  <match src="struct: struct [99,105]" dest="struct: struct [99,105]"/>
+  <match src="identifier: GFP_KERNEL [454,464]" dest="identifier: GFP_KERNEL [459,469]"/>
+  <match src="call_expression [132,189]" dest="call_expression [132,189]"/>
+  <match src="if: if [799,801]" dest="if: if [804,806]"/>
+  <match src="identifier: tpg [473,476]" dest="identifier: tpg [478,481]"/>
+  <match src="unary_expression [551,558]" dest="unary_expression [556,563]"/>
+  <match src="identifier: vhost_scsi_tport [161,177]" dest="identifier: vhost_scsi_tport [161,177]"/>
+  <match src="identifier: name [270,274]" dest="identifier: name [260,264]"/>
+  <match src="): ) [875,876]" dest="): ) [880,881]"/>
+  <match src="if: if [468,470]" dest="if: if [473,475]"/>
+  <match src="field_expression [577,594]" dest="field_expression [582,599]"/>
+  <match src="identifier: name [336,340]" dest="identifier: name [327,331]"/>
+  <match src="&quot;: &quot; [489,490]" dest="&quot;: &quot; [494,495]"/>
+  <match src="argument_list [550,559]" dest="argument_list [555,564]"/>
+  <match src="abstract_pointer_declarator [34,35]" dest="abstract_pointer_declarator [34,35]"/>
+  <match src="=: = [130,131]" dest="=: = [130,131]"/>
+  <match src="if: if [259,261]" dest="if: if [249,251]"/>
+  <match src="expression_statement [879,930]" dest="expression_statement [884,935]"/>
+  <match src="&lt;: &lt; [807,808]" dest="&lt;: &lt; [812,813]"/>
+  <match src="identifier: tpgt [360,364]" dest="identifier: tpgt [351,355]"/>
+  <match src="): ) [476,477]" dest="): ) [481,482]"/>
+  <match src="identifier: vhost_scsi_make_tpg [0,19]" dest="identifier: vhost_scsi_make_tpg [0,19]"/>
+  <match src="struct: struct [430,436]" dest="struct: struct [435,441]"/>
+  <match src=";: ; [532,533]" dest=";: ; [537,538]"/>
+  <match src="assignment_expression [681,796]" dest="assignment_expression [686,801]"/>
+  <match src="pointer_expression [576,594]" dest="pointer_expression [581,599]"/>
+  <match src="-&gt;: -&gt; [897,899]" dest="-&gt;: -&gt; [902,904]"/>
+  <match src="expression_statement [598,632]" dest="expression_statement [603,637]"/>
+  <match src="macro_type_specifier [0,35]" dest="macro_type_specifier [0,35]"/>
+  <match src="ERROR [988,989]" dest="ERROR [993,994]"/>
+  <match src="call_expression [327,356]" dest="call_expression [317,347]"/>
+  <match src="identifier: UINT_MAX [367,375]" dest="identifier: VHOST_SCSI_MAX_TARGET [359,380]"/>
+  <match src=",: , [38,39]" dest=",: , [38,39]"/>
+  <match src="struct: struct [195,201]" dest="struct: struct [195,201]"/>
+  <match src="string_literal [276,283]" dest="string_literal [266,273]"/>
+  <match src="NULL: NULL [837,841]" dest="NULL: NULL [842,846]"/>
+  <match src="call_expression [687,796]" dest="call_expression [692,801]"/>
+  <match src="{: { [96,97]" dest="{: { [96,97]"/>
+  <match src=";: ; [242,243]" dest=";: ; [232,233]"/>
+  <match src=",: , [452,453]" dest=",: , [457,458]"/>
+  <match src="identifier: ERR_PTR [387,394]" dest="identifier: ERR_PTR [392,399]"/>
+  <match src="identifier: wwn [35,38]" dest="identifier: wwn [35,38]"/>
+  <match src="-&gt;: -&gt; [658,660]" dest="-&gt;: -&gt; [663,665]"/>
+  <match src="argument_list [892,929]" dest="argument_list [897,934]"/>
+  <match src="expression_statement [409,466]" dest="expression_statement [414,471]"/>
+  <match src="*: * [65,66]" dest="*: * [65,66]"/>
+  <match src="field_expression [975,986]" dest="field_expression [980,991]"/>
+  <match src="-&gt;: -&gt; [978,980]" dest="-&gt;: -&gt; [983,985]"/>
+  <match src="): ) [355,356]" dest="): ) [346,347]"/>
+  <match src="field_identifier: se_tpg [757,763]" dest="field_identifier: se_tpg [762,768]"/>
+  <match src=";: ; [796,797]" dest=";: ; [801,802]"/>
+  <match src="call_expression [387,403]" dest="call_expression [392,408]"/>
+  <match src="argument_list [575,595]" dest="argument_list [580,600]"/>
+  <match src="ERROR [78,122]" dest="ERROR [78,122]"/>
+  <match src="): ) [531,532]" dest="): ) [536,537]"/>
+  <match src="identifier: char [84,88]" dest="identifier: char [84,88]"/>
+  <match src="identifier: vhost_scsi_mutex [946,962]" dest="identifier: vhost_scsi_mutex [951,967]"/>
+  <match src="return_statement [297,321]" dest="return_statement [287,311]"/>
+  <match src="): ) [594,595]" dest="): ) [599,600]"/>
+  <match src="pointer_expression [974,986]" dest="pointer_expression [979,991]"/>
+  <match src="identifier: tpg [894,897]" dest="identifier: tpg [899,902]"/>
+  <match src=";: ; [963,964]" dest=";: ; [968,969]"/>
+  <match src=";: ; [631,632]" dest=";: ; [636,637]"/>
+  <match src="{: { [812,813]" dest="{: { [817,818]"/>
+  <match src="unary_expression [312,319]" dest="unary_expression [302,309]"/>
+  <match src="assignment_expression [409,465]" dest="assignment_expression [414,470]"/>
+  <match src="return: return [297,303]" dest="return: return [287,293]"/>
+  <match src="identifier: mutex_unlock [932,944]" dest="identifier: mutex_unlock [937,949]"/>
+  <match src="struct_specifier [20,33]" dest="struct_specifier [20,33]"/>
+  <match src="identifier: core_tpg_register [687,704]" dest="identifier: core_tpg_register [692,709]"/>
+  <match src="if_statement [259,321]" dest="if_statement [249,311]"/>
+  <match src=",: , [768,769]" dest=",: , [773,774]"/>
+  <match src="pointer_expression [350,355]" dest="pointer_expression [341,346]"/>
+  <match src="pointer_declarator [123,129]" dest="pointer_declarator [123,129]"/>
+  <match src="): ) [375,376]" dest="): ) [380,381]"/>
+  <match src="parenthesized_expression [262,293]" dest="parenthesized_expression [252,283]"/>
+  <match src="call_expression [565,595]" dest="call_expression [570,600]"/>
+  <match src=";: ; [221,222]" dest=";: ; [221,222]"/>
+  <match src="binary_expression [360,375]" dest="binary_expression [351,380]"/>
+  <match src="}: } [562,563]" dest="}: } [567,568]"/>
+  <match src="pointer_expression [858,875]" dest="pointer_expression [863,880]"/>
+  <match src=",: , [745,746]" dest=",: , [750,751]"/>
+  <match src="type_descriptor [20,35]" dest="type_descriptor [20,35]"/>
+  <match src="identifier: tpg [634,637]" dest="identifier: tpg [639,642]"/>
+  <match src="field_expression [614,630]" dest="field_expression [619,635]"/>
+  <match src="argument_list [269,284]" dest="argument_list [259,274]"/>
+  <match src="identifier: tpg [614,617]" dest="identifier: tpg [619,622]"/>
+  <match src="field_identifier: tport [639,644]" dest="field_identifier: tport [644,649]"/>
+  <match src="identifier: kfree [816,821]" dest="identifier: kfree [821,826]"/>
+  <match src="identifier: config_group [52,64]" dest="identifier: config_group [52,64]"/>
+  <match src="parenthesized_expression [802,811]" dest="parenthesized_expression [807,816]"/>
+  <match src="struct_specifier [195,216]" dest="struct_specifier [195,216]"/>
+  <match src="string_literal [489,531]" dest="string_literal [494,536]"/>
+  <match src="return_statement [967,987]" dest="return_statement [972,992]"/>
+  <match src="identifier: list_add_tail [879,892]" dest="identifier: list_add_tail [884,897]"/>
+  <match src="call_expression [304,320]" dest="call_expression [294,310]"/>
+  <match src="identifier: tpg [752,755]" dest="identifier: tpg [757,760]"/>
+  <match src="type_identifier: vhost_scsi_tpg [202,216]" dest="type_identifier: vhost_scsi_tpg [202,216]"/>
+  <match src="identifier: tpg [218,221]" dest="identifier: tpg [218,221]"/>
+  <match src="(: ( [488,489]" dest="(: ( [493,494]"/>
+  <match src="identifier: name [288,292]" dest="identifier: name [278,282]"/>
+  <match src="-&gt;: -&gt; [755,757]" dest="-&gt;: -&gt; [760,762]"/>
+  <match src="identifier: EINVAL [396,402]" dest="identifier: EINVAL [401,407]"/>
+  <match src="call_expression [482,532]" dest="call_expression [487,537]"/>
+  <match src="&quot;: &quot; [530,531]" dest="&quot;: &quot; [535,536]"/>
+  <match src="identifier: tpg [655,658]" dest="identifier: tpg [660,663]"/>
+  <match src=";: ; [465,466]" dest=";: ; [470,471]"/>
+  <match src=";: ; [876,877]" dest=";: ; [881,882]"/>
+  <match src="expression_statement [816,827]" dest="expression_statement [821,832]"/>
+  <match src="): ) [795,796]" dest="): ) [800,801]"/>
+  <match src="identifier: tpg [822,825]" dest="identifier: tpg [827,830]"/>
+  <match src="-&gt;: -&gt; [732,734]" dest="-&gt;: -&gt; [737,739]"/>
+  <match src="primitive_type: int [246,249]" dest="primitive_type: int [236,239]"/>
+  <match src="argument_list [488,532]" dest="argument_list [493,537]"/>
+  <match src="field_identifier: se_tpg [980,986]" dest="field_identifier: se_tpg [985,991]"/>
+  <match src="return_statement [536,560]" dest="return_statement [541,565]"/>
+  <match src="=: = [685,686]" dest="=: = [690,691]"/>
+  <match src=",: , [910,911]" dest=",: , [915,916]"/>
+  <match src="(: ( [802,803]" dest="(: ( [807,808]"/>
+  <match src="if_statement [323,404]" dest="if_statement [313,409]"/>
+  <match src="call_expression [415,465]" dest="call_expression [420,470]"/>
+  <match src="ERROR [45,64]" dest="ERROR [45,64]"/>
+  <match src="(: ( [821,822]" dest="(: ( [826,827]"/>
+  <match src="call_expression [879,929]" dest="call_expression [884,934]"/>
+  <match src="&quot;: &quot; [282,283]" dest="&quot;: &quot; [272,273]"/>
+  <match src="&amp;: &amp; [945,946]" dest="&amp;: &amp; [950,951]"/>
+  <match src="identifier: ret [250,253]" dest="identifier: ret [240,243]"/>
+  <match src="identifier: ERR_PTR [543,550]" dest="identifier: ERR_PTR [548,555]"/>
+  <match src="): ) [825,826]" dest="): ) [830,831]"/>
+  <match src="init_declarator [123,189]" dest="init_declarator [123,189]"/>
+  <match src="argument_list [704,796]" dest="argument_list [709,801]"/>
+  <match src="compound_statement [478,563]" dest="compound_statement [483,568]"/>
+  <match src="=: = [645,646]" dest="=: = [650,651]"/>
+  <match src="identifier: const [78,83]" dest="identifier: const [78,83]"/>
+  <match src="pointer_declarator [65,71]" dest="pointer_declarator [65,71]"/>
+  <match src=",: , [348,349]" dest=",: , [339,340]"/>
+  <match src="}: } [988,989]" dest="}: } [993,994]"/>
+  <match src="expression_statement [634,653]" dest="expression_statement [639,658]"/>
+  <match src="declaration [195,222]" dest="declaration [195,222]"/>
+  <match src=";: ; [652,653]" dest=";: ; [657,658]"/>
+  <match src="identifier: tport_wwn [179,188]" dest="identifier: tport_wwn [179,188]"/>
+  <match src="field_expression [894,910]" dest="field_expression [899,915]"/>
+  <match src=";: ; [677,678]" dest=";: ; [682,683]"/>
+  <match src="identifier: EINVAL [313,319]" dest="identifier: EINVAL [303,309]"/>
+  <match src="(: ( [704,705]" dest="(: ( [709,710]"/>
+  <match src="expression_statement [482,533]" dest="expression_statement [487,538]"/>
+  <match src="argument_list [944,963]" dest="argument_list [949,968]"/>
+  <match src="-&gt;: -&gt; [617,619]" dest="-&gt;: -&gt; [622,624]"/>
+  <match src="declaration [246,254]" dest="declaration [236,244]"/>
+  <match src="argument_list [857,876]" dest="argument_list [862,881]"/>
+  <match src="): ) [283,284]" dest="): ) [273,274]"/>
+  <match src=",: , [763,764]" dest=",: , [768,769]"/>
+  <match src="identifier: kzalloc [415,422]" dest="identifier: kzalloc [420,427]"/>
+  <match src="type_descriptor [430,451]" dest="type_descriptor [435,456]"/>
+  <match src="&amp;: &amp; [912,913]" dest="&amp;: &amp; [917,918]"/>
+  <match src="*: * [34,35]" dest="*: * [34,35]"/>
+  <match src="binary_expression [803,810]" dest="binary_expression [808,815]"/>
+  <match src="argument_list [821,826]" dest="argument_list [826,831]"/>
+  <match src="compound_statement [812,845]" dest="compound_statement [817,850]"/>
+  <match src="return: return [830,836]" dest="return: return [835,841]"/>
+  <match src="identifier: container_of [132,144]" dest="identifier: container_of [132,144]"/>
+  <match src="identifier: ENOMEM [552,558]" dest="identifier: ENOMEM [557,563]"/>
+  <match src="(: ( [612,613]" dest="(: ( [617,618]"/>
+  <match src="(: ( [892,893]" dest="(: ( [897,898]"/>
+  <match src="identifier: wwn [742,745]" dest="identifier: wwn [747,750]"/>
+  <match src="if_statement [468,563]" dest="if_statement [473,568]"/>
+  <match src="): ) [402,403]" dest="): ) [407,408]"/>
+  <match src="=: = [671,672]" dest="=: = [676,677]"/>
+  <match src="field_identifier: tport_tpgt [660,670]" dest="field_identifier: tport_tpgt [665,675]"/>
+  <match src="field_identifier: tv_tpg_list [899,910]" dest="field_identifier: tv_tpg_list [904,915]"/>
+  <match src="||: || [357,359]" dest="||: || [348,350]"/>
+  <match src="parenthesized_expression [471,477]" dest="parenthesized_expression [476,482]"/>
+  <match src="(: ( [575,576]" dest="(: ( [580,581]"/>
+  <match src="return: return [536,542]" dest="return: return [541,547]"/>
+  <match src="(: ( [19,20]" dest="(: ( [19,20]"/>
+  <match src="(: ( [262,263]" dest="(: ( [252,253]"/>
+  <match src=",: , [740,741]" dest=",: , [745,746]"/>
+  <match src=";: ; [595,596]" dest=";: ; [600,601]"/>
+  <match src="identifier: tpg [975,978]" dest="identifier: tpg [980,983]"/>
+  <match src="(: ( [269,270]" dest="(: ( [259,260]"/>
+  <match src="identifier: pr_err [482,488]" dest="identifier: pr_err [487,493]"/>
+  <match src="(: ( [944,945]" dest="(: ( [949,950]"/>
+  <match src=") [35,35]" dest=") [35,35]"/>
+  <match src="pointer_expression [751,763]" dest="pointer_expression [756,768]"/>
+  <match src="-&gt;: -&gt; [637,639]" dest="-&gt;: -&gt; [642,644]"/>
+  <match src="identifier: vhost_scsi_tport [106,122]" dest="identifier: vhost_scsi_tport [106,122]"/>
+  <match src="identifier: struct [45,51]" dest="identifier: struct [45,51]"/>
+  <match src="=: = [413,414]" dest="=: = [418,419]"/>
+  <match src="expression_statement [681,797]" dest="expression_statement [686,802]"/>
+  <match src="pointer_expression [893,910]" dest="pointer_expression [898,915]"/>
+  <match src="argument_list [612,631]" dest="argument_list [617,636]"/>
+  <match src="identifier: ERR_PTR [304,311]" dest="identifier: ERR_PTR [294,301]"/>
+  <match src="(: ( [394,395]" dest="(: ( [399,400]"/>
+  <match src="return_statement [380,404]" dest="return_statement [385,409]"/>
+  <match src="(: ( [429,430]" dest="(: ( [434,435]"/>
+  <match src="identifier: tpgt [673,677]" dest="identifier: tpgt [678,682]"/>
+  <match src="struct: struct [20,26]" dest="struct: struct [20,26]"/>
+  <match src="identifier: tport [124,129]" dest="identifier: tport [124,129]"/>
+  <match src=",: , [344,345]" dest=",: , [335,336]"/>
+  <match src="number_literal: 5 [343,344]" dest="number_literal: 5 [334,335]"/>
+  <match src="&amp;: &amp; [858,859]" dest="&amp;: &amp; [863,864]"/>
+  <match src="return: return [967,973]" dest="return: return [972,978]"/>
+  <match src="(: ( [144,145]" dest="(: ( [144,145]"/>
+  <match src="assignment_expression [655,677]" dest="assignment_expression [660,682]"/>
+  <match src="assignment_expression [634,652]" dest="assignment_expression [639,657]"/>
+  <match src="): ) [810,811]" dest="): ) [815,816]"/>
+  <match src="pointer_expression [613,630]" dest="pointer_expression [618,635]"/>
+  <match src="&amp;: &amp; [350,351]" dest="&amp;: &amp; [341,342]"/>
+  <match src="(: ( [422,423]" dest="(: ( [427,428]"/>
+  <match src="argument_list [422,465]" dest="argument_list [427,470]"/>
+  <match src="): ) [962,963]" dest="): ) [967,968]"/>
+  <match src="-: - [312,313]" dest="-: - [302,303]"/>
+  <match src="-: - [551,552]" dest="-: - [556,557]"/>
+  <match src="ERROR [154,160]" dest="ERROR [154,160]"/>
+  <match src="-: - [395,396]" dest="-: - [400,401]"/>
+  <match src="identifier: tpgt [238,242]" dest="identifier: tpgt [228,232]"/>
+  <match src="identifier: tpg [765,768]" dest="identifier: tpg [770,773]"/>
+  <match src="{: { [478,479]" dest="{: { [483,484]"/>
+  <match src="expression_statement [565,596]" dest="expression_statement [570,601]"/>
+  <match src="): ) [630,631]" dest="): ) [635,636]"/>
+  <match src="field_expression [706,740]" dest="field_expression [711,745]"/>
+  <match src="): ) [451,452]" dest="): ) [456,457]"/>
+  <match src="declaration [224,243]" dest="declaration [224,233]"/>
+  <match src="argument_list [144,189]" dest="argument_list [144,189]"/>
+  <match src="+: + [341,342]" dest="+: + [332,333]"/>
+  <match src="type_identifier: vhost_scsi_tpg [437,451]" dest="type_identifier: vhost_scsi_tpg [442,456]"/>
+  <match src="identifier: tpg [409,412]" dest="identifier: tpg [414,417]"/>
+  <match src=";: ; [189,190]" dest=";: ; [189,190]"/>
+  <match src="field_identifier: tv_tpg_mutex [582,594]" dest="field_identifier: tv_tpg_mutex [587,599]"/>
+  <match src="translation_unit [0,989]" dest="translation_unit [0,994]"/>
+  <match src=";: ; [929,930]" dest=";: ; [934,935]"/>
+  <match src="call_expression [543,559]" dest="call_expression [548,564]"/>
+  <match src="field_identifier: tf_ops [734,740]" dest="field_identifier: tf_ops [739,745]"/>
+  <match src="unary_expression [395,402]" dest="unary_expression [400,407]"/>
+  <match src="identifier: wwn [145,148]" dest="identifier: wwn [145,148]"/>
+  <match src="if_statement [799,845]" dest="if_statement [804,850]"/>
+  <match src="pointer_expression [912,928]" dest="pointer_expression [917,933]"/>
+  <match src="struct_specifier [430,451]" dest="struct_specifier [435,456]"/>
+  <match src="identifier: strstr [263,269]" dest="identifier: strstr [253,259]"/>
+  <match src="unary_expression [472,476]" dest="unary_expression [477,481]"/>
+  <match src="identifier: group [66,71]" dest="identifier: group [66,71]"/>
+  <match src="identifier: struct [154,160]" dest="identifier: struct [154,160]"/>
+  <match src="expression_statement [932,964]" dest="expression_statement [937,969]"/>
+  <match src="return_statement [830,842]" dest="return_statement [835,847]"/>
+  <match src="pointer_expression [705,740]" dest="pointer_expression [710,745]"/>
+  <match src="pointer_declarator [89,94]" dest="pointer_declarator [89,94]"/>
+  <match src="&quot;: &quot; [276,277]" dest="&quot;: &quot; [266,267]"/>
+  <match src="number_literal: 0 [809,810]" dest="number_literal: 0 [814,815]"/>
+  <match src="type_identifier: se_wwn [27,33]" dest="type_identifier: se_wwn [27,33]"/>
+  <match src="identifier: tport [647,652]" dest="identifier: tport [652,657]"/>
+  <match src="argument_list [335,356]" dest="argument_list [326,347]"/>
+  <match src="!=: != [285,287]" dest="!=: != [275,277]"/>
+  <match src="identifier: INIT_LIST_HEAD [598,612]" dest="identifier: INIT_LIST_HEAD [603,617]"/>
+  <match src="!: ! [472,473]" dest="!: ! [477,478]"/>
+  <match src="field_expression [655,670]" dest="field_expression [660,675]"/>
+  <match src="identifier: ret [803,806]" dest="identifier: ret [808,811]"/>
+  <match src="identifier: tpg [577,580]" dest="identifier: tpg [582,585]"/>
+  <match src=";: ; [403,404]" dest=";: ; [408,409]"/>
+  <match src=",: , [71,72]" dest=",: , [71,72]"/>
+  <match src="(: ( [550,551]" dest="(: ( [555,556]"/>
+  <match src="): ) [319,320]" dest="): ) [309,310]"/>
+  <match src=";: ; [253,254]" dest=";: ; [243,244]"/>
+  <match src="(: ( [311,312]" dest="(: ( [301,302]"/>
+  <match src="identifier: mutex_lock [847,857]" dest="identifier: mutex_lock [852,862]"/>
+  <match src="): ) [558,559]" dest="): ) [563,564]"/>
+  <match src="sizeof: sizeof [423,429]" dest="sizeof: sizeof [428,434]"/>
+  <match src="string_content: tpgt_ [277,282]" dest="string_content: tpgt_ [267,272]"/>
+  <match src="): ) [188,189]" dest="): ) [188,189]"/>
+  <match src="binary_expression [336,344]" dest="binary_expression [327,335]"/>
+  <match src="call_expression [816,826]" dest="call_expression [821,831]"/>
+  <match src="call_expression [263,284]" dest="call_expression [253,274]"/>
+  <match src=";: ; [841,842]" dest=";: ; [846,847]"/>
+  <match src=";: ; [826,827]" dest=";: ; [831,832]"/>
+  <match src="(: ( [335,336]" dest="(: ( [326,327]"/>
+  <match src="argument_list [394,403]" dest="argument_list [399,408]"/>
+  <match src="if: if [323,325]" dest="if: if [313,315]"/>
+  <match src="identifier: kstrtoul [327,335]" dest="identifier: kstrtou16 [317,326]"/>
+  <match src="&amp;: &amp; [751,752]" dest="&amp;: &amp; [756,757]"/>
+  <match src="parenthesized_expression [326,376]" dest="parenthesized_expression [316,381]"/>
+  <match src="identifier: vhost_scsi_fabric_configfs [706,732]" dest="identifier: vhost_scsi_fabric_configfs [711,737]"/>
+  <match src="call_expression [932,963]" dest="call_expression [937,968]"/>
+  <match src="null [837,841]" dest="null [842,846]"/>
+  <match src=";: ; [320,321]" dest=";: ; [310,311]"/>
+  <match src="&amp;: &amp; [705,706]" dest="&amp;: &amp; [710,711]"/>
+  <match src="identifier: mutex_init [565,575]" dest="identifier: mutex_init [570,580]"/>
+  <match src="*: * [89,90]" dest="*: * [89,90]"/>
+  <match src="call_expression [598,631]" dest="call_expression [603,636]"/>
+  <match src="call_expression [847,876]" dest="call_expression [852,881]"/>
+  <match src=";: ; [986,987]" dest=";: ; [991,992]"/>
+  <match src="}: } [844,845]" dest="}: } [849,850]"/>
+  <match src="binary_expression [263,292]" dest="binary_expression [253,282]"/>
+  <match src="declaration [0,190]" dest="declaration [0,190]"/>
+  <match src=",: , [177,178]" dest=",: , [177,178]"/>
+  <match src="&amp;: &amp; [974,975]" dest="&amp;: &amp; [979,980]"/>
+  <match src="-&gt;: -&gt; [580,582]" dest="-&gt;: -&gt; [585,587]"/>
+  <match src="identifier: vhost_scsi_mutex [859,875]" dest="identifier: vhost_scsi_mutex [864,880]"/>
+  <match src="identifier: name [90,94]" dest="identifier: name [90,94]"/>
+  <match src="expression_statement [655,678]" dest="expression_statement [660,683]"/>
+  <match src="*: * [217,218]" dest="*: * [217,218]"/>
+  <match src="identifier: tpgt [351,355]" dest="identifier: tpgt [342,346]"/>
+  <match src="field_expression [752,763]" dest="field_expression [757,768]"/>
+  <match src="identifier: TRANSPORT_TPG_TYPE_NORMAL [770,795]" dest="identifier: TRANSPORT_TPG_TYPE_NORMAL [775,800]"/>
+  <match src="&amp;: &amp; [576,577]" dest="&amp;: &amp; [581,582]"/>
+  <match src="&amp;: &amp; [613,614]" dest="&amp;: &amp; [618,619]"/>
+  <match src=";: ; [559,560]" dest=";: ; [564,565]"/>
+  <match src="identifier: ret [681,684]" dest="identifier: ret [686,689]"/>
+  <match src="expression_statement [847,877]" dest="expression_statement [852,882]"/>
+  <match src="sizeof_expression [423,452]" dest="sizeof_expression [428,457]"/>
+  <match src="field_expression [634,644]" dest="field_expression [639,649]"/>
+  <match src="identifier: vhost_scsi_list [913,928]" dest="identifier: vhost_scsi_list [918,933]"/>
+  <match src="field_identifier: tv_tpg_list [619,630]" dest="field_identifier: tv_tpg_list [624,635]"/>
+  <match src="pointer_declarator [217,221]" dest="pointer_declarator [217,221]"/>
+</matches>
+<actions>
+  <insert-node tree="type_identifier: u16 [224,227]" parent="declaration [224,243]" at="0"/>
+  <update-node tree="identifier: kstrtoul [327,335]" label="kstrtou16"/>
+  <insert-node tree="&gt;=: &gt;= [356,358]" parent="binary_expression [360,375]" at="1"/>
+  <update-node tree="identifier: UINT_MAX [367,375]" label="VHOST_SCSI_MAX_TARGET"/>
+  <delete-tree tree="sized_type_specifier [224,237]"/>
+  <delete-node tree="&gt;: &gt; [365,366]"/>
+</actions>

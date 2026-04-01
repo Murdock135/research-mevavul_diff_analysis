@@ -1,0 +1,20 @@
+{
+    "id": "38dc1aa1a4435f24d58f5b8e4566cbcb0971f8ff_getModifications_0",
+    "func_name": "getModifications",
+    "cve_id": "CVE-2022-41936",
+    "cwe_ids": [
+        "CWE-359"
+    ],
+    "commit_hash": "38dc1aa1a4435f24d58f5b8e4566cbcb0971f8ff",
+    "parent_commit_hash": "ba27f91dac80069a1a2e2e29e0f5f9ad68189310",
+    "repo_name": "xwiki/xwiki-platform",
+    "git_url": "https://github.com/xwiki/xwiki-platform/commit/38dc1aa1a4435f24d58f5b8e4566cbcb0971f8ff",
+    "file_path": "xwiki-platform-core/xwiki-platform-rest/xwiki-platform-rest-server/src/main/java/org/xwiki/rest/internal/resources/ModificationsResourceImpl.java",
+    "file_name": "ModificationsResourceImpl.java",
+    "commit_date": 1658117690,
+    "commit_msg": "XWIKI-19997: Improved modifications rest endpoint history summary filtering",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

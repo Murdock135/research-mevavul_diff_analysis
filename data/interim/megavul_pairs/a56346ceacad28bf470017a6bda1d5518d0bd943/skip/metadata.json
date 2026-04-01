@@ -1,0 +1,20 @@
+{
+    "id": "a56346ceacad28bf470017a6bda1d5518d0bd943_skip_0",
+    "func_name": "skip",
+    "cve_id": "CVE-2019-3559",
+    "cwe_ids": [
+        "CWE-755"
+    ],
+    "commit_hash": "a56346ceacad28bf470017a6bda1d5518d0bd943",
+    "parent_commit_hash": "9443939948a77691ec96df25bb9d46c7f98aa2b9",
+    "repo_name": "facebook/fbthrift",
+    "git_url": "https://github.com/facebook/fbthrift/commit/a56346ceacad28bf470017a6bda1d5518d0bd943",
+    "file_path": "thrift/lib/java/thrift/src/main/java/com/facebook/thrift/protocol/TProtocolUtil.java",
+    "file_name": "TProtocolUtil.java",
+    "commit_date": 1550151641,
+    "commit_msg": "Throw on bad types during skipping data\n\nSummary:\nThe current code silently returns on bad types. In case when we have an invalid data, we may get a container of a large size with a bad type, this would lead to us running long loop doing nothing (though we already can say that the data is invalid).\n\nThe new code would throw an exception as soon as we try to skip a value of invalid type.\n\nFixes CVE-2019-3552\n\nReviewed By: stevegury\n\nDifferential Revision: D13892370\n\nfbshipit-source-id: 582c81f90cf40c105383083cb38815816140e3ad",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

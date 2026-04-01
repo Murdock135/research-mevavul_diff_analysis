@@ -1,0 +1,41 @@
+class action {
+@Override
+    public boolean action(XWikiContext context) throws XWikiException
+    {
+        XWiki xwiki = context.getWiki();
+        XWikiRequest request = context.getRequest();
+        XWikiResponse response = context.getResponse();
+
+        String register = request.getParameter(REGISTER);
+        if (register != null && register.equals("1")) {
+            // CSRF prevention
+            if (!csrfTokenCheck(context)) {
+                return false;
+            }
+            // Let's verify that the user submitted the right CAPTCHA (if required).
+            if (!verifyCaptcha(context, xwiki)) {
+                return false;
+            }
+
+            int useemail = xwiki.getXWikiPreferenceAsInt("use_email_verification", 0, context);
+            int result;
+            if (useemail == 1) {
+                result = xwiki.createUser(true, "edit", context);
+            } else {
+                result = xwiki.createUser(context);
+            }
+            getCurrentScriptContext().setAttribute("reg", Integer.valueOf(result), ScriptContext.ENGINE_SCOPE);
+
+            // Redirect if a redirection parameter is passed.
+            String redirect = Utils.getRedirect(request, null);
+            if (redirect == null) {
+                return true;
+            } else {
+                sendRedirect(response, redirect);
+                return false;
+            }
+        }
+
+        return true;
+    }
+}

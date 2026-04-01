@@ -1,0 +1,888 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="goto_statement [1843,1859]" dest="goto_statement [1859,1875]"/>
+  <match src="(: ( [2597,2598]" dest="(: ( [2670,2671]"/>
+  <match src="=: = [1829,1830]" dest="=: = [1844,1845]"/>
+  <match src=",: , [1072,1073]" dest=",: , [1076,1077]"/>
+  <match src="field_expression [2680,2696]" dest="field_expression [2753,2769]"/>
+  <match src="&amp;: &amp; [2792,2793]" dest="&amp;: &amp; [2865,2866]"/>
+  <match src="!=: != [618,620]" dest="!=: != [622,624]"/>
+  <match src="pointer_declarator [453,457]" dest="pointer_declarator [453,457]"/>
+  <match src="if: if [1473,1475]" dest="if: if [1477,1479]"/>
+  <match src="argument_list [1551,1638]" dest="argument_list [1555,1642]"/>
+  <match src="pointer_expression [2564,2568]" dest="pointer_expression [2637,2641]"/>
+  <match src="assignment_expression [1444,1468]" dest="assignment_expression [1448,1472]"/>
+  <match src="): ) [1722,1723]" dest="): ) [1734,1735]"/>
+  <match src="identifier: res [2227,2230]" dest="identifier: res [2300,2303]"/>
+  <match src="): ) [1147,1148]" dest="): ) [1151,1152]"/>
+  <match src="field_expression [2793,2804]" dest="field_expression [2866,2877]"/>
+  <match src="parenthesized_expression [2176,2196]" dest="parenthesized_expression [2249,2269]"/>
+  <match src="+: + [853,854]" dest="+: + [857,858]"/>
+  <match src="field_expression [1077,1099]" dest="field_expression [1081,1103]"/>
+  <match src="binary_expression [1417,1425]" dest="binary_expression [1421,1429]"/>
+  <match src="expression_statement [2824,2883]" dest="expression_statement [2897,2956]"/>
+  <match src="identifier: tmp [2565,2568]" dest="identifier: tmp [2638,2641]"/>
+  <match src="primitive_type: int [0,3]" dest="primitive_type: int [0,3]"/>
+  <match src="declaration [103,148]" dest="declaration [103,148]"/>
+  <match src="primitive_type: uint32_t [547,555]" dest="primitive_type: uint32_t [547,555]"/>
+  <match src=";: ; [543,544]" dest=";: ; [543,544]"/>
+  <match src="identifier: ret [540,543]" dest="identifier: ret [540,543]"/>
+  <match src="-&gt;: -&gt; [2827,2829]" dest="-&gt;: -&gt; [2900,2902]"/>
+  <match src="field_identifier: backup_size [1711,1722]" dest="field_identifier: backup_size [1723,1734]"/>
+  <match src="-&gt;: -&gt; [598,600]" dest="-&gt;: -&gt; [602,604]"/>
+  <match src="field_expression [2964,2980]" dest="field_expression [3037,3053]"/>
+  <match src=";: ; [183,184]" dest=";: ; [183,184]"/>
+  <match src=";: ; [1187,1188]" dest=";: ; [1191,1192]"/>
+  <match src="identifier: req [1057,1060]" dest="identifier: req [1061,1064]"/>
+  <match src="=: = [2905,2906]" dest="=: = [2978,2979]"/>
+  <match src="=: = [2646,2647]" dest="=: = [2719,2720]"/>
+  <match src="identifier: req [398,401]" dest="identifier: req [398,401]"/>
+  <match src="identifier: rep [2629,2632]" dest="identifier: rep [2702,2705]"/>
+  <match src="call_expression [1948,2169]" dest="call_expression [2021,2242]"/>
+  <match src="field_expression [461,469]" dest="field_expression [461,469]"/>
+  <match src="pointer_expression [2470,2500]" dest="pointer_expression [2543,2573]"/>
+  <match src="identifier: res [1706,1709]" dest="identifier: res [1718,1721]"/>
+  <match src="binary_expression [1878,1937]" dest="binary_expression [1951,2010]"/>
+  <match src="expression_statement [1523,1639]" dest="expression_statement [1527,1643]"/>
+  <match src="primitive_type: uint32_t [563,571]" dest="primitive_type: uint32_t [563,571]"/>
+  <match src="identifier: file_priv [1278,1287]" dest="identifier: file_priv [1282,1291]"/>
+  <match src=",: , [1978,1979]" dest=",: , [2051,2052]"/>
+  <match src=";: ; [209,210]" dest=";: ; [209,210]"/>
+  <match src="argument_list [514,525]" dest="argument_list [514,525]"/>
+  <match src="compound_statement [1518,1868]" dest="compound_statement [1522,1941]"/>
+  <match src="=: = [2981,2982]" dest="=: = [3054,3055]"/>
+  <match src="struct_specifier [150,173]" dest="struct_specifier [150,173]"/>
+  <match src="argument_list [1738,1779]" dest="argument_list [1751,1792]"/>
+  <match src="field_expression [2328,2344]" dest="field_expression [2401,2417]"/>
+  <match src="-&gt;: -&gt; [2127,2129]" dest="-&gt;: -&gt; [2200,2202]"/>
+  <match src=",: , [2087,2088]" dest=",: , [2160,2161]"/>
+  <match src="pointer_expression [1450,1468]" dest="pointer_expression [1454,1472]"/>
+  <match src="assignment_expression [1292,1344]" dest="assignment_expression [1296,1348]"/>
+  <match src="field_expression [2886,2904]" dest="field_expression [2959,2977]"/>
+  <match src=";: ; [2507,2508]" dest=";: ; [2580,2581]"/>
+  <match src="struct_specifier [186,204]" dest="struct_specifier [186,204]"/>
+  <match src="*: * [1686,1687]" dest="*: * [1697,1698]"/>
+  <match src="field_identifier: drm_surface_flags [1004,1021]" dest="field_identifier: drm_surface_flags [1008,1025]"/>
+  <match src="parenthesized_expression [714,752]" dest="parenthesized_expression [718,756]"/>
+  <match src="field_expression [2824,2840]" dest="field_expression [2897,2913]"/>
+  <match src=",: , [2362,2363]" dest=",: , [2435,2436]"/>
+  <match src="(: ( [1551,1552]" dest="(: ( [1555,1556]"/>
+  <match src="field_identifier: master [1337,1343]" dest="field_identifier: master [1341,1347]"/>
+  <match src="): ) [2230,2231]" dest="): ) [2303,2304]"/>
+  <match src="identifier: res [1444,1447]" dest="identifier: res [1448,1451]"/>
+  <match src="(: ( [799,800]" dest="(: ( [803,804]"/>
+  <match src=";: ; [1440,1441]" dest=";: ; [1444,1445]"/>
+  <match src=";: ; [858,859]" dest=";: ; [862,863]"/>
+  <match src="parameter_declaration [32,54]" dest="parameter_declaration [32,54]"/>
+  <match src="binary_expression [724,750]" dest="binary_expression [728,754]"/>
+  <match src="field_identifier: backup_base [1626,1637]" dest="field_identifier: backup_base [1630,1641]"/>
+  <match src=",: , [947,948]" dest=",: , [951,952]"/>
+  <match src=",: , [956,957]" dest=",: , [960,961]"/>
+  <match src=";: ; [413,414]" dest=";: ; [413,414]"/>
+  <match src="identifier: struct [1220,1226]" dest="identifier: struct [1224,1230]"/>
+  <match src=",: , [1557,1558]" dest=",: , [1561,1562]"/>
+  <match src="-&gt;: -&gt; [2967,2969]" dest="-&gt;: -&gt; [3040,3042]"/>
+  <match src="field_expression [1996,2012]" dest="field_expression [2069,2085]"/>
+  <match src="*: * [122,123]" dest="*: * [122,123]"/>
+  <match src="-&gt;: -&gt; [2702,2704]" dest="-&gt;: -&gt; [2775,2777]"/>
+  <match src="if: if [2718,2720]" dest="if: if [2791,2793]"/>
+  <match src="): ) [2168,2169]" dest="): ) [2241,2242]"/>
+  <match src="+: + [812,813]" dest="+: + [816,817]"/>
+  <match src="expression_statement [911,1149]" dest="expression_statement [915,1153]"/>
+  <match src="(: ( [3057,3058]" dest="(: ( [3130,3131]"/>
+  <match src="): ) [1516,1517]" dest="): ) [1520,1521]"/>
+  <match src=";: ; [2960,2961]" dest=";: ; [3033,3034]"/>
+  <match src="&lt;: &lt; [1698,1699]" dest="&lt;: &lt; [1709,1710]"/>
+  <match src="assignment_expression [1825,1838]" dest="assignment_expression [1840,1853]"/>
+  <match src="-&gt;: -&gt; [1127,1129]" dest="-&gt;: -&gt; [1131,1133]"/>
+  <match src="identifier: tfile [2321,2326]" dest="identifier: tfile [2394,2399]"/>
+  <match src="else_clause [2925,3030]" dest="else_clause [2998,3103]"/>
+  <match src="call_expression [715,751]" dest="call_expression [719,755]"/>
+  <match src="field_expression [1658,1669]" dest="field_expression [1669,1680]"/>
+  <match src="field_identifier: array_size [1109,1119]" dest="field_identifier: array_size [1113,1123]"/>
+  <match src="parenthesized_expression [2721,2734]" dest="parenthesized_expression [2794,2807]"/>
+  <match src="(: ( [2563,2564]" dest="(: ( [2636,2637]"/>
+  <match src="identifier: size [824,828]" dest="identifier: size [828,832]"/>
+  <match src="call_expression [779,811]" dest="call_expression [783,815]"/>
+  <match src="field_identifier: backup [2848,2854]" dest="field_identifier: backup [2921,2927]"/>
+  <match src="identifier: req [2372,2375]" dest="identifier: req [2445,2448]"/>
+  <match src="if: if [1151,1153]" dest="if: if [1155,1157]"/>
+  <match src="field_expression [2648,2677]" dest="field_expression [2721,2750]"/>
+  <match src="identifier: res [2286,2289]" dest="identifier: res [2359,2362]"/>
+  <match src="=: = [3007,3008]" dest="=: = [3080,3081]"/>
+  <match src="field_identifier: buffer_handle [1564,1577]" dest="field_identifier: buffer_handle [1568,1581]"/>
+  <match src="argument_list [2285,2290]" dest="argument_list [2358,2363]"/>
+  <match src="field_expression [595,617]" dest="field_expression [599,621]"/>
+  <match src="argument_list [1163,1173]" dest="argument_list [1167,1177]"/>
+  <match src="): ) [751,752]" dest="): ) [755,756]"/>
+  <match src=";: ; [1638,1639]" dest=";: ; [1642,1643]"/>
+  <match src="-&gt;: -&gt; [1060,1062]" dest="-&gt;: -&gt; [1064,1066]"/>
+  <match src="pointer_declarator [88,98]" dest="pointer_declarator [88,98]"/>
+  <match src="identifier: rep [2886,2889]" dest="identifier: rep [2959,2962]"/>
+  <match src=";: ; [2569,2570]" dest=";: ; [2642,2643]"/>
+  <match src=".: . [2810,2811]" dest=".: . [2883,2884]"/>
+  <match src="(: ( [2225,2226]" dest="(: ( [2298,2299]"/>
+  <match src="field_identifier: srf [1461,1464]" dest="field_identifier: srf [1465,1468]"/>
+  <match src="identifier: user_srf [2147,2155]" dest="identifier: user_srf [2220,2228]"/>
+  <match src="): ) [2506,2507]" dest="): ) [2579,2580]"/>
+  <match src=";: ; [2169,2170]" dest=";: ; [2242,2243]"/>
+  <match src="=: = [1309,1310]" dest="=: = [1313,1314]"/>
+  <match src="}: } [1863,1864]" dest="}: } [1879,1880]"/>
+  <match src="type_identifier: vmw_surface [193,204]" dest="type_identifier: vmw_surface [193,204]"/>
+  <match src="argument_list [2791,2820]" dest="argument_list [2864,2893]"/>
+  <match src="field_identifier: backup [2727,2733]" dest="field_identifier: backup [2800,2806]"/>
+  <match src="true: true [1396,1400]" dest="true: true [1400,1404]"/>
+  <match src="identifier: vmw_priv [134,142]" dest="identifier: vmw_priv [134,142]"/>
+  <match src="identifier: res [2328,2331]" dest="identifier: res [2401,2404]"/>
+  <match src="-&gt;: -&gt; [2355,2357]" dest="-&gt;: -&gt; [2428,2430]"/>
+  <match src="sizeof_expression [793,810]" dest="sizeof_expression [797,814]"/>
+  <match src="pointer_expression [2598,2602]" dest="pointer_expression [2671,2675]"/>
+  <match src="): ) [146,147]" dest="): ) [146,147]"/>
+  <match src=";: ; [3063,3064]" dest=";: ; [3136,3137]"/>
+  <match src="number_literal: 0 [2959,2960]" dest="number_literal: 0 [3032,3033]"/>
+  <match src="identifier: ret [2186,2189]" dest="identifier: ret [2259,2262]"/>
+  <match src="identifier: ret [2293,2296]" dest="identifier: ret [2366,2369]"/>
+  <match src="binary_expression [649,689]" dest="binary_expression [653,693]"/>
+  <match src="identifier: unlikely [715,723]" dest="identifier: unlikely [719,727]"/>
+  <match src="): ) [1425,1426]" dest="): ) [1429,1430]"/>
+  <match src="identifier: srf [1215,1218]" dest="identifier: srf [1219,1222]"/>
+  <match src="identifier: res [3059,3062]" dest="identifier: res [3132,3135]"/>
+  <match src="union_specifier [315,350]" dest="union_specifier [315,350]"/>
+  <match src=",: , [2112,2113]" dest=",: , [2185,2186]"/>
+  <match src="if: if [645,647]" dest="if: if [649,651]"/>
+  <match src=",: , [978,979]" dest=",: , [982,983]"/>
+  <match src="expression_statement [2739,2821]" dest="expression_statement [2812,2894]"/>
+  <match src="(: ( [1325,1326]" dest="(: ( [1329,1330]"/>
+  <match src="{: { [2535,2536]" dest="{: { [2608,2609]"/>
+  <match src="compound_statement [1724,1864]" dest="compound_statement [1736,1880]"/>
+  <match src="translation_unit [0,3138]" dest="translation_unit [0,3211]"/>
+  <match src="field_identifier: svga3d_flags [966,978]" dest="field_identifier: svga3d_flags [970,982]"/>
+  <match src="declaration [536,544]" dest="declaration [536,544]"/>
+  <match src="field_identifier: buffer_handle [2993,3006]" dest="field_identifier: buffer_handle [3066,3079]"/>
+  <match src="&amp;: &amp; [1143,1144]" dest="&amp;: &amp; [1147,1148]"/>
+  <match src="field_identifier: req [410,413]" dest="field_identifier: req [410,413]"/>
+  <match src="identifier: res [1591,1594]" dest="identifier: res [1595,1598]"/>
+  <match src="init_declarator [453,469]" dest="init_declarator [453,469]"/>
+  <match src="&amp;: &amp; [1022,1023]" dest="&amp;: &amp; [1026,1027]"/>
+  <match src="argument_list [1214,1249]" dest="argument_list [1218,1253]"/>
+  <match src="return_statement [3125,3136]" dest="return_statement [3198,3209]"/>
+  <match src="(: ( [943,944]" dest="(: ( [947,948]"/>
+  <match src="}: } [3137,3138]" dest="}: } [3210,3211]"/>
+  <match src="number_literal: 128 [855,858]" dest="number_literal: 128 [859,862]"/>
+  <match src="identifier: backup_handle [2907,2920]" dest="identifier: backup_handle [2980,2993]"/>
+  <match src="(: ( [792,793]" dest="(: ( [796,797]"/>
+  <match src="type_identifier: vmw_resource [246,258]" dest="type_identifier: vmw_resource [246,258]"/>
+  <match src="declaration [563,586]" dest="declaration [563,590]"/>
+  <match src="identifier: ret [1523,1526]" dest="identifier: ret [1527,1530]"/>
+  <match src="identifier: req [2023,2026]" dest="identifier: req [2096,2099]"/>
+  <match src="if_statement [1404,1441]" dest="if_statement [1408,1445]"/>
+  <match src="field_expression [2793,2810]" dest="field_expression [2866,2883]"/>
+  <match src="field_identifier: prime [2357,2362]" dest="field_identifier: prime [2430,2435]"/>
+  <match src="number_literal: 0 [1171,1172]" dest="number_literal: 0 [1175,1176]"/>
+  <match src="assignment_expression [1348,1401]" dest="assignment_expression [1352,1405]"/>
+  <match src="(: ( [2176,2177]" dest="(: ( [2249,2250]"/>
+  <match src="call_expression [134,147]" dest="call_expression [134,147]"/>
+  <match src="identifier: res [1658,1661]" dest="identifier: res [1669,1672]"/>
+  <match src="*: * [205,206]" dest="*: * [205,206]"/>
+  <match src="identifier: file_priv [1326,1335]" dest="identifier: file_priv [1330,1339]"/>
+  <match src="declaration [150,184]" dest="declaration [150,184]"/>
+  <match src="-&gt;: -&gt; [986,988]" dest="-&gt;: -&gt; [990,992]"/>
+  <match src="call_expression [3033,3063]" dest="call_expression [3106,3136]"/>
+  <match src="type_identifier: drm_vmw_gb_surface_create_arg [321,350]" dest="type_identifier: drm_vmw_gb_surface_create_arg [321,350]"/>
+  <match src=";: ; [263,264]" dest=";: ; [263,264]"/>
+  <match src="struct: struct [103,109]" dest="struct: struct [103,109]"/>
+  <match src=";: ; [1858,1859]" dest=";: ; [1874,1875]"/>
+  <match src="): ) [3121,3122]" dest="): ) [3194,3195]"/>
+  <match src="-&gt;: -&gt; [1080,1082]" dest="-&gt;: -&gt; [1084,1086]"/>
+  <match src="field_identifier: prime [2658,2663]" dest="field_identifier: prime [2731,2736]"/>
+  <match src="goto: goto [2607,2611]" dest="goto: goto [2680,2684]"/>
+  <match src="argument_list [3094,3122]" dest="argument_list [3167,3195]"/>
+  <match src="field_expression [1706,1722]" dest="field_expression [1718,1734]"/>
+  <match src=";: ; [2290,2291]" dest=";: ; [2363,2364]"/>
+  <match src="init_declarator [122,147]" dest="init_declarator [122,147]"/>
+  <match src=";: ; [2882,2883]" dest=";: ; [2955,2956]"/>
+  <match src="if: if [1252,1254]" dest="if: if [1256,1258]"/>
+  <match src="(: ( [2523,2524]" dest="(: ( [2596,2597]"/>
+  <match src="(: ( [1806,1807]" dest="(: ( [1820,1821]"/>
+  <match src="identifier: dev [143,146]" dest="identifier: dev [143,146]"/>
+  <match src=",: , [2435,2436]" dest=",: , [2508,2509]"/>
+  <match src="call_expression [1202,1249]" dest="call_expression [1206,1253]"/>
+  <match src="identifier: ret [1164,1167]" dest="identifier: ret [1168,1171]"/>
+  <match src="struct_specifier [72,87]" dest="struct_specifier [72,87]"/>
+  <match src="return: return [693,699]" dest="return: return [697,703]"/>
+  <match src="&amp;: &amp; [404,405]" dest="&amp;: &amp; [404,405]"/>
+  <match src="&amp;: &amp; [2226,2227]" dest="&amp;: &amp; [2299,2300]"/>
+  <match src="{: { [2197,2198]" dest="{: { [2270,2271]"/>
+  <match src=";: ; [236,237]" dest=";: ; [236,237]"/>
+  <match src="-&gt;: -&gt; [1881,1883]" dest="-&gt;: -&gt; [1954,1956]"/>
+  <match src=",: , [1138,1139]" dest=",: , [1142,1143]"/>
+  <match src="struct: struct [72,78]" dest="struct: struct [72,78]"/>
+  <match src="return: return [627,633]" dest="return: return [631,637]"/>
+  <match src="assignment_expression [2824,2882]" dest="assignment_expression [2897,2955]"/>
+  <match src="expression_statement [1784,1821]" dest="expression_statement [1798,1835]"/>
+  <match src="identifier: EINVAL [701,707]" dest="identifier: EINVAL [705,711]"/>
+  <match src="field_expression [1104,1119]" dest="field_expression [1108,1123]"/>
+  <match src="identifier: drm_vmw_surface_flag_scanout [1024,1052]" dest="identifier: drm_vmw_surface_flag_scanout [1028,1056]"/>
+  <match src="-&gt;: -&gt; [1002,1004]" dest="-&gt;: -&gt; [1006,1008]"/>
+  <match src="identifier: user_srf [2347,2355]" dest="identifier: user_srf [2420,2428]"/>
+  <match src="-&gt;: -&gt; [2683,2685]" dest="-&gt;: -&gt; [2756,2758]"/>
+  <match src="(: ( [1969,1970]" dest="(: ( [2042,2043]"/>
+  <match src=",: , [2326,2327]" dest=",: , [2399,2400]"/>
+  <match src="identifier: drm_is_primary_client [1256,1277]" dest="identifier: drm_is_primary_client [1260,1281]"/>
+  <match src="expression_statement [1729,1780]" dest="expression_statement [1742,1793]"/>
+  <match src="identifier: rep [2739,2742]" dest="identifier: rep [2812,2815]"/>
+  <match src="identifier: vmw_user_surface_size [755,776]" dest="identifier: vmw_user_surface_size [759,780]"/>
+  <match src="-&gt;: -&gt; [2656,2658]" dest="-&gt;: -&gt; [2729,2731]"/>
+  <match src="=: = [1200,1201]" dest="=: = [1204,1205]"/>
+  <match src="-&gt;: -&gt; [2889,2891]" dest="-&gt;: -&gt; [2962,2964]"/>
+  <match src="): ) [2194,2195]" dest="): ) [2267,2268]"/>
+  <match src="(: ( [2791,2792]" dest="(: ( [2864,2865]"/>
+  <match src="*: * [61,62]" dest="*: * [61,62]"/>
+  <match src="if_statement [2718,3030]" dest="if_statement [2791,3103]"/>
+  <match src="call_expression [1354,1401]" dest="call_expression [1358,1405]"/>
+  <match src=";: ; [1148,1149]" dest=";: ; [1152,1153]"/>
+  <match src="field_expression [2843,2860]" dest="field_expression [2916,2933]"/>
+  <match src="call_expression [1155,1173]" dest="call_expression [1159,1177]"/>
+  <match src="(: ( [1163,1164]" dest="(: ( [1167,1168]"/>
+  <match src="field_identifier: num_pages [2861,2870]" dest="field_identifier: num_pages [2934,2943]"/>
+  <match src="(: ( [1277,1278]" dest="(: ( [1281,1282]"/>
+  <match src="argument_list [2563,2569]" dest="argument_list [2636,2642]"/>
+  <match src="field_expression [2124,2135]" dest="field_expression [2197,2208]"/>
+  <match src="parenthesized_expression [594,623]" dest="parenthesized_expression [598,627]"/>
+  <match src="pointer_expression [460,469]" dest="pointer_expression [460,469]"/>
+  <match src="{: { [2735,2736]" dest="{: { [2808,2809]"/>
+  <match src="number_literal: 0 [749,750]" dest="number_literal: 0 [753,754]"/>
+  <match src="identifier: req [1878,1881]" dest="identifier: req [1951,1954]"/>
+  <match src="identifier: PAGE_SIZE [1688,1697]" dest="identifier: PAGE_SIZE [1699,1708]"/>
+  <match src="field_identifier: backup_base [2157,2168]" dest="field_identifier: backup_base [2230,2241]"/>
+  <match src="else: else [1869,1873]" dest="else: else [1942,1946]"/>
+  <match src="&amp;: &amp; [1615,1616]" dest="&amp;: &amp; [1619,1620]"/>
+  <match src="field_identifier: buffer_size [2969,2980]" dest="field_identifier: buffer_size [3042,3053]"/>
+  <match src="identifier: req [999,1002]" dest="identifier: req [1003,1006]"/>
+  <match src="identifier: req [1124,1127]" dest="identifier: req [1128,1131]"/>
+  <match src="field_expression [2739,2761]" dest="field_expression [2812,2834]"/>
+  <match src="pointer_expression [1368,1394]" dest="pointer_expression [1372,1398]"/>
+  <match src="number_literal: 0 [2531,2532]" dest="number_literal: 0 [2604,2605]"/>
+  <match src="expression_statement [1348,1402]" dest="expression_statement [1352,1406]"/>
+  <match src="}: } [1867,1868]" dest="}: } [1940,1941]"/>
+  <match src="function_definition [0,3138]" dest="function_definition [0,3211]"/>
+  <match src="declaration [416,470]" dest="declaration [416,470]"/>
+  <match src="return: return [3125,3131]" dest="return: return [3198,3204]"/>
+  <match src="field_expression [3096,3121]" dest="field_expression [3169,3194]"/>
+  <match src="goto: goto [1843,1847]" dest="goto: goto [1859,1863]"/>
+  <match src="binary_expression [1477,1516]" dest="binary_expression [1481,1520]"/>
+  <match src=",: , [1099,1100]" dest=",: , [1103,1104]"/>
+  <match src="identifier: rep [2824,2827]" dest="identifier: rep [2897,2900]"/>
+  <match src="=: = [1352,1353]" dest="=: = [1356,1357]"/>
+  <match src="expression_statement [755,821]" dest="expression_statement [759,825]"/>
+  <match src="identifier: tmp [2257,2260]" dest="identifier: tmp [2330,2333]"/>
+  <match src="parenthesized_expression [2514,2534]" dest="parenthesized_expression [2587,2607]"/>
+  <match src="expression_statement [824,859]" dest="expression_statement [828,863]"/>
+  <match src="identifier: ret [1646,1649]" dest="identifier: ret [1650,1653]"/>
+  <match src="pointer_expression [2123,2135]" dest="pointer_expression [2196,2208]"/>
+  <match src="identifier: ttm_read_unlock [3079,3094]" dest="identifier: ttm_read_unlock [3152,3167]"/>
+  <match src=",: , [54,55]" dest=",: , [54,55]"/>
+  <match src="(: ( [2285,2286]" dest="(: ( [2358,2359]"/>
+  <match src="=: = [2957,2958]" dest="=: = [3030,3031]"/>
+  <match src="binary_expression [1658,1697]" dest="binary_expression [1669,1708]"/>
+  <match src=";: ; [585,586]" dest=";: ; [589,590]"/>
+  <match src="field_expression [1559,1577]" dest="field_expression [1563,1581]"/>
+  <match src="=: = [2762,2763]" dest="=: = [2835,2836]"/>
+  <match src="parenthesized_expression [1407,1427]" dest="parenthesized_expression [1411,1431]"/>
+  <match src="*: * [2871,2872]" dest="*: * [2944,2945]"/>
+  <match src="type_identifier: vmw_private [110,121]" dest="type_identifier: vmw_private [110,121]"/>
+  <match src="identifier: tfile [1552,1557]" dest="identifier: tfile [1556,1561]"/>
+  <match src="(: ( [1645,1646]" dest="(: ( [1668,1669]"/>
+  <match src="pointer_expression [2098,2112]" dest="pointer_expression [2171,2185]"/>
+  <match src="return: return [1177,1183]" dest="return: return [1181,1187]"/>
+  <match src="init_declarator [397,413]" dest="init_declarator [397,413]"/>
+  <match src="=: = [777,778]" dest="=: = [781,782]"/>
+  <match src="&amp;: &amp; [2346,2347]" dest="&amp;: &amp; [2419,2420]"/>
+  <match src="field_expression [1124,1138]" dest="field_expression [1128,1142]"/>
+  <match src="expression_statement [2257,2291]" dest="expression_statement [2330,2364]"/>
+  <match src="field_expression [983,994]" dest="field_expression [987,998]"/>
+  <match src="field_expression [2934,2956]" dest="field_expression [3007,3029]"/>
+  <match src="identifier: unlikely [1155,1163]" dest="identifier: unlikely [1159,1167]"/>
+  <match src="compound_statement [2197,2254]" dest="compound_statement [2270,2327]"/>
+  <match src="): ) [1426,1427]" dest="): ) [1430,1431]"/>
+  <match src="): ) [810,811]" dest="): ) [814,815]"/>
+  <match src="identifier: dev [944,947]" dest="identifier: dev [948,951]"/>
+  <match src="type_identifier: vmw_user_surface [157,173]" dest="type_identifier: vmw_user_surface [157,173]"/>
+  <match src="binary_expression [1658,1722]" dest="binary_expression [1669,1734]"/>
+  <match src="abstract_pointer_declarator [351,352]" dest="abstract_pointer_declarator [351,352]"/>
+  <match src="identifier: ret [1942,1945]" dest="identifier: ret [2015,2018]"/>
+  <match src="): ) [1637,1638]" dest="): ) [1641,1642]"/>
+  <match src="field_expression [2843,2870]" dest="field_expression [2916,2943]"/>
+  <match src="number_literal: 0 [2983,2984]" dest="number_literal: 0 [3056,3057]"/>
+  <match src="assignment_expression [1523,1638]" dest="assignment_expression [1527,1642]"/>
+  <match src="(: ( [1416,1417]" dest="(: ( [1420,1421]"/>
+  <match src="=: = [2697,2698]" dest="=: = [2770,2771]"/>
+  <match src="assignment_expression [1191,1249]" dest="assignment_expression [1195,1253]"/>
+  <match src="identifier: user_srf [175,183]" dest="identifier: user_srf [175,183]"/>
+  <match src="identifier: dev_priv [1970,1978]" dest="identifier: dev_priv [2043,2051]"/>
+  <match src="binary_expression [831,858]" dest="binary_expression [835,862]"/>
+  <match src=";: ; [2984,2985]" dest=";: ; [3057,3058]"/>
+  <match src="union: union [266,271]" dest="union: union [266,271]"/>
+  <match src="expression_statement [2573,2604]" dest="expression_statement [2646,2677]"/>
+  <match src="union_specifier [266,301]" dest="union_specifier [266,301]"/>
+  <match src=";: ; [2231,2232]" dest=";: ; [2304,2305]"/>
+  <match src="{: { [1518,1519]" dest="{: { [1522,1523]"/>
+  <match src="(: ( [2185,2186]" dest="(: ( [2258,2259]"/>
+  <match src="identifier: ret [911,914]" dest="identifier: ret [915,918]"/>
+  <match src="-&gt;: -&gt; [1107,1109]" dest="-&gt;: -&gt; [1111,1113]"/>
+  <match src="field_expression [2147,2168]" dest="field_expression [2220,2241]"/>
+  <match src="expression_statement [2539,2570]" dest="expression_statement [2612,2643]"/>
+  <match src="identifier: user_srf [801,809]" dest="identifier: user_srf [805,813]"/>
+  <match src="parenthesized_expression [1255,1289]" dest="parenthesized_expression [1259,1293]"/>
+  <match src="field_identifier: drm_surface_flags [2028,2045]" dest="field_identifier: drm_surface_flags [2101,2118]"/>
+  <match src="identifier: SVGA3D_INVALID_ID [1499,1516]" dest="identifier: SVGA3D_INVALID_ID [1503,1520]"/>
+  <match src="number_literal: 0 [2193,2194]" dest="number_literal: 0 [2266,2267]"/>
+  <match src="identifier: req [1559,1562]" dest="identifier: req [1563,1566]"/>
+  <match src="identifier: user_srf [1292,1300]" dest="identifier: user_srf [1296,1304]"/>
+  <match src="assignment_expression [1942,2169]" dest="assignment_expression [2015,2242]"/>
+  <match src="pointer_declarator [496,502]" dest="pointer_declarator [496,502]"/>
+  <match src="-&gt;: -&gt; [1300,1302]" dest="-&gt;: -&gt; [1304,1306]"/>
+  <match src="field_expression [1451,1468]" dest="field_expression [1455,1472]"/>
+  <match src="identifier: ret [1825,1828]" dest="identifier: ret [1840,1843]"/>
+  <match src="call_expression [1729,1779]" dest="call_expression [1742,1792]"/>
+  <match src="field_identifier: handle [2634,2640]" dest="field_identifier: handle [2707,2713]"/>
+  <match src="identifier: data [353,357]" dest="identifier: data [353,357]"/>
+  <match src="binary_expression [1646,1654]" dest="binary_expression [1650,1658]"/>
+  <match src="declaration [473,533]" dest="declaration [473,533]"/>
+  <match src="argument_list [1969,2169]" dest="argument_list [2042,2242]"/>
+  <match src="struct: struct [473,479]" dest="struct: struct [473,479]"/>
+  <match src="identifier: arg [405,408]" dest="identifier: arg [405,408]"/>
+  <match src="field_expression [2648,2668]" dest="field_expression [2721,2741]"/>
+  <match src=",: , [1119,1120]" dest=",: , [1123,1124]"/>
+  <match src=",: , [1052,1053]" dest=",: , [1056,1057]"/>
+  <match src="goto: goto [2235,2239]" dest="goto: goto [2308,2312]"/>
+  <match src="identifier: srf [1245,1248]" dest="identifier: srf [1249,1252]"/>
+  <match src="if_statement [1642,1864]" dest="if_statement [1665,1932]"/>
+  <match src="number_literal: 0 [1424,1425]" dest="number_literal: 0 [1428,1429]"/>
+  <match src="identifier: vmw_user_surface [1227,1243]" dest="identifier: vmw_user_surface [1231,1247]"/>
+  <match src="field_expression [2699,2715]" dest="field_expression [2772,2788]"/>
+  <match src=";: ; [2250,2251]" dest=";: ; [2323,2324]"/>
+  <match src="-&gt;: -&gt; [408,410]" dest="-&gt;: -&gt; [408,410]"/>
+  <match src=",: , [1602,1603]" dest=",: , [1606,1607]"/>
+  <match src=";: ; [1401,1402]" dest=";: ; [1405,1406]"/>
+  <match src="-&gt;: -&gt; [2846,2848]" dest="-&gt;: -&gt; [2919,2921]"/>
+  <match src="field_expression [2648,2673]" dest="field_expression [2721,2746]"/>
+  <match src="(: ( [1407,1408]" dest="(: ( [1411,1412]"/>
+  <match src="identifier: tfile [497,502]" dest="identifier: tfile [497,502]"/>
+  <match src="&quot;: &quot; [1777,1778]" dest="&quot;: &quot; [1790,1791]"/>
+  <match src="if_statement [645,708]" dest="if_statement [649,712]"/>
+  <match src="*: * [302,303]" dest="*: * [302,303]"/>
+  <match src="init_declarator [302,357]" dest="init_declarator [302,357]"/>
+  <match src="field_identifier: backup [1596,1602]" dest="field_identifier: backup [1600,1606]"/>
+  <match src="assignment_expression [2293,2507]" dest="assignment_expression [2366,2580]"/>
+  <match src="compound_statement [2735,2924]" dest="compound_statement [2808,2997]"/>
+  <match src="assignment_expression [2886,2920]" dest="assignment_expression [2959,2993]"/>
+  <match src="identifier: ttm_read_lock [1354,1367]" dest="identifier: ttm_read_lock [1358,1371]"/>
+  <match src=";: ; [469,470]" dest=";: ; [469,470]"/>
+  <match src="identifier: vmw_dmabuf_unreference [1784,1806]" dest="identifier: vmw_dmabuf_unreference [1798,1820]"/>
+  <match src="expression_statement [2988,3027]" dest="expression_statement [3061,3100]"/>
+  <match src="-&gt;: -&gt; [1562,1564]" dest="-&gt;: -&gt; [1566,1568]"/>
+  <match src="-&gt;: -&gt; [652,654]" dest="-&gt;: -&gt; [656,658]"/>
+  <match src="-&gt;: -&gt; [1459,1461]" dest="-&gt;: -&gt; [1463,1465]"/>
+  <match src="identifier: ttm_round_pot [779,792]" dest="identifier: ttm_round_pot [783,796]"/>
+  <match src="field_expression [2843,2854]" dest="field_expression [2916,2927]"/>
+  <match src="pointer_expression [1615,1637]" dest="pointer_expression [1619,1641]"/>
+  <match src="primitive_type: int [536,539]" dest="primitive_type: int [536,539]"/>
+  <match src="field_expression [1591,1602]" dest="field_expression [1595,1606]"/>
+  <match src="field_identifier: buffer_map_handle [2939,2956]" dest="field_identifier: buffer_map_handle [3012,3029]"/>
+  <match src="assignment_expression [2680,2715]" dest="assignment_expression [2753,2788]"/>
+  <match src="parenthesized_expression [1476,1517]" dest="parenthesized_expression [1480,1521]"/>
+  <match src="statement_identifier: out_unlock [3066,3076]" dest="statement_identifier: out_unlock [3139,3149]"/>
+  <match src="field_expression [505,532]" dest="field_expression [505,532]"/>
+  <match src="*: * [259,260]" dest="*: * [259,260]"/>
+  <match src="&amp;: &amp; [1807,1808]" dest="&amp;: &amp; [1821,1822]"/>
+  <match src="pointer_expression [800,809]" dest="pointer_expression [804,813]"/>
+  <match src="(: ( [3094,3095]" dest="(: ( [3167,3168]"/>
+  <match src="parameter_declaration [72,98]" dest="parameter_declaration [72,98]"/>
+  <match src="field_expression [1616,1637]" dest="field_expression [1620,1641]"/>
+  <match src="field_identifier: backup_size [2685,2696]" dest="field_identifier: backup_size [2758,2769]"/>
+  <match src="if_statement [711,821]" dest="if_statement [715,825]"/>
+  <match src="argument_list [142,147]" dest="argument_list [142,147]"/>
+  <match src="-: - [700,701]" dest="-: - [704,705]"/>
+  <match src="field_identifier: backup_size [2704,2715]" dest="field_identifier: backup_size [2777,2788]"/>
+  <match src="binary_expression [1164,1172]" dest="binary_expression [1168,1176]"/>
+  <match src="argument_list [2185,2195]" dest="argument_list [2258,2268]"/>
+  <match src="call_expression [2539,2569]" dest="call_expression [2612,2642]"/>
+  <match src=";: ; [2622,2623]" dest=";: ; [2695,2696]"/>
+  <match src="*: * [88,89]" dest="*: * [88,89]"/>
+  <match src="-&gt;: -&gt; [2632,2634]" dest="-&gt;: -&gt; [2705,2707]"/>
+  <match src="identifier: req [1104,1107]" dest="identifier: req [1108,1111]"/>
+  <match src="field_identifier: base [2856,2860]" dest="field_identifier: base [2929,2933]"/>
+  <match src="number_literal: 0 [1653,1654]" dest="number_literal: 0 [1657,1658]"/>
+  <match src="if_statement [2173,2254]" dest="if_statement [2246,2327]"/>
+  <match src="!=: != [2190,2192]" dest="!=: != [2263,2265]"/>
+  <match src="identifier: res [1808,1811]" dest="identifier: res [1822,1825]"/>
+  <match src="(: ( [1154,1155]" dest="(: ( [1158,1159]"/>
+  <match src="type_identifier: drm_vmw_gb_surface_create_arg [272,301]" dest="type_identifier: drm_vmw_gb_surface_create_arg [272,301]"/>
+  <match src="field_identifier: backup_size [2001,2012]" dest="field_identifier: backup_size [2074,2085]"/>
+  <match src="-&gt;: -&gt; [1669,1671]" dest="-&gt;: -&gt; [1680,1682]"/>
+  <match src="labeled_statement [3066,3123]" dest="labeled_statement [3139,3196]"/>
+  <match src="(: ( [1214,1215]" dest="(: ( [1218,1219]"/>
+  <match src="pointer_expression [2226,2230]" dest="pointer_expression [2299,2303]"/>
+  <match src="(: ( [1255,1256]" dest="(: ( [1259,1260]"/>
+  <match src="=: = [2261,2262]" dest="=: = [2334,2335]"/>
+  <match src="argument_list [1367,1401]" dest="argument_list [1371,1405]"/>
+  <match src="identifier: rep [454,457]" dest="identifier: rep [454,457]"/>
+  <match src="(: ( [2514,2515]" dest="(: ( [2587,2588]"/>
+  <match src="pointer_declarator [205,209]" dest="pointer_declarator [205,209]"/>
+  <match src="identifier: EINVAL [635,641]" dest="identifier: EINVAL [639,645]"/>
+  <match src="field_expression [1477,1495]" dest="field_expression [1481,1499]"/>
+  <match src="{: { [2930,2931]" dest="{: { [3003,3004]"/>
+  <match src="identifier: size [952,956]" dest="identifier: size [956,960]"/>
+  <match src="-&gt;: -&gt; [525,527]" dest="-&gt;: -&gt; [525,527]"/>
+  <match src="string_content: Surface backup buffer is too small. [1740,1775]" dest="string_content: Surface backup buffer is too small. [1753,1788]"/>
+  <match src="expression_statement [1292,1345]" dest="expression_statement [1296,1349]"/>
+  <match src="argument_list [2597,2603]" dest="argument_list [2670,2676]"/>
+  <match src="identifier: vmw_fpriv [505,514]" dest="identifier: vmw_fpriv [505,514]"/>
+  <match src="identifier: res [2843,2846]" dest="identifier: res [2916,2919]"/>
+  <match src="field_identifier: rep [466,469]" dest="field_identifier: rep [466,469]"/>
+  <match src="assignment_expression [824,858]" dest="assignment_expression [828,862]"/>
+  <match src="call_expression [3079,3122]" dest="call_expression [3152,3195]"/>
+  <match src=".: . [1675,1676]" dest=".: . [1686,1687]"/>
+  <match src="): ) [622,623]" dest="): ) [626,627]"/>
+  <match src="&amp;: &amp; [2146,2147]" dest="&amp;: &amp; [2219,2220]"/>
+  <match src="&quot;: &quot; [1739,1740]" dest="&quot;: &quot; [1752,1753]"/>
+  <match src="): ) [1400,1401]" dest="): ) [1404,1405]"/>
+  <match src="goto_statement [2607,2623]" dest="goto_statement [2680,2696]"/>
+  <match src="struct: struct [360,366]" dest="struct: struct [360,366]"/>
+  <match src="argument_list [1325,1344]" dest="argument_list [1329,1348]"/>
+  <match src="identifier: tfile [1980,1985]" dest="identifier: tfile [2053,2058]"/>
+  <match src="return_statement [1430,1441]" dest="return_statement [1434,1445]"/>
+  <match src="-&gt;: -&gt; [1624,1626]" dest="-&gt;: -&gt; [1628,1630]"/>
+  <match src=";: ; [357,358]" dest=";: ; [357,358]"/>
+  <match src="argument_list [943,1148]" dest="argument_list [947,1152]"/>
+  <match src="call_expression [1311,1344]" dest="call_expression [1315,1348]"/>
+  <match src="{: { [1724,1725]" dest="{: { [1736,1737]"/>
+  <match src="function_declarator [4,99]" dest="function_declarator [4,99]"/>
+  <match src="identifier: vmw_surface_gb_priv_define [917,943]" dest="identifier: vmw_surface_gb_priv_define [921,947]"/>
+  <match src="identifier: data [62,66]" dest="identifier: data [62,66]"/>
+  <match src="): ) [1343,1344]" dest="): ) [1347,1348]"/>
+  <match src="): ) [2602,2603]" dest="): ) [2675,2676]"/>
+  <match src="identifier: ret [1417,1420]" dest="identifier: ret [1421,1424]"/>
+  <match src="identifier: vmw_user_surface_size [724,745]" dest="identifier: vmw_user_surface_size [728,749]"/>
+  <match src=";: ; [707,708]" dest=";: ; [711,712]"/>
+  <match src="-: - [1831,1832]" dest="-: - [1846,1847]"/>
+  <match src="expression_statement [1942,2170]" dest="expression_statement [2015,2243]"/>
+  <match src="): ) [2568,2569]" dest="): ) [2641,2642]"/>
+  <match src="-: - [634,635]" dest="-: - [638,639]"/>
+  <match src=",: , [1394,1395]" dest=",: , [1398,1399]"/>
+  <match src="): ) [3062,3063]" dest="): ) [3135,3136]"/>
+  <match src="identifier: res [2599,2602]" dest="identifier: res [2672,2675]"/>
+  <match src="parenthesized_expression [1877,1938]" dest="parenthesized_expression [1950,2011]"/>
+  <match src="cast_expression [314,357]" dest="cast_expression [314,357]"/>
+  <match src="identifier: ret [3132,3135]" dest="identifier: ret [3205,3208]"/>
+  <match src=".: . [2860,2861]" dest=".: . [2933,2934]"/>
+  <match src=";: ; [3026,3027]" dest=";: ; [3099,3100]"/>
+  <match src="NULL: NULL [2502,2506]" dest="NULL: NULL [2575,2579]"/>
+  <match src="(: ( [594,595]" dest="(: ( [598,599]"/>
+  <match src="*: * [800,801]" dest="*: * [804,805]"/>
+  <match src="(: ( [1367,1368]" dest="(: ( [1371,1372]"/>
+  <match src="parenthesized_expression [1645,1723]" dest="parenthesized_expression [1668,1735]"/>
+  <match src="): ) [2819,2820]" dest="): ) [2892,2893]"/>
+  <match src="compound_statement [2930,3030]" dest="compound_statement [3003,3103]"/>
+  <match src="-&gt;: -&gt; [1594,1596]" dest="-&gt;: -&gt; [1598,1600]"/>
+  <match src="identifier: file_priv [515,524]" dest="identifier: file_priv [515,524]"/>
+  <match src="field_expression [2648,2663]" dest="field_expression [2721,2736]"/>
+  <match src="=: = [2297,2298]" dest="=: = [2370,2371]"/>
+  <match src="field_identifier: base [2806,2810]" dest="field_identifier: base [2879,2883]"/>
+  <match src="}: } [2625,2626]" dest="}: } [2698,2699]"/>
+  <match src="field_expression [1451,1464]" dest="field_expression [1455,1468]"/>
+  <match src="field_identifier: buffer_map_handle [2744,2761]" dest="field_identifier: buffer_map_handle [2817,2834]"/>
+  <match src=",: , [2344,2345]" dest=",: , [2417,2418]"/>
+  <match src="return_statement [693,708]" dest="return_statement [697,712]"/>
+  <match src="field_identifier: multisample_count [1082,1099]" dest="field_identifier: multisample_count [1086,1103]"/>
+  <match src="identifier: drm_vma_node_offset_addr [2767,2791]" dest="identifier: drm_vma_node_offset_addr [2840,2864]"/>
+  <match src="struct: struct [239,245]" dest="struct: struct [239,245]"/>
+  <match src="-&gt;: -&gt; [964,966]" dest="-&gt;: -&gt; [968,970]"/>
+  <match src="field_expression [999,1021]" dest="field_expression [1003,1025]"/>
+  <match src="-&gt;: -&gt; [2991,2993]" dest="-&gt;: -&gt; [3064,3066]"/>
+  <match src="&amp;: &amp; [2470,2471]" dest="&amp;: &amp; [2543,2544]"/>
+  <match src="field_identifier: reservation_sem [3106,3121]" dest="field_identifier: reservation_sem [3179,3194]"/>
+  <match src="field_identifier: buffer_size [2829,2840]" dest="field_identifier: buffer_size [2902,2913]"/>
+  <match src="&amp;: &amp; [2598,2599]" dest="&amp;: &amp; [2671,2672]"/>
+  <match src="binary_expression [779,820]" dest="binary_expression [783,824]"/>
+  <match src="field_identifier: master [1302,1308]" dest="field_identifier: master [1306,1312]"/>
+  <match src="): ) [809,810]" dest="): ) [813,814]"/>
+  <match src="): ) [2532,2533]" dest="): ) [2605,2606]"/>
+  <match src="if_statement [591,642]" dest="if_statement [595,646]"/>
+  <match src=".: . [2663,2664]" dest=".: . [2736,2737]"/>
+  <match src="unary_expression [1831,1838]" dest="unary_expression [1846,1853]"/>
+  <match src="identifier: DRM_ERROR [1729,1738]" dest="identifier: DRM_ERROR [1742,1751]"/>
+  <match src="if: if [591,593]" dest="if: if [595,597]"/>
+  <match src="return_statement [627,642]" dest="return_statement [631,646]"/>
+  <match src="identifier: req [961,964]" dest="identifier: req [965,968]"/>
+  <match src="struct: struct [212,218]" dest="struct: struct [212,218]"/>
+  <match src="pointer_expression [2346,2362]" dest="pointer_expression [2419,2435]"/>
+  <match src="call_expression [1529,1638]" dest="call_expression [1533,1642]"/>
+  <match src="struct_specifier [239,258]" dest="struct_specifier [239,258]"/>
+  <match src=";: ; [560,561]" dest=";: ; [560,561]"/>
+  <match src="identifier: file_priv [89,98]" dest="identifier: file_priv [89,98]"/>
+  <match src="pointer_expression [1807,1819]" dest="pointer_expression [1821,1833]"/>
+  <match src="field_identifier: drm_surface_flags [2377,2394]" dest="field_identifier: drm_surface_flags [2450,2467]"/>
+  <match src="identifier: vmw_resource_reference [2263,2285]" dest="identifier: vmw_resource_reference [2336,2358]"/>
+  <match src="unary_expression [634,641]" dest="unary_expression [638,645]"/>
+  <match src="(: ( [142,143]" dest="(: ( [142,143]"/>
+  <match src="expression_statement [1191,1250]" dest="expression_statement [1195,1254]"/>
+  <match src="comment: /* Define a surface based on the parameters. */ [862,909]" dest="comment: /* Define a surface based on the parameters. */ [866,913]"/>
+  <match src="expression_statement [2680,2716]" dest="expression_statement [2753,2789]"/>
+  <match src="-&gt;: -&gt; [1999,2001]" dest="-&gt;: -&gt; [2072,2074]"/>
+  <match src="return_statement [1177,1188]" dest="return_statement [1181,1192]"/>
+  <match src="else_clause [1869,2170]" dest="else_clause [1942,2243]"/>
+  <match src=",: , [66,67]" dest=",: , [66,67]"/>
+  <match src="if: if [1404,1406]" dest="if: if [1408,1410]"/>
+  <match src="identifier: ret [1348,1351]" dest="identifier: ret [1352,1355]"/>
+  <match src="call_expression [1256,1288]" dest="call_expression [1260,1292]"/>
+  <match src="): ) [1288,1289]" dest="): ) [1292,1293]"/>
+  <match src="identifier: SVGA3D_INVALID_ID [3009,3026]" dest="identifier: SVGA3D_INVALID_ID [3082,3099]"/>
+  <match src="): ) [1248,1249]" dest="): ) [1252,1253]"/>
+  <match src="field_expression [2372,2394]" dest="field_expression [2445,2467]"/>
+  <match src="identifier: PAGE_SIZE [2873,2882]" dest="identifier: PAGE_SIZE [2946,2955]"/>
+  <match src="argument_list [2225,2231]" dest="argument_list [2298,2304]"/>
+  <match src=",: , [2460,2461]" dest=",: , [2533,2534]"/>
+  <match src="-&gt;: -&gt; [1709,1711]" dest="-&gt;: -&gt; [1721,1723]"/>
+  <match src="declaration [547,561]" dest="declaration [547,561]"/>
+  <match src="identifier: container_of [1202,1214]" dest="identifier: container_of [1206,1218]"/>
+  <match src="argument_list [3057,3063]" dest="argument_list [3130,3136]"/>
+  <match src="}: } [3029,3030]" dest="}: } [3102,3103]"/>
+  <match src="): ) [1173,1174]" dest="): ) [1177,1178]"/>
+  <match src="=: = [503,504]" dest="=: = [503,504]"/>
+  <match src="struct_specifier [360,396]" dest="struct_specifier [360,396]"/>
+  <match src="-&gt;: -&gt; [2026,2028]" dest="-&gt;: -&gt; [2099,2101]"/>
+  <match src="-&gt;: -&gt; [1811,1813]" dest="-&gt;: -&gt; [1825,1827]"/>
+  <match src="-&gt;: -&gt; [2375,2377]" dest="-&gt;: -&gt; [2448,2450]"/>
+  <match src="identifier: dev [51,54]" dest="identifier: dev [51,54]"/>
+  <match src="*: * [232,233]" dest="*: * [232,233]"/>
+  <match src=";: ; [1468,1469]" dest=";: ; [1472,1473]"/>
+  <match src="): ) [1778,1779]" dest="): ) [1791,1792]"/>
+  <match src="&amp;: &amp; [2046,2047]" dest="&amp;: &amp; [2119,2120]"/>
+  <match src="if: if [2511,2513]" dest="if: if [2584,2586]"/>
+  <match src=";: ; [147,148]" dest=";: ; [147,148]"/>
+  <match src="identifier: vmw_gb_surface_define_ioctl [4,31]" dest="identifier: vmw_gb_surface_define_ioctl [4,31]"/>
+  <match src="struct_specifier [212,231]" dest="struct_specifier [212,231]"/>
+  <match src="identifier: req [1077,1080]" dest="identifier: req [1081,1084]"/>
+  <match src="call_expression [1408,1426]" dest="call_expression [1412,1430]"/>
+  <match src="field_expression [2722,2733]" dest="field_expression [2795,2806]"/>
+  <match src="identifier: EINVAL [1832,1838]" dest="identifier: EINVAL [1847,1853]"/>
+  <match src="&gt;: &gt; [665,666]" dest="&gt;: &gt; [669,670]"/>
+  <match src="call_expression [1784,1820]" dest="call_expression [1798,1834]"/>
+  <match src=",: , [994,995]" dest=",: , [998,999]"/>
+  <match src="expression_statement [2201,2232]" dest="expression_statement [2274,2305]"/>
+  <match src="type_identifier: drm_device [39,49]" dest="type_identifier: drm_device [39,49]"/>
+  <match src="!=: != [1168,1170]" dest="!=: != [1172,1174]"/>
+  <match src="*: * [50,51]" dest="*: * [50,51]"/>
+  <match src="union: union [315,320]" dest="union: union [315,320]"/>
+  <match src="==: == [1650,1652]" dest="==: == [1654,1656]"/>
+  <match src="-&gt;: -&gt; [1480,1482]" dest="-&gt;: -&gt; [1484,1486]"/>
+  <match src=";: ; [1779,1780]" dest=";: ; [1792,1793]"/>
+  <match src="identifier: res [1996,1999]" dest="identifier: res [2069,2072]"/>
+  <match src="field_identifier: hash [2669,2673]" dest="field_identifier: hash [2742,2746]"/>
+  <match src="identifier: vmw_resource_unreference [3033,3057]" dest="identifier: vmw_resource_unreference [3106,3130]"/>
+  <match src="): ) [524,525]" dest="): ) [524,525]"/>
+  <match src="!=: != [1421,1423]" dest="!=: != [1425,1427]"/>
+  <match src=";: ; [820,821]" dest=";: ; [824,825]"/>
+  <match src="field_identifier: mip_levels [1062,1072]" dest="field_identifier: mip_levels [1066,1076]"/>
+  <match src="call_expression [2515,2533]" dest="call_expression [2588,2606]"/>
+  <match src="pointer_expression [2146,2168]" dest="pointer_expression [2219,2241]"/>
+  <match src="identifier: vmw_user_dmabuf_lookup [1529,1551]" dest="identifier: vmw_user_dmabuf_lookup [1533,1555]"/>
+  <match src="pointer_expression [1143,1147]" dest="pointer_expression [1147,1151]"/>
+  <match src="&amp;: &amp; [1901,1902]" dest="&amp;: &amp; [1974,1975]"/>
+  <match src="identifier: ttm_prime_object_init [2299,2320]" dest="identifier: ttm_prime_object_init [2372,2393]"/>
+  <match src="expression_statement [2629,2678]" dest="expression_statement [2702,2751]"/>
+  <match src=",: , [1218,1219]" dest=",: , [1222,1223]"/>
+  <match src="identifier: res [2699,2702]" dest="identifier: res [2772,2775]"/>
+  <match src="pointer_declarator [174,183]" dest="pointer_declarator [174,183]"/>
+  <match src="identifier: vmw_user_surface_size [831,852]" dest="identifier: vmw_user_surface_size [835,856]"/>
+  <match src=",: , [1243,1244]" dest=",: , [1247,1248]"/>
+  <match src="=: = [915,916]" dest="=: = [919,920]"/>
+  <match src="field_identifier: buffer_handle [1482,1495]" dest="field_identifier: buffer_handle [1486,1499]"/>
+  <match src="field_identifier: format [988,994]" dest="field_identifier: format [992,998]"/>
+  <match src=",: , [1577,1578]" dest=",: , [1581,1582]"/>
+  <match src="statement_identifier: out_unlock [2612,2622]" dest="statement_identifier: out_unlock [2685,2695]"/>
+  <match src="(: ( [2320,2321]" dest="(: ( [2393,2394]"/>
+  <match src="type_identifier: drm_vmw_gb_surface_create_rep [423,452]" dest="type_identifier: drm_vmw_gb_surface_create_rep [423,452]"/>
+  <match src="primitive_type: void [56,60]" dest="primitive_type: void [56,60]"/>
+  <match src="struct: struct [150,156]" dest="struct: struct [150,156]"/>
+  <match src="identifier: req [983,986]" dest="identifier: req [987,990]"/>
+  <match src="declaration [212,237]" dest="declaration [212,237]"/>
+  <match src="identifier: unlikely [2177,2185]" dest="identifier: unlikely [2250,2258]"/>
+  <match src="expression_statement [2886,2921]" dest="expression_statement [2959,2994]"/>
+  <match src="if_statement [1874,2170]" dest="if_statement [1947,2243]"/>
+  <match src="pointer_declarator [302,306]" dest="pointer_declarator [302,306]"/>
+  <match src="&amp;: &amp; [460,461]" dest="&amp;: &amp; [460,461]"/>
+  <match src="identifier: size [556,560]" dest="identifier: size [556,560]"/>
+  <match src="identifier: rep [2988,2991]" dest="identifier: rep [3061,3064]"/>
+  <match src="assignment_expression [911,1148]" dest="assignment_expression [915,1152]"/>
+  <match src="=: = [132,133]" dest="=: = [132,133]"/>
+  <match src="assignment_expression [2988,3026]" dest="assignment_expression [3061,3099]"/>
+  <match src="(: ( [1877,1878]" dest="(: ( [1950,1951]"/>
+  <match src="type_identifier: ttm_object_file [480,495]" dest="type_identifier: ttm_object_file [480,495]"/>
+  <match src=";: ; [3122,3123]" dest=";: ; [3195,3196]"/>
+  <match src="argument_list [2320,2507]" dest="argument_list [2393,2580]"/>
+  <match src=".: . [2668,2669]" dest=".: . [2741,2742]"/>
+  <match src="init_declarator [496,532]" dest="init_declarator [496,532]"/>
+  <match src="==: == [746,748]" dest="==: == [750,752]"/>
+  <match src="type_identifier: drm_file [79,87]" dest="type_identifier: drm_file [79,87]"/>
+  <match src="call_expression [917,1148]" dest="call_expression [921,1152]"/>
+  <match src="(: ( [31,32]" dest="(: ( [31,32]"/>
+  <match src="statement_identifier: out_unlock [2240,2250]" dest="statement_identifier: out_unlock [2313,2323]"/>
+  <match src="): ) [98,99]" dest="): ) [98,99]"/>
+  <match src="(: ( [723,724]" dest="(: ( [727,728]"/>
+  <match src="identifier: rep [2680,2683]" dest="identifier: rep [2753,2756]"/>
+  <match src="field_expression [961,978]" dest="field_expression [965,982]"/>
+  <match src="identifier: srf [1144,1147]" dest="identifier: srf [1148,1151]"/>
+  <match src="identifier: dev_priv [1369,1377]" dest="identifier: dev_priv [1373,1381]"/>
+  <match src="identifier: res [2722,2725]" dest="identifier: res [2795,2798]"/>
+  <match src="pointer_declarator [122,131]" dest="pointer_declarator [122,131]"/>
+  <match src="identifier: ret [1184,1187]" dest="identifier: ret [1188,1191]"/>
+  <match src="call_expression [2263,2290]" dest="call_expression [2336,2363]"/>
+  <match src="&amp;: &amp; [1590,1591]" dest="&amp;: &amp; [1594,1595]"/>
+  <match src=".: . [1464,1465]" dest=".: . [1468,1469]"/>
+  <match src="expression_statement [3079,3123]" dest="expression_statement [3152,3196]"/>
+  <match src="-&gt;: -&gt; [2742,2744]" dest="-&gt;: -&gt; [2815,2817]"/>
+  <match src="field_identifier: buffer_handle [2891,2904]" dest="field_identifier: buffer_handle [2964,2977]"/>
+  <match src=",: , [2012,2013]" dest=",: , [2085,2086]"/>
+  <match src="): ) [1287,1288]" dest="): ) [1291,1292]"/>
+  <match src="field_expression [1658,1685]" dest="field_expression [1669,1696]"/>
+  <match src=";: ; [532,533]" dest=";: ; [532,533]"/>
+  <match src="pointer_declarator [232,236]" dest="pointer_declarator [232,236]"/>
+  <match src="-&gt;: -&gt; [2937,2939]" dest="-&gt;: -&gt; [3010,3012]"/>
+  <match src="(: ( [1738,1739]" dest="(: ( [1751,1752]"/>
+  <match src="call_expression [2177,2195]" dest="call_expression [2250,2268]"/>
+  <match src="pointer_expression [1590,1602]" dest="pointer_expression [1594,1606]"/>
+  <match src="argument_list [1277,1288]" dest="argument_list [1281,1292]"/>
+  <match src=";: ; [1249,1250]" dest=";: ; [1253,1254]"/>
+  <match src="argument_list [1806,1820]" dest="argument_list [1820,1834]"/>
+  <match src="field_identifier: backup_size [2333,2344]" dest="field_identifier: backup_size [2406,2417]"/>
+  <match src="identifier: arg [461,464]" dest="identifier: arg [461,464]"/>
+  <match src="field_identifier: drm_surface_flags [1883,1900]" dest="field_identifier: drm_surface_flags [1956,1973]"/>
+  <match src="field_expression [2629,2640]" dest="field_expression [2702,2713]"/>
+  <match src="): ) [750,751]" dest="): ) [754,755]"/>
+  <match src="identifier: user_srf [1616,1624]" dest="identifier: user_srf [1620,1628]"/>
+  <match src="argument_list [792,811]" dest="argument_list [796,815]"/>
+  <match src="field_expression [1057,1072]" dest="field_expression [1061,1076]"/>
+  <match src="identifier: res [2793,2796]" dest="identifier: res [2866,2869]"/>
+  <match src="field_expression [2347,2362]" dest="field_expression [2420,2435]"/>
+  <match src=".: . [2673,2674]" dest=".: . [2746,2747]"/>
+  <match src=";: ; [2715,2716]" dest=";: ; [2788,2789]"/>
+  <match src="-&gt;: -&gt; [1377,1379]" dest="-&gt;: -&gt; [1381,1383]"/>
+  <match src="-&gt;: -&gt; [3104,3106]" dest="-&gt;: -&gt; [3177,3179]"/>
+  <match src="(: ( [648,649]" dest="(: ( [652,653]"/>
+  <match src="&amp;: &amp; [2123,2124]" dest="&amp;: &amp; [2196,2197]"/>
+  <match src="if_statement [2511,2626]" dest="if_statement [2584,2699]"/>
+  <match src="if: if [1642,1644]" dest="if: if [1665,1667]"/>
+  <match src=";: ; [641,642]" dest=";: ; [645,646]"/>
+  <match src="statement_identifier: out_unlock [1848,1858]" dest="statement_identifier: out_unlock [1864,1874]"/>
+  <match src="-&gt;: -&gt; [2155,2157]" dest="-&gt;: -&gt; [2228,2230]"/>
+  <match src="binary_expression [2372,2435]" dest="binary_expression [2445,2508]"/>
+  <match src="field_identifier: base [1671,1675]" dest="field_identifier: base [1682,1686]"/>
+  <match src="struct_specifier [473,495]" dest="struct_specifier [473,495]"/>
+  <match src="): ) [2289,2290]" dest="): ) [2362,2363]"/>
+  <match src="identifier: VMW_RES_SURFACE [2445,2460]" dest="identifier: VMW_RES_SURFACE [2518,2533]"/>
+  <match src="(: ( [714,715]" dest="(: ( [718,719]"/>
+  <match src="field_identifier: key [2674,2677]" dest="field_identifier: key [2747,2750]"/>
+  <match src="identifier: ret [1437,1440]" dest="identifier: ret [1441,1444]"/>
+  <match src="identifier: vmw_resource_unreference [2201,2225]" dest="identifier: vmw_resource_unreference [2274,2298]"/>
+  <match src="): ) [1172,1173]" dest="): ) [1176,1177]"/>
+  <match src="field_identifier: res [1465,1468]" dest="field_identifier: res [1469,1472]"/>
+  <match src="identifier: srf [206,209]" dest="identifier: srf [206,209]"/>
+  <match src="struct_specifier [416,452]" dest="struct_specifier [416,452]"/>
+  <match src="expression_statement [2934,2961]" dest="expression_statement [3007,3034]"/>
+  <match src="identifier: drm_vmw_surface_flag_shareable [2405,2435]" dest="identifier: drm_vmw_surface_flag_shareable [2478,2508]"/>
+  <match src=";: ; [1838,1839]" dest=";: ; [1853,1854]"/>
+  <match src="binary_expression [2524,2532]" dest="binary_expression [2597,2605]"/>
+  <match src="parenthesized_expression [799,810]" dest="parenthesized_expression [803,814]"/>
+  <match src="): ) [2533,2534]" dest="): ) [2606,2607]"/>
+  <match src="assignment_expression [2934,2960]" dest="assignment_expression [3007,3033]"/>
+  <match src="expression_statement [1825,1839]" dest="expression_statement [1840,1854]"/>
+  <match src="compound_statement [100,3138]" dest="compound_statement [100,3211]"/>
+  <match src="-&gt;: -&gt; [464,466]" dest="-&gt;: -&gt; [464,466]"/>
+  <match src="field_identifier: backup [2129,2135]" dest="field_identifier: backup [2202,2208]"/>
+  <match src="pointer_expression [3058,3062]" dest="pointer_expression [3131,3135]"/>
+  <match src="field_identifier: reservation_sem [1379,1394]" dest="field_identifier: reservation_sem [1383,1398]"/>
+  <match src="*: * [496,497]" dest="*: * [496,497]"/>
+  <match src="argument_list [723,751]" dest="argument_list [727,755]"/>
+  <match src="expression_statement [1444,1469]" dest="expression_statement [1448,1473]"/>
+  <match src="call_expression [505,525]" dest="call_expression [505,525]"/>
+  <match src="field_identifier: backup [1663,1669]" dest="field_identifier: backup [1674,1680]"/>
+  <match src="struct: struct [32,38]" dest="struct: struct [32,38]"/>
+  <match src="field_identifier: multisample_count [600,617]" dest="field_identifier: multisample_count [604,621]"/>
+  <match src="field_identifier: mip_levels [654,664]" dest="field_identifier: mip_levels [658,668]"/>
+  <match src=";: ; [2820,2821]" dest=";: ; [2893,2894]"/>
+  <match src="pointer_expression [404,413]" dest="pointer_expression [404,413]"/>
+  <match src="=: = [1946,1947]" dest="=: = [2019,2020]"/>
+  <match src="if: if [711,713]" dest="if: if [715,717]"/>
+  <match src="pointer_expression [3095,3121]" dest="pointer_expression [3168,3194]"/>
+  <match src="-&gt;: -&gt; [1661,1663]" dest="-&gt;: -&gt; [1672,1674]"/>
+  <match src="!=: != [2528,2530]" dest="!=: != [2601,2603]"/>
+  <match src="identifier: user_srf [1451,1459]" dest="identifier: user_srf [1455,1463]"/>
+  <match src="number_literal: 0 [621,622]" dest="number_literal: 0 [625,626]"/>
+  <match src="identifier: DRM_VMW_MAX_MIP_LEVELS [667,689]" dest="identifier: DRM_VMW_MAX_MIP_LEVELS [671,693]"/>
+  <match src="field_identifier: vma_node [2811,2819]" dest="field_identifier: vma_node [2884,2892]"/>
+  <match src="declaration [239,264]" dest="declaration [239,264]"/>
+  <match src="goto_statement [2235,2251]" dest="goto_statement [2308,2324]"/>
+  <match src="field_expression [1658,1675]" dest="field_expression [1669,1686]"/>
+  <match src="}: } [2923,2924]" dest="}: } [2996,2997]"/>
+  <match src="parenthesized_expression [1154,1174]" dest="parenthesized_expression [1158,1178]"/>
+  <match src="-&gt;: -&gt; [2796,2798]" dest="-&gt;: -&gt; [2869,2871]"/>
+  <match src="!=: != [1496,1498]" dest="!=: != [1500,1502]"/>
+  <match src="): ) [2195,2196]" dest="): ) [2268,2269]"/>
+  <match src="binary_expression [595,622]" dest="binary_expression [599,626]"/>
+  <match src="=: = [1527,1528]" dest="=: = [1531,1532]"/>
+  <match src="identifier: dev_priv [3096,3104]" dest="identifier: dev_priv [3169,3177]"/>
+  <match src="assignment_expression [755,820]" dest="assignment_expression [759,824]"/>
+  <match src="field_identifier: backup [1813,1819]" dest="field_identifier: backup [1827,1833]"/>
+  <match src="-&gt;: -&gt; [2804,2806]" dest="-&gt;: -&gt; [2877,2879]"/>
+  <match src="&amp;: &amp; [2098,2099]" dest="&amp;: &amp; [2171,2172]"/>
+  <match src=";: ; [3135,3136]" dest=";: ; [3208,3209]"/>
+  <match src="pointer_declarator [61,66]" dest="pointer_declarator [61,66]"/>
+  <match src="field_identifier: base [2664,2668]" dest="field_identifier: base [2737,2741]"/>
+  <match src="): ) [2733,2734]" dest="): ) [2806,2807]"/>
+  <match src="struct: struct [186,192]" dest="struct: struct [186,192]"/>
+  <match src="field_expression [649,664]" dest="field_expression [653,668]"/>
+  <match src="sizeof: sizeof [793,799]" dest="sizeof: sizeof [797,803]"/>
+  <match src="escape_sequence: \n [1775,1777]" dest="escape_sequence: \n [1788,1790]"/>
+  <match src="identifier: vmw_user_dmabuf_alloc [1948,1969]" dest="identifier: vmw_user_dmabuf_alloc [2021,2042]"/>
+  <match src="if_statement [1252,1345]" dest="if_statement [1256,1349]"/>
+  <match src="identifier: vmw_resource_unreference [2539,2563]" dest="identifier: vmw_resource_unreference [2612,2636]"/>
+  <match src="type_descriptor [315,352]" dest="type_descriptor [315,352]"/>
+  <match src="call_expression [2767,2820]" dest="call_expression [2840,2893]"/>
+  <match src="argument_list [1416,1426]" dest="argument_list [1420,1430]"/>
+  <match src="call_expression [2299,2507]" dest="call_expression [2372,2580]"/>
+  <match src="=: = [829,830]" dest="=: = [833,834]"/>
+  <match src=",: , [1985,1986]" dest=",: , [2058,2059]"/>
+  <match src="pointer_expression [2792,2819]" dest="pointer_expression [2865,2892]"/>
+  <match src="field_expression [1878,1900]" dest="field_expression [1951,1973]"/>
+  <match src="=: = [2841,2842]" dest="=: = [2914,2915]"/>
+  <match src="identifier: res [2124,2127]" dest="identifier: res [2197,2200]"/>
+  <match src="=: = [458,459]" dest="=: = [458,459]"/>
+  <match src="identifier: user_srf [1191,1199]" dest="identifier: user_srf [1195,1203]"/>
+  <match src="assignment_expression [2629,2677]" dest="assignment_expression [2702,2750]"/>
+  <match src="type_identifier: drm_vmw_gb_surface_create_req [367,396]" dest="type_identifier: drm_vmw_gb_surface_create_req [367,396]"/>
+  <match src="*: * [397,398]" dest="*: * [397,398]"/>
+  <match src="struct_specifier [32,49]" dest="struct_specifier [32,49]"/>
+  <match src="(: ( [514,515]" dest="(: ( [514,515]"/>
+  <match src="}: } [2253,2254]" dest="}: } [2326,2327]"/>
+  <match src="field_expression [1292,1308]" dest="field_expression [1296,1312]"/>
+  <match src="identifier: tmp [260,263]" dest="identifier: tmp [260,263]"/>
+  <match src=";: ; [2677,2678]" dest=";: ; [2750,2751]"/>
+  <match src="call_expression [2573,2603]" dest="call_expression [2646,2676]"/>
+  <match src="identifier: rep [2934,2937]" dest="identifier: rep [3007,3010]"/>
+  <match src="*: * [174,175]" dest="*: * [174,175]"/>
+  <match src=",: , [2135,2136]" dest=",: , [2208,2209]"/>
+  <match src="string_literal [1739,1778]" dest="string_literal [1752,1791]"/>
+  <match src="field_identifier: tfile [527,532]" dest="field_identifier: tfile [527,532]"/>
+  <match src="&amp;: &amp; [2395,2396]" dest="&amp;: &amp; [2468,2469]"/>
+  <match src="identifier: dev_priv [123,131]" dest="identifier: dev_priv [123,131]"/>
+  <match src=",: , [2500,2501]" dest=",: , [2573,2574]"/>
+  <match src="identifier: req [1477,1480]" dest="identifier: req [1481,1484]"/>
+  <match src="=: = [1448,1449]" dest="=: = [1452,1453]"/>
+  <match src="field_identifier: base_size [1129,1138]" dest="field_identifier: base_size [1133,1142]"/>
+  <match src="field_identifier: num_pages [1676,1685]" dest="field_identifier: num_pages [1687,1696]"/>
+  <match src="(: ( [2721,2722]" dest="(: ( [2794,2795]"/>
+  <match src="call_expression [2201,2231]" dest="call_expression [2274,2304]"/>
+  <match src="&amp;: &amp; [3058,3059]" dest="&amp;: &amp; [3131,3132]"/>
+  <match src="*: * [453,454]" dest="*: * [453,454]"/>
+  <match src="field_identifier: backup [2798,2804]" dest="field_identifier: backup [2871,2877]"/>
+  <match src="field_expression [2988,3006]" dest="field_expression [3061,3079]"/>
+  <match src="assignment_expression [2739,2820]" dest="assignment_expression [2812,2893]"/>
+  <match src="identifier: user_srf [2648,2656]" dest="identifier: user_srf [2721,2729]"/>
+  <match src="if_statement [1473,2170]" dest="if_statement [1477,2243]"/>
+  <match src="type_identifier: vmw_resource [219,231]" dest="type_identifier: vmw_resource [219,231]"/>
+  <match src="field_expression [1808,1819]" dest="field_expression [1822,1833]"/>
+  <match src="): ) [1937,1938]" dest="): ) [2010,2011]"/>
+  <match src="binary_expression [2023,2087]" dest="binary_expression [2096,2160]"/>
+  <match src="binary_expression [2843,2882]" dest="binary_expression [2916,2955]"/>
+  <match src="expression_statement [3033,3064]" dest="expression_statement [3106,3137]"/>
+  <match src="declaration [186,210]" dest="declaration [186,210]"/>
+  <match src="identifier: res [233,236]" dest="identifier: res [233,236]"/>
+  <match src="identifier: vmw_resource_unreference [2573,2597]" dest="identifier: vmw_resource_unreference [2646,2670]"/>
+  <match src="field_expression [2793,2819]" dest="field_expression [2866,2892]"/>
+  <match src="pointer_declarator [259,263]" dest="pointer_declarator [259,263]"/>
+  <match src="expression_statement [2293,2508]" dest="expression_statement [2366,2581]"/>
+  <match src="struct_specifier [103,121]" dest="struct_specifier [103,121]"/>
+  <match src="declaration [266,358]" dest="declaration [266,358]"/>
+  <match src="&amp;: &amp; [1368,1369]" dest="&amp;: &amp; [1372,1373]"/>
+  <match src="else: else [2925,2929]" dest="else: else [2998,3002]"/>
+  <match src="pointer_declarator [397,401]" dest="pointer_declarator [397,401]"/>
+  <match src=":: : [3076,3077]" dest=":: : [3149,3150]"/>
+  <match src="expression_statement [2964,2985]" dest="expression_statement [3037,3058]"/>
+  <match src="-&gt;: -&gt; [1335,1337]" dest="-&gt;: -&gt; [1339,1341]"/>
+  <match src="): ) [352,353]" dest="): ) [352,353]"/>
+  <match src="argument_list [2523,2533]" dest="argument_list [2596,2606]"/>
+  <match src=";: ; [2603,2604]" dest=";: ; [2676,2677]"/>
+  <match src="identifier: arg [303,306]" dest="identifier: arg [303,306]"/>
+  <match src="&amp;: &amp; [3095,3096]" dest="&amp;: &amp; [3168,3169]"/>
+  <match src="identifier: ret [2524,2527]" dest="identifier: ret [2597,2600]"/>
+  <match src="&amp;: &amp; [2564,2565]" dest="&amp;: &amp; [2637,2638]"/>
+  <match src="pointer_declarator [50,54]" dest="pointer_declarator [50,54]"/>
+  <match src="-&gt;: -&gt; [2854,2856]" dest="-&gt;: -&gt; [2927,2929]"/>
+  <match src="identifier: drm_master_get [1311,1325]" dest="identifier: drm_master_get [1315,1329]"/>
+  <match src="binary_expression [999,1052]" dest="binary_expression [1003,1056]"/>
+  <match src="-&gt;: -&gt; [2725,2727]" dest="-&gt;: -&gt; [2798,2800]"/>
+  <match src=";: ; [2920,2921]" dest=";: ; [2993,2994]"/>
+  <match src="field_expression [1369,1394]" dest="field_expression [1373,1398]"/>
+  <match src="compound_statement [2535,2626]" dest="compound_statement [2608,2699]"/>
+  <match src="number_literal: 128 [817,820]" dest="number_literal: 128 [821,824]"/>
+  <match src="*: * [351,352]" dest="*: * [351,352]"/>
+  <match src="(: ( [314,315]" dest="(: ( [314,315]"/>
+  <match src="=: = [402,403]" dest="=: = [402,403]"/>
+  <match src="struct: struct [416,422]" dest="struct: struct [416,422]"/>
+  <match src="identifier: unlikely [1408,1416]" dest="identifier: unlikely [1412,1420]"/>
+  <match src="identifier: unlikely [2515,2523]" dest="identifier: unlikely [2588,2596]"/>
+  <match src=";: ; [1820,1821]" dest=";: ; [1834,1835]"/>
+  <match src="assignment_expression [2964,2984]" dest="assignment_expression [3037,3057]"/>
+  <match src="parameter_list [31,99]" dest="parameter_list [31,99]"/>
+  <match src="field_expression [2023,2045]" dest="field_expression [2096,2118]"/>
+  <match src="if_statement [1151,1188]" dest="if_statement [1155,1192]"/>
+  <match src=";: ; [1344,1345]" dest=";: ; [1348,1349]"/>
+  <match src="identifier: vmw_user_surface_base_release [2471,2500]" dest="identifier: vmw_user_surface_base_release [2544,2573]"/>
+  <match src="if: if [1874,1876]" dest="if: if [1947,1949]"/>
+  <match src="if: if [2173,2175]" dest="if: if [2246,2248]"/>
+  <match src="return: return [1430,1436]" dest="return: return [1434,1440]"/>
+  <match src="&amp;: &amp; [1450,1451]" dest="&amp;: &amp; [1454,1455]"/>
+  <match src="unary_expression [700,707]" dest="unary_expression [704,711]"/>
+  <match src="identifier: drm_vmw_surface_flag_create_buffer [1903,1937]" dest="identifier: drm_vmw_surface_flag_create_buffer [1976,2010]"/>
+  <match src="assignment_expression [2257,2290]" dest="assignment_expression [2330,2363]"/>
+  <match src="(: ( [1476,1477]" dest="(: ( [1480,1481]"/>
+  <match src="binary_expression [2186,2194]" dest="binary_expression [2259,2267]"/>
+  <match src="identifier: req [595,598]" dest="identifier: req [599,602]"/>
+  <match src="declaration [360,414]" dest="declaration [360,414]"/>
+  <match src="-&gt;: -&gt; [2331,2333]" dest="-&gt;: -&gt; [2404,2406]"/>
+  <match src="{: { [100,101]" dest="{: { [100,101]"/>
+  <match src="identifier: drm_vmw_surface_flag_shareable [2057,2087]" dest="identifier: drm_vmw_surface_flag_shareable [2130,2160]"/>
+  <match src="identifier: rep [2964,2967]" dest="identifier: rep [3037,3040]"/>
+  <match src="): ) [689,690]" dest="): ) [693,694]"/>
+  <match src="parameter_declaration [56,66]" dest="parameter_declaration [56,66]"/>
+  <match src="parenthesized_expression [648,690]" dest="parenthesized_expression [652,694]"/>
+  <match src="ERROR [1220,1226]" dest="ERROR [1224,1230]"/>
+  <match src="identifier: req [649,652]" dest="identifier: req [653,656]"/>
+  <match src="null [2502,2506]" dest="null [2575,2579]"/>
+  <match src="identifier: backup_handle [2099,2112]" dest="identifier: backup_handle [2172,2185]"/>
+  <match src="=: = [307,308]" dest="=: = [307,308]"/>
+  <match src="field_expression [405,413]" dest="field_expression [405,413]"/>
+  <match src="field_expression [1326,1343]" dest="field_expression [1330,1347]"/>
+  <match src="): ) [1819,1820]" dest="): ) [1833,1834]"/>
+</matches>
+<actions>
+  <insert-tree tree="init_declarator [572,589]" parent="declaration [563,586]" at="1"/>
+  <insert-node tree="if_statement [1646,1937]" parent="compound_statement [1518,1868]" at="2"/>
+  <insert-node tree="if: if [1646,1648]" parent="if_statement [1646,1937]" at="0"/>
+  <insert-node tree="parenthesized_expression [1649,1659]" parent="if_statement [1646,1937]" at="1"/>
+  <insert-node tree="compound_statement [1660,1937]" parent="if_statement [1646,1937]" at="2"/>
+  <insert-node tree="(: ( [1649,1650]" parent="parenthesized_expression [1649,1659]" at="0"/>
+  <move-tree tree="binary_expression [1646,1654]" parent="parenthesized_expression [1649,1659]" at="1"/>
+  <insert-node tree="): ) [1658,1659]" parent="parenthesized_expression [1649,1659]" at="2"/>
+  <insert-node tree="{: { [1660,1661]" parent="compound_statement [1660,1937]" at="0"/>
+  <move-tree tree="if_statement [1642,1864]" parent="compound_statement [1660,1937]" at="1"/>
+  <insert-node tree="}: } [1936,1937]" parent="compound_statement [1660,1937]" at="2"/>
+  <insert-tree tree="else_clause [1881,1932]" parent="if_statement [1642,1864]" at="3"/>
+  <move-tree tree="binary_expression [1658,1722]" parent="parenthesized_expression [1645,1723]" at="1"/>
+  <delete-node tree="identifier: backup_handle [572,585]"/>
+  <delete-node tree="&amp;&amp;: &amp;&amp; [1655,1657]"/>
+  <delete-node tree="binary_expression [1646,1722]"/>
+</actions>

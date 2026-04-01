@@ -1,0 +1,12 @@
+class findFilename {
+public static String findFilename(FileDownloadConnection connection, String url) {
+        String filename = FileDownloadUtils.parseContentDisposition(connection.
+                getResponseHeaderField("Content-Disposition"));
+
+        if (TextUtils.isEmpty(filename)) {
+            filename = FileDownloadUtils.generateFileName(url);
+        }
+
+        return filename;
+    }
+}

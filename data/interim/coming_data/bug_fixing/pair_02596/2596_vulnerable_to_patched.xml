@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src=":: : [80,81]" dest=":: : [197,198]"/>
+  <match src="translation_unit [1,188]" dest="translation_unit [1,335]"/>
+  <match src="identifier: ShouldShowPlaceholderText [24,49]" dest="identifier: ShouldShowPlaceholderText [24,49]"/>
+  <match src="): ) [160,161]" dest="): ) [307,308]"/>
+  <match src="call_expression [154,184]" dest="call_expression [310,331]"/>
+  <match src="argument_list [159,161]" dest="argument_list [306,308]"/>
+  <match src="): ) [183,184]" dest="): ) [330,331]"/>
+  <match src="const: const [52,57]" dest="const: const [52,57]"/>
+  <match src=":: : [23,24]" dest=":: : [23,24]"/>
+  <match src="(: ( [182,183]" dest="(: ( [329,330]"/>
+  <match src="call_expression [154,161]" dest="call_expression [301,308]"/>
+  <match src="): ) [107,108]" dest="): ) [285,286]"/>
+  <match src=":: : [79,80]" dest=":: : [196,197]"/>
+  <match src="type_qualifier [52,57]" dest="type_qualifier [52,57]"/>
+  <match src="identifier: Textfield [70,79]" dest="identifier: Textfield [187,196]"/>
+  <match src="identifier: model [154,159]" dest="identifier: model [301,306]"/>
+  <match src="identifier: OmniboxViewViews [6,22]" dest="identifier: OmniboxViewViews [6,22]"/>
+  <match src="argument_list [182,184]" dest="argument_list [329,331]"/>
+  <match src="): ) [50,51]" dest="): ) [50,51]"/>
+  <match src="(: ( [49,50]" dest="(: ( [49,50]"/>
+  <match src="(: ( [159,160]" dest="(: ( [306,307]"/>
+  <match src="ERROR [70,81]" dest="ERROR [187,198]"/>
+  <match src="argument_list [106,108]" dest="argument_list [284,286]"/>
+  <match src=":: : [22,23]" dest=":: : [22,23]"/>
+  <match src="call_expression [81,108]" dest="call_expression [268,286]"/>
+  <match src="ERROR [6,24]" dest="ERROR [6,24]"/>
+  <match src="parameter_list [49,51]" dest="parameter_list [49,51]"/>
+  <match src="identifier: ShouldShowPlaceholderText [81,106]" dest="identifier: is_caret_visible [268,284]"/>
+  <match src="function_declarator [24,51]" dest="function_declarator [24,51]"/>
+  <match src="(: ( [106,107]" dest="(: ( [284,285]"/>
+</matches>
+<actions>
+  <insert-node tree="ERROR [1,335]" parent="translation_unit [1,188]" at="0"/>
+  <insert-node tree="primitive_type: bool [1,5]" parent="ERROR [1,335]" at="0"/>
+  <move-tree tree="ERROR [6,24]" parent="ERROR [1,335]" at="1"/>
+  <move-tree tree="function_declarator [24,51]" parent="ERROR [1,335]" at="2"/>
+  <insert-node tree="declaration [52,176]" parent="ERROR [1,335]" at="3"/>
+  <insert-node tree="type_identifier: return [180,186]" parent="ERROR [1,335]" at="4"/>
+  <move-tree tree="ERROR [70,81]" parent="ERROR [1,335]" at="5"/>
+  <insert-node tree="function_declarator [198,331]" parent="ERROR [1,335]" at="6"/>
+  <insert-node tree=";: ; [331,332]" parent="ERROR [1,335]" at="7"/>
+  <insert-node tree="}: } [334,335]" parent="ERROR [1,335]" at="8"/>
+  <move-tree tree="type_qualifier [52,57]" parent="declaration [52,176]" at="0"/>
+  <insert-tree tree="ERROR [58,59]" parent="declaration [52,176]" at="1"/>
+  <insert-node tree="primitive_type: bool [62,66]" parent="declaration [52,176]" at="2"/>
+  <insert-tree tree="init_declarator [67,175]" parent="declaration [52,176]" at="3"/>
+  <insert-node tree=";: ; [175,176]" parent="declaration [52,176]" at="4"/>
+  <insert-tree tree="function_declarator [198,225]" parent="function_declarator [198,331]" at="0"/>
+  <insert-tree tree="ERROR [226,228]" parent="function_declarator [198,331]" at="1"/>
+  <insert-node tree="parameter_list [238,287]" parent="function_declarator [198,331]" at="2"/>
+  <insert-tree tree="ERROR [288,301]" parent="function_declarator [198,331]" at="3"/>
+  <move-tree tree="call_expression [154,161]" parent="function_declarator [198,331]" at="4"/>
+  <insert-tree tree="ERROR [308,310]" parent="function_declarator [198,331]" at="5"/>
+  <move-tree tree="call_expression [154,184]" parent="function_declarator [198,331]" at="6"/>
+  <insert-node tree="(: ( [238,239]" parent="parameter_list [238,287]" at="0"/>
+  <insert-node tree="parameter_declaration [239,286]" parent="parameter_list [238,287]" at="1"/>
+  <insert-node tree="): ) [286,287]" parent="parameter_list [238,287]" at="2"/>
+  <insert-node tree="identifier: is_keyword_selected [310,329]" parent="call_expression [154,184]" at="0"/>
+  <insert-node tree="type_identifier: show_with_caret [239,254]" parent="parameter_declaration [239,286]" at="0"/>
+  <insert-tree tree="ERROR [255,259]" parent="parameter_declaration [239,286]" at="1"/>
+  <insert-node tree="function_declarator [259,286]" parent="parameter_declaration [239,286]" at="2"/>
+  <insert-node tree="identifier: model [259,264]" parent="function_declarator [259,286]" at="0"/>
+  <insert-tree tree="parameter_list [264,266]" parent="function_declarator [259,286]" at="1"/>
+  <insert-tree tree="ERROR [266,268]" parent="function_declarator [259,286]" at="2"/>
+  <move-tree tree="call_expression [81,108]" parent="function_declarator [259,286]" at="3"/>
+  <update-node tree="identifier: ShouldShowPlaceholderText [81,106]" label="is_caret_visible"/>
+  <delete-node tree="-&gt;: -&gt; [161,163]"/>
+  <delete-node tree="field_identifier: is_keyword_selected [163,182]"/>
+  <delete-node tree="field_expression [154,182]"/>
+  <delete-node tree="primitive_type: bool [1,5]"/>
+  <delete-node tree="ERROR [52,57]"/>
+  <delete-node tree="{: { [58,59]"/>
+  <delete-node tree="return: return [63,69]"/>
+  <delete-node tree="&amp;&amp;: &amp;&amp; [109,111]"/>
+  <delete-tree tree="unary_expression [121,149]"/>
+  <delete-node tree="binary_expression [81,149]"/>
+  <delete-node tree="&amp;&amp;: &amp;&amp; [150,152]"/>
+  <delete-node tree="!: ! [153,154]"/>
+  <delete-node tree="unary_expression [153,184]"/>
+  <delete-node tree="binary_expression [81,184]"/>
+  <delete-node tree=";: ; [184,185]"/>
+  <delete-node tree="return_statement [63,185]"/>
+  <delete-node tree="}: } [187,188]"/>
+  <delete-node tree="compound_statement [58,188]"/>
+  <delete-node tree="function_definition [1,188]"/>
+</actions>

@@ -1,0 +1,98 @@
+{
+  "frequency": [
+    {
+      "c": "Assignment",
+      "f": "3"
+    },
+    {
+      "c": "VariableRead",
+      "f": "2"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "FieldRead",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "insert-node_FieldRead_BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_Assignment_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_LocalVariable_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Assignment_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_VariableRead_BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Assignment_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_VariableRead_BinaryOperator",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Assignment",
+      "f": "0.42857142857142855"
+    },
+    {
+      "c": "VariableRead",
+      "f": "0.2857142857142857"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "0.14285714285714285"
+    },
+    {
+      "c": "FieldRead",
+      "f": "0.14285714285714285"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "insert-node_FieldRead_BinaryOperator",
+      "f": "0.14285714285714285"
+    },
+    {
+      "c": "insert-node_Assignment_Block",
+      "f": "0.14285714285714285"
+    },
+    {
+      "c": "move-tree_LocalVariable_Block",
+      "f": "0.14285714285714285"
+    },
+    {
+      "c": "move-tree_Assignment_Block",
+      "f": "0.14285714285714285"
+    },
+    {
+      "c": "move-tree_VariableRead_BinaryOperator",
+      "f": "0.14285714285714285"
+    },
+    {
+      "c": "delete-node_Assignment_Block",
+      "f": "0.14285714285714285"
+    },
+    {
+      "c": "update-node_VariableRead_BinaryOperator",
+      "f": "0.14285714285714285"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+class search {
+<T> List<T> search(String userSearchFilter, Object[] filterArgs, Mapper<T> mapper, int maxResult);
+}

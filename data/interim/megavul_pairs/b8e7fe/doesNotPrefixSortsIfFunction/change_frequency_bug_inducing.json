@@ -1,0 +1,42 @@
+{
+  "frequency": [
+    {
+      "c": "FieldRead",
+      "f": "1"
+    },
+    {
+      "c": "VirtualElement",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "delete-node_VirtualElement_Annotation",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_FieldRead_Annotation",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "FieldRead",
+      "f": "0.5"
+    },
+    {
+      "c": "VirtualElement",
+      "f": "0.5"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "delete-node_VirtualElement_Annotation",
+      "f": "0.5"
+    },
+    {
+      "c": "delete-node_FieldRead_Annotation",
+      "f": "0.5"
+    }
+  ]
+}

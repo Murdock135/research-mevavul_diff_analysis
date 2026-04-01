@@ -1,0 +1,20 @@
+{
+    "id": "013edb6c2d5a4e472988ea29a7cb5b1fdaf9c635_getTempFileFromInputStream_0",
+    "func_name": "getTempFileFromInputStream",
+    "cve_id": "CVE-2021-22572",
+    "cwe_ids": [
+        "CWE-668"
+    ],
+    "commit_hash": "013edb6c2d5a4e472988ea29a7cb5b1fdaf9c635",
+    "parent_commit_hash": "995efca635bffc58b6209d040e8c96cd88816880",
+    "repo_name": "google/data-transfer-project",
+    "git_url": "https://github.com/google/data-transfer-project/commit/013edb6c2d5a4e472988ea29a7cb5b1fdaf9c635",
+    "file_path": "portability-spi-cloud/src/main/java/org/datatransferproject/spi/cloud/storage/TemporaryPerJobDataStore.java",
+    "file_name": "TemporaryPerJobDataStore.java",
+    "commit_date": 1616601877,
+    "commit_msg": "Switch to using Files.createTempFile",
+    "cvss_vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N",
+    "cvss_base_score": 2.1,
+    "cvss_base_severity": "LOW",
+    "cvss_is_v3": false
+}

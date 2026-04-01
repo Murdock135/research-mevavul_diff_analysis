@@ -1,0 +1,20 @@
+{
+    "id": "accf6838078f8eb105cfc7865aba5c705fb68426_openFile_0",
+    "func_name": "openFile",
+    "cve_id": "CVE-2017-20181",
+    "cwe_ids": [
+        "CWE-22"
+    ],
+    "commit_hash": "accf6838078f8eb105cfc7865aba5c705fb68426",
+    "parent_commit_hash": "89b97f5c2f43ced71566c796d7008acedfd9957f",
+    "repo_name": "hgzojer/vocabletrainer",
+    "git_url": "https://github.com/hgzojer/vocabletrainer/commit/accf6838078f8eb105cfc7865aba5c705fb68426",
+    "file_path": "src/at/hgz/vocabletrainer/VocableTrainerProvider.java",
+    "file_name": "VocableTrainerProvider.java",
+    "commit_date": 1506818763,
+    "commit_msg": "Bugfix Path Traversal Vulnerability - see https://support.google.com/faqs/answer/7496913",
+    "cvss_vector": "AV:L/AC:L/Au:S/C:P/I:P/A:P",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

@@ -1,0 +1,20 @@
+{
+    "id": "d2715e3afa13f50deaa19643676816ce391551e9_handleRequest_0",
+    "func_name": "handleRequest",
+    "cve_id": "CVE-2019-10184",
+    "cwe_ids": [
+        "CWE-862"
+    ],
+    "commit_hash": "d2715e3afa13f50deaa19643676816ce391551e9",
+    "parent_commit_hash": "fa9263dccd8acd0aa361e6990a3d1de6af4036c7",
+    "repo_name": "undertow-io/undertow",
+    "git_url": "https://github.com/undertow-io/undertow/commit/d2715e3afa13f50deaa19643676816ce391551e9",
+    "file_path": "servlet/src/main/java/io/undertow/servlet/handlers/ServletInitialHandler.java",
+    "file_name": "ServletInitialHandler.java",
+    "commit_date": 1563948181,
+    "commit_msg": "[UNDERTOW-1578] 401 Unauthorized should be returned when requesting a protected directory without trailing slash",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

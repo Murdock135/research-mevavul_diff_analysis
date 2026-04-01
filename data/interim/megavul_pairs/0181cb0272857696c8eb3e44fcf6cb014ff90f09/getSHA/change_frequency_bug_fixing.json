@@ -1,0 +1,146 @@
+{
+  "frequency": [
+    {
+      "c": "LocalVariable",
+      "f": "4"
+    },
+    {
+      "c": "Invocation",
+      "f": "3"
+    },
+    {
+      "c": "VariableRead",
+      "f": "1"
+    },
+    {
+      "c": "TypeAccess",
+      "f": "1"
+    },
+    {
+      "c": "ArrayTypeReference",
+      "f": "1"
+    },
+    {
+      "c": "TypeReference",
+      "f": "1"
+    },
+    {
+      "c": "While",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "update-node_LocalVariable_Block",
+      "f": "2"
+    },
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "2"
+    },
+    {
+      "c": "update-node_Invocation_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_While_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_ArrayTypeReference_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "update-node_VariableRead_Return",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Invocation_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "update-node_TypeAccess_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "update-node_TypeReference_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "update-node_Invocation_Invocation",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "LocalVariable",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.25"
+    },
+    {
+      "c": "VariableRead",
+      "f": "0.08333333333333333"
+    },
+    {
+      "c": "TypeAccess",
+      "f": "0.08333333333333333"
+    },
+    {
+      "c": "ArrayTypeReference",
+      "f": "0.08333333333333333"
+    },
+    {
+      "c": "TypeReference",
+      "f": "0.08333333333333333"
+    },
+    {
+      "c": "While",
+      "f": "0.08333333333333333"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "update-node_LocalVariable_Block",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "update-node_Invocation_LocalVariable",
+      "f": "0.08333333333333333"
+    },
+    {
+      "c": "delete-node_While_Block",
+      "f": "0.08333333333333333"
+    },
+    {
+      "c": "update-node_ArrayTypeReference_LocalVariable",
+      "f": "0.08333333333333333"
+    },
+    {
+      "c": "update-node_VariableRead_Return",
+      "f": "0.08333333333333333"
+    },
+    {
+      "c": "move-tree_Invocation_Invocation",
+      "f": "0.08333333333333333"
+    },
+    {
+      "c": "update-node_TypeAccess_Invocation",
+      "f": "0.08333333333333333"
+    },
+    {
+      "c": "update-node_TypeReference_LocalVariable",
+      "f": "0.08333333333333333"
+    },
+    {
+      "c": "update-node_Invocation_Invocation",
+      "f": "0.08333333333333333"
+    }
+  ]
+}

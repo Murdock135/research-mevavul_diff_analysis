@@ -1,0 +1,20 @@
+{
+    "id": "9f8c3cf74223ed0a8a834134be9c917b9f10ceb5_hasNextChunk_0",
+    "func_name": "hasNextChunk",
+    "cve_id": "CVE-2023-43642",
+    "cwe_ids": [
+        "CWE-770"
+    ],
+    "commit_hash": "9f8c3cf74223ed0a8a834134be9c917b9f10ceb5",
+    "parent_commit_hash": "49d700175f18ed5f8c5d371b7c2f80c75979bd68",
+    "repo_name": "xerial/snappy-java",
+    "git_url": "https://github.com/xerial/snappy-java/commit/9f8c3cf74223ed0a8a834134be9c917b9f10ceb5",
+    "file_path": "src/main/java/org/xerial/snappy/SnappyInputStream.java",
+    "file_name": "SnappyInputStream.java",
+    "commit_date": 1695480918,
+    "commit_msg": "Merge pull request from GHSA-55g7-9cwv-5qfv\n\n* Validate chunk size to be within a configured maximum\n\n* Add constructors to have max size configurable\n\n* Code cleanup\n\n* Use 512MB for consistency\n\n---------\n\nCo-authored-by: Taro L. Saito <leo@xerial.org>",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

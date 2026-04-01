@@ -1,0 +1,10 @@
+class fromXML_7 {
+public static ProfileAttribute fromXML(String xml) throws Exception {
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder builder = factory.newDocumentBuilder();
+        Document document = builder.parse(new InputSource(new StringReader(xml)));
+
+        Element accountElement = document.getDocumentElement();
+        return fromDOM(accountElement);
+    }
+}

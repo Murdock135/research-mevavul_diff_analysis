@@ -1,0 +1,114 @@
+{
+  "frequency": [
+    {
+      "c": "Invocation",
+      "f": "5"
+    },
+    {
+      "c": "TypeAccess",
+      "f": "2"
+    },
+    {
+      "c": "FieldRead",
+      "f": "1"
+    },
+    {
+      "c": "Literal",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "update-node_FieldRead_ConstructorCall",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_TypeAccess_ThisAccess",
+      "f": "1"
+    },
+    {
+      "c": "update-node_TypeAccess_ThisAccess",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Invocation_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_Invocation_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Invocation_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Invocation_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Literal_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "update-node_Invocation_Invocation",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Invocation",
+      "f": "0.5555555555555556"
+    },
+    {
+      "c": "TypeAccess",
+      "f": "0.2222222222222222"
+    },
+    {
+      "c": "FieldRead",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "Literal",
+      "f": "0.1111111111111111"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "update-node_FieldRead_ConstructorCall",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "move-tree_TypeAccess_ThisAccess",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "update-node_TypeAccess_ThisAccess",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "delete-node_Invocation_Block",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "insert-node_Invocation_Invocation",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "move-tree_Invocation_Invocation",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "delete-node_Invocation_LocalVariable",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "delete-node_Literal_Invocation",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "update-node_Invocation_Invocation",
+      "f": "0.1111111111111111"
+    }
+  ]
+}

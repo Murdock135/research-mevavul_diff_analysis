@@ -1,0 +1,15 @@
+class consume {
+public boolean consume(HttpServletRequest httpRequest,
+                           HttpServletResponse httpResponse) throws IOException {
+
+        if (consumeWithFileResourceHandlers(httpRequest, httpResponse)) {
+            return true;
+        }
+
+        if (consumeWithJarResourceHandler(httpRequest, httpResponse)) {
+            return true;
+        }
+
+        return false;
+    }
+}

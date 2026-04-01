@@ -1,0 +1,41 @@
+class unpackJar {
+public static void unpackJar(File fjar, File fout) throws IOException {
+    
+      JarFile jf = new JarFile(fjar);
+      Enumeration<JarEntry> en = jf.entries();
+
+      while (en.hasMoreElements()) {
+         JarEntry je = en.nextElement();
+         java.io.File f = new File(fout,  je.getName());
+							if (!f.toPath().normalize().startsWith(fout.toPath().normalize())) {
+								throw new RuntimeException("Bad zip entry");
+							}
+         if (je.isDirectory()) {
+            f.mkdirs();
+            continue;
+
+         } else {
+            // f.getParentFile().mkdirs();
+
+            if (f.getPath().indexOf("META-INF") >= 0) {
+               // skip it
+            } else {
+            f.getParentFile().mkdirs();
+            java.io.InputStream is = jf.getInputStream(je);
+            java.io.FileOutputStream fos = new FileOutputStream(f);
+
+            // EFF - buffering, file channels??
+            while (is.available() > 0) {
+               fos.write(is.read());
+            }
+            fos.close();
+            is.close();
+         }
+         }
+      }
+
+    //  E.info("unpacked jar to " + fout);
+
+       
+   }
+}

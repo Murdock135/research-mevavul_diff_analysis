@@ -1,0 +1,20 @@
+{
+    "id": "06e772e05514af4aa427641784c5eec39a892ed3_setMediaButtonBroadcastReceiver_0",
+    "func_name": "setMediaButtonBroadcastReceiver",
+    "cve_id": "CVE-2023-21280",
+    "cwe_ids": [
+        "CWE-400"
+    ],
+    "commit_hash": "06e772e05514af4aa427641784c5eec39a892ed3",
+    "parent_commit_hash": "a65429742caf05205ea7f1c2fdd1119ca652b810",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/06e772e05514af4aa427641784c5eec39a892ed3",
+    "file_path": "services/core/java/com/android/server/media/MediaSessionRecord.java",
+    "file_name": "MediaSessionRecord.java",
+    "commit_date": 1680631106,
+    "commit_msg": "Validate ComponentName for MediaButtonBroadcastReceiver\n\nThis is a security fix for b/270049379.\n\nBug: 270049379\nTest: atest CtsMediaMiscTestCases\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:c573c83a2aa36ca022302f675d705518dd723a3c)\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:ba546a306217389a8ff9e5e948612651fd496081)\nMerged-In: I05626f7abf1efef86c9e01ee3f077d7177d7f662\nChange-Id: I05626f7abf1efef86c9e01ee3f077d7177d7f662\n",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

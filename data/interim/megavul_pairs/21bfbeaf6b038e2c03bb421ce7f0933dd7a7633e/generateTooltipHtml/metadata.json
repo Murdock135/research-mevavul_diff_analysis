@@ -1,0 +1,20 @@
+{
+    "id": "21bfbeaf6b038e2c03bb421ce7f0933dd7a7633e_generateTooltipHtml_0",
+    "func_name": "generateTooltipHtml",
+    "cve_id": "CVE-2023-31544",
+    "cwe_ids": [
+        "CWE-79"
+    ],
+    "commit_hash": "21bfbeaf6b038e2c03bb421ce7f0933dd7a7633e",
+    "parent_commit_hash": "05c0645760d9ca0fd34b3b44af3d821fd8ebe247",
+    "repo_name": "alkacon/opencms-core",
+    "git_url": "https://github.com/alkacon/opencms-core/commit/21bfbeaf6b038e2c03bb421ce7f0933dd7a7633e",
+    "file_path": "src-gwt/org/opencms/ade/galleries/client/ui/CmsResultItemWidget.java",
+    "file_name": "CmsResultItemWidget.java",
+    "commit_date": 1566874595,
+    "commit_msg": "Fixed XSS issue in gallery result view (github issue #652).",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+    "cvss_base_score": 5.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

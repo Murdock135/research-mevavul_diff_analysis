@@ -1,0 +1,30 @@
+class sendResponse {
+@Override
+    public void sendResponse(Throwable error) throws IOException {
+        BytesStreamOutput stream = new BytesStreamOutput();
+        try {
+            stream.skip(NettyHeader.HEADER_SIZE);
+            RemoteTransportException tx = new RemoteTransportException(transport.nodeName(), transport.wrapAddress(channel.getLocalAddress()), action, error);
+            ThrowableObjectOutputStream too = new ThrowableObjectOutputStream(stream);
+            too.writeObject(tx);
+            too.close();
+        } catch (NotSerializableException e) {
+            stream.reset();
+            stream.skip(NettyHeader.HEADER_SIZE);
+            RemoteTransportException tx = new RemoteTransportException(transport.nodeName(), transport.wrapAddress(channel.getLocalAddress()), action, new NotSerializableTransportException(error));
+            ThrowableObjectOutputStream too = new ThrowableObjectOutputStream(stream);
+            too.writeObject(tx);
+            too.close();
+        }
+
+        byte status = 0;
+        status = TransportStatus.setResponse(status);
+        status = TransportStatus.setError(status);
+
+        BytesReference bytes = stream.bytes();
+        ChannelBuffer buffer = bytes.toChannelBuffer();
+        NettyHeader.writeHeader(buffer, requestId, status, version);
+        channel.write(buffer);
+        transportServiceAdapter.onResponseSent(requestId, action, error);
+    }
+}

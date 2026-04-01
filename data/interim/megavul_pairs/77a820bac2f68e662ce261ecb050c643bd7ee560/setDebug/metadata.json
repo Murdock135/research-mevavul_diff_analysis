@@ -1,0 +1,20 @@
+{
+    "id": "77a820bac2f68e662ce261ecb050c643bd7ee560_setDebug_0",
+    "func_name": "setDebug",
+    "cve_id": "CVE-2018-25068",
+    "cwe_ids": [
+        "CWE-668"
+    ],
+    "commit_hash": "77a820bac2f68e662ce261ecb050c643bd7ee560",
+    "parent_commit_hash": "936e971cbf056273c502dc080af6d3333af5ee79",
+    "repo_name": "devent/globalpom-utils",
+    "git_url": "https://github.com/devent/globalpom-utils/commit/77a820bac2f68e662ce261ecb050c643bd7ee560",
+    "file_path": "globalpomutils-fileresources/src/main/java/com/anrisoftware/globalpom/fileresourcemanager/FileResourceManagerProvider.java",
+    "file_name": "FileResourceManagerProvider.java",
+    "commit_date": 1539136927,
+    "commit_msg": "Feature #4100 Fix critical Vulnerability\n\n\"File.createTempFile\" should not be used to create a directory",
+    "cvss_vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+    "cvss_base_score": 6.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

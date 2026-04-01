@@ -1,0 +1,20 @@
+{
+    "id": "dd7bf104e7ed59142909567ecd004335c3442ec5_isPass_0",
+    "func_name": "isPass",
+    "cve_id": "CVE-2023-34602",
+    "cwe_ids": [
+        "CWE-89"
+    ],
+    "commit_hash": "dd7bf104e7ed59142909567ecd004335c3442ec5",
+    "parent_commit_hash": "6e85584c433c3803c0fd9e1c03a7c6ae4d93877f",
+    "repo_name": "jeecgboot/jeecg-boot",
+    "git_url": "https://github.com/jeecgboot/jeecg-boot/commit/dd7bf104e7ed59142909567ecd004335c3442ec5",
+    "file_path": "jeecg-boot-base-core/src/main/java/org/jeecg/common/util/security/AbstractQueryBlackListHandler.java",
+    "file_name": "AbstractQueryBlackListHandler.java",
+    "commit_date": 1685822475,
+    "commit_msg": "issues/4983 SQL Injection in 3.5.1 #4983",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

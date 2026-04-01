@@ -1,0 +1,20 @@
+{
+    "id": "b7ef741133e57add40aa4cb19430a0065f378a94_deleteByCriterionSingleQuote_1",
+    "func_name": "deleteByCriterionSingleQuote",
+    "cve_id": "CVE-2019-15534",
+    "cwe_ids": [
+        "CWE-89"
+    ],
+    "commit_hash": "b7ef741133e57add40aa4cb19430a0065f378a94",
+    "parent_commit_hash": "cd79bfdcbd16091f54befe0c6409922cf2e52638",
+    "repo_name": "folio-org/raml-module-builder",
+    "git_url": "https://github.com/folio-org/raml-module-builder/commit/b7ef741133e57add40aa4cb19430a0065f378a94",
+    "file_path": "domain-models-runtime/src/test/java/org/folio/rest/persist/PostgresClientIT.java",
+    "file_name": "PostgresClientIT.java",
+    "commit_date": 1565941839,
+    "commit_msg": "RMB-200: Single quote SQL Injection in PostgresClient.update(table, updateSection, ...)",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

@@ -1,0 +1,20 @@
+{
+    "id": "7c18543d126e8a567b83bb4535631825aaa9d742_verifyResponse_0",
+    "func_name": "verifyResponse",
+    "cve_id": "CVE-2023-37471",
+    "cwe_ids": [
+        "CWE-287"
+    ],
+    "commit_hash": "7c18543d126e8a567b83bb4535631825aaa9d742",
+    "parent_commit_hash": "46bce7d6a8ca696be90d84d708c4216a725fdf65",
+    "repo_name": "OpenIdentityPlatform/OpenAM",
+    "git_url": "https://github.com/OpenIdentityPlatform/OpenAM/commit/7c18543d126e8a567b83bb4535631825aaa9d742",
+    "file_path": "openam-federation/openam-federation-library/src/main/java/com/sun/identity/saml/common/SAMLUtils.java",
+    "file_name": "SAMLUtils.java",
+    "commit_date": 1689656703,
+    "commit_msg": "GHSL-2023-143, GHSL-2023-144, deny unsigned SAML response (#624)",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_is_v3": true
+}

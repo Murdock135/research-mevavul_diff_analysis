@@ -1,0 +1,20 @@
+{
+    "id": "bd3ab78370098491911d7fe9d7a43b97144a234e_configureParser_0",
+    "func_name": "configureParser",
+    "cve_id": "CVE-2021-33813",
+    "cwe_ids": [
+        "CWE-611"
+    ],
+    "commit_hash": "bd3ab78370098491911d7fe9d7a43b97144a234e",
+    "parent_commit_hash": "3c4e2cfec3b8c7de45ec04cf5c2a01e3dc20c59c",
+    "repo_name": "hunterhacker/jdom",
+    "git_url": "https://github.com/hunterhacker/jdom/commit/bd3ab78370098491911d7fe9d7a43b97144a234e",
+    "file_path": "core/src/java/org/jdom2/input/SAXBuilder.java",
+    "file_name": "SAXBuilder.java",
+    "commit_date": 1613630401,
+    "commit_msg": "fix setFeature bug and add test case",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

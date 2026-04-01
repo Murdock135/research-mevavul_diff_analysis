@@ -1,0 +1,3 @@
+class isActive {
+boolean isActive();
+}

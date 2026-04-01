@@ -1,0 +1,58 @@
+{
+  "frequency": [
+    {
+      "c": "TypeReference",
+      "f": "1"
+    },
+    {
+      "c": "VirtualElement",
+      "f": "1"
+    },
+    {
+      "c": "If",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "insert-node_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_TypeReference_CatchVariable",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_VirtualElement_LocalVariable",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "TypeReference",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "VirtualElement",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "If",
+      "f": "0.3333333333333333"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "insert-node_If_Block",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "delete-node_TypeReference_CatchVariable",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "delete-node_VirtualElement_LocalVariable",
+      "f": "0.3333333333333333"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+    "id": "2750faaa1ec819eed9acffea7bd3daf867fda444_addNewUnknownCall_1",
+    "func_name": "addNewUnknownCall",
+    "cve_id": "CVE-2016-0847",
+    "cwe_ids": [
+        "CWE-264"
+    ],
+    "commit_hash": "2750faaa1ec819eed9acffea7bd3daf867fda444",
+    "parent_commit_hash": "818a79f375031dc57c3ba12a363da08c9a1d82f1",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/packages/services/Telecomm/+/2750faaa1ec819eed9acffea7bd3daf867fda444",
+    "file_path": "src/com/android/server/telecom/TelecomServiceImpl.java",
+    "file_name": "TelecomServiceImpl.java",
+    "commit_date": 1455323044,
+    "commit_msg": "DO NOT MERGE Check PAH in addNewIncomingCall\n\nCheck to be sure that the PhoneAccountHandle in addNewIncomingCall\ncorresponds to an existing registered PhoneAccount in Telecom and that\nthe PhoneAccount is enabled. Otherwise, throw a SecurityException.\n\nBug: 26864502\nChange-Id: I6bbd8a1ece821b62bee2c94decde87a41afbf8b0\n",
+    "cvss_vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C",
+    "cvss_base_score": 7.2,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

@@ -1,0 +1,42 @@
+{
+  "frequency": [
+    {
+      "c": "Invocation",
+      "f": "6"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "update-node_Invocation_BinaryOperator",
+      "f": "6"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Invocation",
+      "f": "0.8571428571428571"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "0.14285714285714285"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "update-node_Invocation_BinaryOperator",
+      "f": "0.8571428571428571"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "0.14285714285714285"
+    }
+  ]
+}

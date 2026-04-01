@@ -1,0 +1,20 @@
+{
+    "id": "f4d93230e58b969c506b4c9778e04482a059b08c_loadExport_0",
+    "func_name": "loadExport",
+    "cve_id": "CVE-2012-6119",
+    "cwe_ids": [
+        "CWE-264"
+    ],
+    "commit_hash": "f4d93230e58b969c506b4c9778e04482a059b08c",
+    "parent_commit_hash": "9cd5d7020f813b4f12c672ed075c4d6c63e49a70",
+    "repo_name": "candlepin",
+    "git_url": "https://github.com/candlepin/candlepin/commit/f4d93230e58b969c506b4c9778e04482a059b08c",
+    "file_path": "src/main/java/org/candlepin/sync/Importer.java",
+    "file_name": "Importer.java",
+    "commit_date": 1355915954,
+    "commit_msg": "835977: Re-enable manifest signature checking.\n\nThe production/stage public candlepin certificate is now packaged in the\nRPM. This is flagged as a config file but *without* noreplace, so any\ndeployment using their own upstream cert (we don't think there are any)\nwill have to restore it from the rpmsave file that results after a\ncandlepin rpm upgrade. This was done because we expect this to be the\ndesired behavior, there is no known usecase for using your own\nupstream cert at this time.",
+    "cvss_vector": "AV:L/AC:L/Au:N/C:N/I:P/A:N",
+    "cvss_base_score": 2.1,
+    "cvss_base_severity": "LOW",
+    "cvss_is_v3": false
+}

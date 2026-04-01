@@ -1,0 +1,6 @@
+class getInterface {
+public Object getInterface( Class clas )
+	{
+		return getInterface( new Class[] { clas } );
+	}
+}

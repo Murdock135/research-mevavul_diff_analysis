@@ -1,0 +1,20 @@
+{
+    "id": "5af6e03c25b121d01e752927c401124a4da569f7_handleOtherRequest_0",
+    "func_name": "handleOtherRequest",
+    "cve_id": "CVE-2019-18393",
+    "cwe_ids": [
+        "CWE-22"
+    ],
+    "commit_hash": "5af6e03c25b121d01e752927c401124a4da569f7",
+    "parent_commit_hash": "5b52694b7359b18bfa1625613b2bce90b8b87f68",
+    "repo_name": "igniterealtime/Openfire",
+    "git_url": "https://github.com/igniterealtime/Openfire/commit/5af6e03c25b121d01e752927c401124a4da569f7",
+    "file_path": "xmppserver/src/main/java/org/jivesoftware/openfire/container/PluginServlet.java",
+    "file_name": "PluginServlet.java",
+    "commit_date": 1572589816,
+    "commit_msg": "OF-1886: Plugin Servlet shouldn't provide access to any file on the host",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

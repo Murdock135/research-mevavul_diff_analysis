@@ -1,0 +1,371 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="number_literal: 3 [780,781]" dest="number_literal: 3 [943,944]"/>
+  <match src="): ) [125,126]" dest="): ) [125,126]"/>
+  <match src="number_literal: 13 [239,241]" dest="number_literal: 13 [239,241]"/>
+  <match src="{: { [461,462]" dest="{: { [461,462]"/>
+  <match src="true: true [1089,1093]" dest="true: true [1259,1263]"/>
+  <match src="identifier: trap_raz_wi [183,194]" dest="identifier: trap_raz_wi [183,194]"/>
+  <match src=",: , [202,203]" dest=",: , [202,203]"/>
+  <match src="(: ( [29,30]" dest="(: ( [29,30]"/>
+  <match src="else: else [809,813]" dest="else: else [972,976]"/>
+  <match src="false: false [547,552]" dest="false: false [547,552]"/>
+  <match src="): ) [737,738]" dest="): ) [900,901]"/>
+  <match src="identifier: p [894,895]" dest="identifier: p [1064,1065]"/>
+  <match src="identifier: idx [763,766]" dest="identifier: idx [926,929]"/>
+  <match src="&amp;&amp;: &amp;&amp; [640,642]" dest="&amp;&amp;: &amp;&amp; [803,805]"/>
+  <match src="(: ( [144,145]" dest="(: ( [144,145]"/>
+  <match src="(: ( [166,167]" dest="(: ( [166,167]"/>
+  <match src="parenthesized_expression [914,945]" dest="parenthesized_expression [1084,1115]"/>
+  <match src="(: ( [626,627]" dest="(: ( [789,790]"/>
+  <match src="(: ( [938,939]" dest="(: ( [1108,1109]"/>
+  <match src="parenthesized_expression [213,242]" dest="parenthesized_expression [213,242]"/>
+  <match src="identifier: vcpu [733,737]" dest="identifier: vcpu [896,900]"/>
+  <match src="if: if [247,249]" dest="if: if [247,249]"/>
+  <match src="identifier: idx [1071,1074]" dest="identifier: idx [1241,1244]"/>
+  <match src="parenthesized_expression [769,788]" dest="parenthesized_expression [932,951]"/>
+  <match src="identifier: r [792,793]" dest="identifier: r [955,956]"/>
+  <match src="parenthesized_expression [490,535]" dest="parenthesized_expression [490,535]"/>
+  <match src="==: == [455,457]" dest="==: == [455,457]"/>
+  <match src="field_expression [894,905]" dest="field_expression [1064,1075]"/>
+  <match src="expression_statement [763,804]" dest="expression_statement [926,967]"/>
+  <match src="field_identifier: Op2 [451,454]" dest="field_identifier: Op2 [451,454]"/>
+  <match src="identifier: vcpu_sys_reg [369,381]" dest="identifier: vcpu_sys_reg [369,381]"/>
+  <match src="identifier: vcpu [47,51]" dest="identifier: vcpu [47,51]"/>
+  <match src="type_identifier: sys_reg_desc [110,122]" dest="type_identifier: sys_reg_desc [110,122]"/>
+  <match src="if: if [444,446]" dest="if: if [444,446]"/>
+  <match src="&amp;: &amp; [778,779]" dest="&amp;: &amp; [941,942]"/>
+  <match src="binary_expression [792,802]" dest="binary_expression [955,965]"/>
+  <match src="}: } [616,617]" dest="}: } [622,623]"/>
+  <match src="field_expression [229,235]" dest="field_expression [229,235]"/>
+  <match src="argument_list [528,534]" dest="argument_list [528,534]"/>
+  <match src=";: ; [803,804]" dest=";: ; [966,967]"/>
+  <match src="argument_list [1064,1075]" dest="argument_list [1234,1245]"/>
+  <match src="type_identifier: u64 [130,133]" dest="type_identifier: u64 [130,133]"/>
+  <match src="if_statement [444,613]" dest="if_statement [444,620]"/>
+  <match src="(: ( [769,770]" dest="(: ( [932,933]"/>
+  <match src="if_statement [141,207]" dest="if_statement [141,207]"/>
+  <match src="else_clause [439,613]" dest="else_clause [439,620]"/>
+  <match src="}: } [590,591]" dest="}: } [590,591]"/>
+  <match src="call_expression [695,738]" dest="call_expression [858,901]"/>
+  <match src="number_literal: 3 [786,787]" dest="number_literal: 3 [949,950]"/>
+  <match src="{: { [243,244]" dest="{: { [243,244]"/>
+  <match src=";: ; [961,962]" dest=";: ; [1131,1132]"/>
+  <match src="binary_expression [214,241]" dest="binary_expression [214,241]"/>
+  <match src="identifier: kvm_pmu_get_counter_value [1039,1064]" dest="identifier: kvm_pmu_get_counter_value [1209,1234]"/>
+  <match src="binary_expression [369,433]" dest="binary_expression [369,433]"/>
+  <match src="field_expression [627,633]" dest="field_expression [790,796]"/>
+  <match src="): ) [661,662]" dest="): ) [824,825]"/>
+  <match src="identifier: r [214,215]" dest="identifier: r [214,215]"/>
+  <match src="identifier: idx [134,137]" dest="identifier: idx [134,137]"/>
+  <match src="): ) [869,870]" dest="): ) [1039,1040]"/>
+  <match src="identifier: r [229,230]" dest="identifier: r [229,230]"/>
+  <match src="identifier: pmu_counter_idx_valid [838,859]" dest="identifier: pmu_counter_idx_valid [1008,1029]"/>
+  <match src="*: * [84,85]" dest="*: * [84,85]"/>
+  <match src="-&gt;: -&gt; [895,897]" dest="-&gt;: -&gt; [1065,1067]"/>
+  <match src="return: return [345,351]" dest="return: return [345,351]"/>
+  <match src="identifier: kvm_pmu_set_counter_value [966,991]" dest="identifier: kvm_pmu_set_counter_value [1136,1161]"/>
+  <match src="(: ( [732,733]" dest="(: ( [895,896]"/>
+  <match src="identifier: ARMV8_PMU_COUNTER_MASK [411,433]" dest="identifier: ARMV8_PMU_COUNTER_MASK [411,433]"/>
+  <match src="function_definition [0,1096]" dest="function_definition [0,1266]"/>
+  <match src="comment: /* PMCCNTR_EL0 */ [466,483]" dest="comment: /* PMCCNTR_EL0 */ [466,483]"/>
+  <match src="expression_statement [1027,1076]" dest="expression_statement [1197,1246]"/>
+  <match src="field_identifier: CRn [217,220]" dest="field_identifier: CRn [217,220]"/>
+  <match src="=: = [1037,1038]" dest="=: = [1207,1208]"/>
+  <match src="identifier: idx [363,366]" dest="identifier: idx [363,366]"/>
+  <match src="&lt;&lt;: &lt;&lt; [783,785]" dest="&lt;&lt;: &lt;&lt; [946,948]"/>
+  <match src="(: ( [914,915]" dest="(: ( [1084,1085]"/>
+  <match src=",: , [386,387]" dest=",: , [386,387]"/>
+  <match src="identifier: vcpu [1065,1069]" dest="identifier: vcpu [1235,1239]"/>
+  <match src="identifier: idx [560,563]" dest="identifier: idx [560,563]"/>
+  <match src="binary_expression [627,639]" dest="binary_expression [790,802]"/>
+  <match src="number_literal: 8 [660,661]" dest="number_literal: 8 [823,824]"/>
+  <match src="storage_class_specifier [0,6]" dest="storage_class_specifier [0,6]"/>
+  <match src="else: else [618,622]" dest="else: else [781,785]"/>
+  <match src=",: , [199,200]" dest=",: , [199,200]"/>
+  <match src="(: ( [447,448]" dest="(: ( [447,448]"/>
+  <match src="}: } [827,828]" dest="}: } [997,998]"/>
+  <match src="if_statement [292,358]" dest="if_statement [292,358]"/>
+  <match src="): ) [943,944]" dest="): ) [1113,1114]"/>
+  <match src="identifier: access_pmu_evcntr [12,29]" dest="identifier: access_pmu_evcntr [12,29]"/>
+  <match src="call_expression [915,944]" dest="call_expression [1085,1114]"/>
+  <match src="compound_statement [127,1096]" dest="compound_statement [127,1266]"/>
+  <match src="(: ( [528,529]" dest="(: ( [528,529]"/>
+  <match src="argument_list [991,1013]" dest="argument_list [1161,1183]"/>
+  <match src="return_statement [744,757]" dest="return_statement [907,920]"/>
+  <match src="identifier: p [1027,1028]" dest="identifier: p [1197,1198]"/>
+  <match src="==: == [236,238]" dest="==: == [236,238]"/>
+  <match src="if: if [833,835]" dest="if: if [1003,1005]"/>
+  <match src="}: } [807,808]" dest="}: } [970,971]"/>
+  <match src="expression_statement [363,434]" dest="expression_statement [363,434]"/>
+  <match src="const: const [97,102]" dest="const: const [97,102]"/>
+  <match src="binary_expression [251,262]" dest="binary_expression [251,262]"/>
+  <match src="): ) [802,803]" dest="): ) [965,966]"/>
+  <match src="compound_statement [814,828]" dest="compound_statement [977,998]"/>
+  <match src=";: ; [1013,1014]" dest=";: ; [1183,1184]"/>
+  <match src="else_clause [592,613]" dest="else_clause [592,620]"/>
+  <match src="field_identifier: CRm [647,650]" dest="field_identifier: CRm [810,813]"/>
+  <match src="field_expression [251,257]" dest="field_expression [251,257]"/>
+  <match src="parenthesized_expression [893,906]" dest="parenthesized_expression [1063,1076]"/>
+  <match src="&amp;: &amp; [651,652]" dest="&amp;: &amp; [814,815]"/>
+  <match src="(: ( [295,296]" dest="(: ( [295,296]"/>
+  <match src="(: ( [213,214]" dest="(: ( [213,214]"/>
+  <match src="): ) [1074,1075]" dest="): ) [1244,1245]"/>
+  <match src="parenthesized_expression [836,871]" dest="parenthesized_expression [1006,1041]"/>
+  <match src="pointer_declarator [84,86]" dest="pointer_declarator [84,86]"/>
+  <match src="field_identifier: CRm [774,777]" dest="field_identifier: CRm [937,940]"/>
+  <match src="&amp;: &amp; [409,410]" dest="&amp;: &amp; [409,410]"/>
+  <match src="struct: struct [30,36]" dest="struct: struct [30,36]"/>
+  <match src="unary_expression [837,870]" dest="unary_expression [1007,1040]"/>
+  <match src="identifier: pmu_access_el0_disabled [915,938]" dest="identifier: pmu_access_el0_disabled [1085,1108]"/>
+  <match src="function_declarator [12,126]" dest="function_declarator [12,126]"/>
+  <match src="compound_statement [1023,1079]" dest="compound_statement [1193,1249]"/>
+  <match src="identifier: p [85,86]" dest="identifier: p [85,86]"/>
+  <match src="type_qualifier [97,102]" dest="type_qualifier [97,102]"/>
+  <match src="static: static [0,6]" dest="static: static [0,6]"/>
+  <match src="-&gt;: -&gt; [772,774]" dest="-&gt;: -&gt; [935,937]"/>
+  <match src="if: if [911,913]" dest="if: if [1081,1083]"/>
+  <match src="{: { [1023,1024]" dest="{: { [1193,1194]"/>
+  <match src="if: if [141,143]" dest="if: if [141,143]"/>
+  <match src="if_statement [487,553]" dest="if_statement [487,553]"/>
+  <match src="binary_expression [771,781]" dest="binary_expression [934,944]"/>
+  <match src="): ) [781,782]" dest="): ) [944,945]"/>
+  <match src="): ) [738,739]" dest="): ) [901,902]"/>
+  <match src="if: if [292,294]" dest="if: if [292,294]"/>
+  <match src="!: ! [145,146]" dest="!: ! [145,146]"/>
+  <match src="field_identifier: regval [1030,1036]" dest="field_identifier: regval [1200,1206]"/>
+  <match src="parameter_declaration [62,86]" dest="parameter_declaration [62,86]"/>
+  <match src="return_statement [1082,1094]" dest="return_statement [1252,1264]"/>
+  <match src="false: false [751,756]" dest="false: false [914,919]"/>
+  <match src="): ) [205,206]" dest="): ) [205,206]"/>
+  <match src="argument_list [333,339]" dest="argument_list [333,339]"/>
+  <match src="identifier: p [1003,1004]" dest="identifier: p [1173,1174]"/>
+  <match src="field_identifier: Op2 [254,257]" dest="field_identifier: Op2 [254,257]"/>
+  <match src="identifier: r [771,772]" dest="identifier: r [934,935]"/>
+  <match src="return: return [540,546]" dest="return: return [540,546]"/>
+  <match src="): ) [787,788]" dest="): ) [950,951]"/>
+  <match src="call_expression [966,1013]" dest="call_expression [1136,1183]"/>
+  <match src="-&gt;: -&gt; [628,630]" dest="-&gt;: -&gt; [791,793]"/>
+  <match src="): ) [534,535]" dest="): ) [534,535]"/>
+  <match src=";: ; [1075,1076]" dest=";: ; [1245,1246]"/>
+  <match src="call_expression [838,870]" dest="call_expression [1008,1040]"/>
+  <match src="if_statement [623,828]" dest="if_statement [786,998]"/>
+  <match src="identifier: pmu_access_event_counter_el0_disabled [296,333]" dest="identifier: pmu_access_event_counter_el0_disabled [296,333]"/>
+  <match src="): ) [398,399]" dest="): ) [398,399]"/>
+  <match src="compound_statement [907,1017]" dest="compound_statement [1077,1187]"/>
+  <match src="==: == [258,260]" dest="==: == [258,260]"/>
+  <match src="(: ( [791,792]" dest="(: ( [954,955]"/>
+  <match src="(: ( [333,334]" dest="(: ( [333,334]"/>
+  <match src="(: ( [991,992]" dest="(: ( [1161,1162]"/>
+  <match src="): ) [533,534]" dest="): ) [533,534]"/>
+  <match src="binary_expression [770,787]" dest="binary_expression [933,950]"/>
+  <match src="identifier: vcpu [529,533]" dest="identifier: vcpu [529,533]"/>
+  <match src="): ) [171,172]" dest="): ) [171,172]"/>
+  <match src="parenthesized_expression [250,263]" dest="parenthesized_expression [250,263]"/>
+  <match src="-&gt;: -&gt; [252,254]" dest="-&gt;: -&gt; [252,254]"/>
+  <match src="-&gt;: -&gt; [215,217]" dest="-&gt;: -&gt; [215,217]"/>
+  <match src="if_statement [833,887]" dest="if_statement [1003,1057]"/>
+  <match src="unary_expression [145,172]" dest="unary_expression [145,172]"/>
+  <match src="binary_expression [627,661]" dest="binary_expression [790,824]"/>
+  <match src="identifier: pmu_access_cycle_counter_el0_disabled [491,528]" dest="identifier: pmu_access_cycle_counter_el0_disabled [491,528]"/>
+  <match src="return_statement [949,962]" dest="return_statement [1119,1132]"/>
+  <match src="identifier: vcpu [992,996]" dest="identifier: vcpu [1162,1166]"/>
+  <match src=",: , [1069,1070]" dest=",: , [1239,1240]"/>
+  <match src="(: ( [770,771]" dest="(: ( [933,934]"/>
+  <match src="number_literal: 12 [653,655]" dest="number_literal: 12 [816,818]"/>
+  <match src="parameter_declaration [30,51]" dest="parameter_declaration [30,51]"/>
+  <match src="(: ( [250,251]" dest="(: ( [250,251]"/>
+  <match src="{: { [907,908]" dest="{: { [1077,1078]"/>
+  <match src="assignment_expression [1027,1075]" dest="assignment_expression [1197,1245]"/>
+  <match src="identifier: p [201,202]" dest="identifier: p [201,202]"/>
+  <match src="identifier: vcpu [195,199]" dest="identifier: vcpu [195,199]"/>
+  <match src="return: return [874,880]" dest="return: return [1044,1050]"/>
+  <match src="compound_statement [243,617]" dest="compound_statement [243,623]"/>
+  <match src="parenthesized_expression [694,739]" dest="parenthesized_expression [857,902]"/>
+  <match src="==: == [634,636]" dest="==: == [797,799]"/>
+  <match src="binary_expression [229,241]" dest="binary_expression [229,241]"/>
+  <match src="}: } [1078,1079]" dest="}: } [1248,1249]"/>
+  <match src="call_expression [296,339]" dest="call_expression [296,339]"/>
+  <match src="comment: /* PMXEVCNTR_EL0 */ [269,288]" dest="comment: /* PMXEVCNTR_EL0 */ [269,288]"/>
+  <match src="): ) [339,340]" dest="): ) [339,340]"/>
+  <match src="field_identifier: Op2 [795,798]" dest="field_identifier: Op2 [958,961]"/>
+  <match src="field_expression [644,650]" dest="field_expression [807,813]"/>
+  <match src=";: ; [433,434]" dest=";: ; [433,434]"/>
+  <match src=",: , [864,865]" dest=",: , [1034,1035]"/>
+  <match src="return_statement [540,553]" dest="return_statement [540,553]"/>
+  <match src="): ) [1012,1013]" dest="): ) [1182,1183]"/>
+  <match src="return: return [744,750]" dest="return: return [907,913]"/>
+  <match src="identifier: ARMV8_PMU_CYCLE_IDX [566,585]" dest="identifier: ARMV8_PMU_CYCLE_IDX [566,585]"/>
+  <match src="identifier: r [627,628]" dest="identifier: r [790,791]"/>
+  <match src="=: = [564,565]" dest="=: = [564,565]"/>
+  <match src="assignment_expression [763,803]" dest="assignment_expression [926,966]"/>
+  <match src="=: = [367,368]" dest="=: = [367,368]"/>
+  <match src="|: | [789,790]" dest="|: | [952,953]"/>
+  <match src="identifier: r [251,252]" dest="identifier: r [251,252]"/>
+  <match src="else_clause [809,828]" dest="else_clause [972,998]"/>
+  <match src="identifier: vcpu [167,171]" dest="identifier: vcpu [167,171]"/>
+  <match src="if_statement [247,613]" dest="if_statement [247,620]"/>
+  <match src="field_identifier: regval [1006,1012]" dest="field_identifier: regval [1176,1182]"/>
+  <match src="identifier: PMSELR_EL0 [388,398]" dest="identifier: PMSELR_EL0 [388,398]"/>
+  <match src="(: ( [1064,1065]" dest="(: ( [1234,1235]"/>
+  <match src="compound_statement [264,438]" dest="compound_statement [264,438]"/>
+  <match src="): ) [241,242]" dest="): ) [241,242]"/>
+  <match src=";: ; [137,138]" dest=";: ; [137,138]"/>
+  <match src="(: ( [893,894]" dest="(: ( [1063,1064]"/>
+  <match src="struct_specifier [62,83]" dest="struct_specifier [62,83]"/>
+  <match src="compound_statement [597,613]" dest="compound_statement [597,620]"/>
+  <match src="field_expression [771,777]" dest="field_expression [934,940]"/>
+  <match src="identifier: kvm_arm_pmu_v3_ready [146,166]" dest="identifier: kvm_arm_pmu_v3_ready [146,166]"/>
+  <match src="}: } [1016,1017]" dest="}: } [1186,1187]"/>
+  <match src="parameter_list [29,126]" dest="parameter_list [29,126]"/>
+  <match src="binary_expression [214,225]" dest="binary_expression [214,225]"/>
+  <match src="{: { [814,815]" dest="{: { [977,978]"/>
+  <match src="}: } [437,438]" dest="}: } [437,438]"/>
+  <match src="else_clause [618,828]" dest="else_clause [781,998]"/>
+  <match src="binary_expression [644,655]" dest="binary_expression [807,818]"/>
+  <match src="-&gt;: -&gt; [449,451]" dest="-&gt;: -&gt; [449,451]"/>
+  <match src="argument_list [938,944]" dest="argument_list [1108,1114]"/>
+  <match src=";: ; [756,757]" dest=";: ; [919,920]"/>
+  <match src="number_literal: 0 [458,459]" dest="number_literal: 0 [458,459]"/>
+  <match src="if: if [691,693]" dest="if: if [854,856]"/>
+  <match src=";: ; [1093,1094]" dest=";: ; [1263,1264]"/>
+  <match src="identifier: r [124,125]" dest="identifier: r [124,125]"/>
+  <match src="*: * [123,124]" dest="*: * [123,124]"/>
+  <match src="argument_list [194,206]" dest="argument_list [194,206]"/>
+  <match src="&amp;&amp;: &amp;&amp; [226,228]" dest="&amp;&amp;: &amp;&amp; [226,228]"/>
+  <match src="{: { [264,265]" dest="{: { [264,265]"/>
+  <match src="identifier: r [644,645]" dest="identifier: r [807,808]"/>
+  <match src="number_literal: 9 [224,225]" dest="number_literal: 9 [224,225]"/>
+  <match src="field_expression [448,454]" dest="field_expression [448,454]"/>
+  <match src="call_expression [183,206]" dest="call_expression [183,206]"/>
+  <match src="{: { [663,664]" dest="{: { [826,827]"/>
+  <match src="assignment_expression [560,585]" dest="assignment_expression [560,585]"/>
+  <match src="): ) [944,945]" dest="): ) [1114,1115]"/>
+  <match src="parenthesized_expression [447,460]" dest="parenthesized_expression [447,460]"/>
+  <match src="-&gt;: -&gt; [793,795]" dest="-&gt;: -&gt; [956,958]"/>
+  <match src="}: } [1095,1096]" dest="}: } [1265,1266]"/>
+  <match src="field_expression [1027,1036]" dest="field_expression [1197,1206]"/>
+  <match src="call_expression [491,534]" dest="call_expression [491,534]"/>
+  <match src="identifier: r [448,449]" dest="identifier: r [448,449]"/>
+  <match src="parenthesized_expression [770,782]" dest="parenthesized_expression [933,945]"/>
+  <match src="==: == [657,659]" dest="==: == [820,822]"/>
+  <match src="{: { [127,128]" dest="{: { [127,128]"/>
+  <match src=",: , [1001,1002]" dest=",: , [1171,1172]"/>
+  <match src="compound_statement [663,808]" dest="compound_statement [826,971]"/>
+  <match src="!: ! [837,838]" dest="!: ! [1007,1008]"/>
+  <match src="parenthesized_expression [144,173]" dest="parenthesized_expression [144,173]"/>
+  <match src="argument_list [732,738]" dest="argument_list [895,901]"/>
+  <match src=";: ; [585,586]" dest=";: ; [585,586]"/>
+  <match src="struct: struct [62,68]" dest="struct: struct [62,68]"/>
+  <match src="pointer_declarator [123,125]" dest="pointer_declarator [123,125]"/>
+  <match src="identifier: pmu_access_event_counter_el0_disabled [695,732]" dest="identifier: pmu_access_event_counter_el0_disabled [858,895]"/>
+  <match src=";: ; [886,887]" dest=";: ; [1056,1057]"/>
+  <match src="if_statement [210,828]" dest="if_statement [210,998]"/>
+  <match src="(: ( [836,837]" dest="(: ( [1006,1007]"/>
+  <match src="return_statement [874,887]" dest="return_statement [1044,1057]"/>
+  <match src="identifier: vcpu [382,386]" dest="identifier: vcpu [382,386]"/>
+  <match src="argument_list [859,870]" dest="argument_list [1029,1040]"/>
+  <match src="if: if [487,489]" dest="if: if [487,489]"/>
+  <match src="translation_unit [0,1096]" dest="translation_unit [0,1266]"/>
+  <match src="binary_expression [643,661]" dest="binary_expression [806,824]"/>
+  <match src="parenthesized_expression [791,803]" dest="parenthesized_expression [954,966]"/>
+  <match src="-&gt;: -&gt; [1004,1006]" dest="-&gt;: -&gt; [1174,1176]"/>
+  <match src="identifier: vcpu [860,864]" dest="identifier: vcpu [1030,1034]"/>
+  <match src="primitive_type: bool [7,11]" dest="primitive_type: bool [7,11]"/>
+  <match src="field_identifier: CRn [630,633]" dest="field_identifier: CRn [793,796]"/>
+  <match src="return: return [176,182]" dest="return: return [176,182]"/>
+  <match src="return_statement [176,207]" dest="return_statement [176,207]"/>
+  <match src="pointer_declarator [46,51]" dest="pointer_declarator [46,51]"/>
+  <match src="return: return [1082,1088]" dest="return: return [1252,1258]"/>
+  <match src="(: ( [694,695]" dest="(: ( [857,858]"/>
+  <match src="if: if [890,892]" dest="if: if [1060,1062]"/>
+  <match src="}: } [612,613]" dest="}: } [619,620]"/>
+  <match src="=: = [767,768]" dest="=: = [930,931]"/>
+  <match src=";: ; [206,207]" dest=";: ; [206,207]"/>
+  <match src="==: == [221,223]" dest="==: == [221,223]"/>
+  <match src="): ) [262,263]" dest="): ) [262,263]"/>
+  <match src="): ) [338,339]" dest="): ) [338,339]"/>
+  <match src=",: , [51,52]" dest=",: , [51,52]"/>
+  <match src=",: , [996,997]" dest=",: , [1166,1167]"/>
+  <match src="): ) [172,173]" dest="): ) [172,173]"/>
+  <match src="field_identifier: is_write [897,905]" dest="field_identifier: is_write [1067,1075]"/>
+  <match src="(: ( [194,195]" dest="(: ( [194,195]"/>
+  <match src="struct_specifier [30,45]" dest="struct_specifier [30,45]"/>
+  <match src="if_statement [911,962]" dest="if_statement [1081,1132]"/>
+  <match src="(: ( [643,644]" dest="(: ( [806,807]"/>
+  <match src="-&gt;: -&gt; [230,232]" dest="-&gt;: -&gt; [230,232]"/>
+  <match src="binary_expression [769,803]" dest="binary_expression [932,966]"/>
+  <match src="argument_list [381,399]" dest="argument_list [381,399]"/>
+  <match src="parenthesized_expression [626,662]" dest="parenthesized_expression [789,825]"/>
+  <match src="compound_statement [461,591]" dest="compound_statement [461,591]"/>
+  <match src="field_expression [792,798]" dest="field_expression [955,961]"/>
+  <match src="(: ( [859,860]" dest="(: ( [1029,1030]"/>
+  <match src="return: return [949,955]" dest="return: return [1119,1125]"/>
+  <match src="number_literal: 2 [261,262]" dest="number_literal: 2 [261,262]"/>
+  <match src="{: { [597,598]" dest="{: { [597,598]"/>
+  <match src="identifier: vcpu [939,943]" dest="identifier: vcpu [1109,1113]"/>
+  <match src="&amp;: &amp; [799,800]" dest="&amp;: &amp; [962,963]"/>
+  <match src="argument_list [166,172]" dest="argument_list [166,172]"/>
+  <match src="if_statement [691,757]" dest="if_statement [854,920]"/>
+  <match src="identifier: r [204,205]" dest="identifier: r [204,205]"/>
+  <match src="): ) [905,906]" dest="): ) [1075,1076]"/>
+  <match src="declaration [130,138]" dest="declaration [130,138]"/>
+  <match src="struct: struct [103,109]" dest="struct: struct [103,109]"/>
+  <match src="false: false [881,886]" dest="false: false [1051,1056]"/>
+  <match src="parenthesized_expression [295,340]" dest="parenthesized_expression [295,340]"/>
+  <match src="type_identifier: kvm_vcpu [37,45]" dest="type_identifier: kvm_vcpu [37,45]"/>
+  <match src="false: false [352,357]" dest="false: false [352,357]"/>
+  <match src="call_expression [146,172]" dest="call_expression [146,172]"/>
+  <match src="identifier: vcpu [334,338]" dest="identifier: vcpu [334,338]"/>
+  <match src="struct_specifier [103,122]" dest="struct_specifier [103,122]"/>
+  <match src="else_clause [1018,1079]" dest="else_clause [1188,1249]"/>
+  <match src="field_expression [1003,1012]" dest="field_expression [1173,1182]"/>
+  <match src="return_statement [345,358]" dest="return_statement [345,358]"/>
+  <match src="false: false [956,961]" dest="false: false [1126,1131]"/>
+  <match src="identifier: idx [998,1001]" dest="identifier: idx [1168,1171]"/>
+  <match src="assignment_expression [363,433]" dest="assignment_expression [363,433]"/>
+  <match src="parenthesized_expression [643,656]" dest="parenthesized_expression [806,819]"/>
+  <match src="field_identifier: CRm [232,235]" dest="field_identifier: CRm [232,235]"/>
+  <match src=";: ; [357,358]" dest=";: ; [357,358]"/>
+  <match src="if_statement [890,1079]" dest="if_statement [1060,1249]"/>
+  <match src="call_expression [1039,1075]" dest="call_expression [1209,1245]"/>
+  <match src="): ) [459,460]" dest="): ) [459,460]"/>
+  <match src="(: ( [381,382]" dest="(: ( [381,382]"/>
+  <match src="else: else [592,596]" dest="else: else [592,596]"/>
+  <match src="if: if [623,625]" dest="if: if [786,788]"/>
+  <match src="field_expression [214,220]" dest="field_expression [214,220]"/>
+  <match src="binary_expression [448,459]" dest="binary_expression [448,459]"/>
+  <match src="parameter_declaration [97,125]" dest="parameter_declaration [97,125]"/>
+  <match src="else: else [439,443]" dest="else: else [439,443]"/>
+  <match src="else: else [1018,1022]" dest="else: else [1188,1192]"/>
+  <match src="-&gt;: -&gt; [1028,1030]" dest="-&gt;: -&gt; [1198,1200]"/>
+  <match src="call_expression [369,399]" dest="call_expression [369,399]"/>
+  <match src="-&gt;: -&gt; [645,647]" dest="-&gt;: -&gt; [808,810]"/>
+  <match src="type_identifier: sys_reg_params [69,83]" dest="type_identifier: sys_reg_params [69,83]"/>
+  <match src="number_literal: 7 [801,802]" dest="number_literal: 7 [964,965]"/>
+  <match src="expression_statement [560,586]" dest="expression_statement [560,586]"/>
+  <match src="expression_statement [966,1014]" dest="expression_statement [1136,1184]"/>
+  <match src="identifier: idx [866,869]" dest="identifier: idx [1036,1039]"/>
+  <match src="if: if [210,212]" dest="if: if [210,212]"/>
+  <match src="(: ( [490,491]" dest="(: ( [490,491]"/>
+  <match src="comment: /* PMEVCNTRn_EL0 */ [668,687]" dest="comment: /* PMEVCNTRn_EL0 */ [831,850]"/>
+  <match src=";: ; [552,553]" dest=";: ; [552,553]"/>
+  <match src="number_literal: 14 [637,639]" dest="number_literal: 14 [800,802]"/>
+  <match src="): ) [655,656]" dest="): ) [818,819]"/>
+  <match src=",: , [86,87]" dest=",: , [86,87]"/>
+  <match src="): ) [870,871]" dest="): ) [1040,1041]"/>
+  <match src="*: * [46,47]" dest="*: * [46,47]"/>
+</matches>
+<actions>
+  <insert-node tree="else_clause [624,998]" parent="if_statement [210,828]" at="3"/>
+  <insert-node tree="else: else [624,628]" parent="else_clause [624,998]" at="0"/>
+  <insert-node tree="if_statement [629,998]" parent="else_clause [624,998]" at="1"/>
+  <insert-node tree="if: if [629,631]" parent="if_statement [629,998]" at="0"/>
+  <insert-tree tree="parenthesized_expression [632,660]" parent="if_statement [629,998]" at="1"/>
+  <insert-tree tree="compound_statement [661,780]" parent="if_statement [629,998]" at="2"/>
+  <move-tree tree="else_clause [618,828]" parent="if_statement [629,998]" at="3"/>
+  <insert-tree tree="return_statement [602,615]" parent="compound_statement [597,613]" at="1"/>
+  <insert-tree tree="return_statement [981,994]" parent="compound_statement [814,828]" at="1"/>
+  <delete-tree tree="expression_statement [602,608]"/>
+  <delete-tree tree="expression_statement [818,824]"/>
+</actions>

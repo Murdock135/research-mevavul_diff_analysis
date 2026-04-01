@@ -1,0 +1,20 @@
+{
+    "id": "4170524ac3b45185704fcfbdeeb71b0b05dfa0a1_executeFixedCostOperation_0",
+    "func_name": "executeFixedCostOperation",
+    "cve_id": "CVE-2021-41272",
+    "cwe_ids": [
+        "CWE-681"
+    ],
+    "commit_hash": "4170524ac3b45185704fcfbdeeb71b0b05dfa0a1",
+    "parent_commit_hash": "00b81b6c4b392d8fbc00576ab66ebfd3da586db7",
+    "repo_name": "hyperledger/besu",
+    "git_url": "https://github.com/hyperledger/besu/commit/4170524ac3b45185704fcfbdeeb71b0b05dfa0a1",
+    "file_path": "evm/src/main/java/org/hyperledger/besu/evm/operation/SarOperation.java",
+    "file_name": "SarOperation.java",
+    "commit_date": 1636613813,
+    "commit_msg": "Shift Optimization (#3039)\n\nReduce shift calculations to shifts that may have an actual result.\r\n\r\nSigned-off-by: Danno Ferrin <danno.ferrin@gmail.com>",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

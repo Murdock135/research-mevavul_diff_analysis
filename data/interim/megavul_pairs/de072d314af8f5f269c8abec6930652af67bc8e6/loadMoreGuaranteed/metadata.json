@@ -1,0 +1,20 @@
+{
+    "id": "de072d314af8f5f269c8abec6930652af67bc8e6_loadMoreGuaranteed_3",
+    "func_name": "loadMoreGuaranteed",
+    "cve_id": "CVE-2020-28491",
+    "cwe_ids": [
+        "CWE-770"
+    ],
+    "commit_hash": "de072d314af8f5f269c8abec6930652af67bc8e6",
+    "parent_commit_hash": "961b128a100c6f0da36b1deaae3a4946b9321b90",
+    "repo_name": "FasterXML/jackson-dataformats-binary",
+    "git_url": "https://github.com/FasterXML/jackson-dataformats-binary/commit/de072d314af8f5f269c8abec6930652af67bc8e6",
+    "file_path": "cbor/src/main/java/com/fasterxml/jackson/dataformat/cbor/CBORParser.java",
+    "file_name": "CBORParser.java",
+    "commit_date": 1607099275,
+    "commit_msg": "Fix eager allocation aspect of #186",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

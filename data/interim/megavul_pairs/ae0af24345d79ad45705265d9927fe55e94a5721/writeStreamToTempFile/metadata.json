@@ -1,0 +1,21 @@
+{
+    "id": "ae0af24345d79ad45705265d9927fe55e94a5721_writeStreamToTempFile_0",
+    "func_name": "writeStreamToTempFile",
+    "cve_id": "CVE-2022-41954",
+    "cwe_ids": [
+        "CWE-377",
+        "CWE-200"
+    ],
+    "commit_hash": "ae0af24345d79ad45705265d9927fe55e94a5721",
+    "parent_commit_hash": "308e09c0574ffc8e6e10c5a5c447f162e350e54a",
+    "repo_name": "joniles/mpxj",
+    "git_url": "https://github.com/joniles/mpxj/commit/ae0af24345d79ad45705265d9927fe55e94a5721",
+    "file_path": "src/main/java/net/sf/mpxj/common/InputStreamHelper.java",
+    "file_name": "InputStreamHelper.java",
+    "commit_date": 1668863998,
+    "commit_msg": "vuln-fix: Temporary File Information Disclosure\n\n\n\nThis fixes temporary file information disclosure vulnerability due to the use\nof the vulnerable `File.createTempFile()` method. The vulnerability is fixed by\nusing the `Files.createTempFile()` method which sets the correct posix permissions.\n\nWeakness: CWE-377: Insecure Temporary File\nSeverity: Medium\nCVSSS: 5.5\nDetection: CodeQL & OpenRewrite (https://public.moderne.io/recipes/org.openrewrite.java.security.SecureTempFileCreation)\n\nReported-by: Jonathan Leitschuh <Jonathan.Leitschuh@gmail.com>\nSigned-off-by: Jonathan Leitschuh <Jonathan.Leitschuh@gmail.com>\n\nBug-tracker: https://github.com/JLLeitschuh/security-research/issues/18\n\n\nCo-authored-by: Moderne <team@moderne.io>",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+    "cvss_base_score": 3.3,
+    "cvss_base_severity": "LOW",
+    "cvss_is_v3": true
+}

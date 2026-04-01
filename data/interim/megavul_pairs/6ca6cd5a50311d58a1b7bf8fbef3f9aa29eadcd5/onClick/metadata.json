@@ -1,0 +1,20 @@
+{
+    "id": "6ca6cd5a50311d58a1b7bf8fbef3f9aa29eadcd5_onClick_0",
+    "func_name": "onClick",
+    "cve_id": "CVE-2016-3886",
+    "cwe_ids": [
+        "CWE-264"
+    ],
+    "commit_hash": "6ca6cd5a50311d58a1b7bf8fbef3f9aa29eadcd5",
+    "parent_commit_hash": "91fc934bb2e5ea59929bb2f574de6db9b5100745",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/6ca6cd5a50311d58a1b7bf8fbef3f9aa29eadcd5",
+    "file_path": "packages/SystemUI/src/com/android/systemui/statusbar/phone/QuickStatusBarHeader.java",
+    "file_name": "QuickStatusBarHeader.java",
+    "commit_date": 1468946398,
+    "commit_msg": "Don't allow enable/disable of tuner on lockscreen\n\nChange-Id: Id9748ea39a8fa03b67d3fa6f91da530dd5cf9409\nFixes: 30107438\n",
+    "cvss_vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C",
+    "cvss_base_score": 7.2,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

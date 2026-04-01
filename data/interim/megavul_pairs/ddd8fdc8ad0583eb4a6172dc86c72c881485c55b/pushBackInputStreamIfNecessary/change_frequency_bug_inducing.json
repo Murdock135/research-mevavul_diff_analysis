@@ -1,0 +1,42 @@
+{
+  "frequency": [
+    {
+      "c": "Return",
+      "f": "1"
+    },
+    {
+      "c": "TypeReference",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "update-node_TypeReference_Method",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Return_Block",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Return",
+      "f": "0.5"
+    },
+    {
+      "c": "TypeReference",
+      "f": "0.5"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "update-node_TypeReference_Method",
+      "f": "0.5"
+    },
+    {
+      "c": "delete-node_Return_Block",
+      "f": "0.5"
+    }
+  ]
+}

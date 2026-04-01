@@ -1,0 +1,130 @@
+{
+  "frequency": [
+    {
+      "c": "LocalVariable",
+      "f": "5"
+    },
+    {
+      "c": "Invocation",
+      "f": "4"
+    },
+    {
+      "c": "Parameter",
+      "f": "1"
+    },
+    {
+      "c": "Literal",
+      "f": "1"
+    },
+    {
+      "c": "TypeReference",
+      "f": "1"
+    },
+    {
+      "c": "If",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "move-tree_Invocation_Block",
+      "f": "3"
+    },
+    {
+      "c": "move-tree_LocalVariable_Block",
+      "f": "2"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "2"
+    },
+    {
+      "c": "insert-node_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_TypeReference_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "update-node_Literal_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_Parameter_Method",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Invocation_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "LocalVariable",
+      "f": "0.38461538461538464"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.3076923076923077"
+    },
+    {
+      "c": "Parameter",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "Literal",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "TypeReference",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "If",
+      "f": "0.07692307692307693"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "move-tree_Invocation_Block",
+      "f": "0.23076923076923078"
+    },
+    {
+      "c": "move-tree_LocalVariable_Block",
+      "f": "0.15384615384615385"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "0.15384615384615385"
+    },
+    {
+      "c": "insert-node_If_Block",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "move-tree_TypeReference_LocalVariable",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "update-node_Literal_Invocation",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "insert-node_Parameter_Method",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "move-tree_Invocation_LocalVariable",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "0.07692307692307693"
+    }
+  ]
+}

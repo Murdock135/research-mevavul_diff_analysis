@@ -1,0 +1,130 @@
+{
+  "frequency": [
+    {
+      "c": "LocalVariable",
+      "f": "4"
+    },
+    {
+      "c": "Invocation",
+      "f": "3"
+    },
+    {
+      "c": "VariableRead",
+      "f": "2"
+    },
+    {
+      "c": "If",
+      "f": "2"
+    },
+    {
+      "c": "Literal",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "3"
+    },
+    {
+      "c": "move-tree_VariableRead_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_LocalVariable_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_Invocation_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_Literal_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_Invocation_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Invocation_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "update-node_VariableRead_Invocation",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "LocalVariable",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.25"
+    },
+    {
+      "c": "VariableRead",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "If",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "Literal",
+      "f": "0.08333333333333333"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "0.25"
+    },
+    {
+      "c": "move-tree_VariableRead_Invocation",
+      "f": "0.08333333333333333"
+    },
+    {
+      "c": "move-tree_LocalVariable_Block",
+      "f": "0.08333333333333333"
+    },
+    {
+      "c": "insert-node_Invocation_Invocation",
+      "f": "0.08333333333333333"
+    },
+    {
+      "c": "move-tree_If_Block",
+      "f": "0.08333333333333333"
+    },
+    {
+      "c": "update-node_Literal_Invocation",
+      "f": "0.08333333333333333"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "0.08333333333333333"
+    },
+    {
+      "c": "insert-node_Invocation_Block",
+      "f": "0.08333333333333333"
+    },
+    {
+      "c": "move-tree_Invocation_LocalVariable",
+      "f": "0.08333333333333333"
+    },
+    {
+      "c": "update-node_VariableRead_Invocation",
+      "f": "0.08333333333333333"
+    }
+  ]
+}

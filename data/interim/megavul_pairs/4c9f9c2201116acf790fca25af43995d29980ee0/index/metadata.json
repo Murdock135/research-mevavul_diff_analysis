@@ -1,0 +1,21 @@
+{
+    "id": "4c9f9c2201116acf790fca25af43995d29980ee0_index_0",
+    "func_name": "index",
+    "cve_id": "CVE-2016-0818",
+    "cwe_ids": [
+        "CWE-254",
+        "CWE-345"
+    ],
+    "commit_hash": "4c9f9c2201116acf790fca25af43995d29980ee0",
+    "parent_commit_hash": "c4ab1b959280413fb11bf4fd7f6b4c2ba38bd779",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/external/conscrypt/+/4c9f9c2201116acf790fca25af43995d29980ee0",
+    "file_path": "src/platform/java/org/conscrypt/TrustedCertificateIndex.java",
+    "file_name": "TrustedCertificateIndex.java",
+    "commit_date": 1450673364,
+    "commit_msg": "Prevent duplicate certificates in TrustedCertificateIndex\n\nWith the separate caching of intermediate certificates in\nTrustManagerImpl a given intermediate may be passed into .index multiple\ntimes. Avoid adding the certificate to the list each time.\n\n(cherry-picked from commit d080e064abba665e2dde2a8c113f837ba4d9a85e)\nBug: 26232830\nChange-Id: I6bed2c65d9e42e052b9b1b129200a997e7dca745\n",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

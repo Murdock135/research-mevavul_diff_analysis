@@ -1,0 +1,20 @@
+{
+    "id": "836c84635e982e74f2f2771b2c8640c3a34221bd_runTeardown_0",
+    "func_name": "runTeardown",
+    "cve_id": "CVE-2019-10648",
+    "cwe_ids": [
+        "CWE-862"
+    ],
+    "commit_hash": "836c84635e982e74f2f2771b2c8640c3a34221bd",
+    "parent_commit_hash": "e9d00b63d007314be0fa19b12c759f59595df34b",
+    "repo_name": "robo-code/robocode",
+    "git_url": "https://github.com/robo-code/robocode/commit/836c84635e982e74f2f2771b2c8640c3a34221bd",
+    "file_path": "robocode.tests/src/test/java/net/sf/robocode/test/robots/TestHttpAttack.java",
+    "file_name": "TestHttpAttack.java",
+    "commit_date": 1553609409,
+    "commit_msg": "Bug-406: DNS interaction is not blocked by Robocode's security manager + test(s) to verify the fix",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

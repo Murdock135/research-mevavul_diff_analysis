@@ -1,0 +1,20 @@
+{
+    "id": "48ed835468c6235905459e6ef7df032baf3e4df6_queryLastApp_0",
+    "func_name": "queryLastApp",
+    "cve_id": "CVE-2014-8507",
+    "cwe_ids": [
+        "CWE-89"
+    ],
+    "commit_hash": "48ed835468c6235905459e6ef7df032baf3e4df6",
+    "parent_commit_hash": "8e0297155075f9772dd6e8b8194da074dca008f8",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/48ed835468c6235905459e6ef7df032baf3e4df6",
+    "file_path": "packages/WAPPushManager/src/com/android/smspush/WapPushManager.java",
+    "file_name": "WapPushManager.java",
+    "commit_date": 1413393617,
+    "commit_msg": "Externally Reported Moderate Security Issue: SQL Injection in WAPPushManager\n\nBug 17969135\n\nUse query (instead of rawQuery) and pass in arguments instead of building\nthe query with a giant string. Add a unit test that fails with the old\ncode but passes with the new code.\n\nChange-Id: Id04a1db6fb95fcd923e1f36f5ab3b94402590918\n",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

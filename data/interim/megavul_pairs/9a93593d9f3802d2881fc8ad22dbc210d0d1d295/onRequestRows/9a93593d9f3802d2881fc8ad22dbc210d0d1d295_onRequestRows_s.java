@@ -1,0 +1,7 @@
+class onRequestRows {
+protected void onRequestRows(int firstRowIndex, int numberOfRows,
+            int firstCachedRowIndex, int cacheSize) {
+        setPushRows(Range.withLength(firstRowIndex, numberOfRows));
+        markAsDirty();
+    }
+}

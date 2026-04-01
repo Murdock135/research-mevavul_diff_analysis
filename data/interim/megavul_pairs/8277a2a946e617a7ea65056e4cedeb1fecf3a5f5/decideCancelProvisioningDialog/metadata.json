@@ -1,0 +1,20 @@
+{
+    "id": "8277a2a946e617a7ea65056e4cedeb1fecf3a5f5_decideCancelProvisioningDialog_0",
+    "func_name": "decideCancelProvisioningDialog",
+    "cve_id": "CVE-2023-21275",
+    "cwe_ids": [
+        "CWE-Other"
+    ],
+    "commit_hash": "8277a2a946e617a7ea65056e4cedeb1fecf3a5f5",
+    "parent_commit_hash": "86fc5470940874ee0a71638b80be0e9af0468390",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/packages/apps/ManagedProvisioning/+/8277a2a946e617a7ea65056e4cedeb1fecf3a5f5",
+    "file_path": "src/com/android/managedprovisioning/provisioning/AdminIntegratedFlowPrepareActivity.java",
+    "file_name": "AdminIntegratedFlowPrepareActivity.java",
+    "commit_date": 1679936466,
+    "commit_msg": "Remove factory-reset logic from post-suw syncauth\n\nBug: 266906483 , Bug: 278691965\nTest: Manual\nDialog-before: https://drive.google.com/file/d/1uE02duXkFGG1G6qu4foNgGKGLgQhIWoO/view?usp=sharing\nDialog-after: https://drive.google.com/file/d/1UM7w-ClnnhWi3aVokhXrZk42e8gdbQSI/view?usp=sharing\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:b16f50a817da9e48d0f3c572de832093362b46e2)\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:729cdfd06d942af93953f1bbcfe74a4bf380bbf2)\nMerged-In: I0da6a2eaad20f628973ca3a080602992dfaeb63e\nChange-Id: I0da6a2eaad20f628973ca3a080602992dfaeb63e\n",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 7.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

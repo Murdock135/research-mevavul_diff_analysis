@@ -1,0 +1,20 @@
+{
+    "id": "9a55728729a3b431847045c674b3e883507d1e1a_doFilter_1",
+    "func_name": "doFilter",
+    "cve_id": "CVE-2023-47324",
+    "cwe_ids": [
+        "CWE-79"
+    ],
+    "commit_hash": "9a55728729a3b431847045c674b3e883507d1e1a",
+    "parent_commit_hash": "0b45bc717dd7516f5b8fef7ed1ccd2c1b2d71866",
+    "repo_name": "Silverpeas/Silverpeas-Core",
+    "git_url": "https://github.com/Silverpeas/Silverpeas-Core/commit/9a55728729a3b431847045c674b3e883507d1e1a",
+    "file_path": "core-war/src/main/java/org/silverpeas/web/token/SessionSynchronizerTokenValidator.java",
+    "file_name": "SessionSynchronizerTokenValidator.java",
+    "commit_date": 1698199076,
+    "commit_msg": "Bug #13811: fixing stored XSS leading to full account takeover\n\n* making HTML sanitize processing accessible for JSTL instructions\n* sanitizing user notification title and contents on registering\n* sanitizing user notification title and contents on rendering\n* sanitizing browse bar parts\n* modifying the user and group saving action names in order to get the user token verifications\n* applying the token validation from component request router abstraction",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+    "cvss_base_score": 5.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

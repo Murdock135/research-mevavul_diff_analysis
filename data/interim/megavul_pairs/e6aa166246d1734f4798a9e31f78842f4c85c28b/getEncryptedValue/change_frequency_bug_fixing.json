@@ -1,0 +1,226 @@
+{
+  "frequency": [
+    {
+      "c": "Assignment",
+      "f": "9"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "3"
+    },
+    {
+      "c": "Invocation",
+      "f": "3"
+    },
+    {
+      "c": "Return",
+      "f": "2"
+    },
+    {
+      "c": "FieldRead",
+      "f": "2"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "TypeAccess",
+      "f": "1"
+    },
+    {
+      "c": "Literal",
+      "f": "1"
+    },
+    {
+      "c": "Catch",
+      "f": "1"
+    },
+    {
+      "c": "Synchronized",
+      "f": "1"
+    },
+    {
+      "c": "OperatorAssignment",
+      "f": "1"
+    },
+    {
+      "c": "ThisAccess",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "insert-node_Assignment_Block",
+      "f": "9"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "3"
+    },
+    {
+      "c": "insert-node_Invocation_Block",
+      "f": "2"
+    },
+    {
+      "c": "insert-node_ThisAccess_FieldRead",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_FieldRead_BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Return_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_OperatorAssignment_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_TypeAccess_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Invocation_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Catch_Try",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Literal_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_Return_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_Synchronized_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_FieldRead_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_BinaryOperator_Invocation",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Assignment",
+      "f": "0.34615384615384615"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "0.11538461538461539"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.11538461538461539"
+    },
+    {
+      "c": "Return",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "FieldRead",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "TypeAccess",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "Literal",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "Catch",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "Synchronized",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "OperatorAssignment",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "ThisAccess",
+      "f": "0.038461538461538464"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "insert-node_Assignment_Block",
+      "f": "0.34615384615384615"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "0.11538461538461539"
+    },
+    {
+      "c": "insert-node_Invocation_Block",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "insert-node_ThisAccess_FieldRead",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "move-tree_FieldRead_BinaryOperator",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "delete-node_Return_Block",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "insert-node_OperatorAssignment_Block",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "insert-node_TypeAccess_Invocation",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "move-tree_Invocation_Invocation",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "delete-node_Catch_Try",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "delete-node_Literal_Invocation",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "insert-node_Return_Block",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "insert-node_Synchronized_Block",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "insert-node_FieldRead_Invocation",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "delete-node_BinaryOperator_Invocation",
+      "f": "0.038461538461538464"
+    }
+  ]
+}

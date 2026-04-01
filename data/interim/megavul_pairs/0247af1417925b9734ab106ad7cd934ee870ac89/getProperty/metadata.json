@@ -1,0 +1,20 @@
+{
+    "id": "0247af1417925b9734ab106ad7cd934ee870ac89_getProperty_1",
+    "func_name": "getProperty",
+    "cve_id": "CVE-2022-39387",
+    "cwe_ids": [
+        "CWE-287"
+    ],
+    "commit_hash": "0247af1417925b9734ab106ad7cd934ee870ac89",
+    "parent_commit_hash": "7d7cca1d5b30544e7f46cdcb6b2a17b6e01d9b34",
+    "repo_name": "xwiki-contrib/oidc",
+    "git_url": "https://github.com/xwiki-contrib/oidc/commit/0247af1417925b9734ab106ad7cd934ee870ac89",
+    "file_path": "oidc-authenticator/src/main/java/org/xwiki/contrib/oidc/auth/internal/OIDCClientConfiguration.java",
+    "file_name": "OIDCClientConfiguration.java",
+    "commit_date": 1643264190,
+    "commit_msg": "OIDC-118: Fix bad handling of request parameters",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

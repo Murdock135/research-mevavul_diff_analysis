@@ -1,0 +1,20 @@
+{
+    "id": "cb6282e8970f4c9db5497889699e68fb2038566e_visitUris_0",
+    "func_name": "visitUris",
+    "cve_id": "CVE-2023-21291",
+    "cwe_ids": [
+        "CWE-862"
+    ],
+    "commit_hash": "cb6282e8970f4c9db5497889699e68fb2038566e",
+    "parent_commit_hash": "7a5e51c918b7097be3c7e669e1825a4d159c4185",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/cb6282e8970f4c9db5497889699e68fb2038566e",
+    "file_path": "core/java/android/app/Notification.java",
+    "file_name": "Notification.java",
+    "commit_date": 1682607328,
+    "commit_msg": "Verify URI permissions for notification shortcutIcon.\n\nBug: 277593270\nTest: atest NotificationManagerServiceTest\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:936b58b12851269b878b44cc8df790b3afe9c3f5)\nMerged-In: Iaf2a9a82f18e018e60e6cdc020da6ebf7267e8b1\nChange-Id: Iaf2a9a82f18e018e60e6cdc020da6ebf7267e8b1\n",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

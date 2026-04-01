@@ -1,0 +1,42 @@
+{
+  "frequency": [
+    {
+      "c": "VariableRead",
+      "f": "2"
+    },
+    {
+      "c": "Invocation",
+      "f": "2"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "delete-node_Invocation_Invocation",
+      "f": "2"
+    },
+    {
+      "c": "move-tree_VariableRead_Invocation",
+      "f": "2"
+    }
+  ],
+  "probability": [
+    {
+      "c": "VariableRead",
+      "f": "0.5"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.5"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "delete-node_Invocation_Invocation",
+      "f": "0.5"
+    },
+    {
+      "c": "move-tree_VariableRead_Invocation",
+      "f": "0.5"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "frequency": [
+    {
+      "c": "If",
+      "f": "2"
+    },
+    {
+      "c": "For",
+      "f": "1"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "Block",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "insert-node_For_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_LocalVariable_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Block_If",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "If",
+      "f": "0.4"
+    },
+    {
+      "c": "For",
+      "f": "0.2"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "0.2"
+    },
+    {
+      "c": "Block",
+      "f": "0.2"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "insert-node_For_Block",
+      "f": "0.2"
+    },
+    {
+      "c": "move-tree_LocalVariable_Block",
+      "f": "0.2"
+    },
+    {
+      "c": "move-tree_If_Block",
+      "f": "0.2"
+    },
+    {
+      "c": "move-tree_Block_If",
+      "f": "0.2"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "0.2"
+    }
+  ]
+}

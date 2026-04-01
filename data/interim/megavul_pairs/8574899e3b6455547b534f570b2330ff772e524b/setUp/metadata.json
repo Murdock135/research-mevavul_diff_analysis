@@ -1,0 +1,20 @@
+{
+    "id": "8574899e3b6455547b534f570b2330ff772e524b_setUp_0",
+    "func_name": "setUp",
+    "cve_id": "CVE-2016-4999",
+    "cwe_ids": [
+        "CWE-89"
+    ],
+    "commit_hash": "8574899e3b6455547b534f570b2330ff772e524b",
+    "parent_commit_hash": "469921ce5a31b91b95c93e410f5f0a2ba5fbbfc7",
+    "repo_name": "dashbuilder",
+    "git_url": "https://github.com/dashbuilder/dashbuilder/commit/8574899e3b6455547b534f570b2330ff772e524b",
+    "file_path": "dashbuilder-backend/dashbuilder-dataset-sql/src/test/java/org/dashbuilder/dataprovider/sql/SQLTestSuite.java",
+    "file_name": "SQLTestSuite.java",
+    "commit_date": 1466645098,
+    "commit_msg": "DASHBUILDE-113: SQL Injection on data set lookup filters",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

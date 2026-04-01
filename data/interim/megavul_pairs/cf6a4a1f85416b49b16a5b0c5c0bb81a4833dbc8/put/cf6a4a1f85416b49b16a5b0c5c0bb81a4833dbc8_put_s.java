@@ -1,0 +1,6 @@
+class put {
+public JSONArray put(Collection value) {
+        put(new JSONArray(value));
+        return this;
+    }
+}

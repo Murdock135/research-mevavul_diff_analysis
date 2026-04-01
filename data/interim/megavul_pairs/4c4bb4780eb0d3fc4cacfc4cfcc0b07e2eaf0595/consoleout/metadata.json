@@ -1,0 +1,20 @@
+{
+    "id": "4c4bb4780eb0d3fc4cacfc4cfcc0b07e2eaf0595_consoleout_1",
+    "func_name": "consoleout",
+    "cve_id": "CVE-2021-43289",
+    "cwe_ids": [
+        "CWE-22"
+    ],
+    "commit_hash": "4c4bb4780eb0d3fc4cacfc4cfcc0b07e2eaf0595",
+    "parent_commit_hash": "f626d8c13a6490386f5142da83907ade57eda12a",
+    "repo_name": "gocd",
+    "git_url": "https://github.com/gocd/gocd/commit/4c4bb4780eb0d3fc4cacfc4cfcc0b07e2eaf0595",
+    "file_path": "server/src/main/java/com/thoughtworks/go/server/controller/ArtifactsController.java",
+    "file_name": "ArtifactsController.java",
+    "commit_date": 1635125793,
+    "commit_msg": "#000 - Validate stage counter in GETs as well.\n\nContinuation of commit c22e0428164af",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

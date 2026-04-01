@@ -1,0 +1,20 @@
+{
+    "id": "69be66141eee7abb1c47d46f0a6b74b079709f4b_createHotRodCache_0",
+    "func_name": "createHotRodCache",
+    "cve_id": "CVE-2017-15089",
+    "cwe_ids": [
+        "CWE-502"
+    ],
+    "commit_hash": "69be66141eee7abb1c47d46f0a6b74b079709f4b",
+    "parent_commit_hash": "efc44b7b0a5dd4f44773808840dd9785cabcf21c",
+    "repo_name": "infinispan",
+    "git_url": "https://github.com/infinispan/infinispan/commit/69be66141eee7abb1c47d46f0a6b74b079709f4b",
+    "file_path": "integrationtests/compatibility-mode-it/src/test/java/org/infinispan/it/compatibility/CompatibilityCacheFactory.java",
+    "file_name": "CompatibilityCacheFactory.java",
+    "commit_date": 1513133054,
+    "commit_msg": "ISPN-8624 Custom marshaller implementors should verify class names\n\n* Add documentation entry to make sure any custom marshaller\n  implementations implement white class name verification.",
+    "cvss_vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+    "cvss_base_score": 6.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

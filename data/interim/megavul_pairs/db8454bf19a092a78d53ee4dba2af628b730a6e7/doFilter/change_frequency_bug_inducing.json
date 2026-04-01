@@ -1,0 +1,298 @@
+{
+  "frequency": [
+    {
+      "c": "VariableRead",
+      "f": "9"
+    },
+    {
+      "c": "Invocation",
+      "f": "5"
+    },
+    {
+      "c": "Literal",
+      "f": "4"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "3"
+    },
+    {
+      "c": "TypeReference",
+      "f": "2"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "2"
+    },
+    {
+      "c": "Catch",
+      "f": "2"
+    },
+    {
+      "c": "ConstructorCall",
+      "f": "2"
+    },
+    {
+      "c": "CatchVariable",
+      "f": "1"
+    },
+    {
+      "c": "TryWithResource",
+      "f": "1"
+    },
+    {
+      "c": "VariableWrite",
+      "f": "1"
+    },
+    {
+      "c": "Try",
+      "f": "1"
+    },
+    {
+      "c": "If",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "update-node_VariableRead_Invocation",
+      "f": "4"
+    },
+    {
+      "c": "move-tree_VariableRead_Invocation",
+      "f": "3"
+    },
+    {
+      "c": "delete-node_VariableRead_Invocation",
+      "f": "2"
+    },
+    {
+      "c": "move-tree_Invocation_Invocation",
+      "f": "2"
+    },
+    {
+      "c": "update-node_Literal_Invocation",
+      "f": "2"
+    },
+    {
+      "c": "move-tree_Catch_TryWithResource",
+      "f": "2"
+    },
+    {
+      "c": "move-tree_Literal_Invocation",
+      "f": "2"
+    },
+    {
+      "c": "insert-node_BinaryOperator_Invocation",
+      "f": "2"
+    },
+    {
+      "c": "delete-node_Invocation_Assignment",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_CatchVariable_Catch",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_VariableWrite_Assignment",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_Try_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_TypeReference_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "update-node_LocalVariable_Block",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_TryWithResource_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_ConstructorCall_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_ConstructorCall_Assignment",
+      "f": "1"
+    },
+    {
+      "c": "update-node_TypeReference_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Invocation_ConstructorCall",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Invocation_Block",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "VariableRead",
+      "f": "0.2647058823529412"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.14705882352941177"
+    },
+    {
+      "c": "Literal",
+      "f": "0.11764705882352941"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "0.08823529411764706"
+    },
+    {
+      "c": "TypeReference",
+      "f": "0.058823529411764705"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "0.058823529411764705"
+    },
+    {
+      "c": "Catch",
+      "f": "0.058823529411764705"
+    },
+    {
+      "c": "ConstructorCall",
+      "f": "0.058823529411764705"
+    },
+    {
+      "c": "CatchVariable",
+      "f": "0.029411764705882353"
+    },
+    {
+      "c": "TryWithResource",
+      "f": "0.029411764705882353"
+    },
+    {
+      "c": "VariableWrite",
+      "f": "0.029411764705882353"
+    },
+    {
+      "c": "Try",
+      "f": "0.029411764705882353"
+    },
+    {
+      "c": "If",
+      "f": "0.029411764705882353"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "update-node_VariableRead_Invocation",
+      "f": "0.11764705882352941"
+    },
+    {
+      "c": "move-tree_VariableRead_Invocation",
+      "f": "0.08823529411764706"
+    },
+    {
+      "c": "delete-node_VariableRead_Invocation",
+      "f": "0.058823529411764705"
+    },
+    {
+      "c": "move-tree_Invocation_Invocation",
+      "f": "0.058823529411764705"
+    },
+    {
+      "c": "update-node_Literal_Invocation",
+      "f": "0.058823529411764705"
+    },
+    {
+      "c": "move-tree_Catch_TryWithResource",
+      "f": "0.058823529411764705"
+    },
+    {
+      "c": "move-tree_Literal_Invocation",
+      "f": "0.058823529411764705"
+    },
+    {
+      "c": "insert-node_BinaryOperator_Invocation",
+      "f": "0.058823529411764705"
+    },
+    {
+      "c": "delete-node_Invocation_Assignment",
+      "f": "0.029411764705882353"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "0.029411764705882353"
+    },
+    {
+      "c": "update-node_CatchVariable_Catch",
+      "f": "0.029411764705882353"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "0.029411764705882353"
+    },
+    {
+      "c": "update-node_VariableWrite_Assignment",
+      "f": "0.029411764705882353"
+    },
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "0.029411764705882353"
+    },
+    {
+      "c": "insert-node_Try_Block",
+      "f": "0.029411764705882353"
+    },
+    {
+      "c": "move-tree_TypeReference_LocalVariable",
+      "f": "0.029411764705882353"
+    },
+    {
+      "c": "update-node_LocalVariable_Block",
+      "f": "0.029411764705882353"
+    },
+    {
+      "c": "delete-node_TryWithResource_Block",
+      "f": "0.029411764705882353"
+    },
+    {
+      "c": "move-tree_ConstructorCall_LocalVariable",
+      "f": "0.029411764705882353"
+    },
+    {
+      "c": "insert-node_ConstructorCall_Assignment",
+      "f": "0.029411764705882353"
+    },
+    {
+      "c": "update-node_TypeReference_LocalVariable",
+      "f": "0.029411764705882353"
+    },
+    {
+      "c": "delete-node_Invocation_ConstructorCall",
+      "f": "0.029411764705882353"
+    },
+    {
+      "c": "move-tree_Invocation_Block",
+      "f": "0.029411764705882353"
+    }
+  ]
+}

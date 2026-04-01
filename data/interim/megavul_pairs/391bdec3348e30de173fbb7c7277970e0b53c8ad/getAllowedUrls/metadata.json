@@ -1,0 +1,20 @@
+{
+    "id": "391bdec3348e30de173fbb7c7277970e0b53c8ad_getAllowedUrls_0",
+    "func_name": "getAllowedUrls",
+    "cve_id": "CVE-2023-43654",
+    "cwe_ids": [
+        "CWE-918"
+    ],
+    "commit_hash": "391bdec3348e30de173fbb7c7277970e0b53c8ad",
+    "parent_commit_hash": "58eb2d2c79cf1cf711abf9ffea5678420a5ff65a",
+    "repo_name": "pytorch/serve",
+    "git_url": "https://github.com/pytorch/serve/commit/391bdec3348e30de173fbb7c7277970e0b53c8ad",
+    "file_path": "frontend/server/src/main/java/org/pytorch/serve/util/ConfigManager.java",
+    "file_name": "ConfigManager.java",
+    "commit_date": 1692699792,
+    "commit_msg": "Issue warning about allowed_urls when default value is used",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_is_v3": true
+}

@@ -1,0 +1,20 @@
+{
+    "id": "e206f02d46ae5e38c74d138b51f6e1637e261abe_prepareHelpMenuItem_1",
+    "func_name": "prepareHelpMenuItem",
+    "cve_id": "CVE-2016-3889",
+    "cwe_ids": [
+        "CWE-264"
+    ],
+    "commit_hash": "e206f02d46ae5e38c74d138b51f6e1637e261abe",
+    "parent_commit_hash": "61e9103b5725965568e46657f4781dd8f2e5b623",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/e206f02d46ae5e38c74d138b51f6e1637e261abe",
+    "file_path": "packages/SettingsLib/src/com/android/settingslib/HelpUtils.java",
+    "file_name": "HelpUtils.java",
+    "commit_date": 1467306948,
+    "commit_msg": "Pre-setup restrictions\n\n - Prevent external tiles from system apps\n - Disable help\n\nBug: 29194585\nChange-Id: I92da498110db49f7a523d6f775f191c4b52a4ad6\n",
+    "cvss_vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C",
+    "cvss_base_score": 7.2,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

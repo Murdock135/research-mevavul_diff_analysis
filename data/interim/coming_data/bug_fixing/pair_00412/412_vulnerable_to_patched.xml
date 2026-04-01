@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="): ) [45,46]" dest="): ) [45,46]"/>
+  <match src="function_definition [0,249]" dest="function_definition [0,519]"/>
+  <match src="return_statement [234,247]" dest="return_statement [291,304]"/>
+  <match src="expression_statement [162,231]" dest="expression_statement [271,288]"/>
+  <match src="&amp;: &amp; [34,35]" dest="&amp;: &amp; [34,35]"/>
+  <match src="identifier: file_path [36,45]" dest="identifier: file_path [36,45]"/>
+  <match src="function_declarator [5,46]" dest="function_declarator [5,46]"/>
+  <match src="compound_statement [47,249]" dest="compound_statement [47,519]"/>
+  <match src=";: ; [246,247]" dest=";: ; [303,304]"/>
+  <match src="type_qualifier [22,27]" dest="type_qualifier [22,27]"/>
+  <match src="(: ( [21,22]" dest="(: ( [21,22]"/>
+  <match src="primitive_type: bool [0,4]" dest="primitive_type: bool [0,4]"/>
+  <match src="parameter_list [21,46]" dest="parameter_list [21,46]"/>
+  <match src="return: return [234,240]" dest="return: return [291,297]"/>
+  <match src="{: { [47,48]" dest="{: { [47,48]"/>
+  <match src=";: ; [230,231]" dest=";: ; [287,288]"/>
+  <match src="translation_unit [0,249]" dest="translation_unit [0,519]"/>
+  <match src="const: const [22,27]" dest="const: const [22,27]"/>
+  <match src="}: } [248,249]" dest="}: } [518,519]"/>
+  <match src="parameter_declaration [22,45]" dest="parameter_declaration [22,45]"/>
+  <match src="ERROR [34,35]" dest="ERROR [34,35]"/>
+  <match src="identifier: format_go_output [5,21]" dest="identifier: format_go_output [5,21]"/>
+  <match src="type_identifier: string [28,34]" dest="type_identifier: string [28,34]"/>
+  <match src="false: false [241,246]" dest="false: false [298,303]"/>
+</matches>
+<actions>
+  <insert-node tree="comment: // formatting via gofmt deactivated due to THRIFT-3893 [52,106]" parent="compound_statement [47,249]" at="1"/>
+  <insert-node tree="comment: // Please look at the ticket and make sure you fully understand all the implications [109,193]" parent="compound_statement [47,249]" at="2"/>
+  <insert-node tree="comment: // before submitting a patch that enables this feature again. Thank you. [196,268]" parent="compound_statement [47,249]" at="3"/>
+  <insert-node tree="comment:   
+  const string command = &quot;gofmt -w &quot; + file_path;
+
+  if (system(command.c_str()) == 0) {
+    return true;
+  }
+
+  fprintf(stderr, &quot;WARNING - Running '%s' failed.\n&quot;, command.c_str());
+  return false;
+  */ [310,516]" parent="compound_statement [47,249]" at="8"/>
+  <insert-tree tree="cast_expression [271,287]" parent="expression_statement [162,231]" at="0"/>
+  <delete-tree tree="declaration [51,98]"/>
+  <delete-tree tree="if_statement [102,158]"/>
+  <delete-tree tree="call_expression [162,230]"/>
+</actions>

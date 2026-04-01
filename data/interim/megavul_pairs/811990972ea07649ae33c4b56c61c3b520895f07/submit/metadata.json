@@ -1,0 +1,20 @@
+{
+    "id": "811990972ea07649ae33c4b56c61c3b520895f07_submit_0",
+    "func_name": "submit",
+    "cve_id": "CVE-2021-4284",
+    "cwe_ids": [
+        "CWE-79"
+    ],
+    "commit_hash": "811990972ea07649ae33c4b56c61c3b520895f07",
+    "parent_commit_hash": "e002f33bde0ceaaf0dea96e7a90f2cc918c7e31a",
+    "repo_name": "openmrs/openmrs-module-htmlformentryui",
+    "git_url": "https://github.com/openmrs/openmrs-module-htmlformentryui/commit/811990972ea07649ae33c4b56c61c3b520895f07",
+    "file_path": "omod/src/main/java/org/openmrs/module/htmlformentryui/fragment/controller/htmlform/EnterHtmlFormFragmentController.java",
+    "file_name": "EnterHtmlFormFragmentController.java",
+    "commit_date": 1625469588,
+    "commit_msg": "Ra 1424:  escapeJs is vulnerable to XSS attacks  (#51)\n\n* RA-1424: escapeJs vulnerable to XSS\r\n\r\n* RA-1424: escapeJs vulnerable to XSS",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+    "cvss_base_score": 6.1,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

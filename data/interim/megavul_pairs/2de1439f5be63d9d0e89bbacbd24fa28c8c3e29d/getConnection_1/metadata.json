@@ -1,0 +1,20 @@
+{
+    "id": "2de1439f5be63d9d0e89bbacbd24fa28c8c3e29d_getConnection_0",
+    "func_name": "getConnection",
+    "cve_id": "CVE-2023-41886",
+    "cwe_ids": [
+        "CWE-89"
+    ],
+    "commit_hash": "2de1439f5be63d9d0e89bbacbd24fa28c8c3e29d",
+    "parent_commit_hash": "4f44598c336e4a7c139a256494175be87f30a748",
+    "repo_name": "OpenRefine",
+    "git_url": "https://github.com/OpenRefine/OpenRefine/commit/2de1439f5be63d9d0e89bbacbd24fa28c8c3e29d",
+    "file_path": "extensions/database/src/com/google/refine/extension/database/mysql/MySQLConnectionManager.java",
+    "file_name": "MySQLConnectionManager.java",
+    "commit_date": 1694471653,
+    "commit_msg": "Merge pull request from GHSA-qqh2-wvmv-h72m",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

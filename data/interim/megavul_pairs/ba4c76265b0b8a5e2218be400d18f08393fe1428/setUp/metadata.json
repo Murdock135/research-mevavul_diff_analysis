@@ -1,0 +1,20 @@
+{
+    "id": "ba4c76265b0b8a5e2218be400d18f08393fe1428_setUp_0",
+    "func_name": "setUp",
+    "cve_id": "CVE-2023-29211",
+    "cwe_ids": [
+        "CWE-94"
+    ],
+    "commit_hash": "ba4c76265b0b8a5e2218be400d18f08393fe1428",
+    "parent_commit_hash": "cebf9167e4fd64a8777781fc56461e9abbe0b32a",
+    "repo_name": "xwiki/xwiki-platform",
+    "git_url": "https://github.com/xwiki/xwiki-platform/commit/ba4c76265b0b8a5e2218be400d18f08393fe1428",
+    "file_path": "xwiki-platform-core/xwiki-platform-test/xwiki-platform-test-page/src/main/java/org/xwiki/test/page/LocalizationSetup.java",
+    "file_name": "LocalizationSetup.java",
+    "commit_date": 1666844104,
+    "commit_msg": "XWIKI-20297: Improved DeleteWiki error message escaping\n\n- Cleanup the unknown wiki error message in DeleteWiki\n- Make it easier to use the TestNoScriptMacro by moving it to  xwiki-platform-test-page\n- Make it easier to use the translation macro in page tests",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 8.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

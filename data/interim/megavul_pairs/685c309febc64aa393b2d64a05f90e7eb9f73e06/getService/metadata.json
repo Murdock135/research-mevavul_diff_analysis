@@ -1,0 +1,20 @@
+{
+    "id": "685c309febc64aa393b2d64a05f90e7eb9f73e06_getService_0",
+    "func_name": "getService",
+    "cve_id": "CVE-2023-51441",
+    "cwe_ids": [
+        "CWE-918"
+    ],
+    "commit_hash": "685c309febc64aa393b2d64a05f90e7eb9f73e06",
+    "parent_commit_hash": "e84c60c1f0764b01577d62c9e6453457d523ee77",
+    "repo_name": "apache/axis-axis1-java",
+    "git_url": "https://github.com/apache/axis-axis1-java/commit/685c309febc64aa393b2d64a05f90e7eb9f73e06",
+    "file_path": "axis-rt-core/src/main/java/org/apache/axis/client/ServiceFactory.java",
+    "file_name": "ServiceFactory.java",
+    "commit_date": 1702836056,
+    "commit_msg": "Filter out more unsupported protocols in the client class ServiceFactory",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 7.2,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

@@ -1,0 +1,20 @@
+{
+    "id": "b8e7fe_applySorting_0",
+    "func_name": "applySorting",
+    "cve_id": "CVE-2016-6652",
+    "cwe_ids": [
+        "CWE-89"
+    ],
+    "commit_hash": "b8e7fe",
+    "parent_commit_hash": "c227c6753047b262b83ed7623433a1d65d9308b8",
+    "repo_name": "spring-projects/spring-data-jpa",
+    "git_url": "https://github.com/spring-projects/spring-data-jpa/commit/b8e7fecccc7dc8edcabb4704656a7abe6352c08f",
+    "file_path": "src/main/java/org/springframework/data/jpa/repository/query/QueryUtils.java",
+    "file_name": "QueryUtils.java",
+    "commit_date": 1473132848,
+    "commit_msg": "DATAJPA-965 - Fix potential blind SQL injection in Sort when used in combination with @Query.\n\nWe now decline sort expressions that contain functions such as ORDER BY LENGTH(name) when used with repository having a String query defined via the @Query annotation.\n\nThink of a query method as follows:\n\n@Query(\"select p from Person p where LOWER(p.lastname) = LOWER(:lastname)\")\nList<Person> findByLastname(@Param(\"lastname\") String lastname, Sort sort);\n\nCalls to findByLastname(\"lannister\", new Sort(\"LENGTH(firstname)\")) from now on throw an Exception indicating function calls are not allowed within the _ORDER BY_ clause. However you still can use JpaSort.unsafe(\"LENGTH(firstname)\") to restore the behavior.\n\nKudos to Niklas Sa\u0308ro\u0308kaari, Joona Immonen, Arto Santala, Antti Virtanen, Michael Holopainen and Antti Ahola who brought this to our attention.",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 6.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

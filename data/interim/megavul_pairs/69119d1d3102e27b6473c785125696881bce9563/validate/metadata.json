@@ -1,0 +1,20 @@
+{
+    "id": "69119d1d3102e27b6473c785125696881bce9563_validate_0",
+    "func_name": "validate",
+    "cve_id": "CVE-2023-21240",
+    "cwe_ids": [
+        "CWE-400"
+    ],
+    "commit_hash": "69119d1d3102e27b6473c785125696881bce9563",
+    "parent_commit_hash": "8827591ae680c4d0bd0e373d4ca20cb35f53faa6",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/packages/modules/Wifi/+/69119d1d3102e27b6473c785125696881bce9563",
+    "file_path": "framework/java/android/net/wifi/hotspot2/pps/Policy.java",
+    "file_name": "Policy.java",
+    "commit_date": 1681342491,
+    "commit_msg": "Add size check on PPS#policy\n\nBug: 275340417\nTest: atest android.net.wifi\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:1fefc4c0995aabba6fd966bde9bf48dc24cb41b2)\nMerged-In: Iede626004a1ea46f47b185777c97794e4d3ded4e\nChange-Id: Iede626004a1ea46f47b185777c97794e4d3ded4e\n",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

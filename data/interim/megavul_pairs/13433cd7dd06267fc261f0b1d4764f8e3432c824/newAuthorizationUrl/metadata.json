@@ -1,0 +1,20 @@
+{
+    "id": "13433cd7dd06267fc261f0b1d4764f8e3432c824_newAuthorizationUrl_0",
+    "func_name": "newAuthorizationUrl",
+    "cve_id": "CVE-2020-7692",
+    "cwe_ids": [
+        "CWE-863"
+    ],
+    "commit_hash": "13433cd7dd06267fc261f0b1d4764f8e3432c824",
+    "parent_commit_hash": "6447917c657a5ae4267afbab74dfdb890bbfbf28",
+    "repo_name": "googleapis/google-oauth-java-client",
+    "git_url": "https://github.com/googleapis/google-oauth-java-client/commit/13433cd7dd06267fc261f0b1d4764f8e3432c824",
+    "file_path": "google-oauth-client/src/main/java/com/google/api/client/auth/oauth2/AuthorizationCodeFlow.java",
+    "file_name": "AuthorizationCodeFlow.java",
+    "commit_date": 1593431840,
+    "commit_msg": "feat: add PKCE support to AuthorizationCodeFlow (#470)\n\n* Initial test code for a PKCE enabled Authorization Code Flow\r\n\r\n* WIP: work on README.md\r\n\r\n* Script to initialize keycloak by adding client via REST API.\r\n\r\n* Improve keycloak init script and some code cleanup. Still WIP.\r\n\r\n* WIP: work on README.md\r\n\r\n* Working PKCE AuthorizationCodeFlow. Some cleanup of test classes.\r\n\r\n* Add scopes back to the AuthorizationCodeRequestUrl creation.\r\n\r\n* Simplify code by moving PKCE entirely into the AuthorizationCodeFlow class. Add documentation.\r\n\r\n* Remove wildcard imports as that seems to be the way to do things here.\r\n\r\n* Add @since annotation in JavaDoc to the PKCE parameters of the autorization url class.\r\n\r\n* Add PKCE unit test, documentation and minor cleanup of dependencies for code sample.\r\n\r\n* Add PKCE unit test, documentation and minor cleanup of dependencies for code sample.\r\n\r\n* Annotate PKCE with Beta annotation.\r\n\r\n* Responding to code review comments\r\n\r\n* Responding to more PR comments\r\n\r\n* Improve Keycloak PKCE sample documentation\r\n\r\n* Add license header with copyright to new files. Improve documentation.",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:N",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

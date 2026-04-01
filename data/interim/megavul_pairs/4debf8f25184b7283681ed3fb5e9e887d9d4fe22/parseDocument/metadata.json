@@ -1,0 +1,20 @@
+{
+    "id": "4debf8f25184b7283681ed3fb5e9e887d9d4fe22_parseDocument_0",
+    "func_name": "parseDocument",
+    "cve_id": "CVE-2021-3836",
+    "cwe_ids": [
+        "CWE-611"
+    ],
+    "commit_hash": "4debf8f25184b7283681ed3fb5e9e887d9d4fe22",
+    "parent_commit_hash": "db626f48bd3490e8c1c61d94b8b9c726316ae739",
+    "repo_name": "dbeaver",
+    "git_url": "https://github.com/dbeaver/dbeaver/commit/4debf8f25184b7283681ed3fb5e9e887d9d4fe22",
+    "file_path": "bundles/org.jkiss.utils/src/org/jkiss/utils/xml/XMLUtils.java",
+    "file_name": "XMLUtils.java",
+    "commit_date": 1633313582,
+    "commit_msg": "dbeaver/dbeaver-ee#1166 prevent XXE",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

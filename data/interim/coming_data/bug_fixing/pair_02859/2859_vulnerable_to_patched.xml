@@ -1,0 +1,270 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="number_literal: 0 [223,224]" dest="number_literal: 0 [223,224]"/>
+  <match src="number_literal: 2 [463,464]" dest="number_literal: 2 [463,464]"/>
+  <match src="primitive_type: int [85,88]" dest="primitive_type: int [85,88]"/>
+  <match src="identifier: dt_size [72,79]" dest="identifier: dt_size [72,79]"/>
+  <match src="comment: /* Expand to 2x size to give enough room for manipulation.  */ [363,425]" dest="comment: /* Expand to 2x size to give enough room for manipulation.  */ [363,425]"/>
+  <match src="identifier: error_report [654,666]" dest="identifier: error_report [668,680]"/>
+  <match src="call_expression [964,985]" dest="call_expression [978,999]"/>
+  <match src="identifier: filename_path [729,742]" dest="identifier: filename_path [743,756]"/>
+  <match src="argument_list [1181,1186]" dest="argument_list [1195,1200]"/>
+  <match src="=: = [155,156]" dest="=: = [155,156]"/>
+  <match src="{: { [987,988]" dest="{: { [1001,1002]"/>
+  <match src="(: ( [188,189]" dest="(: ( [188,189]"/>
+  <match src="(: ( [1009,1010]" dest="(: ( [1023,1024]"/>
+  <match src=";: ; [158,159]" dest=";: ; [158,159]"/>
+  <match src="call_expression [654,743]" dest="call_expression [668,757]"/>
+  <match src="NULL: NULL [1199,1203]" dest="NULL: NULL [1213,1217]"/>
+  <match src="parameter_list [22,61]" dest="parameter_list [22,61]"/>
+  <match src="goto_statement [753,763]" dest="goto_statement [767,777]"/>
+  <match src="&quot;: &quot; [249,250]" dest="&quot;: &quot; [249,250]"/>
+  <match src="identifier: dt_size [430,437]" dest="identifier: dt_size [430,437]"/>
+  <match src="(: ( [963,964]" dest="(: ( [977,978]"/>
+  <match src="&quot;: &quot; [704,705]" dest="&quot;: &quot; [718,719]"/>
+  <match src="identifier: fdt [800,803]" dest="identifier: fdt [814,817]"/>
+  <match src="if_statement [616,769]" dest="if_statement [630,783]"/>
+  <match src="&lt;: &lt; [221,222]" dest="&lt;: &lt; [221,222]"/>
+  <match src="(: ( [248,249]" dest="(: ( [248,249]"/>
+  <match src="expression_statement [527,552]" dest="expression_statement [527,552]"/>
+  <match src="comment: /* Check sanity of device tree */ [922,955]" dest="comment: /* Check sanity of device tree */ [936,969]"/>
+  <match src="*: * [1130,1131]" dest="*: * [1144,1145]"/>
+  <match src="null [1199,1203]" dest="null [1213,1217]"/>
+  <match src=";: ; [331,332]" dest=";: ; [331,332]"/>
+  <match src="pointer_declarator [5,61]" dest="pointer_declarator [5,61]"/>
+  <match src="primitive_type: char [29,33]" dest="primitive_type: char [29,33]"/>
+  <match src="goto: goto [753,757]" dest="goto: goto [767,771]"/>
+  <match src="primitive_type: void [0,4]" dest="primitive_type: void [0,4]"/>
+  <match src="declaration [125,142]" dest="declaration [125,142]"/>
+  <match src="): ) [641,642]" dest="): ) [655,656]"/>
+  <match src="{: { [226,227]" dest="{: { [226,227]"/>
+  <match src="): ) [1098,1099]" dest="): ) [1112,1113]"/>
+  <match src="}: } [915,916]" dest="}: } [929,930]"/>
+  <match src="expression_statement [775,814]" dest="expression_statement [789,828]"/>
+  <match src="identifier: fdt [795,798]" dest="identifier: fdt [809,812]"/>
+  <match src=";: ; [203,204]" dest=";: ; [203,204]"/>
+  <match src=";: ; [551,552]" dest=";: ; [551,552]"/>
+  <match src=";: ; [1146,1147]" dest=";: ; [1160,1161]"/>
+  <match src="identifier: fdt_check_header [964,980]" dest="identifier: fdt_check_header [978,994]"/>
+  <match src="assignment_expression [775,813]" dest="assignment_expression [789,827]"/>
+  <match src="goto: goto [1109,1113]" dest="goto: goto [1123,1127]"/>
+  <match src="number_literal: 0 [157,158]" dest="number_literal: 0 [157,158]"/>
+  <match src="expression_statement [654,744]" dest="expression_statement [668,758]"/>
+  <match src=";: ; [106,107]" dest=";: ; [106,107]"/>
+  <match src="identifier: dt_size [1139,1146]" dest="identifier: dt_size [1153,1160]"/>
+  <match src="identifier: fdt [605,608]" dest="identifier: fdt [610,613]"/>
+  <match src="call_expression [174,203]" dest="call_expression [174,203]"/>
+  <match src="identifier: fdt [131,134]" dest="identifier: fdt [131,134]"/>
+  <match src="function_definition [0,1206]" dest="function_definition [0,1220]"/>
+  <match src="string_content: Unable to copy device tree in memory [852,888]" dest="string_content: Unable to copy device tree in memory [866,902]"/>
+  <match src="comment: /* First allocate space in qemu for device tree */ [471,521]" dest="comment: /* First allocate space in qemu for device tree */ [471,521]"/>
+  <match src="statement_identifier: fail [905,909]" dest="statement_identifier: fail [919,923]"/>
+  <match src="identifier: dt_file_load_size [89,106]" dest="identifier: dt_file_load_size [89,106]"/>
+  <match src="argument_list [794,813]" dest="argument_list [808,827]"/>
+  <match src="NULL: NULL [137,141]" dest="NULL: NULL [137,141]"/>
+  <match src="compound_statement [226,357]" dest="compound_statement [226,357]"/>
+  <match src="assignment_expression [148,158]" dest="assignment_expression [148,158]"/>
+  <match src="primitive_type: int [112,115]" dest="primitive_type: int [112,115]"/>
+  <match src="expression_statement [997,1100]" dest="expression_statement [1011,1114]"/>
+  <match src=";: ; [813,814]" dest=";: ; [827,828]"/>
+  <match src="function_declarator [6,61]" dest="function_declarator [6,61]"/>
+  <match src="): ) [202,203]" dest="): ) [202,203]"/>
+  <match src=";: ; [119,120]" dest=";: ; [119,120]"/>
+  <match src="): ) [550,551]" dest="): ) [550,551]"/>
+  <match src=",: , [48,49]" dest=",: , [48,49]"/>
+  <match src="&quot;: &quot; [1010,1011]" dest="&quot;: &quot; [1024,1025]"/>
+  <match src="call_expression [997,1099]" dest="call_expression [1011,1113]"/>
+  <match src="identifier: fdt [1159,1162]" dest="identifier: fdt [1173,1176]"/>
+  <match src="compound_statement [62,1206]" dest="compound_statement [62,1220]"/>
+  <match src="statement_identifier: fail [1114,1118]" dest="statement_identifier: fail [1128,1132]"/>
+  <match src="(: ( [666,667]" dest="(: ( [680,681]"/>
+  <match src=";: ; [890,891]" dest=";: ; [904,905]"/>
+  <match src="goto_statement [341,351]" dest="goto_statement [341,351]"/>
+  <match src="call_expression [781,813]" dest="call_expression [795,827]"/>
+  <match src="): ) [330,331]" dest="): ) [330,331]"/>
+  <match src="call_expression [838,890]" dest="call_expression [852,904]"/>
+  <match src="call_expression [533,551]" dest="call_expression [533,551]"/>
+  <match src="if: if [960,962]" dest="if: if [974,976]"/>
+  <match src="identifier: g_malloc0 [533,542]" dest="identifier: g_malloc0 [533,542]"/>
+  <match src="pointer_declarator [54,60]" dest="pointer_declarator [54,60]"/>
+  <match src="pointer_declarator [130,134]" dest="pointer_declarator [130,134]"/>
+  <match src="(: ( [22,23]" dest="(: ( [22,23]"/>
+  <match src="identifier: dt_size [213,220]" dest="identifier: dt_size [213,220]"/>
+  <match src="=: = [172,173]" dest="=: = [172,173]"/>
+  <match src="identifier: error_report [997,1009]" dest="identifier: error_report [1011,1023]"/>
+  <match src="string_literal [851,889]" dest="string_literal [865,903]"/>
+  <match src="binary_expression [213,224]" dest="binary_expression [213,224]"/>
+  <match src="compound_statement [987,1125]" dest="compound_statement [1001,1139]"/>
+  <match src="&quot;: &quot; [851,852]" dest="&quot;: &quot; [865,866]"/>
+  <match src="if: if [209,211]" dest="if: if [209,211]"/>
+  <match src="): ) [224,225]" dest="): ) [224,225]"/>
+  <match src="identifier: filename_path [590,603]" dest="identifier: filename_path [595,608]"/>
+  <match src="argument_list [666,743]" dest="argument_list [680,757]"/>
+  <match src="parameter_declaration [50,60]" dest="parameter_declaration [50,60]"/>
+  <match src="goto: goto [900,904]" dest="goto: goto [914,918]"/>
+  <match src="&quot;: &quot; [667,668]" dest="&quot;: &quot; [681,682]"/>
+  <match src="declaration [85,107]" dest="declaration [85,107]"/>
+  <match src="): ) [60,61]" dest="): ) [60,61]"/>
+  <match src="): ) [826,827]" dest="): ) [840,841]"/>
+  <match src="(: ( [212,213]" dest="(: ( [212,213]"/>
+  <match src="expression_statement [236,332]" dest="expression_statement [236,332]"/>
+  <match src="goto_statement [1109,1119]" dest="goto_statement [1123,1133]"/>
+  <match src=":: : [1169,1170]" dest=":: : [1183,1184]"/>
+  <match src="parameter_declaration [23,48]" dest="parameter_declaration [23,48]"/>
+  <match src="primitive_type: void [125,129]" dest="primitive_type: void [125,129]"/>
+  <match src="identifier: sizep [55,60]" dest="identifier: sizep [55,60]"/>
+  <match src="identifier: dt_size [164,171]" dest="identifier: dt_size [164,171]"/>
+  <match src="identifier: fdt [981,984]" dest="identifier: fdt [995,998]"/>
+  <match src=";: ; [79,80]" dest=";: ; [79,80]"/>
+  <match src="argument_list [248,331]" dest="argument_list [248,331]"/>
+  <match src="expression_statement [164,204]" dest="expression_statement [164,204]"/>
+  <match src="return_statement [1192,1204]" dest="return_statement [1206,1218]"/>
+  <match src=";: ; [1118,1119]" dest=";: ; [1132,1133]"/>
+  <match src="statement_identifier: fail [758,762]" dest="statement_identifier: fail [772,776]"/>
+  <match src=";: ; [141,142]" dest=";: ; [141,142]"/>
+  <match src="*: * [130,131]" dest="*: * [130,131]"/>
+  <match src="{: { [62,63]" dest="{: { [62,63]"/>
+  <match src="expression_statement [148,159]" dest="expression_statement [148,159]"/>
+  <match src="number_literal: 10000 [441,446]" dest="number_literal: 10000 [441,446]"/>
+  <match src="identifier: filename_path [189,202]" dest="identifier: filename_path [189,202]"/>
+  <match src="&quot;: &quot; [1061,1062]" dest="&quot;: &quot; [1075,1076]"/>
+  <match src="}: } [1124,1125]" dest="}: } [1138,1139]"/>
+  <match src="identifier: load_device_tree [6,22]" dest="identifier: load_device_tree [6,22]"/>
+  <match src="}: } [768,769]" dest="}: } [782,783]"/>
+  <match src=";: ; [1162,1163]" dest=";: ; [1176,1177]"/>
+  <match src="argument_list [542,551]" dest="argument_list [542,551]"/>
+  <match src="): ) [984,985]" dest="): ) [998,999]"/>
+  <match src="&quot;: &quot; [888,889]" dest="&quot;: &quot; [902,903]"/>
+  <match src="&lt;: &lt; [638,639]" dest="&lt;: &lt; [652,653]"/>
+  <match src="call_expression [1175,1186]" dest="call_expression [1189,1200]"/>
+  <match src="identifier: sizep [1131,1136]" dest="identifier: sizep [1145,1150]"/>
+  <match src="): ) [608,609]" dest="): ) [622,623]"/>
+  <match src="type_qualifier [23,28]" dest="type_qualifier [23,28]"/>
+  <match src="*: * [54,55]" dest="*: * [54,55]"/>
+  <match src="identifier: filename_path [35,48]" dest="identifier: filename_path [35,48]"/>
+  <match src=";: ; [1203,1204]" dest=";: ; [1217,1218]"/>
+  <match src="&quot;: &quot; [293,294]" dest="&quot;: &quot; [293,294]"/>
+  <match src="assignment_expression [527,551]" dest="assignment_expression [527,551]"/>
+  <match src="identifier: get_image_size [174,188]" dest="identifier: get_image_size [174,188]"/>
+  <match src="expression_statement [838,891]" dest="expression_statement [852,905]"/>
+  <match src="string_literal [667,705]" dest="string_literal [681,719]"/>
+  <match src="}: } [1205,1206]" dest="}: } [1219,1220]"/>
+  <match src=";: ; [609,610]" dest=";: ; [623,624]"/>
+  <match src="statement_identifier: fail [1165,1169]" dest="statement_identifier: fail [1179,1183]"/>
+  <match src=",: , [705,706]" dest=",: , [719,720]"/>
+  <match src="(: ( [794,795]" dest="(: ( [808,809]"/>
+  <match src="call_expression [236,331]" dest="call_expression [236,331]"/>
+  <match src="expression_statement [1130,1147]" dest="expression_statement [1144,1161]"/>
+  <match src="goto: goto [341,345]" dest="goto: goto [341,345]"/>
+  <match src="{: { [828,829]" dest="{: { [842,843]"/>
+  <match src="assignment_expression [164,203]" dest="assignment_expression [164,203]"/>
+  <match src="*: * [5,6]" dest="*: * [5,6]"/>
+  <match src="parenthesized_expression [963,986]" dest="parenthesized_expression [977,1000]"/>
+  <match src="parenthesized_expression [212,225]" dest="parenthesized_expression [212,225]"/>
+  <match src="call_expression [579,609]" dest="call_expression [579,623]"/>
+  <match src="primitive_type: int [68,71]" dest="primitive_type: int [68,71]"/>
+  <match src="=: = [1137,1138]" dest="=: = [1151,1152]"/>
+  <match src="identifier: error_report [838,850]" dest="identifier: error_report [852,864]"/>
+  <match src="expression_statement [430,447]" dest="expression_statement [430,447]"/>
+  <match src="init_declarator [130,141]" dest="init_declarator [130,141]"/>
+  <match src="if_statement [819,916]" dest="if_statement [833,930]"/>
+  <match src="argument_list [188,203]" dest="argument_list [188,203]"/>
+  <match src=";: ; [1186,1187]" dest=";: ; [1200,1201]"/>
+  <match src="argument_list [1009,1099]" dest="argument_list [1023,1113]"/>
+  <match src="argument_list [589,609]" dest="argument_list [594,623]"/>
+  <match src="string_content: Unable to open device tree file '%s' [668,704]" dest="string_content: Unable to open device tree file '%s' [682,718]"/>
+  <match src="identifier: dt_file_load_size [620,637]" dest="identifier: dt_file_load_size [634,651]"/>
+  <match src="assignment_expression [1130,1146]" dest="assignment_expression [1144,1160]"/>
+  <match src="return: return [1192,1198]" dest="return: return [1206,1212]"/>
+  <match src="identifier: dt_size [452,459]" dest="identifier: dt_size [452,459]"/>
+  <match src="identifier: dt_file_load_size [559,576]" dest="identifier: dt_file_load_size [559,576]"/>
+  <match src=",: , [603,604]" dest=",: , [608,609]"/>
+  <match src="*: * [34,35]" dest="*: * [34,35]"/>
+  <match src="identifier: fdt [527,530]" dest="identifier: fdt [527,530]"/>
+  <match src="(: ( [589,590]" dest="(: ( [594,595]"/>
+  <match src="parenthesized_expression [619,642]" dest="parenthesized_expression [633,656]"/>
+  <match src="if: if [616,618]" dest="if: if [630,632]"/>
+  <match src="identifier: ret [116,119]" dest="identifier: ret [116,119]"/>
+  <match src="string_content: Device tree file loaded into memory is invalid: %s [1011,1061]" dest="string_content: Device tree file loaded into memory is invalid: %s [1025,1075]"/>
+  <match src="string_content: Unable to get size of device tree file '%s' [250,293]" dest="string_content: Unable to get size of device tree file '%s' [250,293]"/>
+  <match src=";: ; [464,465]" dest=";: ; [464,465]"/>
+  <match src="): ) [889,890]" dest="): ) [903,904]"/>
+  <match src=";: ; [762,763]" dest=";: ; [776,777]"/>
+  <match src="identifier: dt_size [543,550]" dest="identifier: dt_size [543,550]"/>
+  <match src="(: ( [822,823]" dest="(: ( [836,837]"/>
+  <match src="{: { [643,644]" dest="{: { [657,658]"/>
+  <match src="assignment_expression [452,464]" dest="assignment_expression [452,464]"/>
+  <match src="compound_statement [643,769]" dest="compound_statement [657,783]"/>
+  <match src="if_statement [209,357]" dest="if_statement [209,357]"/>
+  <match src="declaration [68,80]" dest="declaration [68,80]"/>
+  <match src="): ) [812,813]" dest="): ) [826,827]"/>
+  <match src="translation_unit [0,1206]" dest="translation_unit [0,1220]"/>
+  <match src="(: ( [1181,1182]" dest="(: ( [1195,1196]"/>
+  <match src="identifier: error_report [236,248]" dest="identifier: error_report [236,248]"/>
+  <match src="compound_statement [828,916]" dest="compound_statement [842,930]"/>
+  <match src="*=: *= [460,462]" dest="*=: *= [460,462]"/>
+  <match src="expression_statement [1175,1187]" dest="expression_statement [1189,1201]"/>
+  <match src="number_literal: 0 [640,641]" dest="number_literal: 0 [654,655]"/>
+  <match src="}: } [356,357]" dest="}: } [356,357]"/>
+  <match src="): ) [742,743]" dest="): ) [756,757]"/>
+  <match src="=: = [135,136]" dest="=: = [135,136]"/>
+  <match src="assignment_expression [430,446]" dest="assignment_expression [430,446]"/>
+  <match src="return_statement [1152,1163]" dest="return_statement [1166,1177]"/>
+  <match src="=: = [577,578]" dest="=: = [577,578]"/>
+  <match src="labeled_statement [1165,1187]" dest="labeled_statement [1179,1201]"/>
+  <match src="if: if [819,821]" dest="if: if [833,835]"/>
+  <match src="pointer_expression [148,154]" dest="pointer_expression [148,154]"/>
+  <match src="argument_list [980,985]" dest="argument_list [994,999]"/>
+  <match src="pointer_declarator [34,48]" dest="pointer_declarator [34,48]"/>
+  <match src="pointer_expression [1130,1136]" dest="pointer_expression [1144,1150]"/>
+  <match src="): ) [985,986]" dest="): ) [999,1000]"/>
+  <match src="): ) [1185,1186]" dest="): ) [1199,1200]"/>
+  <match src=";: ; [743,744]" dest=";: ; [757,758]"/>
+  <match src="identifier: load_image [579,589]" dest="identifier: load_image_size [579,594]"/>
+  <match src="const: const [23,28]" dest="const: const [23,28]"/>
+  <match src=",: , [803,804]" dest=",: , [817,818]"/>
+  <match src="assignment_expression [559,609]" dest="assignment_expression [559,623]"/>
+  <match src="null [137,141]" dest="null [137,141]"/>
+  <match src="string_literal [249,294]" dest="string_literal [249,294]"/>
+  <match src=",: , [1062,1063]" dest=",: , [1076,1077]"/>
+  <match src="string_literal [1010,1062]" dest="string_literal [1024,1076]"/>
+  <match src=",: , [294,295]" dest=",: , [294,295]"/>
+  <match src="binary_expression [620,641]" dest="binary_expression [634,655]"/>
+  <match src="(: ( [980,981]" dest="(: ( [994,995]"/>
+  <match src=";: ; [446,447]" dest=";: ; [446,447]"/>
+  <match src="primitive_type: int [50,53]" dest="primitive_type: int [50,53]"/>
+  <match src=";: ; [350,351]" dest=";: ; [350,351]"/>
+  <match src="identifier: ret [775,778]" dest="identifier: ret [789,792]"/>
+  <match src="expression_statement [452,465]" dest="expression_statement [452,465]"/>
+  <match src="expression_statement [559,610]" dest="expression_statement [559,624]"/>
+  <match src="argument_list [850,890]" dest="argument_list [864,904]"/>
+  <match src="identifier: ret [823,826]" dest="identifier: ret [837,840]"/>
+  <match src="return: return [1152,1158]" dest="return: return [1166,1172]"/>
+  <match src="identifier: filename_path [1085,1098]" dest="identifier: filename_path [1099,1112]"/>
+  <match src="parenthesized_expression [822,827]" dest="parenthesized_expression [836,841]"/>
+  <match src="identifier: fdt_open_into [781,794]" dest="identifier: fdt_open_into [795,808]"/>
+  <match src="*: * [148,149]" dest="*: * [148,149]"/>
+  <match src="identifier: fdt [1182,1185]" dest="identifier: fdt [1196,1199]"/>
+  <match src="=: = [779,780]" dest="=: = [793,794]"/>
+  <match src="statement_identifier: fail [346,350]" dest="statement_identifier: fail [346,350]"/>
+  <match src=";: ; [909,910]" dest=";: ; [923,924]"/>
+  <match src="+=: += [438,440]" dest="+=: += [438,440]"/>
+  <match src="if_statement [960,1125]" dest="if_statement [974,1139]"/>
+  <match src="identifier: dt_size [805,812]" dest="identifier: dt_size [819,826]"/>
+  <match src="identifier: sizep [149,154]" dest="identifier: sizep [149,154]"/>
+  <match src="(: ( [850,851]" dest="(: ( [864,865]"/>
+  <match src="goto_statement [900,910]" dest="goto_statement [914,924]"/>
+  <match src=",: , [798,799]" dest=",: , [812,813]"/>
+  <match src="=: = [531,532]" dest="=: = [531,532]"/>
+  <match src="identifier: filename_path [317,330]" dest="identifier: filename_path [317,330]"/>
+  <match src=";: ; [1099,1100]" dest=";: ; [1113,1114]"/>
+  <match src="declaration [112,120]" dest="declaration [112,120]"/>
+  <match src="(: ( [619,620]" dest="(: ( [633,634]"/>
+  <match src="identifier: g_free [1175,1181]" dest="identifier: g_free [1189,1195]"/>
+  <match src="(: ( [542,543]" dest="(: ( [542,543]"/>
+</matches>
+<actions>
+  <update-node tree="identifier: load_image [579,589]" label="load_image_size"/>
+  <insert-node tree=",: , [613,614]" parent="argument_list [589,609]" at="4"/>
+  <insert-node tree="identifier: dt_size [615,622]" parent="argument_list [589,609]" at="5"/>
+</actions>

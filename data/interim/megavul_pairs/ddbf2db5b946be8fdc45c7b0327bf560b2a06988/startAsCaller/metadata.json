@@ -1,0 +1,21 @@
+{
+    "id": "ddbf2db5b946be8fdc45c7b0327bf560b2a06988_startAsCaller_0",
+    "func_name": "startAsCaller",
+    "cve_id": "CVE-2016-3752",
+    "cwe_ids": [
+        "CWE-254",
+        "CWE-19"
+    ],
+    "commit_hash": "ddbf2db5b946be8fdc45c7b0327bf560b2a06988",
+    "parent_commit_hash": "9c5a09fd23d595a39234a7879a3567a1158d3b62",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/ddbf2db5b946be8fdc45c7b0327bf560b2a06988",
+    "file_path": "core/java/com/android/internal/app/ChooserActivity.java",
+    "file_name": "ChooserActivity.java",
+    "commit_date": 1461886338,
+    "commit_msg": "Backport ChooserTarget package source check from N\n\nFix a bug where a ChooserTargetService could supply a ChooserTarget\npointing at a non-exported activity outside of its own package and\nhave it launch.\n\nBug 28384423\n\nChange-Id: I3f5854f91c5695ad9253d71055ef58224df47008\n",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

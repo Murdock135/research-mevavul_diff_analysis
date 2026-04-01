@@ -1,0 +1,58 @@
+{
+  "frequency": [
+    {
+      "c": "LocalVariable",
+      "f": "3"
+    },
+    {
+      "c": "Synchronized",
+      "f": "1"
+    },
+    {
+      "c": "If",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "3"
+    },
+    {
+      "c": "delete-node_Synchronized_Block",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "LocalVariable",
+      "f": "0.6"
+    },
+    {
+      "c": "Synchronized",
+      "f": "0.2"
+    },
+    {
+      "c": "If",
+      "f": "0.2"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "0.6"
+    },
+    {
+      "c": "delete-node_Synchronized_Block",
+      "f": "0.2"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "0.2"
+    }
+  ]
+}

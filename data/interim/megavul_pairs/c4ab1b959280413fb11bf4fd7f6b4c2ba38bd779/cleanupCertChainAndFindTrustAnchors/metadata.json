@@ -1,0 +1,21 @@
+{
+    "id": "c4ab1b959280413fb11bf4fd7f6b4c2ba38bd779_cleanupCertChainAndFindTrustAnchors_1",
+    "func_name": "cleanupCertChainAndFindTrustAnchors",
+    "cve_id": "CVE-2016-0818",
+    "cwe_ids": [
+        "CWE-254",
+        "CWE-345"
+    ],
+    "commit_hash": "c4ab1b959280413fb11bf4fd7f6b4c2ba38bd779",
+    "parent_commit_hash": "de55e62f6c7ecd57d0a91f2b497885c3bdc661d3",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/external/conscrypt/+/c4ab1b959280413fb11bf4fd7f6b4c2ba38bd779",
+    "file_path": "src/platform/java/org/conscrypt/TrustManagerImpl.java",
+    "file_name": "TrustManagerImpl.java",
+    "commit_date": 1450306553,
+    "commit_msg": "Cache intermediate CA separately\n\nIntermediate CAs are cached in order to support servers that fail to\nsent a complete chain to a root. These certificates should be cached to\nsupport these servers but these certificates must not be trusted as\ntrust anchors. Store them separately to prevent confusion between\ntrusted roots and cached intermediates.\n\n(cherry-picked from commit 198aca1fb638a2a98e89fb9f284108ad576d0c3b)\nBug: 26232830\nChange-Id: I520f50729b55fc7412c7d133335bc9e3c190bbf6\n",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

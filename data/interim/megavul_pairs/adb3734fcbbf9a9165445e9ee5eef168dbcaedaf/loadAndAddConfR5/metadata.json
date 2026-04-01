@@ -1,0 +1,20 @@
+{
+    "id": "adb3734fcbbf9a9165445e9ee5eef168dbcaedaf_loadAndAddConfR5_2",
+    "func_name": "loadAndAddConfR5",
+    "cve_id": "CVE-2020-24301",
+    "cwe_ids": [
+        "CWE-79"
+    ],
+    "commit_hash": "adb3734fcbbf9a9165445e9ee5eef168dbcaedaf",
+    "parent_commit_hash": "63ef2ce00630e6aede5d8d782c63484d55fa2f9e",
+    "repo_name": "hapifhir/hapi-fhir",
+    "git_url": "https://github.com/hapifhir/hapi-fhir/commit/adb3734fcbbf9a9165445e9ee5eef168dbcaedaf",
+    "file_path": "hapi-fhir-testpage-overlay/src/main/java/ca/uhn/fhir/to/BaseController.java",
+    "file_name": "BaseController.java",
+    "commit_date": 1596888404,
+    "commit_msg": "Resolve XSS vulnerability",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

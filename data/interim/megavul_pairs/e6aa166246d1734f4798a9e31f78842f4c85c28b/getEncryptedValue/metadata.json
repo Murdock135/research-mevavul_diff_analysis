@@ -1,0 +1,20 @@
+{
+    "id": "e6aa166246d1734f4798a9e31f78842f4c85c28b_getEncryptedValue_1",
+    "func_name": "getEncryptedValue",
+    "cve_id": "CVE-2017-2598",
+    "cwe_ids": [
+        "CWE-326"
+    ],
+    "commit_hash": "e6aa166246d1734f4798a9e31f78842f4c85c28b",
+    "parent_commit_hash": "b0ed9669bc00dbccf1be6896bb527b4cf2e7687d",
+    "repo_name": "jenkinsci/jenkins",
+    "git_url": "https://github.com/jenkinsci/jenkins/commit/e6aa166246d1734f4798a9e31f78842f4c85c28b",
+    "file_path": "core/src/main/java/hudson/util/Secret.java",
+    "file_name": "Secret.java",
+    "commit_date": 1484734914,
+    "commit_msg": "Merge pull request #105 from jenkinsci-cert/SECURITY-304-t3\n\n[SECURITY-304] Encrypt new secrets with CBC and random IV instead of ECB",
+    "cvss_vector": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+    "cvss_base_score": 4.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

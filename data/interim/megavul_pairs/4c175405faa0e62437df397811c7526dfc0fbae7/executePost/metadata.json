@@ -1,0 +1,20 @@
+{
+    "id": "4c175405faa0e62437df397811c7526dfc0fbae7_executePost_0",
+    "func_name": "executePost",
+    "cve_id": "CVE-2023-37277",
+    "cwe_ids": [
+        "CWE-352"
+    ],
+    "commit_hash": "4c175405faa0e62437df397811c7526dfc0fbae7",
+    "parent_commit_hash": "64fff541dbd8477cd1c95ee8bf988c29373b4895",
+    "repo_name": "xwiki/xwiki-platform",
+    "git_url": "https://github.com/xwiki/xwiki-platform/commit/4c175405faa0e62437df397811c7526dfc0fbae7",
+    "file_path": "xwiki-platform-core/xwiki-platform-rest/xwiki-platform-rest-test/xwiki-platform-rest-test-tests/src/test/it/org/xwiki/rest/test/framework/AbstractHttpIT.java",
+    "file_name": "AbstractHttpIT.java",
+    "commit_date": 1678871017,
+    "commit_msg": "XWIKI-20135: Require a CSRF token for some request types in the REST API\n\n* Require a CSRF token in the XWiki-Form-Token header in content types\n  allowed in simple requests.\n* Add integration tests to check that the check is indeed working.\n* Automatically add the CSRF token header in same-origin requests\n  initiated from JavaScript.\n* Add an integration test to check that the form token is correctly\n  added and fetch requests are still working.\n\nCo-authored-by: Marius Dumitru Florea <marius@xwiki.com>",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+    "cvss_base_score": 9.6,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_is_v3": true
+}

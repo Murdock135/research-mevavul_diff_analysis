@@ -1,0 +1,58 @@
+{
+  "frequency": [
+    {
+      "c": "Literal",
+      "f": "1"
+    },
+    {
+      "c": "Try",
+      "f": "1"
+    },
+    {
+      "c": "ConstructorCall",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "insert-node_Try_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_ConstructorCall_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "update-node_Literal_BinaryOperator",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Literal",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "Try",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "ConstructorCall",
+      "f": "0.3333333333333333"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "insert-node_Try_Block",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "move-tree_ConstructorCall_LocalVariable",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "update-node_Literal_BinaryOperator",
+      "f": "0.3333333333333333"
+    }
+  ]
+}

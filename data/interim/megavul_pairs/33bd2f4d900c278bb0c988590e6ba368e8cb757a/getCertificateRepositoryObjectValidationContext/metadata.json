@@ -1,0 +1,20 @@
+{
+    "id": "33bd2f4d900c278bb0c988590e6ba368e8cb757a_getCertificateRepositoryObjectValidationContext_0",
+    "func_name": "getCertificateRepositoryObjectValidationContext",
+    "cve_id": "CVE-2020-16162",
+    "cwe_ids": [
+        "CWE-295"
+    ],
+    "commit_hash": "33bd2f4d900c278bb0c988590e6ba368e8cb757a",
+    "parent_commit_hash": "9a10620e3d8b5ff11c9613bcab8167901b3ad4d8",
+    "repo_name": "RIPE-NCC/rpki-validator-3",
+    "git_url": "https://github.com/RIPE-NCC/rpki-validator-3/commit/33bd2f4d900c278bb0c988590e6ba368e8cb757a",
+    "file_path": "rpki-validator/src/main/java/net/ripe/rpki/validator3/domain/validation/CertificateTreeValidationService.java",
+    "file_name": "CertificateTreeValidationService.java",
+    "commit_date": 1592444117,
+    "commit_msg": "Revert behaviour of repo validation context creation.",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

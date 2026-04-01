@@ -1,0 +1,10 @@
+class testDeserializationAsFloatEdgeCase10_1 {
+@Test
+    public void testDeserializationAsFloatEdgeCase10() throws Exception
+    {
+        String input = "1e-10000000";
+        Duration value = READER.without(DeserializationFeature.READ_DATE_TIMESTAMPS_AS_NANOSECONDS)
+                                 .readValue(input);
+        assertEquals(0, value.getSeconds());
+    }
+}

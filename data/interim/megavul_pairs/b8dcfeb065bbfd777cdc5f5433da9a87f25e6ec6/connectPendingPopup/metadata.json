@@ -1,0 +1,20 @@
+{
+    "id": "b8dcfeb065bbfd777cdc5f5433da9a87f25e6ec6_connectPendingPopup_0",
+    "func_name": "connectPendingPopup",
+    "cve_id": "CVE-2016-5155",
+    "cwe_ids": [
+        "CWE-254"
+    ],
+    "commit_hash": "b8dcfeb065bbfd777cdc5f5433da9a87f25e6ec6",
+    "parent_commit_hash": "f352827c452f7d6b493cd03cc367221368912879",
+    "repo_name": "chromium",
+    "git_url": "https://chromium.googlesource.com/chromium/src/+/b8dcfeb065bbfd777cdc5f5433da9a87f25e6ec6",
+    "file_path": "android_webview/javatests/src/org/chromium/android_webview/test/AwTestBase.java",
+    "file_name": "AwTestBase.java",
+    "commit_date": 1471308912,
+    "commit_msg": "binding: Moves the check for the first access to the initial document into BindingSecurity.\n\nChecks the access to the initial document and reports it not only at\nsecurityCheck() in V8Window.cpp but also at every call to\nBindingSecurity::shouldAllowAccessTo() because V8 only calls back\nsecurityCheck() on property lookups, and not for function invocation.\n\nBindingSecurity::shouldAllowAccessTo() is called with every possible\ncross-origin window, which means every possible new window.  Thus,\nshouldAllowAccessTo() should be the right place to check the access\nto the initial document.\n\nBUG=630662\nTBR=benwells@chromium.org\n\nReview-Url: https://codereview.chromium.org/2209303002\nCr-Commit-Position: refs/heads/master@{#412195}\n",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

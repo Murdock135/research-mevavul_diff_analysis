@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="parameter_declaration [33,44]" dest="parameter_declaration [33,44]"/>
+  <match src="}: } [138,139]" dest="}: } [153,154]"/>
+  <match src="*: * [38,39]" dest="*: * [38,39]"/>
+  <match src="): ) [129,130]" dest="): ) [144,145]"/>
+  <match src="{: { [65,66]" dest="{: { [65,66]"/>
+  <match src="): ) [82,83]" dest="): ) [97,98]"/>
+  <match src="function_declarator [13,63]" dest="function_declarator [13,63]"/>
+  <match src="storage_class_specifier [1,7]" dest="storage_class_specifier [1,7]"/>
+  <match src=",: , [44,45]" dest=",: , [44,45]"/>
+  <match src="struct_specifier [114,129]" dest="struct_specifier [129,144]"/>
+  <match src="binary_expression [71,82]" dest="binary_expression [71,82]"/>
+  <match src="!=: != [76,78]" dest="!=: != [76,78]"/>
+  <match src="identifier: dest [40,44]" dest="identifier: dest [40,44]"/>
+  <match src="(: ( [32,33]" dest="(: ( [32,33]"/>
+  <match src="(: ( [70,71]" dest="(: ( [70,71]"/>
+  <match src="type_descriptor [114,129]" dest="type_descriptor [129,144]"/>
+  <match src="identifier: src [79,82]" dest="identifier: src [79,82]"/>
+  <match src="}: } [135,136]" dest="}: } [150,151]"/>
+  <match src="struct: struct [114,120]" dest="struct: struct [129,135]"/>
+  <match src="parameter_declaration [46,62]" dest="parameter_declaration [46,62]"/>
+  <match src="(: ( [95,96]" dest="(: ( [110,111]"/>
+  <match src="pointer_declarator [57,62]" dest="pointer_declarator [57,62]"/>
+  <match src="compound_statement [84,136]" dest="compound_statement [99,151]"/>
+  <match src="identifier: dest [71,75]" dest="identifier: dest [71,75]"/>
+  <match src=";: ; [131,132]" dest=";: ; [146,147]"/>
+  <match src="identifier: dest [96,100]" dest="identifier: dest [111,115]"/>
+  <match src="): ) [130,131]" dest="): ) [145,146]"/>
+  <match src="*: * [57,58]" dest="*: * [57,58]"/>
+  <match src="parenthesized_expression [70,83]" dest="parenthesized_expression [70,98]"/>
+  <match src=",: , [105,106]" dest=",: , [120,121]"/>
+  <match src="{: { [84,85]" dest="{: { [99,100]"/>
+  <match src="primitive_type: void [52,56]" dest="primitive_type: void [52,56]"/>
+  <match src="primitive_type: void [8,12]" dest="primitive_type: void [8,12]"/>
+  <match src="identifier: memcpy [89,95]" dest="identifier: memcpy [104,110]"/>
+  <match src="static: static [1,7]" dest="static: static [1,7]"/>
+  <match src="call_expression [89,131]" dest="call_expression [104,146]"/>
+  <match src="identifier: copyIPv6IfDifferent [13,32]" dest="identifier: copyIPv6IfDifferent [13,32]"/>
+  <match src="primitive_type: void [33,37]" dest="primitive_type: void [33,37]"/>
+  <match src="(: ( [113,114]" dest="(: ( [128,129]"/>
+  <match src="parameter_list [32,63]" dest="parameter_list [32,63]"/>
+  <match src="type_qualifier [46,51]" dest="type_qualifier [46,51]"/>
+  <match src="function_definition [1,139]" dest="function_definition [1,154]"/>
+  <match src="sizeof: sizeof [107,113]" dest="sizeof: sizeof [122,128]"/>
+  <match src="sizeof_expression [107,130]" dest="sizeof_expression [122,145]"/>
+  <match src="if_statement [68,136]" dest="if_statement [68,151]"/>
+  <match src="identifier: src [59,62]" dest="identifier: src [59,62]"/>
+  <match src="translation_unit [1,139]" dest="translation_unit [1,154]"/>
+  <match src="if: if [68,70]" dest="if: if [68,70]"/>
+  <match src="const: const [46,51]" dest="const: const [46,51]"/>
+  <match src="compound_statement [65,139]" dest="compound_statement [65,154]"/>
+  <match src="argument_list [95,131]" dest="argument_list [110,146]"/>
+  <match src="identifier: src [102,105]" dest="identifier: src [117,120]"/>
+  <match src="expression_statement [89,132]" dest="expression_statement [104,147]"/>
+  <match src="): ) [62,63]" dest="): ) [62,63]"/>
+  <match src=",: , [100,101]" dest=",: , [115,116]"/>
+  <match src="type_identifier: in6_addr [121,129]" dest="type_identifier: in6_addr [136,144]"/>
+  <match src="pointer_declarator [38,44]" dest="pointer_declarator [38,44]"/>
+</matches>
+<actions>
+  <insert-node tree="binary_expression [71,97]" parent="parenthesized_expression [70,83]" at="1"/>
+  <move-tree tree="binary_expression [71,82]" parent="binary_expression [71,97]" at="0"/>
+  <insert-node tree="&amp;&amp;: &amp;&amp; [83,85]" parent="binary_expression [71,97]" at="1"/>
+  <insert-tree tree="binary_expression [86,97]" parent="binary_expression [71,97]" at="2"/>
+</actions>

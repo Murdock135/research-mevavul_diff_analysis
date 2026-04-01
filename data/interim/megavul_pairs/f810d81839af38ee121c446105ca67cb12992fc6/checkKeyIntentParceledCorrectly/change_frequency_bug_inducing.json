@@ -1,0 +1,42 @@
+{
+  "frequency": [
+    {
+      "c": "FieldRead",
+      "f": "1"
+    },
+    {
+      "c": "If",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "move-tree_FieldRead_BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "FieldRead",
+      "f": "0.5"
+    },
+    {
+      "c": "If",
+      "f": "0.5"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "move-tree_FieldRead_BinaryOperator",
+      "f": "0.5"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "0.5"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+class getCommandline {
+public String[] getCommandline()
+    {
+        final String[] args = getArguments();
+        String executable = getExecutable();
+
+        if ( executable == null )
+        {
+            return args;
+        }
+        final String[] result = new String[args.length + 1];
+        result[0] = executable;
+        System.arraycopy( args, 0, result, 1, args.length );
+        return result;
+    }
+}

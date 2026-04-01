@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="parameter_declaration [28,60]" dest="parameter_declaration [28,60]"/>
+  <match src="field_identifier: aes_key [115,122]" dest="field_identifier: aes_key [188,195]"/>
+  <match src="primitive_type: void [7,11]" dest="primitive_type: void [7,11]"/>
+  <match src="identifier: SAFE_FREE [130,139]" dest="identifier: SAFE_FREE [217,226]"/>
+  <match src="function_declarator [12,61]" dest="function_declarator [12,61]"/>
+  <match src="field_expression [107,122]" dest="field_expression [180,195]"/>
+  <match src="*: * [53,54]" dest="*: * [53,54]"/>
+  <match src="parameter_list [27,61]" dest="parameter_list [27,61]"/>
+  <match src="}: } [158,159]" dest="}: } [249,250]"/>
+  <match src="): ) [155,156]" dest="): ) [242,243]"/>
+  <match src="*: * [106,107]" dest="*: * [179,180]"/>
+  <match src="identifier: aes_ctr_cleanup [12,27]" dest="identifier: aes_ctr_cleanup [12,27]"/>
+  <match src="argument_list [139,156]" dest="argument_list [226,243]"/>
+  <match src="field_identifier: aes_key [148,155]" dest="field_identifier: aes_key [235,242]"/>
+  <match src="struct_specifier [28,52]" dest="struct_specifier [28,52]"/>
+  <match src=";: ; [124,125]" dest=";: ; [197,198]"/>
+  <match src="identifier: cipher [107,113]" dest="identifier: cipher [180,186]"/>
+  <match src="-&gt;: -&gt; [88,90]" dest="-&gt;: -&gt; [161,163]"/>
+  <match src="call_expression [67,124]" dest="call_expression [140,197]"/>
+  <match src="(: ( [27,28]" dest="(: ( [27,28]"/>
+  <match src="storage_class_specifier [0,6]" dest="storage_class_specifier [0,6]"/>
+  <match src="): ) [123,124]" dest="): ) [196,197]"/>
+  <match src="field_identifier: aes_key [90,97]" dest="field_identifier: aes_key [163,170]"/>
+  <match src="static: static [0,6]" dest="static: static [0,6]"/>
+  <match src="): ) [122,123]" dest="): ) [195,196]"/>
+  <match src="(: ( [139,140]" dest="(: ( [226,227]"/>
+  <match src=";: ; [156,157]" dest=";: ; [243,244]"/>
+  <match src="pointer_declarator [53,60]" dest="pointer_declarator [53,60]"/>
+  <match src="sizeof: sizeof [99,105]" dest="sizeof: sizeof [172,178]"/>
+  <match src="type_identifier: ssh_cipher_struct [35,52]" dest="type_identifier: ssh_cipher_struct [35,52]"/>
+  <match src="identifier: explicit_bzero [67,81]" dest="identifier: explicit_bzero [140,154]"/>
+  <match src="field_expression [82,97]" dest="field_expression [155,170]"/>
+  <match src="): ) [60,61]" dest="): ) [60,61]"/>
+  <match src="(: ( [81,82]" dest="(: ( [154,155]"/>
+  <match src="field_expression [140,155]" dest="field_expression [227,242]"/>
+  <match src="pointer_expression [106,122]" dest="pointer_expression [179,195]"/>
+  <match src="identifier: cipher [140,146]" dest="identifier: cipher [227,233]"/>
+  <match src="function_definition [0,159]" dest="function_definition [0,252]"/>
+  <match src="(: ( [105,106]" dest="(: ( [178,179]"/>
+  <match src="parenthesized_expression [105,123]" dest="parenthesized_expression [178,196]"/>
+  <match src="expression_statement [67,125]" dest="expression_statement [140,198]"/>
+  <match src="struct: struct [28,34]" dest="struct: struct [28,34]"/>
+  <match src="-&gt;: -&gt; [146,148]" dest="-&gt;: -&gt; [233,235]"/>
+  <match src="expression_statement [130,157]" dest="expression_statement [217,244]"/>
+  <match src="translation_unit [0,159]" dest="translation_unit [0,252]"/>
+  <match src="identifier: cipher [54,60]" dest="identifier: cipher [54,60]"/>
+  <match src="{: { [61,62]" dest="{: { [87,88]"/>
+  <match src="compound_statement [61,159]" dest="compound_statement [87,250]"/>
+  <match src="identifier: cipher [82,88]" dest="identifier: cipher [155,161]"/>
+  <match src="sizeof_expression [99,123]" dest="sizeof_expression [172,196]"/>
+  <match src="argument_list [81,124]" dest="argument_list [154,197]"/>
+  <match src=",: , [97,98]" dest=",: , [170,171]"/>
+  <match src="call_expression [130,156]" dest="call_expression [217,243]"/>
+  <match src="-&gt;: -&gt; [113,115]" dest="-&gt;: -&gt; [186,188]"/>
+</matches>
+<actions>
+  <insert-node tree="compound_statement [61,252]" parent="function_definition [0,159]" at="3"/>
+  <insert-node tree="{: { [61,62]" parent="compound_statement [61,252]" at="0"/>
+  <insert-node tree="if_statement [67,250]" parent="compound_statement [61,252]" at="1"/>
+  <insert-node tree="}: } [251,252]" parent="compound_statement [61,252]" at="2"/>
+  <insert-node tree="if: if [67,69]" parent="if_statement [67,250]" at="0"/>
+  <insert-tree tree="parenthesized_expression [70,86]" parent="if_statement [67,250]" at="1"/>
+  <move-tree tree="compound_statement [61,159]" parent="if_statement [67,250]" at="2"/>
+  <insert-node tree="if_statement [97,208]" parent="compound_statement [61,159]" at="1"/>
+  <insert-node tree="if: if [97,99]" parent="if_statement [97,208]" at="0"/>
+  <insert-tree tree="parenthesized_expression [100,125]" parent="if_statement [97,208]" at="1"/>
+  <insert-node tree="compound_statement [126,208]" parent="if_statement [97,208]" at="2"/>
+  <insert-node tree="{: { [126,127]" parent="compound_statement [126,208]" at="0"/>
+  <move-tree tree="expression_statement [67,125]" parent="compound_statement [126,208]" at="1"/>
+  <insert-node tree="}: } [207,208]" parent="compound_statement [126,208]" at="2"/>
+</actions>

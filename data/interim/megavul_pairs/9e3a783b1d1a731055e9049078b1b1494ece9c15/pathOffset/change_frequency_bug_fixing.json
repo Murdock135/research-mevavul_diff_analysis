@@ -1,0 +1,42 @@
+{
+  "frequency": [
+    {
+      "c": "Assignment",
+      "f": "1"
+    },
+    {
+      "c": "VirtualElement",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "insert-node_Assignment_Block",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_VirtualElement_LocalVariable",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Assignment",
+      "f": "0.5"
+    },
+    {
+      "c": "VirtualElement",
+      "f": "0.5"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "insert-node_Assignment_Block",
+      "f": "0.5"
+    },
+    {
+      "c": "delete-node_VirtualElement_LocalVariable",
+      "f": "0.5"
+    }
+  ]
+}

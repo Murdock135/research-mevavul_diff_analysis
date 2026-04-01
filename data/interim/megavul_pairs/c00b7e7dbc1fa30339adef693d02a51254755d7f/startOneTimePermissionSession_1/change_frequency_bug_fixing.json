@@ -1,0 +1,26 @@
+{
+  "frequency": [
+    {
+      "c": "VariableRead",
+      "f": "2"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "delete-node_VariableRead_Invocation",
+      "f": "2"
+    }
+  ],
+  "probability": [
+    {
+      "c": "VariableRead",
+      "f": "1.0"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "delete-node_VariableRead_Invocation",
+      "f": "1.0"
+    }
+  ]
+}

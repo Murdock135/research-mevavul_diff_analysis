@@ -1,0 +1,20 @@
+{
+    "id": "5895d5c137c335e6b473e9dcb9baf748851bbc5f_doHandle_0",
+    "func_name": "doHandle",
+    "cve_id": "CVE-2018-1000129",
+    "cwe_ids": [
+        "CWE-79"
+    ],
+    "commit_hash": "5895d5c137c335e6b473e9dcb9baf748851bbc5f",
+    "parent_commit_hash": "557c23edec6b1321fac9bf73239e6cadfda77a07",
+    "repo_name": "jolokia",
+    "git_url": "https://github.com/jolokia/jolokia/commit/5895d5c137c335e6b473e9dcb9baf748851bbc5f",
+    "file_path": "agent/jvm/src/main/java/org/jolokia/jvmagent/handler/JolokiaHttpHandler.java",
+    "file_name": "JolokiaHttpHandler.java",
+    "commit_date": 1516757753,
+    "commit_msg": "fix: Verify a given 'mimeType' and/or 'callback' request parameter\n\nSo that only fixed values are possible, in order to avoid XSS attack\nvectors.",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

@@ -1,0 +1,20 @@
+{
+    "id": "443e8398b75a1295067d74afb5898370782d863a_resetPassword_0",
+    "func_name": "resetPassword",
+    "cve_id": "CVE-2022-41933",
+    "cwe_ids": [
+        "CWE-522"
+    ],
+    "commit_hash": "443e8398b75a1295067d74afb5898370782d863a",
+    "parent_commit_hash": "9c577ba7b03491bb24fb945ce8b2ae7d76b4f985",
+    "repo_name": "xwiki/xwiki-platform",
+    "git_url": "https://github.com/xwiki/xwiki-platform/commit/443e8398b75a1295067d74afb5898370782d863a",
+    "file_path": "xwiki-platform-core/xwiki-platform-security/xwiki-platform-security-authentication/xwiki-platform-security-authentication-default/src/main/java/org/xwiki/security/authentication/internal/DefaultResetPasswordManager.java",
+    "file_name": "DefaultResetPasswordManager.java",
+    "commit_date": 1656654451,
+    "commit_msg": "XWIKI-19869: Improve user property storage\n\n  - Provide a new API for sending text based email\n  - Provide a migration and a listener for informing users about it",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+    "cvss_base_score": 6.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

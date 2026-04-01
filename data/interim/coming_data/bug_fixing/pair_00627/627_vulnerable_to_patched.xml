@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="struct: struct [49,55]" dest="struct: struct [49,55]"/>
+  <match src="identifier: port [73,77]" dest="identifier: port [73,77]"/>
+  <match src="translation_unit [1,268]" dest="translation_unit [1,129]"/>
+  <match src="type_identifier: usb_serial_port [56,71]" dest="type_identifier: usb_serial_port [56,71]"/>
+  <match src="argument_list [253,264]" dest="argument_list [114,125]"/>
+  <match src="return: return [223,229]" dest="return: return [84,90]"/>
+  <match src="call_expression [230,264]" dest="call_expression [91,125]"/>
+  <match src="type_identifier: tty_struct [32,42]" dest="type_identifier: tty_struct [32,42]"/>
+  <match src=",: , [257,258]" dest=",: , [118,119]"/>
+  <match src="function_definition [1,268]" dest="function_definition [1,129]"/>
+  <match src="struct: struct [25,31]" dest="struct: struct [25,31]"/>
+  <match src="{: { [80,81]" dest="{: { [80,81]"/>
+  <match src="parameter_declaration [49,77]" dest="parameter_declaration [49,77]"/>
+  <match src="identifier: port [259,263]" dest="identifier: port [120,124]"/>
+  <match src="}: } [267,268]" dest="}: } [128,129]"/>
+  <match src="identifier: omninet_open [12,24]" dest="identifier: omninet_open [12,24]"/>
+  <match src="storage_class_specifier [1,7]" dest="storage_class_specifier [1,7]"/>
+  <match src="(: ( [24,25]" dest="(: ( [24,25]"/>
+  <match src="*: * [43,44]" dest="*: * [43,44]"/>
+  <match src="(: ( [253,254]" dest="(: ( [114,115]"/>
+  <match src=";: ; [264,265]" dest=";: ; [125,126]"/>
+  <match src="struct_specifier [49,71]" dest="struct_specifier [49,71]"/>
+  <match src="): ) [263,264]" dest="): ) [124,125]"/>
+  <match src="struct_specifier [25,42]" dest="struct_specifier [25,42]"/>
+  <match src="pointer_declarator [43,47]" dest="pointer_declarator [43,47]"/>
+  <match src="identifier: tty [44,47]" dest="identifier: tty [44,47]"/>
+  <match src="static: static [1,7]" dest="static: static [1,7]"/>
+  <match src="compound_statement [80,268]" dest="compound_statement [80,129]"/>
+  <match src="parameter_list [24,78]" dest="parameter_list [24,78]"/>
+  <match src=",: , [47,48]" dest=",: , [47,48]"/>
+  <match src="): ) [77,78]" dest="): ) [77,78]"/>
+  <match src="*: * [72,73]" dest="*: * [72,73]"/>
+  <match src="return_statement [223,265]" dest="return_statement [84,126]"/>
+  <match src="function_declarator [12,78]" dest="function_declarator [12,78]"/>
+  <match src="identifier: tty [254,257]" dest="identifier: tty [115,118]"/>
+  <match src="identifier: usb_serial_generic_open [230,253]" dest="identifier: usb_serial_generic_open [91,114]"/>
+  <match src="pointer_declarator [72,77]" dest="pointer_declarator [72,77]"/>
+  <match src="primitive_type: int [8,11]" dest="primitive_type: int [8,11]"/>
+  <match src="parameter_declaration [25,47]" dest="parameter_declaration [25,47]"/>
+</matches>
+<actions>
+  <delete-tree tree="declaration [83,124]"/>
+  <delete-tree tree="declaration [126,156]"/>
+  <delete-tree tree="expression_statement [158,182]"/>
+  <delete-tree tree="expression_statement [184,220]"/>
+</actions>

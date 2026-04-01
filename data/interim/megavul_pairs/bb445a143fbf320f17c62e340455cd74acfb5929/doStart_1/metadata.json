@@ -1,0 +1,20 @@
+{
+    "id": "bb445a143fbf320f17c62e340455cd74acfb5929_doStart_1",
+    "func_name": "doStart",
+    "cve_id": "CVE-2022-24721",
+    "cwe_ids": [
+        "CWE-863"
+    ],
+    "commit_hash": "bb445a143fbf320f17c62e340455cd74acfb5929",
+    "parent_commit_hash": "4969dca005a323663897d0e11938b4933bce37c2",
+    "repo_name": "cometd",
+    "git_url": "https://github.com/cometd/cometd/commit/bb445a143fbf320f17c62e340455cd74acfb5929",
+    "file_path": "cometd-java/cometd-java-oort/src/main/java/org/cometd/oort/Oort.java",
+    "file_name": "Oort.java",
+    "commit_date": 1645752388,
+    "commit_msg": "Fixes #1146 - Review Oort/Seti channel usage\n\nSigned-off-by: Simone Bordet <simone.bordet@gmail.com>",
+    "cvss_vector": "AV:N/AC:L/Au:S/C:P/I:P/A:N",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

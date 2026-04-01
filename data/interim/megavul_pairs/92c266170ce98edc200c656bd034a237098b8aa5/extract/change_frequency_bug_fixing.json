@@ -1,0 +1,346 @@
+{
+  "frequency": [
+    {
+      "c": "Invocation",
+      "f": "7"
+    },
+    {
+      "c": "VariableRead",
+      "f": "5"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "4"
+    },
+    {
+      "c": "Parameter",
+      "f": "3"
+    },
+    {
+      "c": "TypeAccess",
+      "f": "3"
+    },
+    {
+      "c": "If",
+      "f": "3"
+    },
+    {
+      "c": "Return",
+      "f": "2"
+    },
+    {
+      "c": "Catch",
+      "f": "2"
+    },
+    {
+      "c": "Assignment",
+      "f": "2"
+    },
+    {
+      "c": "CatchVariable",
+      "f": "1"
+    },
+    {
+      "c": "TypeReference",
+      "f": "1"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "Literal",
+      "f": "1"
+    },
+    {
+      "c": "Try",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "move-tree_Invocation_Block",
+      "f": "3"
+    },
+    {
+      "c": "move-tree_LocalVariable_Block",
+      "f": "2"
+    },
+    {
+      "c": "update-node_VariableRead_Invocation",
+      "f": "2"
+    },
+    {
+      "c": "move-tree_If_Block",
+      "f": "2"
+    },
+    {
+      "c": "insert-node_Parameter_Method",
+      "f": "2"
+    },
+    {
+      "c": "delete-node_Invocation_Block",
+      "f": "2"
+    },
+    {
+      "c": "insert-node_TypeAccess_ThisAccess",
+      "f": "2"
+    },
+    {
+      "c": "update-node_TypeReference_Method",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Return_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_CatchVariable_Catch",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Assignment_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_VariableRead_BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Assignment_Block",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Catch_Try",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Invocation_BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_Catch_Try",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_VariableRead_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "update-node_TypeAccess_ThisAccess",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_Try_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_Literal_Return",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Return_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_BinaryOperator_If",
+      "f": "1"
+    },
+    {
+      "c": "update-node_Invocation_BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_VariableRead_BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "update-node_Parameter_Method",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Invocation",
+      "f": "0.19444444444444445"
+    },
+    {
+      "c": "VariableRead",
+      "f": "0.1388888888888889"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "Parameter",
+      "f": "0.08333333333333333"
+    },
+    {
+      "c": "TypeAccess",
+      "f": "0.08333333333333333"
+    },
+    {
+      "c": "If",
+      "f": "0.08333333333333333"
+    },
+    {
+      "c": "Return",
+      "f": "0.05555555555555555"
+    },
+    {
+      "c": "Catch",
+      "f": "0.05555555555555555"
+    },
+    {
+      "c": "Assignment",
+      "f": "0.05555555555555555"
+    },
+    {
+      "c": "CatchVariable",
+      "f": "0.027777777777777776"
+    },
+    {
+      "c": "TypeReference",
+      "f": "0.027777777777777776"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "0.027777777777777776"
+    },
+    {
+      "c": "Literal",
+      "f": "0.027777777777777776"
+    },
+    {
+      "c": "Try",
+      "f": "0.027777777777777776"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "move-tree_Invocation_Block",
+      "f": "0.08333333333333333"
+    },
+    {
+      "c": "move-tree_LocalVariable_Block",
+      "f": "0.05555555555555555"
+    },
+    {
+      "c": "update-node_VariableRead_Invocation",
+      "f": "0.05555555555555555"
+    },
+    {
+      "c": "move-tree_If_Block",
+      "f": "0.05555555555555555"
+    },
+    {
+      "c": "insert-node_Parameter_Method",
+      "f": "0.05555555555555555"
+    },
+    {
+      "c": "delete-node_Invocation_Block",
+      "f": "0.05555555555555555"
+    },
+    {
+      "c": "insert-node_TypeAccess_ThisAccess",
+      "f": "0.05555555555555555"
+    },
+    {
+      "c": "update-node_TypeReference_Method",
+      "f": "0.027777777777777776"
+    },
+    {
+      "c": "delete-node_Return_Block",
+      "f": "0.027777777777777776"
+    },
+    {
+      "c": "move-tree_CatchVariable_Catch",
+      "f": "0.027777777777777776"
+    },
+    {
+      "c": "move-tree_Assignment_Block",
+      "f": "0.027777777777777776"
+    },
+    {
+      "c": "move-tree_VariableRead_BinaryOperator",
+      "f": "0.027777777777777776"
+    },
+    {
+      "c": "delete-node_Assignment_Block",
+      "f": "0.027777777777777776"
+    },
+    {
+      "c": "delete-node_Catch_Try",
+      "f": "0.027777777777777776"
+    },
+    {
+      "c": "move-tree_Invocation_BinaryOperator",
+      "f": "0.027777777777777776"
+    },
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "0.027777777777777776"
+    },
+    {
+      "c": "insert-node_Catch_Try",
+      "f": "0.027777777777777776"
+    },
+    {
+      "c": "move-tree_VariableRead_Invocation",
+      "f": "0.027777777777777776"
+    },
+    {
+      "c": "update-node_TypeAccess_ThisAccess",
+      "f": "0.027777777777777776"
+    },
+    {
+      "c": "insert-node_Try_Block",
+      "f": "0.027777777777777776"
+    },
+    {
+      "c": "update-node_Literal_Return",
+      "f": "0.027777777777777776"
+    },
+    {
+      "c": "move-tree_Return_Block",
+      "f": "0.027777777777777776"
+    },
+    {
+      "c": "update-node_BinaryOperator_If",
+      "f": "0.027777777777777776"
+    },
+    {
+      "c": "update-node_Invocation_BinaryOperator",
+      "f": "0.027777777777777776"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "0.027777777777777776"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "0.027777777777777776"
+    },
+    {
+      "c": "update-node_VariableRead_BinaryOperator",
+      "f": "0.027777777777777776"
+    },
+    {
+      "c": "update-node_Parameter_Method",
+      "f": "0.027777777777777776"
+    }
+  ]
+}

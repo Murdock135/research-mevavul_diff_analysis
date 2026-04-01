@@ -1,0 +1,21 @@
+{
+    "id": "28eb8158210d41168a62ed5f9e044f754513bc37_processForm_0",
+    "func_name": "processForm",
+    "cve_id": "CVE-2022-31192",
+    "cwe_ids": [
+        "CWE-601",
+        "CWE-79"
+    ],
+    "commit_hash": "28eb8158210d41168a62ed5f9e044f754513bc37",
+    "parent_commit_hash": "56e76049185bbd87c994128a9d77735ad7af0199",
+    "repo_name": "DSpace",
+    "git_url": "https://github.com/DSpace/DSpace/commit/28eb8158210d41168a62ed5f9e044f754513bc37",
+    "file_path": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/RequestItemServlet.java",
+    "file_name": "RequestItemServlet.java",
+    "commit_date": 1658780610,
+    "commit_msg": "[DS-4383] Request Item Servlet escape HTML",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+    "cvss_base_score": 6.1,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

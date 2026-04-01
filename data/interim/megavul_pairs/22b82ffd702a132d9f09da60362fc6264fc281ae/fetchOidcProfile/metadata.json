@@ -1,0 +1,20 @@
+{
+    "id": "22b82ffd702a132d9f09da60362fc6264fc281ae_fetchOidcProfile_0",
+    "func_name": "fetchOidcProfile",
+    "cve_id": "CVE-2021-44878",
+    "cwe_ids": [
+        "CWE-347"
+    ],
+    "commit_hash": "22b82ffd702a132d9f09da60362fc6264fc281ae",
+    "parent_commit_hash": "d3c5f614b936db48570764506637be275430011a",
+    "repo_name": "pac4j",
+    "git_url": "https://github.com/pac4j/pac4j/commit/22b82ffd702a132d9f09da60362fc6264fc281ae",
+    "file_path": "pac4j-oidc/src/main/java/org/pac4j/oidc/credentials/authenticator/UserInfoOidcAuthenticator.java",
+    "file_name": "UserInfoOidcAuthenticator.java",
+    "commit_date": 1638749376,
+    "commit_msg": "reinforce security on OIDC",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

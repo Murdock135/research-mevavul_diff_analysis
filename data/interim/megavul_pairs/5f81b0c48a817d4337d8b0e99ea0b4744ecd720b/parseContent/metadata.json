@@ -1,0 +1,20 @@
+{
+    "id": "5f81b0c48a817d4337d8b0e99ea0b4744ecd720b_parseContent_0",
+    "func_name": "parseContent",
+    "cve_id": "CVE-2015-7326",
+    "cwe_ids": [
+        "CWE-611"
+    ],
+    "commit_hash": "5f81b0c48a817d4337d8b0e99ea0b4744ecd720b",
+    "parent_commit_hash": "b5851c12717b8efeddbeec01ff0217f7bd546590",
+    "repo_name": "miltonio/milton2",
+    "git_url": "https://github.com/miltonio/milton2/commit/5f81b0c48a817d4337d8b0e99ea0b4744ecd720b",
+    "file_path": "milton-server-ce/src/main/java/io/milton/http/webdav/DefaultPropPatchParser.java",
+    "file_name": "DefaultPropPatchParser.java",
+    "commit_date": 1443189875,
+    "commit_msg": "patch XXE vulnerability",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

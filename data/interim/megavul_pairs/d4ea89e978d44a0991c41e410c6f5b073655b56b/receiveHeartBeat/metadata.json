@@ -1,0 +1,20 @@
+{
+    "id": "d4ea89e978d44a0991c41e410c6f5b073655b56b_receiveHeartBeat_0",
+    "func_name": "receiveHeartBeat",
+    "cve_id": "CVE-2021-44139",
+    "cwe_ids": [
+        "CWE-918"
+    ],
+    "commit_hash": "d4ea89e978d44a0991c41e410c6f5b073655b56b",
+    "parent_commit_hash": "0a34fc4d11392f0587e7ba5bf2626f902b23c750",
+    "repo_name": "alibaba/Sentinel",
+    "git_url": "https://github.com/alibaba/Sentinel/commit/d4ea89e978d44a0991c41e410c6f5b073655b56b",
+    "file_path": "sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/controller/MachineRegistryController.java",
+    "file_name": "MachineRegistryController.java",
+    "commit_date": 1637282516,
+    "commit_msg": "dashboard: Add IP validation in MachineRegistryController\n\n* Fixes #2451\n\nSigned-off-by: Eric Zhao <sczyh16@gmail.com>",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

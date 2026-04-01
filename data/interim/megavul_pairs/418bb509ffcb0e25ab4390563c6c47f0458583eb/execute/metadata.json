@@ -1,0 +1,20 @@
+{
+    "id": "418bb509ffcb0e25ab4390563c6c47f0458583eb_execute_0",
+    "func_name": "execute",
+    "cve_id": "CVE-2021-41152",
+    "cwe_ids": [
+        "CWE-22"
+    ],
+    "commit_hash": "418bb509ffcb0e25ab4390563c6c47f0458583eb",
+    "parent_commit_hash": "53086dc0d3f400b9f6bd3e74d49d6a35945b2344",
+    "repo_name": "OpenOLAT",
+    "git_url": "https://github.com/OpenOLAT/OpenOLAT/commit/418bb509ffcb0e25ab4390563c6c47f0458583eb",
+    "file_path": "src/main/java/org/olat/core/commons/modules/bc/commands/CmdUnzip.java",
+    "file_name": "CmdUnzip.java",
+    "commit_date": 1630918977,
+    "commit_msg": "OO-5696: validate file selections against current container",
+    "cvss_vector": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+    "cvss_base_score": 4.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

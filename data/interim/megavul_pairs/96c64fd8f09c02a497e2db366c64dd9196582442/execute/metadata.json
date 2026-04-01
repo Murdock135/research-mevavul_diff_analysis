@@ -1,0 +1,20 @@
+{
+    "id": "96c64fd8f09c02a497e2db366c64dd9196582442_execute_0",
+    "func_name": "execute",
+    "cve_id": "CVE-2022-0981",
+    "cwe_ids": [
+        "CWE-863"
+    ],
+    "commit_hash": "96c64fd8f09c02a497e2db366c64dd9196582442",
+    "parent_commit_hash": "8280c5349e2b40a5cc61388f91c653d1cfab93fc",
+    "repo_name": "quarkusio/quarkus",
+    "git_url": "https://github.com/quarkusio/quarkus/commit/96c64fd8f09c02a497e2db366c64dd9196582442",
+    "file_path": "independent-projects/resteasy-reactive/server/vertx/src/main/java/org/jboss/resteasy/reactive/server/vertx/VertxResteasyReactiveRequestContext.java",
+    "file_name": "VertxResteasyReactiveRequestContext.java",
+    "commit_date": 1643826828,
+    "commit_msg": "Use the correct context for RR",
+    "cvss_vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+    "cvss_base_score": 6.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

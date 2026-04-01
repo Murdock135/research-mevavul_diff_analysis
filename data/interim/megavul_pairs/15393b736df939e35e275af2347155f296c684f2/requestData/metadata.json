@@ -1,0 +1,20 @@
+{
+    "id": "15393b736df939e35e275af2347155f296c684f2_requestData_0",
+    "func_name": "requestData",
+    "cve_id": "CVE-2022-31018",
+    "cwe_ids": [
+        "CWE-400"
+    ],
+    "commit_hash": "15393b736df939e35e275af2347155f296c684f2",
+    "parent_commit_hash": "195b4cd1778c55b63ea4a196f73e78273326e28d",
+    "repo_name": "playframework",
+    "git_url": "https://github.com/playframework/playframework/commit/15393b736df939e35e275af2347155f296c684f2",
+    "file_path": "web/play-java-forms/src/main/java/play/data/Form.java",
+    "file_name": "Form.java",
+    "commit_date": 1653595729,
+    "commit_msg": "add depth limit for JSON form binding",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

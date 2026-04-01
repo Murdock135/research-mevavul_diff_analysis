@@ -1,0 +1,9 @@
+class setFilter {
+public void setFilter(ObjectInputStream ois, String filterPattern) {
+        LOG.info("Using: " + serializationFilterAdapter.getClass().getSimpleName());
+
+        if (serializationFilterAdapter.getObjectInputFilter(ois) == null) {
+            serializationFilterAdapter.setObjectInputFilter(ois, filterPattern);
+        }
+    }
+}

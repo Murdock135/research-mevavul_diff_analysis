@@ -1,0 +1,98 @@
+{
+  "frequency": [
+    {
+      "c": "LocalVariable",
+      "f": "3"
+    },
+    {
+      "c": "Return",
+      "f": "2"
+    },
+    {
+      "c": "If",
+      "f": "2"
+    },
+    {
+      "c": "FieldRead",
+      "f": "1"
+    },
+    {
+      "c": "Try",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "3"
+    },
+    {
+      "c": "insert-node_If_Block",
+      "f": "2"
+    },
+    {
+      "c": "insert-node_Return_Block",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Return_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_Try_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_FieldRead_Return",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "LocalVariable",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "Return",
+      "f": "0.2222222222222222"
+    },
+    {
+      "c": "If",
+      "f": "0.2222222222222222"
+    },
+    {
+      "c": "FieldRead",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "Try",
+      "f": "0.1111111111111111"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "insert-node_If_Block",
+      "f": "0.2222222222222222"
+    },
+    {
+      "c": "insert-node_Return_Block",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "delete-node_Return_Block",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "insert-node_Try_Block",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "move-tree_FieldRead_Return",
+      "f": "0.1111111111111111"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "frequency": [
+    {
+      "c": "Invocation",
+      "f": "3"
+    },
+    {
+      "c": "TypeAccess",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "update-node_TypeAccess_ThisAccess",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_Invocation_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_Invocation_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Invocation_Block",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Invocation",
+      "f": "0.75"
+    },
+    {
+      "c": "TypeAccess",
+      "f": "0.25"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "update-node_TypeAccess_ThisAccess",
+      "f": "0.25"
+    },
+    {
+      "c": "insert-node_Invocation_Block",
+      "f": "0.25"
+    },
+    {
+      "c": "update-node_Invocation_Block",
+      "f": "0.25"
+    },
+    {
+      "c": "move-tree_Invocation_Block",
+      "f": "0.25"
+    }
+  ]
+}

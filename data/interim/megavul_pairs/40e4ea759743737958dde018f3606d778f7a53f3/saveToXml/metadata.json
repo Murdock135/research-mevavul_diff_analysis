@@ -1,0 +1,20 @@
+{
+    "id": "40e4ea759743737958dde018f3606d778f7a53f3_saveToXml_0",
+    "func_name": "saveToXml",
+    "cve_id": "CVE-2023-40074",
+    "cwe_ids": [
+        "CWE-Other"
+    ],
+    "commit_hash": "40e4ea759743737958dde018f3606d778f7a53f3",
+    "parent_commit_hash": "fe6fef4f9c1f75c12bffa4a1d16d9990cc3fbc35",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/40e4ea759743737958dde018f3606d778f7a53f3",
+    "file_path": "core/java/android/os/PersistableBundle.java",
+    "file_name": "PersistableBundle.java",
+    "commit_date": 1663967213,
+    "commit_msg": "RESTRICT AUTOMERGE: Drop invalid data.\n\nDrop invalid data when writing or reading from XML. PersistableBundle\ndoes lazy unparcelling, so checking the values during unparcelling would\nremove the benefit of the lazy unparcelling. Checking the validity when\nwriting to or reading from XML seems like the best alternative.\n\nBug: 246542285\nBug: 247513680\nTest: install test app with invalid job config, start app to schedule job, then check logcat and jobscheduler persisted file\n(cherry picked from commit 666e8ac60a31e2cc52b335b41004263f28a8db06)\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:3c5aa21b4df54c0c0fcbcf00d1b62fa771022146)\nMerged-In: Ie817aa0993e9046cb313a750d2323cadc8c1ef15\nChange-Id: Ie817aa0993e9046cb313a750d2323cadc8c1ef15\n",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

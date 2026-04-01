@@ -1,0 +1,20 @@
+{
+    "id": "34856a738829d8fedca4ed27bd6ff413af87186f_notFound_0",
+    "func_name": "notFound",
+    "cve_id": "CVE-2019-15477",
+    "cwe_ids": [
+        "CWE-79"
+    ],
+    "commit_hash": "34856a738829d8fedca4ed27bd6ff413af87186f",
+    "parent_commit_hash": "72642c3b35cd62304dd9d6f298090b7f1788e934",
+    "repo_name": "jooby-project/jooby",
+    "git_url": "https://github.com/jooby-project/jooby/commit/34856a738829d8fedca4ed27bd6ff413af87186f",
+    "file_path": "jooby/src/main/java/org/jooby/internal/RouteImpl.java",
+    "file_name": "RouteImpl.java",
+    "commit_date": 1565765408,
+    "commit_msg": "Avoiding possible XSS attack through the default error handler. See jooby-project/jooby#1366",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

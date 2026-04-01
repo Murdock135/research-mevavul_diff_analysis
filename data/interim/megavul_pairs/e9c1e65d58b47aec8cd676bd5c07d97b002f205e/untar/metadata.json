@@ -1,0 +1,20 @@
+{
+    "id": "e9c1e65d58b47aec8cd676bd5c07d97b002f205e_untar_0",
+    "func_name": "untar",
+    "cve_id": "CVE-2023-37476",
+    "cwe_ids": [
+        "CWE-22"
+    ],
+    "commit_hash": "e9c1e65d58b47aec8cd676bd5c07d97b002f205e",
+    "parent_commit_hash": "15a029576b03eb3f1adde80bd1e3b76800befbaa",
+    "repo_name": "OpenRefine",
+    "git_url": "https://github.com/OpenRefine/OpenRefine/commit/e9c1e65d58b47aec8cd676bd5c07d97b002f205e",
+    "file_path": "main/src/com/google/refine/io/FileProjectManager.java",
+    "file_name": "FileProjectManager.java",
+    "commit_date": 1689546532,
+    "commit_msg": "Merge pull request from GHSA-m88m-crr9-jvqq\n\n* Fix zip slip vulnerability in project import command\n\n* Add zip-slip.tar test resource",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 7.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

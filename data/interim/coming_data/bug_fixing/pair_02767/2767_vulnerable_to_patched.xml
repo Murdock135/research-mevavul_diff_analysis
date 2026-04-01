@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="primitive_type: void [1,5]" dest="primitive_type: void [1,5]"/>
+  <match src="function_declarator [25,41]" dest="function_declarator [25,41]"/>
+  <match src="): ) [61,62]" dest="): ) [143,144]"/>
+  <match src="parameter_list [39,41]" dest="parameter_list [39,41]"/>
+  <match src=":: : [24,25]" dest=":: : [24,25]"/>
+  <match src="identifier: setNeedsCommit [25,39]" dest="identifier: setNeedsCommit [25,39]"/>
+  <match src=";: ; [100,101]" dest=";: ; [183,184]"/>
+  <match src="}: } [103,104]" dest="}: } [186,187]"/>
+  <match src="identifier: LayerWebKitThread [6,23]" dest="identifier: LayerWebKitThread [6,23]"/>
+  <match src="function_definition [1,104]" dest="function_definition [1,187]"/>
+  <match src=":: : [23,24]" dest=":: : [23,24]"/>
+  <match src="): ) [99,100]" dest="): ) [182,183]"/>
+  <match src="argument_list [98,100]" dest="argument_list [181,183]"/>
+  <match src="(: ( [98,99]" dest="(: ( [181,182]"/>
+  <match src="if: if [50,52]" dest="if: if [132,134]"/>
+  <match src="if_statement [50,101]" dest="if_statement [132,184]"/>
+  <match src="-&gt;: -&gt; [78,80]" dest="-&gt;: -&gt; [160,162]"/>
+  <match src="(: ( [53,54]" dest="(: ( [135,136]"/>
+  <match src="identifier: m_owner [71,78]" dest="identifier: m_owner [153,160]"/>
+  <match src="): ) [40,41]" dest="): ) [40,41]"/>
+  <match src="parenthesized_expression [53,62]" dest="parenthesized_expression [135,144]"/>
+  <match src="translation_unit [1,104]" dest="translation_unit [1,187]"/>
+  <match src="call_expression [71,100]" dest="call_expression [153,183]"/>
+  <match src="expression_statement [71,101]" dest="expression_statement [153,184]"/>
+  <match src="ERROR [6,25]" dest="ERROR [6,25]"/>
+  <match src="compound_statement [43,104]" dest="compound_statement [43,187]"/>
+  <match src="(: ( [39,40]" dest="(: ( [39,40]"/>
+  <match src="{: { [43,44]" dest="{: { [43,44]"/>
+  <match src="field_identifier: notifySyncRequired [80,98]" dest="field_identifier: notifyFlushRequired [162,181]"/>
+  <match src="field_expression [71,98]" dest="field_expression [153,181]"/>
+  <match src="identifier: m_owner [54,61]" dest="identifier: m_owner [136,143]"/>
+</matches>
+<actions>
+  <insert-node tree="comment: // Call notifyFlushRequired(), which in this implementation plumbs through to [49,126]" parent="compound_statement [43,104]" at="1"/>
+  <update-node tree="field_identifier: notifySyncRequired [80,98]" label="notifyFlushRequired"/>
+</actions>

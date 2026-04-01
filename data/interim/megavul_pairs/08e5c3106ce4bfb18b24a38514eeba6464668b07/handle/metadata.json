@@ -1,0 +1,20 @@
+{
+    "id": "08e5c3106ce4bfb18b24a38514eeba6464668b07_handle_0",
+    "func_name": "handle",
+    "cve_id": "CVE-2022-2466",
+    "cwe_ids": [
+        "CWE-444"
+    ],
+    "commit_hash": "08e5c3106ce4bfb18b24a38514eeba6464668b07",
+    "parent_commit_hash": "1eb8047ea63d609e4a3f2e143611af4dec3d0a81",
+    "repo_name": "quarkusio/quarkus",
+    "git_url": "https://github.com/quarkusio/quarkus/commit/08e5c3106ce4bfb18b24a38514eeba6464668b07",
+    "file_path": "extensions/smallrye-graphql/runtime/src/main/java/io/quarkus/smallrye/graphql/runtime/SmallRyeGraphQLAbstractHandler.java",
+    "file_name": "SmallRyeGraphQLAbstractHandler.java",
+    "commit_date": 1658811364,
+    "commit_msg": "GraphQL to terminate the request even if it was active\n\nSigned-off-by: Phillip Kruger <phillip.kruger@gmail.com>",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_is_v3": true
+}

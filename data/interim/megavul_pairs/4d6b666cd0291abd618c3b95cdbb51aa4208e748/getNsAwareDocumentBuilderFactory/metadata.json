@@ -1,0 +1,20 @@
+{
+    "id": "4d6b666cd0291abd618c3b95cdbb51aa4208e748_getNsAwareDocumentBuilderFactory_1",
+    "func_name": "getNsAwareDocumentBuilderFactory",
+    "cve_id": "CVE-2022-0265",
+    "cwe_ids": [
+        "CWE-611"
+    ],
+    "commit_hash": "4d6b666cd0291abd618c3b95cdbb51aa4208e748",
+    "parent_commit_hash": "7e7f00be7b5ed17b2afce73b5b14598e45350175",
+    "repo_name": "hazelcast",
+    "git_url": "https://github.com/hazelcast/hazelcast/commit/4d6b666cd0291abd618c3b95cdbb51aa4208e748",
+    "file_path": "hazelcast/src/main/java/com/hazelcast/internal/util/XmlUtil.java",
+    "file_name": "XmlUtil.java",
+    "commit_date": 1642552658,
+    "commit_msg": "Add helper method to XmlUtil to enable XXE protection in the SAXParserFactory and XMLInputFactory (#20407)",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

@@ -1,0 +1,20 @@
+{
+    "id": "02ba4c6ff8e78a0f4384ad1b7c7367c5a90376e8_savePresentation_0",
+    "func_name": "savePresentation",
+    "cve_id": "CVE-2023-43798",
+    "cwe_ids": [
+        "CWE-918"
+    ],
+    "commit_hash": "02ba4c6ff8e78a0f4384ad1b7c7367c5a90376e8",
+    "parent_commit_hash": "67b7b2a3a4f49c5aa7a9a21cc32a9a18b9d76bdb",
+    "repo_name": "bigbluebutton",
+    "git_url": "https://github.com/bigbluebutton/bigbluebutton/commit/02ba4c6ff8e78a0f4384ad1b7c7367c5a90376e8",
+    "file_path": "bbb-common-web/src/main/java/org/bigbluebutton/presentation/PresentationUrlDownloadService.java",
+    "file_name": "PresentationUrlDownloadService.java",
+    "commit_date": 1691556878,
+    "commit_msg": "Fix: Getting final Url (from redirect) on presentation upload",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+    "cvss_base_score": 5.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

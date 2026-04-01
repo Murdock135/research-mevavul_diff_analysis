@@ -1,0 +1,20 @@
+{
+    "id": "5bf8a2dccf4777c5f065d918d1d9a2bbaa013f9f_onMeasure_1",
+    "func_name": "onMeasure",
+    "cve_id": "CVE-2015-1261",
+    "cwe_ids": [
+        "CWE-20"
+    ],
+    "commit_hash": "5bf8a2dccf4777c5f065d918d1d9a2bbaa013f9f",
+    "parent_commit_hash": "151364e2372c690bd50a24c89454e3255fe95d40",
+    "repo_name": "chromium",
+    "git_url": "https://chromium.googlesource.com/chromium/src/+/5bf8a2dccf4777c5f065d918d1d9a2bbaa013f9f",
+    "file_path": "chrome/android/java/src/org/chromium/chrome/browser/WebsiteSettingsPopup.java",
+    "file_name": "WebsiteSettingsPopup.java",
+    "commit_date": 1429115777,
+    "commit_msg": "Truncate long URL fragments in Android page info popup\n\nThis replaces percent-encoding whitespace as a method to combat the use\nof crafted URL fragments to inject messages into the page info popup. By\ntruncating the URL so that at most two lines of the fragment are shown,\nwe prevent lengthy messages from being injected while minimising the\neffect on most URLs.\n\nBUG=466351\n\nReview URL: https://codereview.chromium.org/1077483002\n\nCr-Commit-Position: refs/heads/master@{#325358}\n",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

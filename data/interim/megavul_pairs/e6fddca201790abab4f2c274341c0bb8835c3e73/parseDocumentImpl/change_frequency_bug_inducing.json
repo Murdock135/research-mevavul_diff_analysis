@@ -1,0 +1,42 @@
+{
+  "frequency": [
+    {
+      "c": "Parameter",
+      "f": "1"
+    },
+    {
+      "c": "Invocation",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "delete-node_Parameter_Method",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Invocation_Block",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Parameter",
+      "f": "0.5"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.5"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "delete-node_Parameter_Method",
+      "f": "0.5"
+    },
+    {
+      "c": "delete-node_Invocation_Block",
+      "f": "0.5"
+    }
+  ]
+}

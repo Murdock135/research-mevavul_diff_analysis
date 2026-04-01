@@ -1,0 +1,8 @@
+class getProjectMembers {
+@GetMapping("/project/member/{projectId}")
+    public List<User> getProjectMembers(@PathVariable String projectId) {
+        QueryMemberRequest request = new QueryMemberRequest();
+        request.setProjectId(projectId);
+        return baseUserService.getProjectMemberList(request);
+    }
+}

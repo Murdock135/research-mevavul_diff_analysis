@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src=",: , [200,201]" dest=",: , [237,238]"/>
+  <match src="-&gt;: -&gt; [249,251]" dest="-&gt;: -&gt; [286,288]"/>
+  <match src="parenthesized_expression [296,312]" dest="parenthesized_expression [333,349]"/>
+  <match src="identifier: d [131,132]" dest="identifier: d [203,204]"/>
+  <match src="field_expression [315,329]" dest="field_expression [352,366]"/>
+  <match src="}: } [460,461]" dest="}: } [521,522]"/>
+  <match src="init_declarator [155,173]" dest="init_declarator [123,178]"/>
+  <match src="identifier: __func__ [231,239]" dest="identifier: __func__ [268,276]"/>
+  <match src="field_identifier: bInterfaceNumber [272,288]" dest="field_identifier: bInterfaceNumber [309,325]"/>
+  <match src="-&gt;: -&gt; [298,300]" dest="-&gt;: -&gt; [335,337]"/>
+  <match src="declaration [141,174]" dest="declaration [112,179]"/>
+  <match src="field_identifier: exit [325,329]" dest="field_identifier: exit [362,366]"/>
+  <match src="field_expression [188,200]" dest="field_expression [225,237]"/>
+  <match src="pointer_declarator [123,128]" dest="pointer_declarator [192,200]"/>
+  <match src="identifier: intf [245,249]" dest="identifier: intf [282,286]"/>
+  <match src="field_identifier: name [134,138]" dest="field_identifier: name [206,210]"/>
+  <match src="&amp;: &amp; [187,188]" dest="&amp;: &amp; [224,225]"/>
+  <match src=";: ; [332,333]" dest=";: ; [369,370]"/>
+  <match src="struct: struct [27,33]" dest="struct: struct [27,33]"/>
+  <match src="primitive_type: void [1,5]" dest="primitive_type: void [1,5]"/>
+  <match src="): ) [53,54]" dest="): ) [53,54]"/>
+  <match src=";: ; [355,356]" dest=";: ; [392,393]"/>
+  <match src="{: { [56,57]" dest="{: { [56,57]"/>
+  <match src="expression_statement [315,333]" dest="expression_statement [352,370]"/>
+  <match src="): ) [354,355]" dest="): ) [391,392]"/>
+  <match src="function_declarator [6,54]" dest="function_declarator [6,54]"/>
+  <match src="pointer_expression [187,200]" dest="pointer_expression [224,237]"/>
+  <match src="identifier: dev_dbg [179,186]" dest="identifier: dev_dbg [216,223]"/>
+  <match src="field_identifier: udev [191,195]" dest="field_identifier: udev [228,232]"/>
+  <match src="&quot;: &quot; [228,229]" dest="&quot;: &quot; [265,266]"/>
+  <match src="string_content: %s: bInterfaceNumber=%d [203,226]" dest="string_content: %s: bInterfaceNumber=%d [240,263]"/>
+  <match src="identifier: intf [49,53]" dest="identifier: intf [49,53]"/>
+  <match src="if: if [293,295]" dest="if: if [330,332]"/>
+  <match src="field_identifier: exit [307,311]" dest="field_identifier: exit [344,348]"/>
+  <match src=",: , [229,230]" dest=",: , [266,267]"/>
+  <match src="=: = [159,160]" dest="=: = [132,133]"/>
+  <match src="field_identifier: props [318,323]" dest="field_identifier: props [355,360]"/>
+  <match src="field_expression [297,305]" dest="field_expression [334,342]"/>
+  <match src="identifier: d [83,84]" dest="identifier: d [83,84]"/>
+  <match src="field_identifier: dev [170,173]" dest="field_identifier: dev [161,164]"/>
+  <match src="string_literal [202,229]" dest="string_literal [239,266]"/>
+  <match src="type_identifier: dvb_usb_device [67,81]" dest="type_identifier: dvb_usb_device [67,81]"/>
+  <match src="identifier: usb_get_intfdata [87,103]" dest="identifier: usb_get_intfdata [87,103]"/>
+  <match src="call_expression [315,332]" dest="call_expression [352,369]"/>
+  <match src=";: ; [289,290]" dest=";: ; [326,327]"/>
+  <match src="function_definition [1,461]" dest="function_definition [1,522]"/>
+  <match src="declaration [112,139]" dest="declaration [181,211]"/>
+  <match src="argument_list [186,289]" dest="argument_list [223,326]"/>
+  <match src="identifier: d [188,189]" dest="identifier: d [225,226]"/>
+  <match src="field_expression [161,173]" dest="field_expression [152,164]"/>
+  <match src="field_identifier: udev [164,168]" dest="field_identifier: udev [155,159]"/>
+  <match src="expression_statement [179,290]" dest="expression_statement [216,327]"/>
+  <match src="field_expression [297,311]" dest="field_expression [334,348]"/>
+  <match src="type_identifier: usb_interface [34,47]" dest="type_identifier: usb_interface [34,47]"/>
+  <match src="-&gt;: -&gt; [189,191]" dest="-&gt;: -&gt; [226,228]"/>
+  <match src="translation_unit [1,461]" dest="translation_unit [1,522]"/>
+  <match src="-&gt;: -&gt; [132,134]" dest="-&gt;: -&gt; [204,206]"/>
+  <match src="field_identifier: props [300,305]" dest="field_identifier: props [337,342]"/>
+  <match src=";: ; [173,174]" dest=";: ; [178,179]"/>
+  <match src="struct: struct [60,66]" dest="struct: struct [60,66]"/>
+  <match src="pointer_declarator [48,53]" dest="pointer_declarator [48,53]"/>
+  <match src="compound_statement [56,461]" dest="compound_statement [56,522]"/>
+  <match src="identifier: d [330,331]" dest="identifier: d [367,368]"/>
+  <match src="=: = [129,130]" dest="=: = [201,202]"/>
+  <match src="identifier: d [353,354]" dest="identifier: d [390,391]"/>
+  <match src="const: const [112,117]" dest="const: const [181,186]"/>
+  <match src="argument_list [103,109]" dest="argument_list [103,109]"/>
+  <match src="&quot;: &quot; [202,203]" dest="&quot;: &quot; [239,240]"/>
+  <match src="identifier: dvb_usbv2_exit [338,352]" dest="identifier: dvb_usbv2_exit [375,389]"/>
+  <match src="-&gt;: -&gt; [265,267]" dest="-&gt;: -&gt; [302,304]"/>
+  <match src="field_expression [161,168]" dest="field_expression [152,159]"/>
+  <match src="): ) [108,109]" dest="): ) [108,109]"/>
+  <match src="field_identifier: desc [267,271]" dest="field_identifier: desc [304,308]"/>
+  <match src="-&gt;: -&gt; [323,325]" dest="-&gt;: -&gt; [360,362]"/>
+  <match src="declaration [60,110]" dest="declaration [60,110]"/>
+  <match src="identifier: name [124,128]" dest="identifier: drvname [193,200]"/>
+  <match src="-&gt;: -&gt; [316,318]" dest="-&gt;: -&gt; [353,355]"/>
+  <match src="parameter_declaration [27,53]" dest="parameter_declaration [27,53]"/>
+  <match src="(: ( [352,353]" dest="(: ( [389,390]"/>
+  <match src="): ) [331,332]" dest="): ) [368,369]"/>
+  <match src="): ) [311,312]" dest="): ) [348,349]"/>
+  <match src=".: . [271,272]" dest=".: . [308,309]"/>
+  <match src="pointer_declarator [82,84]" dest="pointer_declarator [82,84]"/>
+  <match src="-&gt;: -&gt; [195,197]" dest="-&gt;: -&gt; [232,234]"/>
+  <match src="*: * [48,49]" dest="*: * [48,49]"/>
+  <match src="struct_specifier [60,81]" dest="struct_specifier [60,81]"/>
+  <match src=",: , [239,240]" dest=",: , [276,277]"/>
+  <match src="struct_specifier [27,47]" dest="struct_specifier [27,47]"/>
+  <match src="field_expression [131,138]" dest="field_expression [203,210]"/>
+  <match src="field_expression [315,323]" dest="field_expression [352,360]"/>
+  <match src="(: ( [296,297]" dest="(: ( [333,334]"/>
+  <match src="field_identifier: dev [197,200]" dest="field_identifier: dev [234,237]"/>
+  <match src="): ) [288,289]" dest="): ) [325,326]"/>
+  <match src="identifier: dvb_usbv2_disconnect [6,26]" dest="identifier: dvb_usbv2_disconnect [6,26]"/>
+  <match src="*: * [123,124]" dest="*: * [192,193]"/>
+  <match src="expression_statement [338,356]" dest="expression_statement [375,393]"/>
+  <match src="-&gt;: -&gt; [162,164]" dest="-&gt;: -&gt; [153,155]"/>
+  <match src="(: ( [329,330]" dest="(: ( [366,367]"/>
+  <match src="(: ( [186,187]" dest="(: ( [223,224]"/>
+  <match src="identifier: d [297,298]" dest="identifier: d [334,335]"/>
+  <match src="call_expression [87,109]" dest="call_expression [87,109]"/>
+  <match src="escape_sequence: \n [226,228]" dest="escape_sequence: \n [263,265]"/>
+  <match src="type_qualifier [112,117]" dest="type_qualifier [181,186]"/>
+  <match src="*: * [82,83]" dest="*: * [82,83]"/>
+  <match src=";: ; [109,110]" dest=";: ; [109,110]"/>
+  <match src="parameter_list [26,54]" dest="parameter_list [26,54]"/>
+  <match src=";: ; [138,139]" dest=";: ; [210,211]"/>
+  <match src="call_expression [338,355]" dest="call_expression [375,392]"/>
+  <match src="-&gt;: -&gt; [305,307]" dest="-&gt;: -&gt; [342,344]"/>
+  <match src="(: ( [103,104]" dest="(: ( [103,104]"/>
+  <match src="field_expression [245,271]" dest="field_expression [282,308]"/>
+  <match src="field_identifier: cur_altsetting [251,265]" dest="field_identifier: cur_altsetting [288,302]"/>
+  <match src="init_declarator [123,138]" dest="init_declarator [192,210]"/>
+  <match src="primitive_type: char [118,122]" dest="primitive_type: char [187,191]"/>
+  <match src="argument_list [329,332]" dest="argument_list [366,369]"/>
+  <match src="-&gt;: -&gt; [168,170]" dest="-&gt;: -&gt; [159,161]"/>
+  <match src="field_expression [245,265]" dest="field_expression [282,302]"/>
+  <match src="call_expression [179,289]" dest="call_expression [216,326]"/>
+  <match src="init_declarator [82,109]" dest="init_declarator [82,109]"/>
+  <match src="identifier: intf [104,108]" dest="identifier: intf [104,108]"/>
+  <match src="argument_list [352,355]" dest="argument_list [389,392]"/>
+  <match src="field_expression [245,288]" dest="field_expression [282,325]"/>
+  <match src="field_expression [188,195]" dest="field_expression [225,232]"/>
+  <match src="identifier: d [161,162]" dest="identifier: d [152,153]"/>
+  <match src="identifier: d [315,316]" dest="identifier: d [352,353]"/>
+  <match src="(: ( [26,27]" dest="(: ( [26,27]"/>
+  <match src="=: = [85,86]" dest="=: = [85,86]"/>
+  <match src="if_statement [293,333]" dest="if_statement [330,370]"/>
+</matches>
+<actions>
+  <move-tree tree="declaration [112,139]" parent="compound_statement [56,461]" at="3"/>
+  <insert-tree tree="expression_statement [397,502]" parent="compound_statement [56,461]" at="7"/>
+  <insert-tree tree="expression_statement [504,519]" parent="compound_statement [56,461]" at="8"/>
+  <insert-tree tree="type_qualifier [112,117]" parent="declaration [141,174]" at="0"/>
+  <insert-node tree="primitive_type: char [118,122]" parent="declaration [141,174]" at="1"/>
+  <insert-tree tree="pointer_declarator [123,131]" parent="init_declarator [155,173]" at="0"/>
+  <insert-node tree="call_expression [134,178]" parent="init_declarator [155,173]" at="3"/>
+  <insert-node tree="identifier: kstrdup [134,141]" parent="call_expression [134,178]" at="0"/>
+  <insert-node tree="argument_list [141,178]" parent="call_expression [134,178]" at="1"/>
+  <update-node tree="identifier: name [124,128]" label="drvname"/>
+  <insert-node tree="(: ( [141,142]" parent="argument_list [141,178]" at="0"/>
+  <insert-node tree="call_expression [142,165]" parent="argument_list [141,178]" at="1"/>
+  <insert-node tree=",: , [165,166]" parent="argument_list [141,178]" at="2"/>
+  <insert-node tree="identifier: GFP_KERNEL [167,177]" parent="argument_list [141,178]" at="3"/>
+  <insert-node tree="): ) [177,178]" parent="argument_list [141,178]" at="4"/>
+  <insert-node tree="identifier: dev_name [142,150]" parent="call_expression [142,165]" at="0"/>
+  <insert-node tree="argument_list [150,165]" parent="call_expression [142,165]" at="1"/>
+  <insert-node tree="(: ( [150,151]" parent="argument_list [150,165]" at="0"/>
+  <insert-node tree="pointer_expression [151,164]" parent="argument_list [150,165]" at="1"/>
+  <insert-node tree="): ) [164,165]" parent="argument_list [150,165]" at="2"/>
+  <insert-node tree="&amp;: &amp; [151,152]" parent="pointer_expression [151,164]" at="0"/>
+  <move-tree tree="field_expression [161,173]" parent="pointer_expression [151,164]" at="1"/>
+  <delete-tree tree="struct_specifier [141,154]"/>
+  <delete-node tree="identifier: dev [155,158]"/>
+  <delete-tree tree="expression_statement [360,458]"/>
+</actions>

@@ -1,0 +1,20 @@
+{
+    "id": "c574568aaede7f652432deb7707f20ae54bbdf9a_getIcon_0",
+    "func_name": "getIcon",
+    "cve_id": "CVE-2017-0822",
+    "cwe_ids": [
+        "CWE-Other"
+    ],
+    "commit_hash": "c574568aaede7f652432deb7707f20ae54bbdf9a",
+    "parent_commit_hash": "bf1af88d8e101973a128d8ed6e2a4543e2fa834b",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/c574568aaede7f652432deb7707f20ae54bbdf9a",
+    "file_path": "packages/SystemUI/src/com/android/systemui/statusbar/phone/KeyguardBottomAreaView.java",
+    "file_name": "KeyguardBottomAreaView.java",
+    "commit_date": 1500045247,
+    "commit_msg": "Enforce policy for camera gesture in keyguard\n\nIf the admin has disabled the camera for secure\nkeyguards, in addition to removing the bottom-right hand\ncorner camera button do not allow the camera to be opened\nvia the camera gesture either.\n\nBug: 63334090\nMerged-In: I104688eaad719528376e2851f837d5956a6a1169\nTest: Manually tested launching the camera on secure and non-secure keyguard and non-keyguard, both via camera icon and gesture\nChange-Id: I104688eaad719528376e2851f837d5956a6a1169\n(cherry picked from commit 98ec92375d75630c10595bfcbae184ad7350e2d3)\n",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

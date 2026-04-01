@@ -1,0 +1,16 @@
+class kerberosAuthenticationGenerator {
+private void kerberosAuthenticationGenerator(XmlGenerator gen, KerberosAuthenticationConfig c) {
+        if (c == null) {
+            return;
+        }
+        XmlGenerator kerberosGen = gen.open("kerberos");
+        addClusterLoginElements(kerberosGen, c)
+                .nodeIfContents("relax-flags-check", c.getRelaxFlagsCheck())
+                .nodeIfContents("use-name-without-realm", c.getUseNameWithoutRealm())
+                .nodeIfContents("security-realm", c.getSecurityRealm())
+                .nodeIfContents("keytab-file", c.getKeytabFile())
+                .nodeIfContents("principal", c.getPrincipal());
+        ldapAuthenticationGenerator(kerberosGen, c.getLdapAuthenticationConfig());
+        kerberosGen.close();
+    }
+}

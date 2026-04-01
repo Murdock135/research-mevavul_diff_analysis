@@ -1,0 +1,20 @@
+{
+    "id": "739e599d52ad80f8dcd6efedc6157859b1a9d637_refreshRow_0",
+    "func_name": "refreshRow",
+    "cve_id": "CVE-2022-31197",
+    "cwe_ids": [
+        "CWE-89"
+    ],
+    "commit_hash": "739e599d52ad80f8dcd6efedc6157859b1a9d637",
+    "parent_commit_hash": "736f9598c5b32a19c645ad33f118d2c9c266e90e",
+    "repo_name": "pgjdbc",
+    "git_url": "https://github.com/pgjdbc/pgjdbc/commit/739e599d52ad80f8dcd6efedc6157859b1a9d637",
+    "file_path": "pgjdbc/src/main/java/org/postgresql/jdbc/PgResultSet.java",
+    "file_name": "PgResultSet.java",
+    "commit_date": 1659343586,
+    "commit_msg": "Merge pull request from GHSA-r38f-c4h4-hqq2\n\nFixes SQL generated in PgResultSet.refresh() to escape column identifiers so as to prevent SQL injection.\n\nPreviously, the column names for both key and data columns in the table were copied as-is into the generated\nSQL. This allowed a malicious table with column names that include statement terminator to be parsed and\nexecuted as multiple separate commands.\n\nAlso adds a new test class ResultSetRefreshTest to verify this change.",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 8.0,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

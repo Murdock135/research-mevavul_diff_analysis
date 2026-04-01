@@ -1,0 +1,82 @@
+{
+  "frequency": [
+    {
+      "c": "ConstructorCall",
+      "f": "3"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "2"
+    },
+    {
+      "c": "TypeReference",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "update-node_LocalVariable_Block",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_ConstructorCall_ConstructorCall",
+      "f": "1"
+    },
+    {
+      "c": "update-node_ConstructorCall_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_ConstructorCall_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "update-node_TypeReference_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "ConstructorCall",
+      "f": "0.5"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "TypeReference",
+      "f": "0.16666666666666666"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "update-node_LocalVariable_Block",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "delete-node_ConstructorCall_ConstructorCall",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "update-node_ConstructorCall_LocalVariable",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "move-tree_ConstructorCall_LocalVariable",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "update-node_TypeReference_LocalVariable",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "0.16666666666666666"
+    }
+  ]
+}

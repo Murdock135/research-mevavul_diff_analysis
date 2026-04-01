@@ -1,0 +1,20 @@
+{
+    "id": "2735facbbbc2e13546328cb02dbb401b3776eea3_getExecutionPreamble_0",
+    "func_name": "getExecutionPreamble",
+    "cve_id": "CVE-2022-29599",
+    "cwe_ids": [
+        "CWE-116"
+    ],
+    "commit_hash": "2735facbbbc2e13546328cb02dbb401b3776eea3",
+    "parent_commit_hash": "3b069da6f7e1a656c16e7c92a27f0eb50d27e2ce",
+    "repo_name": "apache/maven-shared-utils",
+    "git_url": "https://github.com/apache/maven-shared-utils/commit/2735facbbbc2e13546328cb02dbb401b3776eea3",
+    "file_path": "src/main/java/org/apache/maven/shared/utils/cli/shell/BourneShell.java",
+    "file_name": "BourneShell.java",
+    "commit_date": 1590676145,
+    "commit_msg": "[MSHARED-297] - BourneShell unconditionally single quotes executable and arguments",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

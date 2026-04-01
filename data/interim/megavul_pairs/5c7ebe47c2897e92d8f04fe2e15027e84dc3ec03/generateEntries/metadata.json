@@ -1,0 +1,20 @@
+{
+    "id": "5c7ebe47c2897e92d8f04fe2e15027e84dc3ec03_generateEntries_0",
+    "func_name": "generateEntries",
+    "cve_id": "CVE-2023-29202",
+    "cwe_ids": [
+        "CWE-79"
+    ],
+    "commit_hash": "5c7ebe47c2897e92d8f04fe2e15027e84dc3ec03",
+    "parent_commit_hash": "4f64320c98733379798226bb7d94742bb67a5726",
+    "repo_name": "xwiki/xwiki-platform",
+    "git_url": "https://github.com/xwiki/xwiki-platform/commit/5c7ebe47c2897e92d8f04fe2e15027e84dc3ec03",
+    "file_path": "xwiki-platform-core/xwiki-platform-rendering/xwiki-platform-rendering-macros/xwiki-platform-rendering-macro-rss/src/main/java/org/xwiki/rendering/internal/macro/rss/RssMacro.java",
+    "file_name": "RssMacro.java",
+    "commit_date": 1657010182,
+    "commit_msg": "XWIKI-19671: Filter the feed's content in the RSS macro",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H",
+    "cvss_base_score": 9.0,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_is_v3": true
+}

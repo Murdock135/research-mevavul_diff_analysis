@@ -1,0 +1,114 @@
+{
+  "frequency": [
+    {
+      "c": "BinaryOperator",
+      "f": "3"
+    },
+    {
+      "c": "Assignment",
+      "f": "3"
+    },
+    {
+      "c": "Throw",
+      "f": "2"
+    },
+    {
+      "c": "If",
+      "f": "2"
+    },
+    {
+      "c": "Block",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "insert-node_Throw_Block",
+      "f": "2"
+    },
+    {
+      "c": "delete-node_Assignment_Block",
+      "f": "2"
+    },
+    {
+      "c": "move-tree_BinaryOperator_If",
+      "f": "2"
+    },
+    {
+      "c": "insert-node_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Assignment_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Block_If",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_BinaryOperator_If",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "BinaryOperator",
+      "f": "0.2727272727272727"
+    },
+    {
+      "c": "Assignment",
+      "f": "0.2727272727272727"
+    },
+    {
+      "c": "Throw",
+      "f": "0.18181818181818182"
+    },
+    {
+      "c": "If",
+      "f": "0.18181818181818182"
+    },
+    {
+      "c": "Block",
+      "f": "0.09090909090909091"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "insert-node_Throw_Block",
+      "f": "0.18181818181818182"
+    },
+    {
+      "c": "delete-node_Assignment_Block",
+      "f": "0.18181818181818182"
+    },
+    {
+      "c": "move-tree_BinaryOperator_If",
+      "f": "0.18181818181818182"
+    },
+    {
+      "c": "insert-node_If_Block",
+      "f": "0.09090909090909091"
+    },
+    {
+      "c": "move-tree_Assignment_Block",
+      "f": "0.09090909090909091"
+    },
+    {
+      "c": "move-tree_Block_If",
+      "f": "0.09090909090909091"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "0.09090909090909091"
+    },
+    {
+      "c": "insert-node_BinaryOperator_If",
+      "f": "0.09090909090909091"
+    }
+  ]
+}

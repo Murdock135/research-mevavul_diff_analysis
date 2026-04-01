@@ -1,0 +1,50 @@
+{
+  "frequency": [
+    {
+      "c": "Block",
+      "f": "2"
+    },
+    {
+      "c": "Literal",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "move-tree_Block_If",
+      "f": "1"
+    },
+    {
+      "c": "update-node_Literal_Return",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_Block_If",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Block",
+      "f": "0.6666666666666666"
+    },
+    {
+      "c": "Literal",
+      "f": "0.3333333333333333"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "move-tree_Block_If",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "update-node_Literal_Return",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "insert-node_Block_If",
+      "f": "0.3333333333333333"
+    }
+  ]
+}

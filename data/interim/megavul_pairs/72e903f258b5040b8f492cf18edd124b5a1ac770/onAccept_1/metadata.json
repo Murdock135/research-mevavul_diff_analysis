@@ -1,0 +1,20 @@
+{
+    "id": "72e903f258b5040b8f492cf18edd124b5a1ac770_onAccept_0",
+    "func_name": "onAccept",
+    "cve_id": "CVE-2023-21242",
+    "cwe_ids": [
+        "CWE-Other"
+    ],
+    "commit_hash": "72e903f258b5040b8f492cf18edd124b5a1ac770",
+    "parent_commit_hash": "5b49b8711efaadadf5052ba85288860c2d7ca7a6",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/packages/modules/Wifi/+/72e903f258b5040b8f492cf18edd124b5a1ac770",
+    "file_path": "service/java/com/android/server/wifi/InsecureEapNetworkHandler.java",
+    "file_name": "InsecureEapNetworkHandler.java",
+    "commit_date": 1678383873,
+    "commit_msg": "[TOFU] Validate full cert chains before displaying dialog\n\nWhen a full chain including a Root CA is provided by the server,\nperform a full validation of the chain before displaying the\nTOFU dialog.\nIf validation passes: Display a TOFU dialog and ask the user if\nthey trust this network. Saying yes means that the Root can be\ninstalled safely for that network. They might say no - this is\npossible if an attacker creates a full chain they control which\nresults in a different SHA-256 (everything else looks correct).\nIf they say no, we stop the connection.\nIf validation fails: Display an error message saying that the\nvalidation failed, we stop the connection and won't display the\nTOFU dialog.\nUse server certificate pinning for servers that send only a leaf\nor a partial chain with no Root CA.\nAdditionally: clean up the debug logs to reduce the noise and\nfocus only on the important details.\n\nBug: 277824547\nTest: atest InsecureEapNetworkHandler\nTest: Connect to various Enterprise networks\nNegative test: Confirm verification fails for invalid chains\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:b0ee00ddf38bb677876a6cffb876e6f511e2c139)\nMerged-In: I224c80e2787497634d3e68760122dac5f177585a\nChange-Id: I224c80e2787497634d3e68760122dac5f177585a\n",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_is_v3": true
+}

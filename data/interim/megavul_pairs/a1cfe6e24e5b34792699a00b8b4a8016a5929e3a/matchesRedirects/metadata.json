@@ -1,0 +1,20 @@
+{
+    "id": "a1cfe6e24e5b34792699a00b8b4a8016a5929e3a_matchesRedirects_2",
+    "func_name": "matchesRedirects",
+    "cve_id": "CVE-2022-4361",
+    "cwe_ids": [
+        "CWE-79"
+    ],
+    "commit_hash": "a1cfe6e24e5b34792699a00b8b4a8016a5929e3a",
+    "parent_commit_hash": "04e6244c387a1bde86184635a0049537611e3915",
+    "repo_name": "keycloak",
+    "git_url": "https://github.com/keycloak/keycloak/commit/a1cfe6e24e5b34792699a00b8b4a8016a5929e3a",
+    "file_path": "services/src/main/java/org/keycloak/protocol/oidc/utils/RedirectUtils.java",
+    "file_name": "RedirectUtils.java",
+    "commit_date": 1685591687,
+    "commit_msg": "Check the redirect URI is http(s) when used for a form Post (#22)\n\nCloses https://github.com/keycloak/security/issues/22\r\n\r\nCo-authored-by: Stian Thorgersen <stianst@gmail.com>",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+    "cvss_base_score": 6.1,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

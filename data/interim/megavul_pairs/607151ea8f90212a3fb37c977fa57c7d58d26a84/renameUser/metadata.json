@@ -1,0 +1,20 @@
+{
+    "id": "607151ea8f90212a3fb37c977fa57c7d58d26a84_renameUser_0",
+    "func_name": "renameUser",
+    "cve_id": "CVE-2021-25931",
+    "cwe_ids": [
+        "CWE-352"
+    ],
+    "commit_hash": "607151ea8f90212a3fb37c977fa57c7d58d26a84",
+    "parent_commit_hash": "bfa48e1394aa2564ae332c31c9789db69788b277",
+    "repo_name": "OpenNMS/opennms",
+    "git_url": "https://github.com/OpenNMS/opennms/commit/607151ea8f90212a3fb37c977fa57c7d58d26a84",
+    "file_path": "opennms-config/src/main/java/org/opennms/netmgt/config/UserManager.java",
+    "file_name": "UserManager.java",
+    "commit_date": 1615538954,
+    "commit_msg": "NMS-13124: Fixed user deletion by renaming bug and CSRF privilege escalation issue",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 6.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

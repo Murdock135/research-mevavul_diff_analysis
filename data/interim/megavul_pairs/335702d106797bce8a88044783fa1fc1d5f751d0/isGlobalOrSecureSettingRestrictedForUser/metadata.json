@@ -1,0 +1,20 @@
+{
+    "id": "335702d106797bce8a88044783fa1fc1d5f751d0_isGlobalOrSecureSettingRestrictedForUser_0",
+    "func_name": "isGlobalOrSecureSettingRestrictedForUser",
+    "cve_id": "CVE-2016-3887",
+    "cwe_ids": [
+        "CWE-264"
+    ],
+    "commit_hash": "335702d106797bce8a88044783fa1fc1d5f751d0",
+    "parent_commit_hash": "e206f02d46ae5e38c74d138b51f6e1637e261abe",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/335702d106797bce8a88044783fa1fc1d5f751d0",
+    "file_path": "packages/SettingsProvider/src/com/android/providers/settings/SettingsProvider.java",
+    "file_name": "SettingsProvider.java",
+    "commit_date": 1468363649,
+    "commit_msg": "Disallow shell to mutate always-on vpn when DISALLOW_CONFIG_VPN user restriction is set\n\nFix: 29899712\n\nChange-Id: I38cc9d0e584c3f2674c9ff1d91f77a11479d8943\n(cherry picked from commit 9c7b706cf4332b4aeea39c166abca04b56685280)\n",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 6.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

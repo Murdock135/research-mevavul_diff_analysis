@@ -1,0 +1,138 @@
+{
+  "frequency": [
+    {
+      "c": "LocalVariable",
+      "f": "3"
+    },
+    {
+      "c": "VariableRead",
+      "f": "3"
+    },
+    {
+      "c": "FieldRead",
+      "f": "1"
+    },
+    {
+      "c": "Conditional",
+      "f": "1"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "If",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "insert-node_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_VariableRead_BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "update-node_LocalVariable_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_BinaryOperator_Conditional",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_VariableRead_BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "update-node_VariableRead_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Conditional_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "update-node_FieldRead_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "LocalVariable",
+      "f": "0.3"
+    },
+    {
+      "c": "VariableRead",
+      "f": "0.3"
+    },
+    {
+      "c": "FieldRead",
+      "f": "0.1"
+    },
+    {
+      "c": "Conditional",
+      "f": "0.1"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "0.1"
+    },
+    {
+      "c": "If",
+      "f": "0.1"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "insert-node_If_Block",
+      "f": "0.1"
+    },
+    {
+      "c": "move-tree_VariableRead_BinaryOperator",
+      "f": "0.1"
+    },
+    {
+      "c": "update-node_LocalVariable_Block",
+      "f": "0.1"
+    },
+    {
+      "c": "move-tree_BinaryOperator_Conditional",
+      "f": "0.1"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "0.1"
+    },
+    {
+      "c": "update-node_VariableRead_BinaryOperator",
+      "f": "0.1"
+    },
+    {
+      "c": "update-node_VariableRead_Invocation",
+      "f": "0.1"
+    },
+    {
+      "c": "delete-node_Conditional_Invocation",
+      "f": "0.1"
+    },
+    {
+      "c": "update-node_FieldRead_Invocation",
+      "f": "0.1"
+    },
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "0.1"
+    }
+  ]
+}

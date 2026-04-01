@@ -1,0 +1,27 @@
+class instantiate {
+public static Object instantiate(String classname, Properties info, boolean tryString,
+      @Nullable String stringarg)
+      throws ClassNotFoundException, SecurityException, NoSuchMethodException,
+          IllegalArgumentException, InstantiationException, IllegalAccessException,
+          InvocationTargetException {
+    @Nullable Object[] args = {info};
+    Constructor<?> ctor = null;
+    Class<?> cls = Class.forName(classname);
+    try {
+      ctor = cls.getConstructor(Properties.class);
+    } catch (NoSuchMethodException ignored) {
+    }
+    if (tryString && ctor == null) {
+      try {
+        ctor = cls.getConstructor(String.class);
+        args = new String[]{stringarg};
+      } catch (NoSuchMethodException ignored) {
+      }
+    }
+    if (ctor == null) {
+      ctor = cls.getConstructor();
+      args = new Object[0];
+    }
+    return ctor.newInstance(args);
+  }
+}

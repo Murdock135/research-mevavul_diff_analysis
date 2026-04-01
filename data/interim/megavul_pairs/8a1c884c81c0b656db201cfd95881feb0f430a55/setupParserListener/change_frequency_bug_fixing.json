@@ -1,0 +1,74 @@
+{
+  "frequency": [
+    {
+      "c": "Method",
+      "f": "2"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "Field",
+      "f": "1"
+    },
+    {
+      "c": "Invocation",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "insert-node_Method_Class",
+      "f": "2"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_Field_Class",
+      "f": "1"
+    },
+    {
+      "c": "update-node_Invocation_Block",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Method",
+      "f": "0.4"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "0.2"
+    },
+    {
+      "c": "Field",
+      "f": "0.2"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.2"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "insert-node_Method_Class",
+      "f": "0.4"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "0.2"
+    },
+    {
+      "c": "insert-node_Field_Class",
+      "f": "0.2"
+    },
+    {
+      "c": "update-node_Invocation_Block",
+      "f": "0.2"
+    }
+  ]
+}

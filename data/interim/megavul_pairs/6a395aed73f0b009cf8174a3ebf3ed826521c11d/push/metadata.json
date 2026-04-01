@@ -1,0 +1,20 @@
+{
+    "id": "6a395aed73f0b009cf8174a3ebf3ed826521c11d_push_0",
+    "func_name": "push",
+    "cve_id": "CVE-2021-38388",
+    "cwe_ids": [
+        "CWE-862"
+    ],
+    "commit_hash": "6a395aed73f0b009cf8174a3ebf3ed826521c11d",
+    "parent_commit_hash": "ed507c70c9e25cfaff4bee25050aca06b12b4843",
+    "repo_name": "line/centraldogma",
+    "git_url": "https://github.com/line/centraldogma/commit/6a395aed73f0b009cf8174a3ebf3ed826521c11d",
+    "file_path": "server/src/main/java/com/linecorp/centraldogma/server/internal/api/ContentServiceV1.java",
+    "file_name": "ContentServiceV1.java",
+    "commit_date": 1628534357,
+    "commit_msg": "Prohibit mirroing to internal repositories\nMotivation:\nWe should prohibit mirroring to internal repositories which can cause a security incident.\n\nModifcations:\n- Raise an exception if the `localRepo` of mirroring setting is one of `meta` and `dogma` which are internal repositories.\n\nResult:\n- You cannot setup mirroring to internal repositories anymore.",
+    "cvss_vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+    "cvss_base_score": 6.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

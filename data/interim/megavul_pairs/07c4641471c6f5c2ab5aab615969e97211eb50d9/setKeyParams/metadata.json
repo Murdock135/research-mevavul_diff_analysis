@@ -1,0 +1,20 @@
+{
+    "id": "07c4641471c6f5c2ab5aab615969e97211eb50d9_setKeyParams_4",
+    "func_name": "setKeyParams",
+    "cve_id": "CVE-2023-36812",
+    "cwe_ids": [
+        "CWE-74"
+    ],
+    "commit_hash": "07c4641471c6f5c2ab5aab615969e97211eb50d9",
+    "parent_commit_hash": "22b27ea30a859a6dbdcd65fcdf61190d46e1b677",
+    "repo_name": "OpenTSDB/opentsdb",
+    "git_url": "https://github.com/OpenTSDB/opentsdb/commit/07c4641471c6f5c2ab5aab615969e97211eb50d9",
+    "file_path": "test/tsd/TestGraphHandler.java",
+    "file_name": "TestGraphHandler.java",
+    "commit_date": 1681161630,
+    "commit_msg": "Improved fix for #2261.\nRegular expressions wouldn't catch the newlines or possibly other\ncontrol characters. Now we'll use the TAG validation code to make\nsure the inputs are only plain ASCII printables first.\nFixes CVE-2018-12972, CVE-2020-35476",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_is_v3": true
+}

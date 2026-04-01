@@ -1,0 +1,122 @@
+{
+  "frequency": [
+    {
+      "c": "LocalVariable",
+      "f": "2"
+    },
+    {
+      "c": "TypeReference",
+      "f": "2"
+    },
+    {
+      "c": "TypeAccess",
+      "f": "1"
+    },
+    {
+      "c": "ConstructorCall",
+      "f": "1"
+    },
+    {
+      "c": "VirtualElement",
+      "f": "1"
+    },
+    {
+      "c": "If",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "update-node_TypeReference_CatchVariable",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_LocalVariable_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_VirtualElement_CatchVariable",
+      "f": "1"
+    },
+    {
+      "c": "update-node_TypeAccess_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_ConstructorCall_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "update-node_TypeReference_LocalVariable",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "LocalVariable",
+      "f": "0.25"
+    },
+    {
+      "c": "TypeReference",
+      "f": "0.25"
+    },
+    {
+      "c": "TypeAccess",
+      "f": "0.125"
+    },
+    {
+      "c": "ConstructorCall",
+      "f": "0.125"
+    },
+    {
+      "c": "VirtualElement",
+      "f": "0.125"
+    },
+    {
+      "c": "If",
+      "f": "0.125"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "update-node_TypeReference_CatchVariable",
+      "f": "0.125"
+    },
+    {
+      "c": "insert-node_If_Block",
+      "f": "0.125"
+    },
+    {
+      "c": "update-node_LocalVariable_Block",
+      "f": "0.125"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "0.125"
+    },
+    {
+      "c": "insert-node_VirtualElement_CatchVariable",
+      "f": "0.125"
+    },
+    {
+      "c": "update-node_TypeAccess_Invocation",
+      "f": "0.125"
+    },
+    {
+      "c": "move-tree_ConstructorCall_Invocation",
+      "f": "0.125"
+    },
+    {
+      "c": "update-node_TypeReference_LocalVariable",
+      "f": "0.125"
+    }
+  ]
+}

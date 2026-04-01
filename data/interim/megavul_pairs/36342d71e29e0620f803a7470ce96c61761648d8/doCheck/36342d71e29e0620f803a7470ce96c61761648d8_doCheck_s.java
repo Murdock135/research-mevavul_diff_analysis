@@ -1,0 +1,26 @@
+class doCheck {
+public FormValidation doCheck(@AncestorInPath Item project, @QueryParameter String value ) {
+            // Require CONFIGURE permission on this project
+            if(!project.hasPermission(Item.CONFIGURE))      return FormValidation.ok();
+
+            StringTokenizer tokens = new StringTokenizer(Util.fixNull(value),",");
+            boolean hasProjects = false;
+            while(tokens.hasMoreTokens()) {
+                String projectName = tokens.nextToken().trim();
+                if (StringUtils.isNotBlank(projectName)) {
+                    Item item = Jenkins.getInstance().getItem(projectName,project,Item.class);
+                    if(item==null)
+                        return FormValidation.error(Messages.BuildTrigger_NoSuchProject(projectName,
+                                AbstractProject.findNearest(projectName,project.getParent()).getRelativeNameFrom(project)));
+                    if(!(item instanceof AbstractProject))
+                        return FormValidation.error(Messages.BuildTrigger_NotBuildable(projectName));
+                    hasProjects = true;
+                }
+            }
+            if (!hasProjects) {
+                return FormValidation.error(Messages.BuildTrigger_NoProjectSpecified());
+            }
+
+            return FormValidation.ok();
+        }
+}

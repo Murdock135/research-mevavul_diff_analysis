@@ -1,0 +1,21 @@
+{
+    "id": "c6e0d9296ff9a3084965d83e207403de373c0bad_vtableOffset_0",
+    "func_name": "vtableOffset",
+    "cve_id": "CVE-2021-41035",
+    "cwe_ids": [
+        "CWE-440",
+        "CWE-250"
+    ],
+    "commit_hash": "c6e0d9296ff9a3084965d83e207403de373c0bad",
+    "parent_commit_hash": "d1aa48a2933c52b01375be5e09a1cb47b078f155",
+    "repo_name": "eclipse-openj9/openj9",
+    "git_url": "https://github.com/eclipse-openj9/openj9/commit/c6e0d9296ff9a3084965d83e207403de373c0bad",
+    "file_path": "jcl/src/java.base/share/classes/java/lang/invoke/InterfaceHandle.java",
+    "file_name": "InterfaceHandle.java",
+    "commit_date": 1632919424,
+    "commit_msg": "Throw IAE when an InterfaceHandle thunk finds a non-public method\n\nThe interface dispatch implemented by InterfaceHandle is supposed to\nthrow IllegalAccessError (IAE) when the dispatched callee is not public,\njust like the dispatch performed by invokeinterface.",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

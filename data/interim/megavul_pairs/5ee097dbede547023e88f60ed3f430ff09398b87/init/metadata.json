@@ -1,0 +1,20 @@
+{
+    "id": "5ee097dbede547023e88f60ed3f430ff09398b87_init_1",
+    "func_name": "init",
+    "cve_id": "CVE-2021-44550",
+    "cwe_ids": [
+        "CWE-74"
+    ],
+    "commit_hash": "5ee097dbede547023e88f60ed3f430ff09398b87",
+    "parent_commit_hash": "85e305bf63b3954e6266801175579a8b81769709",
+    "repo_name": "stanfordnlp/CoreNLP",
+    "git_url": "https://github.com/stanfordnlp/CoreNLP/commit/5ee097dbede547023e88f60ed3f430ff09398b87",
+    "file_path": "src/edu/stanford/nlp/ie/ner/webapp/NERServlet.java",
+    "file_name": "NERServlet.java",
+    "commit_date": 1637935653,
+    "commit_msg": "Address issue #1222: verify that classifier and outputFormat are valid values before returning them in headers.  Should sanitize malicious output",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

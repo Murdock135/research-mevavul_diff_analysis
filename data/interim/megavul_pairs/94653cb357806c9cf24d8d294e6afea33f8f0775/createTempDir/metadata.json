@@ -1,0 +1,20 @@
+{
+    "id": "94653cb357806c9cf24d8d294e6afea33f8f0775_createTempDir_0",
+    "func_name": "createTempDir",
+    "cve_id": "CVE-2022-3952",
+    "cwe_ids": [
+        "CWE-668"
+    ],
+    "commit_hash": "94653cb357806c9cf24d8d294e6afea33f8f0775",
+    "parent_commit_hash": "280bc9cd7e71f996067604505e928fad84caf251",
+    "repo_name": "ManyDesigns/Portofino",
+    "git_url": "https://github.com/ManyDesigns/Portofino/commit/94653cb357806c9cf24d8d294e6afea33f8f0775",
+    "file_path": "microservices/launcher/src/main/java/com/manydesigns/portofino/microservices/launcher/WarFileLauncher.java",
+    "file_name": "WarFileLauncher.java",
+    "commit_date": 1664814130,
+    "commit_msg": "vuln-fix: Temporary Directory Hijacking or Information Disclosure\n\n\n\nThis fixes either Temporary Directory Hijacking, or Temporary Directory Local Information Disclosure.\n\nWeakness: CWE-379: Creation of Temporary File in Directory with Insecure Permissions\nSeverity: High\nCVSSS: 7.3\nDetection: CodeQL & OpenRewrite (https://public.moderne.io/recipes/org.openrewrite.java.security.UseFilesCreateTempDirectory)\n\nReported-by: Jonathan Leitschuh <Jonathan.Leitschuh@gmail.com>\nSigned-off-by: Jonathan Leitschuh <Jonathan.Leitschuh@gmail.com>\n\nBug-tracker: https://github.com/JLLeitschuh/security-research/issues/10\n\n\nCo-authored-by: Moderne <team@moderne.io>",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+    "cvss_base_score": 7.1,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

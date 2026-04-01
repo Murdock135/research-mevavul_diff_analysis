@@ -1,0 +1,21 @@
+{
+    "id": "122feb9a0b04290f55183ff2f0384c6c53756bd8_processMessage_0",
+    "func_name": "processMessage",
+    "cve_id": "CVE-2016-3760",
+    "cwe_ids": [
+        "CWE-362",
+        "CWE-20"
+    ],
+    "commit_hash": "122feb9a0b04290f55183ff2f0384c6c53756bd8",
+    "parent_commit_hash": "a283d524475da1b9ce9013eb2c8709bc7bd9dcfc",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/packages/apps/Bluetooth/+/122feb9a0b04290f55183ff2f0384c6c53756bd8",
+    "file_path": "src/com/android/bluetooth/btservice/AdapterState.java",
+    "file_name": "AdapterState.java",
+    "commit_date": 1458259928,
+    "commit_msg": "Add guest mode functionality (3/3)\n\nAdd a flag to enable() to start Bluetooth in restricted\nmode. In restricted mode, all devices that are paired during\nrestricted mode are deleted upon leaving restricted mode.\nRight now restricted mode is only entered while a guest\nuser is active.\n\nBug: 27410683\nChange-Id: If4a8855faf362d7f6de509d7ddc7197d1ac75cee\n",
+    "cvss_vector": "AV:A/AC:M/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 5.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

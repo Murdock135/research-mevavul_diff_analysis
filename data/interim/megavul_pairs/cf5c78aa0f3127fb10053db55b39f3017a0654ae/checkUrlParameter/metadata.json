@@ -1,0 +1,20 @@
+{
+    "id": "cf5c78aa0f3127fb10053db55b39f3017a0654ae_checkUrlParameter_0",
+    "func_name": "checkUrlParameter",
+    "cve_id": "CVE-2022-1722",
+    "cwe_ids": [
+        "CWE-918"
+    ],
+    "commit_hash": "cf5c78aa0f3127fb10053db55b39f3017a0654ae",
+    "parent_commit_hash": "4deecee18191f67e242422abf3ca304e19e49687",
+    "repo_name": "jgraph/drawio",
+    "git_url": "https://github.com/jgraph/drawio/commit/cf5c78aa0f3127fb10053db55b39f3017a0654ae",
+    "file_path": "src/main/java/com/mxgraph/online/ProxyServlet.java",
+    "file_name": "ProxyServlet.java",
+    "commit_date": 1652575178,
+    "commit_msg": "Adds isLinkLocalAddress() to address checks",
+    "cvss_vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N",
+    "cvss_base_score": 2.1,
+    "cvss_base_severity": "LOW",
+    "cvss_is_v3": false
+}

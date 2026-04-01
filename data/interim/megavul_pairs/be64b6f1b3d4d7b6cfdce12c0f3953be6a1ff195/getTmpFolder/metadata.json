@@ -1,0 +1,20 @@
+{
+    "id": "be64b6f1b3d4d7b6cfdce12c0f3953be6a1ff195_getTmpFolder_0",
+    "func_name": "getTmpFolder",
+    "cve_id": "CVE-2021-21428",
+    "cwe_ids": [
+        "CWE-668"
+    ],
+    "commit_hash": "be64b6f1b3d4d7b6cfdce12c0f3953be6a1ff195",
+    "parent_commit_hash": "e6b44349ba18748ca1e66d2da895d7a38f2d2dbd",
+    "repo_name": "OpenAPITools/openapi-generator",
+    "git_url": "https://github.com/OpenAPITools/openapi-generator/commit/be64b6f1b3d4d7b6cfdce12c0f3953be6a1ff195",
+    "file_path": "modules/openapi-generator-online/src/main/java/org/openapitools/codegen/online/service/Generator.java",
+    "file_name": "Generator.java",
+    "commit_date": 1613953953,
+    "commit_msg": "use Files.createTempFile to address security concerns",
+    "cvss_vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 4.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

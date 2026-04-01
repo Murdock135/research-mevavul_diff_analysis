@@ -1,0 +1,20 @@
+{
+    "id": "f2b63eb82dd71194319fd3945f5edf29b8f3a42d_generateSessionId_0",
+    "func_name": "generateSessionId",
+    "cve_id": "CVE-2019-11808",
+    "cwe_ids": [
+        "CWE-338"
+    ],
+    "commit_hash": "f2b63eb82dd71194319fd3945f5edf29b8f3a42d",
+    "parent_commit_hash": "259717a78b6e7c2ac60698a9085cc7bf2b986b8b",
+    "repo_name": "ratpack",
+    "git_url": "https://github.com/ratpack/ratpack/commit/f2b63eb82dd71194319fd3945f5edf29b8f3a42d",
+    "file_path": "ratpack-session/src/main/java/ratpack/session/internal/DefaultSessionIdGenerator.java",
+    "file_name": "DefaultSessionIdGenerator.java",
+    "commit_date": 1555954108,
+    "commit_msg": "Use UUID directly for generating session IDs",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

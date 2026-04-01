@@ -1,0 +1,20 @@
+{
+    "id": "0d1a38b1755efe7ed4e8d7302a24186616bba9b2_parseAutodiscover_0",
+    "func_name": "parseAutodiscover",
+    "cve_id": "CVE-2016-2415",
+    "cwe_ids": [
+        "CWE-200"
+    ],
+    "commit_hash": "0d1a38b1755efe7ed4e8d7302a24186616bba9b2",
+    "parent_commit_hash": "c687312a075dedd21c1637a102475d3271656eb3",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/packages/apps/Exchange/+/0d1a38b1755efe7ed4e8d7302a24186616bba9b2",
+    "file_path": "src/com/android/exchange/eas/EasAutoDiscover.java",
+    "file_name": "EasAutoDiscover.java",
+    "commit_date": 1455155152,
+    "commit_msg": "Patch Exchange Autodiscover Code for Security Issue\n\nThe change removes the unauthenticated GET fallback attempt for the\nAutodiscover process. Given that the Autodiscover code is functionally broken\nand this fallback attempt wouldn't succeed unless an attacker faked a success\nresponse, a good way to patch the security issue is to disable the attempt.\n\nThe change also updates the request content type, disables automatic\nredirects, and allows for parsing namespaces to help the first two attempts\nsucceed. As this is not meant to be a functional patch but a security patch,\nthere are no further changes to the Autodiscover code.\n\nBUG: 26488455\nChange-Id: I0fc93c95e755c8fa60e94da5bec4b3b4c49cdfc1\n",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:C/I:N/A:N",
+    "cvss_base_score": 7.1,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

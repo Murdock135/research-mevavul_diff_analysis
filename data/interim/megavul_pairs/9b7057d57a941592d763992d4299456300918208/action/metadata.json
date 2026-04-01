@@ -1,0 +1,20 @@
+{
+    "id": "9b7057d57a941592d763992d4299456300918208_action_0",
+    "func_name": "action",
+    "cve_id": "CVE-2022-36092",
+    "cwe_ids": [
+        "CWE-287"
+    ],
+    "commit_hash": "9b7057d57a941592d763992d4299456300918208",
+    "parent_commit_hash": "71a6d0bb6f8ab718fcfaae0e9b8c16c2d69cd4bb",
+    "repo_name": "xwiki/xwiki-platform",
+    "git_url": "https://github.com/xwiki/xwiki-platform/commit/9b7057d57a941592d763992d4299456300918208",
+    "file_path": "xwiki-platform-core/xwiki-platform-oldcore/src/main/java/com/xpn/xwiki/web/RegisterAction.java",
+    "file_name": "RegisterAction.java",
+    "commit_date": 1648174491,
+    "commit_msg": "XWIKI-19549: Disallow template override for login, register and skin\n\n* Also allow `registerinline` template for RegisterAction.",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

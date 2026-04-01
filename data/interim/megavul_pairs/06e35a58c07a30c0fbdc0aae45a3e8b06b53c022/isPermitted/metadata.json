@@ -1,0 +1,20 @@
+{
+    "id": "06e35a58c07a30c0fbdc0aae45a3e8b06b53c022_isPermitted_0",
+    "func_name": "isPermitted",
+    "cve_id": "CVE-2021-21369",
+    "cwe_ids": [
+        "CWE-400"
+    ],
+    "commit_hash": "06e35a58c07a30c0fbdc0aae45a3e8b06b53c022",
+    "parent_commit_hash": "a9bdd29128eca70d1922b282aa2b479ab492b563",
+    "repo_name": "hyperledger/besu",
+    "git_url": "https://github.com/hyperledger/besu/commit/06e35a58c07a30c0fbdc0aae45a3e8b06b53c022",
+    "file_path": "ethereum/api/src/main/java/org/hyperledger/besu/ethereum/api/jsonrpc/authentication/AuthenticationUtils.java",
+    "file_name": "AuthenticationUtils.java",
+    "commit_date": 1593097631,
+    "commit_msg": "Improvements to authenticated JSON-RPC permissions checking (#1144)\n\n* exit early if matching permission found; add test for *:* permission\r\n\r\nSigned-off-by: Sally MacFarlane <sally.macfarlane@consensys.net>",
+    "cvss_vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
+    "cvss_base_score": 4.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

@@ -1,0 +1,50 @@
+{
+  "frequency": [
+    {
+      "c": "FieldRead",
+      "f": "4"
+    },
+    {
+      "c": "Invocation",
+      "f": "2"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "update-node_FieldRead_Assignment",
+      "f": "2"
+    },
+    {
+      "c": "insert-node_Invocation_Assignment",
+      "f": "2"
+    },
+    {
+      "c": "move-tree_FieldRead_Assignment",
+      "f": "2"
+    }
+  ],
+  "probability": [
+    {
+      "c": "FieldRead",
+      "f": "0.6666666666666666"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.3333333333333333"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "update-node_FieldRead_Assignment",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "insert-node_Invocation_Assignment",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "move-tree_FieldRead_Assignment",
+      "f": "0.3333333333333333"
+    }
+  ]
+}

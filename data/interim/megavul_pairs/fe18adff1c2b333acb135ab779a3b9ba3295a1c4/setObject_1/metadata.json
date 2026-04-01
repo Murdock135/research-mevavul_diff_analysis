@@ -1,0 +1,21 @@
+{
+    "id": "fe18adff1c2b333acb135ab779a3b9ba3295a1c4_setObject_1",
+    "func_name": "setObject",
+    "cve_id": "CVE-2022-41915",
+    "cwe_ids": [
+        "CWE-436",
+        "CWE-113"
+    ],
+    "commit_hash": "fe18adff1c2b333acb135ab779a3b9ba3295a1c4",
+    "parent_commit_hash": "cd91cf3c99123bd1e53fd6a1de0e3d1922f05bb2",
+    "repo_name": "netty",
+    "git_url": "https://github.com/netty/netty/commit/fe18adff1c2b333acb135ab779a3b9ba3295a1c4",
+    "file_path": "codec/src/main/java/io/netty/handler/codec/DefaultHeaders.java",
+    "file_name": "DefaultHeaders.java",
+    "commit_date": 1670821498,
+    "commit_msg": "Merge pull request from GHSA-hh82-3pmq-7frp\n\nMotivation:\nThe setObject methods that took arrays and iterators as arguments provided a way to bypass value validation.\n\nModification:\nAdd the missing value validation checks.\n\nResult:\nIt is no longer possibel to bypass value validation in DefaultHeaders based implementations, including DefaultHttpHeaders.",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+    "cvss_base_score": 6.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

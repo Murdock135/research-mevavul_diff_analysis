@@ -1,0 +1,20 @@
+{
+    "id": "f229f0e55b07416badaca0e3493db5af0943c9eb_fixUpIncomingShortcutInfo_0",
+    "func_name": "fixUpIncomingShortcutInfo",
+    "cve_id": "CVE-2023-45774",
+    "cwe_ids": [
+        "CWE-Other"
+    ],
+    "commit_hash": "f229f0e55b07416badaca0e3493db5af0943c9eb",
+    "parent_commit_hash": "40e4ea759743737958dde018f3606d778f7a53f3",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/f229f0e55b07416badaca0e3493db5af0943c9eb",
+    "file_path": "services/core/java/com/android/server/pm/ShortcutService.java",
+    "file_name": "ShortcutService.java",
+    "commit_date": 1689197916,
+    "commit_msg": "Validate URI-based shortcut icon at creation time.\n\nBug: 288113797\nTest: manual\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:3d41fb7620ffb9c81b23977c8367c323e4721e65)\nMerged-In: I392f8e923923bf40827a2b6207c4eaa262694fbc\nChange-Id: I392f8e923923bf40827a2b6207c4eaa262694fbc\n",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 7.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

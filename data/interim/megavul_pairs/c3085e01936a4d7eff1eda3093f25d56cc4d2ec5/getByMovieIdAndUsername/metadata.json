@@ -1,0 +1,20 @@
+{
+    "id": "c3085e01936a4d7eff1eda3093f25d56cc4d2ec5_getByMovieIdAndUsername_0",
+    "func_name": "getByMovieIdAndUsername",
+    "cve_id": "CVE-2015-10068",
+    "cwe_ids": [
+        "CWE-89"
+    ],
+    "commit_hash": "c3085e01936a4d7eff1eda3093f25d56cc4d2ec5",
+    "parent_commit_hash": "e49962f7b0f649430cb40adcb59900f3dff98eec",
+    "repo_name": "danynab/movify-j",
+    "git_url": "https://github.com/danynab/movify-j/commit/c3085e01936a4d7eff1eda3093f25d56cc4d2ec5",
+    "file_path": "app/business/impl/ReviewServiceImpl.java",
+    "file_name": "ReviewServiceImpl.java",
+    "commit_date": 1426324176,
+    "commit_msg": "Avoid SQL Injection",
+    "cvss_vector": "AV:A/AC:L/Au:S/C:P/I:P/A:P",
+    "cvss_base_score": 5.2,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

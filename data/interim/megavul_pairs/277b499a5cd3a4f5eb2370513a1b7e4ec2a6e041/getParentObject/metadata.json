@@ -1,0 +1,20 @@
+{
+    "id": "277b499a5cd3a4f5eb2370513a1b7e4ec2a6e041_getParentObject_0",
+    "func_name": "getParentObject",
+    "cve_id": "CVE-2021-41189",
+    "cwe_ids": [
+        "CWE-863"
+    ],
+    "commit_hash": "277b499a5cd3a4f5eb2370513a1b7e4ec2a6e041",
+    "parent_commit_hash": "0de9680781ea52a26f99be0656618bc073ca8dab",
+    "repo_name": "DSpace",
+    "git_url": "https://github.com/DSpace/DSpace/commit/277b499a5cd3a4f5eb2370513a1b7e4ec2a6e041",
+    "file_path": "dspace-api/src/main/java/org/dspace/eperson/GroupServiceImpl.java",
+    "file_name": "GroupServiceImpl.java",
+    "commit_date": 1635152496,
+    "commit_msg": "Fix for GHSA-cf2j-vf36-c6w8",
+    "cvss_vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+    "cvss_base_score": 9.0,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

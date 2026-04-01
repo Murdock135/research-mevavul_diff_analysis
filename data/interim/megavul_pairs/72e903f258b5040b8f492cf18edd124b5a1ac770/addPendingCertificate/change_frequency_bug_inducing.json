@@ -1,0 +1,170 @@
+{
+  "frequency": [
+    {
+      "c": "VariableRead",
+      "f": "13"
+    },
+    {
+      "c": "Invocation",
+      "f": "11"
+    },
+    {
+      "c": "Return",
+      "f": "2"
+    },
+    {
+      "c": "Literal",
+      "f": "2"
+    },
+    {
+      "c": "Parameter",
+      "f": "1"
+    },
+    {
+      "c": "TypeReference",
+      "f": "1"
+    },
+    {
+      "c": "Assignment",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "update-node_VariableRead_Invocation",
+      "f": "6"
+    },
+    {
+      "c": "move-tree_VariableRead_Invocation",
+      "f": "6"
+    },
+    {
+      "c": "insert-node_Invocation_Block",
+      "f": "4"
+    },
+    {
+      "c": "delete-node_Invocation_Invocation",
+      "f": "3"
+    },
+    {
+      "c": "delete-node_Invocation_Assignment",
+      "f": "2"
+    },
+    {
+      "c": "update-node_Literal_Invocation",
+      "f": "2"
+    },
+    {
+      "c": "move-tree_Return_Block",
+      "f": "2"
+    },
+    {
+      "c": "delete-node_Assignment_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_Invocation_Block",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Invocation_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_TypeReference_Parameter",
+      "f": "1"
+    },
+    {
+      "c": "update-node_VariableRead_BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "update-node_Parameter_Method",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "VariableRead",
+      "f": "0.41935483870967744"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.3548387096774194"
+    },
+    {
+      "c": "Return",
+      "f": "0.06451612903225806"
+    },
+    {
+      "c": "Literal",
+      "f": "0.06451612903225806"
+    },
+    {
+      "c": "Parameter",
+      "f": "0.03225806451612903"
+    },
+    {
+      "c": "TypeReference",
+      "f": "0.03225806451612903"
+    },
+    {
+      "c": "Assignment",
+      "f": "0.03225806451612903"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "update-node_VariableRead_Invocation",
+      "f": "0.1935483870967742"
+    },
+    {
+      "c": "move-tree_VariableRead_Invocation",
+      "f": "0.1935483870967742"
+    },
+    {
+      "c": "insert-node_Invocation_Block",
+      "f": "0.12903225806451613"
+    },
+    {
+      "c": "delete-node_Invocation_Invocation",
+      "f": "0.0967741935483871"
+    },
+    {
+      "c": "delete-node_Invocation_Assignment",
+      "f": "0.06451612903225806"
+    },
+    {
+      "c": "update-node_Literal_Invocation",
+      "f": "0.06451612903225806"
+    },
+    {
+      "c": "move-tree_Return_Block",
+      "f": "0.06451612903225806"
+    },
+    {
+      "c": "delete-node_Assignment_Block",
+      "f": "0.03225806451612903"
+    },
+    {
+      "c": "update-node_Invocation_Block",
+      "f": "0.03225806451612903"
+    },
+    {
+      "c": "delete-node_Invocation_Block",
+      "f": "0.03225806451612903"
+    },
+    {
+      "c": "update-node_TypeReference_Parameter",
+      "f": "0.03225806451612903"
+    },
+    {
+      "c": "update-node_VariableRead_BinaryOperator",
+      "f": "0.03225806451612903"
+    },
+    {
+      "c": "update-node_Parameter_Method",
+      "f": "0.03225806451612903"
+    }
+  ]
+}

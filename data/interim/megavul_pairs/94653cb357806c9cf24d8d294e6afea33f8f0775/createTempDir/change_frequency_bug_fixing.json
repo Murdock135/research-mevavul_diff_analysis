@@ -1,0 +1,106 @@
+{
+  "frequency": [
+    {
+      "c": "Invocation",
+      "f": "5"
+    },
+    {
+      "c": "Literal",
+      "f": "2"
+    },
+    {
+      "c": "VariableRead",
+      "f": "1"
+    },
+    {
+      "c": "TypeAccess",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "delete-node_Invocation_Block",
+      "f": "2"
+    },
+    {
+      "c": "update-node_Invocation_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Literal_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_VariableRead_BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "update-node_TypeAccess_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Invocation_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Literal_BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_Invocation_LocalVariable",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Invocation",
+      "f": "0.5555555555555556"
+    },
+    {
+      "c": "Literal",
+      "f": "0.2222222222222222"
+    },
+    {
+      "c": "VariableRead",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "TypeAccess",
+      "f": "0.1111111111111111"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "delete-node_Invocation_Block",
+      "f": "0.2222222222222222"
+    },
+    {
+      "c": "update-node_Invocation_LocalVariable",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "move-tree_Literal_Invocation",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "move-tree_VariableRead_BinaryOperator",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "update-node_TypeAccess_Invocation",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "move-tree_Invocation_LocalVariable",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "move-tree_Literal_BinaryOperator",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "insert-node_Invocation_LocalVariable",
+      "f": "0.1111111111111111"
+    }
+  ]
+}

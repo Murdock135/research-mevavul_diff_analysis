@@ -1,0 +1,21 @@
+{
+    "id": "f810d81839af38ee121c446105ca67cb12992fc6_checkKeyIntentParceledCorrectly_0",
+    "func_name": "checkKeyIntentParceledCorrectly",
+    "cve_id": "CVE-2023-45777",
+    "cwe_ids": [
+        "CWE-Other",
+        "CWE-502"
+    ],
+    "commit_hash": "f810d81839af38ee121c446105ca67cb12992fc6",
+    "parent_commit_hash": "109e58b62dc9fedcee93983678ef9d4931e72afa",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/f810d81839af38ee121c446105ca67cb12992fc6",
+    "file_path": "services/core/java/com/android/server/accounts/AccountManagerService.java",
+    "file_name": "AccountManagerService.java",
+    "commit_date": 1688579104,
+    "commit_msg": "Update AccountManagerService checkKeyIntentParceledCorrectly.\n\nBug: 265798288\nTest: manual\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:8476b140eed0235df4e8f07d94420a1471191b55)\nMerged-In: Ia2030a9dc371dccadd4e188a529351ac4232bb4f\nChange-Id: Ia2030a9dc371dccadd4e188a529351ac4232bb4f\n",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 7.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

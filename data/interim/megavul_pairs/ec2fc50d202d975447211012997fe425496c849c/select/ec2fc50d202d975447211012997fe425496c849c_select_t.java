@@ -1,0 +1,38 @@
+class select {
+@Override
+    public List<Proxy> select(URI uri) {
+        if (mProxyService == null) {
+            mProxyService = IProxyService.Stub.asInterface(
+                    ServiceManager.getService(PROXY_SERVICE));
+        }
+        if (mProxyService == null) {
+            Log.e(TAG, "select: no proxy service return NO_PROXY");
+            return Lists.newArrayList(java.net.Proxy.NO_PROXY);
+        }
+        String response = null;
+        String urlString;
+        try {
+            // Strip path and username/password from URI so it's not visible to PAC script. The
+            // path often contains credentials the app does not want exposed to a potentially
+            // malicious PAC script.
+            if (!"http".equalsIgnoreCase(uri.getScheme())) {
+                uri = new URI(uri.getScheme(), null, uri.getHost(), uri.getPort(), "/", null, null);
+            }
+            urlString = uri.toURL().toString();
+        } catch (URISyntaxException e) {
+            urlString = uri.getHost();
+        } catch (MalformedURLException e) {
+            urlString = uri.getHost();
+        }
+        try {
+            response = mProxyService.resolvePacFile(uri.getHost(), urlString);
+        } catch (Exception e) {
+            Log.e(TAG, "Error resolving PAC File", e);
+        }
+        if (response == null) {
+            return mDefaultList;
+        }
+
+        return parseResponse(response);
+    }
+}

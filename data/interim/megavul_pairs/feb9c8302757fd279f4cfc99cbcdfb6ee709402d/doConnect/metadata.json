@@ -1,0 +1,20 @@
+{
+    "id": "feb9c8302757fd279f4cfc99cbcdfb6ee709402d_doConnect_0",
+    "func_name": "doConnect",
+    "cve_id": "CVE-2017-1000209",
+    "cwe_ids": [
+        "CWE-295"
+    ],
+    "commit_hash": "feb9c8302757fd279f4cfc99cbcdfb6ee709402d",
+    "parent_commit_hash": "8c22fff4034c5f2826a20aa2ffe73a4396cf1b9b",
+    "repo_name": "TakahikoKawasaki/nv-websocket-client",
+    "git_url": "https://github.com/TakahikoKawasaki/nv-websocket-client/commit/feb9c8302757fd279f4cfc99cbcdfb6ee709402d",
+    "file_path": "src/main/java/com/neovisionaries/ws/client/SocketConnector.java",
+    "file_name": "SocketConnector.java",
+    "commit_date": 1492837383,
+    "commit_msg": "Verify that certificate is valid for server hostname\n\nWithout this change, the WebSocket library will accept\na trusted certificate issued for domain A when connecting\nto domain B. This could be exploited for Man-in-the-middle\nattacks.\n\nThe underlying issue is that Java considers hostname\nverification to be a part of HTTPS and as such, will\nnot perform it by default.\n\nThis change adds the default HostnameVerifier used\nby Android, which in recent versions is derived from\nOkHttp. Minor changes were made to make it build for\nJava 1.6.\n\nTested with and without a proxy configured.",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

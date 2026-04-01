@@ -1,0 +1,20 @@
+{
+    "id": "e4f7f68e93cb08c25632c126356d218abf192d1e_sendRedirect_0",
+    "func_name": "sendRedirect",
+    "cve_id": "CVE-2023-29204",
+    "cwe_ids": [
+        "CWE-601"
+    ],
+    "commit_hash": "e4f7f68e93cb08c25632c126356d218abf192d1e",
+    "parent_commit_hash": "00af08f137dbc923f2fc161384b8c3300a455f3b",
+    "repo_name": "xwiki/xwiki-platform",
+    "git_url": "https://github.com/xwiki/xwiki-platform/commit/e4f7f68e93cb08c25632c126356d218abf192d1e",
+    "file_path": "xwiki-platform-core/xwiki-platform-oldcore/src/main/java/com/xpn/xwiki/web/XWikiServletResponse.java",
+    "file_name": "XWikiServletResponse.java",
+    "commit_date": 1662333174,
+    "commit_msg": "XWIKI-19994: False positive redirect checking",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+    "cvss_base_score": 6.1,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

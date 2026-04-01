@@ -1,0 +1,122 @@
+{
+  "frequency": [
+    {
+      "c": "VariableWrite",
+      "f": "2"
+    },
+    {
+      "c": "If",
+      "f": "2"
+    },
+    {
+      "c": "FieldWrite",
+      "f": "2"
+    },
+    {
+      "c": "Parameter",
+      "f": "1"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "VariableRead",
+      "f": "1"
+    },
+    {
+      "c": "FieldRead",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "insert-node_If_Block",
+      "f": "2"
+    },
+    {
+      "c": "delete-node_FieldWrite_Assignment",
+      "f": "2"
+    },
+    {
+      "c": "insert-node_VariableWrite_Assignment",
+      "f": "2"
+    },
+    {
+      "c": "insert-node_Parameter_Method",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_VariableRead_BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_FieldRead_BinaryOperator",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "VariableWrite",
+      "f": "0.2"
+    },
+    {
+      "c": "If",
+      "f": "0.2"
+    },
+    {
+      "c": "FieldWrite",
+      "f": "0.2"
+    },
+    {
+      "c": "Parameter",
+      "f": "0.1"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "0.1"
+    },
+    {
+      "c": "VariableRead",
+      "f": "0.1"
+    },
+    {
+      "c": "FieldRead",
+      "f": "0.1"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "insert-node_If_Block",
+      "f": "0.2"
+    },
+    {
+      "c": "delete-node_FieldWrite_Assignment",
+      "f": "0.2"
+    },
+    {
+      "c": "insert-node_VariableWrite_Assignment",
+      "f": "0.2"
+    },
+    {
+      "c": "insert-node_Parameter_Method",
+      "f": "0.1"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "0.1"
+    },
+    {
+      "c": "insert-node_VariableRead_BinaryOperator",
+      "f": "0.1"
+    },
+    {
+      "c": "delete-node_FieldRead_BinaryOperator",
+      "f": "0.1"
+    }
+  ]
+}

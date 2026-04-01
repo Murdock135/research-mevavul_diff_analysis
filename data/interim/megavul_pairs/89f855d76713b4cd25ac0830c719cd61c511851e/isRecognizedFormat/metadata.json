@@ -1,0 +1,20 @@
+{
+    "id": "89f855d76713b4cd25ac0830c719cd61c511851e_isRecognizedFormat_0",
+    "func_name": "isRecognizedFormat",
+    "cve_id": "CVE-2018-1000652",
+    "cwe_ids": [
+        "CWE-611"
+    ],
+    "commit_hash": "89f855d76713b4cd25ac0830c719cd61c511851e",
+    "parent_commit_hash": "077fdacc2ddc7beb7d22ba96ead8b400c91b3631",
+    "repo_name": "JabRef/jabref",
+    "git_url": "https://github.com/JabRef/jabref/commit/89f855d76713b4cd25ac0830c719cd61c511851e",
+    "file_path": "src/main/java/org/jabref/logic/importer/fileformat/MsBibImporter.java",
+    "file_name": "MsBibImporter.java",
+    "commit_date": 1532937967,
+    "commit_msg": "Fix importer vulnerability (#4240)\n\n* Fix importer vulnerability\r\nFixed issue #4229  where importer was vulnerable to XXE attacks by\r\ndisabling DTDs along with adding warning to logger if features are\r\nunavailable. fixes #4229\r\n\r\n* Fix minor code errors and logger optimization\r\nRemoved author line in class comment. Reworded CHANGLOG.md. Set\r\nDTD features to individual final static constants. Optimized\r\nlogger by parameterizing feature and error.\r\n\r\n* Rearrange import statments for project compatibility\r\n\r\n* Remove merge artefacts from changelog",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

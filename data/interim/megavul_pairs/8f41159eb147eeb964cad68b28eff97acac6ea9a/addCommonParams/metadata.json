@@ -1,0 +1,20 @@
+{
+    "id": "8f41159eb147eeb964cad68b28eff97acac6ea9a_addCommonParams_0",
+    "func_name": "addCommonParams",
+    "cve_id": "CVE-2019-12741",
+    "cwe_ids": [
+        "CWE-79"
+    ],
+    "commit_hash": "8f41159eb147eeb964cad68b28eff97acac6ea9a",
+    "parent_commit_hash": "5132f1f4ed0817ba8f446702c3e68563d66529ed",
+    "repo_name": "hapifhir/hapi-fhir",
+    "git_url": "https://github.com/hapifhir/hapi-fhir/commit/8f41159eb147eeb964cad68b28eff97acac6ea9a",
+    "file_path": "hapi-fhir-testpage-overlay/src/main/java/ca/uhn/fhir/to/BaseController.java",
+    "file_name": "BaseController.java",
+    "commit_date": 1556770402,
+    "commit_msg": "Fix a potential security vulneability in the testpage overlay",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

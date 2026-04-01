@@ -1,0 +1,20 @@
+{
+    "id": "84669ca8de55d38073a0dcb01074233b0a417541_interceptKeyBeforeDispatching_0",
+    "func_name": "interceptKeyBeforeDispatching",
+    "cve_id": "CVE-2016-0812",
+    "cwe_ids": [
+        "CWE-264"
+    ],
+    "commit_hash": "84669ca8de55d38073a0dcb01074233b0a417541",
+    "parent_commit_hash": "bb4da4efc320caee77f11bb316145b8e5f264e07",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform%2Fframeworks%2Fbase/+/84669ca8de55d38073a0dcb01074233b0a417541",
+    "file_path": "policy/src/com/android/internal/policy/impl/PhoneWindowManager.java",
+    "file_name": "PhoneWindowManager.java",
+    "commit_date": 1447451538,
+    "commit_msg": "DO NOT MERGE. Prevent recents from coming up when in SUW\n\nBug: 25229538\nChange-Id: If4f276d3f7c04fd89011068d90a3c3c60593bc05\n",
+    "cvss_vector": "AV:L/AC:L/Au:N/C:N/I:C/A:C",
+    "cvss_base_score": 6.6,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

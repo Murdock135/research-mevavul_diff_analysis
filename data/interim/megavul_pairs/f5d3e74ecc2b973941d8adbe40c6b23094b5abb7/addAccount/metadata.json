@@ -1,0 +1,20 @@
+{
+    "id": "f5d3e74ecc2b973941d8adbe40c6b23094b5abb7_addAccount_0",
+    "func_name": "addAccount",
+    "cve_id": "CVE-2014-8609",
+    "cwe_ids": [
+        "CWE-264"
+    ],
+    "commit_hash": "f5d3e74ecc2b973941d8adbe40c6b23094b5abb7",
+    "parent_commit_hash": "30c50b15d0d716567c71d590aa835dc4a27591d6",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/packages/apps/Settings/+/f5d3e74ecc2b973941d8adbe40c6b23094b5abb7",
+    "file_path": "src/com/android/settings/accounts/AddAccountSettings.java",
+    "file_name": "AddAccountSettings.java",
+    "commit_date": 1410137158,
+    "commit_msg": "SECURITY: Don't pass a usable Pending Intent to 3rd parties.\n\nUnfortunately the Settings app has super powers. We shouldn't let\nuntrusted 3rd party authenticators re-purpose those powers to their own\nnefarious ends.  This means that we shouldn't pass along PendingIntents\nthat can have addressing information (component, action, category)\nfilled in by third parties.\n\nBug: 17356824\nChange-Id: I397d26c5f465ddfb0e58bbc66cd44756e58cc507\n",
+    "cvss_vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C",
+    "cvss_base_score": 7.2,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

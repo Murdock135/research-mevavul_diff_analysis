@@ -1,0 +1,20 @@
+{
+    "id": "05e0705177d2078fa9f940ce6df723312cfab976_init_0",
+    "func_name": "init",
+    "cve_id": "CVE-2015-3854",
+    "cwe_ids": [
+        "CWE-284"
+    ],
+    "commit_hash": "05e0705177d2078fa9f940ce6df723312cfab976",
+    "parent_commit_hash": "e648c5f1cb41f72a3404a9a7d2656e764c52f8e1",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/05e0705177d2078fa9f940ce6df723312cfab976",
+    "file_path": "packages/SystemUI/src/com/android/systemui/power/PowerNotificationWarnings.java",
+    "file_name": "PowerNotificationWarnings.java",
+    "commit_date": 1433170602,
+    "commit_msg": "Battery saver: limit notification intents to system UI.\n\nEnsure the actions taken by the HUN warnings came from sysui.\n\nBug: 20918350\nChange-Id: I8dc02ebdfcc1f60d068bea43e10e350dc566728d\n",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

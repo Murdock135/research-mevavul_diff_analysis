@@ -1,0 +1,20 @@
+{
+    "id": "16a76dadcc23a13223e9c2216dad1fe5cad7d6e1_onPreloadRecents_0",
+    "func_name": "onPreloadRecents",
+    "cve_id": "CVE-2016-0813",
+    "cwe_ids": [
+        "CWE-264"
+    ],
+    "commit_hash": "16a76dadcc23a13223e9c2216dad1fe5cad7d6e1",
+    "parent_commit_hash": "410bea181b229adef7a2c1a9308379eead260706",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform%2Fframeworks%2Fbase/+/16a76dadcc23a13223e9c2216dad1fe5cad7d6e1",
+    "file_path": "packages/SystemUI/src/com/android/systemui/recents/AlternateRecentsComponent.java",
+    "file_name": "AlternateRecentsComponent.java",
+    "commit_date": 1447201178,
+    "commit_msg": "DO NOT MERGE Ensure that the device is provisioned before showing Recents.\n\nBug: 25476219\nChange-Id: I5bb9cca74790521de71c0037b4f2421c3d21b3f6\n",
+    "cvss_vector": "AV:L/AC:L/Au:N/C:N/I:C/A:C",
+    "cvss_base_score": 6.6,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

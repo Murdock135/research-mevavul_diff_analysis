@@ -1,0 +1,20 @@
+{
+    "id": "456752ebc1ef4c0db980cb5b01a0b3cd0a9e0bae_parse_0",
+    "func_name": "parse",
+    "cve_id": "CVE-2020-36641",
+    "cwe_ids": [
+        "CWE-611"
+    ],
+    "commit_hash": "456752ebc1ef4c0db980cb5b01a0b3cd0a9e0bae",
+    "parent_commit_hash": "ff23c94eabb01c1a1a41b90010d64319c02aaaca",
+    "repo_name": "gturri/aXMLRPC",
+    "git_url": "https://github.com/gturri/aXMLRPC/commit/456752ebc1ef4c0db980cb5b01a0b3cd0a9e0bae",
+    "file_path": "src/main/java/de/timroes/axmlrpc/ResponseParser.java",
+    "file_name": "ResponseParser.java",
+    "commit_date": 1706140701,
+    "commit_msg": "Fix CWE-611\n\nThis commit fixes the issue described on\nhttps://cwe.mitre.org/data/definitions/611.html\n\nNb: it's mostly the same as ad6615b3ec41353e614f6ea5fdd5b046442a832b but\nwith an added reference to org.apache.xerces in order to avoid the\nAbstractMethodError that was experienced by users back then.\n\nNb2: writting down the payload with which I tested this patch, in case I\nneed to run this test again in the future:\n\n    <?xml version=\"1.0\"?>\n    <!DOCTYPE replace [<!ENTITY ent SYSTEM \"http://localhost/malware\"> ]>\n    <methodResponse>\n        <params>\n            <param>\n               <value><string>&ent;</string></value>\n            </param>\n        </params>\n    </methodResponse>",
+    "cvss_vector": "AV:A/AC:M/Au:S/C:P/I:P/A:P",
+    "cvss_base_score": 4.9,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

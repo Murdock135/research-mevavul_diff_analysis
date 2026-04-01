@@ -1,0 +1,21 @@
+{
+    "id": "f7cc569c9d3fa5d5432c76c854eed280d45ce6f4_getResolvedIndexPattern_0",
+    "func_name": "getResolvedIndexPattern",
+    "cve_id": "CVE-2022-41918",
+    "cwe_ids": [
+        "CWE-612",
+        "CWE-863"
+    ],
+    "commit_hash": "f7cc569c9d3fa5d5432c76c854eed280d45ce6f4",
+    "parent_commit_hash": "f75be3edaf900df6f42aec2fd41175e66af06f3b",
+    "repo_name": "opensearch-project/security",
+    "git_url": "https://github.com/opensearch-project/security/commit/f7cc569c9d3fa5d5432c76c854eed280d45ce6f4",
+    "file_path": "src/main/java/org/opensearch/security/securityconf/ConfigModelV7.java",
+    "file_name": "ConfigModelV7.java",
+    "commit_date": 1667829308,
+    "commit_msg": "Merge pull request from GHSA-wmx7-x4jp-9jgg\n\n* Resolving backing indices of data streams when resolving for aliases\n\n* Fixing resolution of indices for non-wild card scenarios / exact matches\n\n* Adding tests for DLS/FLS/Field-Masking on Data Streams\n\nCo-authored-by: Sandesh Kumar <kusandes@amazon.com>",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+    "cvss_base_score": 6.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

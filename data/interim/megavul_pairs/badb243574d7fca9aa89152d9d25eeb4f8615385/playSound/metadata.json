@@ -1,0 +1,20 @@
+{
+    "id": "badb243574d7fca9aa89152d9d25eeb4f8615385_playSound_1",
+    "func_name": "playSound",
+    "cve_id": "CVE-2023-21281",
+    "cwe_ids": [
+        "CWE-Other"
+    ],
+    "commit_hash": "badb243574d7fca9aa89152d9d25eeb4f8615385",
+    "parent_commit_hash": "0c3b7ec3377e7fb645ec366be3be96bb1a252ca1",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/badb243574d7fca9aa89152d9d25eeb4f8615385",
+    "file_path": "packages/SystemUI/src/com/android/systemui/keyguard/KeyguardViewMediator.java",
+    "file_name": "KeyguardViewMediator.java",
+    "commit_date": 1684258867,
+    "commit_msg": "Use Settings.System.getIntForUser instead of getInt to make sure user specific settings are used\n\nBug: 265431505\nTest: atest KeyguardViewMediatorTest\n(cherry picked from commit 625e009fc195ba5d658ca2d78ebb23d2770cc6c4)\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:dbdfadc24c81453c9c51e0d549b0ace924f4341e)\nMerged-In: I66a660c091c90a957a0fd1e144c013840db3f47e\nChange-Id: I66a660c091c90a957a0fd1e144c013840db3f47e\n",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 7.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

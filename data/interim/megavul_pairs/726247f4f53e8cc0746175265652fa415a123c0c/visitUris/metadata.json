@@ -1,0 +1,20 @@
+{
+    "id": "726247f4f53e8cc0746175265652fa415a123c0c_visitUris_0",
+    "func_name": "visitUris",
+    "cve_id": "CVE-2023-21288",
+    "cwe_ids": [
+        "CWE-862"
+    ],
+    "commit_hash": "726247f4f53e8cc0746175265652fa415a123c0c",
+    "parent_commit_hash": "e7ccba6da2c3febeb449c172c1d8091f7a35193d",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/726247f4f53e8cc0746175265652fa415a123c0c",
+    "file_path": "core/java/android/app/Notification.java",
+    "file_name": "Notification.java",
+    "commit_date": 1684167355,
+    "commit_msg": "Check URIs in notification public version.\n\nBug: 276294099\nTest: atest NotificationManagerServiceTest NotificationVisitUrisTest\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:67cd169d073486c7c047b80ab83843cdee69bf53)\nMerged-In: I670198b213abb2cb29a9865eb9d1e897700508b4\nChange-Id: I670198b213abb2cb29a9865eb9d1e897700508b4\n",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

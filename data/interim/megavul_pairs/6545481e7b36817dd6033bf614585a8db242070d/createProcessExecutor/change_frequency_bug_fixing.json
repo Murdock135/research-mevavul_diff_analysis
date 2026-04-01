@@ -1,0 +1,90 @@
+{
+  "frequency": [
+    {
+      "c": "Invocation",
+      "f": "3"
+    },
+    {
+      "c": "TypeReference",
+      "f": "2"
+    },
+    {
+      "c": "TypeAccess",
+      "f": "1"
+    },
+    {
+      "c": "Literal",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "update-node_TypeReference_LocalVariable",
+      "f": "2"
+    },
+    {
+      "c": "update-node_Invocation_BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Invocation_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_TypeAccess_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Literal_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Invocation_BinaryOperator",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Invocation",
+      "f": "0.42857142857142855"
+    },
+    {
+      "c": "TypeReference",
+      "f": "0.2857142857142857"
+    },
+    {
+      "c": "TypeAccess",
+      "f": "0.14285714285714285"
+    },
+    {
+      "c": "Literal",
+      "f": "0.14285714285714285"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "update-node_TypeReference_LocalVariable",
+      "f": "0.2857142857142857"
+    },
+    {
+      "c": "update-node_Invocation_BinaryOperator",
+      "f": "0.14285714285714285"
+    },
+    {
+      "c": "delete-node_Invocation_Block",
+      "f": "0.14285714285714285"
+    },
+    {
+      "c": "insert-node_TypeAccess_Invocation",
+      "f": "0.14285714285714285"
+    },
+    {
+      "c": "delete-node_Literal_Invocation",
+      "f": "0.14285714285714285"
+    },
+    {
+      "c": "move-tree_Invocation_BinaryOperator",
+      "f": "0.14285714285714285"
+    }
+  ]
+}

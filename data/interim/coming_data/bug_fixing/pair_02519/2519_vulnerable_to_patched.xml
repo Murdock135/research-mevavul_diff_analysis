@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="): ) [76,77]" dest="): ) [87,88]"/>
+  <match src="identifier: spin_unlock [48,59]" dest="identifier: spin_unlock [59,70]"/>
+  <match src="struct: struct [20,26]" dest="struct: struct [20,26]"/>
+  <match src="identifier: bid [40,43]" dest="identifier: bid [40,43]"/>
+  <match src="pointer_expression [60,76]" dest="pointer_expression [71,87]"/>
+  <match src="(: ( [19,20]" dest="(: ( [19,20]"/>
+  <match src="primitive_type: void [0,4]" dest="primitive_type: void [0,4]"/>
+  <match src="(: ( [59,60]" dest="(: ( [70,71]"/>
+  <match src="): ) [43,44]" dest="): ) [43,44]"/>
+  <match src="identifier: put_busid_priv [5,19]" dest="identifier: put_busid_priv [5,19]"/>
+  <match src="function_definition [0,80]" dest="function_definition [0,91]"/>
+  <match src="parameter_list [19,44]" dest="parameter_list [19,44]"/>
+  <match src="function_declarator [5,44]" dest="function_declarator [5,44]"/>
+  <match src=";: ; [77,78]" dest=";: ; [88,89]"/>
+  <match src="expression_statement [48,78]" dest="expression_statement [59,89]"/>
+  <match src="*: * [39,40]" dest="*: * [39,40]"/>
+  <match src="parameter_declaration [20,43]" dest="parameter_declaration [20,43]"/>
+  <match src="field_expression [61,76]" dest="field_expression [72,87]"/>
+  <match src="translation_unit [0,80]" dest="translation_unit [0,91]"/>
+  <match src="call_expression [48,77]" dest="call_expression [59,88]"/>
+  <match src="}: } [79,80]" dest="}: } [90,91]"/>
+  <match src="{: { [45,46]" dest="{: { [45,46]"/>
+  <match src="pointer_declarator [39,43]" dest="pointer_declarator [39,43]"/>
+  <match src="identifier: bid [61,64]" dest="identifier: bid [72,75]"/>
+  <match src="compound_statement [45,80]" dest="compound_statement [45,91]"/>
+  <match src="&amp;: &amp; [60,61]" dest="&amp;: &amp; [71,72]"/>
+  <match src="field_identifier: busid_lock [66,76]" dest="field_identifier: busid_lock [77,87]"/>
+  <match src="type_identifier: bus_id_priv [27,38]" dest="type_identifier: bus_id_priv [27,38]"/>
+  <match src="argument_list [59,77]" dest="argument_list [70,88]"/>
+  <match src="-&gt;: -&gt; [64,66]" dest="-&gt;: -&gt; [75,77]"/>
+  <match src="struct_specifier [20,38]" dest="struct_specifier [20,38]"/>
+</matches>
+<actions>
+  <insert-node tree="if_statement [48,89]" parent="compound_statement [45,80]" at="1"/>
+  <insert-node tree="if: if [48,50]" parent="if_statement [48,89]" at="0"/>
+  <insert-tree tree="parenthesized_expression [51,56]" parent="if_statement [48,89]" at="1"/>
+  <move-tree tree="expression_statement [48,78]" parent="if_statement [48,89]" at="2"/>
+</actions>

@@ -1,0 +1,20 @@
+{
+    "id": "a644a7e5ed75d7b9e46f164fb83445f778077cf9_authorized_0",
+    "func_name": "authorized",
+    "cve_id": "CVE-2022-39310",
+    "cwe_ids": [
+        "CWE-284"
+    ],
+    "commit_hash": "a644a7e5ed75d7b9e46f164fb83445f778077cf9",
+    "parent_commit_hash": "d9a5997936513523127a34a155c69c94b0e9e942",
+    "repo_name": "gocd",
+    "git_url": "https://github.com/gocd/gocd/commit/a644a7e5ed75d7b9e46f164fb83445f778077cf9",
+    "file_path": "server/src/main/java/com/thoughtworks/go/remote/AgentRemoteInvokerServiceExporter.java",
+    "file_name": "AgentRemoteInvokerServiceExporter.java",
+    "commit_date": 1609430186,
+    "commit_msg": "Refactor & fix tests after RMI interface is simplified to always include `AgentRuntimeInfo`",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+    "cvss_base_score": 6.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

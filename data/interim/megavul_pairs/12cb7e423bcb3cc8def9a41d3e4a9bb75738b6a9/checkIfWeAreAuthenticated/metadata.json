@@ -1,0 +1,20 @@
+{
+    "id": "12cb7e423bcb3cc8def9a41d3e4a9bb75738b6a9_checkIfWeAreAuthenticated_0",
+    "func_name": "checkIfWeAreAuthenticated",
+    "cve_id": "CVE-2023-22473",
+    "cwe_ids": [
+        "CWE-284"
+    ],
+    "commit_hash": "12cb7e423bcb3cc8def9a41d3e4a9bb75738b6a9",
+    "parent_commit_hash": "a37b0cb4aa6fe9dae80ff2b8c53116545f62f660",
+    "repo_name": "nextcloud/talk-android",
+    "git_url": "https://github.com/nextcloud/talk-android/commit/12cb7e423bcb3cc8def9a41d3e4a9bb75738b6a9",
+    "file_path": "app/src/main/java/com/nextcloud/talk/utils/SecurityUtils.java",
+    "file_name": "SecurityUtils.java",
+    "commit_date": 1669705408,
+    "commit_msg": "fix to move controllers to top\n\nadd logging\n\nSigned-off-by: Marcel Hibbe <dev@mhibbe.de>",
+    "cvss_vector": "CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "cvss_base_score": 2.1,
+    "cvss_base_severity": "LOW",
+    "cvss_is_v3": true
+}

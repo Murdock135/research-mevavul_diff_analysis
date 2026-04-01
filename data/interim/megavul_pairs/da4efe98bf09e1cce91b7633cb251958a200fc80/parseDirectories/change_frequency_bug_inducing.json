@@ -1,0 +1,34 @@
+{
+  "frequency": [
+    {
+      "c": "ConstructorCall",
+      "f": "4"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "update-node_ConstructorCall_LocalVariable",
+      "f": "3"
+    },
+    {
+      "c": "update-node_ConstructorCall_Assignment",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "ConstructorCall",
+      "f": "1.0"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "update-node_ConstructorCall_LocalVariable",
+      "f": "0.75"
+    },
+    {
+      "c": "update-node_ConstructorCall_Assignment",
+      "f": "0.25"
+    }
+  ]
+}

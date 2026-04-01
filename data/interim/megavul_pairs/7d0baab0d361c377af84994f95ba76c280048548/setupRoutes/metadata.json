@@ -1,0 +1,20 @@
+{
+    "id": "7d0baab0d361c377af84994f95ba76c280048548_setupRoutes_0",
+    "func_name": "setupRoutes",
+    "cve_id": "CVE-2021-25924",
+    "cwe_ids": [
+        "CWE-352"
+    ],
+    "commit_hash": "7d0baab0d361c377af84994f95ba76c280048548",
+    "parent_commit_hash": "ae5618922e9249eb51349242f713a1f4f1e3f3fb",
+    "repo_name": "gocd",
+    "git_url": "https://github.com/gocd/gocd/commit/7d0baab0d361c377af84994f95ba76c280048548",
+    "file_path": "api/api-backup-config-v1/src/main/java/com/thoughtworks/go/apiv1/backupconfig/BackupConfigControllerV1.java",
+    "file_name": "BackupConfigControllerV1.java",
+    "commit_date": 1613702762,
+    "commit_msg": "#000 - Add missing Content-Type check",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C",
+    "cvss_base_score": 9.3,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

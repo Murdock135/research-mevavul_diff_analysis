@@ -1,0 +1,20 @@
+{
+    "id": "97d6f2954c879f3bfebcd241993147bced5fd50b_startNewUpload_0",
+    "func_name": "startNewUpload",
+    "cve_id": "CVE-2021-32695",
+    "cwe_ids": [
+        "CWE-200"
+    ],
+    "commit_hash": "97d6f2954c879f3bfebcd241993147bced5fd50b",
+    "parent_commit_hash": "3c6415147b7eb30a53c3f852ac6c7379ccb40ea6",
+    "repo_name": "nextcloud/android",
+    "git_url": "https://github.com/nextcloud/android/commit/97d6f2954c879f3bfebcd241993147bced5fd50b",
+    "file_path": "src/main/java/com/owncloud/android/files/services/FileUploader.java",
+    "file_name": "FileUploader.java",
+    "commit_date": 1621288551,
+    "commit_msg": "prevent upload from sensitive path\n\nSigned-off-by: tobiasKaminsky <tobias@kaminsky.me>",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

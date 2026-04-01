@@ -1,0 +1,20 @@
+{
+    "id": "c29efe60e745a94d03debc17681c4950f3917455_setLogid_0",
+    "func_name": "setLogid",
+    "cve_id": "CVE-2023-29014",
+    "cwe_ids": [
+        "CWE-79"
+    ],
+    "commit_hash": "c29efe60e745a94d03debc17681c4950f3917455",
+    "parent_commit_hash": "0c2447c232b48934821b01aa5a3243a18ed23ef4",
+    "repo_name": "intranda/goobi-viewer-core",
+    "git_url": "https://github.com/intranda/goobi-viewer-core/commit/c29efe60e745a94d03debc17681c4950f3917455",
+    "file_path": "goobi-viewer-core/src/main/java/io/goobi/viewer/managedbeans/ActiveDocumentBean.java",
+    "file_name": "ActiveDocumentBean.java",
+    "commit_date": 1679538131,
+    "commit_msg": "Only allow setting logId to a value matching [\\w-]+\n\nrefs #24571",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+    "cvss_base_score": 6.1,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

@@ -1,0 +1,828 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="argument_list [1267,1309]" dest="argument_list [1267,1309]"/>
+  <match src="(: ( [2875,2876]" dest="(: ( [2887,2888]"/>
+  <match src="]: ] [2742,2743]" dest="]: ] [2754,2755]"/>
+  <match src="call_expression [880,901]" dest="call_expression [880,901]"/>
+  <match src="short: short [306,311]" dest="short: short [306,311]"/>
+  <match src=";: ; [1882,1883]" dest=";: ; [1894,1895]"/>
+  <match src="(: ( [2862,2863]" dest="(: ( [2874,2875]"/>
+  <match src="&amp;&amp;: &amp;&amp; [3030,3032]" dest="&amp;&amp;: &amp;&amp; [3042,3044]"/>
+  <match src="field_identifier: pebs_enabled [1733,1745]" dest="field_identifier: pebs_enabled [1745,1757]"/>
+  <match src="unsigned: unsigned [2579,2587]" dest="unsigned: unsigned [2591,2599]"/>
+  <match src="subscript_expression [1251,1325]" dest="subscript_expression [1251,1325]"/>
+  <match src="if_statement [2817,2855]" dest="if_statement [2829,2867]"/>
+  <match src="field_expression [575,589]" dest="field_expression [575,589]"/>
+  <match src="): ) [1308,1309]" dest="): ) [1308,1309]"/>
+  <match src="identifier: counts [247,253]" dest="identifier: counts [247,253]"/>
+  <match src="*: * [115,116]" dest="*: * [115,116]"/>
+  <match src="parenthesized_expression [1685,1707]" dest="parenthesized_expression [1685,1707]"/>
+  <match src="binary_expression [623,660]" dest="binary_expression [623,660]"/>
+  <match src="field_expression [2877,2888]" dest="field_expression [2889,2900]"/>
+  <match src="identifier: bit [3193,3196]" dest="identifier: bit [3205,3208]"/>
+  <match src="&amp;: &amp; [1290,1291]" dest="&amp;: &amp; [1290,1291]"/>
+  <match src="): ) [425,426]" dest="): ) [425,426]"/>
+  <match src="parenthesized_expression [2730,2771]" dest="parenthesized_expression [2742,2783]"/>
+  <match src=";: ; [1341,1342]" dest=";: ; [1341,1342]"/>
+  <match src="identifier: MAX_FIXED_PEBS_EVENTS [276,297]" dest="identifier: MAX_FIXED_PEBS_EVENTS [276,297]"/>
+  <match src="(: ( [1209,1210]" dest="(: ( [1209,1210]"/>
+  <match src=";: ; [810,811]" dest=";: ; [810,811]"/>
+  <match src=";: ; [693,694]" dest=";: ; [693,694]"/>
+  <match src="}: } [3259,3260]" dest="}: } [3271,3272]"/>
+  <match src="call_expression [2974,3014]" dest="call_expression [2986,3026]"/>
+  <match src=";: ; [986,987]" dest=";: ; [986,987]"/>
+  <match src="(: ( [404,405]" dest="(: ( [404,405]"/>
+  <match src="expression_statement [439,508]" dest="expression_statement [439,508]"/>
+  <match src="identifier: MAX_FIXED_PEBS_EVENTS [340,361]" dest="identifier: MAX_FIXED_PEBS_EVENTS [340,361]"/>
+  <match src="]: ] [2661,2662]" dest="]: ] [2673,2674]"/>
+  <match src="-&gt;: -&gt; [1103,1105]" dest="-&gt;: -&gt; [1103,1105]"/>
+  <match src="type_identifier: u64 [1068,1071]" dest="type_identifier: u64 [1068,1071]"/>
+  <match src="identifier: event [209,214]" dest="identifier: event [209,214]"/>
+  <match src="if: if [1206,1208]" dest="if: if [1206,1208]"/>
+  <match src="function_definition [0,3262]" dest="function_definition [0,3274]"/>
+  <match src=",: , [2576,2577]" dest=",: , [2588,2589]"/>
+  <match src="&amp;: &amp; [2595,2596]" dest="&amp;: &amp; [2607,2608]"/>
+  <match src="++: ++ [1325,1327]" dest="++: ++ [1325,1327]"/>
+  <match src="identifier: pebs_status [2523,2534]" dest="identifier: pebs_status [2535,2546]"/>
+  <match src="if: if [3020,3022]" dest="if: if [3032,3034]"/>
+  <match src="==: == [2765,2767]" dest="==: == [2777,2779]"/>
+  <match src="sized_type_specifier [1274,1287]" dest="sized_type_specifier [1274,1287]"/>
+  <match src="continue_statement [2634,2643]" dest="continue_statement [2646,2655]"/>
+  <match src="field_expression [1686,1704]" dest="field_expression [1686,1704]"/>
+  <match src="if_statement [3105,3257]" dest="if_statement [3117,3269]"/>
+  <match src="-&gt;: -&gt; [489,491]" dest="-&gt;: -&gt; [489,491]"/>
+  <match src="call_expression [123,151]" dest="call_expression [123,151]"/>
+  <match src="): ) [1028,1029]" dest="): ) [1028,1029]"/>
+  <match src="sized_type_specifier [2694,2707]" dest="sized_type_specifier [2706,2719]"/>
+  <match src="expression_statement [2974,3015]" dest="expression_statement [2986,3027]"/>
+  <match src="declaration [94,152]" dest="declaration [94,152]"/>
+  <match src="argument_list [3061,3068]" dest="argument_list [3073,3080]"/>
+  <match src="): ) [2770,2771]" dest="): ) [2782,2783]"/>
+  <match src="number_literal: 0 [3094,3095]" dest="number_literal: 0 [3106,3107]"/>
+  <match src="}: } [3100,3101]" dest="}: } [3112,3113]"/>
+  <match src="call_expression [907,955]" dest="call_expression [907,955]"/>
+  <match src="binary_expression [2539,2550]" dest="binary_expression [2551,2562]"/>
+  <match src="abstract_pointer_declarator [1786,1787]" dest="abstract_pointer_declarator [1798,1799]"/>
+  <match src="identifier: find_first_bit [1756,1770]" dest="identifier: find_first_bit [1768,1782]"/>
+  <match src="identifier: cpuc [116,120]" dest="identifier: cpuc [116,120]"/>
+  <match src=",: , [1302,1303]" dest=",: , [1302,1303]"/>
+  <match src="struct_specifier [37,51]" dest="struct_specifier [37,51]"/>
+  <match src="if: if [1617,1619]" dest="if: if [1617,1619]"/>
+  <match src="): ) [1869,1870]" dest="): ) [1881,1882]"/>
+  <match src="): ) [1707,1708]" dest="): ) [1707,1708]"/>
+  <match src="identifier: WARN_ON_ONCE [2863,2875]" dest="identifier: WARN_ON_ONCE [2875,2887]"/>
+  <match src="(: ( [2574,2575]" dest="(: ( [2586,2587]"/>
+  <match src="*: * [173,174]" dest="*: * [173,174]"/>
+  <match src="identifier: at [998,1000]" dest="identifier: at [998,1000]"/>
+  <match src="identifier: i [2625,2626]" dest="identifier: i [2637,2638]"/>
+  <match src="array_declarator [312,362]" dest="array_declarator [312,362]"/>
+  <match src="field_identifier: status [1105,1111]" dest="field_identifier: status [1105,1111]"/>
+  <match src="(: ( [745,746]" dest="(: ( [745,746]"/>
+  <match src="field_identifier: pebs_enabled [1670,1682]" dest="field_identifier: pebs_enabled [1670,1682]"/>
+  <match src="binary_expression [746,786]" dest="binary_expression [746,786]"/>
+  <match src="unary_expression [2834,2840]" dest="unary_expression [2846,2852]"/>
+  <match src="identifier: cpuc [1727,1731]" dest="identifier: cpuc [1739,1743]"/>
+  <match src="return: return [429,435]" dest="return: return [429,435]"/>
+  <match src="primitive_type: void [7,11]" dest="primitive_type: void [7,11]"/>
+  <match src="type_descriptor [543,556]" dest="type_descriptor [543,556]"/>
+  <match src="call_expression [3127,3252]" dest="call_expression [3139,3264]"/>
+  <match src="declaration [241,304]" dest="declaration [241,304]"/>
+  <match src="{: { [301,302]" dest="{: { [301,302]"/>
+  <match src="parenthesized_expression [2862,2901]" dest="parenthesized_expression [2874,2913]"/>
+  <match src="field_identifier: events [2802,2808]" dest="field_identifier: events [2814,2820]"/>
+  <match src="if_statement [1206,1346]" dest="if_statement [1206,1346]"/>
+  <match src="&gt;=: &gt;= [1240,1242]" dest="&gt;=: &gt;= [1240,1242]"/>
+  <match src="expression_statement [1713,1746]" dest="expression_statement [1713,1758]"/>
+  <match src=";: ; [3252,3253]" dest=";: ; [3264,3265]"/>
+  <match src="identifier: bit [3009,3012]" dest="identifier: bit [3021,3024]"/>
+  <match src="identifier: i [379,380]" dest="identifier: i [379,380]"/>
+  <match src="continue: continue [2905,2913]" dest="continue: continue [2917,2925]"/>
+  <match src="identifier: size [1304,1308]" dest="identifier: size [1304,1308]"/>
+  <match src="type_identifier: cpu_hw_events [101,114]" dest="type_identifier: cpu_hw_events [101,114]"/>
+  <match src="}: } [2646,2647]" dest="}: } [2658,2659]"/>
+  <match src="*: * [234,235]" dest="*: * [234,235]"/>
+  <match src=",: , [3209,3210]" dest=",: , [3221,3222]"/>
+  <match src=",: , [232,233]" dest=",: , [232,233]"/>
+  <match src=".: . [677,678]" dest=".: . [677,678]"/>
+  <match src="(: ( [3023,3024]" dest="(: ( [3035,3036]"/>
+  <match src="identifier: cpuc [1637,1641]" dest="identifier: cpuc [1637,1641]"/>
+  <match src="cast_expression [472,507]" dest="cast_expression [472,507]"/>
+  <match src="field_identifier: pebs_index [561,571]" dest="field_identifier: pebs_index [561,571]"/>
+  <match src="=: = [514,515]" dest="=: = [514,515]"/>
+  <match src="): ) [2550,2551]" dest="): ) [2562,2563]"/>
+  <match src=";: ; [1327,1328]" dest=";: ; [1327,1328]"/>
+  <match src="call_expression [2821,2841]" dest="call_expression [2833,2853]"/>
+  <match src="field_identifier: max_pebs_events [1815,1830]" dest="field_identifier: max_pebs_events [1827,1842]"/>
+  <match src="identifier: cpu_hw_events [137,150]" dest="identifier: cpu_hw_events [137,150]"/>
+  <match src="parenthesized_expression [404,426]" dest="parenthesized_expression [404,426]"/>
+  <match src="unsigned: unsigned [473,481]" dest="unsigned: unsigned [473,481]"/>
+  <match src="identifier: counts [3109,3115]" dest="identifier: counts [3121,3127]"/>
+  <match src=".: . [1011,1012]" dest=".: . [1011,1012]"/>
+  <match src="primitive_type: int [370,373]" dest="primitive_type: int [370,373]"/>
+  <match src="[: [ [3008,3009]" dest="[: [ [3020,3021]"/>
+  <match src="): ) [2721,2722]" dest="): ) [2733,2734]"/>
+  <match src="binary_expression [988,996]" dest="binary_expression [988,996]"/>
+  <match src="type_descriptor [1772,1787]" dest="type_descriptor [1784,1799]"/>
+  <match src="identifier: error [2619,2624]" dest="identifier: error [2631,2636]"/>
+  <match src="(: ( [1838,1839]" dest="(: ( [1850,1851]"/>
+  <match src="identifier: pebs_status [1789,1800]" dest="identifier: pebs_status [1801,1812]"/>
+  <match src="identifier: bit [2760,2763]" dest="identifier: bit [2772,2775]"/>
+  <match src="identifier: bit [3205,3208]" dest="identifier: bit [3217,3220]"/>
+  <match src="identifier: cpuc [179,183]" dest="identifier: cpuc [179,183]"/>
+  <match src="-&gt;: -&gt; [2882,2884]" dest="-&gt;: -&gt; [2894,2896]"/>
+  <match src="sized_type_specifier [473,486]" dest="sized_type_specifier [473,486]"/>
+  <match src="field_identifier: pebs_enabled [1692,1704]" dest="field_identifier: pebs_enabled [1692,1704]"/>
+  <match src="identifier: ds [174,176]" dest="identifier: ds [174,176]"/>
+  <match src="unsigned: unsigned [1274,1282]" dest="unsigned: unsigned [1274,1282]"/>
+  <match src="if_statement [2519,2647]" dest="if_statement [2531,2659]"/>
+  <match src="identifier: bit [2809,2812]" dest="identifier: bit [2821,2824]"/>
+  <match src="-&gt;: -&gt; [2800,2802]" dest="-&gt;: -&gt; [2812,2814]"/>
+  <match src="field_expression [2877,2899]" dest="field_expression [2889,2911]"/>
+  <match src="]: ] [2626,2627]" dest="]: ] [2638,2639]"/>
+  <match src="unary_expression [1621,1633]" dest="unary_expression [1621,1633]"/>
+  <match src="pointer_declarator [173,176]" dest="pointer_declarator [173,176]"/>
+  <match src="): ) [2840,2841]" dest="): ) [2852,2853]"/>
+  <match src="&amp;: &amp; [1112,1113]" dest="&amp;: &amp; [1112,1113]"/>
+  <match src="identifier: data [3164,3168]" dest="identifier: data [3176,3180]"/>
+  <match src="long: long [482,486]" dest="long: long [482,486]"/>
+  <match src="field_expression [406,425]" dest="field_expression [406,425]"/>
+  <match src=";: ; [3014,3015]" dest=";: ; [3026,3027]"/>
+  <match src="cast_expression [542,571]" dest="cast_expression [542,571]"/>
+  <match src="expression_statement [616,661]" dest="expression_statement [616,661]"/>
+  <match src="field_expression [755,781]" dest="field_expression [755,781]"/>
+  <match src="binary_expression [1102,1132]" dest="binary_expression [1102,1132]"/>
+  <match src="init_declarator [247,303]" dest="init_declarator [247,303]"/>
+  <match src="assignment_expression [616,660]" dest="assignment_expression [616,660]"/>
+  <match src="identifier: x86_pmu [1004,1011]" dest="identifier: x86_pmu [1004,1011]"/>
+  <match src="sized_type_specifier [543,556]" dest="sized_type_specifier [543,556]"/>
+  <match src="(: ( [472,473]" dest="(: ( [472,473]"/>
+  <match src="identifier: mask [616,620]" dest="identifier: mask [616,620]"/>
+  <match src="number_literal: 1ULL [624,628]" dest="number_literal: 1ULL [624,628]"/>
+  <match src="call_expression [2863,2900]" dest="call_expression [2875,2912]"/>
+  <match src="parenthesized_expression [3108,3121]" dest="parenthesized_expression [3120,3133]"/>
+  <match src="[: [ [2808,2809]" dest="[: [ [2820,2821]"/>
+  <match src="=: = [1754,1755]" dest="=: = [1766,1767]"/>
+  <match src="&amp;: &amp; [2710,2711]" dest="&amp;: &amp; [2722,2723]"/>
+  <match src="{: { [91,92]" dest="{: { [91,92]"/>
+  <match src="binary_expression [2754,2769]" dest="binary_expression [2766,2781]"/>
+  <match src="}: } [2667,2668]" dest="}: } [2679,2680]"/>
+  <match src="-: - [657,658]" dest="-: - [657,658]"/>
+  <match src="identifier: pebs_status [1136,1147]" dest="identifier: pebs_status [1136,1147]"/>
+  <match src="expression_statement [510,572]" dest="expression_statement [510,572]"/>
+  <match src="identifier: ds [557,559]" dest="identifier: ds [557,559]"/>
+  <match src="if_statement [1835,1883]" dest="if_statement [1847,1895]"/>
+  <match src="type_descriptor [1274,1289]" dest="type_descriptor [1274,1289]"/>
+  <match src="field_expression [1637,1655]" dest="field_expression [1637,1655]"/>
+  <match src=";: ; [238,239]" dest=";: ; [238,239]"/>
+  <match src="identifier: mask [1151,1155]" dest="identifier: mask [1151,1155]"/>
+  <match src="field_identifier: pebs_enabled [1120,1132]" dest="field_identifier: pebs_enabled [1120,1132]"/>
+  <match src="declaration [389,398]" dest="declaration [389,398]"/>
+  <match src="declaration [154,188]" dest="declaration [154,188]"/>
+  <match src="*: * [1057,1058]" dest="*: * [1057,1058]"/>
+  <match src="argument_list [2995,3014]" dest="argument_list [3007,3026]"/>
+  <match src="struct_specifier [154,172]" dest="struct_specifier [154,172]"/>
+  <match src="&lt;&lt;: &lt;&lt; [788,790]" dest="&lt;&lt;: &lt;&lt; [788,790]"/>
+  <match src="if: if [2953,2955]" dest="if: if [2965,2967]"/>
+  <match src="type_descriptor [2694,2709]" dest="type_descriptor [2706,2721]"/>
+  <match src="(: ( [1770,1771]" dest="(: ( [1782,1783]"/>
+  <match src="update_expression [1251,1327]" dest="update_expression [1251,1327]"/>
+  <match src="expression_statement [663,694]" dest="expression_statement [663,694]"/>
+  <match src="=: = [590,591]" dest="=: = [590,591]"/>
+  <match src="]: ] [361,362]" dest="]: ] [361,362]"/>
+  <match src="identifier: bit [3116,3119]" dest="identifier: bit [3128,3131]"/>
+  <match src="parenthesized_expression [3023,3069]" dest="parenthesized_expression [3035,3081]"/>
+  <match src="identifier: at [1062,1064]" dest="identifier: at [1062,1064]"/>
+  <match src="field_identifier: pebs_buffer_base [491,507]" dest="field_identifier: pebs_buffer_base [491,507]"/>
+  <match src=";: ; [303,304]" dest=";: ; [303,304]"/>
+  <match src="}: } [3261,3262]" dest="}: } [3273,3274]"/>
+  <match src="comment: /* log dropped samples number */ [2918,2950]" dest="comment: /* log dropped samples number */ [2930,2962]"/>
+  <match src=".: . [1814,1815]" dest=".: . [1826,1827]"/>
+  <match src="argument_list [2833,2841]" dest="argument_list [2845,2853]"/>
+  <match src="&lt;: &lt; [991,992]" dest="&lt;: &lt; [991,992]"/>
+  <match src="continue_statement [1333,1342]" dest="continue_statement [1333,1342]"/>
+  <match src="sized_type_specifier [1772,1785]" dest="sized_type_specifier [1784,1797]"/>
+  <match src="field_expression [1210,1227]" dest="field_expression [1210,1227]"/>
+  <match src="if: if [696,698]" dest="if: if [696,698]"/>
+  <match src="identifier: INTEL_PMC_IDX_FIXED [821,840]" dest="identifier: INTEL_PMC_IDX_FIXED [821,840]"/>
+  <match src="pointer_declarator [84,89]" dest="pointer_declarator [84,89]"/>
+  <match src="for_statement [972,2668]" dest="for_statement [972,2680]"/>
+  <match src="(: ( [3108,3109]" dest="(: ( [3120,3121]"/>
+  <match src="binary_expression [624,655]" dest="binary_expression [624,655]"/>
+  <match src="]: ] [3012,3013]" dest="]: ] [3024,3025]"/>
+  <match src="*: * [470,471]" dest="*: * [470,471]"/>
+  <match src="=: = [668,669]" dest="=: = [668,669]"/>
+  <match src="binary_expression [1686,1706]" dest="binary_expression [1686,1706]"/>
+  <match src="pointer_declarator [208,214]" dest="pointer_declarator [208,214]"/>
+  <match src="short: short [241,246]" dest="short: short [241,246]"/>
+  <match src="*: * [2593,2594]" dest="*: * [2605,2606]"/>
+  <match src="(: ( [2995,2996]" dest="(: ( [3007,3008]"/>
+  <match src="): ) [3013,3014]" dest="): ) [3025,3026]"/>
+  <match src="identifier: bit [2739,2742]" dest="identifier: bit [2751,2754]"/>
+  <match src="long: long [1781,1785]" dest="long: long [1793,1797]"/>
+  <match src="cast_expression [1771,1800]" dest="cast_expression [1783,1812]"/>
+  <match src="unary_expression [2876,2899]" dest="unary_expression [2888,2911]"/>
+  <match src="]: ] [297,298]" dest="]: ] [297,298]"/>
+  <match src="expression_statement [2558,2630]" dest="expression_statement [2570,2642]"/>
+  <match src=";: ; [386,387]" dest=";: ; [386,387]"/>
+  <match src="initializer_list [365,367]" dest="initializer_list [365,367]"/>
+  <match src="assignment_expression [439,507]" dest="assignment_expression [439,507]"/>
+  <match src="(: ( [2522,2523]" dest="(: ( [2534,2535]"/>
+  <match src="(: ( [2956,2957]" dest="(: ( [2968,2969]"/>
+  <match src=",: , [227,228]" dest=",: , [227,228]"/>
+  <match src="identifier: x86_pmu [700,707]" dest="identifier: x86_pmu [700,707]"/>
+  <match src="compound_statement [2553,2647]" dest="compound_statement [2565,2659]"/>
+  <match src=",: , [948,949]" dest=",: , [948,949]"/>
+  <match src="if: if [2859,2861]" dest="if: if [2871,2873]"/>
+  <match src="field_expression [632,655]" dest="field_expression [632,655]"/>
+  <match src="parameter_declaration [60,89]" dest="parameter_declaration [60,89]"/>
+  <match src="pointer_declarator [234,238]" dest="pointer_declarator [234,238]"/>
+  <match src="binary_expression [1839,1869]" dest="binary_expression [1851,1881]"/>
+  <match src="binary_expression [3024,3068]" dest="binary_expression [3036,3080]"/>
+  <match src="declaration [306,368]" dest="declaration [306,368]"/>
+  <match src="field_identifier: num_counters_fixed [851,869]" dest="field_identifier: num_counters_fixed [851,869]"/>
+  <match src="field_identifier: precise_ip [2889,2899]" dest="field_identifier: precise_ip [2901,2911]"/>
+  <match src=";: ; [571,572]" dest=";: ; [571,572]"/>
+  <match src="cast_expression [446,507]" dest="cast_expression [446,507]"/>
+  <match src="if_statement [2727,2784]" dest="if_statement [2739,2796]"/>
+  <match src="(: ( [1273,1274]" dest="(: ( [1273,1274]"/>
+  <match src=".: . [1217,1218]" dest=".: . [1217,1218]"/>
+  <match src="for: for [972,975]" dest="for: for [972,975]"/>
+  <match src="&amp;=: &amp;= [1148,1150]" dest="&amp;=: &amp;= [1148,1150]"/>
+  <match src="field_expression [1846,1869]" dest="field_expression [1858,1881]"/>
+  <match src="]: ] [1324,1325]" dest="]: ] [1324,1325]"/>
+  <match src="}: } [366,367]" dest="}: } [366,367]"/>
+  <match src="identifier: counts [2651,2657]" dest="identifier: counts [2663,2669]"/>
+  <match src="identifier: event [3087,3092]" dest="identifier: event [3099,3104]"/>
+  <match src="abstract_pointer_declarator [1288,1289]" dest="abstract_pointer_declarator [1288,1289]"/>
+  <match src="identifier: intel_pmu_pebs_event_update_no_drain [907,943]" dest="identifier: intel_pmu_pebs_event_update_no_drain [907,943]"/>
+  <match src="]: ] [2966,2967]" dest="]: ] [2978,2979]"/>
+  <match src="!: ! [2876,2877]" dest="!: ! [2888,2889]"/>
+  <match src="identifier: size [814,818]" dest="identifier: size [814,818]"/>
+  <match src="field_identifier: max_pebs_events [640,655]" dest="field_identifier: max_pebs_events [640,655]"/>
+  <match src=".: . [762,763]" dest=".: . [762,763]"/>
+  <match src="parenthesized_expression [2820,2842]" dest="parenthesized_expression [2832,2854]"/>
+  <match src="identifier: pebs_status [1072,1083]" dest="identifier: pebs_status [1072,1083]"/>
+  <match src="call_expression [3074,3096]" dest="call_expression [3086,3108]"/>
+  <match src="): ) [786,787]" dest="): ) [786,787]"/>
+  <match src="binary_expression [254,297]" dest="binary_expression [254,297]"/>
+  <match src="call_expression [1756,1831]" dest="call_expression [1768,1843]"/>
+  <match src="(: ( [1663,1664]" dest="(: ( [1663,1664]"/>
+  <match src="continue_statement [2905,2914]" dest="continue_statement [2917,2926]"/>
+  <match src="struct: struct [447,453]" dest="struct: struct [447,453]"/>
+  <match src="abstract_pointer_declarator [540,541]" dest="abstract_pointer_declarator [540,541]"/>
+  <match src="call_expression [2671,2722]" dest="call_expression [2683,2734]"/>
+  <match src="unary_expression [405,425]" dest="unary_expression [405,425]"/>
+  <match src="): ) [2899,2900]" dest="): ) [2911,2912]"/>
+  <match src="=: = [1100,1101]" dest="=: = [1100,1101]"/>
+  <match src="identifier: INTEL_PMC_IDX_FIXED [254,273]" dest="identifier: INTEL_PMC_IDX_FIXED [254,273]"/>
+  <match src="identifier: event [2996,3001]" dest="identifier: event [3008,3013]"/>
+  <match src="; [2722,2722]" dest="; [2734,2734]"/>
+  <match src="unsigned: unsigned [543,551]" dest="unsigned: unsigned [543,551]"/>
+  <match src="field_identifier: pebs_format [1228,1239]" dest="field_identifier: pebs_format [1228,1239]"/>
+  <match src="if: if [2817,2819]" dest="if: if [2829,2831]"/>
+  <match src="field_identifier: attr [2884,2888]" dest="field_identifier: attr [2896,2900]"/>
+  <match src="parenthesized_expression [1620,1709]" dest="parenthesized_expression [1620,1709]"/>
+  <match src="call_expression [3033,3068]" dest="call_expression [3045,3080]"/>
+  <match src="field_identifier: max_pebs_events [1854,1869]" dest="field_identifier: max_pebs_events [1866,1881]"/>
+  <match src="field_identifier: pebs_active [414,425]" dest="field_identifier: pebs_active [414,425]"/>
+  <match src=";: ; [435,436]" dest=";: ; [435,436]"/>
+  <match src="if_statement [2859,2914]" dest="if_statement [2871,2926]"/>
+  <match src="identifier: PMU_FL_PEBS_ALL [716,731]" dest="identifier: PMU_FL_PEBS_ALL [716,731]"/>
+  <match src="): ) [2551,2552]" dest="): ) [2563,2564]"/>
+  <match src="identifier: base [982,986]" dest="identifier: base [982,986]"/>
+  <match src="identifier: x86_pmu [1210,1217]" dest="identifier: x86_pmu [1210,1217]"/>
+  <match src="subscript_expression [2957,2967]" dest="subscript_expression [2969,2979]"/>
+  <match src="&amp;&amp;: &amp;&amp; [1634,1636]" dest="&amp;&amp;: &amp;&amp; [1634,1636]"/>
+  <match src="|=: |= [742,744]" dest="|=: |= [742,744]"/>
+  <match src="(: ( [2833,2834]" dest="(: ( [2845,2846]"/>
+  <match src="}: } [872,873]" dest="}: } [872,873]"/>
+  <match src="type_descriptor [447,471]" dest="type_descriptor [447,471]"/>
+  <match src="pointer_expression [2710,2715]" dest="pointer_expression [2722,2727]"/>
+  <match src="&lt;&lt;: &lt;&lt; [2544,2546]" dest="&lt;&lt;: &lt;&lt; [2556,2558]"/>
+  <match src="): ) [2967,2968]" dest="): ) [2979,2980]"/>
+  <match src="argument_list [135,151]" dest="argument_list [135,151]"/>
+  <match src="identifier: for_each_set_bit [1251,1267]" dest="identifier: for_each_set_bit [1251,1267]"/>
+  <match src="parenthesized_expression [623,656]" dest="parenthesized_expression [623,656]"/>
+  <match src="assignment_expression [977,986]" dest="assignment_expression [977,986]"/>
+  <match src=";: ; [965,966]" dest=";: ; [965,966]"/>
+  <match src="number_literal: 1 [785,786]" dest="number_literal: 1 [785,786]"/>
+  <match src=".: . [707,708]" dest=".: . [707,708]"/>
+  <match src="assignment_expression [737,810]" dest="assignment_expression [737,810]"/>
+  <match src="type_identifier: debug_store [161,172]" dest="type_identifier: debug_store [161,172]"/>
+  <match src="): ) [954,955]" dest="): ) [954,955]"/>
+  <match src="subscript_expression [3198,3209]" dest="subscript_expression [3210,3221]"/>
+  <match src="identifier: x86_pmu [406,413]" dest="identifier: x86_pmu [406,413]"/>
+  <match src="[: [ [3115,3116]" dest="[: [ [3127,3128]"/>
+  <match src="return: return [959,965]" dest="return: return [959,965]"/>
+  <match src="continue: continue [2846,2854]" dest="continue: continue [2858,2866]"/>
+  <match src="long: long [2588,2592]" dest="long: long [2600,2604]"/>
+  <match src="identifier: error [3003,3008]" dest="identifier: error [3015,3020]"/>
+  <match src="): ) [2841,2842]" dest="): ) [2853,2854]"/>
+  <match src="parenthesized_expression [1838,1870]" dest="parenthesized_expression [1850,1882]"/>
+  <match src="init_declarator [173,187]" dest="init_declarator [173,187]"/>
+  <match src="subscript_expression [2754,2764]" dest="subscript_expression [2766,2776]"/>
+  <match src="continue_statement [2775,2784]" dest="continue_statement [2787,2796]"/>
+  <match src="[: [ [2962,2963]" dest="[: [ [2974,2975]"/>
+  <match src="argument_list [3086,3096]" dest="argument_list [3098,3108]"/>
+  <match src="expression_statement [1136,1156]" dest="expression_statement [1136,1156]"/>
+  <match src="=: = [299,300]" dest="=: = [299,300]"/>
+  <match src="expression_statement [575,613]" dest="expression_statement [575,613]"/>
+  <match src="identifier: unlikely [880,888]" dest="identifier: unlikely [880,888]"/>
+  <match src="parenthesized_expression [2538,2551]" dest="parenthesized_expression [2550,2563]"/>
+  <match src="compound_statement [1246,1346]" dest="compound_statement [1246,1346]"/>
+  <match src="identifier: event [2835,2840]" dest="identifier: event [2847,2852]"/>
+  <match src="*: * [222,223]" dest="*: * [222,223]"/>
+  <match src="argument_list [2875,2900]" dest="argument_list [2887,2912]"/>
+  <match src="parenthesized_expression [1209,1245]" dest="parenthesized_expression [1209,1245]"/>
+  <match src="): ) [655,656]" dest="): ) [655,656]"/>
+  <match src="(: ( [542,543]" dest="(: ( [542,543]"/>
+  <match src=";: ; [187,188]" dest=";: ; [187,188]"/>
+  <match src="&amp;: &amp; [136,137]" dest="&amp;: &amp; [136,137]"/>
+  <match src="identifier: size [2717,2721]" dest="identifier: size [2729,2733]"/>
+  <match src=";: ; [660,661]" dest=";: ; [660,661]"/>
+  <match src="): ) [1244,1245]" dest="): ) [1244,1245]"/>
+  <match src=",: , [380,381]" dest=",: , [380,381]"/>
+  <match src="-&gt;: -&gt; [1731,1733]" dest="-&gt;: -&gt; [1743,1745]"/>
+  <match src=",: , [1800,1801]" dest=",: , [1812,1813]"/>
+  <match src=";: ; [1745,1746]" dest=";: ; [1757,1758]"/>
+  <match src="): ) [1289,1290]" dest="): ) [1289,1290]"/>
+  <match src="assignment_expression [814,869]" dest="assignment_expression [814,869]"/>
+  <match src="(: ( [3061,3062]" dest="(: ( [3073,3074]"/>
+  <match src="): ) [89,90]" dest="): ) [89,90]"/>
+  <match src="(: ( [2820,2821]" dest="(: ( [2832,2833]"/>
+  <match src="identifier: top [993,996]" dest="identifier: top [993,996]"/>
+  <match src="if: if [3105,3107]" dest="if: if [3117,3119]"/>
+  <match src="binary_expression [1621,1708]" dest="binary_expression [1621,1708]"/>
+  <match src="binary_expression [1621,1655]" dest="binary_expression [1621,1655]"/>
+  <match src="(: ( [2753,2754]" dest="(: ( [2765,2766]"/>
+  <match src="field_identifier: pebs_record_size [1012,1028]" dest="field_identifier: pebs_record_size [1012,1028]"/>
+  <match src="if: if [2727,2729]" dest="if: if [2739,2741]"/>
+  <match src="=: = [1060,1061]" dest="=: = [1060,1061]"/>
+  <match src="++: ++ [2627,2629]" dest="++: ++ [2639,2641]"/>
+  <match src="struct_specifier [517,539]" dest="struct_specifier [517,539]"/>
+  <match src="=: = [819,820]" dest="=: = [819,820]"/>
+  <match src="binary_expression [747,781]" dest="binary_expression [747,781]"/>
+  <match src="continue: continue [1333,1341]" dest="continue: continue [1333,1341]"/>
+  <match src="sized_type_specifier [306,311]" dest="sized_type_specifier [306,311]"/>
+  <match src="{: { [2969,2970]" dest="{: { [2981,2982]"/>
+  <match src="(: ( [1771,1772]" dest="(: ( [1783,1784]"/>
+  <match src="identifier: counts [3198,3204]" dest="identifier: counts [3210,3216]"/>
+  <match src="compound_statement [1030,2668]" dest="compound_statement [1030,2680]"/>
+  <match src="): ) [1706,1707]" dest="): ) [1706,1707]"/>
+  <match src="identifier: x86_pmu [1807,1814]" dest="identifier: x86_pmu [1819,1826]"/>
+  <match src="}: } [3256,3257]" dest="}: } [3268,3269]"/>
+  <match src="*: * [1288,1289]" dest="*: * [1288,1289]"/>
+  <match src="identifier: bit [1321,1324]" dest="identifier: bit [1321,1324]"/>
+  <match src="identifier: base [3170,3174]" dest="identifier: base [3182,3186]"/>
+  <match src="{: { [3122,3123]" dest="{: { [3134,3135]"/>
+  <match src="[: [ [2738,2739]" dest="[: [ [2750,2751]"/>
+  <match src="binary_expression [700,731]" dest="binary_expression [700,731]"/>
+  <match src="(: ( [3086,3087]" dest="(: ( [3098,3099]"/>
+  <match src=";: ; [367,368]" dest=";: ; [367,368]"/>
+  <match src="subscript_expression [2796,2813]" dest="subscript_expression [2808,2825]"/>
+  <match src="continue: continue [1874,1882]" dest="continue: continue [1886,1894]"/>
+  <match src="if_statement [2953,3101]" dest="if_statement [2965,3113]"/>
+  <match src="identifier: cpuc [2796,2800]" dest="identifier: cpuc [2808,2812]"/>
+  <match src="argument_list [943,955]" dest="argument_list [943,955]"/>
+  <match src="call_expression [1251,1309]" dest="call_expression [1251,1309]"/>
+  <match src="pointer_declarator [229,232]" dest="pointer_declarator [229,232]"/>
+  <match src="=: = [1725,1726]" dest="=: = [1737,1738]"/>
+  <match src="parenthesized_expression [1663,1708]" dest="parenthesized_expression [1663,1708]"/>
+  <match src="continue_statement [2846,2855]" dest="continue_statement [2858,2867]"/>
+  <match src="argument_list [2687,2722]" dest="argument_list [2699,2734]"/>
+  <match src="binary_expression [318,361]" dest="binary_expression [318,361]"/>
+  <match src="struct: struct [190,196]" dest="struct: struct [190,196]"/>
+  <match src="(: ( [699,700]" dest="(: ( [699,700]"/>
+  <match src="&lt;&lt;: &lt;&lt; [629,631]" dest="&lt;&lt;: &lt;&lt; [629,631]"/>
+  <match src="identifier: bit [2688,2691]" dest="identifier: bit [2700,2703]"/>
+  <match src="-&gt;: -&gt; [594,596]" dest="-&gt;: -&gt; [594,596]"/>
+  <match src="type_identifier: u64 [389,392]" dest="type_identifier: u64 [389,392]"/>
+  <match src=".: . [1853,1854]" dest=".: . [1865,1866]"/>
+  <match src="): ) [486,487]" dest="): ) [486,487]"/>
+  <match src="identifier: cpuc [944,948]" dest="identifier: cpuc [944,948]"/>
+  <match src="pointer_declarator [222,227]" dest="pointer_declarator [222,227]"/>
+  <match src="): ) [3068,3069]" dest="): ) [3080,3081]"/>
+  <match src="-&gt;: -&gt; [577,579]" dest="-&gt;: -&gt; [577,579]"/>
+  <match src="type_descriptor [2579,2594]" dest="type_descriptor [2591,2606]"/>
+  <match src="identifier: ds [487,489]" dest="identifier: ds [487,489]"/>
+  <match src=";: ; [869,870]" dest=";: ; [869,870]"/>
+  <match src="array_declarator [247,298]" dest="array_declarator [247,298]"/>
+  <match src="): ) [2709,2710]" dest="): ) [2721,2722]"/>
+  <match src="identifier: size [950,954]" dest="identifier: size [950,954]"/>
+  <match src="update_expression [2651,2664]" dest="update_expression [2663,2676]"/>
+  <match src="-: - [1704,1705]" dest="-: - [1704,1705]"/>
+  <match src="sized_type_specifier [2579,2592]" dest="sized_type_specifier [2591,2604]"/>
+  <match src="argument_list [888,901]" dest="argument_list [888,901]"/>
+  <match src="{: { [2723,2724]" dest="{: { [2735,2736]"/>
+  <match src="*: * [84,85]" dest="*: * [84,85]"/>
+  <match src="identifier: pebs_status [1291,1302]" dest="identifier: pebs_status [1291,1302]"/>
+  <match src=",: , [3001,3002]" dest=",: , [3013,3014]"/>
+  <match src="if: if [876,878]" dest="if: if [876,878]"/>
+  <match src="declaration [217,239]" dest="declaration [217,239]"/>
+  <match src="&amp;&amp;: &amp;&amp; [1656,1658]" dest="&amp;&amp;: &amp;&amp; [1656,1658]"/>
+  <match src=";: ; [1064,1065]" dest=";: ; [1064,1065]"/>
+  <match src="if: if [1835,1837]" dest="if: if [1847,1849]"/>
+  <match src="binary_expression [821,869]" dest="binary_expression [821,869]"/>
+  <match src="identifier: setup_pebs_fixed_sample_data [3223,3251]" dest="identifier: setup_pebs_fixed_sample_data [3235,3263]"/>
+  <match src="identifier: for_each_set_bit [2671,2687]" dest="identifier: for_each_set_bit [2683,2699]"/>
+  <match src="unsigned: unsigned [1772,1780]" dest="unsigned: unsigned [1784,1792]"/>
+  <match src="identifier: ds [592,594]" dest="identifier: ds [592,594]"/>
+  <match src=",: , [3168,3169]" dest=",: , [3180,3181]"/>
+  <match src=",: , [2691,2692]" dest=",: , [2703,2704]"/>
+  <match src="expression_statement [1251,1328]" dest="expression_statement [1251,1328]"/>
+  <match src="identifier: INTEL_PMC_IDX_FIXED [791,810]" dest="identifier: INTEL_PMC_IDX_FIXED [791,810]"/>
+  <match src="[: [ [1320,1321]" dest="[: [ [1320,1321]"/>
+  <match src="): ) [3120,3121]" dest="): ) [3132,3133]"/>
+  <match src="field_identifier: pebs_enabled [1643,1655]" dest="field_identifier: pebs_enabled [1643,1655]"/>
+  <match src="unary_expression [1662,1708]" dest="unary_expression [1662,1708]"/>
+  <match src="argument_list [3149,3252]" dest="argument_list [3161,3264]"/>
+  <match src="field_expression [670,693]" dest="field_expression [670,693]"/>
+  <match src="number_literal: 0 [2768,2769]" dest="number_literal: 0 [2780,2781]"/>
+  <match src="!: ! [1662,1663]" dest="!: ! [1662,1663]"/>
+  <match src="]: ] [2812,2813]" dest="]: ] [2824,2825]"/>
+  <match src="(: ( [135,136]" dest="(: ( [135,136]"/>
+  <match src="(: ( [2578,2579]" dest="(: ( [2590,2591]"/>
+  <match src="pointer_declarator [1057,1059]" dest="pointer_declarator [1057,1059]"/>
+  <match src="identifier: bit [1750,1753]" dest="identifier: bit [1762,1765]"/>
+  <match src="expression_statement [737,811]" dest="expression_statement [737,811]"/>
+  <match src="binary_expression [2523,2551]" dest="binary_expression [2535,2563]"/>
+  <match src="-: - [783,784]" dest="-: - [783,784]"/>
+  <match src="+: + [338,339]" dest="+: + [338,339]"/>
+  <match src="identifier: iregs [3157,3162]" dest="identifier: iregs [3169,3174]"/>
+  <match src="identifier: base [439,443]" dest="identifier: base [439,443]"/>
+  <match src="{: { [365,366]" dest="{: { [365,366]"/>
+  <match src="identifier: size [663,667]" dest="identifier: size [663,667]"/>
+  <match src="): ) [2900,2901]" dest="): ) [2912,2913]"/>
+  <match src="field_identifier: pebs_index [579,589]" dest="field_identifier: pebs_index [579,589]"/>
+  <match src="(: ( [888,889]" dest="(: ( [888,889]"/>
+  <match src=";: ; [996,997]" dest=";: ; [996,997]"/>
+  <match src="): ) [2748,2749]" dest="): ) [2760,2761]"/>
+  <match src=".: . [639,640]" dest=".: . [639,640]"/>
+  <match src="parenthesized_expression [2731,2749]" dest="parenthesized_expression [2743,2761]"/>
+  <match src="field_expression [843,869]" dest="field_expression [843,869]"/>
+  <match src="identifier: at [230,232]" dest="identifier: at [230,232]"/>
+  <match src="abstract_pointer_declarator [2708,2709]" dest="abstract_pointer_declarator [2720,2721]"/>
+  <match src="field_expression [592,612]" dest="field_expression [592,612]"/>
+  <match src="parenthesized_expression [745,787]" dest="parenthesized_expression [745,787]"/>
+  <match src="identifier: cpuc [1686,1690]" dest="identifier: cpuc [1686,1690]"/>
+  <match src="storage_class_specifier [0,6]" dest="storage_class_specifier [0,6]"/>
+  <match src="binary_expression [1210,1244]" dest="binary_expression [1210,1244]"/>
+  <match src="identifier: bit [1268,1271]" dest="identifier: bit [1268,1271]"/>
+  <match src="}: } [968,969]" dest="}: } [968,969]"/>
+  <match src="-&gt;: -&gt; [1118,1120]" dest="-&gt;: -&gt; [1118,1120]"/>
+  <match src="sized_type_specifier [241,246]" dest="sized_type_specifier [241,246]"/>
+  <match src=",: , [377,378]" dest=",: , [377,378]"/>
+  <match src="): ) [781,782]" dest="): ) [781,782]"/>
+  <match src="(: ( [746,747]" dest="(: ( [746,747]"/>
+  <match src="): ) [471,472]" dest="): ) [471,472]"/>
+  <match src="identifier: data [85,89]" dest="identifier: data [85,89]"/>
+  <match src="=: = [363,364]" dest="=: = [363,364]"/>
+  <match src="identifier: for_each_set_bit [2558,2574]" dest="identifier: for_each_set_bit [2570,2586]"/>
+  <match src="+: + [274,275]" dest="+: + [274,275]"/>
+  <match src=".: . [1227,1228]" dest=".: . [1227,1228]"/>
+  <match src="{: { [2553,2554]" dest="{: { [2565,2566]"/>
+  <match src="identifier: x86_pmu_stop [3074,3086]" dest="identifier: x86_pmu_stop [3086,3098]"/>
+  <match src="compound_statement [2723,3260]" dest="compound_statement [2735,3272]"/>
+  <match src="-&gt;: -&gt; [1668,1670]" dest="-&gt;: -&gt; [1668,1670]"/>
+  <match src=".: . [850,851]" dest=".: . [850,851]"/>
+  <match src=",: , [2715,2716]" dest=",: , [2727,2728]"/>
+  <match src="identifier: perf_log_lost_samples [2974,2995]" dest="identifier: perf_log_lost_samples [2986,3007]"/>
+  <match src="-&gt;: -&gt; [1690,1692]" dest="-&gt;: -&gt; [1690,1692]"/>
+  <match src=";: ; [612,613]" dest=";: ; [612,613]"/>
+  <match src=";: ; [2642,2643]" dest=";: ; [2654,2655]"/>
+  <match src=",: , [3191,3192]" dest=",: , [3203,3204]"/>
+  <match src="identifier: intel_pmu_drain_pebs_nhm [12,36]" dest="identifier: intel_pmu_drain_pebs_nhm [12,36]"/>
+  <match src="pointer_declarator [115,120]" dest="pointer_declarator [115,120]"/>
+  <match src="&amp;&amp;: &amp;&amp; [2750,2752]" dest="&amp;&amp;: &amp;&amp; [2762,2764]"/>
+  <match src="(: ( [446,447]" dest="(: ( [446,447]"/>
+  <match src=",: , [58,59]" dest=",: , [58,59]"/>
+  <match src="function_declarator [12,90]" dest="function_declarator [12,90]"/>
+  <match src="identifier: pebs_status [1088,1099]" dest="identifier: pebs_status [1088,1099]"/>
+  <match src="field_expression [1664,1682]" dest="field_expression [1664,1682]"/>
+  <match src="if_statement [401,436]" dest="if_statement [401,436]"/>
+  <match src="identifier: counts [2732,2738]" dest="identifier: counts [2744,2750]"/>
+  <match src="number_literal: 1ULL [2539,2543]" dest="number_literal: 1ULL [2551,2555]"/>
+  <match src="field_expression [1727,1745]" dest="field_expression [1739,1757]"/>
+  <match src="]: ] [2763,2764]" dest="]: ] [2775,2776]"/>
+  <match src="parameter_list [36,90]" dest="parameter_list [36,90]"/>
+  <match src="(: ( [976,977]" dest="(: ( [976,977]"/>
+  <match src="): ) [731,732]" dest="): ) [731,732]"/>
+  <match src="parenthesized_expression [2956,2968]" dest="parenthesized_expression [2968,2980]"/>
+  <match src="if: if [401,403]" dest="if: if [401,403]"/>
+  <match src="type_descriptor [473,486]" dest="type_descriptor [473,486]"/>
+  <match src="struct: struct [1034,1040]" dest="struct: struct [1034,1040]"/>
+  <match src=",: , [1271,1272]" dest=",: , [1271,1272]"/>
+  <match src="(: ( [1620,1621]" dest="(: ( [1620,1621]"/>
+  <match src="{: { [903,904]" dest="{: { [903,904]"/>
+  <match src="identifier: pebs_status [1622,1633]" dest="identifier: pebs_status [1622,1633]"/>
+  <match src="): ) [541,542]" dest="): ) [541,542]"/>
+  <match src="identifier: INTEL_PMC_IDX_FIXED [318,337]" dest="identifier: INTEL_PMC_IDX_FIXED [318,337]"/>
+  <match src="!=: != [2535,2537]" dest="!=: != [2547,2549]"/>
+  <match src=";: ; [2813,2814]" dest=";: ; [2825,2826]"/>
+  <match src="): ) [1708,1709]" dest="): ) [1708,1709]"/>
+  <match src="subscript_expression [3109,3120]" dest="subscript_expression [3121,3132]"/>
+  <match src="pointer_declarator [52,58]" dest="pointer_declarator [52,58]"/>
+  <match src="identifier: iregs [53,58]" dest="identifier: iregs [53,58]"/>
+  <match src="cast_expression [516,571]" dest="cast_expression [516,571]"/>
+  <match src="&gt;=: &gt;= [1843,1845]" dest="&gt;=: &gt;= [1855,1857]"/>
+  <match src=";: ; [397,398]" dest=";: ; [397,398]"/>
+  <match src="binary_expression [2731,2770]" dest="binary_expression [2743,2782]"/>
+  <match src="static: static [0,6]" dest="static: static [0,6]"/>
+  <match src="identifier: event [3062,3067]" dest="identifier: event [3074,3079]"/>
+  <match src="identifier: cpuc [1114,1118]" dest="identifier: cpuc [1114,1118]"/>
+  <match src="expression_statement [1750,1832]" dest="expression_statement [1762,1844]"/>
+  <match src="long: long [552,556]" dest="long: long [552,556]"/>
+  <match src=";: ; [1132,1133]" dest=";: ; [1132,1133]"/>
+  <match src="number_literal: 1ULL [747,751]" dest="number_literal: 1ULL [747,751]"/>
+  <match src="): ) [1830,1831]" dest="): ) [1842,1843]"/>
+  <match src="binary_expression [2732,2748]" dest="binary_expression [2744,2760]"/>
+  <match src="&lt;&lt;: &lt;&lt; [752,754]" dest="&lt;&lt;: &lt;&lt; [752,754]"/>
+  <match src=";: ; [2854,2855]" dest=";: ; [2866,2867]"/>
+  <match src="[: [ [2759,2760]" dest="[: [ [2771,2772]"/>
+  <match src=",: , [3162,3163]" dest=",: , [3174,3175]"/>
+  <match src="compound_statement [903,969]" dest="compound_statement [903,969]"/>
+  <match src="identifier: at [977,979]" dest="identifier: at [977,979]"/>
+  <match src="field_identifier: flags [708,713]" dest="field_identifier: flags [708,713]"/>
+  <match src="if_statement [1617,1746]" dest="if_statement [1617,1758]"/>
+  <match src="assignment_expression [1713,1745]" dest="assignment_expression [1727,1757]"/>
+  <match src="struct: struct [60,66]" dest="struct: struct [60,66]"/>
+  <match src="}: } [1345,1346]" dest="}: } [1345,1346]"/>
+  <match src="): ) [901,902]" dest="): ) [901,902]"/>
+  <match src=";: ; [1083,1084]" dest=";: ; [1083,1084]"/>
+  <match src="=: = [444,445]" dest="=: = [444,445]"/>
+  <match src="*: * [208,209]" dest="*: * [208,209]"/>
+  <match src="(: ( [2538,2539]" dest="(: ( [2550,2551]"/>
+  <match src="field_expression [1004,1028]" dest="field_expression [1004,1028]"/>
+  <match src=".: . [413,414]" dest=".: . [413,414]"/>
+  <match src="(: ( [879,880]" dest="(: ( [879,880]"/>
+  <match src="comment: 		
+		 * The PEBS hardware does not deal well with the situation
+		 * when events happen near to each other and multiple bits
+		 * are set. But it should happen rarely.
+		 *
+		 * If these events include one PEBS and multiple non-PEBS
+		 * events, it doesn't impact PEBS record. The record will
+		 * be handled normally. (slow path)
+		 *
+		 * If these events include two or more PEBS events, the
+		 * records for the events can be collapsed into a single
+		 * one, and it's not possible to reconstruct all events
+		 * that caused the PEBS record. It's called collision.
+		 * If collision happened, the record will be dropped.
+		 */ [1887,2516]" dest="comment: 		
+		 * The PEBS hardware does not deal well with the situation
+		 * when events happen near to each other and multiple bits
+		 * are set. But it should happen rarely.
+		 *
+		 * If these events include one PEBS and multiple non-PEBS
+		 * events, it doesn't impact PEBS record. The record will
+		 * be handled normally. (slow path)
+		 *
+		 * If these events include two or more PEBS events, the
+		 * records for the events can be collapsed into a single
+		 * one, and it's not possible to reconstruct all events
+		 * that caused the PEBS record. It's called collision.
+		 * If collision happened, the record will be dropped.
+		 */ [1899,2528]"/>
+  <match src="expression_statement [2671,2722]" dest="expression_statement [2683,2734]"/>
+  <match src="identifier: x86_pmu [1846,1853]" dest="identifier: x86_pmu [1858,1865]"/>
+  <match src="pointer_expression [1788,1800]" dest="pointer_expression [1800,1812]"/>
+  <match src="argument_list [1770,1831]" dest="argument_list [1782,1843]"/>
+  <match src="expression_statement [2651,2665]" dest="expression_statement [2663,2677]"/>
+  <match src="parameter_declaration [37,58]" dest="parameter_declaration [37,58]"/>
+  <match src="assignment_expression [663,693]" dest="assignment_expression [663,693]"/>
+  <match src="identifier: at [988,990]" dest="identifier: at [988,990]"/>
+  <match src=";: ; [1155,1156]" dest=";: ; [1155,1156]"/>
+  <match src="identifier: top [897,900]" dest="identifier: top [897,900]"/>
+  <match src="continue_statement [1874,1883]" dest="continue_statement [1886,1895]"/>
+  <match src="abstract_pointer_declarator [470,471]" dest="abstract_pointer_declarator [470,471]"/>
+  <match src="number_literal: 0 [2747,2748]" dest="number_literal: 0 [2759,2760]"/>
+  <match src="identifier: bit [2547,2550]" dest="identifier: bit [2559,2562]"/>
+  <match src="*: * [229,230]" dest="*: * [229,230]"/>
+  <match src="[: [ [3204,3205]" dest="[: [ [3216,3217]"/>
+  <match src="): ) [150,151]" dest="): ) [150,151]"/>
+  <match src="expression_statement [1088,1133]" dest="expression_statement [1088,1133]"/>
+  <match src="unsigned: unsigned [2694,2702]" dest="unsigned: unsigned [2706,2714]"/>
+  <match src="parenthesized_expression [746,782]" dest="parenthesized_expression [746,782]"/>
+  <match src="comment: 		
+		 * On some CPUs the PEBS status can be zero when PEBS is
+		 * racing with clearing of GLOBAL_STATUS.
+		 *
+		 * Normally we would drop that record, but in the
+		 * case when there is only a single active PEBS event
+		 * we can assume it's for that event.
+		 */ [1350,1614]" dest="comment: 		
+		 * On some CPUs the PEBS status can be zero when PEBS is
+		 * racing with clearing of GLOBAL_STATUS.
+		 *
+		 * Normally we would drop that record, but in the
+		 * case when there is only a single active PEBS event
+		 * we can assume it's for that event.
+		 */ [1350,1614]"/>
+  <match src=",: , [2607,2608]" dest=",: , [2619,2620]"/>
+  <match src="init_declarator [115,151]" dest="init_declarator [115,151]"/>
+  <match src=",: , [3196,3197]" dest=",: , [3208,3209]"/>
+  <match src="(: ( [516,517]" dest="(: ( [516,517]"/>
+  <match src=";: ; [214,215]" dest=";: ; [214,215]"/>
+  <match src="if_statement [696,873]" dest="if_statement [696,873]"/>
+  <match src="identifier: mask [737,741]" dest="identifier: mask [737,741]"/>
+  <match src="update_expression [2558,2629]" dest="update_expression [2570,2641]"/>
+  <match src="parenthesized_expression [2753,2770]" dest="parenthesized_expression [2765,2782]"/>
+  <match src="type_identifier: pebs_record_nhm [454,469]" dest="type_identifier: pebs_record_nhm [454,469]"/>
+  <match src=".: . [2888,2889]" dest=".: . [2900,2901]"/>
+  <match src="identifier: bit [2963,2966]" dest="identifier: bit [2975,2978]"/>
+  <match src=";: ; [507,508]" dest=";: ; [507,508]"/>
+  <match src="binary_expression [889,900]" dest="binary_expression [889,900]"/>
+  <match src="field_expression [1807,1830]" dest="field_expression [1819,1842]"/>
+  <match src="field_expression [179,187]" dest="field_expression [179,187]"/>
+  <match src="field_expression [2796,2808]" dest="field_expression [2808,2820]"/>
+  <match src=";: ; [2783,2784]" dest=";: ; [2795,2796]"/>
+  <match src="field_identifier: pebs_buffer_base [596,612]" dest="field_identifier: pebs_buffer_base [596,612]"/>
+  <match src=",: , [3092,3093]" dest=",: , [3104,3105]"/>
+  <match src="compound_statement [91,3262]" dest="compound_statement [91,3274]"/>
+  <match src="field_expression [1210,1239]" dest="field_expression [1210,1239]"/>
+  <match src="{: { [1246,1247]" dest="{: { [1246,1247]"/>
+  <match src="identifier: top [235,238]" dest="identifier: top [235,238]"/>
+  <match src="!: ! [1621,1622]" dest="!: ! [1621,1622]"/>
+  <match src="expression_statement [3127,3253]" dest="expression_statement [3139,3265]"/>
+  <match src="field_expression [700,713]" dest="field_expression [700,713]"/>
+  <match src=";: ; [151,152]" dest=";: ; [151,152]"/>
+  <match src="declaration [190,215]" dest="declaration [190,215]"/>
+  <match src="): ) [2613,2614]" dest="): ) [2625,2626]"/>
+  <match src="comment: /* PEBS v3 has more accurate status bits */ [1160,1203]" dest="comment: /* PEBS v3 has more accurate status bits */ [1160,1203]"/>
+  <match src="if_statement [876,969]" dest="if_statement [876,969]"/>
+  <match src="primitive_type: void [217,221]" dest="primitive_type: void [217,221]"/>
+  <match src="declaration [1068,1084]" dest="declaration [1068,1084]"/>
+  <match src="long: long [2703,2707]" dest="long: long [2715,2719]"/>
+  <match src="struct_specifier [94,114]" dest="struct_specifier [94,114]"/>
+  <match src="parenthesized_expression [879,902]" dest="parenthesized_expression [879,902]"/>
+  <match src="): ) [1787,1788]" dest="): ) [1799,1800]"/>
+  <match src="identifier: i [2575,2576]" dest="identifier: i [2587,2588]"/>
+  <match src="identifier: __intel_pmu_pebs_event [3127,3149]" dest="identifier: __intel_pmu_pebs_event [3139,3161]"/>
+  <match src="number_literal: 3 [1243,1244]" dest="number_literal: 3 [1243,1244]"/>
+  <match src="expression_statement [814,870]" dest="expression_statement [814,870]"/>
+  <match src="identifier: bit [374,377]" dest="identifier: bit [374,377]"/>
+  <match src="*: * [1786,1787]" dest="*: * [1798,1799]"/>
+  <match src="type_identifier: pt_regs [44,51]" dest="type_identifier: pt_regs [44,51]"/>
+  <match src="assignment_expression [575,612]" dest="assignment_expression [575,612]"/>
+  <match src="struct_specifier [1034,1056]" dest="struct_specifier [1034,1056]"/>
+  <match src=";: ; [2664,2665]" dest=";: ; [2676,2677]"/>
+  <match src="*: * [540,541]" dest="*: * [540,541]"/>
+  <match src="]: ] [3208,3209]" dest="]: ] [3220,3221]"/>
+  <match src="assignment_expression [1088,1132]" dest="assignment_expression [1088,1132]"/>
+  <match src="subscript_expression [2732,2743]" dest="subscript_expression [2744,2755]"/>
+  <match src="(: ( [943,944]" dest="(: ( [943,944]"/>
+  <match src="(: ( [1267,1268]" dest="(: ( [1267,1268]"/>
+  <match src="-&gt;: -&gt; [559,561]" dest="-&gt;: -&gt; [559,561]"/>
+  <match src="&amp;: &amp; [714,715]" dest="&amp;: &amp; [714,715]"/>
+  <match src="expression_statement [907,956]" dest="expression_statement [907,956]"/>
+  <match src="if: if [2519,2521]" dest="if: if [2531,2533]"/>
+  <match src="pointer_expression [2595,2607]" dest="pointer_expression [2607,2619]"/>
+  <match src="*: * [2708,2709]" dest="*: * [2720,2721]"/>
+  <match src="): ) [3251,3252]" dest="): ) [3263,3264]"/>
+  <match src="pointer_expression [136,150]" dest="pointer_expression [136,150]"/>
+  <match src="identifier: ds [575,577]" dest="identifier: ds [575,577]"/>
+  <match src=";: ; [1831,1832]" dest=";: ; [1843,1844]"/>
+  <match src=",: , [3155,3156]" dest=",: , [3167,3168]"/>
+  <match src="type_identifier: pebs_record_nhm [1041,1056]" dest="type_identifier: pebs_record_nhm [1041,1056]"/>
+  <match src=";: ; [2913,2914]" dest=";: ; [2925,2926]"/>
+  <match src=";: ; [2629,2630]" dest=";: ; [2641,2642]"/>
+  <match src="init_declarator [312,367]" dest="init_declarator [312,367]"/>
+  <match src="continue: continue [2775,2783]" dest="continue: continue [2787,2795]"/>
+  <match src="subscript_expression [2558,2627]" dest="subscript_expression [2570,2639]"/>
+  <match src="[: [ [317,318]" dest="[: [ [317,318]"/>
+  <match src="=: = [980,981]" dest="=: = [980,981]"/>
+  <match src="identifier: p [1102,1103]" dest="identifier: p [1102,1103]"/>
+  <match src="identifier: x86_pmu [670,677]" dest="identifier: x86_pmu [670,677]"/>
+  <match src="]: ] [3119,3120]" dest="]: ] [3131,3132]"/>
+  <match src="identifier: event [3150,3155]" dest="identifier: event [3162,3167]"/>
+  <match src="cast_expression [2578,2607]" dest="cast_expression [2590,2619]"/>
+  <match src="number_literal: 1 [659,660]" dest="number_literal: 1 [659,660]"/>
+  <match src="field_expression [1102,1111]" dest="field_expression [1102,1111]"/>
+  <match src="identifier: error [2754,2759]" dest="identifier: error [2766,2771]"/>
+  <match src="field_expression [487,507]" dest="field_expression [487,507]"/>
+  <match src="type_identifier: perf_sample_data [67,83]" dest="type_identifier: perf_sample_data [67,83]"/>
+  <match src="&gt;=: &gt;= [894,896]" dest="&gt;=: &gt;= [894,896]"/>
+  <match src="field_expression [557,571]" dest="field_expression [557,571]"/>
+  <match src="long: long [1283,1287]" dest="long: long [1283,1287]"/>
+  <match src="-&gt;: -&gt; [183,185]" dest="-&gt;: -&gt; [183,185]"/>
+  <match src="=: = [2794,2795]" dest="=: = [2806,2807]"/>
+  <match src="field_identifier: intel_cap [1218,1227]" dest="field_identifier: intel_cap [1218,1227]"/>
+  <match src="identifier: error [2957,2962]" dest="identifier: error [2969,2974]"/>
+  <match src="&amp;: &amp; [1683,1684]" dest="&amp;: &amp; [1683,1684]"/>
+  <match src="assignment_expression [1750,1831]" dest="assignment_expression [1762,1843]"/>
+  <match src="identifier: x86_pmu [755,762]" dest="identifier: x86_pmu [755,762]"/>
+  <match src="(: ( [3149,3150]" dest="(: ( [3161,3162]"/>
+  <match src="type_identifier: perf_event [197,207]" dest="type_identifier: perf_event [197,207]"/>
+  <match src="call_expression [2558,2614]" dest="call_expression [2570,2626]"/>
+  <match src="parenthesized_expression [2522,2552]" dest="parenthesized_expression [2534,2564]"/>
+  <match src="identifier: x86_pmu [632,639]" dest="identifier: x86_pmu [632,639]"/>
+  <match src="parenthesized_expression [699,732]" dest="parenthesized_expression [699,732]"/>
+  <match src="subscript_expression [2651,2662]" dest="subscript_expression [2663,2674]"/>
+  <match src="[: [ [2624,2625]" dest="[: [ [2636,2637]"/>
+  <match src="identifier: bit [2658,2661]" dest="identifier: bit [2670,2673]"/>
+  <match src="(: ( [2693,2694]" dest="(: ( [2705,2706]"/>
+  <match src="declaration [1034,1065]" dest="declaration [1034,1065]"/>
+  <match src="=: = [621,622]" dest="=: = [621,622]"/>
+  <match src="struct: struct [37,43]" dest="struct: struct [37,43]"/>
+  <match src="}: } [302,303]" dest="}: } [302,303]"/>
+  <match src="return_statement [429,436]" dest="return_statement [429,436]"/>
+  <match src="identifier: iregs [3024,3029]" dest="identifier: iregs [3036,3041]"/>
+  <match src="type_descriptor [517,541]" dest="type_descriptor [517,541]"/>
+  <match src="continue: continue [2634,2642]" dest="continue: continue [2646,2654]"/>
+  <match src="{: { [733,734]" dest="{: { [733,734]"/>
+  <match src="identifier: x86_pmu [843,850]" dest="identifier: x86_pmu [843,850]"/>
+  <match src="(: ( [623,624]" dest="(: ( [623,624]"/>
+  <match src="==: == [2744,2746]" dest="==: == [2756,2758]"/>
+  <match src="+: + [841,842]" dest="+: + [841,842]"/>
+  <match src="): ) [900,901]" dest="): ) [900,901]"/>
+  <match src="+=: += [1001,1003]" dest="+=: += [1001,1003]"/>
+  <match src="cast_expression [2693,2715]" dest="cast_expression [2705,2727]"/>
+  <match src="identifier: mask [393,397]" dest="identifier: mask [393,397]"/>
+  <match src="=: = [121,122]" dest="=: = [121,122]"/>
+  <match src=",: , [3174,3175]" dest=",: , [3186,3187]"/>
+  <match src="[: [ [253,254]" dest="[: [ [253,254]"/>
+  <match src="compound_statement [3122,3257]" dest="compound_statement [3134,3269]"/>
+  <match src="(: ( [2687,2688]" dest="(: ( [2699,2700]"/>
+  <match src="identifier: bit [1839,1842]" dest="identifier: bit [1851,1854]"/>
+  <match src="struct_specifier [190,207]" dest="struct_specifier [190,207]"/>
+  <match src="return_statement [959,966]" dest="return_statement [959,966]"/>
+  <match src="): ) [556,557]" dest="): ) [556,557]"/>
+  <match src="identifier: top [3188,3191]" dest="identifier: top [3200,3203]"/>
+  <match src="assignment_expression [510,571]" dest="assignment_expression [510,571]"/>
+  <match src="struct: struct [94,100]" dest="struct: struct [94,100]"/>
+  <match src="field_identifier: num_counters_fixed [763,781]" dest="field_identifier: num_counters_fixed [763,781]"/>
+  <match src="(: ( [2731,2732]" dest="(: ( [2743,2744]"/>
+  <match src="identifier: top [510,513]" dest="identifier: top [510,513]"/>
+  <match src="{: { [1030,1031]" dest="{: { [1030,1031]"/>
+  <match src="): ) [2769,2770]" dest="): ) [2781,2782]"/>
+  <match src="expression_statement [2788,2814]" dest="expression_statement [2800,2826]"/>
+  <match src="&amp;: &amp; [1788,1789]" dest="&amp;: &amp; [1800,1801]"/>
+  <match src="identifier: event [2788,2793]" dest="identifier: event [2800,2805]"/>
+  <match src="initializer_list [301,303]" dest="initializer_list [301,303]"/>
+  <match src="struct: struct [517,523]" dest="struct: struct [517,523]"/>
+  <match src="): ) [2594,2595]" dest="): ) [2606,2607]"/>
+  <match src="subscript_expression [3003,3013]" dest="subscript_expression [3015,3025]"/>
+  <match src="compound_statement [733,873]" dest="compound_statement [733,873]"/>
+  <match src="expression_statement [3074,3097]" dest="expression_statement [3086,3109]"/>
+  <match src="!: ! [2834,2835]" dest="!: ! [2846,2847]"/>
+  <match src="assignment_expression [1136,1155]" dest="assignment_expression [1136,1155]"/>
+  <match src="argument_list [2574,2614]" dest="argument_list [2586,2626]"/>
+  <match src="-&gt;: -&gt; [1641,1643]" dest="-&gt;: -&gt; [1641,1643]"/>
+  <match src="ERROR [1314,1320]" dest="ERROR [1314,1320]"/>
+  <match src="translation_unit [0,3262]" dest="translation_unit [0,3274]"/>
+  <match src="identifier: perf_event_account_interrupt [3033,3061]" dest="identifier: perf_event_account_interrupt [3045,3073]"/>
+  <match src="[: [ [2657,2658]" dest="[: [ [2669,2670]"/>
+  <match src="assignment_expression [2788,2813]" dest="assignment_expression [2800,2825]"/>
+  <match src="pointer_expression [1290,1302]" dest="pointer_expression [1290,1302]"/>
+  <match src="(: ( [2730,2731]" dest="(: ( [2742,2743]"/>
+  <match src="declaration [370,387]" dest="declaration [370,387]"/>
+  <match src="(: ( [1685,1686]" dest="(: ( [1685,1686]"/>
+  <match src=";: ; [955,956]" dest=";: ; [955,956]"/>
+  <match src="binary_expression [745,810]" dest="binary_expression [745,810]"/>
+  <match src="struct_specifier [447,469]" dest="struct_specifier [447,469]"/>
+  <match src="binary_expression [1664,1707]" dest="binary_expression [1664,1707]"/>
+  <match src="*: * [52,53]" dest="*: * [52,53]"/>
+  <match src="identifier: WARN_ON_ONCE [2821,2833]" dest="identifier: WARN_ON_ONCE [2833,2845]"/>
+  <match src="type_identifier: pebs_record_nhm [524,539]" dest="type_identifier: pebs_record_nhm [524,539]"/>
+  <match src="identifier: base [889,893]" dest="identifier: base [889,893]"/>
+  <match src="abstract_pointer_declarator [2593,2594]" dest="abstract_pointer_declarator [2605,2606]"/>
+  <match src="identifier: cpuc [1664,1668]" dest="identifier: cpuc [1664,1668]"/>
+  <match src="++: ++ [2662,2664]" dest="++: ++ [2674,2676]"/>
+  <match src="assignment_expression [998,1028]" dest="assignment_expression [998,1028]"/>
+  <match src="identifier: size [2609,2613]" dest="identifier: size [2621,2625]"/>
+  <match src="identifier: mask [2711,2715]" dest="identifier: mask [2723,2727]"/>
+  <match src="field_expression [1114,1132]" dest="field_expression [1114,1132]"/>
+  <match src="identifier: error [312,317]" dest="identifier: error [312,317]"/>
+  <match src="(: ( [36,37]" dest="(: ( [36,37]"/>
+  <match src="identifier: counts [1314,1320]" dest="identifier: counts [1314,1320]"/>
+  <match src="!: ! [405,406]" dest="!: ! [405,406]"/>
+  <match src="if_statement [3020,3097]" dest="if_statement [3032,3109]"/>
+  <match src="identifier: this_cpu_ptr [123,135]" dest="identifier: this_cpu_ptr [123,135]"/>
+  <match src="identifier: p [1058,1059]" dest="identifier: p [1058,1059]"/>
+  <match src="identifier: base [223,227]" dest="identifier: base [223,227]"/>
+  <match src="identifier: size [382,386]" dest="identifier: size [382,386]"/>
+  <match src="field_identifier: max_pebs_events [678,693]" dest="field_identifier: max_pebs_events [678,693]"/>
+  <match src="cast_expression [1273,1302]" dest="cast_expression [1273,1302]"/>
+  <match src="compound_statement [2969,3101]" dest="compound_statement [2981,3113]"/>
+  <match src=";: ; [3096,3097]" dest=";: ; [3108,3109]"/>
+  <match src="number_literal: 1 [1705,1706]" dest="number_literal: 1 [1705,1706]"/>
+  <match src="ERROR [2619,2624]" dest="ERROR [2631,2636]"/>
+  <match src="identifier: pebs_status [2596,2607]" dest="identifier: pebs_status [2608,2619]"/>
+  <match src="init_declarator [1057,1064]" dest="init_declarator [1057,1064]"/>
+  <match src="struct_specifier [60,83]" dest="struct_specifier [60,83]"/>
+  <match src="=: = [177,178]" dest="=: = [177,178]"/>
+  <match src="identifier: event [2877,2882]" dest="identifier: event [2889,2894]"/>
+  <match src="field_identifier: ds [185,187]" dest="field_identifier: ds [185,187]"/>
+  <match src="): ) [3095,3096]" dest="): ) [3107,3108]"/>
+  <match src="struct: struct [154,160]" dest="struct: struct [154,160]"/>
+  <match src="): ) [3067,3068]" dest="): ) [3079,3080]"/>
+</matches>
+<actions>
+  <insert-node tree="assignment_expression [1713,1757]" parent="expression_statement [1713,1746]" at="0"/>
+  <insert-node tree="identifier: pebs_status [1713,1724]" parent="assignment_expression [1713,1757]" at="0"/>
+  <insert-node tree="=: = [1725,1726]" parent="assignment_expression [1713,1757]" at="1"/>
+  <move-tree tree="assignment_expression [1713,1745]" parent="assignment_expression [1713,1757]" at="2"/>
+  <insert-tree tree="field_expression [1727,1736]" parent="assignment_expression [1713,1745]" at="0"/>
+  <delete-node tree="identifier: pebs_status [1713,1724]"/>
+</actions>

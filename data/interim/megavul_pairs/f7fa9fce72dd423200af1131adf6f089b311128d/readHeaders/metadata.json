@@ -1,0 +1,20 @@
+{
+    "id": "f7fa9fce72dd423200af1131adf6f089b311128d_readHeaders_0",
+    "func_name": "readHeaders",
+    "cve_id": "CVE-2019-20445",
+    "cwe_ids": [
+        "CWE-444"
+    ],
+    "commit_hash": "f7fa9fce72dd423200af1131adf6f089b311128d",
+    "parent_commit_hash": "f8b3a388ff8cafedea32973d6a355eebedca0020",
+    "repo_name": "netty",
+    "git_url": "https://github.com/netty/netty/commit/f7fa9fce72dd423200af1131adf6f089b311128d",
+    "file_path": "codec-http/src/main/java/io/netty/handler/codec/http/HttpObjectDecoder.java",
+    "file_name": "HttpObjectDecoder.java",
+    "commit_date": 1593995113,
+    "commit_msg": "Add option to HttpObjectDecoder to allow duplicate Content-Lengths (#10349)\n\nMotivation:\n\nSince https://github.com/netty/netty/pull/9865 (Netty 4.1.44) the\ndefault behavior of the HttpObjectDecoder has been to reject any HTTP\nmessage that is found to have multiple Content-Length headers when\ndecoding. This behavior is well-justified as per the risks outlined in\nhttps://github.com/netty/netty/issues/9861, however, we can see from the\ncited RFC section that there are multiple possible options offered for\nresponding to this scenario:\n\n> If a message is received that has multiple Content-Length header\n> fields with field-values consisting of the same decimal value, or a\n> single Content-Length header field with a field value containing a\n> list of identical decimal values (e.g., \"Content-Length: 42, 42\"),\n> indicating that duplicate Content-Length header fields have been\n> generated or combined by an upstream message processor, then the\n> recipient MUST either reject the message as invalid or replace the\n> duplicated field-values with a single valid Content-Length field\n> containing that decimal value prior to determining the message body\n> length or forwarding the message.\n\nhttps://tools.ietf.org/html/rfc7230#section-3.3.2\n\nNetty opted for the first option (rejecting as invalid), which seems\nlike the safest, but the second option (replacing duplicate values with\na single value) is also valid behavior.\n\nModifications:\n\n* Introduce \"allowDuplicateContentLengths\" parameter to\nHttpObjectDecoder (defaulting to false).\n* When set to true, will allow multiple Content-Length headers only if\nthey are all the same value. The duplicated field-values will be\nreplaced with a single valid Content-Length field.\n* Add new parameterized test class for testing different variations of\nmultiple Content-Length headers.\n\nResult:\n\nThis is a backwards-compatible change with no functional change to the\nexisting behavior.\n\nNote that the existing logic would result in NumberFormatExceptions\nfor header values like \"Content-Length: 42, 42\". The new logic correctly\nreports these as IllegalArgumentException with the proper error message.\n\nAdditionally note that this behavior is only applied to HTTP/1.1, but I\nsuspect that we may want to expand that to include HTTP/1.0 as well...\nThat behavior is not modified here to minimize the scope of this change.",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:N",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

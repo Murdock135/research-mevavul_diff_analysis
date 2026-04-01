@@ -1,0 +1,20 @@
+{
+    "id": "d7a19d1134e33fff1b9070033a66fb0e5a81684e_internalGetMessageById_0",
+    "func_name": "internalGetMessageById",
+    "cve_id": "CVE-2021-41571",
+    "cwe_ids": [
+        "CWE-863"
+    ],
+    "commit_hash": "d7a19d1134e33fff1b9070033a66fb0e5a81684e",
+    "parent_commit_hash": "5b35bb81c31f1bc2ad98c9fde5b39ec68110ca52",
+    "repo_name": "apache/pulsar",
+    "git_url": "https://github.com/apache/pulsar/commit/d7a19d1134e33fff1b9070033a66fb0e5a81684e",
+    "file_path": "pulsar-broker/src/main/java/org/apache/pulsar/broker/admin/impl/PersistentTopicsBase.java",
+    "file_name": "PersistentTopicsBase.java",
+    "commit_date": 1630349216,
+    "commit_msg": "fix style",
+    "cvss_vector": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+    "cvss_base_score": 4.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

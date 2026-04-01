@@ -1,0 +1,20 @@
+{
+    "id": "4092ede58da51af9a21e4825fbad0d9a3ef5a223_genKeyPair_0",
+    "func_name": "genKeyPair",
+    "cve_id": "CVE-2018-1000613",
+    "cwe_ids": [
+        "CWE-470"
+    ],
+    "commit_hash": "4092ede58da51af9a21e4825fbad0d9a3ef5a223",
+    "parent_commit_hash": "0a702f116d8b670e03fa48afdf057f7c81b97f9f",
+    "repo_name": "bcgit/bc-java",
+    "git_url": "https://github.com/bcgit/bc-java/commit/4092ede58da51af9a21e4825fbad0d9a3ef5a223",
+    "file_path": "core/src/main/java/org/bouncycastle/pqc/crypto/gmss/GMSSKeyPairGenerator.java",
+    "file_name": "GMSSKeyPairGenerator.java",
+    "commit_date": 1520017594,
+    "commit_msg": "added additional checking to XMSS BDS tree parsing. Failures now mostly cause IOException",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

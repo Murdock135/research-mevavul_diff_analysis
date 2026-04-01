@@ -1,0 +1,20 @@
+{
+    "id": "ddb6d9a5019a9c1fe31c364485a4e4b5066fefc3_getAlarm_0",
+    "func_name": "getAlarm",
+    "cve_id": "CVE-2020-13921",
+    "cwe_ids": [
+        "CWE-89"
+    ],
+    "commit_hash": "ddb6d9a5019a9c1fe31c364485a4e4b5066fefc3",
+    "parent_commit_hash": "c11ad038cceb0cb550dbec304b8f92db733eb0d0",
+    "repo_name": "apache/skywalking",
+    "git_url": "https://github.com/apache/skywalking/commit/ddb6d9a5019a9c1fe31c364485a4e4b5066fefc3",
+    "file_path": "oap-server/server-storage-plugin/storage-jdbc-hikaricp-plugin/src/main/java/org/apache/skywalking/oap/server/storage/plugin/jdbc/mysql/MySQLAlarmQueryDAO.java",
+    "file_name": "MySQLAlarmQueryDAO.java",
+    "commit_date": 1593034693,
+    "commit_msg": "fix fuzzy query sql injection",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

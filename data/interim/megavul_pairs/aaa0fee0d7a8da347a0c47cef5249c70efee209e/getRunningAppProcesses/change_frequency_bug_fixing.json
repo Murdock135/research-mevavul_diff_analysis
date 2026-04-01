@@ -1,0 +1,122 @@
+{
+  "frequency": [
+    {
+      "c": "LocalVariable",
+      "f": "2"
+    },
+    {
+      "c": "VariableRead",
+      "f": "2"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "2"
+    },
+    {
+      "c": "Invocation",
+      "f": "2"
+    },
+    {
+      "c": "ConstructorCall",
+      "f": "1"
+    },
+    {
+      "c": "VirtualElement",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "2"
+    },
+    {
+      "c": "insert-node_VariableRead_Invocation",
+      "f": "2"
+    },
+    {
+      "c": "delete-node_Invocation_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Invocation_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "update-node_ConstructorCall_Assignment",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_BinaryOperator_If",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_BinaryOperator_If",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_VirtualElement_LocalVariable",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "LocalVariable",
+      "f": "0.2"
+    },
+    {
+      "c": "VariableRead",
+      "f": "0.2"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "0.2"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.2"
+    },
+    {
+      "c": "ConstructorCall",
+      "f": "0.1"
+    },
+    {
+      "c": "VirtualElement",
+      "f": "0.1"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "0.2"
+    },
+    {
+      "c": "insert-node_VariableRead_Invocation",
+      "f": "0.2"
+    },
+    {
+      "c": "delete-node_Invocation_Invocation",
+      "f": "0.1"
+    },
+    {
+      "c": "move-tree_Invocation_Invocation",
+      "f": "0.1"
+    },
+    {
+      "c": "update-node_ConstructorCall_Assignment",
+      "f": "0.1"
+    },
+    {
+      "c": "move-tree_BinaryOperator_If",
+      "f": "0.1"
+    },
+    {
+      "c": "insert-node_BinaryOperator_If",
+      "f": "0.1"
+    },
+    {
+      "c": "insert-node_VirtualElement_LocalVariable",
+      "f": "0.1"
+    }
+  ]
+}

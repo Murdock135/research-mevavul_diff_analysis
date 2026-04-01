@@ -1,0 +1,20 @@
+{
+    "id": "57946e2bb73850e817b3c01fa5350d705e178e39_onCreate_0",
+    "func_name": "onCreate",
+    "cve_id": "CVE-2023-21251",
+    "cwe_ids": [
+        "CWE-20"
+    ],
+    "commit_hash": "57946e2bb73850e817b3c01fa5350d705e178e39",
+    "parent_commit_hash": "3af4465dd75322908828c5be0e82d574df3ee502",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/57946e2bb73850e817b3c01fa5350d705e178e39",
+    "file_path": "packages/VpnDialogs/src/com/android/vpndialogs/ConfirmDialog.java",
+    "file_name": "ConfirmDialog.java",
+    "commit_date": 1677831230,
+    "commit_msg": "Sanitize VPN label to prevent HTML injection\n\nThis commit will try to sanitize the content of VpnDialog. This\ncommit creates a function which will try to sanitize the VPN\nlabel, if the sanitized VPN label is different from the original\none, which means the VPN label might contain HTML tag or the VPN\nlabel violates the words restriction(may contain some wording\nwhich will mislead the user). For this kind of case, show the\npackage name instead of the VPN label to prevent misleading the\nuser.\n\nThe malicious VPN app might be able to add a large number of line\nbreaks with HTML in order to hide the system-displayed text from\nthe user in the connection request dialog. Thus, sanitizing the\ncontent of the dialog is needed.\n\nBug: 204554636\nTest: N/A\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:2178216b98bf9865edee198f45192f0b883624ab)\nMerged-In: I8eb890fd2e5797d8d6ab5b12f9c628bc9616081d\nChange-Id: I8eb890fd2e5797d8d6ab5b12f9c628bc9616081d\n",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 7.3,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

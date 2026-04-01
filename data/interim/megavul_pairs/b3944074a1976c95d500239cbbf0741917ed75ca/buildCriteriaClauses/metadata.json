@@ -1,0 +1,20 @@
+{
+    "id": "b3944074a1976c95d500239cbbf0741917ed75ca_buildCriteriaClauses_0",
+    "func_name": "buildCriteriaClauses",
+    "cve_id": "CVE-2019-15563",
+    "cwe_ids": [
+        "CWE-89"
+    ],
+    "commit_hash": "b3944074a1976c95d500239cbbf0741917ed75ca",
+    "parent_commit_hash": "259b6a253d35a9f69aee78cbbd2cf9984b44cdb3",
+    "repo_name": "OHDSI/WebAPI",
+    "git_url": "https://github.com/OHDSI/WebAPI/commit/b3944074a1976c95d500239cbbf0741917ed75ca",
+    "file_path": "src/main/java/org/ohdsi/webapi/service/FeatureExtractionService.java",
+    "file_name": "FeatureExtractionService.java",
+    "commit_date": 1556587350,
+    "commit_msg": "fixes SQL injection vulnerability",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

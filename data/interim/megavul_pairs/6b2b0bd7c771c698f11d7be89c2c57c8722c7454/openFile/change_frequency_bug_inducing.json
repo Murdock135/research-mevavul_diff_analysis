@@ -1,0 +1,114 @@
+{
+  "frequency": [
+    {
+      "c": "Invocation",
+      "f": "7"
+    },
+    {
+      "c": "VariableRead",
+      "f": "3"
+    },
+    {
+      "c": "TypeReference",
+      "f": "2"
+    },
+    {
+      "c": "VirtualElement",
+      "f": "2"
+    },
+    {
+      "c": "Catch",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "move-tree_VariableRead_Invocation",
+      "f": "3"
+    },
+    {
+      "c": "insert-node_Invocation_Invocation",
+      "f": "2"
+    },
+    {
+      "c": "move-tree_Invocation_Invocation",
+      "f": "2"
+    },
+    {
+      "c": "delete-node_Invocation_LocalVariable",
+      "f": "2"
+    },
+    {
+      "c": "update-node_TypeReference_LocalVariable",
+      "f": "2"
+    },
+    {
+      "c": "delete-node_VirtualElement_LocalVariable",
+      "f": "2"
+    },
+    {
+      "c": "delete-node_Catch_Try",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Invocation_ConstructorCall",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Invocation",
+      "f": "0.4666666666666667"
+    },
+    {
+      "c": "VariableRead",
+      "f": "0.2"
+    },
+    {
+      "c": "TypeReference",
+      "f": "0.13333333333333333"
+    },
+    {
+      "c": "VirtualElement",
+      "f": "0.13333333333333333"
+    },
+    {
+      "c": "Catch",
+      "f": "0.06666666666666667"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "move-tree_VariableRead_Invocation",
+      "f": "0.2"
+    },
+    {
+      "c": "insert-node_Invocation_Invocation",
+      "f": "0.13333333333333333"
+    },
+    {
+      "c": "move-tree_Invocation_Invocation",
+      "f": "0.13333333333333333"
+    },
+    {
+      "c": "delete-node_Invocation_LocalVariable",
+      "f": "0.13333333333333333"
+    },
+    {
+      "c": "update-node_TypeReference_LocalVariable",
+      "f": "0.13333333333333333"
+    },
+    {
+      "c": "delete-node_VirtualElement_LocalVariable",
+      "f": "0.13333333333333333"
+    },
+    {
+      "c": "delete-node_Catch_Try",
+      "f": "0.06666666666666667"
+    },
+    {
+      "c": "delete-node_Invocation_ConstructorCall",
+      "f": "0.06666666666666667"
+    }
+  ]
+}

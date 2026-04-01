@@ -1,0 +1,20 @@
+{
+    "id": "bb7068bd911f91e5511f3cfb03276c7ac81100bc_prepareGadgets_0",
+    "func_name": "prepareGadgets",
+    "cve_id": "CVE-2021-32621",
+    "cwe_ids": [
+        "CWE-94"
+    ],
+    "commit_hash": "bb7068bd911f91e5511f3cfb03276c7ac81100bc",
+    "parent_commit_hash": "5308f7d8cdb5c61e8ae29c53fcc8075cfc6576fb",
+    "repo_name": "xwiki/xwiki-platform",
+    "git_url": "https://github.com/xwiki/xwiki-platform/commit/bb7068bd911f91e5511f3cfb03276c7ac81100bc",
+    "file_path": "xwiki-platform-core/xwiki-platform-dashboard/xwiki-platform-dashboard-macro/src/main/java/org/xwiki/rendering/internal/macro/dashboard/DefaultGadgetSource.java",
+    "file_name": "DefaultGadgetSource.java",
+    "commit_date": 1610433734,
+    "commit_msg": "XWIKI-17794: Properly interpret velocity in gadget titles",
+    "cvss_vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+    "cvss_base_score": 6.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

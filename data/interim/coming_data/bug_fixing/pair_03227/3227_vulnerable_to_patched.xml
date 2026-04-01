@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="identifier: dev [103,106]" dest="identifier: dev [103,106]"/>
+  <match src="(: ( [28,29]" dest="(: ( [28,29]"/>
+  <match src="(: ( [109,110]" dest="(: ( [109,110]"/>
+  <match src="pointer_declarator [48,53]" dest="pointer_declarator [48,53]"/>
+  <match src="ERROR [69,75]" dest="ERROR [69,75]"/>
+  <match src=";: ; [207,208]" dest=";: ; [254,255]"/>
+  <match src="struct: struct [29,35]" dest="struct: struct [29,35]"/>
+  <match src="identifier: arg [77,80]" dest="identifier: arg [77,80]"/>
+  <match src="struct_specifier [87,101]" dest="struct_specifier [87,101]"/>
+  <match src="field_identifier: host [133,137]" dest="field_identifier: host [133,137]"/>
+  <match src="struct_specifier [110,124]" dest="struct_specifier [110,124]"/>
+  <match src="): ) [202,203]" dest="): ) [249,250]"/>
+  <match src="parameter_declaration [64,80]" dest="parameter_declaration [64,80]"/>
+  <match src="primitive_type: int [55,58]" dest="primitive_type: int [55,58]"/>
+  <match src="*: * [48,49]" dest="*: * [48,49]"/>
+  <match src="type_descriptor [110,126]" dest="type_descriptor [110,126]"/>
+  <match src="*: * [102,103]" dest="*: * [102,103]"/>
+  <match src="identifier: cmd [59,62]" dest="identifier: cmd [59,62]"/>
+  <match src="storage_class_specifier [1,7]" dest="storage_class_specifier [1,7]"/>
+  <match src="struct: struct [87,93]" dest="struct: struct [87,93]"/>
+  <match src="long: long [198,202]" dest="long: long [245,249]"/>
+  <match src="): ) [80,81]" dest="): ) [80,81]"/>
+  <match src="field_identifier: hostdata [139,147]" dest="field_identifier: hostdata [139,147]"/>
+  <match src="identifier: aac_compat_ioctl [12,28]" dest="identifier: aac_compat_ioctl [12,28]"/>
+  <match src="parameter_declaration [29,53]" dest="parameter_declaration [29,53]"/>
+  <match src=",: , [62,63]" dest=",: , [62,63]"/>
+  <match src="identifier: arg [203,206]" dest="identifier: arg [250,253]"/>
+  <match src="struct: struct [110,116]" dest="struct: struct [110,116]"/>
+  <match src=",: , [181,182]" dest=",: , [228,229]"/>
+  <match src="): ) [126,127]" dest="): ) [126,127]"/>
+  <match src="identifier: __user [69,75]" dest="identifier: __user [69,75]"/>
+  <match src="return: return [151,157]" dest="return: return [198,204]"/>
+  <match src="-&gt;: -&gt; [137,139]" dest="-&gt;: -&gt; [137,139]"/>
+  <match src="{: { [83,84]" dest="{: { [83,84]"/>
+  <match src="identifier: cmd [183,186]" dest="identifier: cmd [230,233]"/>
+  <match src=",: , [53,54]" dest=",: , [53,54]"/>
+  <match src="declaration [87,148]" dest="declaration [87,148]"/>
+  <match src="field_expression [127,147]" dest="field_expression [127,147]"/>
+  <match src="type_identifier: scsi_device [36,47]" dest="type_identifier: scsi_device [36,47]"/>
+  <match src="-&gt;: -&gt; [131,133]" dest="-&gt;: -&gt; [131,133]"/>
+  <match src="(: ( [188,189]" dest="(: ( [235,236]"/>
+  <match src="call_expression [158,207]" dest="call_expression [205,254]"/>
+  <match src="}: } [210,211]" dest="}: } [257,258]"/>
+  <match src="*: * [125,126]" dest="*: * [125,126]"/>
+  <match src="pointer_declarator [76,80]" dest="pointer_declarator [76,80]"/>
+  <match src="(: ( [177,178]" dest="(: ( [224,225]"/>
+  <match src="argument_list [177,207]" dest="argument_list [224,254]"/>
+  <match src=";: ; [147,148]" dest=";: ; [147,148]"/>
+  <match src="init_declarator [102,147]" dest="init_declarator [102,147]"/>
+  <match src="=: = [107,108]" dest="=: = [107,108]"/>
+  <match src="primitive_type: void [64,68]" dest="primitive_type: void [64,68]"/>
+  <match src="parameter_list [28,81]" dest="parameter_list [28,81]"/>
+  <match src="unsigned: unsigned [189,197]" dest="unsigned: unsigned [236,244]"/>
+  <match src="identifier: sdev [49,53]" dest="identifier: sdev [49,53]"/>
+  <match src="pointer_declarator [102,106]" dest="pointer_declarator [102,106]"/>
+  <match src="type_identifier: aac_dev [117,124]" dest="type_identifier: aac_dev [117,124]"/>
+  <match src="function_definition [1,211]" dest="function_definition [1,258]"/>
+  <match src="primitive_type: int [8,11]" dest="primitive_type: int [8,11]"/>
+  <match src="sized_type_specifier [189,202]" dest="sized_type_specifier [236,249]"/>
+  <match src="type_descriptor [189,202]" dest="type_descriptor [236,249]"/>
+  <match src="return_statement [151,208]" dest="return_statement [198,255]"/>
+  <match src="field_expression [127,137]" dest="field_expression [127,137]"/>
+  <match src="type_identifier: aac_dev [94,101]" dest="type_identifier: aac_dev [94,101]"/>
+  <match src="function_declarator [12,81]" dest="function_declarator [12,81]"/>
+  <match src="translation_unit [1,211]" dest="translation_unit [1,258]"/>
+  <match src="struct_specifier [29,47]" dest="struct_specifier [29,47]"/>
+  <match src="*: * [76,77]" dest="*: * [76,77]"/>
+  <match src="abstract_pointer_declarator [125,126]" dest="abstract_pointer_declarator [125,126]"/>
+  <match src="static: static [1,7]" dest="static: static [1,7]"/>
+  <match src="compound_statement [83,211]" dest="compound_statement [83,258]"/>
+  <match src="identifier: dev [178,181]" dest="identifier: dev [225,228]"/>
+  <match src="cast_expression [188,206]" dest="cast_expression [235,253]"/>
+  <match src="identifier: aac_compat_do_ioctl [158,177]" dest="identifier: aac_compat_do_ioctl [205,224]"/>
+  <match src="identifier: sdev [127,131]" dest="identifier: sdev [127,131]"/>
+  <match src="parameter_declaration [55,62]" dest="parameter_declaration [55,62]"/>
+  <match src=",: , [186,187]" dest=",: , [233,234]"/>
+  <match src="): ) [206,207]" dest="): ) [253,254]"/>
+  <match src="cast_expression [109,147]" dest="cast_expression [109,147]"/>
+</matches>
+<actions>
+  <insert-tree tree="if_statement [150,195]" parent="compound_statement [83,211]" at="2"/>
+</actions>

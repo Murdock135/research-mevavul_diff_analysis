@@ -1,0 +1,9 @@
+class openFile {
+@Override
+	public ParcelFileDescriptor openFile(Uri uri, String mode) throws FileNotFoundException {       
+	     File cacheDir = getContext().getCacheDir();
+	     File privateFile = new File(cacheDir, uri.getLastPathSegment());
+
+	     return ParcelFileDescriptor.open(privateFile, ParcelFileDescriptor.MODE_READ_ONLY);
+	}
+}

@@ -1,0 +1,1731 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="cast_expression [2466,2494]" dest="cast_expression [2466,2494]"/>
+  <match src="binary_expression [6072,6089]" dest="binary_expression [6332,6349]"/>
+  <match src="subscript_expression [2112,2122]" dest="subscript_expression [2112,2122]"/>
+  <match src="case_statement [2440,2692]" dest="case_statement [2440,2731]"/>
+  <match src="identifier: preferred [2780,2789]" dest="identifier: preferred [2860,2869]"/>
+  <match src=",: , [4475,4476]" dest=",: , [4600,4601]"/>
+  <match src="case: case [4793,4797]" dest="case: case [4918,4922]"/>
+  <match src="): ) [1438,1439]" dest="): ) [1438,1439]"/>
+  <match src="binary_expression [3431,3507]" dest="binary_expression [3511,3587]"/>
+  <match src="expression_statement [2780,2831]" dest="expression_statement [2860,2911]"/>
+  <match src="=: = [5208,5209]" dest="=: = [5333,5334]"/>
+  <match src="string_literal [795,847]" dest="string_literal [795,847]"/>
+  <match src="primitive_type: uint8_t [1525,1532]" dest="primitive_type: uint8_t [1525,1532]"/>
+  <match src="type_identifier: nd_router_advert [1556,1572]" dest="type_identifier: nd_router_advert [1556,1572]"/>
+  <match src="field_identifier: nd_ra_reachable [993,1008]" dest="field_identifier: nd_ra_reachable [993,1008]"/>
+  <match src="char_literal [6325,6329]" dest="char_literal [6585,6589]"/>
+  <match src="argument_list [2531,2552]" dest="argument_list [2570,2591]"/>
+  <match src="number_literal: 0 [5969,5970]" dest="number_literal: 0 [6229,6230]"/>
+  <match src="expression_statement [185,224]" dest="expression_statement [185,224]"/>
+  <match src="assignment_expression [2102,2128]" dest="assignment_expression [2102,2128]"/>
+  <match src="number_literal: 0 [1499,1500]" dest="number_literal: 0 [1499,1500]"/>
+  <match src="field_expression [6276,6287]" dest="field_expression [6536,6547]"/>
+  <match src="-&gt;: -&gt; [1189,1191]" dest="-&gt;: -&gt; [1189,1191]"/>
+  <match src="field_identifier: nd_opt_pi_valid_time [2856,2876]" dest="field_identifier: nd_opt_pi_valid_time [2936,2956]"/>
+  <match src="-&gt;: -&gt; [3187,3189]" dest="-&gt;: -&gt; [3267,3269]"/>
+  <match src="if_statement [272,494]" dest="if_statement [272,494]"/>
+  <match src="string_content: our AdvPreferredLifetime on [3541,3568]" dest="string_content: our AdvPreferredLifetime on [3621,3648]"/>
+  <match src=",: , [3086,3087]" dest=",: , [3166,3167]"/>
+  <match src="assignment_expression [5826,5836]" dest="assignment_expression [5997,6007]"/>
+  <match src="case: case [4197,4201]" dest="case: case [4277,4281]"/>
+  <match src="call_expression [1345,1439]" dest="call_expression [1345,1439]"/>
+  <match src=";: ; [1908,1909]" dest=";: ; [1908,1909]"/>
+  <match src="field_identifier: AdvDNSSLList [6146,6158]" dest="field_identifier: AdvDNSSLList [6406,6418]"/>
+  <match src="argument_list [6181,6298]" dest="argument_list [6441,6558]"/>
+  <match src="char_literal [6867,6871]" dest="char_literal [7127,7131]"/>
+  <match src="field_expression [6139,6158]" dest="field_expression [6399,6418]"/>
+  <match src="struct_specifier [11,27]" dest="struct_specifier [11,27]"/>
+  <match src="binary_expression [501,579]" dest="binary_expression [501,579]"/>
+  <match src="identifier: prefix [2883,2889]" dest="identifier: prefix [2963,2969]"/>
+  <match src="binary_expression [1045,1103]" dest="binary_expression [1045,1103]"/>
+  <match src="]: ] [6960,6961]" dest="]: ] [7220,7221]"/>
+  <match src="sizeof_expression [1453,1484]" dest="sizeof_expression [1453,1484]"/>
+  <match src="-&gt;: -&gt; [3068,3070]" dest="-&gt;: -&gt; [3148,3150]"/>
+  <match src="while_statement [1578,7187]" dest="while_statement [1578,7447]"/>
+  <match src="[: [ [6078,6079]" dest="[: [ [6338,6339]"/>
+  <match src="expression_statement [6979,6999]" dest="expression_statement [7239,7259]"/>
+  <match src="identifier: valid [1966,1971]" dest="identifier: valid [1966,1971]"/>
+  <match src="field_identifier: DecrementLifetimesFlag [3440,3462]" dest="field_identifier: DecrementLifetimesFlag [3520,3542]"/>
+  <match src="compound_statement [2152,2254]" dest="compound_statement [2152,2254]"/>
+  <match src="identifier: suffix [6268,6274]" dest="identifier: suffix [6528,6534]"/>
+  <match src="&quot;: &quot; [7086,7087]" dest="&quot;: &quot; [7346,7347]"/>
+  <match src="): ) [7097,7098]" dest="): ) [7357,7358]"/>
+  <match src=",: , [6961,6962]" dest=",: , [7221,7222]"/>
+  <match src="identifier: offset [6954,6960]" dest="identifier: offset [7214,7220]"/>
+  <match src="-&gt;: -&gt; [5215,5217]" dest="-&gt;: -&gt; [5340,5342]"/>
+  <match src="field_expression [2375,2386]" dest="field_expression [2375,2386]"/>
+  <match src=",: , [463,464]" dest=",: , [463,464]"/>
+  <match src="): ) [1592,1593]" dest="): ) [1592,1593]"/>
+  <match src="&lt;: &lt; [6715,6716]" dest="&lt;: &lt; [6975,6976]"/>
+  <match src="binary_expression [1217,1338]" dest="binary_expression [1217,1338]"/>
+  <match src="(: ( [401,402]" dest="(: ( [401,402]"/>
+  <match src="&quot;: &quot; [5442,5443]" dest="&quot;: &quot; [5567,5568]"/>
+  <match src="): ) [4057,4058]" dest="): ) [4137,4138]"/>
+  <match src="identifier: label_len [6571,6580]" dest="identifier: label_len [6831,6840]"/>
+  <match src="expression_statement [4806,4834]" dest="expression_statement [4931,4959]"/>
+  <match src=",: , [6814,6815]" dest=",: , [7074,7075]"/>
+  <match src="(: ( [4843,4844]" dest="(: ( [4968,4969]"/>
+  <match src="call_expression [4845,4906]" dest="call_expression [4970,5031]"/>
+  <match src="compound_statement [5304,5557]" dest="compound_statement [5429,5682]"/>
+  <match src=",: , [5267,5268]" dest=",: , [5392,5393]"/>
+  <match src="): ) [678,679]" dest="): ) [678,679]"/>
+  <match src="*: * [1809,1810]" dest="*: * [1809,1810]"/>
+  <match src="&amp;&amp;: &amp;&amp; [3212,3214]" dest="&amp;&amp;: &amp;&amp; [3292,3294]"/>
+  <match src="unary_expression [5240,5302]" dest="unary_expression [5365,5427]"/>
+  <match src="if_statement [979,1210]" dest="if_statement [979,1210]"/>
+  <match src="if_statement [6850,6898]" dest="if_statement [7110,7158]"/>
+  <match src="field_identifier: Name [2224,2228]" dest="field_identifier: Name [2224,2228]"/>
+  <match src="identifier: ND_RA_FLAG_MANAGED [534,552]" dest="identifier: ND_RA_FLAG_MANAGED [534,552]"/>
+  <match src="field_expression [5902,5935]" dest="field_expression [6162,6195]"/>
+  <match src="parenthesized_expression [6116,6168]" dest="parenthesized_expression [6376,6428]"/>
+  <match src="number_literal: 3 [2126,2127]" dest="number_literal: 3 [2126,2127]"/>
+  <match src="(: ( [2466,2467]" dest="(: ( [2466,2467]"/>
+  <match src=",: , [1127,1128]" dest=",: , [1127,1128]"/>
+  <match src="string_literal [2301,2335]" dest="string_literal [2301,2335]"/>
+  <match src="number_literal: 8 [5880,5881]" dest="number_literal: 8 [6051,6052]"/>
+  <match src="assignment_expression [5202,5229]" dest="assignment_expression [5327,5354]"/>
+  <match src="parenthesized_expression [275,391]" dest="parenthesized_expression [275,391]"/>
+  <match src="(: ( [275,276]" dest="(: ( [275,276]"/>
+  <match src="(: ( [195,196]" dest="(: ( [195,196]"/>
+  <match src="): ) [1104,1105]" dest="): ) [1104,1105]"/>
+  <match src="(: ( [7033,7034]" dest="(: ( [7293,7294]"/>
+  <match src="field_identifier: AdvLinkMTU [2511,2521]" dest="field_identifier: AdvLinkMTU [2550,2560]"/>
+  <match src="identifier: valid [2835,2840]" dest="identifier: valid [2915,2920]"/>
+  <match src="identifier: ntohl [2526,2531]" dest="identifier: ntohl [2565,2570]"/>
+  <match src="): ) [6824,6825]" dest="): ) [7084,7085]"/>
+  <match src="type_identifier: AdvRDNSS [1800,1808]" dest="type_identifier: AdvRDNSS [1800,1808]"/>
+  <match src="expression_statement [4231,4286]" dest="expression_statement [4311,4366]"/>
+  <match src="compound_statement [4908,5161]" dest="compound_statement [5033,5286]"/>
+  <match src="pointer_declarator [86,91]" dest="pointer_declarator [86,91]"/>
+  <match src="type_descriptor [7094,7097]" dest="type_descriptor [7354,7357]"/>
+  <match src="&quot;: &quot; [1178,1179]" dest="&quot;: &quot; [1178,1179]"/>
+  <match src="abstract_pointer_declarator [2485,2486]" dest="abstract_pointer_declarator [2485,2486]"/>
+  <match src="identifier: prefix [1783,1789]" dest="identifier: prefix [1783,1789]"/>
+  <match src="identifier: iface [4735,4740]" dest="identifier: iface [4860,4865]"/>
+  <match src="field_identifier: AdvManagedFlag [565,579]" dest="field_identifier: AdvManagedFlag [565,579]"/>
+  <match src="pointer_expression [4581,4612]" dest="pointer_expression [4706,4737]"/>
+  <match src="!=: != [2553,2555]" dest="!=: != [2592,2594]"/>
+  <match src="assignment_expression [227,268]" dest="assignment_expression [227,268]"/>
+  <match src="binary_expression [3215,3248]" dest="binary_expression [3295,3328]"/>
+  <match src="||: || [6685,6687]" dest="||: || [6945,6947]"/>
+  <match src="(: ( [6853,6854]" dest="(: ( [7113,7114]"/>
+  <match src="identifier: ntohl [1279,1284]" dest="identifier: ntohl [1279,1284]"/>
+  <match src="argument_list [401,490]" dest="argument_list [401,490]"/>
+  <match src="}: } [4764,4765]" dest="}: } [4889,4890]"/>
+  <match src="field_identifier: Name [5138,5142]" dest="field_identifier: Name [5263,5267]"/>
+  <match src="binary_expression [6508,6596]" dest="binary_expression [6768,6856]"/>
+  <match src="&quot;: &quot; [3347,3348]" dest="&quot;: &quot; [3427,3428]"/>
+  <match src="binary_expression [2504,2574]" dest="binary_expression [2543,2613]"/>
+  <match src="call_expression [6732,6825]" dest="call_expression [6992,7085]"/>
+  <match src="[: [ [5935,5936]" dest="[: [ [6195,6196]"/>
+  <match src="identifier: mtu [2532,2535]" dest="identifier: mtu [2571,2574]"/>
+  <match src="identifier: iface [368,373]" dest="identifier: iface [368,373]"/>
+  <match src="if: if [1983,1985]" dest="if: if [1983,1985]"/>
+  <match src="field_identifier: nd_ra_flags_reserved [700,720]" dest="field_identifier: nd_ra_flags_reserved [700,720]"/>
+  <match src="binary_expression [6509,6540]" dest="binary_expression [6769,6800]"/>
+  <match src="number_literal: 0 [5807,5808]" dest="number_literal: 0 [5978,5979]"/>
+  <match src="pointer_expression [4873,4904]" dest="pointer_expression [4998,5029]"/>
+  <match src="argument_list [1050,1076]" dest="argument_list [1050,1076]"/>
+  <match src="{: { [1998,1999]" dest="{: { [1998,1999]"/>
+  <match src="field_expression [4735,4746]" dest="field_expression [4860,4871]"/>
+  <match src="-&gt;: -&gt; [5279,5281]" dest="-&gt;: -&gt; [5404,5406]"/>
+  <match src="binary_expression [1492,1500]" dest="binary_expression [1492,1500]"/>
+  <match src="identifier: ND_OPT_ROUTE_INFORMATION [3741,3765]" dest="identifier: ND_OPT_ROUTE_INFORMATION [3821,3845]"/>
+  <match src="identifier: prefix [3479,3485]" dest="identifier: prefix [3559,3565]"/>
+  <match src="call_expression [2843,2877]" dest="call_expression [2923,2957]"/>
+  <match src="identifier: prefix [3696,3702]" dest="identifier: prefix [3776,3782]"/>
+  <match src="{: { [4512,4513]" dest="{: { [4637,4638]"/>
+  <match src="(: ( [6508,6509]" dest="(: ( [6768,6769]"/>
+  <match src="field_expression [2217,2228]" dest="field_expression [2217,2228]"/>
+  <match src="(: ( [1584,1585]" dest="(: ( [1584,1585]"/>
+  <match src="if_statement [5236,5557]" dest="if_statement [5361,5682]"/>
+  <match src="case_statement [2695,3733]" dest="case_statement [2734,3813]"/>
+  <match src="pointer_declarator [1725,1735]" dest="pointer_declarator [1725,1735]"/>
+  <match src="if_statement [686,878]" dest="if_statement [686,878]"/>
+  <match src="{: { [4391,4392]" dest="{: { [4516,4517]"/>
+  <match src="): ) [4509,4510]" dest="): ) [4634,4635]"/>
+  <match src="-&gt;: -&gt; [2803,2805]" dest="-&gt;: -&gt; [2883,2885]"/>
+  <match src="identifier: rdnss_str [5120,5129]" dest="identifier: rdnss_str [5245,5254]"/>
+  <match src="(: ( [4447,4448]" dest="(: ( [4572,4573]"/>
+  <match src="assignment_expression [2835,2877]" dest="assignment_expression [2915,2957]"/>
+  <match src="subscript_expression [6920,6961]" dest="subscript_expression [7180,7221]"/>
+  <match src="&quot;: &quot; [2210,2211]" dest="&quot;: &quot; [2210,2211]"/>
+  <match src="pointer_expression [4977,5008]" dest="pointer_expression [5102,5133]"/>
+  <match src=";: ; [2407,2408]" dest=";: ; [2407,2408]"/>
+  <match src="sizeof_expression [6509,6523]" dest="sizeof_expression [6769,6783]"/>
+  <match src="field_expression [1315,1337]" dest="field_expression [1315,1337]"/>
+  <match src="identifier: flog [397,401]" dest="identifier: flog [397,401]"/>
+  <match src="if_statement [497,683]" dest="if_statement [497,683]"/>
+  <match src="field_identifier: Name [1191,1195]" dest="field_identifier: Name [1191,1195]"/>
+  <match src="struct: struct [11,17]" dest="struct: struct [11,17]"/>
+  <match src="binary_expression [1585,1592]" dest="binary_expression [1585,1592]"/>
+  <match src="abstract_pointer_declarator [5785,5786]" dest="abstract_pointer_declarator [5910,5911]"/>
+  <match src="call_expression [6526,6540]" dest="call_expression [6786,6800]"/>
+  <match src="&quot;: &quot; [3976,3977]" dest="&quot;: &quot; [4056,4057]"/>
+  <match src="string_content: oversized suffix in DNSSL option on %s from %s [6747,6793]" dest="string_content: oversized suffix in DNSSL option on %s from %s [7007,7053]"/>
+  <match src="binary_expression [6508,6559]" dest="binary_expression [6768,6819]"/>
+  <match src="&lt;: &lt; [6542,6543]" dest="&lt;: &lt; [6802,6803]"/>
+  <match src="pointer_expression [4477,4508]" dest="pointer_expression [4602,4633]"/>
+  <match src="(: ( [4865,4866]" dest="(: ( [4990,4991]"/>
+  <match src="(: ( [5261,5262]" dest="(: ( [5386,5387]"/>
+  <match src="identifier: iface [5527,5532]" dest="identifier: iface [5652,5657]"/>
+  <match src="': ' [5815,5816]" dest="': ' [5986,5987]"/>
+  <match src=",: , [2369,2370]" dest=",: , [2369,2370]"/>
+  <match src="): ) [6558,6559]" dest="): ) [6818,6819]"/>
+  <match src="argument_list [195,223]" dest="argument_list [195,223]"/>
+  <match src="cast_expression [4243,4285]" dest="cast_expression [4323,4365]"/>
+  <match src="assignment_expression [5800,5816]" dest="assignment_expression [5971,5987]"/>
+  <match src="(: ( [5825,5826]" dest="(: ( [5996,5997]"/>
+  <match src="identifier: addr_str [670,678]" dest="identifier: addr_str [670,678]"/>
+  <match src="identifier: rdnssinfo [4298,4307]" dest="identifier: rdnssinfo [4423,4432]"/>
+  <match src="ERROR [36,49]" dest="ERROR [36,49]"/>
+  <match src="binary_expression [690,770]" dest="binary_expression [690,770]"/>
+  <match src="&amp;&amp;: &amp;&amp; [3023,3025]" dest="&amp;&amp;: &amp;&amp; [3103,3105]"/>
+  <match src="identifier: addr_str [136,144]" dest="identifier: addr_str [136,144]"/>
+  <match src="number_literal: 1 [5877,5878]" dest="number_literal: 1 [6048,6049]"/>
+  <match src=";: ; [1574,1575]" dest=";: ; [1574,1575]"/>
+  <match src="type_identifier: nd_opt_dnssl_info_local [1701,1724]" dest="type_identifier: nd_opt_dnssl_info_local [1701,1724]"/>
+  <match src="string_literal [5442,5507]" dest="string_literal [5567,5632]"/>
+  <match src="': ' [6328,6329]" dest="': ' [6588,6589]"/>
+  <match src="}: } [877,878]" dest="}: } [877,878]"/>
+  <match src="break: break [4063,4068]" dest="break: break [4143,4148]"/>
+  <match src="identifier: dnsslinfo [5741,5750]" dest="identifier: dnsslinfo [5866,5875]"/>
+  <match src="&amp;: &amp; [3140,3141]" dest="&amp;: &amp; [3220,3221]"/>
+  <match src="field_expression [338,364]" dest="field_expression [338,364]"/>
+  <match src="): ) [6522,6523]" dest="): ) [6782,6783]"/>
+  <match src="declaration [1765,1790]" dest="declaration [1765,1790]"/>
+  <match src="compound_statement [5972,6351]" dest="compound_statement [6232,6611]"/>
+  <match src="binary_expression [983,1104]" dest="binary_expression [983,1104]"/>
+  <match src="field_identifier: AdvRDNSSList [4425,4437]" dest="field_identifier: AdvRDNSSList [4550,4562]"/>
+  <match src="call_expression [1111,1206]" dest="call_expression [1111,1206]"/>
+  <match src="identifier: addr_str [214,222]" dest="identifier: addr_str [214,222]"/>
+  <match src=",: , [1971,1972]" dest=",: , [1971,1972]"/>
+  <match src="&quot;: &quot; [2603,2604]" dest="&quot;: &quot; [2642,2643]"/>
+  <match src="break: break [7008,7013]" dest="break: break [7268,7273]"/>
+  <match src="identifier: pinfo [2798,2803]" dest="identifier: pinfo [2878,2883]"/>
+  <match src=",: , [6274,6275]" dest=",: , [6534,6535]"/>
+  <match src="field_identifier: nd_opt_rdnssi_addr1 [5281,5300]" dest="field_identifier: nd_opt_rdnssi_addr1 [5406,5425]"/>
+  <match src="-&gt;: -&gt; [3104,3106]" dest="-&gt;: -&gt; [3184,3186]"/>
+  <match src="string_literal [2171,2211]" dest="string_literal [2171,2211]"/>
+  <match src="declaration [1912,1943]" dest="declaration [1912,1943]"/>
+  <match src="break_statement [2088,2094]" dest="break_statement [2088,2094]"/>
+  <match src="&amp;&amp;: &amp;&amp; [330,332]" dest="&amp;&amp;: &amp;&amp; [330,332]"/>
+  <match src="primitive_type: char [1892,1896]" dest="primitive_type: char [1892,1896]"/>
+  <match src="identifier: prefix [3046,3052]" dest="identifier: prefix [3126,3132]"/>
+  <match src="switch_statement [2416,7145]" dest="switch_statement [2416,7405]"/>
+  <match src="if: if [6068,6070]" dest="if: if [6328,6330]"/>
+  <match src="): ) [873,874]" dest="): ) [873,874]"/>
+  <match src="-&gt;: -&gt; [4740,4742]" dest="-&gt;: -&gt; [4865,4867]"/>
+  <match src="&quot;: &quot; [1411,1412]" dest="&quot;: &quot; [1411,1412]"/>
+  <match src="identifier: ND_OPT_RTR_ADV_INTERVAL [4108,4131]" dest="identifier: ND_OPT_RTR_ADV_INTERVAL [4188,4211]"/>
+  <match src="identifier: suffix [6885,6891]" dest="identifier: suffix [7145,7151]"/>
+  <match src="field_expression [3432,3462]" dest="field_expression [3512,3542]"/>
+  <match src=";: ; [6329,6330]" dest=";: ; [6589,6590]"/>
+  <match src="identifier: addr_str [6816,6824]" dest="identifier: addr_str [7076,7084]"/>
+  <match src="string_content:  length in RA on %s from %s [2341,2368]" dest="string_content:  length in RA on %s from %s [2341,2368]"/>
+  <match src="expression_statement [586,680]" dest="expression_statement [586,680]"/>
+  <match src="string_content: RDNSS address %s received on %s from %s is not advertised by us [4651,4714]" dest="string_content: RDNSS address %s received on %s from %s is not advertised by us [4776,4839]"/>
+  <match src="parenthesized_expression [6853,6872]" dest="parenthesized_expression [7113,7132]"/>
+  <match src="): ) [5302,5303]" dest="): ) [5427,5428]"/>
+  <match src="field_identifier: nd_opt_dnssli_suffixes [6931,6953]" dest="field_identifier: nd_opt_dnssli_suffixes [7191,7213]"/>
+  <match src="!: ! [6117,6118]" dest="!: ! [6377,6378]"/>
+  <match src="argument_list [781,874]" dest="argument_list [781,874]"/>
+  <match src="cast_expression [4021,4034]" dest="cast_expression [4101,4114]"/>
+  <match src="continue_statement [6336,6345]" dest="continue_statement [6596,6605]"/>
+  <match src="==: == [1496,1498]" dest="==: == [1496,1498]"/>
+  <match src="-&gt;: -&gt; [3362,3364]" dest="-&gt;: -&gt; [3442,3444]"/>
+  <match src="): ) [1075,1076]" dest="): ) [1075,1076]"/>
+  <match src="type_identifier: nd_opt_mtu [2474,2484]" dest="type_identifier: nd_opt_mtu [2474,2484]"/>
+  <match src="-&gt;: -&gt; [5670,5672]" dest="-&gt;: -&gt; [5795,5797]"/>
+  <match src="identifier: LOG_WARNING [3268,3279]" dest="identifier: LOG_WARNING [3348,3359]"/>
+  <match src="!=: != [365,367]" dest="!=: != [365,367]"/>
+  <match src="string_literal [2603,2647]" dest="string_literal [2642,2686]"/>
+  <match src="field_expression [3357,3368]" dest="field_expression [3437,3448]"/>
+  <match src="identifier: flog [1345,1349]" dest="identifier: flog [1345,1349]"/>
+  <match src="string_literal [2017,2055]" dest="string_literal [2017,2055]"/>
+  <match src=";: ; [874,875]" dest=";: ; [874,875]"/>
+  <match src="(: ( [4469,4470]" dest="(: ( [4594,4595]"/>
+  <match src="(: ( [6544,6545]" dest="(: ( [6804,6805]"/>
+  <match src="comment: /* FALLTHROUGH */ [4771,4788]" dest="comment: /* FALLTHROUGH */ [4896,4913]"/>
+  <match src="identifier: LOG_ERR [6737,6744]" dest="identifier: LOG_ERR [6997,7004]"/>
+  <match src="&amp;: &amp; [3062,3063]" dest="&amp;: &amp; [3142,3143]"/>
+  <match src="string_literal [415,463]" dest="string_literal [415,463]"/>
+  <match src="{: { [6169,6170]" dest="{: { [6429,6430]"/>
+  <match src="call_expression [4570,4624]" dest="call_expression [4695,4749]"/>
+  <match src="identifier: iface [5665,5670]" dest="identifier: iface [5790,5795]"/>
+  <match src="): ) [6972,6973]" dest="): ) [7232,7233]"/>
+  <match src=",: , [2601,2602]" dest=",: , [2640,2641]"/>
+  <match src="identifier: addr_str [5678,5686]" dest="identifier: addr_str [5803,5811]"/>
+  <match src="if_statement [3176,3421]" dest="if_statement [3256,3501]"/>
+  <match src="): ) [3115,3116]" dest="): ) [3195,3196]"/>
+  <match src="parenthesized_expression [1216,1339]" dest="parenthesized_expression [1216,1339]"/>
+  <match src="-&gt;: -&gt; [1422,1424]" dest="-&gt;: -&gt; [1422,1424]"/>
+  <match src=";: ; [6298,6299]" dest=";: ; [6558,6559]"/>
+  <match src=",: , [7106,7107]" dest=",: , [7366,7367]"/>
+  <match src="primitive_type: int [4022,4025]" dest="primitive_type: int [4102,4105]"/>
+  <match src="if: if [4840,4842]" dest="if: if [4965,4967]"/>
+  <match src=") [29,29]" dest=") [29,29]"/>
+  <match src="+: + [6649,6650]" dest="+: + [6909,6910]"/>
+  <match src="declaration [1793,1816]" dest="declaration [1793,1816]"/>
+  <match src="field_expression [691,720]" dest="field_expression [691,720]"/>
+  <match src="+: + [6555,6556]" dest="+: + [6815,6816]"/>
+  <match src="==: == [2991,2993]" dest="==: == [3071,3073]"/>
+  <match src="parenthesized_expression [500,580]" dest="parenthesized_expression [500,580]"/>
+  <match src="ERROR [60,63]" dest="ERROR [60,63]"/>
+  <match src="field_identifier: nd_opt_dnssli_len [5859,5876]" dest="field_identifier: nd_opt_dnssli_len [6030,6047]"/>
+  <match src="): ) [3021,3022]" dest="): ) [3101,3102]"/>
+  <match src="): ) [1500,1501]" dest="): ) [1500,1501]"/>
+  <match src="identifier: rdnss [5262,5267]" dest="identifier: rdnss [5387,5392]"/>
+  <match src="case_statement [5189,5570]" dest="case_statement [5314,5695]"/>
+  <match src="(: ( [4580,4581]" dest="(: ( [4705,4706]"/>
+  <match src="compound_statement [2282,2412]" dest="compound_statement [2282,2412]"/>
+  <match src="): ) [1994,1995]" dest="): ) [1994,1995]"/>
+  <match src=";: ; [5416,5417]" dest=";: ; [5541,5542]"/>
+  <match src="argument_list [7033,7130]" dest="argument_list [7293,7390]"/>
+  <match src="-&gt;: -&gt; [1292,1294]" dest="-&gt;: -&gt; [1292,1294]"/>
+  <match src="identifier: optlen [2102,2108]" dest="identifier: optlen [2102,2108]"/>
+  <match src=",: , [1412,1413]" dest=",: , [1412,1413]"/>
+  <match src="{: { [5972,5973]" dest="{: { [6232,6233]"/>
+  <match src="identifier: print_addr [4570,4580]" dest="identifier: print_addr [4695,4705]"/>
+  <match src="*: * [7098,7099]" dest="*: * [7358,7359]"/>
+  <match src="argument_list [1115,1206]" dest="argument_list [1115,1206]"/>
+  <match src="&quot;: &quot; [4714,4715]" dest="&quot;: &quot; [4839,4840]"/>
+  <match src="comment: /* Check the RNDSS addresses received */ [4332,4372]" dest="comment: /* Check the RNDSS addresses received */ [4457,4497]"/>
+  <match src="{: { [3122,3123]" dest="{: { [3202,3203]"/>
+  <match src="=: = [2464,2465]" dest="=: = [2464,2465]"/>
+  <match src="field_expression [1184,1195]" dest="field_expression [1184,1195]"/>
+  <match src="break: break [2244,2249]" dest="break: break [2244,2249]"/>
+  <match src=":: : [4131,4132]" dest=":: : [4211,4212]"/>
+  <match src="case: case [2695,2699]" dest="case: case [2734,2738]"/>
+  <match src="call_expression [6177,6298]" dest="call_expression [6437,6558]"/>
+  <match src="type_descriptor [4244,4276]" dest="type_descriptor [4324,4356]"/>
+  <match src="identifier: LOG_WARNING [2590,2601]" dest="identifier: LOG_WARNING [2629,2640]"/>
+  <match src="identifier: iface [657,662]" dest="identifier: iface [657,662]"/>
+  <match src="identifier: count [4290,4295]" dest="identifier: count [4415,4420]"/>
+  <match src="argument_list [4469,4510]" dest="argument_list [4594,4635]"/>
+  <match src="binary_expression [5838,5881]" dest="binary_expression [6009,6052]"/>
+  <match src="default: default [7017,7024]" dest="default: default [7277,7284]"/>
+  <match src="(: ( [1459,1460]" dest="(: ( [1459,1460]"/>
+  <match src="-&gt;: -&gt; [2509,2511]" dest="-&gt;: -&gt; [2548,2550]"/>
+  <match src="field_expression [502,531]" dest="field_expression [502,531]"/>
+  <match src=",: , [3348,3349]" dest=",: , [3428,3429]"/>
+  <match src="field_identifier: AdvLinkMTU [2563,2573]" dest="field_identifier: AdvLinkMTU [2602,2612]"/>
+  <match src="struct: struct [1793,1799]" dest="struct: struct [1793,1799]"/>
+  <match src="field_expression [2945,2960]" dest="field_expression [3025,3040]"/>
+  <match src="(: ( [5955,5956]" dest="(: ( [6215,6216]"/>
+  <match src="field_expression [5527,5538]" dest="field_expression [5652,5663]"/>
+  <match src="abstract_pointer_declarator [262,263]" dest="abstract_pointer_declarator [262,263]"/>
+  <match src="&quot;: &quot; [3314,3315]" dest="&quot;: &quot; [3394,3395]"/>
+  <match src="-&gt;: -&gt; [3147,3149]" dest="-&gt;: -&gt; [3227,3229]"/>
+  <match src="identifier: suffix [6533,6539]" dest="identifier: suffix [6793,6799]"/>
+  <match src="identifier: iface [1012,1017]" dest="identifier: iface [1012,1017]"/>
+  <match src="field_expression [6920,6953]" dest="field_expression [7180,7213]"/>
+  <match src="parenthesized_expression [1278,1338]" dest="parenthesized_expression [1278,1338]"/>
+  <match src="identifier: addr_str [2074,2082]" dest="identifier: addr_str [2074,2082]"/>
+  <match src="break: break [3826,3831]" dest="break: break [3906,3911]"/>
+  <match src="field_expression [1417,1428]" dest="field_expression [1417,1428]"/>
+  <match src="-&gt;: -&gt; [509,511]" dest="-&gt;: -&gt; [509,511]"/>
+  <match src="identifier: len [1446,1449]" dest="identifier: len [1446,1449]"/>
+  <match src="): ) [6669,6670]" dest="): ) [6929,6930]"/>
+  <match src="&quot;: &quot; [795,796]" dest="&quot;: &quot; [795,796]"/>
+  <match src="binary_expression [2945,3116]" dest="binary_expression [3025,3196]"/>
+  <match src="subscript_expression [6854,6863]" dest="subscript_expression [7114,7123]"/>
+  <match src="field_expression [1285,1310]" dest="field_expression [1285,1310]"/>
+  <match src="*: * [6668,6669]" dest="*: * [6928,6929]"/>
+  <match src="expression_statement [2585,2677]" dest="expression_statement [2624,2716]"/>
+  <match src="identifier: opt_str [2768,2775]" dest="identifier: opt_str [2807,2814]"/>
+  <match src="expression_statement [7029,7131]" dest="expression_statement [7289,7391]"/>
+  <match src="type_identifier: nd_router_advert [1467,1483]" dest="type_identifier: nd_router_advert [1467,1483]"/>
+  <match src=":: : [3957,3958]" dest=":: : [4037,4038]"/>
+  <match src=";: ; [2128,2129]" dest=";: ; [2128,2129]"/>
+  <match src="field_identifier: nd_ra_retransmit [1227,1243]" dest="field_identifier: nd_ra_retransmit [1227,1243]"/>
+  <match src="identifier: preferred [1955,1964]" dest="identifier: preferred [1955,1964]"/>
+  <match src="binary_expression [2137,2148]" dest="binary_expression [2137,2148]"/>
+  <match src="=: = [2109,2110]" dest="=: = [2109,2110]"/>
+  <match src=";: ; [3717,3718]" dest=";: ; [3797,3798]"/>
+  <match src="]: ] [6080,6081]" dest="]: ] [6340,6341]"/>
+  <match src=";: ; [4833,4834]" dest=";: ; [4958,4959]"/>
+  <match src="identifier: dlog [7029,7033]" dest="identifier: dlog [7289,7293]"/>
+  <match src="compound_statement [2579,2682]" dest="compound_statement [2618,2721]"/>
+  <match src="expression_statement [1514,1575]" dest="expression_statement [1514,1575]"/>
+  <match src="identifier: ND_OPT_RDNSS_INFORMATION [4202,4226]" dest="identifier: ND_OPT_RDNSS_INFORMATION [4282,4306]"/>
+  <match src="if_statement [2262,2412]" dest="if_statement [2262,2412]"/>
+  <match src="||: || [6597,6599]" dest="||: || [6857,6859]"/>
+  <match src="primitive_type: char [131,135]" dest="primitive_type: char [131,135]"/>
+  <match src="identifier: INET6_ADDRSTRLEN [1871,1887]" dest="identifier: INET6_ADDRSTRLEN [1871,1887]"/>
+  <match src="type_identifier: nd_opt_mtu [1746,1756]" dest="type_identifier: nd_opt_mtu [1746,1756]"/>
+  <match src="binary_expression [2526,2573]" dest="binary_expression [2565,2612]"/>
+  <match src="&quot;: &quot; [3281,3282]" dest="&quot;: &quot; [3361,3362]"/>
+  <match src="field_identifier: AdvRetransTimer [1322,1337]" dest="field_identifier: AdvRetransTimer [1322,1337]"/>
+  <match src="): ) [1534,1535]" dest="): ) [1534,1535]"/>
+  <match src="parenthesized_expression [4447,4511]" dest="parenthesized_expression [4572,4636]"/>
+  <match src="-&gt;: -&gt; [2659,2661]" dest="-&gt;: -&gt; [2698,2700]"/>
+  <match src="string_content: invalid option %d in RA on %s from %s [3977,4014]" dest="string_content: invalid option %d in RA on %s from %s [4057,4094]"/>
+  <match src="identifier: iface [2892,2897]" dest="identifier: iface [2972,2977]"/>
+  <match src="field_identifier: nd_opt_pi_prefix [3070,3086]" dest="field_identifier: nd_opt_pi_prefix [3150,3166]"/>
+  <match src="number_literal: 2 [6557,6558]" dest="number_literal: 2 [6817,6818]"/>
+  <match src="}: } [7188,7189]" dest="}: } [7448,7449]"/>
+  <match src="identifier: LOG_ERR [5594,5601]" dest="identifier: LOG_ERR [5719,5726]"/>
+  <match src="expression_statement [6732,6826]" dest="expression_statement [6992,7086]"/>
+  <match src="identifier: ntohl [2843,2848]" dest="identifier: ntohl [2923,2928]"/>
+  <match src="struct_specifier [238,261]" dest="struct_specifier [238,261]"/>
+  <match src="-&gt;: -&gt; [4307,4309]" dest="-&gt;: -&gt; [4432,4434]"/>
+  <match src="identifier: msg [51,54]" dest="identifier: msg [51,54]"/>
+  <match src="-&gt;: -&gt; [698,700]" dest="-&gt;: -&gt; [698,700]"/>
+  <match src=",: , [5538,5539]" dest=",: , [5663,5664]"/>
+  <match src="binary_expression [6571,6596]" dest="binary_expression [6831,6856]"/>
+  <match src="update_expression [5936,5944]" dest="update_expression [6196,6204]"/>
+  <match src="identifier: print_addr [3129,3139]" dest="identifier: print_addr [3209,3219]"/>
+  <match src=";: ; [4068,4069]" dest=";: ; [4148,4149]"/>
+  <match src="(: ( [6071,6072]" dest="(: ( [6331,6332]"/>
+  <match src=",: , [4047,4048]" dest=",: , [4127,4128]"/>
+  <match src="identifier: radvert [1285,1292]" dest="identifier: radvert [1285,1292]"/>
+  <match src="==: == [2144,2146]" dest="==: == [2144,2146]"/>
+  <match src="field_expression [3181,3211]" dest="field_expression [3261,3291]"/>
+  <match src="-&gt;: -&gt; [1225,1227]" dest="-&gt;: -&gt; [1225,1227]"/>
+  <match src="(: ( [3044,3045]" dest="(: ( [3124,3125]"/>
+  <match src="assignment_expression [4806,4833]" dest="assignment_expression [4931,4958]"/>
+  <match src="string_literal [7048,7087]" dest="string_literal [7308,7347]"/>
+  <match src="break: break [3888,3893]" dest="break: break [3968,3973]"/>
+  <match src="(: ( [982,983]" dest="(: ( [982,983]"/>
+  <match src="expression_statement [1446,1485]" dest="expression_statement [1446,1485]"/>
+  <match src="expression_statement [6313,6330]" dest="expression_statement [6573,6590]"/>
+  <match src=",: , [2015,2016]" dest=",: , [2015,2016]"/>
+  <match src="*: * [262,263]" dest="*: * [262,263]"/>
+  <match src="break: break [3727,3732]" dest="break: break [3807,3812]"/>
+  <match src="*: * [5785,5786]" dest="*: * [5910,5911]"/>
+  <match src="&quot;: &quot; [5110,5111]" dest="&quot;: &quot; [5235,5236]"/>
+  <match src=",: , [5111,5112]" dest=",: , [5236,5237]"/>
+  <match src=";: ; [3676,3677]" dest=";: ; [3756,3757]"/>
+  <match src="string_literal [1129,1179]" dest="string_literal [1129,1179]"/>
+  <match src="declaration [1613,1646]" dest="declaration [1613,1646]"/>
+  <match src="): ) [1310,1311]" dest="): ) [1310,1311]"/>
+  <match src="identifier: struct [66,72]" dest="identifier: struct [66,72]"/>
+  <match src="binary_expression [2973,3021]" dest="binary_expression [3053,3101]"/>
+  <match src="{: { [393,394]" dest="{: { [393,394]"/>
+  <match src="identifier: rdnssinfo [5270,5279]" dest="identifier: rdnssinfo [5395,5404]"/>
+  <match src="compound_statement [2436,7145]" dest="compound_statement [2436,7405]"/>
+  <match src="(: ( [5239,5240]" dest="(: ( [5364,5365]"/>
+  <match src=";: ; [6105,6106]" dest=";: ; [6365,6366]"/>
+  <match src="identifier: print_addr [185,195]" dest="identifier: print_addr [185,195]"/>
+  <match src="string_literal [5046,5111]" dest="string_literal [5171,5236]"/>
+  <match src="=: = [2890,2891]" dest="=: = [2970,2971]"/>
+  <match src="field_expression [4978,5008]" dest="field_expression [5103,5133]"/>
+  <match src="type_identifier: nd_opt_prefix_info [2746,2764]" dest="type_identifier: nd_opt_prefix_info [2785,2803]"/>
+  <match src="identifier: iface [3620,3625]" dest="identifier: iface [3700,3705]"/>
+  <match src=",: , [54,55]" dest=",: , [54,55]"/>
+  <match src="declaration [0,129]" dest="declaration [0,129]"/>
+  <match src="number_literal: 0 [5835,5836]" dest="number_literal: 0 [6006,6007]"/>
+  <match src=";: ; [2093,2094]" dest=";: ; [2093,2094]"/>
+  <match src="}: } [2253,2254]" dest="}: } [2253,2254]"/>
+  <match src="ERROR [66,119]" dest="ERROR [66,119]"/>
+  <match src="field_expression [6803,6814]" dest="field_expression [7063,7074]"/>
+  <match src="compound_statement [4391,5693]" dest="compound_statement [4516,5818]"/>
+  <match src=",: , [2211,2212]" dest=",: , [2211,2212]"/>
+  <match src="identifier: prefix [3141,3147]" dest="identifier: prefix [3221,3227]"/>
+  <match src=";: ; [1888,1889]" dest=";: ; [1888,1889]"/>
+  <match src="break_statement [3727,3733]" dest="break_statement [3807,3813]"/>
+  <match src="binary_expression [1218,1269]" dest="binary_expression [1218,1269]"/>
+  <match src="comment: /* FALLTHROUGH */ [5167,5184]" dest="comment: /* FALLTHROUGH */ [5292,5309]"/>
+  <match src="!: ! [4448,4449]" dest="!: ! [4573,4574]"/>
+  <match src="identifier: mtu [2460,2463]" dest="identifier: mtu [2460,2463]"/>
+  <match src="(: ( [1535,1536]" dest="(: ( [1535,1536]"/>
+  <match src="parenthesized_expression [6544,6559]" dest="parenthesized_expression [6804,6819]"/>
+  <match src="argument_list [5428,5549]" dest="argument_list [5553,5674]"/>
+  <match src="!=: != [1077,1079]" dest="!=: != [1077,1079]"/>
+  <match src="*: * [1725,1726]" dest="*: * [1725,1726]"/>
+  <match src="-&gt;: -&gt; [2897,2899]" dest="-&gt;: -&gt; [2977,2979]"/>
+  <match src="): ) [2148,2149]" dest="): ) [2148,2149]"/>
+  <match src="field_identifier: nd_opt_rdnssi_len [4309,4326]" dest="field_identifier: nd_opt_rdnssi_len [4434,4451]"/>
+  <match src="identifier: LOG_WARNING [591,602]" dest="identifier: LOG_WARNING [591,602]"/>
+  <match src="string_content: our AdvReachableTime on %s doesn't agree with %s [1130,1178]" dest="string_content: our AdvReachableTime on %s doesn't agree with %s [1130,1178]"/>
+  <match src="-&gt;: -&gt; [6808,6810]" dest="-&gt;: -&gt; [7068,7070]"/>
+  <match src="[: [ [1870,1871]" dest="[: [ [1870,1871]"/>
+  <match src="break_statement [2686,2692]" dest="break_statement [2725,2731]"/>
+  <match src="(: ( [6515,6516]" dest="(: ( [6775,6776]"/>
+  <match src="case: case [5707,5711]" dest="case: case [5832,5836]"/>
+  <match src="field_expression [3063,3086]" dest="field_expression [3143,3166]"/>
+  <match src="sizeof: sizeof [1542,1548]" dest="sizeof: sizeof [1542,1548]"/>
+  <match src="binary_expression [5847,5881]" dest="binary_expression [6018,6052]"/>
+  <match src="compound_statement [773,878]" dest="compound_statement [773,878]"/>
+  <match src="-&gt;: -&gt; [373,375]" dest="-&gt;: -&gt; [373,375]"/>
+  <match src="]: ] [1907,1908]" dest="]: ] [1907,1908]"/>
+  <match src="pointer_declarator [120,128]" dest="pointer_declarator [120,128]"/>
+  <match src="&amp;&amp;: &amp;&amp; [1009,1011]" dest="&amp;&amp;: &amp;&amp; [1009,1011]"/>
+  <match src="declaration [1599,1610]" dest="declaration [1599,1610]"/>
+  <match src="identifier: flog [2287,2291]" dest="identifier: flog [2287,2291]"/>
+  <match src="string_content: our AdvLinkMTU on %s doesn't agree with %s [2604,2646]" dest="string_content: our AdvLinkMTU on %s doesn't agree with %s [2643,2685]"/>
+  <match src="&quot;: &quot; [4014,4015]" dest="&quot;: &quot; [4094,4095]"/>
+  <match src="(: ( [500,501]" dest="(: ( [500,501]"/>
+  <match src="argument_list [2291,2397]" dest="argument_list [2291,2397]"/>
+  <match src="field_identifier: Name [859,863]" dest="field_identifier: Name [859,863]"/>
+  <match src="binary_expression [6608,6684]" dest="binary_expression [6868,6944]"/>
+  <match src="field_identifier: DecrementLifetimesFlag [3189,3211]" dest="field_identifier: DecrementLifetimesFlag [3269,3291]"/>
+  <match src="=: = [1522,1523]" dest="=: = [1522,1523]"/>
+  <match src="compound_statement [1998,2098]" dest="compound_statement [1998,2098]"/>
+  <match src="): ) [2082,2083]" dest="): ) [2082,2083]"/>
+  <match src="): ) [5152,5153]" dest="): ) [5277,5278]"/>
+  <match src="field_expression [3046,3060]" dest="field_expression [3126,3140]"/>
+  <match src="identifier: suffix [6854,6860]" dest="identifier: suffix [7114,7120]"/>
+  <match src="expression_statement [5424,5550]" dest="expression_statement [5549,5675]"/>
+  <match src="): ) [5301,5302]" dest="): ) [5426,5427]"/>
+  <match src="parenthesized_expression [2423,2433]" dest="parenthesized_expression [2423,2433]"/>
+  <match src="pointer_expression [3140,3155]" dest="pointer_expression [3220,3235]"/>
+  <match src="identifier: radvert [984,991]" dest="identifier: radvert [984,991]"/>
+  <match src="identifier: offset [5936,5942]" dest="identifier: offset [6196,6202]"/>
+  <match src="-&gt;: -&gt; [6281,6283]" dest="-&gt;: -&gt; [6541,6543]"/>
+  <match src="identifier: prefix [3224,3230]" dest="identifier: prefix [3304,3310]"/>
+  <match src="-&gt;: -&gt; [4883,4885]" dest="-&gt;: -&gt; [5008,5010]"/>
+  <match src="identifier: strncat [6903,6910]" dest="identifier: strncat [7163,7170]"/>
+  <match src="': ' [6085,6086]" dest="': ' [6345,6346]"/>
+  <match src="identifier: offset [5838,5844]" dest="identifier: offset [6009,6015]"/>
+  <match src="(: ( [2265,2266]" dest="(: ( [2265,2266]"/>
+  <match src="): ) [1338,1339]" dest="): ) [1338,1339]"/>
+  <match src=",: , [3538,3539]" dest=",: , [3618,3619]"/>
+  <match src=";: ; [5153,5154]" dest=";: ; [5278,5279]"/>
+  <match src="comment: /* no match found in iface-&gt;AdvRDNSSList */ [4916,4959]" dest="comment: /* no match found in iface-&gt;AdvRDNSSList */ [5041,5084]"/>
+  <match src="string_content: trailing garbage in RA on %s from %s [2018,2054]" dest="string_content: trailing garbage in RA on %s from %s [2018,2054]"/>
+  <match src="identifier: prefix [3705,3711]" dest="identifier: prefix [3785,3791]"/>
+  <match src="number_literal: 0 [6320,6321]" dest="number_literal: 0 [6580,6581]"/>
+  <match src="struct: struct [1765,1771]" dest="struct: struct [1765,1771]"/>
+  <match src="identifier: iface [1417,1422]" dest="identifier: iface [1417,1422]"/>
+  <match src="compound_statement [6725,6844]" dest="compound_statement [6985,7104]"/>
+  <match src=",: , [2647,2648]" dest=",: , [2686,2687]"/>
+  <match src="cast_expression [5753,5795]" dest="cast_expression [5878,5920]"/>
+  <match src=",: , [3279,3280]" dest=",: , [3359,3360]"/>
+  <match src="identifier: LOG_ERR [2292,2299]" dest="identifier: LOG_ERR [2292,2299]"/>
+  <match src="assignment_expression [1514,1574]" dest="assignment_expression [1514,1574]"/>
+  <match src="+: + [1540,1541]" dest="+: + [1540,1541]"/>
+  <match src="identifier: opt_str [7099,7106]" dest="identifier: opt_str [7359,7366]"/>
+  <match src="identifier: radvert [502,509]" dest="identifier: radvert [502,509]"/>
+  <match src="argument_list [4976,5020]" dest="argument_list [5101,5145]"/>
+  <match src="field_identifier: Name [5672,5676]" dest="field_identifier: Name [5797,5801]"/>
+  <match src="field_expression [558,579]" dest="field_expression [558,579]"/>
+  <match src="argument_list [4580,4624]" dest="argument_list [4705,4749]"/>
+  <match src="identifier: flog [777,781]" dest="identifier: flog [777,781]"/>
+  <match src="+=: += [7174,7176]" dest="+=: += [7434,7436]"/>
+  <match src="identifier: ND_OPT_HOME_AGENT_INFO [4140,4162]" dest="identifier: ND_OPT_HOME_AGENT_INFO [4220,4242]"/>
+  <match src="]: ] [5808,5809]" dest="]: ] [5979,5980]"/>
+  <match src="string_literal [1363,1412]" dest="string_literal [1363,1412]"/>
+  <match src="if: if [686,688]" dest="if: if [686,688]"/>
+  <match src="&quot;: &quot; [3577,3578]" dest="&quot;: &quot; [3657,3658]"/>
+  <match src="field_identifier: Prefix [3054,3060]" dest="field_identifier: Prefix [3134,3140]"/>
+  <match src="&amp;&amp;: &amp;&amp; [1271,1273]" dest="&amp;&amp;: &amp;&amp; [1271,1273]"/>
+  <match src="identifier: label_len [6989,6998]" dest="identifier: label_len [7249,7258]"/>
+  <match src="-&gt;: -&gt; [2951,2953]" dest="-&gt;: -&gt; [3031,3033]"/>
+  <match src="unary_expression [557,579]" dest="unary_expression [557,579]"/>
+  <match src="identifier: opt_str [6670,6677]" dest="identifier: opt_str [6930,6937]"/>
+  <match src="assignment_expression [5890,5945]" dest="assignment_expression [6150,6205]"/>
+  <match src="identifier: addr_str [6289,6297]" dest="identifier: addr_str [6549,6557]"/>
+  <match src="struct_specifier [5754,5784]" dest="struct_specifier [5879,5909]"/>
+  <match src="string_literal [2340,2369]" dest="string_literal [2340,2369]"/>
+  <match src="(: ( [2972,2973]" dest="(: ( [3052,3053]"/>
+  <match src="-&gt;: -&gt; [662,664]" dest="-&gt;: -&gt; [662,664]"/>
+  <match src="identifier: process_ra [0,10]" dest="identifier: process_ra [0,10]"/>
+  <match src=";: ; [2239,2240]" dest=";: ; [2239,2240]"/>
+  <match src="[: [ [6953,6954]" dest="[: [ [7213,7214]"/>
+  <match src="identifier: rdnssinfo [1681,1690]" dest="identifier: rdnssinfo [1681,1690]"/>
+  <match src="parenthesized_expression [5847,5879]" dest="parenthesized_expression [6018,6050]"/>
+  <match src="if: if [6113,6115]" dest="if: if [6373,6375]"/>
+  <match src="identifier: iface [3357,3362]" dest="identifier: iface [3437,3442]"/>
+  <match src="call_expression [397,490]" dest="call_expression [397,490]"/>
+  <match src="field_identifier: AdvRDNSSList [4821,4833]" dest="field_identifier: AdvRDNSSList [4946,4958]"/>
+  <match src="): ) [7129,7130]" dest="): ) [7389,7390]"/>
+  <match src="identifier: LOG_WARNING [3527,3538]" dest="identifier: LOG_WARNING [3607,3618]"/>
+  <match src="expression_statement [5202,5230]" dest="expression_statement [5327,5355]"/>
+  <match src="identifier: dnsslinfo [5848,5857]" dest="identifier: dnsslinfo [6019,6028]"/>
+  <match src="string_content: zero length option in RA on %s from %s [2172,2210]" dest="string_content: zero length option in RA on %s from %s [2172,2210]"/>
+  <match src=";: ; [223,224]" dest=";: ; [223,224]"/>
+  <match src="=: = [5900,5901]" dest="=: = [6160,6161]"/>
+  <match src=";: ; [679,680]" dest=";: ; [679,680]"/>
+  <match src="identifier: suffix [1897,1903]" dest="identifier: suffix [1897,1903]"/>
+  <match src="field_expression [2061,2072]" dest="field_expression [2061,2072]"/>
+  <match src="expression_statement [2883,2913]" dest="expression_statement [2963,2993]"/>
+  <match src="string_literal [4650,4715]" dest="string_literal [4775,4840]"/>
+  <match src="identifier: optlen [2137,2143]" dest="identifier: optlen [2137,2143]"/>
+  <match src="): ) [5878,5879]" dest="): ) [6049,6050]"/>
+  <match src=";: ; [5229,5230]" dest=";: ; [5354,5355]"/>
+  <match src="identifier: flog [3522,3526]" dest="identifier: flog [3602,3606]"/>
+  <match src="field_identifier: nd_opt_rdnssi_addr2 [4989,5008]" dest="field_identifier: nd_opt_rdnssi_addr2 [5114,5133]"/>
+  <match src="identifier: offset [5826,5832]" dest="identifier: offset [5997,6003]"/>
+  <match src="if_statement [6113,6306]" dest="if_statement [6373,6566]"/>
+  <match src="parenthesized_expression [1535,1574]" dest="parenthesized_expression [1535,1574]"/>
+  <match src="number_literal: 3 [5194,5195]" dest="number_literal: 3 [5319,5320]"/>
+  <match src="field_expression [3620,3631]" dest="field_expression [3700,3711]"/>
+  <match src="identifier: suffix [6072,6078]" dest="identifier: suffix [6332,6338]"/>
+  <match src="identifier: addr_str [481,489]" dest="identifier: addr_str [481,489]"/>
+  <match src="string_literal [3314,3348]" dest="string_literal [3394,3428]"/>
+  <match src="=: = [3703,3704]" dest="=: = [3783,3784]"/>
+  <match src="struct: struct [5754,5760]" dest="struct: struct [5879,5885]"/>
+  <match src="field_expression [197,212]" dest="field_expression [197,212]"/>
+  <match src="=: = [235,236]" dest="=: = [235,236]"/>
+  <match src="if_statement [2941,3690]" dest="if_statement [3021,3770]"/>
+  <match src="identifier: optlen [1603,1609]" dest="identifier: optlen [1603,1609]"/>
+  <match src="field_identifier: nd_opt_rdnssi_addr3 [4593,4612]" dest="field_identifier: nd_opt_rdnssi_addr3 [4718,4737]"/>
+  <match src=",: , [793,794]" dest=",: , [793,794]"/>
+  <match src="parenthesized_expression [6508,6541]" dest="parenthesized_expression [6768,6801]"/>
+  <match src=";: ; [5795,5796]" dest=";: ; [5920,5921]"/>
+  <match src=";: ; [1852,1853]" dest=";: ; [1852,1853]"/>
+  <match src="): ) [3167,3168]" dest="): ) [3247,3248]"/>
+  <match src="string_content: RDNSS address %s received on %s from %s is not advertised by us [5047,5110]" dest="string_content: RDNSS address %s received on %s from %s is not advertised by us [5172,5235]"/>
+  <match src="expression_statement [7166,7184]" dest="expression_statement [7426,7444]"/>
+  <match src="field_expression [5131,5142]" dest="field_expression [5256,5267]"/>
+  <match src="argument_list [5593,5687]" dest="argument_list [5718,5812]"/>
+  <match src="(: ( [2738,2739]" dest="(: ( [2777,2778]"/>
+  <match src="binary_expression [1536,1573]" dest="binary_expression [1536,1573]"/>
+  <match src="string_literal [3281,3306]" dest="string_literal [3361,3386]"/>
+  <match src="identifier: label_len [1933,1942]" dest="identifier: label_len [1933,1942]"/>
+  <match src="expression_statement [4410,4438]" dest="expression_statement [4535,4563]"/>
+  <match src="number_literal: 1 [7045,7046]" dest="number_literal: 1 [7305,7306]"/>
+  <match src="argument_list [2589,2676]" dest="argument_list [2628,2715]"/>
+  <match src=",: , [7043,7044]" dest=",: , [7303,7304]"/>
+  <match src="argument_list [1349,1439]" dest="argument_list [1349,1439]"/>
+  <match src="break: break [5564,5569]" dest="break: break [5689,5694]"/>
+  <match src="identifier: iface [1080,1085]" dest="identifier: iface [1080,1085]"/>
+  <match src="string_literal [3577,3611]" dest="string_literal [3657,3691]"/>
+  <match src="(: ( [1044,1045]" dest="(: ( [1044,1045]"/>
+  <match src="identifier: rdnss [4806,4811]" dest="identifier: rdnss [4931,4936]"/>
+  <match src=",: , [6259,6260]" dest=",: , [6519,6520]"/>
+  <match src="field_expression [2973,2990]" dest="field_expression [3053,3070]"/>
+  <match src=";: ; [2912,2913]" dest=";: ; [2992,2993]"/>
+  <match src="(: ( [6181,6182]" dest="(: ( [6441,6442]"/>
+  <match src="&quot;: &quot; [3610,3611]" dest="&quot;: &quot; [3690,3691]"/>
+  <match src="field_identifier: Name [7115,7119]" dest="field_identifier: Name [7375,7379]"/>
+  <match src="struct: struct [1549,1555]" dest="struct: struct [1549,1555]"/>
+  <match src="}: } [1442,1443]" dest="}: } [1442,1443]"/>
+  <match src="assignment_expression [3696,3717]" dest="assignment_expression [3776,3797]"/>
+  <match src="identifier: LOG_WARNING [1116,1127]" dest="identifier: LOG_WARNING [1116,1127]"/>
+  <match src="pointer_declarator [1782,1789]" dest="pointer_declarator [1782,1789]"/>
+  <match src="identifier: addr_str [2230,2238]" dest="identifier: addr_str [2230,2238]"/>
+  <match src="(: ( [4976,4977]" dest="(: ( [5101,5102]"/>
+  <match src="sizeof_expression [1542,1573]" dest="sizeof_expression [1542,1573]"/>
+  <match src="-&gt;: -&gt; [1085,1087]" dest="-&gt;: -&gt; [1085,1087]"/>
+  <match src="identifier: opt_str [2112,2119]" dest="identifier: opt_str [2112,2119]"/>
+  <match src="primitive_type: char [1819,1823]" dest="primitive_type: char [1819,1823]"/>
+  <match src=":: : [2455,2456]" dest=":: : [2455,2456]"/>
+  <match src="case: case [4103,4107]" dest="case: case [4183,4187]"/>
+  <match src="): ) [2930,2931]" dest="): ) [3010,3011]"/>
+  <match src="(: ( [3526,3527]" dest="(: ( [3606,3607]"/>
+  <match src="binary_expression [338,389]" dest="binary_expression [338,389]"/>
+  <match src="[: [ [1834,1835]" dest="[: [ [1834,1835]"/>
+  <match src=";: ; [5703,5704]" dest=";: ; [5828,5829]"/>
+  <match src="): ) [1205,1206]" dest="): ) [1205,1206]"/>
+  <match src="-&gt;: -&gt; [6618,6620]" dest="-&gt;: -&gt; [6878,6880]"/>
+  <match src="call_expression [2585,2676]" dest="call_expression [2624,2715]"/>
+  <match src=",: , [5676,5677]" dest=",: , [5801,5802]"/>
+  <match src="[: [ [5806,5807]" dest="[: [ [5977,5978]"/>
+  <match src=":: : [3924,3925]" dest=":: : [4004,4005]"/>
+  <match src="else: else [2257,2261]" dest="else: else [2257,2261]"/>
+  <match src="string_content: our AdvValidLifetime on [3282,3305]" dest="string_content: our AdvValidLifetime on [3362,3385]"/>
+  <match src=";: ; [2397,2398]" dest=";: ; [2397,2398]"/>
+  <match src="+: + [6593,6594]" dest="+: + [6853,6854]"/>
+  <match src="&quot;: &quot; [462,463]" dest="&quot;: &quot; [462,463]"/>
+  <match src="(: ( [690,691]" dest="(: ( [690,691]"/>
+  <match src=";: ; [5945,5946]" dest=";: ; [6205,6206]"/>
+  <match src="expression_statement [5362,5417]" dest="expression_statement [5487,5542]"/>
+  <match src="if: if [2133,2135]" dest="if: if [2133,2135]"/>
+  <match src="type_descriptor [1460,1483]" dest="type_descriptor [1460,1483]"/>
+  <match src="identifier: count [1973,1978]" dest="identifier: count [1973,1978]"/>
+  <match src="pointer_expression [5269,5300]" dest="pointer_expression [5394,5425]"/>
+  <match src="break_statement [3888,3894]" dest="break_statement [3968,3974]"/>
+  <match src="(: ( [1491,1492]" dest="(: ( [1491,1492]"/>
+  <match src="=: = [2841,2842]" dest="=: = [2921,2922]"/>
+  <match src="pointer_declarator [1809,1815]" dest="pointer_declarator [1809,1815]"/>
+  <match src="identifier: ND_OPT_REDIRECTED_HEADER [3933,3957]" dest="identifier: ND_OPT_REDIRECTED_HEADER [4013,4037]"/>
+  <match src="(: ( [337,338]" dest="(: ( [337,338]"/>
+  <match src="identifier: offset [6979,6985]" dest="identifier: offset [7239,7245]"/>
+  <match src="identifier: len [1585,1588]" dest="identifier: len [1585,1588]"/>
+  <match src="identifier: addr [87,91]" dest="identifier: addr [87,91]"/>
+  <match src="&lt;&lt;: &lt;&lt; [2123,2125]" dest="&lt;&lt;: &lt;&lt; [2123,2125]"/>
+  <match src="): ) [4025,4026]" dest="): ) [4105,4106]"/>
+  <match src="unary_expression [744,770]" dest="unary_expression [744,770]"/>
+  <match src=",: , [2386,2387]" dest=",: , [2386,2387]"/>
+  <match src=";: ; [2691,2692]" dest=";: ; [2730,2731]"/>
+  <match src="identifier: prefix_str [3640,3650]" dest="identifier: prefix_str [3720,3730]"/>
+  <match src="string_content:  %s for %s doesn't agree with %s [3315,3347]" dest="string_content:  %s for %s doesn't agree with %s [3395,3427]"/>
+  <match src="): ) [328,329]" dest="): ) [328,329]"/>
+  <match src="expression_statement [5028,5154]" dest="expression_statement [5153,5279]"/>
+  <match src="identifier: flog [6732,6736]" dest="identifier: flog [6992,6996]"/>
+  <match src="identifier: addr_str [7121,7129]" dest="identifier: addr_str [7381,7389]"/>
+  <match src=",: , [6744,6745]" dest=",: , [7004,7005]"/>
+  <match src="parenthesized_expression [2972,3022]" dest="parenthesized_expression [3052,3102]"/>
+  <match src="break_statement [2244,2250]" dest="break_statement [2244,2250]"/>
+  <match src="primitive_type: int [1599,1602]" dest="primitive_type: int [1599,1602]"/>
+  <match src="case_statement [5707,7014]" dest="case_statement [5832,7274]"/>
+  <match src="primitive_type: uint32_t [1946,1954]" dest="primitive_type: uint32_t [1946,1954]"/>
+  <match src="field_identifier: Name [3364,3368]" dest="field_identifier: Name [3444,3448]"/>
+  <match src="): ) [3675,3676]" dest="): ) [3755,3756]"/>
+  <match src="parenthesized_expression [6507,6724]" dest="parenthesized_expression [6767,6984]"/>
+  <match src="argument_list [590,679]" dest="argument_list [590,679]"/>
+  <match src="identifier: flog [2585,2589]" dest="identifier: flog [2624,2628]"/>
+  <match src="&quot;: &quot; [1129,1130]" dest="&quot;: &quot; [1129,1130]"/>
+  <match src="expression_statement [4632,4758]" dest="expression_statement [4757,4883]"/>
+  <match src="-: - [6524,6525]" dest="-: - [6784,6785]"/>
+  <match src="pointer_expression [6608,6660]" dest="pointer_expression [6868,6920]"/>
+  <match src="-&gt;: -&gt; [473,475]" dest="-&gt;: -&gt; [473,475]"/>
+  <match src="switch_statement [4376,5693]" dest="switch_statement [4501,5818]"/>
+  <match src="break: break [5698,5703]" dest="break: break [5823,5828]"/>
+  <match src=",: , [668,669]" dest=",: , [668,669]"/>
+  <match src="identifier: suffix [6911,6917]" dest="identifier: suffix [7171,7177]"/>
+  <match src="(: ( [3139,3140]" dest="(: ( [3219,3220]"/>
+  <match src="identifier: iface [6803,6808]" dest="identifier: iface [7063,7068]"/>
+  <match src="break: break [2402,2407]" dest="break: break [2402,2407]"/>
+  <match src="call_expression [7029,7130]" dest="call_expression [7289,7390]"/>
+  <match src="==: == [6082,6084]" dest="==: == [6342,6344]"/>
+  <match src=",: , [5129,5130]" dest=",: , [5254,5255]"/>
+  <match src="string_content: unknown option %d in RA on %s from %s [7049,7086]" dest="string_content: unknown option %d in RA on %s from %s [7309,7346]"/>
+  <match src="binary_expression [277,328]" dest="binary_expression [277,328]"/>
+  <match src="!=: != [3476,3478]" dest="!=: != [3556,3558]"/>
+  <match src="): ) [1572,1573]" dest="): ) [1572,1573]"/>
+  <match src="(: ( [1524,1525]" dest="(: ( [1524,1525]"/>
+  <match src="field_expression [984,1008]" dest="field_expression [984,1008]"/>
+  <match src="parenthesized_expression [1217,1270]" dest="parenthesized_expression [1217,1270]"/>
+  <match src="struct: struct [1613,1619]" dest="struct: struct [1613,1619]"/>
+  <match src="break_statement [4188,4194]" dest="break_statement [4268,4274]"/>
+  <match src="[: [ [6860,6861]" dest="[: [ [7120,7121]"/>
+  <match src="}: } [1209,1210]" dest="}: } [1209,1210]"/>
+  <match src="field_expression [2504,2521]" dest="field_expression [2543,2560]"/>
+  <match src="identifier: pinfo [2849,2854]" dest="identifier: pinfo [2929,2934]"/>
+  <match src="&quot;: &quot; [5506,5507]" dest="&quot;: &quot; [5631,5632]"/>
+  <match src="&gt;=: &gt;= [6678,6680]" dest="&gt;=: &gt;= [6938,6940]"/>
+  <match src="identifier: label_len [6583,6592]" dest="identifier: label_len [6843,6852]"/>
+  <match src="comment: /* no match found in iface-&gt;AdvRDNSSList */ [5312,5355]" dest="comment: /* no match found in iface-&gt;AdvRDNSSList */ [5437,5480]"/>
+  <match src="type_identifier: nd_opt_prefix_info [1620,1638]" dest="type_identifier: nd_opt_prefix_info [1620,1638]"/>
+  <match src=",: , [6794,6795]" dest=",: , [7054,7055]"/>
+  <match src=";: ; [6897,6898]" dest=";: ; [7157,7158]"/>
+  <match src="identifier: len [7149,7152]" dest="identifier: len [7409,7412]"/>
+  <match src="(: ( [1050,1051]" dest="(: ( [1050,1051]"/>
+  <match src="-&gt;: -&gt; [2854,2856]" dest="-&gt;: -&gt; [2934,2936]"/>
+  <match src="string_content: DNSSL suffix %s received on %s from %s is not advertised by us [6196,6258]" dest="string_content: DNSSL suffix %s received on %s from %s is not advertised by us [6456,6518]"/>
+  <match src="binary_expression [691,739]" dest="binary_expression [691,739]"/>
+  <match src="identifier: flog [5589,5593]" dest="identifier: flog [5714,5718]"/>
+  <match src="++: ++ [5942,5944]" dest="++: ++ [6202,6204]"/>
+  <match src="identifier: flog [5028,5032]" dest="identifier: flog [5153,5157]"/>
+  <match src="field_expression [2532,2551]" dest="field_expression [2571,2590]"/>
+  <match src=",: , [3611,3612]" dest=",: , [3691,3692]"/>
+  <match src="&quot;: &quot; [6893,6894]" dest="&quot;: &quot; [7153,7154]"/>
+  <match src="]: ] [6659,6660]" dest="]: ] [6919,6920]"/>
+  <match src="identifier: char [45,49]" dest="identifier: char [45,49]"/>
+  <match src="&quot;: &quot; [651,652]" dest="&quot;: &quot; [651,652]"/>
+  <match src="): ) [1269,1270]" dest="): ) [1269,1270]"/>
+  <match src=",: , [847,848]" dest=",: , [847,848]"/>
+  <match src="argument_list [3267,3413]" dest="argument_list [3347,3493]"/>
+  <match src="-&gt;: -&gt; [3438,3440]" dest="-&gt;: -&gt; [3518,3520]"/>
+  <match src="&quot;: &quot; [6793,6794]" dest="&quot;: &quot; [7053,7054]"/>
+  <match src="parenthesized_expression [1044,1104]" dest="parenthesized_expression [1044,1104]"/>
+  <match src="continue: continue [6336,6344]" dest="continue: continue [6596,6604]"/>
+  <match src="(: ( [2797,2798]" dest="(: ( [2877,2878]"/>
+  <match src="escape_sequence: \0 [6868,6870]" dest="escape_sequence: \0 [7128,7130]"/>
+  <match src=",: , [1931,1932]" dest=",: , [1931,1932]"/>
+  <match src="identifier: print_addr [4966,4976]" dest="identifier: print_addr [5091,5101]"/>
+  <match src="&amp;: &amp; [4581,4582]" dest="&amp;: &amp; [4706,4707]"/>
+  <match src="field_identifier: Name [1424,1428]" dest="field_identifier: Name [1424,1428]"/>
+  <match src="call_expression [6903,6973]" dest="call_expression [7163,7233]"/>
+  <match src="}: } [3722,3723]" dest="}: } [3802,3803]"/>
+  <match src="string_literal [6746,6794]" dest="string_literal [7006,7054]"/>
+  <match src="): ) [6089,6090]" dest="): ) [6349,6350]"/>
+  <match src="(: ( [237,238]" dest="(: ( [237,238]"/>
+  <match src="struct: struct [1739,1745]" dest="struct: struct [1739,1745]"/>
+  <match src="if_statement [3427,3684]" dest="if_statement [3507,3764]"/>
+  <match src="||: || [6560,6562]" dest="||: || [6820,6822]"/>
+  <match src="declaration [131,163]" dest="declaration [131,163]"/>
+  <match src="expression_statement [3696,3718]" dest="expression_statement [3776,3798]"/>
+  <match src=",: , [63,64]" dest=",: , [63,64]"/>
+  <match src="parenthesized_expression [6515,6523]" dest="parenthesized_expression [6775,6783]"/>
+  <match src=";: ; [2494,2495]" dest=";: ; [2494,2495]"/>
+  <match src="identifier: iface [29,34]" dest="identifier: iface [29,34]"/>
+  <match src="parenthesized_expression [982,1105]" dest="parenthesized_expression [982,1105]"/>
+  <match src="argument_list [2007,2083]" dest="argument_list [2007,2083]"/>
+  <match src="identifier: rdnssinfo [4231,4240]" dest="identifier: rdnssinfo [4311,4320]"/>
+  <match src=";: ; [7013,7014]" dest=";: ; [7273,7274]"/>
+  <match src="(: ( [2848,2849]" dest="(: ( [2928,2929]"/>
+  <match src="identifier: iface [2061,2066]" dest="identifier: iface [2061,2066]"/>
+  <match src="identifier: addr_str [2388,2396]" dest="identifier: addr_str [2388,2396]"/>
+  <match src="struct_specifier [1549,1572]" dest="struct_specifier [1549,1572]"/>
+  <match src="&amp;&amp;: &amp;&amp; [304,306]" dest="&amp;&amp;: &amp;&amp; [304,306]"/>
+  <match src="expression_statement [5890,5946]" dest="expression_statement [6150,6206]"/>
+  <match src="{: { [93,94]" dest="{: { [93,94]"/>
+  <match src="identifier: optlen [2266,2272]" dest="identifier: optlen [2266,2272]"/>
+  <match src="struct: struct [96,102]" dest="struct: struct [96,102]"/>
+  <match src="): ) [4623,4624]" dest="): ) [4748,4749]"/>
+  <match src="identifier: rdnss [5202,5207]" dest="identifier: rdnss [5327,5332]"/>
+  <match src="identifier: radvert [277,284]" dest="identifier: radvert [277,284]"/>
+  <match src="identifier: offset [1925,1931]" dest="identifier: offset [1925,1931]"/>
+  <match src="field_identifier: PrefixLen [2981,2990]" dest="field_identifier: PrefixLen [3061,3070]"/>
+  <match src=";: ; [1789,1790]" dest=";: ; [1789,1790]"/>
+  <match src="identifier: prefix_str [3377,3387]" dest="identifier: prefix_str [3457,3467]"/>
+  <match src="(: ( [3267,3268]" dest="(: ( [3347,3348]"/>
+  <match src="identifier: rdnss_str [5406,5415]" dest="identifier: rdnss_str [5531,5540]"/>
+  <match src="(: ( [6910,6911]" dest="(: ( [7170,7171]"/>
+  <match src=",: , [5440,5441]" dest=",: , [5565,5566]"/>
+  <match src="declaration [1649,1691]" dest="declaration [1649,1691]"/>
+  <match src="identifier: opt_str [1514,1521]" dest="identifier: opt_str [1514,1521]"/>
+  <match src="): ) [2486,2487]" dest="): ) [2486,2487]"/>
+  <match src="]: ] [1851,1852]" dest="]: ] [1851,1852]"/>
+  <match src="{: { [2152,2153]" dest="{: { [2152,2153]"/>
+  <match src="identifier: opt_str [5788,5795]" dest="identifier: opt_str [5913,5920]"/>
+  <match src="case_statement [4793,5161]" dest="case_statement [4918,5286]"/>
+  <match src="identifier: iface [2654,2659]" dest="identifier: iface [2693,2698]"/>
+  <match src="(: ( [4243,4244]" dest="(: ( [4323,4324]"/>
+  <match src="parenthesized_expression [2944,3117]" dest="parenthesized_expression [3024,3197]"/>
+  <match src="!=: != [6864,6866]" dest="!=: != [7124,7126]"/>
+  <match src="parenthesized_expression [5955,5971]" dest="parenthesized_expression [6215,6231]"/>
+  <match src=",: , [3631,3632]" dest=",: , [3711,3712]"/>
+  <match src="-&gt;: -&gt; [3052,3054]" dest="-&gt;: -&gt; [3132,3134]"/>
+  <match src="(: ( [689,690]" dest="(: ( [689,690]"/>
+  <match src="): ) [263,264]" dest="): ) [263,264]"/>
+  <match src="argument_list [2161,2239]" dest="argument_list [2161,2239]"/>
+  <match src="field_identifier: nd_opt_pi_preferred_time [2805,2829]" dest="field_identifier: nd_opt_pi_preferred_time [2885,2909]"/>
+  <match src="field_expression [468,479]" dest="field_expression [468,479]"/>
+  <match src="identifier: dnsslinfo [6609,6618]" dest="identifier: dnsslinfo [6869,6878]"/>
+  <match src="argument_list [1284,1311]" dest="argument_list [1284,1311]"/>
+  <match src="identifier: LOG_WARNING [5429,5440]" dest="identifier: LOG_WARNING [5554,5565]"/>
+  <match src="field_expression [1080,1103]" dest="field_expression [1080,1103]"/>
+  <match src=";: ; [6998,6999]" dest=";: ; [7258,7259]"/>
+  <match src=";: ; [4058,4059]" dest=";: ; [4138,4139]"/>
+  <match src="field_identifier: Name [6810,6814]" dest="field_identifier: Name [7070,7074]"/>
+  <match src="field_identifier: nd_opt_rdnssi_addr2 [4885,4904]" dest="field_identifier: nd_opt_rdnssi_addr2 [5010,5029]"/>
+  <match src="-: - [5876,5877]" dest="-: - [6047,6048]"/>
+  <match src="for_statement [5821,7004]" dest="for_statement [5992,7264]"/>
+  <match src="abstract_pointer_declarator [6668,6669]" dest="abstract_pointer_declarator [6928,6929]"/>
+  <match src="&quot;: &quot; [5648,5649]" dest="&quot;: &quot; [5773,5774]"/>
+  <match src="abstract_pointer_declarator [1533,1534]" dest="abstract_pointer_declarator [1533,1534]"/>
+  <match src="field_expression [2994,3021]" dest="field_expression [3074,3101]"/>
+  <match src="&quot;: &quot; [2334,2335]" dest="&quot;: &quot; [2334,2335]"/>
+  <match src="(: ( [1278,1279]" dest="(: ( [1278,1279]"/>
+  <match src="): ) [770,771]" dest="): ) [770,771]"/>
+  <match src="parenthesized_expression [1491,1501]" dest="parenthesized_expression [1491,1501]"/>
+  <match src="identifier: INET6_ADDRSTRLEN [1835,1851]" dest="identifier: INET6_ADDRSTRLEN [1835,1851]"/>
+  <match src="char_literal [5812,5816]" dest="char_literal [5983,5987]"/>
+  <match src="call_expression [5362,5416]" dest="call_expression [5487,5541]"/>
+  <match src=":: : [5582,5583]" dest=":: : [5707,5708]"/>
+  <match src="struct_specifier [1694,1724]" dest="struct_specifier [1694,1724]"/>
+  <match src=";: ; [3831,3832]" dest=";: ; [3911,3912]"/>
+  <match src="{: { [582,583]" dest="{: { [582,583]"/>
+  <match src="identifier: rdnss_str [4724,4733]" dest="identifier: rdnss_str [4849,4858]"/>
+  <match src="): ) [6166,6167]" dest="): ) [6426,6427]"/>
+  <match src="+=: += [6986,6988]" dest="+=: += [7246,7248]"/>
+  <match src="identifier: iface [4814,4819]" dest="identifier: iface [4939,4944]"/>
+  <match src="if: if [272,274]" dest="if: if [272,274]"/>
+  <match src="identifier: ND_OPT_MTU [2445,2455]" dest="identifier: ND_OPT_MTU [2445,2455]"/>
+  <match src="translation_unit [0,7189]" dest="translation_unit [0,7449]"/>
+  <match src="identifier: iface [1315,1320]" dest="identifier: iface [1315,1320]"/>
+  <match src="pointer_declarator [1680,1690]" dest="pointer_declarator [1680,1690]"/>
+  <match src="declaration [1739,1762]" dest="declaration [1739,1762]"/>
+  <match src="case_statement [4103,4132]" dest="case_statement [4183,4212]"/>
+  <match src="binary_expression [5848,5878]" dest="binary_expression [6019,6049]"/>
+  <match src="expression_statement [2287,2398]" dest="expression_statement [2287,2398]"/>
+  <match src="&quot;: &quot; [3568,3569]" dest="&quot;: &quot; [3648,3649]"/>
+  <match src="field_expression [1012,1035]" dest="field_expression [1012,1035]"/>
+  <match src="field_expression [5210,5229]" dest="field_expression [5335,5354]"/>
+  <match src="primitive_type: uint8_t [165,172]" dest="primitive_type: uint8_t [165,172]"/>
+  <match src="=: = [2790,2791]" dest="=: = [2870,2871]"/>
+  <match src="identifier: prefix [2945,2951]" dest="identifier: prefix [3025,3031]"/>
+  <match src="}: } [5692,5693]" dest="}: } [5817,5818]"/>
+  <match src="if: if [2262,2264]" dest="if: if [2262,2264]"/>
+  <match src="if: if [5952,5954]" dest="if: if [6212,6214]"/>
+  <match src=",: , [652,653]" dest=",: , [652,653]"/>
+  <match src="{: { [1595,1596]" dest="{: { [1595,1596]"/>
+  <match src="': ' [6088,6089]" dest="': ' [6348,6349]"/>
+  <match src="field_identifier: nd_ra_curhoplimit [347,364]" dest="field_identifier: nd_ra_curhoplimit [347,364]"/>
+  <match src="&amp;: &amp; [6608,6609]" dest="&amp;: &amp; [6868,6869]"/>
+  <match src="!: ! [3431,3432]" dest="!: ! [3511,3512]"/>
+  <match src=":: : [5195,5196]" dest=":: : [5320,5321]"/>
+  <match src="binary_expression [2266,2278]" dest="binary_expression [2266,2278]"/>
+  <match src=";: ; [1510,1511]" dest=";: ; [1510,1511]"/>
+  <match src="identifier: preferred [3466,3475]" dest="identifier: preferred [3546,3555]"/>
+  <match src="-&gt;: -&gt; [5532,5534]" dest="-&gt;: -&gt; [5657,5659]"/>
+  <match src="pointer_expression [7098,7106]" dest="pointer_expression [7358,7366]"/>
+  <match src="identifier: addr_str [4748,4756]" dest="identifier: addr_str [4873,4881]"/>
+  <match src="expression_statement [7149,7163]" dest="expression_statement [7409,7423]"/>
+  <match src="&amp;: &amp; [6919,6920]" dest="&amp;: &amp; [7179,7180]"/>
+  <match src="(: ( [2291,2292]" dest="(: ( [2291,2292]"/>
+  <match src=";: ; [3168,3169]" dest=";: ; [3248,3249]"/>
+  <match src="-&gt;: -&gt; [5911,5913]" dest="-&gt;: -&gt; [6171,6173]"/>
+  <match src="field_identifier: Name [6283,6287]" dest="field_identifier: Name [6543,6547]"/>
+  <match src="!: ! [4844,4845]" dest="!: ! [4969,4970]"/>
+  <match src="parenthesized_expression [5239,5303]" dest="parenthesized_expression [5364,5428]"/>
+  <match src=":: : [4162,4163]" dest=":: : [4242,4243]"/>
+  <match src="field_expression [3479,3507]" dest="field_expression [3559,3587]"/>
+  <match src="(: ( [6138,6139]" dest="(: ( [6398,6399]"/>
+  <match src="&amp;&amp;: &amp;&amp; [3463,3465]" dest="&amp;&amp;: &amp;&amp; [3543,3545]"/>
+  <match src="compound_statement [6169,6306]" dest="compound_statement [6429,6566]"/>
+  <match src="compound_statement [4512,4765]" dest="compound_statement [4637,4890]"/>
+  <match src="subscript_expression [5800,5809]" dest="subscript_expression [5971,5980]"/>
+  <match src="&quot;: &quot; [2301,2302]" dest="&quot;: &quot; [2301,2302]"/>
+  <match src="(: ( [5753,5754]" dest="(: ( [5878,5879]"/>
+  <match src="&quot;: &quot; [846,847]" dest="&quot;: &quot; [846,847]"/>
+  <match src="cast_expression [237,268]" dest="cast_expression [237,268]"/>
+  <match src=";: ; [1815,1816]" dest=";: ; [1815,1816]"/>
+  <match src="field_identifier: Prefix [3149,3155]" dest="field_identifier: Prefix [3229,3235]"/>
+  <match src="if_statement [1488,1511]" dest="if_statement [1488,1511]"/>
+  <match src="identifier: rdnssinfo [4478,4487]" dest="identifier: rdnssinfo [4603,4612]"/>
+  <match src="expression_statement [2835,2878]" dest="expression_statement [2915,2958]"/>
+  <match src="field_identifier: Name [3627,3631]" dest="field_identifier: Name [3707,3711]"/>
+  <match src="number_literal: 2 [6595,6596]" dest="number_literal: 2 [6855,6856]"/>
+  <match src="{: { [1107,1108]" dest="{: { [1107,1108]"/>
+  <match src=",: , [413,414]" dest=",: , [413,414]"/>
+  <match src="field_expression [3141,3155]" dest="field_expression [3221,3235]"/>
+  <match src="assignment_expression [4410,4437]" dest="assignment_expression [4535,4562]"/>
+  <match src="identifier: valid [3215,3220]" dest="identifier: valid [3295,3300]"/>
+  <match src="identifier: offset [6696,6702]" dest="identifier: offset [6956,6962]"/>
+  <match src="break: break [2686,2691]" dest="break: break [2725,2730]"/>
+  <match src="call_expression [586,679]" dest="call_expression [586,679]"/>
+  <match src="(: ( [6532,6533]" dest="(: ( [6792,6793]"/>
+  <match src="identifier: ND_OPT_PREFIX_INFORMATION [2700,2725]" dest="identifier: ND_OPT_PREFIX_INFORMATION [2739,2764]"/>
+  <match src="): ) [2551,2552]" dest="): ) [2590,2591]"/>
+  <match src="): ) [4510,4511]" dest="): ) [4635,4636]"/>
+  <match src="&quot;: &quot; [6895,6896]" dest="&quot;: &quot; [7155,7156]"/>
+  <match src=",: , [5008,5009]" dest=",: , [5133,5134]"/>
+  <match src="number_literal: 1 [2120,2121]" dest="number_literal: 1 [2120,2121]"/>
+  <match src="argument_list [3966,4058]" dest="argument_list [4046,4138]"/>
+  <match src="call_expression [3263,3413]" dest="call_expression [3343,3493]"/>
+  <match src="parenthesized_expression [1584,1593]" dest="parenthesized_expression [1584,1593]"/>
+  <match src="declaration [1946,1979]" dest="declaration [1946,1979]"/>
+  <match src=";: ; [4285,4286]" dest=";: ; [4365,4366]"/>
+  <match src="identifier: LOG_WARNING [1350,1361]" dest="identifier: LOG_WARNING [1350,1361]"/>
+  <match src="field_expression [2892,2912]" dest="field_expression [2972,2992]"/>
+  <match src="&amp;&amp;: &amp;&amp; [741,743]" dest="&amp;&amp;: &amp;&amp; [741,743]"/>
+  <match src="string_content: our AdvOtherConfigFlag on %s doesn't agree with %s [796,846]" dest="string_content: our AdvOtherConfigFlag on %s doesn't agree with %s [796,846]"/>
+  <match src="): ) [489,490]" dest="): ) [489,490]"/>
+  <match src="identifier: addr_match [3034,3044]" dest="identifier: addr_match [3114,3124]"/>
+  <match src="expression_statement [1345,1440]" dest="expression_statement [1345,1440]"/>
+  <match src=";: ; [6837,6838]" dest=";: ; [7097,7098]"/>
+  <match src="&quot;: &quot; [5046,5047]" dest="&quot;: &quot; [5171,5172]"/>
+  <match src=",: , [4648,4649]" dest=",: , [4773,4774]"/>
+  <match src="(: ( [1216,1217]" dest="(: ( [1216,1217]"/>
+  <match src="array_declarator [1824,1852]" dest="array_declarator [1824,1852]"/>
+  <match src="expression_statement [227,269]" dest="expression_statement [227,269]"/>
+  <match src="*: * [86,87]" dest="*: * [86,87]"/>
+  <match src="field_identifier: nd_opt_rdnssi_addr1 [5385,5404]" dest="field_identifier: nd_opt_rdnssi_addr1 [5510,5529]"/>
+  <match src="identifier: ND_RA_FLAG_OTHER [723,739]" dest="identifier: ND_RA_FLAG_OTHER [723,739]"/>
+  <match src="unary_expression [6117,6167]" dest="unary_expression [6377,6427]"/>
+  <match src="identifier: iface [558,563]" dest="identifier: iface [558,563]"/>
+  <match src="string_literal [604,652]" dest="string_literal [604,652]"/>
+  <match src="]: ] [2121,2122]" dest="]: ] [2121,2122]"/>
+  <match src="type_descriptor [4022,4025]" dest="type_descriptor [4102,4105]"/>
+  <match src="-&gt;: -&gt; [991,993]" dest="-&gt;: -&gt; [991,993]"/>
+  <match src="': ' [6870,6871]" dest="': ' [7130,7131]"/>
+  <match src="break_statement [6832,6838]" dest="break_statement [7092,7098]"/>
+  <match src="(: ( [2007,2008]" dest="(: ( [2007,2008]"/>
+  <match src=",: , [1964,1965]" dest=",: , [1964,1965]"/>
+  <match src="call_expression [2792,2830]" dest="call_expression [2872,2910]"/>
+  <match src="type_identifier: nd_opt_rdnss_info_local [4251,4274]" dest="type_identifier: nd_opt_rdnss_info_local [4331,4354]"/>
+  <match src="identifier: len [1987,1990]" dest="identifier: len [1987,1990]"/>
+  <match src="identifier: sockaddr_in6 [73,85]" dest="identifier: sockaddr_in6 [73,85]"/>
+  <match src="): ) [2675,2676]" dest="): ) [2714,2715]"/>
+  <match src="struct: struct [1694,1700]" dest="struct: struct [1694,1700]"/>
+  <match src="-&gt;: -&gt; [857,859]" dest="-&gt;: -&gt; [857,859]"/>
+  <match src="type_identifier: nd_router_advert [245,261]" dest="type_identifier: nd_router_advert [245,261]"/>
+  <match src="}: } [3420,3421]" dest="}: } [3500,3501]"/>
+  <match src="[: [ [1903,1904]" dest="[: [ [1903,1904]"/>
+  <match src="): ) [3248,3249]" dest="): ) [3328,3329]"/>
+  <match src="concatenated_string [3281,3348]" dest="concatenated_string [3361,3428]"/>
+  <match src="): ) [4756,4757]" dest="): ) [4881,4882]"/>
+  <match src="field_expression [3705,3717]" dest="field_expression [3785,3797]"/>
+  <match src="{: { [773,774]" dest="{: { [773,774]"/>
+  <match src="parenthesized_expression [3179,3249]" dest="parenthesized_expression [3259,3329]"/>
+  <match src="expression_statement [3522,3677]" dest="expression_statement [3602,3757]"/>
+  <match src="identifier: check_rdnss_presence [4845,4865]" dest="identifier: check_rdnss_presence [4970,4990]"/>
+  <match src="identifier: suffix [6516,6522]" dest="identifier: suffix [6776,6782]"/>
+  <match src="!: ! [744,745]" dest="!: ! [744,745]"/>
+  <match src="number_literal: 0 [1591,1592]" dest="number_literal: 0 [1591,1592]"/>
+  <match src="expression_statement [6903,6974]" dest="expression_statement [7163,7234]"/>
+  <match src="identifier: LOG_WARNING [4637,4648]" dest="identifier: LOG_WARNING [4762,4773]"/>
+  <match src="(: ( [3966,3967]" dest="(: ( [4046,4047]"/>
+  <match src="case: case [4135,4139]" dest="case: case [4215,4219]"/>
+  <match src="field_identifier: next [3713,3717]" dest="field_identifier: next [3793,3797]"/>
+  <match src="identifier: offset [6643,6649]" dest="identifier: offset [6903,6909]"/>
+  <match src="identifier: radvert [338,345]" dest="identifier: radvert [338,345]"/>
+  <match src="&quot;: &quot; [3305,3306]" dest="&quot;: &quot; [3385,3386]"/>
+  <match src="identifier: ND_OPT_TARGET_LINKADDR [3902,3924]" dest="identifier: ND_OPT_TARGET_LINKADDR [3982,4004]"/>
+  <match src="for: for [5821,5824]" dest="for: for [5992,5995]"/>
+  <match src="identifier: addr_str [1430,1438]" dest="identifier: addr_str [1430,1438]"/>
+  <match src="abstract_pointer_declarator [2765,2766]" dest="abstract_pointer_declarator [2804,2805]"/>
+  <match src="+: + [6703,6704]" dest="+: + [6963,6964]"/>
+  <match src="): ) [390,391]" dest="): ) [390,391]"/>
+  <match src="field_expression [368,389]" dest="field_expression [368,389]"/>
+  <match src="): ) [5415,5416]" dest="): ) [5540,5541]"/>
+  <match src="(: ( [1548,1549]" dest="(: ( [1548,1549]"/>
+  <match src=";: ; [1484,1485]" dest=";: ; [1484,1485]"/>
+  <match src=",: , [1195,1196]" dest=",: , [1195,1196]"/>
+  <match src="identifier: addr [197,201]" dest="identifier: addr [197,201]"/>
+  <match src="(: ( [1217,1218]" dest="(: ( [1217,1218]"/>
+  <match src="call_expression [2003,2083]" dest="call_expression [2003,2083]"/>
+  <match src="identifier: LOG_ERR [2008,2015]" dest="identifier: LOG_ERR [2008,2015]"/>
+  <match src="]: ] [6862,6863]" dest="]: ] [7122,7123]"/>
+  <match src="&amp;: &amp; [4477,4478]" dest="&amp;: &amp; [4602,4603]"/>
+  <match src="field_identifier: Name [2382,2386]" dest="field_identifier: Name [2382,2386]"/>
+  <match src="): ) [3412,3413]" dest="): ) [3492,3493]"/>
+  <match src=";: ; [1206,1207]" dest=";: ; [1206,1207]"/>
+  <match src="&lt;: &lt; [5845,5846]" dest="&lt;: &lt; [6016,6017]"/>
+  <match src="field_identifier: AdvPreferredLifetime [3487,3507]" dest="field_identifier: AdvPreferredLifetime [3567,3587]"/>
+  <match src="declaration [1694,1736]" dest="declaration [1694,1736]"/>
+  <match src="if_statement [6504,6844]" dest="if_statement [6764,7104]"/>
+  <match src="&quot;: &quot; [6258,6259]" dest="&quot;: &quot; [6518,6519]"/>
+  <match src="-&gt;: -&gt; [201,203]" dest="-&gt;: -&gt; [201,203]"/>
+  <match src="case_statement [7017,7141]" dest="case_statement [7277,7401]"/>
+  <match src="field_identifier: nd_opt_dnssli_suffixes [5913,5935]" dest="field_identifier: nd_opt_dnssli_suffixes [6173,6195]"/>
+  <match src="field_identifier: enabled [2953,2960]" dest="field_identifier: enabled [3033,3040]"/>
+  <match src=";: ; [4326,4327]" dest=";: ; [4451,4452]"/>
+  <match src="&amp;&amp;: &amp;&amp; [2961,2963]" dest="&amp;&amp;: &amp;&amp; [3041,3043]"/>
+  <match src="if_statement [4444,4765]" dest="if_statement [4569,4890]"/>
+  <match src="identifier: rdnss [1810,1815]" dest="identifier: rdnss [1810,1815]"/>
+  <match src="field_expression [5848,5876]" dest="field_expression [6019,6047]"/>
+  <match src="}: } [682,683]" dest="}: } [682,683]"/>
+  <match src="): ) [2876,2877]" dest="): ) [2956,2957]"/>
+  <match src="expression_statement [2102,2129]" dest="expression_statement [2102,2129]"/>
+  <match src="=: = [5833,5834]" dest="=: = [6004,6005]"/>
+  <match src="if: if [497,499]" dest="if: if [497,499]"/>
+  <match src="if: if [1213,1215]" dest="if: if [1213,1215]"/>
+  <match src=",: , [5601,5602]" dest=",: , [5726,5727]"/>
+  <match src="parenthesized_expression [690,740]" dest="parenthesized_expression [690,740]"/>
+  <match src="type_descriptor [1525,1534]" dest="type_descriptor [1525,1534]"/>
+  <match src="!: ! [557,558]" dest="!: ! [557,558]"/>
+  <match src="identifier: rdnss [4470,4475]" dest="identifier: rdnss [4595,4600]"/>
+  <match src="&quot;: &quot; [6746,6747]" dest="&quot;: &quot; [7006,7007]"/>
+  <match src="): ) [4276,4277]" dest="): ) [4356,4357]"/>
+  <match src="case_statement [4397,4765]" dest="case_statement [4522,4890]"/>
+  <match src="expression_statement [3129,3169]" dest="expression_statement [3209,3249]"/>
+  <match src=",: , [5044,5045]" dest=",: , [5169,5170]"/>
+  <match src="array_declarator [1897,1908]" dest="array_declarator [1897,1908]"/>
+  <match src="identifier: radvert [1051,1058]" dest="identifier: radvert [1051,1058]"/>
+  <match src="]: ] [1887,1888]" dest="]: ] [1887,1888]"/>
+  <match src="identifier: flog [586,590]" dest="identifier: flog [586,590]"/>
+  <match src="argument_list [3526,3676]" dest="argument_list [3606,3756]"/>
+  <match src="(: ( [10,11]" dest="(: ( [10,11]"/>
+  <match src="primitive_type: int [1921,1924]" dest="primitive_type: int [1921,1924]"/>
+  <match src="argument_list [5032,5153]" dest="argument_list [5157,5278]"/>
+  <match src="parenthesized_expression [6071,6090]" dest="parenthesized_expression [6331,6350]"/>
+  <match src="identifier: dnsslinfo [6920,6929]" dest="identifier: dnsslinfo [7180,7189]"/>
+  <match src="field_expression [5665,5676]" dest="field_expression [5790,5801]"/>
+  <match src="primitive_type: char [1856,1860]" dest="primitive_type: char [1856,1860]"/>
+  <match src="break_statement [5564,5570]" dest="break_statement [5689,5695]"/>
+  <match src=",: , [6287,6288]" dest=",: , [6547,6548]"/>
+  <match src="-&gt;: -&gt; [284,286]" dest="-&gt;: -&gt; [284,286]"/>
+  <match src="compound_statement [3255,3421]" dest="compound_statement [3335,3501]"/>
+  <match src="identifier: iface [4418,4423]" dest="identifier: iface [4543,4548]"/>
+  <match src=";: ; [3893,3894]" dest=";: ; [3973,3974]"/>
+  <match src="field_expression [5374,5404]" dest="field_expression [5499,5529]"/>
+  <match src="binary_expression [984,1035]" dest="binary_expression [984,1035]"/>
+  <match src="break_statement [2402,2408]" dest="break_statement [2402,2408]"/>
+  <match src="identifier: label_len [5890,5899]" dest="identifier: label_len [6150,6159]"/>
+  <match src="expression_statement [5741,5796]" dest="expression_statement [5866,5921]"/>
+  <match src="sized_type_specifier [1912,1924]" dest="sized_type_specifier [1912,1924]"/>
+  <match src="*: * [1757,1758]" dest="*: * [1757,1758]"/>
+  <match src="identifier: int [56,59]" dest="identifier: int [56,59]"/>
+  <match src="call_expression [185,223]" dest="call_expression [185,223]"/>
+  <match src="identifier: addr_str [5540,5548]" dest="identifier: addr_str [5665,5673]"/>
+  <match src="expression_statement [3962,4059]" dest="expression_statement [4042,4139]"/>
+  <match src="identifier: print_addr [5362,5372]" dest="identifier: print_addr [5487,5497]"/>
+  <match src="identifier: iface [6139,6144]" dest="identifier: iface [6399,6404]"/>
+  <match src="call_expression [5028,5153]" dest="call_expression [5153,5278]"/>
+  <match src="&gt;: &gt; [2273,2274]" dest="&gt;: &gt; [2273,2274]"/>
+  <match src="*: * [2765,2766]" dest="*: * [2804,2805]"/>
+  <match src="(: ( [3179,3180]" dest="(: ( [3259,3260]"/>
+  <match src="-&gt;: -&gt; [6929,6931]" dest="-&gt;: -&gt; [7189,7191]"/>
+  <match src="&quot;: &quot; [7048,7049]" dest="&quot;: &quot; [7308,7309]"/>
+  <match src="): ) [6896,6897]" dest="): ) [7156,7157]"/>
+  <match src="number_literal: 7 [4402,4403]" dest="number_literal: 7 [4527,4528]"/>
+  <match src="field_expression [7108,7119]" dest="field_expression [7368,7379]"/>
+  <match src="): ) [3507,3508]" dest="): ) [3587,3588]"/>
+  <match src=";: ; [4193,4194]" dest=";: ; [4273,4274]"/>
+  <match src="string_literal [3976,4015]" dest="string_literal [4056,4095]"/>
+  <match src="break: break [2088,2093]" dest="break: break [2088,2093]"/>
+  <match src="*: * [1533,1534]" dest="*: * [1533,1534]"/>
+  <match src="field_identifier: nd_opt_mtu_mtu [2537,2551]" dest="field_identifier: nd_opt_mtu_mtu [2576,2590]"/>
+  <match src="(: ( [7093,7094]" dest="(: ( [7353,7354]"/>
+  <match src="}: } [2681,2682]" dest="}: } [2720,2721]"/>
+  <match src="parenthesized_expression [501,553]" dest="parenthesized_expression [501,553]"/>
+  <match src="}: } [2411,2412]" dest="}: } [2411,2412]"/>
+  <match src="): ) [6167,6168]" dest="): ) [6427,6428]"/>
+  <match src=",: , [4746,4747]" dest=",: , [4871,4872]"/>
+  <match src="(: ( [5593,5594]" dest="(: ( [5718,5719]"/>
+  <match src="assignment_expression [5741,5795]" dest="assignment_expression [5866,5920]"/>
+  <match src="assignment_expression [2780,2830]" dest="assignment_expression [2860,2910]"/>
+  <match src=",: , [5404,5405]" dest=",: , [5529,5530]"/>
+  <match src="-&gt;: -&gt; [2979,2981]" dest="-&gt;: -&gt; [3059,3061]"/>
+  <match src="identifier: opt_str [4278,4285]" dest="identifier: opt_str [4358,4365]"/>
+  <match src="parenthesized_expression [1986,1995]" dest="parenthesized_expression [1986,1995]"/>
+  <match src="assignment_expression [2460,2494]" dest="assignment_expression [2460,2494]"/>
+  <match src="number_literal: 0 [6861,6862]" dest="number_literal: 0 [7121,7122]"/>
+  <match src="): ) [5882,5883]" dest="): ) [6053,6054]"/>
+  <match src="string_content: . [6894,6895]" dest="string_content: . [7154,7155]"/>
+  <match src="case_statement [3928,4069]" dest="case_statement [4008,4149]"/>
+  <match src="string_literal [5603,5649]" dest="string_literal [5728,5774]"/>
+  <match src="identifier: radvert [227,234]" dest="identifier: radvert [227,234]"/>
+  <match src="identifier: iface [852,857]" dest="identifier: iface [852,857]"/>
+  <match src="identifier: strlen [6526,6532]" dest="identifier: strlen [6786,6792]"/>
+  <match src=",: , [4015,4016]" dest=",: , [4095,4096]"/>
+  <match src="): ) [5970,5971]" dest="): ) [6230,6231]"/>
+  <match src="[: [ [144,145]" dest="[: [ [144,145]"/>
+  <match src="identifier: addr_str [1197,1205]" dest="identifier: addr_str [1197,1205]"/>
+  <match src=";: ; [1609,1610]" dest=";: ; [1609,1610]"/>
+  <match src="case: case [4397,4401]" dest="case: case [4522,4526]"/>
+  <match src="identifier: suffix [6160,6166]" dest="identifier: suffix [6420,6426]"/>
+  <match src="expression_statement [6177,6299]" dest="expression_statement [6437,6559]"/>
+  <match src="parenthesized_expression [983,1036]" dest="parenthesized_expression [983,1036]"/>
+  <match src="}: } [3683,3684]" dest="}: } [3763,3764]"/>
+  <match src="): ) [2278,2279]" dest="): ) [2278,2279]"/>
+  <match src="case: case [3928,3932]" dest="case: case [4008,4012]"/>
+  <match src="*: * [173,174]" dest="*: * [173,174]"/>
+  <match src="-&gt;: -&gt; [2066,2068]" dest="-&gt;: -&gt; [2066,2068]"/>
+  <match src="=: = [4296,4297]" dest="=: = [4421,4422]"/>
+  <match src="identifier: count [5658,5663]" dest="identifier: count [5783,5788]"/>
+  <match src="if: if [3176,3178]" dest="if: if [3256,3258]"/>
+  <match src="struct: struct [2467,2473]" dest="struct: struct [2467,2473]"/>
+  <match src="(: ( [5847,5848]" dest="(: ( [6018,6019]"/>
+  <match src=",: , [6891,6892]" dest=",: , [7151,7152]"/>
+  <match src="(: ( [276,277]" dest="(: ( [276,277]"/>
+  <match src="-&gt;: -&gt; [5136,5138]" dest="-&gt;: -&gt; [5261,5263]"/>
+  <match src="comment: /* note: we don't check the default router preference here, because they're likely different */ [881,976]" dest="comment: /* note: we don't check the default router preference here, because they're likely different */ [881,976]"/>
+  <match src=";: ; [6825,6826]" dest=";: ; [7085,7086]"/>
+  <match src="compound_statement [393,494]" dest="compound_statement [393,494]"/>
+  <match src=";: ; [1942,1943]" dest=";: ; [1942,1943]"/>
+  <match src="&quot;: &quot; [2171,2172]" dest="&quot;: &quot; [2171,2172]"/>
+  <match src="type_descriptor [1549,1572]" dest="type_descriptor [1549,1572]"/>
+  <match src="if_statement [1213,1443]" dest="if_statement [1213,1443]"/>
+  <match src="comment: /* not checked */ [4167,4184]" dest="comment: /* not checked */ [4247,4264]"/>
+  <match src="identifier: radvert [121,128]" dest="identifier: radvert [121,128]"/>
+  <match src="*: * [2485,2486]" dest="*: * [2485,2486]"/>
+  <match src="declaration [1892,1909]" dest="declaration [1892,1909]"/>
+  <match src="escape_sequence: \0 [5813,5815]" dest="escape_sequence: \0 [5984,5986]"/>
+  <match src="&quot;: &quot; [4650,4651]" dest="&quot;: &quot; [4775,4776]"/>
+  <match src="string_content: our AdvRetransTimer on %s doesn't agree with %s [1364,1411]" dest="string_content: our AdvRetransTimer on %s doesn't agree with %s [1364,1411]"/>
+  <match src="break_statement [5698,5704]" dest="break_statement [5823,5829]"/>
+  <match src="-&gt;: -&gt; [4591,4593]" dest="-&gt;: -&gt; [4716,4718]"/>
+  <match src="&amp;: &amp; [5269,5270]" dest="&amp;: &amp; [5394,5395]"/>
+  <match src=";: ; [162,163]" dest=";: ; [162,163]"/>
+  <match src="identifier: opt_str [2487,2494]" dest="identifier: opt_str [2487,2494]"/>
+  <match src="parenthesized_expression [2111,2128]" dest="parenthesized_expression [2111,2128]"/>
+  <match src="(: ( [4021,4022]" dest="(: ( [4101,4102]"/>
+  <match src="identifier: rdnss_str [1861,1870]" dest="identifier: rdnss_str [1861,1870]"/>
+  <match src="): ) [1573,1574]" dest="): ) [1573,1574]"/>
+  <match src="if_statement [5952,6351]" dest="if_statement [6212,6611]"/>
+  <match src="identifier: pinfo [2730,2735]" dest="identifier: pinfo [2769,2774]"/>
+  <match src="field_expression [4874,4904]" dest="field_expression [4999,5029]"/>
+  <match src=";: ; [4757,4758]" dest=";: ; [4882,4883]"/>
+  <match src="call_expression [1279,1311]" dest="call_expression [1279,1311]"/>
+  <match src=",: , [3974,3975]" dest=",: , [4054,4055]"/>
+  <match src="field_expression [4582,4612]" dest="field_expression [4707,4737]"/>
+  <match src="identifier: iface [4036,4041]" dest="identifier: iface [4116,4121]"/>
+  <match src="&amp;: &amp; [5373,5374]" dest="&amp;: &amp; [5498,5499]"/>
+  <match src="identifier: iface [2556,2561]" dest="identifier: iface [2595,2600]"/>
+  <match src="case: case [3897,3901]" dest="case: case [3977,3981]"/>
+  <match src="{: { [3255,3256]" dest="{: { [3335,3336]"/>
+  <match src="field_expression [2556,2573]" dest="field_expression [2595,2612]"/>
+  <match src="=: = [5810,5811]" dest="=: = [5981,5982]"/>
+  <match src="case_statement [4197,5704]" dest="case_statement [4277,5829]"/>
+  <match src="identifier: rdnss [4866,4871]" dest="identifier: rdnss [4991,4996]"/>
+  <match src="): ) [6540,6541]" dest="): ) [6800,6801]"/>
+  <match src="abstract_pointer_declarator [28,29]" dest="abstract_pointer_declarator [28,29]"/>
+  <match src="identifier: opt_str [4027,4034]" dest="identifier: opt_str [4107,4114]"/>
+  <match src="binary_expression [6508,6723]" dest="binary_expression [6768,6983]"/>
+  <match src="): ) [579,580]" dest="): ) [579,580]"/>
+  <match src="): ) [5786,5787]" dest="): ) [5911,5912]"/>
+  <match src="identifier: iface [5210,5215]" dest="identifier: iface [5335,5340]"/>
+  <match src="return_statement [1504,1511]" dest="return_statement [1504,1511]"/>
+  <match src=";: ; [3732,3733]" dest=";: ; [3812,3813]"/>
+  <match src="identifier: iface [2375,2380]" dest="identifier: iface [2375,2380]"/>
+  <match src="): ) [6871,6872]" dest="): ) [7131,7132]"/>
+  <match src="field_identifier: sin6_addr [203,212]" dest="field_identifier: sin6_addr [203,212]"/>
+  <match src="identifier: opt_str [7166,7173]" dest="identifier: opt_str [7426,7433]"/>
+  <match src="field_identifier: Name [4742,4746]" dest="field_identifier: Name [4867,4871]"/>
+  <match src="parenthesized_expression [276,329]" dest="parenthesized_expression [276,329]"/>
+  <match src="-&gt;: -&gt; [3625,3627]" dest="-&gt;: -&gt; [3705,3707]"/>
+  <match src="continue_statement [6097,6106]" dest="continue_statement [6357,6366]"/>
+  <match src="struct: struct [2739,2745]" dest="struct: struct [2778,2784]"/>
+  <match src=";: ; [1645,1646]" dest=";: ; [1645,1646]"/>
+  <match src="field_expression [5270,5300]" dest="field_expression [5395,5425]"/>
+  <match src="-&gt;: -&gt; [4487,4489]" dest="-&gt;: -&gt; [4612,4614]"/>
+  <match src="identifier: iface [468,473]" dest="identifier: iface [468,473]"/>
+  <match src=";: ; [128,129]" dest=";: ; [128,129]"/>
+  <match src="field_identifier: AdvReachableTime [1019,1035]" dest="field_identifier: AdvReachableTime [1019,1035]"/>
+  <match src="): ) [1337,1338]" dest="): ) [1337,1338]"/>
+  <match src="argument_list [6138,6167]" dest="argument_list [6398,6427]"/>
+  <match src="{: { [2579,2580]" dest="{: { [2618,2619]"/>
+  <match src="field_expression [277,303]" dest="field_expression [277,303]"/>
+  <match src="}: } [6305,6306]" dest="}: } [6565,6566]"/>
+  <match src=",: , [4612,4613]" dest=",: , [4737,4738]"/>
+  <match src="(: ( [2923,2924]" dest="(: ( [3003,3004]"/>
+  <match src="cast_expression [6663,6677]" dest="cast_expression [6923,6937]"/>
+  <match src="struct_specifier [2467,2484]" dest="struct_specifier [2467,2484]"/>
+  <match src=";: ; [6973,6974]" dest=";: ; [7233,7234]"/>
+  <match src="assignment_expression [7166,7183]" dest="assignment_expression [7426,7443]"/>
+  <match src="string_literal [3540,3569]" dest="string_literal [3620,3649]"/>
+  <match src="*: * [2424,2425]" dest="*: * [2424,2425]"/>
+  <match src="': ' [6867,6868]" dest="': ' [7127,7128]"/>
+  <match src="field_identifier: AdvValidLifetime [3232,3248]" dest="field_identifier: AdvValidLifetime [3312,3328]"/>
+  <match src="identifier: iface [1247,1252]" dest="identifier: iface [1247,1252]"/>
+  <match src="*: * [4026,4027]" dest="*: * [4106,4107]"/>
+  <match src="field_identifier: nd_ra_retransmit [1294,1310]" dest="field_identifier: nd_ra_retransmit [1294,1310]"/>
+  <match src="unary_expression [3180,3211]" dest="unary_expression [3260,3291]"/>
+  <match src=",: , [2299,2300]" dest=",: , [2299,2300]"/>
+  <match src="call_expression [4632,4757]" dest="call_expression [4757,4882]"/>
+  <match src="subscript_expression [6072,6081]" dest="subscript_expression [6332,6341]"/>
+  <match src="field_identifier: nd_opt_rdnssi_addr3 [4489,4508]" dest="field_identifier: nd_opt_rdnssi_addr3 [4614,4633]"/>
+  <match src="string_literal [6195,6259]" dest="string_literal [6455,6519]"/>
+  <match src="pointer_expression [3045,3060]" dest="pointer_expression [3125,3140]"/>
+  <match src=";: ; [1978,1979]" dest=";: ; [1978,1979]"/>
+  <match src="struct_specifier [1460,1483]" dest="struct_specifier [1460,1483]"/>
+  <match src="identifier: strcat [6878,6884]" dest="identifier: strcat [7138,7144]"/>
+  <match src="ERROR [7188,7189]" dest="ERROR [7448,7449]"/>
+  <match src="declaration [1819,1853]" dest="declaration [1819,1853]"/>
+  <match src="cast_expression [1524,1574]" dest="cast_expression [1524,1574]"/>
+  <match src="=: = [4416,4417]" dest="=: = [4541,4542]"/>
+  <match src=",: , [863,864]" dest=",: , [863,864]"/>
+  <match src="call_expression [1045,1076]" dest="call_expression [1045,1076]"/>
+  <match src="-&gt;: -&gt; [4819,4821]" dest="-&gt;: -&gt; [4944,4946]"/>
+  <match src="identifier: suffix [5800,5806]" dest="identifier: suffix [5971,5977]"/>
+  <match src="assignment_expression [7149,7162]" dest="assignment_expression [7409,7422]"/>
+  <match src="&quot;: &quot; [2340,2341]" dest="&quot;: &quot; [2340,2341]"/>
+  <match src="(: ( [2525,2526]" dest="(: ( [2564,2565]"/>
+  <match src="struct_specifier [2739,2764]" dest="struct_specifier [2778,2803]"/>
+  <match src="}: } [6350,6351]" dest="}: } [6610,6611]"/>
+  <match src="(: ( [590,591]" dest="(: ( [590,591]"/>
+  <match src="if: if [6504,6506]" dest="if: if [6764,6766]"/>
+  <match src="-=: -= [1450,1452]" dest="-=: -= [1450,1452]"/>
+  <match src="(: ( [2423,2424]" dest="(: ( [2423,2424]"/>
+  <match src=";: ; [1761,1762]" dest=";: ; [1761,1762]"/>
+  <match src="call_expression [5589,5687]" dest="call_expression [5714,5812]"/>
+  <match src="number_literal: 2 [1993,1994]" dest="number_literal: 2 [1993,1994]"/>
+  <match src="identifier: dnsslinfo [1726,1735]" dest="identifier: dnsslinfo [1726,1735]"/>
+  <match src="struct: struct [4244,4250]" dest="struct: struct [4324,4330]"/>
+  <match src="identifier: LOG_ERR [2162,2169]" dest="identifier: LOG_ERR [2162,2169]"/>
+  <match src="unsigned: unsigned [1912,1920]" dest="unsigned: unsigned [1912,1920]"/>
+  <match src="): ) [5548,5549]" dest="): ) [5673,5674]"/>
+  <match src="&quot;: &quot; [5603,5604]" dest="&quot;: &quot; [5728,5729]"/>
+  <match src="identifier: rdnss [4410,4415]" dest="identifier: rdnss [4535,4540]"/>
+  <match src="comment: /* no match found in iface-&gt;AdvRDNSSList */ [4520,4563]" dest="comment: /* no match found in iface-&gt;AdvRDNSSList */ [4645,4688]"/>
+  <match src="assignment_expression [2883,2912]" dest="assignment_expression [2963,2992]"/>
+  <match src=";: ; [2249,2250]" dest=";: ; [2249,2250]"/>
+  <match src="number_literal: 5 [4798,4799]" dest="number_literal: 5 [4923,4924]"/>
+  <match src="(: ( [1986,1987]" dest="(: ( [1986,1987]"/>
+  <match src="): ) [6297,6298]" dest="): ) [6557,6558]"/>
+  <match src="case_statement [4135,4194]" dest="case_statement [4215,4274]"/>
+  <match src="pointer_expression [4026,4034]" dest="pointer_expression [4106,4114]"/>
+  <match src="field_identifier: AdvRetransTimer [1254,1269]" dest="field_identifier: AdvRetransTimer [1254,1269]"/>
+  <match src="{: { [2935,2936]" dest="{: { [3015,3016]"/>
+  <match src="): ) [1103,1104]" dest="): ) [1103,1104]"/>
+  <match src="assignment_expression [2730,2775]" dest="assignment_expression [2769,2814]"/>
+  <match src="(: ( [6884,6885]" dest="(: ( [7144,7145]"/>
+  <match src="field_identifier: PrefixLen [3106,3115]" dest="field_identifier: PrefixLen [3186,3195]"/>
+  <match src="identifier: rdnss_str [4614,4623]" dest="identifier: rdnss_str [4739,4748]"/>
+  <match src="identifier: iface [5131,5136]" dest="identifier: iface [5256,5261]"/>
+  <match src="binary_expression [502,552]" dest="binary_expression [502,552]"/>
+  <match src=";: ; [4437,4438]" dest=";: ; [4562,4563]"/>
+  <match src="identifier: pinfo [3063,3068]" dest="identifier: pinfo [3143,3148]"/>
+  <match src=";: ; [5687,5688]" dest=";: ; [5812,5813]"/>
+  <match src="parenthesized_expression [2136,2149]" dest="parenthesized_expression [2136,2149]"/>
+  <match src="identifier: flog [4632,4636]" dest="identifier: flog [4757,4761]"/>
+  <match src="): ) [91,92]" dest="): ) [91,92]"/>
+  <match src="): ) [6723,6724]" dest="): ) [6983,6984]"/>
+  <match src="expression_statement [4290,4327]" dest="expression_statement [4415,4452]"/>
+  <match src="{: { [2436,2437]" dest="{: { [2436,2437]"/>
+  <match src="call_expression [2287,2397]" dest="call_expression [2287,2397]"/>
+  <match src="field_identifier: nd_opt_pi_prefix_len [3001,3021]" dest="field_identifier: nd_opt_pi_prefix_len [3081,3101]"/>
+  <match src="identifier: radvert [691,698]" dest="identifier: radvert [691,698]"/>
+  <match src="}: } [7186,7187]" dest="}: } [7446,7447]"/>
+  <match src="identifier: prefix [2924,2930]" dest="identifier: prefix [3004,3010]"/>
+  <match src="if_statement [2133,2412]" dest="if_statement [2133,2412]"/>
+  <match src="identifier: iface [6276,6281]" dest="identifier: iface [6536,6541]"/>
+  <match src="type_descriptor [6664,6669]" dest="type_descriptor [6924,6929]"/>
+  <match src=";: ; [1735,1736]" dest=";: ; [1735,1736]"/>
+  <match src=":: : [4226,4227]" dest=":: : [4306,4307]"/>
+  <match src="): ) [5019,5020]" dest="): ) [5144,5145]"/>
+  <match src="&amp;: &amp; [4873,4874]" dest="&amp;: &amp; [4998,4999]"/>
+  <match src="): ) [2238,2239]" dest="): ) [2238,2239]"/>
+  <match src="parenthesized_expression [689,771]" dest="parenthesized_expression [689,771]"/>
+  <match src="call_expression [4449,4510]" dest="call_expression [4574,4635]"/>
+  <match src="unary_expression [3431,3462]" dest="unary_expression [3511,3542]"/>
+  <match src="-&gt;: -&gt; [312,314]" dest="-&gt;: -&gt; [312,314]"/>
+  <match src=",: , [4733,4734]" dest=",: , [4858,4859]"/>
+  <match src=",: , [2228,2229]" dest=",: , [2228,2229]"/>
+  <match src="unary_expression [4448,4510]" dest="unary_expression [4573,4635]"/>
+  <match src="(: ( [1115,1116]" dest="(: ( [1115,1116]"/>
+  <match src="compound_statement [582,683]" dest="compound_statement [582,683]"/>
+  <match src="=: = [2736,2737]" dest="=: = [2775,2776]"/>
+  <match src="subscript_expression [6313,6322]" dest="subscript_expression [6573,6582]"/>
+  <match src="}: } [3689,3690]" dest="}: } [3769,3770]"/>
+  <match src="primitive_type: int [7094,7097]" dest="primitive_type: int [7354,7357]"/>
+  <match src="-&gt;: -&gt; [563,565]" dest="-&gt;: -&gt; [563,565]"/>
+  <match src="identifier: iface [745,750]" dest="identifier: iface [745,750]"/>
+  <match src=";: ; [4624,4625]" dest=";: ; [4749,4750]"/>
+  <match src="field_expression [4036,4047]" dest="field_expression [4116,4127]"/>
+  <match src="*: * [1639,1640]" dest="*: * [1639,1640]"/>
+  <match src="[: [ [2119,2120]" dest="[: [ [2119,2120]"/>
+  <match src="else_clause [2257,2412]" dest="else_clause [2257,2412]"/>
+  <match src="): ) [389,390]" dest="): ) [389,390]"/>
+  <match src="macro_type_specifier [0,29]" dest="macro_type_specifier [0,29]"/>
+  <match src="argument_list [3139,3168]" dest="argument_list [3219,3248]"/>
+  <match src="-=: -= [7153,7155]" dest="-=: -= [7413,7415]"/>
+  <match src="&amp;: &amp; [196,197]" dest="&amp;: &amp; [196,197]"/>
+  <match src="field_expression [4478,4508]" dest="field_expression [4603,4633]"/>
+  <match src="field_identifier: AdvOtherConfigFlag [752,770]" dest="field_identifier: AdvOtherConfigFlag [752,770]"/>
+  <match src="struct_specifier [1613,1638]" dest="struct_specifier [1613,1638]"/>
+  <match src="comment: /* not checked: these will very likely vary a lot */ [3770,3822]" dest="comment: /* not checked: these will very likely vary a lot */ [3850,3902]"/>
+  <match src=",: , [7087,7088]" dest=",: , [7347,7348]"/>
+  <match src="identifier: flog [3962,3966]" dest="identifier: flog [4042,4046]"/>
+  <match src="{: { [1341,1342]" dest="{: { [1341,1342]"/>
+  <match src="-&gt;: -&gt; [1058,1060]" dest="-&gt;: -&gt; [1058,1060]"/>
+  <match src="assignment_expression [6979,6998]" dest="assignment_expression [7239,7258]"/>
+  <match src="compound_statement [1107,1210]" dest="compound_statement [1107,1210]"/>
+  <match src="break_statement [7135,7141]" dest="break_statement [7395,7401]"/>
+  <match src="argument_list [5372,5416]" dest="argument_list [5497,5541]"/>
+  <match src="(: ( [6116,6117]" dest="(: ( [6376,6377]"/>
+  <match src="pointer_declarator [1639,1645]" dest="pointer_declarator [1639,1645]"/>
+  <match src="struct_specifier [1739,1756]" dest="struct_specifier [1739,1756]"/>
+  <match src="identifier: opt_str [2425,2432]" dest="identifier: opt_str [2425,2432]"/>
+  <match src=";: ; [7183,7184]" dest=";: ; [7443,7444]"/>
+  <match src="if: if [979,981]" dest="if: if [979,981]"/>
+  <match src="]: ] [161,162]" dest="]: ] [161,162]"/>
+  <match src="parenthesized_expression [2525,2574]" dest="parenthesized_expression [2564,2613]"/>
+  <match src="(: ( [2111,2112]" dest="(: ( [2111,2112]"/>
+  <match src="case_statement [3897,3925]" dest="case_statement [3977,4005]"/>
+  <match src="field_expression [307,328]" dest="field_expression [307,328]"/>
+  <match src="field_expression [4418,4437]" dest="field_expression [4543,4562]"/>
+  <match src="identifier: flog [1111,1115]" dest="identifier: flog [1111,1115]"/>
+  <match src="argument_list [4865,4906]" dest="argument_list [4990,5031]"/>
+  <match src=";: ; [7162,7163]" dest=";: ; [7422,7423]"/>
+  <match src="(: ( [781,782]" dest="(: ( [781,782]"/>
+  <match src="&quot;: &quot; [604,605]" dest="&quot;: &quot; [604,605]"/>
+  <match src="break: break [4188,4193]" dest="break: break [4268,4273]"/>
+  <match src="&quot;: &quot; [3540,3541]" dest="&quot;: &quot; [3620,3621]"/>
+  <match src=",: , [6158,6159]" dest=",: , [6418,6419]"/>
+  <match src="compound_statement [3514,3684]" dest="compound_statement [3594,3764]"/>
+  <match src="default: default [5575,5582]" dest="default: default [5700,5707]"/>
+  <match src="&lt;: &lt; [1991,1992]" dest="&lt;: &lt; [1991,1992]"/>
+  <match src=";: ; [181,182]" dest=";: ; [181,182]"/>
+  <match src="break_statement [4063,4069]" dest="break_statement [4143,4149]"/>
+  <match src="&amp;: &amp; [3045,3046]" dest="&amp;: &amp; [3125,3126]"/>
+  <match src="expression_statement [3263,3414]" dest="expression_statement [3343,3494]"/>
+  <match src="expression_statement [777,875]" dest="expression_statement [777,875]"/>
+  <match src="(: ( [4636,4637]" dest="(: ( [4761,4762]"/>
+  <match src="*: * [5879,5880]" dest="*: * [6050,6051]"/>
+  <match src=";: ; [5020,5021]" dest=";: ; [5145,5146]"/>
+  <match src="case: case [2440,2444]" dest="case: case [2440,2444]"/>
+  <match src="}: } [493,494]" dest="}: } [493,494]"/>
+  <match src="&amp;&amp;: &amp;&amp; [1037,1039]" dest="&amp;&amp;: &amp;&amp; [1037,1039]"/>
+  <match src=";: ; [2676,2677]" dest=";: ; [2715,2716]"/>
+  <match src="identifier: addr_str [865,873]" dest="identifier: addr_str [865,873]"/>
+  <match src="pointer_expression [6919,6961]" dest="pointer_expression [7179,7221]"/>
+  <match src="pointer_expression [5373,5404]" dest="pointer_expression [5498,5529]"/>
+  <match src="type_identifier: AdvPrefix [1772,1781]" dest="type_identifier: AdvPrefix [1772,1781]"/>
+  <match src="}: } [2097,2098]" dest="}: } [2097,2098]"/>
+  <match src="comment: /* not checked */ [3867,3884]" dest="comment: /* not checked */ [3947,3964]"/>
+  <match src="!: ! [3180,3181]" dest="!: ! [3260,3261]"/>
+  <match src="-&gt;: -&gt; [3230,3232]" dest="-&gt;: -&gt; [3310,3312]"/>
+  <match src="): ) [4905,4906]" dest="): ) [5030,5031]"/>
+  <match src="while: while [2917,2922]" dest="while: while [2997,3002]"/>
+  <match src="if_statement [4840,5161]" dest="if_statement [4965,5286]"/>
+  <match src="(: ( [1349,1350]" dest="(: ( [1349,1350]"/>
+  <match src="identifier: LOG_WARNING [6182,6193]" dest="identifier: LOG_WARNING [6442,6453]"/>
+  <match src="identifier: check_dnssl_presence [6118,6138]" dest="identifier: check_dnssl_presence [6378,6398]"/>
+  <match src="identifier: count [4384,4389]" dest="identifier: count [4509,4514]"/>
+  <match src="comment: 				
+				 * 1) must not overflow int: label + 2, offset + label_len
+				 * 2) last byte of dnssli_suffix must not overflow opt_str + len
+				 */ [6357,6499]" dest="comment: 				
+				 * 1) must not overflow int: label + 2, offset + label_len
+				 * 2) last byte of dnssli_suffix must not overflow opt_str + len
+				 */ [6617,6759]"/>
+  <match src="(: ( [1284,1285]" dest="(: ( [1284,1285]"/>
+  <match src="expression_statement [397,491]" dest="expression_statement [397,491]"/>
+  <match src="identifier: rdnssinfo [4582,4591]" dest="identifier: rdnssinfo [4707,4716]"/>
+  <match src="identifier: LOG_DEBUG [7034,7043]" dest="identifier: LOG_DEBUG [7294,7303]"/>
+  <match src="identifier: label_len [6650,6659]" dest="identifier: label_len [6910,6919]"/>
+  <match src="string_content: our AdvCurHopLimit on %s doesn't agree with %s [416,462]" dest="string_content: our AdvCurHopLimit on %s doesn't agree with %s [416,462]"/>
+  <match src="type_descriptor [5754,5786]" dest="type_descriptor [5879,5911]"/>
+  <match src="expression_statement [2460,2495]" dest="expression_statement [2460,2495]"/>
+  <match src="case: case [3835,3839]" dest="case: case [3915,3919]"/>
+  <match src="call_expression [5424,5549]" dest="call_expression [5549,5674]"/>
+  <match src=";: ; [2830,2831]" dest=";: ; [2910,2911]"/>
+  <match src=",: , [212,213]" dest=",: , [212,213]"/>
+  <match src="struct_specifier [1793,1808]" dest="struct_specifier [1793,1808]"/>
+  <match src="identifier: flog [2157,2161]" dest="identifier: flog [2157,2161]"/>
+  <match src="pointer_declarator [173,181]" dest="pointer_declarator [173,181]"/>
+  <match src="sizeof: sizeof [6509,6515]" dest="sizeof: sizeof [6769,6775]"/>
+  <match src="-: - [6661,6662]" dest="-: - [6921,6922]"/>
+  <match src="-&gt;: -&gt; [7113,7115]" dest="-&gt;: -&gt; [7373,7375]"/>
+  <match src="field_expression [4814,4833]" dest="field_expression [4939,4958]"/>
+  <match src="parenthesized_expression [3430,3508]" dest="parenthesized_expression [3510,3588]"/>
+  <match src="identifier: addr_str [4049,4057]" dest="identifier: addr_str [4129,4137]"/>
+  <match src="): ) [1035,1036]" dest="): ) [1035,1036]"/>
+  <match src="identifier: addr_str [2667,2675]" dest="identifier: addr_str [2706,2714]"/>
+  <match src="assignment_expression [4231,4285]" dest="assignment_expression [4311,4365]"/>
+  <match src=",: , [5525,5526]" dest=",: , [5650,5651]"/>
+  <match src="(: ( [6663,6664]" dest="(: ( [6923,6924]"/>
+  <match src="if: if [5236,5238]" dest="if: if [5361,5363]"/>
+  <match src="type_descriptor [11,29]" dest="type_descriptor [11,29]"/>
+  <match src="(: ( [3430,3431]" dest="(: ( [3510,3511]"/>
+  <match src="pointer_declarator [1757,1761]" dest="pointer_declarator [1757,1761]"/>
+  <match src="case: case [3736,3740]" dest="case: case [3816,3820]"/>
+  <match src="if: if [2500,2502]" dest="if: if [2539,2541]"/>
+  <match src="cast_expression [7093,7106]" dest="cast_expression [7353,7366]"/>
+  <match src="concatenated_string [3540,3611]" dest="concatenated_string [3620,3691]"/>
+  <match src="array_declarator [1861,1888]" dest="array_declarator [1861,1888]"/>
+  <match src="cast_expression [2738,2775]" dest="cast_expression [2777,2814]"/>
+  <match src=",: , [4715,4716]" dest=",: , [4840,4841]"/>
+  <match src="binary_expression [6583,6596]" dest="binary_expression [6843,6856]"/>
+  <match src="): ) [2574,2575]" dest="): ) [2613,2614]"/>
+  <match src="type_identifier: nd_opt_rdnss_info_local [1656,1679]" dest="type_identifier: nd_opt_rdnss_info_local [1656,1679]"/>
+  <match src="(: ( [5032,5033]" dest="(: ( [5157,5158]"/>
+  <match src="&amp;: &amp; [4977,4978]" dest="&amp;: &amp; [5102,5103]"/>
+  <match src="(: ( [5428,5429]" dest="(: ( [5553,5554]"/>
+  <match src=",: , [4034,4035]" dest=",: , [4114,4115]"/>
+  <match src="array_declarator [136,162]" dest="array_declarator [136,162]"/>
+  <match src="identifier: pinfo [1640,1645]" dest="identifier: pinfo [1640,1645]"/>
+  <match src="call_expression [3034,3116]" dest="call_expression [3114,3196]"/>
+  <match src="*: * [50,51]" dest="*: * [50,51]"/>
+  <match src="identifier: addr_str [5144,5152]" dest="identifier: addr_str [5269,5277]"/>
+  <match src="type_descriptor [2739,2766]" dest="type_descriptor [2778,2805]"/>
+  <match src="&amp;&amp;: &amp;&amp; [1244,1246]" dest="&amp;&amp;: &amp;&amp; [1244,1246]"/>
+  <match src="identifier: LOG_WARNING [402,413]" dest="identifier: LOG_WARNING [402,413]"/>
+  <match src="identifier: ntohl [2792,2797]" dest="identifier: ntohl [2872,2877]"/>
+  <match src="[: [ [6319,6320]" dest="[: [ [6579,6580]"/>
+  <match src=",: , [7119,7120]" dest=",: , [7379,7380]"/>
+  <match src=";: ; [1690,1691]" dest=";: ; [1690,1691]"/>
+  <match src="field_expression [745,770]" dest="field_expression [745,770]"/>
+  <match src="}: } [5160,5161]" dest="}: } [5285,5286]"/>
+  <match src=":: : [4403,4404]" dest=":: : [4528,4529]"/>
+  <match src="expression_statement [2157,2240]" dest="expression_statement [2157,2240]"/>
+  <match src="binary_expression [1279,1337]" dest="binary_expression [1279,1337]"/>
+  <match src="identifier: ND_OPT_DNSSL_INFORMATION [5712,5736]" dest="identifier: ND_OPT_DNSSL_INFORMATION [5837,5861]"/>
+  <match src="struct_specifier [1765,1781]" dest="struct_specifier [1765,1781]"/>
+  <match src="if: if [3427,3429]" dest="if: if [3507,3509]"/>
+  <match src="abstract_pointer_declarator [4275,4276]" dest="abstract_pointer_declarator [4355,4356]"/>
+  <match src="argument_list [5261,5302]" dest="argument_list [5386,5427]"/>
+  <match src="(: ( [2944,2945]" dest="(: ( [3024,3025]"/>
+  <match src="argument_list [6884,6897]" dest="argument_list [7144,7157]"/>
+  <match src="binary_expression [6854,6871]" dest="binary_expression [7114,7131]"/>
+  <match src="identifier: suffix [6313,6319]" dest="identifier: suffix [6573,6579]"/>
+  <match src="-&gt;: -&gt; [2999,3001]" dest="-&gt;: -&gt; [3079,3081]"/>
+  <match src="==: == [5966,5968]" dest="==: == [6226,6228]"/>
+  <match src="*: * [4275,4276]" dest="*: * [4355,4356]"/>
+  <match src="parenthesized_expression [2503,2575]" dest="parenthesized_expression [2542,2614]"/>
+  <match src="field_identifier: AdvCurHopLimit [375,389]" dest="field_identifier: AdvCurHopLimit [375,389]"/>
+  <match src="binary_expression [6608,6677]" dest="binary_expression [6868,6937]"/>
+  <match src=",: , [2665,2666]" dest=",: , [2704,2705]"/>
+  <match src=",: , [3650,3651]" dest=",: , [3730,3731]"/>
+  <match src="identifier: label_len [6545,6554]" dest="identifier: label_len [6805,6814]"/>
+  <match src=":: : [7024,7025]" dest=":: : [7284,7285]"/>
+  <match src="struct: struct [1460,1466]" dest="struct: struct [1460,1466]"/>
+  <match src=",: , [5507,5508]" dest=",: , [5632,5633]"/>
+  <match src="field_identifier: AdvRDNSSList [5217,5229]" dest="field_identifier: AdvRDNSSList [5342,5354]"/>
+  <match src="field_expression [3098,3115]" dest="field_expression [3178,3195]"/>
+  <match src="identifier: prefix_str [3157,3167]" dest="identifier: prefix_str [3237,3247]"/>
+  <match src="char_literal [6085,6089]" dest="char_literal [6345,6349]"/>
+  <match src="field_expression [1051,1075]" dest="field_expression [1051,1075]"/>
+  <match src="identifier: pinfo [2994,2999]" dest="identifier: pinfo [3074,3079]"/>
+  <match src="binary_expression [276,390]" dest="binary_expression [276,390]"/>
+  <match src="identifier: LOG_WARNING [782,793]" dest="identifier: LOG_WARNING [782,793]"/>
+  <match src="': ' [5812,5813]" dest="': ' [5983,5984]"/>
+  <match src="binary_expression [6508,6684]" dest="binary_expression [6768,6944]"/>
+  <match src="continue: continue [6097,6105]" dest="continue: continue [6357,6365]"/>
+  <match src=",: , [3387,3388]" dest=",: , [3467,3468]"/>
+  <match src="compound_statement [3122,3690]" dest="compound_statement [3202,3770]"/>
+  <match src="): ) [2766,2767]" dest="): ) [2805,2806]"/>
+  <match src="break: break [6832,6837]" dest="break: break [7092,7097]"/>
+  <match src="=: = [6323,6324]" dest="=: = [6583,6584]"/>
+  <match src="!=: != [1312,1314]" dest="!=: != [1312,1314]"/>
+  <match src="pointer_expression [3062,3086]" dest="pointer_expression [3142,3166]"/>
+  <match src=",: , [6917,6918]" dest=",: , [7177,7178]"/>
+  <match src="field_identifier: Name [5534,5538]" dest="field_identifier: Name [5659,5663]"/>
+  <match src=";: ; [5836,5837]" dest=";: ; [6007,6008]"/>
+  <match src="concatenated_string [2301,2369]" dest="concatenated_string [2301,2369]"/>
+  <match src="pointer_expression [196,212]" dest="pointer_expression [196,212]"/>
+  <match src="field_expression [852,863]" dest="field_expression [852,863]"/>
+  <match src="binary_expression [6696,6714]" dest="binary_expression [6956,6974]"/>
+  <match src="identifier: addr_str [3659,3667]" dest="identifier: addr_str [3739,3747]"/>
+  <match src="escape_sequence: \0 [6086,6088]" dest="escape_sequence: \0 [6346,6348]"/>
+  <match src="): ) [5686,5687]" dest="): ) [5811,5812]"/>
+  <match src="(: ( [6736,6737]" dest="(: ( [6996,6997]"/>
+  <match src=";: ; [2775,2776]" dest=";: ; [2814,2815]"/>
+  <match src="identifier: prefix_str [1824,1834]" dest="identifier: prefix_str [1824,1834]"/>
+  <match src="&quot;: &quot; [1363,1364]" dest="&quot;: &quot; [1363,1364]"/>
+  <match src="): ) [552,553]" dest="): ) [552,553]"/>
+  <match src="): ) [2127,2128]" dest="): ) [2127,2128]"/>
+  <match src="call_expression [6878,6897]" dest="call_expression [7138,7157]"/>
+  <match src="comment: 					
+					 * Ignore empty suffixes. They're
+					 * probably just padding...
+					 */ [5979,6062]" dest="comment: 					
+					 * Ignore empty suffixes. They're
+					 * probably just padding...
+					 */ [6239,6322]"/>
+  <match src="(: ( [2503,2504]" dest="(: ( [2542,2543]"/>
+  <match src="field_identifier: Name [475,479]" dest="field_identifier: Name [475,479]"/>
+  <match src="[: [ [6642,6643]" dest="[: [ [6902,6903]"/>
+  <match src="&quot;: &quot; [2368,2369]" dest="&quot;: &quot; [2368,2369]"/>
+  <match src="!: ! [5240,5241]" dest="!: ! [5365,5366]"/>
+  <match src=",: , [4871,4872]" dest=",: , [4996,4997]"/>
+  <match src="sizeof: sizeof [1453,1459]" dest="sizeof: sizeof [1453,1459]"/>
+  <match src="*: * [1680,1681]" dest="*: * [1680,1681]"/>
+  <match src="identifier: len [2275,2278]" dest="identifier: len [2275,2278]"/>
+  <match src="): ) [1483,1484]" dest="): ) [1483,1484]"/>
+  <match src="call_expression [2157,2239]" dest="call_expression [2157,2239]"/>
+  <match src="expression_statement [2003,2084]" dest="expression_statement [2003,2084]"/>
+  <match src="call_expression [5241,5302]" dest="call_expression [5366,5427]"/>
+  <match src="string_content: invalid len %i in RDNSS option on %s from %s [5604,5648]" dest="string_content: invalid len %i in RDNSS option on %s from %s [5729,5773]"/>
+  <match src="-&gt;: -&gt; [6144,6146]" dest="-&gt;: -&gt; [6404,6406]"/>
+  <match src="identifier: rdnssinfo [5374,5383]" dest="identifier: rdnssinfo [5499,5508]"/>
+  <match src="number_literal: 0 [6079,6080]" dest="number_literal: 0 [6339,6340]"/>
+  <match src="]: ] [5944,5945]" dest="]: ] [6204,6205]"/>
+  <match src="identifier: prefix [2973,2979]" dest="identifier: prefix [3053,3059]"/>
+  <match src="identifier: check_rdnss_presence [4449,4469]" dest="identifier: check_rdnss_presence [4574,4594]"/>
+  <match src="identifier: iface [2217,2222]" dest="identifier: iface [2217,2222]"/>
+  <match src=":: : [5736,5737]" dest=":: : [5861,5862]"/>
+  <match src="identifier: iface [307,312]" dest="identifier: iface [307,312]"/>
+  <match src="identifier: iface [1184,1189]" dest="identifier: iface [1184,1189]"/>
+  <match src="&gt;: &gt; [6581,6582]" dest="&gt;: &gt; [6841,6842]"/>
+  <match src="field_identifier: nd_opt_dnssli_suffixes [6620,6642]" dest="field_identifier: nd_opt_dnssli_suffixes [6880,6902]"/>
+  <match src="field_identifier: AdvCurHopLimit [314,328]" dest="field_identifier: AdvCurHopLimit [314,328]"/>
+  <match src="-&gt;: -&gt; [1320,1322]" dest="-&gt;: -&gt; [1320,1322]"/>
+  <match src="&quot;: &quot; [6195,6196]" dest="&quot;: &quot; [6455,6456]"/>
+  <match src="field_expression [2654,2665]" dest="field_expression [2693,2704]"/>
+  <match src="]: ] [6321,6322]" dest="]: ] [6581,6582]"/>
+  <match src=",: , [34,35]" dest=",: , [34,35]"/>
+  <match src=",: , [6193,6194]" dest=",: , [6453,6454]"/>
+  <match src="': ' [6325,6326]" dest="': ' [6585,6586]"/>
+  <match src="identifier: flog [3263,3267]" dest="identifier: flog [3343,3347]"/>
+  <match src=";: ; [2877,2878]" dest=";: ; [2957,2958]"/>
+  <match src=";: ; [7130,7131]" dest=";: ; [7390,7391]"/>
+  <match src="identifier: ntohl [1045,1050]" dest="identifier: ntohl [1045,1050]"/>
+  <match src=";: ; [1439,1440]" dest=";: ; [1439,1440]"/>
+  <match src="string_content: our AdvManagedFlag on %s doesn't agree with %s [605,651]" dest="string_content: our AdvManagedFlag on %s doesn't agree with %s [605,651]"/>
+  <match src="-&gt;: -&gt; [5857,5859]" dest="-&gt;: -&gt; [6028,6030]"/>
+  <match src=",: , [7046,7047]" dest=",: , [7306,7307]"/>
+  <match src=",: , [1361,1362]" dest=",: , [1361,1362]"/>
+  <match src="identifier: label_len [6963,6972]" dest="identifier: label_len [7223,7232]"/>
+  <match src="=: = [4241,4242]" dest="=: = [4321,4322]"/>
+  <match src="while: while [1578,1583]" dest="while: while [1578,1583]"/>
+  <match src="(: ( [983,984]" dest="(: ( [983,984]"/>
+  <match src="&quot;: &quot; [415,416]" dest="&quot;: &quot; [415,416]"/>
+  <match src="-&gt;: -&gt; [1252,1254]" dest="-&gt;: -&gt; [1252,1254]"/>
+  <match src="): ) [2573,2574]" dest="): ) [2612,2613]"/>
+  <match src="if: if [1488,1490]" dest="if: if [1488,1490]"/>
+  <match src="*: * [28,29]" dest="*: * [28,29]"/>
+  <match src="field_expression [657,668]" dest="field_expression [657,668]"/>
+  <match src="): ) [222,223]" dest="): ) [222,223]"/>
+  <match src="&amp;: &amp; [721,722]" dest="&amp;: &amp; [721,722]"/>
+  <match src="pointer_expression [2424,2432]" dest="pointer_expression [2424,2432]"/>
+  <match src="identifier: ND_OPT_SOURCE_LINKADDR [3840,3862]" dest="identifier: ND_OPT_SOURCE_LINKADDR [3920,3942]"/>
+  <match src="struct_specifier [1649,1679]" dest="struct_specifier [1649,1679]"/>
+  <match src="identifier: msg [265,268]" dest="identifier: msg [265,268]"/>
+  <match src="expression_statement [1111,1207]" dest="expression_statement [1111,1207]"/>
+  <match src="while_statement [2917,3723]" dest="while_statement [2997,3803]"/>
+  <match src="field_expression [6609,6642]" dest="field_expression [6869,6902]"/>
+  <match src="type_descriptor [238,263]" dest="type_descriptor [238,263]"/>
+  <match src="(: ( [6507,6508]" dest="(: ( [6767,6768]"/>
+  <match src="expression_statement [2730,2776]" dest="expression_statement [2769,2815]"/>
+  <match src="-&gt;: -&gt; [345,347]" dest="-&gt;: -&gt; [345,347]"/>
+  <match src="field_expression [2849,2876]" dest="field_expression [2929,2956]"/>
+  <match src="-&gt;: -&gt; [4041,4043]" dest="-&gt;: -&gt; [4121,4123]"/>
+  <match src="assignment_expression [4290,4326]" dest="assignment_expression [4415,4451]"/>
+  <match src="string_content: RDNSS address %s received on %s from %s is not advertised by us [5443,5506]" dest="string_content: RDNSS address %s received on %s from %s is not advertised by us [5568,5631]"/>
+  <match src="(: ( [2161,2162]" dest="(: ( [2161,2162]"/>
+  <match src="binary_expression [3466,3507]" dest="binary_expression [3546,3587]"/>
+  <match src="argument_list [2848,2877]" dest="argument_list [2928,2957]"/>
+  <match src="binary_expression [6696,6723]" dest="binary_expression [6956,6983]"/>
+  <match src="identifier: rdnss_str [5010,5019]" dest="identifier: rdnss_str [5135,5144]"/>
+  <match src="-&gt;: -&gt; [2561,2563]" dest="-&gt;: -&gt; [2600,2602]"/>
+  <match src=";: ; [5569,5570]" dest=";: ; [5694,5695]"/>
+  <match src="call_expression [6118,6167]" dest="call_expression [6378,6427]"/>
+  <match src="&gt;: &gt; [1589,1590]" dest="&gt;: &gt; [1589,1590]"/>
+  <match src="switch: switch [2416,2422]" dest="switch: switch [2416,2422]"/>
+  <match src="=: = [5751,5752]" dest="=: = [5876,5877]"/>
+  <match src="call_expression [777,874]" dest="call_expression [777,874]"/>
+  <match src="identifier: label_len [5956,5965]" dest="identifier: label_len [6216,6225]"/>
+  <match src="binary_expression [2945,3022]" dest="binary_expression [3025,3102]"/>
+  <match src="*: * [1782,1783]" dest="*: * [1782,1783]"/>
+  <match src="expression_statement [4570,4625]" dest="expression_statement [4695,4750]"/>
+  <match src="field_identifier: Name [2661,2665]" dest="field_identifier: Name [2700,2704]"/>
+  <match src=";: ; [268,269]" dest=";: ; [268,269]"/>
+  <match src="identifier: INET6_ADDRSTRLEN [145,161]" dest="identifier: INET6_ADDRSTRLEN [145,161]"/>
+  <match src="(: ( [5372,5373]" dest="(: ( [5497,5498]"/>
+  <match src="parenthesized_expression [337,390]" dest="parenthesized_expression [337,390]"/>
+  <match src="field_expression [4298,4326]" dest="field_expression [4423,4451]"/>
+  <match src="): ) [4389,4390]" dest="): ) [4514,4515]"/>
+  <match src="parenthesized_expression [4843,4907]" dest="parenthesized_expression [4968,5032]"/>
+  <match src="field_expression [1218,1243]" dest="field_expression [1218,1243]"/>
+  <match src="number_literal: 256 [1904,1907]" dest="number_literal: 256 [1904,1907]"/>
+  <match src="compound_statement [1595,7187]" dest="compound_statement [1595,7447]"/>
+  <match src="identifier: prefix [3098,3104]" dest="identifier: prefix [3178,3184]"/>
+  <match src=":: : [3862,3863]" dest=":: : [3942,3943]"/>
+  <match src="identifier: opt_str [174,181]" dest="identifier: opt_str [174,181]"/>
+  <match src="}: } [6843,6844]" dest="}: } [7103,7104]"/>
+  <match src="): ) [4906,4907]" dest="): ) [5031,5032]"/>
+  <match src="parenthesized_expression [2923,2931]" dest="parenthesized_expression [3003,3011]"/>
+  <match src="identifier: radvert [1218,1225]" dest="identifier: radvert [1218,1225]"/>
+  <match src=",: , [479,480]" dest=",: , [479,480]"/>
+  <match src="argument_list [6736,6825]" dest="argument_list [6996,7085]"/>
+  <match src="subscript_expression [5902,5945]" dest="subscript_expression [6162,6205]"/>
+  <match src="identifier: optlen [7156,7162]" dest="identifier: optlen [7416,7422]"/>
+  <match src="*: * [120,121]" dest="*: * [120,121]"/>
+  <match src="break_statement [7008,7014]" dest="break_statement [7268,7274]"/>
+  <match src="binary_expression [1987,1994]" dest="binary_expression [1987,1994]"/>
+  <match src="field_expression [1247,1269]" dest="field_expression [1247,1269]"/>
+  <match src="-&gt;: -&gt; [1017,1019]" dest="-&gt;: -&gt; [1017,1019]"/>
+  <match src="identifier: mtu [1758,1761]" dest="identifier: mtu [1758,1761]"/>
+  <match src="(: ( [2136,2137]" dest="(: ( [2136,2137]"/>
+  <match src="pointer_declarator [50,54]" dest="pointer_declarator [50,54]"/>
+  <match src="case_statement [3736,3832]" dest="case_statement [3816,3912]"/>
+  <match src=";: ; [3413,3414]" dest=";: ; [3493,3494]"/>
+  <match src="{: { [4908,4909]" dest="{: { [5033,5034]"/>
+  <match src="number_literal: 0 [2147,2148]" dest="number_literal: 0 [2147,2148]"/>
+  <match src="call_expression [3129,3168]" dest="call_expression [3209,3248]"/>
+  <match src="case_statement [3835,3894]" dest="case_statement [3915,3974]"/>
+  <match src="&quot;: &quot; [2017,2018]" dest="&quot;: &quot; [2017,2018]"/>
+  <match src="argument_list [3044,3116]" dest="argument_list [3124,3196]"/>
+  <match src="{: { [5304,5305]" dest="{: { [5429,5430]"/>
+  <match src="identifier: len [60,63]" dest="identifier: len [60,63]"/>
+  <match src="type_identifier: nd_opt_dnssl_info_local [5761,5784]" dest="type_identifier: nd_opt_dnssl_info_local [5886,5909]"/>
+  <match src="assignment_expression [1446,1484]" dest="assignment_expression [1446,1484]"/>
+  <match src=",: , [3155,3156]" dest=",: , [3235,3236]"/>
+  <match src="-&gt;: -&gt; [750,752]" dest="-&gt;: -&gt; [750,752]"/>
+  <match src=":: : [2725,2726]" dest=":: : [2764,2765]"/>
+  <match src=",: , [5663,5664]" dest=",: , [5788,5789]"/>
+  <match src="identifier: optlen [7177,7183]" dest="identifier: optlen [7437,7443]"/>
+  <match src="expression_statement [6878,6898]" dest="expression_statement [7138,7158]"/>
+  <match src="compound_statement [2935,3723]" dest="compound_statement [3015,3803]"/>
+  <match src="binary_expression [6643,6659]" dest="binary_expression [6903,6919]"/>
+  <match src="identifier: rdnss_str [5516,5525]" dest="identifier: rdnss_str [5641,5650]"/>
+  <match src="field_expression [2798,2829]" dest="field_expression [2878,2909]"/>
+  <match src="identifier: LOG_WARNING [5033,5044]" dest="identifier: LOG_WARNING [5158,5169]"/>
+  <match src="{: { [6725,6726]" dest="{: { [6985,6986]"/>
+  <match src=",: , [2055,2056]" dest=",: , [2055,2056]"/>
+  <match src="identifier: unsigned [36,44]" dest="identifier: unsigned [36,44]"/>
+  <match src="expression_statement [5800,5817]" dest="expression_statement [5971,5988]"/>
+  <match src="-&gt;: -&gt; [5383,5385]" dest="-&gt;: -&gt; [5508,5510]"/>
+  <match src="identifier: flog [6177,6181]" dest="identifier: flog [6437,6441]"/>
+  <match src="field_identifier: nd_ra_curhoplimit [286,303]" dest="field_identifier: nd_ra_curhoplimit [286,303]"/>
+  <match src="{: { [3514,3515]" dest="{: { [3594,3595]"/>
+  <match src=",: , [3368,3369]" dest=",: , [3448,3449]"/>
+  <match src="identifier: dnsslinfo [5902,5911]" dest="identifier: dnsslinfo [6162,6171]"/>
+  <match src="&amp;: &amp; [532,533]" dest="&amp;: &amp; [532,533]"/>
+  <match src=";: ; [5881,5882]" dest=";: ; [6052,6053]"/>
+  <match src="}: } [7003,7004]" dest="}: } [7263,7264]"/>
+  <match src="field_identifier: AdvReachableTime [1087,1103]" dest="field_identifier: AdvReachableTime [1087,1103]"/>
+  <match src="identifier: rdnssinfo [4874,4883]" dest="identifier: rdnssinfo [4999,5008]"/>
+  <match src="call_expression [4966,5020]" dest="call_expression [5091,5145]"/>
+  <match src=",: , [2072,2073]" dest=",: , [2072,2073]"/>
+  <match src="type_descriptor [2467,2486]" dest="type_descriptor [2467,2486]"/>
+  <match src="-&gt;: -&gt; [2380,2382]" dest="-&gt;: -&gt; [2380,2382]"/>
+  <match src=",: , [1428,1429]" dest=",: , [1428,1429]"/>
+  <match src=",: , [602,603]" dest=",: , [602,603]"/>
+  <match src="assignment_expression [6313,6329]" dest="assignment_expression [6573,6589]"/>
+  <match src="argument_list [2797,2830]" dest="argument_list [2877,2910]"/>
+  <match src="type_identifier: Interface [18,27]" dest="type_identifier: Interface [18,27]"/>
+  <match src="compound_statement [1341,1443]" dest="compound_statement [1341,1443]"/>
+  <match src="subscript_expression [6609,6660]" dest="subscript_expression [6869,6920]"/>
+  <match src=",: , [5649,5650]" dest=",: , [5774,5775]"/>
+  <match src="binary_expression [3180,3248]" dest="binary_expression [3260,3328]"/>
+  <match src="(: ( [4383,4384]" dest="(: ( [4508,4509]"/>
+  <match src="): ) [3116,3117]" dest="): ) [3196,3197]"/>
+  <match src="identifier: iface [2504,2509]" dest="identifier: iface [2543,2548]"/>
+  <match src="identifier: check_rdnss_presence [5241,5261]" dest="identifier: check_rdnss_presence [5366,5386]"/>
+  <match src=",: , [1179,1180]" dest=",: , [1179,1180]"/>
+  <match src="&amp;&amp;: &amp;&amp; [2522,2524]" dest="&amp;&amp;: &amp;&amp; [2561,2563]"/>
+  <match src="-&gt;: -&gt; [2535,2537]" dest="-&gt;: -&gt; [2574,2576]"/>
+  <match src="expression_statement [4966,5021]" dest="expression_statement [5091,5146]"/>
+  <match src="&quot;: &quot; [2054,2055]" dest="&quot;: &quot; [2054,2055]"/>
+  <match src="field_identifier: Name [2068,2072]" dest="field_identifier: Name [2068,2072]"/>
+  <match src="struct: struct [1649,1655]" dest="struct: struct [1649,1655]"/>
+  <match src="binary_expression [6545,6558]" dest="binary_expression [6805,6818]"/>
+  <match src=",: , [2169,2170]" dest=",: , [2169,2170]"/>
+  <match src=";: ; [490,491]" dest=";: ; [490,491]"/>
+  <match src="): ) [2396,2397]" dest="): ) [2396,2397]"/>
+  <match src="compound_statement [5884,7004]" dest="compound_statement [6055,7264]"/>
+  <match src="identifier: flog [2003,2007]" dest="identifier: flog [2003,2007]"/>
+  <match src="-&gt;: -&gt; [3485,3487]" dest="-&gt;: -&gt; [3565,3567]"/>
+  <match src="if_statement [2500,2682]" dest="if_statement [2539,2721]"/>
+  <match src="argument_list [6532,6540]" dest="argument_list [6792,6800]"/>
+  <match src="): ) [2829,2830]" dest="): ) [2909,2910]"/>
+  <match src="identifier: len [1492,1495]" dest="identifier: len [1492,1495]"/>
+  <match src="binary_expression [5956,5970]" dest="binary_expression [6216,6230]"/>
+  <match src="call_expression [2526,2552]" dest="call_expression [2565,2591]"/>
+  <match src="identifier: nd_router_advert [103,119]" dest="identifier: nd_router_advert [103,119]"/>
+  <match src="case_statement [5575,5688]" dest="case_statement [5700,5813]"/>
+  <match src="call_expression [3522,3676]" dest="call_expression [3602,3756]"/>
+  <match src="struct_specifier [4244,4274]" dest="struct_specifier [4324,4354]"/>
+  <match src="&quot;: &quot; [2646,2647]" dest="&quot;: &quot; [2685,2686]"/>
+  <match src=",: , [3060,3061]" dest=",: , [3140,3141]"/>
+  <match src="): ) [6539,6540]" dest="): ) [6799,6800]"/>
+  <match src="(: ( [2589,2590]" dest="(: ( [2628,2629]"/>
+  <match src="): ) [2432,2433]" dest="): ) [2432,2433]"/>
+  <match src="identifier: label_len [6705,6714]" dest="identifier: label_len [6965,6974]"/>
+  <match src="identifier: rdnssinfo [4978,4987]" dest="identifier: rdnssinfo [5103,5112]"/>
+  <match src="identifier: msg [1536,1539]" dest="identifier: msg [1536,1539]"/>
+  <match src="identifier: flog [5424,5428]" dest="identifier: flog [5549,5553]"/>
+  <match src="identifier: LOG_ERR [3967,3974]" dest="identifier: LOG_ERR [4047,4054]"/>
+  <match src="): ) [739,740]" dest="): ) [739,740]"/>
+  <match src="-&gt;: -&gt; [4987,4989]" dest="-&gt;: -&gt; [5112,5114]"/>
+  <match src="string_literal [6893,6896]" dest="string_literal [7153,7156]"/>
+  <match src=";: ; [5549,5550]" dest=";: ; [5674,5675]"/>
+  <match src="identifier: len [6681,6684]" dest="identifier: len [6941,6944]"/>
+  <match src="field_identifier: AdvPrefixList [2899,2912]" dest="field_identifier: AdvPrefixList [2979,2992]"/>
+  <match src="if_statement [6068,6106]" dest="if_statement [6328,6366]"/>
+  <match src=":: : [3765,3766]" dest=":: : [3845,3846]"/>
+  <match src=";: ; [2083,2084]" dest=";: ; [2083,2084]"/>
+  <match src="{: { [5884,5885]" dest="{: { [6055,6056]"/>
+  <match src="string_content:  %s for %s doesn't agree with %s [3578,3610]" dest="string_content:  %s for %s doesn't agree with %s [3658,3690]"/>
+  <match src="}: } [5556,5557]" dest="}: } [5681,5682]"/>
+  <match src="field_identifier: Name [664,668]" dest="field_identifier: Name [664,668]"/>
+  <match src="declaration [1856,1889]" dest="declaration [1856,1889]"/>
+  <match src="-&gt;: -&gt; [3711,3713]" dest="-&gt;: -&gt; [3791,3793]"/>
+  <match src="argument_list [6910,6973]" dest="argument_list [7170,7233]"/>
+  <match src="parenthesized_expression [4383,4390]" dest="parenthesized_expression [4508,4515]"/>
+  <match src="identifier: iface [7108,7113]" dest="identifier: iface [7368,7373]"/>
+  <match src="identifier: prefix [3432,3438]" dest="identifier: prefix [3512,3518]"/>
+  <match src="}: } [7144,7145]" dest="}: } [7404,7405]"/>
+  <match src="if: if [2941,2943]" dest="if: if [3021,3023]"/>
+  <match src="if: if [6850,6852]" dest="if: if [7110,7112]"/>
+  <match src="if: if [4444,4446]" dest="if: if [4569,4571]"/>
+  <match src="identifier: addr_str [3396,3404]" dest="identifier: addr_str [3476,3484]"/>
+  <match src=",: , [5142,5143]" dest=",: , [5267,5268]"/>
+  <match src="struct: struct [238,244]" dest="struct: struct [238,244]"/>
+  <match src="!=: != [3221,3223]" dest="!=: != [3301,3303]"/>
+  <match src="break_statement [3826,3832]" dest="break_statement [3906,3912]"/>
+  <match src=":: : [4799,4800]" dest=":: : [4924,4925]"/>
+  <match src="switch: switch [4376,4382]" dest="switch: switch [4501,4507]"/>
+  <match src="identifier: prefix [3181,3187]" dest="identifier: prefix [3261,3267]"/>
+  <match src="&amp;&amp;: &amp;&amp; [554,556]" dest="&amp;&amp;: &amp;&amp; [554,556]"/>
+  <match src="call_expression [3962,4058]" dest="call_expression [4042,4138]"/>
+  <match src=";: ; [5816,5817]" dest=";: ; [5987,5988]"/>
+  <match src="primitive_type: char [6664,6668]" dest="primitive_type: char [6924,6928]"/>
+  <match src="comment: /* Mobile IPv6 extensions */ [4072,4100]" dest="comment: /* Mobile IPv6 extensions */ [4152,4180]"/>
+  <match src="case: case [5189,5193]" dest="case: case [5314,5318]"/>
+  <match src="-&gt;: -&gt; [4423,4425]" dest="-&gt;: -&gt; [4548,4550]"/>
+  <match src="expression_statement [5589,5688]" dest="expression_statement [5714,5813]"/>
+  <match src="declaration [165,182]" dest="declaration [165,182]"/>
+  <match src="if_statement [1983,2098]" dest="if_statement [1983,2098]"/>
+  <match src="binary_expression [2112,2127]" dest="binary_expression [2112,2127]"/>
+  <match src="{: { [2282,2283]" dest="{: { [2282,2283]"/>
+  <match src="(: ( [2531,2532]" dest="(: ( [2570,2571]"/>
+  <match src="field_expression [3224,3248]" dest="field_expression [3304,3328]"/>
+  <match src="(: ( [501,502]" dest="(: ( [501,502]"/>
+  <match src="identifier: offset [6717,6723]" dest="identifier: offset [6977,6983]"/>
+  <match src="return: return [1504,1510]" dest="return: return [1504,1510]"/>
+  <match src="field_identifier: nd_ra_reachable [1060,1075]" dest="field_identifier: nd_ra_reachable [1060,1075]"/>
+  <match src="field_identifier: nd_ra_flags_reserved [511,531]" dest="field_identifier: nd_ra_flags_reserved [511,531]"/>
+  <match src=";: ; [7140,7141]" dest=";: ; [7400,7401]"/>
+  <match src="string_content: option length greater than total [2302,2334]" dest="string_content: option length greater than total [2302,2334]"/>
+  <match src=";: ; [6344,6345]" dest=";: ; [6604,6605]"/>
+  <match src="argument_list [4636,4757]" dest="argument_list [4761,4882]"/>
+  <match src="field_identifier: Name [4043,4047]" dest="field_identifier: Name [4123,4127]"/>
+  <match src="escape_sequence: \0 [6326,6328]" dest="escape_sequence: \0 [6586,6588]"/>
+  <match src="-&gt;: -&gt; [2222,2224]" dest="-&gt;: -&gt; [2222,2224]"/>
+  <match src="break: break [7135,7140]" dest="break: break [7395,7400]"/>
+  <match src="unary_expression [4844,4906]" dest="unary_expression [4969,5031]"/>
+  <match src="parenthesized_expression [2265,2279]" dest="parenthesized_expression [2265,2279]"/>
+  <match src="=: = [4812,4813]" dest="=: = [4937,4938]"/>
+</matches>
+<actions>
+  <insert-tree tree="if_statement [2499,2534]" parent="case_statement [2440,2692]" at="4"/>
+  <insert-tree tree="if_statement [2819,2856]" parent="case_statement [2695,3733]" at="4"/>
+  <insert-tree tree="if_statement [4370,4411]" parent="case_statement [4197,5704]" at="4"/>
+  <insert-tree tree="if_statement [5925,5966]" parent="case_statement [5707,7014]" at="4"/>
+  <insert-tree tree="if_statement [6061,6145]" parent="compound_statement [5884,7004]" at="1"/>
+</actions>

@@ -1,0 +1,20 @@
+{
+    "id": "0fec095d534126931c99fd38e9c6d41f5c685c1a_setupSecurity_0",
+    "func_name": "setupSecurity",
+    "cve_id": "CVE-2020-26217",
+    "cwe_ids": [
+        "CWE-78"
+    ],
+    "commit_hash": "0fec095d534126931c99fd38e9c6d41f5c685c1a",
+    "parent_commit_hash": "573fbafb06859ecb3a836bd6fe2afacfc5cdabcc",
+    "repo_name": "x-stream/xstream",
+    "git_url": "https://github.com/x-stream/xstream/commit/0fec095d534126931c99fd38e9c6d41f5c685c1a",
+    "file_path": "xstream/src/java/com/thoughtworks/xstream/XStream.java",
+    "file_name": "XStream.java",
+    "commit_date": 1600876609,
+    "commit_msg": "Fix for CVE-2017-9805.",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C",
+    "cvss_base_score": 9.3,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

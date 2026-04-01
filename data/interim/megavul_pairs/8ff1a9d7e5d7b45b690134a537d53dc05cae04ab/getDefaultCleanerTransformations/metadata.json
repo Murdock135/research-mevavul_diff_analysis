@@ -1,0 +1,20 @@
+{
+    "id": "8ff1a9d7e5d7b45b690134a537d53dc05cae04ab_getDefaultCleanerTransformations_0",
+    "func_name": "getDefaultCleanerTransformations",
+    "cve_id": "CVE-2023-29528",
+    "cwe_ids": [
+        "CWE-79"
+    ],
+    "commit_hash": "8ff1a9d7e5d7b45b690134a537d53dc05cae04ab",
+    "parent_commit_hash": "a2f20a6ed4b2ae2aaf206d455d5719637dc9c7ee",
+    "repo_name": "xwiki/xwiki-commons",
+    "git_url": "https://github.com/xwiki/xwiki-commons/commit/8ff1a9d7e5d7b45b690134a537d53dc05cae04ab",
+    "file_path": "xwiki-commons-core/xwiki-commons-xml/src/main/java/org/xwiki/xml/internal/html/DefaultHTMLCleaner.java",
+    "file_name": "DefaultHTMLCleaner.java",
+    "commit_date": 1668590453,
+    "commit_msg": "XCOMMONS-2568: Improve comment handling in HTMLCleaner (#306)",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H",
+    "cvss_base_score": 9.0,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_is_v3": true
+}

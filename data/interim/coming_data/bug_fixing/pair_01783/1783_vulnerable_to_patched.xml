@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="abstract_pointer_declarator [23,24]" dest="abstract_pointer_declarator [23,24]"/>
+  <match src="==: == [139,141]" dest="==: == [408,410]"/>
+  <match src="identifier: strncmp [113,120]" dest="identifier: strncmp [382,389]"/>
+  <match src="translation_unit [0,155]" dest="translation_unit [0,424]"/>
+  <match src=",: , [40,41]" dest=",: , [40,41]"/>
+  <match src=",: , [58,59]" dest=",: , [58,59]"/>
+  <match src="*: * [23,24]" dest="*: * [23,24]"/>
+  <match src="identifier: u_int [31,36]" dest="identifier: u_int [31,36]"/>
+  <match src="identifier: tstr1 [121,126]" dest="identifier: tstr1 [390,395]"/>
+  <match src="parameter_list [78,88]" dest="parameter_list [176,200]"/>
+  <match src=",: , [132,133]" dest=",: , [401,402]"/>
+  <match src="number_literal: 0 [142,143]" dest="number_literal: 0 [411,412]"/>
+  <match src="identifier: const [42,47]" dest="identifier: const [42,47]"/>
+  <match src="function_declarator [60,152]" dest="function_declarator [70,200]"/>
+  <match src="): ) [137,138]" dest="): ) [406,407]"/>
+  <match src="identifier: str2 [54,58]" dest="identifier: str2 [54,58]"/>
+  <match src="identifier: tl1 [134,137]" dest="identifier: tl1 [403,406]"/>
+  <match src="const: const [12,17]" dest="const: const [12,17]"/>
+  <match src="{: { [71,72]" dest="{: { [170,171]"/>
+  <match src="): ) [87,88]" dest="): ) [199,200]"/>
+  <match src="ERROR [66,77]" dest="ERROR [170,175]"/>
+  <match src="ERROR [37,40]" dest="ERROR [37,40]"/>
+  <match src=",: , [126,127]" dest=",: , [395,396]"/>
+  <match src="(: ( [11,12]" dest="(: ( [11,12]"/>
+  <match src="identifier: char [48,52]" dest="identifier: char [48,52]"/>
+  <match src="ERROR [0,155]" dest="ERROR [0,200]"/>
+  <match src="primitive_type: char [18,22]" dest="primitive_type: char [18,22]"/>
+  <match src="ERROR [42,52]" dest="ERROR [42,52]"/>
+  <match src="(: ( [78,79]" dest="(: ( [176,177]"/>
+  <match src="identifier: str2 [128,132]" dest="identifier: str2 [397,401]"/>
+  <match src="binary_expression [113,143]" dest="binary_expression [382,412]"/>
+  <match src="identifier: l_strnstart [0,11]" dest="identifier: l_strnstart [0,11]"/>
+  <match src="type_descriptor [12,24]" dest="type_descriptor [12,24]"/>
+  <match src="identifier: tstr1 [24,29]" dest="identifier: tstr1 [24,29]"/>
+  <match src="type_qualifier [12,17]" dest="type_qualifier [12,17]"/>
+  <match src="argument_list [120,138]" dest="argument_list [389,407]"/>
+  <match src="call_expression [113,138]" dest="call_expression [382,407]"/>
+  <match src="*: * [53,54]" dest="*: * [53,54]"/>
+  <match src="identifier: tl1 [37,40]" dest="identifier: tl1 [37,40]"/>
+  <match src="(: ( [120,121]" dest="(: ( [389,390]"/>
+  <match src="if: if [75,77]" dest="if: if [173,175]"/>
+  <match src=",: , [29,30]" dest=",: , [29,30]"/>
+  <match src="type_identifier: tl1 [79,82]" dest="type_identifier: ND_TTEST2 [178,187]"/>
+  <match src=") [24,24]" dest=") [24,24]"/>
+  <match src="pointer_declarator [53,58]" dest="pointer_declarator [53,58]"/>
+  <match src="parameter_declaration [79,87]" dest="parameter_declaration [178,199]"/>
+  <match src="macro_type_specifier [0,24]" dest="macro_type_specifier [0,24]"/>
+</matches>
+<actions>
+  <insert-tree tree="compound_statement [201,341]" parent="translation_unit [0,155]" at="1"/>
+  <insert-tree tree="if_statement [344,370]" parent="translation_unit [0,155]" at="2"/>
+  <insert-node tree="return_statement [374,422]" parent="translation_unit [0,155]" at="3"/>
+  <insert-tree tree="ERROR [423,424]" parent="translation_unit [0,155]" at="4"/>
+  <insert-tree tree="ERROR [60,69]" parent="ERROR [0,155]" at="9"/>
+  <insert-node tree="return: return [374,380]" parent="return_statement [374,422]" at="0"/>
+  <insert-node tree="parenthesized_expression [381,421]" parent="return_statement [374,422]" at="1"/>
+  <insert-node tree=";: ; [421,422]" parent="return_statement [374,422]" at="2"/>
+  <insert-tree tree="function_declarator [70,168]" parent="function_declarator [60,152]" at="0"/>
+  <insert-node tree="(: ( [381,382]" parent="parenthesized_expression [381,421]" at="0"/>
+  <insert-node tree="conditional_expression [382,420]" parent="parenthesized_expression [381,421]" at="1"/>
+  <insert-node tree="): ) [420,421]" parent="parenthesized_expression [381,421]" at="2"/>
+  <insert-tree tree="ERROR [177,178]" parent="parameter_list [78,88]" at="1"/>
+  <move-tree tree="binary_expression [113,143]" parent="conditional_expression [382,420]" at="0"/>
+  <insert-node tree="?: ? [413,414]" parent="conditional_expression [382,420]" at="1"/>
+  <insert-node tree="number_literal: 1 [415,416]" parent="conditional_expression [382,420]" at="2"/>
+  <insert-node tree=":: : [417,418]" parent="conditional_expression [382,420]" at="3"/>
+  <insert-node tree="number_literal: 0 [419,420]" parent="conditional_expression [382,420]" at="4"/>
+  <update-node tree="type_identifier: tl1 [79,82]" label="ND_TTEST2"/>
+  <insert-tree tree="abstract_function_declarator [187,199]" parent="parameter_declaration [79,87]" at="1"/>
+  <delete-node tree="identifier: u_int [60,65]"/>
+  <delete-node tree="identifier: l2 [66,68]"/>
+  <delete-node tree="): ) [68,69]"/>
+  <delete-tree tree="ERROR [83,84]"/>
+  <delete-node tree="identifier: l2 [85,87]"/>
+  <delete-node tree="identifier: return [92,98]"/>
+  <delete-tree tree="ERROR [99,111]"/>
+  <delete-node tree="(: ( [112,113]"/>
+  <delete-tree tree="ERROR [144,151]"/>
+  <delete-node tree="): ) [151,152]"/>
+  <delete-node tree="argument_list [112,152]"/>
+  <delete-node tree="call_expression [92,152]"/>
+  <delete-node tree=";: ; [152,153]"/>
+  <delete-node tree="}: } [154,155]"/>
+</actions>

@@ -1,0 +1,9 @@
+class getTempFileFromInputStream {
+default File getTempFileFromInputStream(InputStream inputStream, String prefix, String suffix)
+      throws IOException {
+    File tmp = File.createTempFile(prefix, suffix);
+    tmp.deleteOnExit();
+    Files.copy(inputStream, tmp.toPath(), StandardCopyOption.REPLACE_EXISTING);
+    return tmp;
+  }
+}

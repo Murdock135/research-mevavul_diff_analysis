@@ -1,0 +1,20 @@
+{
+    "id": "ad38d8480f20ce3cbf8fec3e2003bc83efda4f7d_run_0",
+    "func_name": "run",
+    "cve_id": "CVE-2014-2059",
+    "cwe_ids": [
+        "CWE-22"
+    ],
+    "commit_hash": "ad38d8480f20ce3cbf8fec3e2003bc83efda4f7d",
+    "parent_commit_hash": "622e39f8b4c4764a0768bf58645767405ba9ccaa",
+    "repo_name": "jenkinsci/jenkins",
+    "git_url": "https://github.com/jenkinsci/jenkins/commit/ad38d8480f20ce3cbf8fec3e2003bc83efda4f7d",
+    "file_path": "core/src/main/java/hudson/cli/CreateJobCommand.java",
+    "file_name": "CreateJobCommand.java",
+    "commit_date": 1391701567,
+    "commit_msg": "[FIXED SECURITY-108] Check job name created via CLI",
+    "cvss_vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+    "cvss_base_score": 6.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

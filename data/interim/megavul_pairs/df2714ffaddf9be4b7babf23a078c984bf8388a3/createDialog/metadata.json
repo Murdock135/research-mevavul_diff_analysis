@@ -1,0 +1,20 @@
+{
+    "id": "df2714ffaddf9be4b7babf23a078c984bf8388a3_createDialog_0",
+    "func_name": "createDialog",
+    "cve_id": "CVE-2021-32727",
+    "cwe_ids": [
+        "CWE-295"
+    ],
+    "commit_hash": "df2714ffaddf9be4b7babf23a078c984bf8388a3",
+    "parent_commit_hash": "f6d14856a45e2d46d0e7d8fae6003a80fe533b5a",
+    "repo_name": "nextcloud/android",
+    "git_url": "https://github.com/nextcloud/android/commit/df2714ffaddf9be4b7babf23a078c984bf8388a3",
+    "file_path": "src/main/java/com/owncloud/android/ui/dialog/SetupEncryptionDialogFragment.java",
+    "file_name": "SetupEncryptionDialogFragment.java",
+    "commit_date": 1621382203,
+    "commit_msg": "check e2e keys\n\nSigned-off-by: tobiasKaminsky <tobias@kaminsky.me>",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

@@ -1,0 +1,20 @@
+{
+    "id": "a55168330d9326ff2120285763c818733590266a_handleAttachmentUrisFromIntent_0",
+    "func_name": "handleAttachmentUrisFromIntent",
+    "cve_id": "CVE-2016-2458",
+    "cwe_ids": [
+        "CWE-200"
+    ],
+    "commit_hash": "a55168330d9326ff2120285763c818733590266a",
+    "parent_commit_hash": "0471215994f2c16298e23e95465cb80565dd030e",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/packages/apps/UnifiedEmail/+/a55168330d9326ff2120285763c818733590266a",
+    "file_path": "src/com/android/mail/compose/ComposeActivity.java",
+    "file_name": "ComposeActivity.java",
+    "commit_date": 1458777200,
+    "commit_msg": "Don't allow cachedFile Attachments if the content Uri is pointing to EmailProvider.\n\nThis is to backport a security fix reported by b/27308057 and b/27335139.\nAlso, add Analytics for these errors.\n\nBug: b/27335139\nChange-Id: I75f6d8f5feb9fc611aa2e429e2b22cbd07223ab9\n",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

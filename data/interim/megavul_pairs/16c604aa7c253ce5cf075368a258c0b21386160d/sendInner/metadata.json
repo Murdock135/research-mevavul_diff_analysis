@@ -1,0 +1,20 @@
+{
+    "id": "16c604aa7c253ce5cf075368a258c0b21386160d_sendInner_0",
+    "func_name": "sendInner",
+    "cve_id": "CVE-2023-20918",
+    "cwe_ids": [
+        "CWE-Other"
+    ],
+    "commit_hash": "16c604aa7c253ce5cf075368a258c0b21386160d",
+    "parent_commit_hash": "bb1009673650778cd597bda1cd73fb352d6cc680",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/16c604aa7c253ce5cf075368a258c0b21386160d",
+    "file_path": "services/core/java/com/android/server/am/PendingIntentRecord.java",
+    "file_name": "PendingIntentRecord.java",
+    "commit_date": 1666070490,
+    "commit_msg": "Ensure that only SysUI can override pending intent launch flags\n\n- Originally added in ag/5139951, this method ensured that activities\n  launched from widgets are always started in a new task (if the\n  activity is launched in the home task, the task is not brough forward\n  with the recents transition).  We can restrict this to only recents\n  callers since this only applies to 1p launchers in gesture nav\n  (both the gesture with 3p launchers and button nav in general will\n  always start the home intent directly, which makes adding the\n  NEW_TASK flag unnecessary).\n\nBug: 243794108\nTest: Ensure that the original bug b/112508020 still works (with the\n      test app in the bug, swipe up still works after launching an\n      activity from the widget, and fails without applying the\n      override flags)\nChange-Id: Id53c6a2aa6da5933d488ca06a0bfc4ef89a4c343\n(cherry picked from commit c4d3106e347922610f8c554de3ae238175ed393e)\nMerged-In: Id53c6a2aa6da5933d488ca06a0bfc4ef89a4c343\n",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_is_v3": true
+}

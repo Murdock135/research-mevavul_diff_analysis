@@ -1,0 +1,22 @@
+class getShellCommandLine {
+public List<String> getShellCommandLine( String[] arguments )
+    {
+
+        List<String> commandLine = new ArrayList<String>();
+
+        if ( getShellCommand() != null )
+        {
+            commandLine.add( getShellCommand() );
+        }
+
+        if ( getShellArgs() != null )
+        {
+            commandLine.addAll( getShellArgsList() );
+        }
+
+        commandLine.addAll( getCommandLine( getExecutable(), arguments ) );
+
+        return commandLine;
+
+    }
+}

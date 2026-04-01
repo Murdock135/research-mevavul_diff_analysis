@@ -1,0 +1,21 @@
+{
+    "id": "cf6a4a1f85416b49b16a5b0c5c0bb81a4833dbc8_newJSONArray_0",
+    "func_name": "newJSONArray",
+    "cve_id": "CVE-2022-45693",
+    "cwe_ids": [
+        "CWE-674",
+        "CWE-787"
+    ],
+    "commit_hash": "cf6a4a1f85416b49b16a5b0c5c0bb81a4833dbc8",
+    "parent_commit_hash": "325b51b36982b5ddfb10d76d2809ec422e9de0b1",
+    "repo_name": "jettison-json/jettison",
+    "git_url": "https://github.com/jettison-json/jettison/commit/cf6a4a1f85416b49b16a5b0c5c0bb81a4833dbc8",
+    "file_path": "src/main/java/org/codehaus/jettison/json/JSONTokener.java",
+    "file_name": "JSONTokener.java",
+    "commit_date": 1668584213,
+    "commit_msg": "Fixing StackOverflow error",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

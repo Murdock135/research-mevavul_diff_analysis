@@ -1,0 +1,20 @@
+{
+    "id": "3c17231714e3d55809efc580a05734ed530f9ad4_getXMLFilterForClass_0",
+    "func_name": "getXMLFilterForClass",
+    "cve_id": "CVE-2023-0871",
+    "cwe_ids": [
+        "CWE-611"
+    ],
+    "commit_hash": "3c17231714e3d55809efc580a05734ed530f9ad4",
+    "parent_commit_hash": "c09bbb2eeac7fbd8fae00ec76f91179688f62dac",
+    "repo_name": "OpenNMS/opennms",
+    "git_url": "https://github.com/OpenNMS/opennms/commit/3c17231714e3d55809efc580a05734ed530f9ad4",
+    "file_path": "core/xml/src/main/java/org/opennms/core/xml/JaxbUtils.java",
+    "file_name": "JaxbUtils.java",
+    "commit_date": 1689220290,
+    "commit_msg": "NMS-15699: Prevent external xml entity loading",
+    "cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
+    "cvss_base_score": 6.1,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

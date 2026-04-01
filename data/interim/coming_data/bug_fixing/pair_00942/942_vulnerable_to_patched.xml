@@ -1,0 +1,804 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="identifier: memset [2753,2759]" dest="identifier: memset [2777,2783]"/>
+  <match src="(: ( [2760,2761]" dest="(: ( [2784,2785]"/>
+  <match src="cast_expression [3794,3830]" dest="cast_expression [3818,3854]"/>
+  <match src=";: ; [3471,3472]" dest=";: ; [3495,3496]"/>
+  <match src="comment:     
+     * No isolates, all strongs be LTR, there should be no Arabic numbers
+     * (or letters for that matter), and one of the following:
+     *
+     * o base_dir doesn't have an RTL taste.
+     * o there are letters, and base_dir is weak.
+     */ [2153,2449]" dest="comment:     
+     * No isolates, all strongs be LTR, there should be no Arabic numbers
+     * (or letters for that matter), and one of the following:
+     *
+     * o base_dir doesn't have an RTL taste.
+     * o there are letters, and base_dir is weak.
+     */ [2177,2473]"/>
+  <match src=":: : [4162,4163]" dest=":: : [4186,4187]"/>
+  <match src="case_statement [635,719]" dest="case_statement [635,719]"/>
+  <match src="argument_list [3741,3831]" dest="argument_list [3765,3855]"/>
+  <match src="pointer_expression [3769,3786]" dest="pointer_expression [3793,3810]"/>
+  <match src="else_clause [1835,1886]" dest="else_clause [1859,1910]"/>
+  <match src=":: : [1010,1011]" dest=":: : [1010,1011]"/>
+  <match src="): ) [1425,1426]" dest="): ) [1425,1426]"/>
+  <match src="(: ( [3279,3280]" dest="(: ( [3303,3304]"/>
+  <match src="call_expression [2459,2490]" dest="call_expression [2483,2514]"/>
+  <match src="call_expression [2753,2795]" dest="call_expression [2777,2819]"/>
+  <match src="pointer_expression [4088,4098]" dest="pointer_expression [4112,4122]"/>
+  <match src="*: * [3662,3663]" dest="*: * [3686,3687]"/>
+  <match src="[: [ [1569,1570]" dest="[: [ [1593,1594]"/>
+  <match src="parenthesized_expression [3109,3360]" dest="parenthesized_expression [3133,3384]"/>
+  <match src="assignment_expression [1018,1053]" dest="assignment_expression [1018,1053]"/>
+  <match src="expression_statement [1124,1163]" dest="expression_statement [1124,1163]"/>
+  <match src="identifier: USE_FRIBIDI_EX_API [271,289]" dest="identifier: USE_FRIBIDI_EX_API [271,289]"/>
+  <match src="identifier: p [1418,1419]" dest="identifier: p [1418,1419]"/>
+  <match src="identifier: FRIBIDI_PAR_LTR [690,705]" dest="identifier: FRIBIDI_PAR_LTR [690,705]"/>
+  <match src="|=: |= [1603,1605]" dest="|=: |= [1627,1629]"/>
+  <match src="=: = [1326,1327]" dest="=: = [1326,1327]"/>
+  <match src="+: + [1387,1388]" dest="+: + [1387,1388]"/>
+  <match src="(: ( [1113,1114]" dest="(: ( [1113,1114]"/>
+  <match src="number_literal: 0 [1090,1091]" dest="number_literal: 0 [1090,1091]"/>
+  <match src=",: , [142,143]" dest=",: , [142,143]"/>
+  <match src="identifier: g_free [4054,4060]" dest="identifier: g_free [4078,4084]"/>
+  <match src="identifier: FRIBIDI_TYPE_RLE [428,444]" dest="identifier: FRIBIDI_TYPE_RLE [428,444]"/>
+  <match src="abstract_pointer_declarator [3807,3808]" dest="abstract_pointer_declarator [3831,3832]"/>
+  <match src="==: == [488,490]" dest="==: == [488,490]"/>
+  <match src=";: ; [1395,1396]" dest=";: ; [1395,1396]"/>
+  <match src="type_identifier: gchar [42,47]" dest="type_identifier: gchar [42,47]"/>
+  <match src="else_clause [3101,3496]" dest="else_clause [3125,3520]"/>
+  <match src="identifier: i [1862,1863]" dest="identifier: i [1886,1887]"/>
+  <match src="]: ] [1571,1572]" dest="]: ] [1595,1596]"/>
+  <match src="||: || [3268,3270]" dest="||: || [3292,3294]"/>
+  <match src="call_expression [3429,3471]" dest="call_expression [3453,3495]"/>
+  <match src="preproc_ifdef [4026,4084]" dest="preproc_ifdef [4050,4108]"/>
+  <match src="(: ( [3130,3131]" dest="(: ( [3154,3155]"/>
+  <match src="expression_statement [1097,1120]" dest="expression_statement [1097,1120]"/>
+  <match src="&amp;&amp;: &amp;&amp; [2642,2644]" dest="&amp;&amp;: &amp;&amp; [2666,2668]"/>
+  <match src="*: * [251,252]" dest="*: * [251,252]"/>
+  <match src="parenthesized_expression [3846,3874]" dest="parenthesized_expression [3870,3898]"/>
+  <match src="(: ( [4061,4062]" dest="(: ( [4085,4086]"/>
+  <match src="(: ( [2667,2668]" dest="(: ( [2691,2692]"/>
+  <match src="pointer_declarator [311,325]" dest="pointer_declarator [311,325]"/>
+  <match src="identifier: fribidi_base_dir [2582,2598]" dest="identifier: fribidi_base_dir [2606,2622]"/>
+  <match src="identifier: length [82,88]" dest="identifier: length [82,88]"/>
+  <match src="subscript_expression [1559,1572]" dest="subscript_expression [1583,1596]"/>
+  <match src="identifier: PANGO_DIRECTION_RTL [729,748]" dest="identifier: PANGO_DIRECTION_RTL [729,748]"/>
+  <match src="==: == [1755,1757]" dest="==: == [1779,1781]"/>
+  <match src="parenthesized_expression [3279,3351]" dest="parenthesized_expression [3303,3375]"/>
+  <match src="identifier: char_type [1606,1615]" dest="identifier: char_type [1630,1639]"/>
+  <match src="assignment_expression [1124,1162]" dest="assignment_expression [1124,1162]"/>
+  <match src="const: const [182,187]" dest="const: const [182,187]"/>
+  <match src="case_statement [969,998]" dest="case_statement [969,998]"/>
+  <match src="declaration [149,179]" dest="declaration [149,179]"/>
+  <match src="identifier: n_chars [1124,1131]" dest="identifier: n_chars [1124,1131]"/>
+  <match src=";: ; [4183,4184]" dest=";: ; [4207,4208]"/>
+  <match src="identifier: FRIBIDI_PAR_RTL [3411,3426]" dest="identifier: FRIBIDI_PAR_RTL [3435,3450]"/>
+  <match src="preproc_ifdef [2083,2148]" dest="preproc_ifdef [2107,2172]"/>
+  <match src="identifier: ored_types [1592,1602]" dest="identifier: ored_types [1616,1626]"/>
+  <match src="else: else [3101,3105]" dest="else: else [3125,3129]"/>
+  <match src="identifier: FRIBIDI_IS_LETTER [2649,2666]" dest="identifier: FRIBIDI_IS_LETTER [2673,2690]"/>
+  <match src="ERROR [66,69]" dest="ERROR [66,69]"/>
+  <match src="if_statement [2454,3496]" dest="if_statement [2478,3520]"/>
+  <match src="assignment_expression [1784,1827]" dest="assignment_expression [1808,1851]"/>
+  <match src="): ) [4137,4138]" dest="): ) [4161,4162]"/>
+  <match src="type_identifier: FriBidiCharType [362,377]" dest="type_identifier: FriBidiCharType [362,377]"/>
+  <match src="case: case [605,609]" dest="case: case [605,609]"/>
+  <match src="declaration [1439,1473]" dest="declaration [1439,1473]"/>
+  <match src="binary_expression [2607,2679]" dest="binary_expression [2631,2703]"/>
+  <match src="identifier: bidi_types [252,262]" dest="identifier: bidi_types [252,262]"/>
+  <match src=";: ; [507,508]" dest=";: ; [507,508]"/>
+  <match src="default: default [1003,1010]" dest="default: default [1003,1010]"/>
+  <match src="identifier: PANGO_DIRECTION_WEAK_RTL [848,872]" dest="identifier: PANGO_DIRECTION_WEAK_RTL [848,872]"/>
+  <match src="#ifdef: #ifdef [264,270]" dest="#ifdef: #ifdef [264,270]"/>
+  <match src="sizeof: sizeof [466,472]" dest="sizeof: sizeof [466,472]"/>
+  <match src="identifier: fribidi_base_dir [1018,1034]" dest="identifier: fribidi_base_dir [1018,1034]"/>
+  <match src="(: ( [3249,3250]" dest="(: ( [3273,3274]"/>
+  <match src=";: ; [2750,2751]" dest=";: ; [2774,2775]"/>
+  <match src="(: ( [2581,2582]" dest="(: ( [2605,2606]"/>
+  <match src="identifier: fribidi_base_dir [3297,3313]" dest="identifier: fribidi_base_dir [3321,3337]"/>
+  <match src="identifier: i [144,145]" dest="identifier: i [144,145]"/>
+  <match src="assignment_expression [1592,1615]" dest="assignment_expression [1616,1639]"/>
+  <match src="!: ! [3110,3111]" dest="!: ! [3134,3135]"/>
+  <match src="binary_expression [3110,3223]" dest="binary_expression [3134,3247]"/>
+  <match src="call_expression [3153,3183]" dest="call_expression [3177,3207]"/>
+  <match src="argument_list [1823,1827]" dest="argument_list [1847,1851]"/>
+  <match src="sizeof: sizeof [552,558]" dest="sizeof: sizeof [552,558]"/>
+  <match src="identifier: max_level [349,358]" dest="identifier: max_level [349,358]"/>
+  <match src="=: = [3537,3538]" dest="=: = [3561,3562]"/>
+  <match src="case_statement [605,630]" dest="case_statement [605,630]"/>
+  <match src=";: ; [2795,2796]" dest=";: ; [2819,2820]"/>
+  <match src="compound_statement [3367,3496]" dest="compound_statement [3391,3520]"/>
+  <match src="break: break [713,718]" dest="break: break [713,718]"/>
+  <match src="init_declarator [1448,1472]" dest="init_declarator [1448,1472]"/>
+  <match src="=: = [3409,3410]" dest="=: = [3433,3434]"/>
+  <match src="binary_expression [528,569]" dest="binary_expression [528,569]"/>
+  <match src="assignment_expression [1097,1119]" dest="assignment_expression [1097,1119]"/>
+  <match src="identifier: PANGO_DIRECTION_LTR [610,629]" dest="identifier: PANGO_DIRECTION_LTR [610,629]"/>
+  <match src="call_expression [1180,1212]" dest="call_expression [1180,1212]"/>
+  <match src=";: ; [570,571]" dest=";: ; [570,571]"/>
+  <match src="update_expression [1422,1425]" dest="update_expression [1422,1425]"/>
+  <match src="break_statement [1061,1067]" dest="break_statement [1061,1067]"/>
+  <match src="): ) [2138,2139]" dest="): ) [2162,2163]"/>
+  <match src="]: ] [1753,1754]" dest="]: ] [1777,1778]"/>
+  <match src="call_expression [3539,3686]" dest="call_expression [3563,3710]"/>
+  <match src="==: == [4119,4121]" dest="==: == [4143,4145]"/>
+  <match src="assignment_expression [1848,1885]" dest="assignment_expression [1872,1909]"/>
+  <match src="argument_list [3575,3686]" dest="argument_list [3599,3710]"/>
+  <match src="*: * [51,52]" dest="*: * [51,52]"/>
+  <match src="call_expression [511,570]" dest="call_expression [511,570]"/>
+  <match src="(: ( [527,528]" dest="(: ( [527,528]"/>
+  <match src="#ifdef: #ifdef [4026,4032]" dest="#ifdef: #ifdef [4050,4056]"/>
+  <match src=":: : [629,630]" dest=":: : [629,630]"/>
+  <match src="identifier: ored_types [3172,3182]" dest="identifier: ored_types [3196,3206]"/>
+  <match src="type_identifier: FriBidiLevel [3650,3662]" dest="type_identifier: FriBidiLevel [3674,3686]"/>
+  <match src="assignment_expression [1304,1351]" dest="assignment_expression [1304,1351]"/>
+  <match src="statement_identifier: resolved [3992,4000]" dest="statement_identifier: resolved [4016,4024]"/>
+  <match src="expression_statement [511,571]" dest="expression_statement [511,571]"/>
+  <match src="expression_statement [880,916]" dest="expression_statement [880,916]"/>
+  <match src="identifier: FRIBIDI_PAR_RTL [809,824]" dest="identifier: FRIBIDI_PAR_RTL [809,824]"/>
+  <match src="): ) [1419,1420]" dest="): ) [1419,1420]"/>
+  <match src=":: : [997,998]" dest=":: : [997,998]"/>
+  <match src="if_statement [3106,3496]" dest="if_statement [3130,3520]"/>
+  <match src="): ) [3266,3267]" dest="): ) [3290,3291]"/>
+  <match src="case: case [754,758]" dest="case: case [754,758]"/>
+  <match src="identifier: fribidi_base_dir [3770,3786]" dest="identifier: fribidi_base_dir [3794,3810]"/>
+  <match src="assignment_expression [790,824]" dest="assignment_expression [790,824]"/>
+  <match src="(: ( [1186,1187]" dest="(: ( [1186,1187]"/>
+  <match src="identifier: FRIBIDI_IS_RTL [3234,3248]" dest="identifier: FRIBIDI_IS_RTL [3258,3272]"/>
+  <match src="call_expression [1627,1656]" dest="call_expression [1651,1680]"/>
+  <match src="pointer_declarator [194,196]" dest="pointer_declarator [194,196]"/>
+  <match src="}: } [1898,1899]" dest="}: } [1922,1923]"/>
+  <match src="argument_list [2511,2523]" dest="argument_list [2535,2547]"/>
+  <match src="!: ! [3152,3153]" dest="!: ! [3176,3177]"/>
+  <match src="): ) [3349,3350]" dest="): ) [3373,3374]"/>
+  <match src="call_expression [1134,1162]" dest="call_expression [1134,1162]"/>
+  <match src="!: ! [2565,2566]" dest="!: ! [2589,2590]"/>
+  <match src="(: ( [1148,1149]" dest="(: ( [1148,1149]"/>
+  <match src="(: ( [465,466]" dest="(: ( [465,466]"/>
+  <match src="=: = [1256,1257]" dest="=: = [1256,1257]"/>
+  <match src="(: ( [2136,2137]" dest="(: ( [2160,2161]"/>
+  <match src="compound_statement [1431,1899]" dest="compound_statement [1431,1923]"/>
+  <match src="!: ! [2528,2529]" dest="!: ! [2552,2553]"/>
+  <match src="identifier: fribidi_base_dir [671,687]" dest="identifier: fribidi_base_dir [671,687]"/>
+  <match src="=: = [1573,1574]" dest="=: = [1597,1598]"/>
+  <match src="declaration [182,197]" dest="declaration [182,197]"/>
+  <match src="declaration [0,146]" dest="declaration [0,146]"/>
+  <match src="call_expression [2529,2559]" dest="call_expression [2553,2583]"/>
+  <match src="assignment_expression [3696,3831]" dest="assignment_expression [3720,3855]"/>
+  <match src="pointer_declarator [251,262]" dest="pointer_declarator [251,262]"/>
+  <match src="type_identifier: FriBidiParType [200,214]" dest="type_identifier: FriBidiParType [200,214]"/>
+  <match src="identifier: embedding_levels_list [4195,4216]" dest="identifier: embedding_levels_list [4219,4240]"/>
+  <match src="identifier: FRIBIDI_IS_ISOLATE [2118,2136]" dest="identifier: FRIBIDI_IS_ISOLATE [2142,2160]"/>
+  <match src="statement_identifier: resolved [3479,3487]" dest="statement_identifier: resolved [3503,3511]"/>
+  <match src="=: = [4099,4100]" dest="=: = [4123,4124]"/>
+  <match src="(: ( [3436,3437]" dest="(: ( [3460,3461]"/>
+  <match src="argument_list [2623,2641]" dest="argument_list [2647,2665]"/>
+  <match src="identifier: text [1382,1386]" dest="identifier: text [1382,1386]"/>
+  <match src="number_literal: 0 [3973,3974]" dest="number_literal: 0 [3997,3998]"/>
+  <match src="identifier: text [52,56]" dest="identifier: text [52,56]"/>
+  <match src="}: } [1072,1073]" dest="}: } [1072,1073]"/>
+  <match src=";: ; [1584,1585]" dest=";: ; [1608,1609]"/>
+  <match src="unary_expression [2528,2559]" dest="unary_expression [2552,2583]"/>
+  <match src=";: ; [718,719]" dest=";: ; [718,719]"/>
+  <match src="): ) [568,569]" dest="): ) [568,569]"/>
+  <match src="identifier: ored_types [2668,2678]" dest="identifier: ored_types [2692,2702]"/>
+  <match src=",: , [2782,2783]" dest=",: , [2806,2807]"/>
+  <match src="identifier: p [1397,1398]" dest="identifier: p [1397,1398]"/>
+  <match src=",: , [3761,3762]" dest=",: , [3785,3786]"/>
+  <match src="macro_type_specifier [0,52]" dest="macro_type_specifier [0,52]"/>
+  <match src="unary_expression [2565,2599]" dest="unary_expression [2589,2623]"/>
+  <match src="cast_expression [3649,3685]" dest="cast_expression [3673,3709]"/>
+  <match src="expression_statement [2716,2751]" dest="expression_statement [2740,2775]"/>
+  <match src="{: { [1431,1432]" dest="{: { [1431,1432]"/>
+  <match src="preproc_ifdef [1214,1301]" dest="preproc_ifdef [1214,1301]"/>
+  <match src="identifier: i [1798,1799]" dest="identifier: i [1822,1823]"/>
+  <match src="): ) [1161,1162]" dest="): ) [1161,1162]"/>
+  <match src="argument_list [2547,2559]" dest="argument_list [2571,2583]"/>
+  <match src="#endif: #endif [1295,1301]" dest="#endif: #endif [1295,1301]"/>
+  <match src="#ifdef: #ifdef [1694,1700]" dest="#ifdef: #ifdef [1718,1724]"/>
+  <match src=";: ; [444,445]" dest=";: ; [444,445]"/>
+  <match src="binary_expression [3234,3351]" dest="binary_expression [3258,3375]"/>
+  <match src="if: if [3106,3108]" dest="if: if [3130,3132]"/>
+  <match src="identifier: g_utf8_next_char [1401,1417]" dest="identifier: g_utf8_next_char [1401,1417]"/>
+  <match src="identifier: char_type [1646,1655]" dest="identifier: char_type [1670,1679]"/>
+  <match src="{: { [2691,2692]" dest="{: { [2715,2716]"/>
+  <match src="expression_statement [3392,3427]" dest="expression_statement [3416,3451]"/>
+  <match src="): ) [506,507]" dest="): ) [506,507]"/>
+  <match src="#endif: #endif [2142,2148]" dest="#endif: #endif [2166,2172]"/>
+  <match src="identifier: anded_strongs [3209,3222]" dest="identifier: anded_strongs [3233,3246]"/>
+  <match src="identifier: ch [1824,1826]" dest="identifier: ch [1848,1850]"/>
+  <match src="compound_statement [599,1073]" dest="compound_statement [599,1073]"/>
+  <match src="preproc_function_def [2110,2142]" dest="preproc_function_def [2134,2166]"/>
+  <match src="if_statement [1623,1693]" dest="if_statement [1647,1717]"/>
+  <match src="identifier: FRIBIDI_NO_BRACKET [1867,1885]" dest="identifier: FRIBIDI_NO_BRACKET [1891,1909]"/>
+  <match src="if: if [1077,1079]" dest="if: if [1077,1079]"/>
+  <match src="identifier: int [66,69]" dest="identifier: int [66,69]"/>
+  <match src="expression_statement [1242,1294]" dest="expression_statement [1242,1294]"/>
+  <match src="identifier: fribidi_base_dir [3392,3408]" dest="identifier: fribidi_base_dir [3416,3432]"/>
+  <match src="): ) [3872,3873]" dest="): ) [3896,3897]"/>
+  <match src="assignment_expression [671,705]" dest="assignment_expression [671,705]"/>
+  <match src="identifier: FRIBIDI_IS_RTL [3193,3207]" dest="identifier: FRIBIDI_IS_RTL [3217,3231]"/>
+  <match src="comma_expression [1361,1376]" dest="comma_expression [1361,1376]"/>
+  <match src="identifier: fribidi_base_dir [2624,2640]" dest="identifier: fribidi_base_dir [2648,2664]"/>
+  <match src="identifier: n_chars [1343,1350]" dest="identifier: n_chars [1343,1350]"/>
+  <match src="call_expression [3111,3142]" dest="call_expression [3135,3166]"/>
+  <match src=";: ; [3686,3687]" dest=";: ; [3710,3711]"/>
+  <match src="case: case [934,938]" dest="case: case [934,938]"/>
+  <match src="call_expression [4004,4023]" dest="call_expression [4028,4047]"/>
+  <match src="=: = [1370,1371]" dest="=: = [1370,1371]"/>
+  <match src=";: ; [1212,1213]" dest=";: ; [1212,1213]"/>
+  <match src="argument_list [3857,3873]" dest="argument_list [3881,3897]"/>
+  <match src="init_declarator [412,444]" dest="init_declarator [412,444]"/>
+  <match src="identifier: FRIBIDI_TYPE_ON [1758,1773]" dest="identifier: FRIBIDI_TYPE_ON [1782,1797]"/>
+  <match src="{: { [125,126]" dest="{: { [125,126]"/>
+  <match src="argument_list [1148,1162]" dest="argument_list [1148,1162]"/>
+  <match src="case_statement [724,749]" dest="case_statement [724,749]"/>
+  <match src="type_identifier: FriBidiBracketType [292,310]" dest="type_identifier: FriBidiBracketType [292,310]"/>
+  <match src="comment: /* all RTL */ [3377,3390]" dest="comment: /* all RTL */ [3401,3414]"/>
+  <match src="): ) [486,487]" dest="): ) [486,487]"/>
+  <match src="(: ( [1417,1418]" dest="(: ( [1417,1418]"/>
+  <match src=";: ; [3487,3488]" dest=";: ; [3511,3512]"/>
+  <match src="identifier: length [1081,1087]" dest="identifier: length [1081,1087]"/>
+  <match src="identifier: FriBidiChar [536,547]" dest="identifier: FriBidiChar [536,547]"/>
+  <match src="argument_list [1264,1293]" dest="argument_list [1264,1293]"/>
+  <match src="comment:     
+     * text.
+     *
+     * For details see:
+     * https://bugzilla.gnome.org/show_bug.cgi?id=590183
+     */ [1905,2081]" dest="comment:     
+     * text.
+     *
+     * For details see:
+     * https://bugzilla.gnome.org/show_bug.cgi?id=590183
+     */ [1929,2105]"/>
+  <match src="(: ( [4011,4012]" dest="(: ( [4035,4036]"/>
+  <match src=":: : [663,664]" dest=":: : [663,664]"/>
+  <match src=",: , [3461,3462]" dest=",: , [3485,3486]"/>
+  <match src="[: [ [1797,1798]" dest="[: [ [1821,1822]"/>
+  <match src="binary_expression [3858,3872]" dest="binary_expression [3882,3896]"/>
+  <match src="declaration [336,359]" dest="declaration [336,359]"/>
+  <match src=";: ; [358,359]" dest=";: ; [358,359]"/>
+  <match src="): ) [3182,3183]" dest="): ) [3206,3207]"/>
+  <match src="ERROR [4218,4219]" dest="ERROR [4242,4243]"/>
+  <match src="identifier: max_level [3527,3536]" dest="identifier: max_level [3551,3560]"/>
+  <match src="case_statement [843,929]" dest="case_statement [843,929]"/>
+  <match src="!: ! [2495,2496]" dest="!: ! [2519,2520]"/>
+  <match src="(: ( [3338,3339]" dest="(: ( [3362,3363]"/>
+  <match src="(: ( [1729,1730]" dest="(: ( [1753,1754]"/>
+  <match src=";: ; [915,916]" dest=";: ; [915,916]"/>
+  <match src="assignment_expression [3527,3686]" dest="assignment_expression [3551,3710]"/>
+  <match src="(: ( [1080,1081]" dest="(: ( [1080,1081]"/>
+  <match src="number_literal: 0 [2784,2785]" dest="number_literal: 0 [2808,2809]"/>
+  <match src="declaration [362,393]" dest="declaration [362,393]"/>
+  <match src="identifier: guint8 [499,505]" dest="identifier: guint8 [499,505]"/>
+  <match src="*: * [583,584]" dest="*: * [583,584]"/>
+  <match src="): ) [3808,3809]" dest="): ) [3832,3833]"/>
+  <match src="(: ( [3949,3950]" dest="(: ( [3973,3974]"/>
+  <match src=";: ; [1505,1506]" dest=";: ; [1534,1535]"/>
+  <match src="binary_expression [1081,1091]" dest="binary_expression [1081,1091]"/>
+  <match src="if: if [1623,1625]" dest="if: if [1647,1649]"/>
+  <match src="type_identifier: FriBidiLevel [336,348]" dest="type_identifier: FriBidiLevel [336,348]"/>
+  <match src="call_expression [1453,1472]" dest="call_expression [1453,1472]"/>
+  <match src="if_statement [3843,3990]" dest="if_statement [3867,4014]"/>
+  <match src="identifier: FRIBIDI_IS_NUMBER [3153,3170]" dest="identifier: FRIBIDI_IS_NUMBER [3177,3194]"/>
+  <match src="case: case [724,728]" dest="case: case [724,728]"/>
+  <match src="binary_expression [2458,2559]" dest="binary_expression [2482,2583]"/>
+  <match src="goto_statement [2798,2812]" dest="goto_statement [2822,2836]"/>
+  <match src="abstract_pointer_declarator [3662,3663]" dest="abstract_pointer_declarator [3686,3687]"/>
+  <match src="identifier: bidi_types [1167,1177]" dest="identifier: bidi_types [1167,1177]"/>
+  <match src="identifier: PANGO_DIRECTION_TTB_LTR [759,782]" dest="identifier: PANGO_DIRECTION_TTB_LTR [759,782]"/>
+  <match src="(: ( [535,536]" dest="(: ( [535,536]"/>
+  <match src="identifier: fribidi_get_bidi_type [1525,1546]" dest="identifier: fribidi_get_bidi_type [1508,1529]"/>
+  <match src="type_descriptor [3650,3663]" dest="type_descriptor [3674,3687]"/>
+  <match src=",: , [3638,3639]" dest=",: , [3662,3663]"/>
+  <match src="type_identifier: FriBidiLevel [3795,3807]" dest="type_identifier: FriBidiLevel [3819,3831]"/>
+  <match src="identifier: g_utf8_get_char [1453,1468]" dest="identifier: g_utf8_get_char [1453,1468]"/>
+  <match src="): ) [3350,3351]" dest="): ) [3374,3375]"/>
+  <match src="(: ( [582,583]" dest="(: ( [582,583]"/>
+  <match src="): ) [3873,3874]" dest="): ) [3897,3898]"/>
+  <match src="call_expression [3708,3831]" dest="call_expression [3732,3855]"/>
+  <match src="argument_list [3436,3471]" dest="argument_list [3460,3495]"/>
+  <match src="identifier: bracket_types [1848,1861]" dest="identifier: bracket_types [1872,1885]"/>
+  <match src="identifier: embedding_levels_list [1304,1325]" dest="identifier: embedding_levels_list [1304,1325]"/>
+  <match src="=: = [426,427]" dest="=: = [426,427]"/>
+  <match src="): ) [1350,1351]" dest="): ) [1350,1351]"/>
+  <match src=":: : [782,783]" dest=":: : [782,783]"/>
+  <match src="): ) [3982,3983]" dest="): ) [4006,4007]"/>
+  <match src="assignment_expression [1361,1366]" dest="assignment_expression [1361,1366]"/>
+  <match src="sizeof_expression [466,487]" dest="sizeof_expression [466,487]"/>
+  <match src="expression_statement [1559,1585]" dest="expression_statement [1583,1609]"/>
+  <match src="&lt;: &lt; [1088,1089]" dest="&lt;: &lt; [1088,1089]"/>
+  <match src="identifier: ored_types [2548,2558]" dest="identifier: ored_types [2572,2582]"/>
+  <match src="identifier: PANGO_DIRECTION_WEAK_LTR [939,963]" dest="identifier: PANGO_DIRECTION_WEAK_LTR [939,963]"/>
+  <match src=",: , [3458,3459]" dest=",: , [3482,3483]"/>
+  <match src="): ) [2558,2559]" dest="): ) [2582,2583]"/>
+  <match src="identifier: bidi_types [3742,3752]" dest="identifier: bidi_types [3766,3776]"/>
+  <match src="call_expression [1803,1827]" dest="call_expression [1827,1851]"/>
+  <match src="identifier: embedding_levels_list [3950,3971]" dest="identifier: embedding_levels_list [3974,3995]"/>
+  <match src="expression_statement [3527,3687]" dest="expression_statement [3551,3711]"/>
+  <match src="parenthesized_expression [1626,1657]" dest="parenthesized_expression [1650,1681]"/>
+  <match src="case: case [969,973]" dest="case: case [969,973]"/>
+  <match src="&amp;&amp;: &amp;&amp; [2560,2562]" dest="&amp;&amp;: &amp;&amp; [2584,2586]"/>
+  <match src="identifier: FRIBIDI_PAR_LTR [4122,4137]" dest="identifier: FRIBIDI_PAR_LTR [4146,4161]"/>
+  <match src="argument_list [1645,1656]" dest="argument_list [1669,1680]"/>
+  <match src="binary_expression [466,506]" dest="binary_expression [466,506]"/>
+  <match src="if_statement [1077,1120]" dest="if_statement [1077,1120]"/>
+  <match src="call_expression [1106,1119]" dest="call_expression [1106,1119]"/>
+  <match src="): ) [2489,2490]" dest="): ) [2513,2514]"/>
+  <match src="assignment_expression [3392,3426]" dest="assignment_expression [3416,3450]"/>
+  <match src="*: * [194,195]" dest="*: * [194,195]"/>
+  <match src="identifier: pango_log2vis_get_embedding_levels [0,34]" dest="identifier: pango_log2vis_get_embedding_levels [0,34]"/>
+  <match src=",: , [3974,3975]" dest=",: , [3998,3999]"/>
+  <match src="parenthesized_expression [1080,1092]" dest="parenthesized_expression [1080,1092]"/>
+  <match src="identifier: strlen [1106,1112]" dest="identifier: strlen [1106,1112]"/>
+  <match src="identifier: ored_types [3131,3141]" dest="identifier: ored_types [3155,3165]"/>
+  <match src="assignment_expression [4088,4183]" dest="assignment_expression [4112,4207]"/>
+  <match src="number_literal: 0 [391,392]" dest="number_literal: 0 [391,392]"/>
+  <match src="&amp;: &amp; [3769,3770]" dest="&amp;: &amp; [3793,3794]"/>
+  <match src="sizeof: sizeof [528,534]" dest="sizeof: sizeof [528,534]"/>
+  <match src="(: ( [3649,3650]" dest="(: ( [3673,3674]"/>
+  <match src="identifier: fribidi_base_dir [790,806]" dest="identifier: fribidi_base_dir [790,806]"/>
+  <match src="call_expression [1258,1293]" dest="call_expression [1258,1293]"/>
+  <match src="call_expression [3847,3873]" dest="call_expression [3871,3897]"/>
+  <match src="assignment_expression [1368,1376]" dest="assignment_expression [1368,1376]"/>
+  <match src="&amp;=: &amp;= [1680,1682]" dest="&amp;=: &amp;= [1704,1706]"/>
+  <match src="argument_list [1469,1472]" dest="argument_list [1469,1472]"/>
+  <match src="=: = [1178,1179]" dest="=: = [1178,1179]"/>
+  <match src="(: ( [4101,4102]" dest="(: ( [4125,4126]"/>
+  <match src="#ifdef: #ifdef [1214,1220]" dest="#ifdef: #ifdef [1214,1220]"/>
+  <match src="): ) [2794,2795]" dest="): ) [2818,2819]"/>
+  <match src="(: ( [3171,3172]" dest="(: ( [3195,3196]"/>
+  <match src="type_identifier: FriBidiCharType [1480,1495]" dest="type_identifier: FriBidiCharType [1480,1495]"/>
+  <match src="identifier: p [1368,1369]" dest="identifier: p [1368,1369]"/>
+  <match src="): ) [1211,1212]" dest="): ) [1211,1212]"/>
+  <match src="identifier: PANGO_DIRECTION_LTR [4142,4161]" dest="identifier: PANGO_DIRECTION_LTR [4166,4185]"/>
+  <match src="identifier: PangoDirection [98,112]" dest="identifier: PangoDirection [98,112]"/>
+  <match src="): ) [593,594]" dest="): ) [593,594]"/>
+  <match src=";: ; [178,179]" dest=";: ; [178,179]"/>
+  <match src=",: , [56,57]" dest=",: , [56,57]"/>
+  <match src="=: = [897,898]" dest="=: = [897,898]"/>
+  <match src="pointer_declarator [113,123]" dest="pointer_declarator [113,123]"/>
+  <match src=";: ; [824,825]" dest=";: ; [824,825]"/>
+  <match src=",: , [1341,1342]" dest=",: , [1341,1342]"/>
+  <match src="identifier: FRIBIDI_IS_ISOLATE [2091,2109]" dest="identifier: FRIBIDI_IS_ISOLATE [2115,2133]"/>
+  <match src="preproc_params [2136,2139]" dest="preproc_params [2160,2163]"/>
+  <match src="): ) [1773,1774]" dest="): ) [1797,1798]"/>
+  <match src="binary_expression [1378,1395]" dest="binary_expression [1378,1395]"/>
+  <match src="argument_list [2581,2599]" dest="argument_list [2605,2623]"/>
+  <match src="parenthesized_expression [1729,1775]" dest="parenthesized_expression [1753,1799]"/>
+  <match src=";: ; [1053,1054]" dest=";: ; [1053,1054]"/>
+  <match src="break_statement [832,838]" dest="break_statement [832,838]"/>
+  <match src="identifier: FriBidiCharType [1187,1202]" dest="identifier: FriBidiCharType [1187,1202]"/>
+  <match src="expression_statement [2753,2796]" dest="expression_statement [2777,2820]"/>
+  <match src="#ifndef: #ifndef [2083,2090]" dest="#ifndef: #ifndef [2107,2114]"/>
+  <match src="identifier: char_type [1575,1584]" dest="identifier: char_type [1599,1608]"/>
+  <match src="): ) [1292,1293]" dest="): ) [1292,1293]"/>
+  <match src="==: == [549,551]" dest="==: == [549,551]"/>
+  <match src="goto: goto [3474,3478]" dest="goto: goto [3498,3502]"/>
+  <match src="(: ( [1823,1824]" dest="(: ( [1847,1848]"/>
+  <match src="identifier: length [1097,1103]" dest="identifier: length [1097,1103]"/>
+  <match src="call_expression [3193,3223]" dest="call_expression [3217,3247]"/>
+  <match src="(: ( [498,499]" dest="(: ( [498,499]"/>
+  <match src="identifier: g_free [4004,4010]" dest="identifier: g_free [4028,4034]"/>
+  <match src="if_statement [1726,1886]" dest="if_statement [1750,1910]"/>
+  <match src=",: , [1366,1367]" dest=",: , [1366,1367]"/>
+  <match src="): ) [4022,4023]" dest="): ) [4046,4047]"/>
+  <match src="break: break [1061,1066]" dest="break: break [1061,1066]"/>
+  <match src="case_statement [934,964]" dest="case_statement [934,964]"/>
+  <match src="identifier: FRIBIDI_IS_ARABIC [2529,2546]" dest="identifier: FRIBIDI_IS_ARABIC [2553,2570]"/>
+  <match src="#else: #else [3688,3693]" dest="#else: #else [3712,3717]"/>
+  <match src="identifier: g_new [1328,1333]" dest="identifier: g_new [1328,1333]"/>
+  <match src="pointer_declarator [156,178]" dest="pointer_declarator [156,178]"/>
+  <match src="type_qualifier [182,187]" dest="type_qualifier [182,187]"/>
+  <match src="identifier: FRIBIDI_IS_ISOLATE [3111,3129]" dest="identifier: FRIBIDI_IS_ISOLATE [3135,3153]"/>
+  <match src="type_identifier: guint8 [149,155]" dest="type_identifier: guint8 [149,155]"/>
+  <match src="&amp;&amp;: &amp;&amp; [3315,3317]" dest="&amp;&amp;: &amp;&amp; [3339,3341]"/>
+  <match src="case: case [843,847]" dest="case: case [843,847]"/>
+  <match src="): ) [2679,2680]" dest="): ) [2703,2704]"/>
+  <match src="): ) [1655,1656]" dest="): ) [1679,1680]"/>
+  <match src="argument_list [1417,1420]" dest="argument_list [1417,1420]"/>
+  <match src="sizeof_expression [491,506]" dest="sizeof_expression [491,506]"/>
+  <match src="identifier: guint8 [1335,1341]" dest="identifier: guint8 [1335,1341]"/>
+  <match src=";: ; [1376,1377]" dest=";: ; [1376,1377]"/>
+  <match src="*: * [156,157]" dest="*: * [156,157]"/>
+  <match src="compound_statement [3879,3990]" dest="compound_statement [3903,4014]"/>
+  <match src="unary_expression [2458,2490]" dest="unary_expression [2482,2514]"/>
+  <match src="call_expression [2607,2641]" dest="call_expression [2631,2665]"/>
+  <match src="parenthesized_expression [2457,2684]" dest="parenthesized_expression [2481,2708]"/>
+  <match src="binary_expression [2458,2683]" dest="binary_expression [2482,2707]"/>
+  <match src="parenthesized_expression [535,548]" dest="parenthesized_expression [535,548]"/>
+  <match src=";: ; [1119,1120]" dest=";: ; [1119,1120]"/>
+  <match src="identifier: ored_types [2512,2522]" dest="identifier: ored_types [2536,2546]"/>
+  <match src="&amp;&amp;: &amp;&amp; [3224,3226]" dest="&amp;&amp;: &amp;&amp; [3248,3250]"/>
+  <match src="}: } [3495,3496]" dest="}: } [3519,3520]"/>
+  <match src="]: ] [1799,1800]" dest="]: ] [1823,1824]"/>
+  <match src="identifier: n_chars [1285,1292]" dest="identifier: n_chars [1285,1292]"/>
+  <match src="): ) [3830,3831]" dest="): ) [3854,3855]"/>
+  <match src=";: ; [1293,1294]" dest=";: ; [1293,1294]"/>
+  <match src="identifier: x [2137,2138]" dest="identifier: x [2161,2162]"/>
+  <match src="break_statement [713,719]" dest="break_statement [713,719]"/>
+  <match src=";: ; [392,393]" dest=";: ; [392,393]"/>
+  <match src="type_identifier: FriBidiCharType [235,250]" dest="type_identifier: FriBidiCharType [235,250]"/>
+  <match src="(: ( [1360,1361]" dest="(: ( [1360,1361]"/>
+  <match src="binary_expression [1741,1773]" dest="binary_expression [1765,1797]"/>
+  <match src="=: = [1104,1105]" dest="=: = [1104,1105]"/>
+  <match src="expression_statement [1167,1213]" dest="expression_statement [1167,1213]"/>
+  <match src="identifier: g_new [1180,1185]" dest="identifier: g_new [1180,1185]"/>
+  <match src="break: break [923,928]" dest="break: break [923,928]"/>
+  <match src="identifier: FRIBIDI_IS_WEAK [3280,3295]" dest="identifier: FRIBIDI_IS_WEAK [3304,3319]"/>
+  <match src=") [52,52]" dest=") [52,52]"/>
+  <match src="assignment_expression [1167,1212]" dest="assignment_expression [1167,1212]"/>
+  <match src="): ) [1774,1775]" dest="): ) [1798,1799]"/>
+  <match src="&amp;: &amp; [3621,3622]" dest="&amp;: &amp; [3645,3646]"/>
+  <match src="=: = [1801,1802]" dest="=: = [1825,1826]"/>
+  <match src=",: , [3586,3587]" dest=",: , [3610,3611]"/>
+  <match src="declaration [292,326]" dest="declaration [292,326]"/>
+  <match src="): ) [3470,3471]" dest="): ) [3494,3495]"/>
+  <match src="if: if [2454,2456]" dest="if: if [2478,2480]"/>
+  <match src="): ) [2678,2679]" dest="): ) [2702,2703]"/>
+  <match src=":: : [872,873]" dest=":: : [872,873]"/>
+  <match src="identifier: FRIBIDI_PAR_LTR [2735,2750]" dest="identifier: FRIBIDI_PAR_LTR [2759,2774]"/>
+  <match src="const: const [36,41]" dest="const: const [36,41]"/>
+  <match src="preproc_ifdef [264,333]" dest="preproc_ifdef [264,333]"/>
+  <match src=",: , [88,89]" dest=",: , [88,89]"/>
+  <match src="break: break [832,837]" dest="break: break [832,837]"/>
+  <match src="(: ( [3794,3795]" dest="(: ( [3818,3819]"/>
+  <match src="pointer_expression [583,593]" dest="pointer_expression [583,593]"/>
+  <match src="declaration [1480,1506]" dest="declaration [1480,1535]"/>
+  <match src="identifier: gunichar [560,568]" dest="identifier: gunichar [560,568]"/>
+  <match src="argument_list [2478,2490]" dest="argument_list [2502,2514]"/>
+  <match src="): ) [3222,3223]" dest="): ) [3246,3247]"/>
+  <match src="identifier: ored_types [378,388]" dest="identifier: ored_types [378,388]"/>
+  <match src="argument_list [4011,4023]" dest="argument_list [4035,4047]"/>
+  <match src="identifier: bracket_types [1242,1255]" dest="identifier: bracket_types [1242,1255]"/>
+  <match src="unary_expression [3152,3183]" dest="unary_expression [3176,3207]"/>
+  <match src="call_expression [1730,1774]" dest="call_expression [1754,1798]"/>
+  <match src="): ) [1550,1551]" dest="): ) [1533,1534]"/>
+  <match src="(: ( [2478,2479]" dest="(: ( [2502,2503]"/>
+  <match src="(: ( [3208,3209]" dest="(: ( [3232,3233]"/>
+  <match src="argument_list [4061,4076]" dest="argument_list [4085,4100]"/>
+  <match src="}: } [4218,4219]" dest="}: } [4242,4243]"/>
+  <match src="identifier: FRIBIDI_IS_LETTER [3320,3337]" dest="identifier: FRIBIDI_IS_LETTER [3344,3361]"/>
+  <match src="preproc_ifdef [3499,3839]" dest="preproc_ifdef [3523,3863]"/>
+  <match src="identifier: text [1372,1376]" dest="identifier: text [1372,1376]"/>
+  <match src="identifier: n_chars [3754,3761]" dest="identifier: n_chars [3778,3785]"/>
+  <match src="*: * [4088,4089]" dest="*: * [4112,4113]"/>
+  <match src="): ) [1826,1827]" dest="): ) [1850,1851]"/>
+  <match src="identifier: bidi_types [4012,4022]" dest="identifier: bidi_types [4036,4046]"/>
+  <match src="): ) [2640,2641]" dest="): ) [2664,2665]"/>
+  <match src="identifier: fribidi_base_dir [215,231]" dest="identifier: fribidi_base_dir [215,231]"/>
+  <match src="return_statement [4188,4217]" dest="return_statement [4212,4241]"/>
+  <match src=";: ; [3831,3832]" dest=";: ; [3855,3856]"/>
+  <match src="assignment_expression [1242,1293]" dest="assignment_expression [1242,1293]"/>
+  <match src="identifier: pbase_dir [114,123]" dest="identifier: pbase_dir [114,123]"/>
+  <match src="expression_statement [1592,1616]" dest="expression_statement [1616,1640]"/>
+  <match src="identifier: ch [1548,1550]" dest="identifier: ch [1531,1533]"/>
+  <match src="identifier: g_new [1258,1263]" dest="identifier: g_new [1258,1263]"/>
+  <match src=";: ; [1066,1067]" dest=";: ; [1066,1067]"/>
+  <match src="=: = [1399,1400]" dest="=: = [1399,1400]"/>
+  <match src="?: ? [4139,4140]" dest="?: ? [4163,4164]"/>
+  <match src=";: ; [3426,3427]" dest=";: ; [3450,3451]"/>
+  <match src="identifier: fribidi_base_dir [880,896]" dest="identifier: fribidi_base_dir [880,896]"/>
+  <match src="identifier: n_chars [2787,2794]" dest="identifier: n_chars [2811,2818]"/>
+  <match src="): ) [2683,2684]" dest="): ) [2707,2708]"/>
+  <match src="argument_list [3249,3267]" dest="argument_list [3273,3291]"/>
+  <match src="): ) [569,570]" dest="): ) [569,570]"/>
+  <match src="identifier: n_chars [135,142]" dest="identifier: n_chars [135,142]"/>
+  <match src="assignment_expression [2716,2750]" dest="assignment_expression [2740,2774]"/>
+  <match src="unary_expression [3110,3142]" dest="unary_expression [3134,3166]"/>
+  <match src="type_descriptor [36,52]" dest="type_descriptor [36,52]"/>
+  <match src="): ) [2598,2599]" dest="): ) [2622,2623]"/>
+  <match src="assignment_expression [880,915]" dest="assignment_expression [880,915]"/>
+  <match src="identifier: bracket_types [312,325]" dest="identifier: bracket_types [312,325]"/>
+  <match src="identifier: bidi_types [1559,1569]" dest="identifier: bidi_types [1583,1593]"/>
+  <match src="expression_statement [449,508]" dest="expression_statement [449,508]"/>
+  <match src="statement_identifier: resolved [2803,2811]" dest="statement_identifier: resolved [2827,2835]"/>
+  <match src="declaration [396,445]" dest="declaration [396,445]"/>
+  <match src="identifier: g_utf8_strlen [1134,1147]" dest="identifier: g_utf8_strlen [1134,1147]"/>
+  <match src="argument_list [3949,3983]" dest="argument_list [3973,4007]"/>
+  <match src="identifier: USE_FRIBIDI_EX_API [4033,4051]" dest="identifier: USE_FRIBIDI_EX_API [4057,4075]"/>
+  <match src="subscript_expression [1741,1754]" dest="subscript_expression [1765,1778]"/>
+  <match src="): ) [505,506]" dest="): ) [505,506]"/>
+  <match src="type_identifier: FriBidiCharType [396,411]" dest="type_identifier: FriBidiCharType [396,411]"/>
+  <match src="number_literal: 1 [3460,3461]" dest="number_literal: 1 [3484,3485]"/>
+  <match src="type_descriptor [3795,3808]" dest="type_descriptor [3819,3832]"/>
+  <match src="parenthesized_expression [2606,2680]" dest="parenthesized_expression [2630,2704]"/>
+  <match src="call_expression [4054,4076]" dest="call_expression [4078,4100]"/>
+  <match src="identifier: embedding_levels_list [2761,2782]" dest="identifier: embedding_levels_list [2785,2806]"/>
+  <match src="identifier: USE_FRIBIDI_EX_API [1221,1239]" dest="identifier: USE_FRIBIDI_EX_API [1221,1239]"/>
+  <match src="conditional_expression [4101,4183]" dest="conditional_expression [4125,4207]"/>
+  <match src="&amp;&amp;: &amp;&amp; [2491,2493]" dest="&amp;&amp;: &amp;&amp; [2515,2517]"/>
+  <match src="(: ( [2564,2565]" dest="(: ( [2588,2589]"/>
+  <match src="): ) [3141,3142]" dest="): ) [3165,3166]"/>
+  <match src="(: ( [3296,3297]" dest="(: ( [3320,3321]"/>
+  <match src="identifier: embedding_levels_list [3664,3685]" dest="identifier: embedding_levels_list [3688,3709]"/>
+  <match src="if: if [3843,3845]" dest="if: if [3867,3869]"/>
+  <match src="(: ( [35,36]" dest="(: ( [35,36]"/>
+  <match src="=: = [1865,1866]" dest="=: = [1889,1890]"/>
+  <match src="switch_statement [575,1073]" dest="switch_statement [575,1073]"/>
+  <match src=":: : [4000,4001]" dest=":: : [4024,4025]"/>
+  <match src=";: ; [4216,4217]" dest=";: ; [4240,4241]"/>
+  <match src="identifier: FRIBIDI_IS_RTL [2566,2580]" dest="identifier: FRIBIDI_IS_RTL [2590,2604]"/>
+  <match src="identifier: i [1570,1571]" dest="identifier: i [1594,1595]"/>
+  <match src=":: : [963,964]" dest=":: : [963,964]"/>
+  <match src=";: ; [1162,1163]" dest=";: ; [1162,1163]"/>
+  <match src="identifier: p [1378,1379]" dest="identifier: p [1378,1379]"/>
+  <match src="argument_list [465,507]" dest="argument_list [465,507]"/>
+  <match src="=: = [807,808]" dest="=: = [807,808]"/>
+  <match src="identifier: USE_FRIBIDI_EX_API [1701,1719]" dest="identifier: USE_FRIBIDI_EX_API [1725,1743]"/>
+  <match src="): ) [3359,3360]" dest="): ) [3383,3384]"/>
+  <match src="case: case [635,639]" dest="case: case [635,639]"/>
+  <match src="preproc_ifdef [1694,1893]" dest="preproc_ifdef [1718,1917]"/>
+  <match src=",: , [1283,1284]" dest=",: , [1283,1284]"/>
+  <match src="(: ( [1469,1470]" dest="(: ( [1469,1470]"/>
+  <match src="identifier: bidi_types [3576,3586]" dest="identifier: bidi_types [3600,3610]"/>
+  <match src=";: ; [4023,4024]" dest=";: ; [4047,4048]"/>
+  <match src="parenthesized_expression [3233,3359]" dest="parenthesized_expression [3257,3383]"/>
+  <match src="identifier: memset [3942,3948]" dest="identifier: memset [3966,3972]"/>
+  <match src="for: for [1356,1359]" dest="for: for [1356,1359]"/>
+  <match src="case_statement [1003,1067]" dest="case_statement [1003,1067]"/>
+  <match src="#endif: #endif [3833,3839]" dest="#endif: #endif [3857,3863]"/>
+  <match src="preproc_arg: 0 [2140,2141]" dest="preproc_arg: 0 [2164,2165]"/>
+  <match src="sizeof_expression [552,569]" dest="sizeof_expression [552,569]"/>
+  <match src="argument_list [1334,1351]" dest="argument_list [1334,1351]"/>
+  <match src="identifier: G_STATIC_ASSERT [449,464]" dest="identifier: G_STATIC_ASSERT [449,464]"/>
+  <match src="expression_statement [1784,1828]" dest="expression_statement [1808,1852]"/>
+  <match src="identifier: max_level [3858,3867]" dest="identifier: max_level [3882,3891]"/>
+  <match src="identifier: fribidi_base_dir [3250,3266]" dest="identifier: fribidi_base_dir [3274,3290]"/>
+  <match src="binary_expression [4102,4137]" dest="binary_expression [4126,4161]"/>
+  <match src="identifier: USE_FRIBIDI_EX_API [3506,3524]" dest="identifier: USE_FRIBIDI_EX_API [3530,3548]"/>
+  <match src="identifier: length [3976,3982]" dest="identifier: length [4000,4006]"/>
+  <match src="): ) [1091,1092]" dest="): ) [1091,1092]"/>
+  <match src="comment: /* all LTR */ [2701,2714]" dest="comment: /* all LTR */ [2725,2738]"/>
+  <match src="argument_list [1186,1212]" dest="argument_list [1186,1212]"/>
+  <match src="): ) [3663,3664]" dest="): ) [3687,3688]"/>
+  <match src="identifier: embedding_levels_list [3809,3830]" dest="identifier: embedding_levels_list [3833,3854]"/>
+  <match src="=: = [1363,1364]" dest="=: = [1363,1364]"/>
+  <match src="expression_statement [1666,1693]" dest="expression_statement [1690,1717]"/>
+  <match src="else: else [1835,1839]" dest="else: else [1859,1863]"/>
+  <match src="): ) [1656,1657]" dest="): ) [1680,1681]"/>
+  <match src="(: ( [1547,1548]" dest="(: ( [1530,1531]"/>
+  <match src=",: , [1202,1203]" dest=",: , [1202,1203]"/>
+  <match src="comma_expression [1397,1425]" dest="comma_expression [1397,1425]"/>
+  <match src=",: , [3752,3753]" dest=",: , [3776,3777]"/>
+  <match src="}: } [3989,3990]" dest="}: } [4013,4014]"/>
+  <match src="goto: goto [2798,2802]" dest="goto: goto [2822,2826]"/>
+  <match src="unary_expression [2495,2523]" dest="unary_expression [2519,2547]"/>
+  <match src="argument_list [3208,3223]" dest="argument_list [3232,3247]"/>
+  <match src="identifier: embedding_levels_list [157,178]" dest="identifier: embedding_levels_list [157,178]"/>
+  <match src=",: , [3610,3611]" dest=",: , [3634,3635]"/>
+  <match src="compound_statement [2691,2820]" dest="compound_statement [2715,2844]"/>
+  <match src="=: = [1451,1452]" dest="=: = [1451,1452]"/>
+  <match src="): ) [2682,2683]" dest="): ) [2706,2707]"/>
+  <match src="argument_list [1740,1774]" dest="argument_list [1764,1798]"/>
+  <match src="=: = [688,689]" dest="=: = [688,689]"/>
+  <match src="expression_statement [790,825]" dest="expression_statement [790,825]"/>
+  <match src="identifier: G_UNLIKELY [1730,1740]" dest="identifier: G_UNLIKELY [1754,1764]"/>
+  <match src="identifier: pbase_dir [584,593]" dest="identifier: pbase_dir [584,593]"/>
+  <match src="): ) [2522,2523]" dest="): ) [2546,2547]"/>
+  <match src="parenthesized_expression [2564,2683]" dest="parenthesized_expression [2588,2707]"/>
+  <match src="identifier: anded_strongs [412,425]" dest="identifier: anded_strongs [412,425]"/>
+  <match src="call_expression [449,507]" dest="call_expression [449,507]"/>
+  <match src="expression_statement [3696,3832]" dest="expression_statement [3720,3856]"/>
+  <match src="call_expression [2649,2679]" dest="call_expression [2673,2703]"/>
+  <match src="(: ( [1264,1265]" dest="(: ( [1264,1265]"/>
+  <match src="(: ( [3233,3234]" dest="(: ( [3257,3258]"/>
+  <match src="(: ( [3846,3847]" dest="(: ( [3870,3871]"/>
+  <match src="&amp;&amp;: &amp;&amp; [3143,3145]" dest="&amp;&amp;: &amp;&amp; [3167,3169]"/>
+  <match src="identifier: PANGO_DIRECTION_NEUTRAL [974,997]" dest="identifier: PANGO_DIRECTION_NEUTRAL [974,997]"/>
+  <match src="identifier: pbase_dir [4089,4098]" dest="identifier: pbase_dir [4113,4122]"/>
+  <match src="(: ( [1334,1335]" dest="(: ( [1334,1335]"/>
+  <match src="!: ! [2458,2459]" dest="!: ! [2482,2483]"/>
+  <match src="identifier: n_chars [1204,1211]" dest="identifier: n_chars [1204,1211]"/>
+  <match src="&amp;&amp;: &amp;&amp; [3184,3186]" dest="&amp;&amp;: &amp;&amp; [3208,3210]"/>
+  <match src="*: * [311,312]" dest="*: * [311,312]"/>
+  <match src="*: * [113,114]" dest="*: * [113,114]"/>
+  <match src="identifier: ored_types [3339,3349]" dest="identifier: ored_types [3363,3373]"/>
+  <match src="#endif: #endif [327,333]" dest="#endif: #endif [327,333]"/>
+  <match src="identifier: bidi_types [1741,1751]" dest="identifier: bidi_types [1765,1775]"/>
+  <match src="identifier: FRIBIDI_PAR_WLTR [1037,1053]" dest="identifier: FRIBIDI_PAR_WLTR [1037,1053]"/>
+  <match src="argument_list [1113,1119]" dest="argument_list [1113,1119]"/>
+  <match src="++: ++ [1423,1425]" dest="++: ++ [1423,1425]"/>
+  <match src="argument_list [2760,2795]" dest="argument_list [2784,2819]"/>
+  <match src="identifier: text [1114,1118]" dest="identifier: text [1114,1118]"/>
+  <match src="declaration [200,232]" dest="declaration [200,232]"/>
+  <match src=";: ; [145,146]" dest=";: ; [145,146]"/>
+  <match src="binary_expression [1382,1395]" dest="binary_expression [1382,1395]"/>
+  <match src=";: ; [1827,1828]" dest=";: ; [1851,1852]"/>
+  <match src=";: ; [1472,1473]" dest=";: ; [1472,1473]"/>
+  <match src="{: { [3879,3880]" dest="{: { [3903,3904]"/>
+  <match src="assignment_expression [1397,1420]" dest="assignment_expression [1397,1420]"/>
+  <match src="call_expression [2566,2599]" dest="call_expression [2590,2623]"/>
+  <match src="{: { [3367,3368]" dest="{: { [3391,3392]"/>
+  <match src="identifier: p [195,196]" dest="identifier: p [195,196]"/>
+  <match src="identifier: ored_types [2479,2489]" dest="identifier: ored_types [2503,2513]"/>
+  <match src="(: ( [2511,2512]" dest="(: ( [2535,2536]"/>
+  <match src="ERROR [98,134]" dest="ERROR [98,134]"/>
+  <match src="identifier: FRIBIDI_IS_RTL [2496,2510]" dest="identifier: FRIBIDI_IS_RTL [2520,2534]"/>
+  <match src="type_identifier: gchar [188,193]" dest="type_identifier: gchar [188,193]"/>
+  <match src="identifier: bracket_types [4062,4075]" dest="identifier: bracket_types [4086,4099]"/>
+  <match src="(: ( [2623,2624]" dest="(: ( [2647,2648]"/>
+  <match src="): ) [1118,1119]" dest="): ) [1118,1119]"/>
+  <match src="sizeof: sizeof [491,497]" dest="sizeof: sizeof [491,497]"/>
+  <match src="goto_statement [3474,3488]" dest="goto_statement [3498,3512]"/>
+  <match src="identifier: FRIBIDI_IS_WEAK [2607,2622]" dest="identifier: FRIBIDI_IS_WEAK [2631,2646]"/>
+  <match src="): ) [547,548]" dest="): ) [547,548]"/>
+  <match src="#endif: #endif [4078,4084]" dest="#endif: #endif [4102,4108]"/>
+  <match src="(: ( [1645,1646]" dest="(: ( [1669,1670]"/>
+  <match src="=: = [389,390]" dest="=: = [389,390]"/>
+  <match src="call_expression [1328,1351]" dest="call_expression [1328,1351]"/>
+  <match src="(: ( [3741,3742]" dest="(: ( [3765,3766]"/>
+  <match src="binary_expression [3280,3350]" dest="binary_expression [3304,3374]"/>
+  <match src="argument_list [1547,1551]" dest="argument_list [1530,1534]"/>
+  <match src="=: = [1035,1036]" dest="=: = [1035,1036]"/>
+  <match src=",: , [1420,1421]" dest=",: , [1420,1421]"/>
+  <match src="identifier: bracket_types [1784,1797]" dest="identifier: bracket_types [1808,1821]"/>
+  <match src="(: ( [473,474]" dest="(: ( [473,474]"/>
+  <match src="identifier: FRIBIDI_IS_STRONG [1627,1644]" dest="identifier: FRIBIDI_IS_STRONG [1651,1668]"/>
+  <match src="identifier: fribidi_get_par_embedding_levels [3708,3740]" dest="identifier: fribidi_get_par_embedding_levels [3732,3764]"/>
+  <match src="abstract_pointer_declarator [51,52]" dest="abstract_pointer_declarator [51,52]"/>
+  <match src="parenthesized_expression [559,569]" dest="parenthesized_expression [559,569]"/>
+  <match src="expression_statement [1018,1054]" dest="expression_statement [1018,1054]"/>
+  <match src=";: ; [231,232]" dest=";: ; [231,232]"/>
+  <match src=";: ; [4076,4077]" dest=";: ; [4100,4101]"/>
+  <match src="#ifdef: #ifdef [3499,3505]" dest="#ifdef: #ifdef [3523,3529]"/>
+  <match src=";: ; [3983,3984]" dest=";: ; [4007,4008]"/>
+  <match src="identifier: FriBidiLevel [474,486]" dest="identifier: FriBidiLevel [474,486]"/>
+  <match src="==: == [3868,3870]" dest="==: == [3892,3894]"/>
+  <match src="call_expression [1401,1420]" dest="call_expression [1401,1420]"/>
+  <match src="): ) [123,124]" dest="): ) [123,124]"/>
+  <match src="binary_expression [2565,2680]" dest="binary_expression [2589,2704]"/>
+  <match src="identifier: length [1155,1161]" dest="identifier: length [1155,1161]"/>
+  <match src="(: ( [3575,3576]" dest="(: ( [3599,3600]"/>
+  <match src="(: ( [1740,1741]" dest="(: ( [1764,1765]"/>
+  <match src=";: ; [1885,1886]" dest=";: ; [1909,1910]"/>
+  <match src="init_declarator [378,392]" dest="init_declarator [378,392]"/>
+  <match src="identifier: embedding_levels_list [3437,3458]" dest="identifier: embedding_levels_list [3461,3482]"/>
+  <match src="number_literal: 0 [3871,3872]" dest="number_literal: 0 [3895,3896]"/>
+  <match src="identifier: fribidi_get_par_embedding_levels_ex [3539,3574]" dest="identifier: fribidi_get_par_embedding_levels_ex [3563,3598]"/>
+  <match src="identifier: char_type [1683,1692]" dest="identifier: char_type [1707,1716]"/>
+  <match src="identifier: bracket_types [3588,3601]" dest="identifier: bracket_types [3612,3625]"/>
+  <match src="identifier: PANGO_DIRECTION_RTL [4164,4183]" dest="identifier: PANGO_DIRECTION_RTL [4188,4207]"/>
+  <match src="identifier: FRIBIDI_PAR_WRTL [899,915]" dest="identifier: FRIBIDI_PAR_WRTL [899,915]"/>
+  <match src="identifier: anded_strongs [1666,1679]" dest="identifier: anded_strongs [1690,1703]"/>
+  <match src="&lt;: &lt; [1380,1381]" dest="&lt;: &lt; [1380,1381]"/>
+  <match src="identifier: n_chars [3603,3610]" dest="identifier: n_chars [3627,3634]"/>
+  <match src="argument_list [3171,3183]" dest="argument_list [3195,3207]"/>
+  <match src="expression_statement [3942,3984]" dest="expression_statement [3966,4008]"/>
+  <match src="=: = [2733,2734]" dest="=: = [2757,2758]"/>
+  <match src="=: = [3706,3707]" dest="=: = [3730,3731]"/>
+  <match src=";: ; [196,197]" dest=";: ; [196,197]"/>
+  <match src="argument_list [3296,3314]" dest="argument_list [3320,3338]"/>
+  <match src=",: , [3786,3787]" dest=",: , [3810,3811]"/>
+  <match src="subscript_expression [1784,1800]" dest="subscript_expression [1808,1824]"/>
+  <match src="call_expression [2496,2523]" dest="call_expression [2520,2547]"/>
+  <match src="argument_list [2667,2679]" dest="argument_list [2691,2703]"/>
+  <match src="]: ] [1863,1864]" dest="]: ] [1887,1888]"/>
+  <match src="parenthesized_expression [4101,4138]" dest="parenthesized_expression [4125,4162]"/>
+  <match src="identifier: max_level [3696,3705]" dest="identifier: max_level [3720,3729]"/>
+  <match src="call_expression [3234,3267]" dest="call_expression [3258,3291]"/>
+  <match src="{: { [599,600]" dest="{: { [599,600]"/>
+  <match src=",: , [3971,3972]" dest=",: , [3995,3996]"/>
+  <match src="(: ( [3109,3110]" dest="(: ( [3133,3134]"/>
+  <match src="translation_unit [0,4219]" dest="translation_unit [0,4243]"/>
+  <match src="expression_statement [4004,4024]" dest="expression_statement [4028,4048]"/>
+  <match src="expression_statement [1848,1886]" dest="expression_statement [1872,1910]"/>
+  <match src=";: ; [325,326]" dest=";: ; [325,326]"/>
+  <match src=",: , [3601,3602]" dest=",: , [3625,3626]"/>
+  <match src="(: ( [3857,3858]" dest="(: ( [3881,3882]"/>
+  <match src="identifier: fribidi_base_dir [4102,4118]" dest="identifier: fribidi_base_dir [4126,4142]"/>
+  <match src="comment:     
+     * No isolates, no numbers, all strongs are RTL, and one of
+     * the following:
+     *
+     * o base_dir has an RTL taste (may be weak).
+     * o there are letters, and base_dir is weak.
+     */ [2825,3096]" dest="comment:     
+     * No isolates, no numbers, all strongs are RTL, and one of
+     * the following:
+     *
+     * o base_dir has an RTL taste (may be weak).
+     * o there are letters, and base_dir is weak.
+     */ [2849,3120]"/>
+  <match src="): ) [1471,1472]" dest="): ) [1471,1472]"/>
+  <match src="identifier: memset [3429,3435]" dest="identifier: memset [3453,3459]"/>
+  <match src=";: ; [1615,1616]" dest=";: ; [1639,1640]"/>
+  <match src="identifier: fribidi_base_dir [2716,2732]" dest="identifier: fribidi_base_dir [2740,2756]"/>
+  <match src=";: ; [705,706]" dest=";: ; [705,706]"/>
+  <match src="): ) [4075,4076]" dest="): ) [4099,4100]"/>
+  <match src="&amp;&amp;: &amp;&amp; [2524,2526]" dest="&amp;&amp;: &amp;&amp; [2548,2550]"/>
+  <match src="identifier: FriBidiBracketType [1265,1283]" dest="identifier: FriBidiBracketType [1265,1283]"/>
+  <match src=";: ; [1692,1693]" dest=";: ; [1716,1717]"/>
+  <match src="identifier: PANGO_DIRECTION_TTB_RTL [640,663]" dest="identifier: PANGO_DIRECTION_TTB_RTL [640,663]"/>
+  <match src="return: return [4188,4194]" dest="return: return [4212,4218]"/>
+  <match src="break_statement [923,929]" dest="break_statement [923,929]"/>
+  <match src="expression_statement [1304,1352]" dest="expression_statement [1304,1352]"/>
+  <match src="preproc_else [3688,3832]" dest="preproc_else [3712,3856]"/>
+  <match src="call_expression [3942,3983]" dest="call_expression [3966,4007]"/>
+  <match src="identifier: glong [129,134]" dest="identifier: glong [129,134]"/>
+  <match src="}: } [2819,2820]" dest="}: } [2843,2844]"/>
+  <match src="identifier: i [1361,1362]" dest="identifier: i [1361,1362]"/>
+  <match src="||: || [2600,2602]" dest="||: || [2624,2626]"/>
+  <match src="subscript_expression [1848,1864]" dest="subscript_expression [1872,1888]"/>
+  <match src="number_literal: 0 [1365,1366]" dest="number_literal: 0 [1365,1366]"/>
+  <match src="): ) [3685,3686]" dest="): ) [3709,3710]"/>
+  <match src="identifier: p [1470,1471]" dest="identifier: p [1470,1471]"/>
+  <match src="sizeof_expression [528,548]" dest="sizeof_expression [528,548]"/>
+  <match src="labeled_statement [3992,4024]" dest="labeled_statement [4016,4048]"/>
+  <match src="identifier: length [1389,1395]" dest="identifier: length [1389,1395]"/>
+  <match src="call_expression [3280,3314]" dest="call_expression [3304,3338]"/>
+  <match src="switch: switch [575,581]" dest="switch: switch [575,581]"/>
+  <match src="parenthesized_expression [582,594]" dest="parenthesized_expression [582,594]"/>
+  <match src="expression_statement [671,706]" dest="expression_statement [671,706]"/>
+  <match src="identifier: ch [1448,1450]" dest="identifier: ch [1448,1450]"/>
+  <match src="binary_expression [2458,2523]" dest="binary_expression [2482,2547]"/>
+  <match src="declaration [235,263]" dest="declaration [235,263]"/>
+  <match src="call_expression [3320,3350]" dest="call_expression [3344,3374]"/>
+  <match src="for_statement [1356,1899]" dest="for_statement [1356,1923]"/>
+  <match src="identifier: G_UNLIKELY [3847,3857]" dest="identifier: G_UNLIKELY [3871,3881]"/>
+  <match src="expression_statement [3429,3472]" dest="expression_statement [3453,3496]"/>
+  <match src="binary_expression [3110,3359]" dest="binary_expression [3134,3383]"/>
+  <match src="): ) [3358,3359]" dest="): ) [3382,3383]"/>
+  <match src="comment: /* fribidi_get_par_embedding_levels() failed. */ [3887,3935]" dest="comment: /* fribidi_get_par_embedding_levels() failed. */ [3911,3959]"/>
+  <match src="(: ( [2606,2607]" dest="(: ( [2630,2631]"/>
+  <match src="(: ( [2547,2548]" dest="(: ( [2571,2572]"/>
+  <match src="argument_list [3130,3142]" dest="argument_list [3154,3166]"/>
+  <match src="identifier: fribidi_get_bracket [1803,1822]" dest="identifier: fribidi_get_bracket [1827,1846]"/>
+  <match src="identifier: i [1752,1753]" dest="identifier: i [1776,1777]"/>
+  <match src=";: ; [837,838]" dest=";: ; [837,838]"/>
+  <match src="parenthesized_expression [498,506]" dest="parenthesized_expression [498,506]"/>
+  <match src="identifier: i [1422,1423]" dest="identifier: i [1422,1423]"/>
+  <match src="#define: #define [2110,2117]" dest="#define: #define [2134,2141]"/>
+  <match src="(: ( [2457,2458]" dest="(: ( [2481,2482]"/>
+  <match src="case_statement [754,838]" dest="case_statement [754,838]"/>
+  <match src=";: ; [262,263]" dest=";: ; [262,263]"/>
+  <match src=";: ; [928,929]" dest=";: ; [928,929]"/>
+  <match src="expression_statement [4088,4184]" dest="expression_statement [4112,4208]"/>
+  <match src=",: , [1153,1154]" dest=",: , [1153,1154]"/>
+  <match src="=: = [1132,1133]" dest="=: = [1132,1133]"/>
+  <match src="assignment_expression [1559,1584]" dest="assignment_expression [1583,1608]"/>
+  <match src=",: , [2785,2786]" dest=",: , [2809,2810]"/>
+  <match src=";: ; [2811,2812]" dest=";: ; [2835,2836]"/>
+  <match src="binary_expression [3110,3183]" dest="binary_expression [3134,3207]"/>
+  <match src="[: [ [1751,1752]" dest="[: [ [1775,1776]"/>
+  <match src="parenthesized_expression [473,487]" dest="parenthesized_expression [473,487]"/>
+  <match src="argument_list [527,570]" dest="argument_list [527,570]"/>
+  <match src="(: ( [559,560]" dest="(: ( [559,560]"/>
+  <match src="identifier: n_chars [3463,3470]" dest="identifier: n_chars [3487,3494]"/>
+  <match src=":: : [748,749]" dest=":: : [748,749]"/>
+  <match src="argument_list [3338,3350]" dest="argument_list [3362,3374]"/>
+  <match src="identifier: FRIBIDI_IS_ISOLATE [2459,2477]" dest="identifier: FRIBIDI_IS_ISOLATE [2483,2501]"/>
+  <match src="#endif: #endif [1887,1893]" dest="#endif: #endif [1911,1917]"/>
+  <match src="): ) [3313,3314]" dest="): ) [3337,3338]"/>
+  <match src="pointer_expression [3621,3638]" dest="pointer_expression [3645,3662]"/>
+  <match src="*: * [3807,3808]" dest="*: * [3831,3832]"/>
+  <match src="(: ( [1626,1627]" dest="(: ( [1650,1651]"/>
+  <match src="identifier: text [1149,1153]" dest="identifier: text [1149,1153]"/>
+  <match src="if: if [1726,1728]" dest="if: if [1750,1752]"/>
+  <match src="assignment_expression [1666,1692]" dest="assignment_expression [1690,1716]"/>
+  <match src="identifier: G_STATIC_ASSERT [511,526]" dest="identifier: G_STATIC_ASSERT [511,526]"/>
+  <match src="type_qualifier [36,41]" dest="type_qualifier [36,41]"/>
+  <match src="type_identifier: gunichar [1439,1447]" dest="type_identifier: gunichar [1439,1447]"/>
+  <match src="call_expression [1525,1551]" dest="call_expression [1508,1534]"/>
+  <match src="identifier: fribidi_base_dir [3622,3638]" dest="identifier: fribidi_base_dir [3646,3662]"/>
+  <match src=";: ; [1351,1352]" dest=";: ; [1351,1352]"/>
+  <match src="expression_statement [4054,4077]" dest="expression_statement [4078,4101]"/>
+  <match src="[: [ [1861,1862]" dest="[: [ [1885,1886]"/>
+</matches>
+<actions>
+  <insert-tree tree="if_statement [1543,1575]" parent="compound_statement [1431,1899]" at="3"/>
+  <insert-node tree="init_declarator [1496,1534]" parent="declaration [1480,1506]" at="1"/>
+  <insert-node tree="identifier: char_type [1496,1505]" parent="init_declarator [1496,1534]" at="0"/>
+  <insert-node tree="=: = [1506,1507]" parent="init_declarator [1496,1534]" at="1"/>
+  <move-tree tree="call_expression [1525,1551]" parent="init_declarator [1496,1534]" at="2"/>
+  <delete-node tree="identifier: char_type [1496,1505]"/>
+  <delete-node tree="identifier: char_type [1513,1522]"/>
+  <delete-node tree="=: = [1523,1524]"/>
+  <delete-node tree="assignment_expression [1513,1551]"/>
+  <delete-node tree=";: ; [1551,1552]"/>
+  <delete-node tree="expression_statement [1513,1552]"/>
+</actions>

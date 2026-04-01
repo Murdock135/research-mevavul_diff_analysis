@@ -1,0 +1,20 @@
+{
+    "id": "abb0d479389a2509f939452a6767dc424bb5e6ba_decode_0",
+    "func_name": "decode",
+    "cve_id": "CVE-2018-1000531",
+    "cwe_ids": [
+        "CWE-20"
+    ],
+    "commit_hash": "abb0d479389a2509f939452a6767dc424bb5e6ba",
+    "parent_commit_hash": "8d73248b7e4c8bdeed807a9be89ea51d348764e0",
+    "repo_name": "FusionAuth/fusionauth-jwt",
+    "git_url": "https://github.com/FusionAuth/fusionauth-jwt/commit/abb0d479389a2509f939452a6767dc424bb5e6ba",
+    "file_path": "src/main/java/org/primeframework/jwt/JWTDecoder.java",
+    "file_name": "JWTDecoder.java",
+    "commit_date": 1525246278,
+    "commit_msg": "Fixing issue #3 and adding tests to confirm.",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

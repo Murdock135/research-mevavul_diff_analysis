@@ -1,0 +1,43 @@
+class unZipIt {
+public static void unZipIt(String resourceName, String outputFolder) {
+
+		byte[] buffer = new byte[1024];
+
+		try {
+			ZipInputStream zis = new ZipInputStream(CreateResources.class.getResourceAsStream(resourceName));
+			ZipEntry ze = zis.getNextEntry();
+
+			while (ze != null) {
+				String fileName = ze.getName();
+				File newFile = new File(outputFolder + File.separator + fileName);
+				// System.out.println("file unzip : "+ newFile.getAbsoluteFile());
+				if (ze.isDirectory()) {
+					String temp = newFile.getAbsolutePath();
+					new File(temp).mkdirs();
+				} else {
+					String directory = newFile.getParent();
+					if (directory != null) {
+						File d = new File(directory);
+						if (!d.exists()) {
+							d.mkdirs();
+						}
+					}
+					FileOutputStream fos = new FileOutputStream(newFile);
+					int len;
+					while ((len = zis.read(buffer)) > 0) {
+						fos.write(buffer, 0, len);
+					}
+					fos.close();
+				}
+				ze = zis.getNextEntry();
+			}
+
+			zis.closeEntry();
+			zis.close();
+
+		} catch (IOException ex) {
+			logger.error("Error while extracting the reosurces: " + ex.getMessage());
+		}
+
+	}
+}

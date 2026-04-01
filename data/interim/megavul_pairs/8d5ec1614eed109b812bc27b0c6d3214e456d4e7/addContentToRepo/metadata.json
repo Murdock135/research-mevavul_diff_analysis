@@ -1,0 +1,20 @@
+{
+    "id": "8d5ec1614eed109b812bc27b0c6d3214e456d4e7_addContentToRepo_0",
+    "func_name": "addContentToRepo",
+    "cve_id": "CVE-2022-29237",
+    "cwe_ids": [
+        "CWE-287"
+    ],
+    "commit_hash": "8d5ec1614eed109b812bc27b0c6d3214e456d4e7",
+    "parent_commit_hash": "eee0c26fe33afc0709373fcbd7c6870bee8e2bed",
+    "repo_name": "opencast",
+    "git_url": "https://github.com/opencast/opencast/commit/8d5ec1614eed109b812bc27b0c6d3214e456d4e7",
+    "file_path": "modules/ingest-service-impl/src/main/java/org/opencastproject/ingest/impl/IngestServiceImpl.java",
+    "file_name": "IngestServiceImpl.java",
+    "commit_date": 1652841836,
+    "commit_msg": "Merge pull request from GHSA-qm6v-cg9v-53j3\n\nThis patch fixes the issue that users can pass URLs from other tenants\nto the ingest service which will check only against the other\norganization but not against the one currently active. This allows users\nto easily ingest media from other tenants.",
+    "cvss_vector": "AV:N/AC:L/Au:S/C:P/I:P/A:N",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

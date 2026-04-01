@@ -1,0 +1,20 @@
+{
+    "id": "b6f758241f3fdd57b48c527a695512f33e26eb74_doGet_0",
+    "func_name": "doGet",
+    "cve_id": "CVE-2019-20363",
+    "cwe_ids": [
+        "CWE-79"
+    ],
+    "commit_hash": "b6f758241f3fdd57b48c527a695512f33e26eb74",
+    "parent_commit_hash": "a49b6e61d8e9e1c8e738d64f84637ff97436c764",
+    "repo_name": "igniterealtime/Openfire",
+    "git_url": "https://github.com/igniterealtime/Openfire/commit/b6f758241f3fdd57b48c527a695512f33e26eb74",
+    "file_path": "xmppserver/src/main/java/org/jivesoftware/admin/servlet/SystemCacheDetailsServlet.java",
+    "file_name": "SystemCacheDetailsServlet.java",
+    "commit_date": 1577774348,
+    "commit_msg": "Fix issues identified by CSW",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

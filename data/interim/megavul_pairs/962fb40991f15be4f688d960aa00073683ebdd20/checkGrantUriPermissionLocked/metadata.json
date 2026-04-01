@@ -1,0 +1,20 @@
+{
+    "id": "962fb40991f15be4f688d960aa00073683ebdd20_checkGrantUriPermissionLocked_0",
+    "func_name": "checkGrantUriPermissionLocked",
+    "cve_id": "CVE-2018-9492",
+    "cwe_ids": [
+        "CWE-863"
+    ],
+    "commit_hash": "962fb40991f15be4f688d960aa00073683ebdd20",
+    "parent_commit_hash": "4bfc7a5dbba1515975f202d7a545cf7fe42bc021",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/962fb40991f15be4f688d960aa00073683ebdd20",
+    "file_path": "services/core/java/com/android/server/am/ActivityManagerService.java",
+    "file_name": "ActivityManagerService.java",
+    "commit_date": 1533675737,
+    "commit_msg": "DO NOT MERGE. Persistable Uri grants still require permissions.\n\nWhen FLAG_GRANT_PERSISTABLE_URI_PERMISSION is requested, we still\nneed to check permissions between the source and target packages,\ninstead of shortcutting past them.\n\nThe spirit of the original change is remains intact: if the caller\nrequested FLAG_GRANT_PERSISTABLE_URI_PERMISSION, then we avoid\nreturning \"-1\", which would prevent the grant data structure from\nbeing allocated.\n\nBug: 111934948\nTest: atest android.appsecurity.cts.AppSecurityTests\nChange-Id: Ief0fc922aa09fc3d9bb6a126c2ff5855347cd030\nMerged-In: Ief0fc922aa09fc3d9bb6a126c2ff5855347cd030\n(cherry picked from commit d6a6e7127cc341ca875d9d13cf7a864d9f20b479)\n",
+    "cvss_vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C",
+    "cvss_base_score": 7.2,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

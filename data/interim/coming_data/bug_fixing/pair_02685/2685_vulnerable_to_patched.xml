@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="-&gt;: -&gt; [129,131]" dest="-&gt;: -&gt; [203,205]"/>
+  <match src="): ) [179,180]" dest="): ) [254,255]"/>
+  <match src=";: ; [202,203]" dest=";: ; [277,278]"/>
+  <match src="identifier: namespace_lock [78,92]" dest="identifier: namespace_lock [78,92]"/>
+  <match src="): ) [247,248]" dest="): ) [322,323]"/>
+  <match src="(: ( [242,243]" dest="(: ( [317,318]"/>
+  <match src="type_identifier: mount [63,68]" dest="type_identifier: mount [63,68]"/>
+  <match src=";: ; [248,249]" dest=";: ; [323,324]"/>
+  <match src="field_identifier: dentry [143,149]" dest="field_identifier: dentry [217,223]"/>
+  <match src="function_declarator [17,50]" dest="function_declarator [17,50]"/>
+  <match src="(: ( [113,114]" dest="(: ( [187,188]"/>
+  <match src="): ) [221,222]" dest="): ) [296,297]"/>
+  <match src="): ) [201,202]" dest="): ) [276,277]"/>
+  <match src="identifier: CL_PRIVATE [169,179]" dest="identifier: CL_PRIVATE [244,254]"/>
+  <match src="pointer_declarator [69,74]" dest="pointer_declarator [69,74]"/>
+  <match src="argument_list [113,180]" dest="argument_list [187,255]"/>
+  <match src="call_expression [78,94]" dest="call_expression [78,94]"/>
+  <match src="argument_list [216,222]" dest="argument_list [291,297]"/>
+  <match src="argument_list [242,248]" dest="argument_list [317,323]"/>
+  <match src="type_identifier: vfsmount [7,15]" dest="type_identifier: vfsmount [7,15]"/>
+  <match src="identifier: copy_tree [104,113]" dest="identifier: copy_tree [178,187]"/>
+  <match src="struct_specifier [32,43]" dest="struct_specifier [32,43]"/>
+  <match src="parenthesized_expression [209,223]" dest="parenthesized_expression [284,298]"/>
+  <match src="identifier: tree [97,101]" dest="identifier: tree [171,175]"/>
+  <match src="(: ( [124,125]" dest="(: ( [198,199]"/>
+  <match src="identifier: path [137,141]" dest="identifier: path [211,215]"/>
+  <match src=",: , [135,136]" dest=",: , [209,210]"/>
+  <match src="-&gt;: -&gt; [141,143]" dest="-&gt;: -&gt; [215,217]"/>
+  <match src="identifier: IS_ERR [210,216]" dest="identifier: IS_ERR [285,291]"/>
+  <match src="identifier: tree [217,221]" dest="identifier: tree [292,296]"/>
+  <match src="(: ( [209,210]" dest="(: ( [284,285]"/>
+  <match src="return: return [227,233]" dest="return: return [302,308]"/>
+  <match src="*: * [44,45]" dest="*: * [44,45]"/>
+  <match src="field_identifier: mnt [131,134]" dest="field_identifier: mnt [205,208]"/>
+  <match src="identifier: ERR_CAST [234,242]" dest="identifier: ERR_CAST [309,317]"/>
+  <match src="): ) [93,94]" dest="): ) [93,94]"/>
+  <match src="identifier: namespace_unlock [184,200]" dest="identifier: namespace_unlock [259,275]"/>
+  <match src="parameter_list [31,50]" dest="parameter_list [31,50]"/>
+  <match src="function_definition [0,271]" dest="function_definition [0,346]"/>
+  <match src="struct_specifier [56,68]" dest="struct_specifier [56,68]"/>
+  <match src="=: = [102,103]" dest="=: = [176,177]"/>
+  <match src="field_expression [259,268]" dest="field_expression [334,343]"/>
+  <match src="): ) [222,223]" dest="): ) [297,298]"/>
+  <match src="identifier: real_mount [114,124]" dest="identifier: real_mount [188,198]"/>
+  <match src="expression_statement [97,181]" dest="expression_statement [171,256]"/>
+  <match src="if: if [206,208]" dest="if: if [281,283]"/>
+  <match src="argument_list [124,135]" dest="argument_list [198,209]"/>
+  <match src="translation_unit [0,271]" dest="translation_unit [0,346]"/>
+  <match src="{: { [52,53]" dest="{: { [52,53]"/>
+  <match src="call_expression [184,202]" dest="call_expression [259,277]"/>
+  <match src="(: ( [216,217]" dest="(: ( [291,292]"/>
+  <match src="compound_statement [52,271]" dest="compound_statement [52,346]"/>
+  <match src="argument_list [200,202]" dest="argument_list [275,277]"/>
+  <match src="pointer_declarator [44,49]" dest="pointer_declarator [44,49]"/>
+  <match src="struct: struct [0,6]" dest="struct: struct [0,6]"/>
+  <match src="): ) [134,135]" dest="): ) [208,209]"/>
+  <match src="return_statement [227,249]" dest="return_statement [302,324]"/>
+  <match src=";: ; [74,75]" dest=";: ; [74,75]"/>
+  <match src="pointer_declarator [16,50]" dest="pointer_declarator [16,50]"/>
+  <match src="return: return [251,257]" dest="return: return [326,332]"/>
+  <match src="identifier: tree [243,247]" dest="identifier: tree [318,322]"/>
+  <match src="&amp;: &amp; [258,259]" dest="&amp;: &amp; [333,334]"/>
+  <match src="*: * [69,70]" dest="*: * [69,70]"/>
+  <match src="identifier: path [45,49]" dest="identifier: path [45,49]"/>
+  <match src="}: } [270,271]" dest="}: } [345,346]"/>
+  <match src="*: * [16,17]" dest="*: * [16,17]"/>
+  <match src="declaration [56,75]" dest="declaration [56,75]"/>
+  <match src="-&gt;: -&gt; [263,265]" dest="-&gt;: -&gt; [338,340]"/>
+  <match src="field_expression [125,134]" dest="field_expression [199,208]"/>
+  <match src=",: , [149,150]" dest=",: , [223,224]"/>
+  <match src="if_statement [206,249]" dest="if_statement [281,324]"/>
+  <match src="argument_list [92,94]" dest="argument_list [92,94]"/>
+  <match src="identifier: path [125,129]" dest="identifier: path [199,203]"/>
+  <match src="identifier: collect_mounts [17,31]" dest="identifier: collect_mounts [17,31]"/>
+  <match src=";: ; [268,269]" dest=";: ; [343,344]"/>
+  <match src="expression_statement [184,203]" dest="expression_statement [259,278]"/>
+  <match src="): ) [49,50]" dest="): ) [49,50]"/>
+  <match src="struct: struct [56,62]" dest="struct: struct [56,62]"/>
+  <match src="struct: struct [32,38]" dest="struct: struct [32,38]"/>
+  <match src="call_expression [104,180]" dest="call_expression [178,255]"/>
+  <match src="field_expression [137,149]" dest="field_expression [211,223]"/>
+  <match src="pointer_expression [258,268]" dest="pointer_expression [333,343]"/>
+  <match src="parameter_declaration [32,49]" dest="parameter_declaration [32,49]"/>
+  <match src="identifier: tree [70,74]" dest="identifier: tree [70,74]"/>
+  <match src="identifier: CL_COPY_ALL [155,166]" dest="identifier: CL_COPY_ALL [230,241]"/>
+  <match src=";: ; [180,181]" dest=";: ; [255,256]"/>
+  <match src="|: | [167,168]" dest="|: | [242,243]"/>
+  <match src="assignment_expression [97,180]" dest="assignment_expression [171,255]"/>
+  <match src="expression_statement [78,95]" dest="expression_statement [78,95]"/>
+  <match src="call_expression [210,222]" dest="call_expression [285,297]"/>
+  <match src=";: ; [94,95]" dest=";: ; [94,95]"/>
+  <match src="field_identifier: mnt [265,268]" dest="field_identifier: mnt [340,343]"/>
+  <match src="struct_specifier [0,15]" dest="struct_specifier [0,15]"/>
+  <match src="type_identifier: path [39,43]" dest="type_identifier: path [39,43]"/>
+  <match src="binary_expression [155,179]" dest="binary_expression [230,254]"/>
+  <match src="call_expression [114,135]" dest="call_expression [188,209]"/>
+  <match src="call_expression [234,248]" dest="call_expression [309,323]"/>
+  <match src="(: ( [92,93]" dest="(: ( [92,93]"/>
+  <match src="(: ( [31,32]" dest="(: ( [31,32]"/>
+  <match src="return_statement [251,269]" dest="return_statement [326,344]"/>
+  <match src="(: ( [200,201]" dest="(: ( [275,276]"/>
+  <match src="identifier: tree [259,263]" dest="identifier: tree [334,338]"/>
+</matches>
+<actions>
+  <insert-node tree="if_statement [97,256]" parent="compound_statement [52,271]" at="3"/>
+  <insert-node tree="if: if [97,99]" parent="if_statement [97,256]" at="0"/>
+  <insert-tree tree="parenthesized_expression [100,135]" parent="if_statement [97,256]" at="1"/>
+  <insert-tree tree="expression_statement [138,162]" parent="if_statement [97,256]" at="2"/>
+  <insert-node tree="else_clause [164,256]" parent="if_statement [97,256]" at="3"/>
+  <insert-node tree="else: else [164,168]" parent="else_clause [164,256]" at="0"/>
+  <move-tree tree="expression_statement [97,181]" parent="else_clause [164,256]" at="1"/>
+</actions>

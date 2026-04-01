@@ -1,0 +1,20 @@
+{
+    "id": "b18c6a7f81f08ed14884592a6c14c9ab611ad450_getAccessControlList_0",
+    "func_name": "getAccessControlList",
+    "cve_id": "CVE-2021-21318",
+    "cwe_ids": [
+        "CWE-863"
+    ],
+    "commit_hash": "b18c6a7f81f08ed14884592a6c14c9ab611ad450",
+    "parent_commit_hash": "29b08ceec87c926bfbb2961fee8288ec44cba7e8",
+    "repo_name": "opencast",
+    "git_url": "https://github.com/opencast/opencast/commit/b18c6a7f81f08ed14884592a6c14c9ab611ad450",
+    "file_path": "modules/search-service-impl/src/main/java/org/opencastproject/search/impl/persistence/SearchServiceDatabase.java",
+    "file_name": "SearchServiceDatabase.java",
+    "commit_date": 1610868205,
+    "commit_msg": "Fix Engage Series Publication and Access\n\nAccess to series and series metadata on the search service (shown in\nmedia module and player) depends on the events published which are part\nof the series. Publishing an event will automatically publish a series\nand update access to it. Removing an event or republishing the event\nshould do the same.\n\nIncorrectly Hiding Public Series\n--------------------------------\n\nThis patch fixes the access control update to the series when a new\nepisode is being published. Until now, a new episode publication would\nalways update the series access with the episode access.\n\nWhile this is no security issue since it can only cause the access to be\nstricter, it may cause public series to become private. This would\nhappen, for example, if a users sets one episode of a series to private\nand republishes the episode.\n\nNow, the search service will merge the access control lists of all\nepisodes to grant access based on their combined access rules.\n\nUpdate Series on Removal\n------------------------\n\nThis patch fixes Opencast not updating the series access or remove a\npublished series if an event is being removed.\n\nThis means that access to a series is re-calculated when an episode is\nbeing deleted based on the remaining published episodes in the series.\nFor example, removing the last episode with public access will now make\nthe series private which it would have stayed public before.\n\nIt also means that if the last episode of a series is being removed, the\nseries itself will be unpublished as well, so no empty series will\ncontinue to show up any longer.",
+    "cvss_vector": "AV:N/AC:L/Au:S/C:N/I:P/A:P",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

@@ -1,0 +1,20 @@
+{
+    "id": "9343bdd85d70625a90e0c952897957a102c2421b_onServiceConnected_1",
+    "func_name": "onServiceConnected",
+    "cve_id": "CVE-2021-32694",
+    "cwe_ids": [
+        "CWE-248"
+    ],
+    "commit_hash": "9343bdd85d70625a90e0c952897957a102c2421b",
+    "parent_commit_hash": "afbd74422783f895b9b2e04284eeffac501b09dc",
+    "repo_name": "nextcloud/android",
+    "git_url": "https://github.com/nextcloud/android/commit/9343bdd85d70625a90e0c952897957a102c2421b",
+    "file_path": "src/main/java/com/owncloud/android/authentication/AuthenticatorActivity.java",
+    "file_name": "AuthenticatorActivity.java",
+    "commit_date": 1612248851,
+    "commit_msg": "Do not crash if wrong deep login url is used\n\nSigned-off-by: tobiasKaminsky <tobias@kaminsky.me>",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

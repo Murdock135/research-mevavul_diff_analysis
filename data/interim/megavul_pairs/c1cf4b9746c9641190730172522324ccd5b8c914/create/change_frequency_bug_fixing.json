@@ -1,0 +1,42 @@
+{
+  "frequency": [
+    {
+      "c": "Parameter",
+      "f": "1"
+    },
+    {
+      "c": "VariableRead",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "insert-node_Parameter_Method",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_VariableRead_ConstructorCall",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Parameter",
+      "f": "0.5"
+    },
+    {
+      "c": "VariableRead",
+      "f": "0.5"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "insert-node_Parameter_Method",
+      "f": "0.5"
+    },
+    {
+      "c": "insert-node_VariableRead_ConstructorCall",
+      "f": "0.5"
+    }
+  ]
+}

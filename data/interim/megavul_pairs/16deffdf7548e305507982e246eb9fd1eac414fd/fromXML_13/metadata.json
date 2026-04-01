@@ -1,0 +1,20 @@
+{
+    "id": "16deffdf7548e305507982e246eb9fd1eac414fd_fromXML_1",
+    "func_name": "fromXML",
+    "cve_id": "CVE-2022-2414",
+    "cwe_ids": [
+        "CWE-611"
+    ],
+    "commit_hash": "16deffdf7548e305507982e246eb9fd1eac414fd",
+    "parent_commit_hash": "47b3affc0dd576cb11dc93561cafffe1a25c2e8e",
+    "repo_name": "dogtagpki/pki",
+    "git_url": "https://github.com/dogtagpki/pki/commit/16deffdf7548e305507982e246eb9fd1eac414fd",
+    "file_path": "base/common/src/main/java/com/netscape/certsrv/cert/CertRevokeRequest.java",
+    "file_name": "CertRevokeRequest.java",
+    "commit_date": 1654849507,
+    "commit_msg": "Disable access to external entities when parsing XML\n\nThis reduces the vulnerability of XML parsers to XXE (XML external\nentity) injection.\n\nThe best way to prevent XXE is to stop using XML altogether, which we do\nplan to do. Until that happens I consider it worthwhile to tighten the\nsecurity here though.",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

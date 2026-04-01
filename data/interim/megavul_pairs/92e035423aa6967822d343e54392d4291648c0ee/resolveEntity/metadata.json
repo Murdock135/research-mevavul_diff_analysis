@@ -1,0 +1,20 @@
+{
+    "id": "92e035423aa6967822d343e54392d4291648c0ee_resolveEntity_0",
+    "func_name": "resolveEntity",
+    "cve_id": "CVE-2021-3312",
+    "cwe_ids": [
+        "CWE-611"
+    ],
+    "commit_hash": "92e035423aa6967822d343e54392d4291648c0ee",
+    "parent_commit_hash": "12dd9f6d3b5b50055c2a6d91b68bb6b23ddd22f5",
+    "repo_name": "alkacon/opencms-core",
+    "git_url": "https://github.com/alkacon/opencms-core/commit/92e035423aa6967822d343e54392d4291648c0ee",
+    "file_path": "src/org/opencms/xml/CmsXmlEntityResolver.java",
+    "file_name": "CmsXmlEntityResolver.java",
+    "commit_date": 1611712586,
+    "commit_msg": "Fixed XXE issue in SVG processing (github issue #725).",
+    "cvss_vector": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+    "cvss_base_score": 4.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

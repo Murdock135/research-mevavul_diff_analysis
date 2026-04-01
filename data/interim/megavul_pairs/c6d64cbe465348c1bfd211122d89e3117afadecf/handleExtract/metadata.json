@@ -1,0 +1,20 @@
+{
+    "id": "c6d64cbe465348c1bfd211122d89e3117afadecf_handleExtract_0",
+    "func_name": "handleExtract",
+    "cve_id": "CVE-2020-36628",
+    "cwe_ids": [
+        "CWE-22"
+    ],
+    "commit_hash": "c6d64cbe465348c1bfd211122d89e3117afadecf",
+    "parent_commit_hash": "15bb52a4a2f69bff99425ccd9e8e183710522dd5",
+    "repo_name": "Calsign/APDE",
+    "git_url": "https://github.com/Calsign/APDE/commit/c6d64cbe465348c1bfd211122d89e3117afadecf",
+    "file_path": "APDE/src/main/java/com/calsignlabs/apde/build/dag/CopyBuildTask.java",
+    "file_name": "CopyBuildTask.java",
+    "commit_date": 1589798806,
+    "commit_msg": "fix zip path traversal vulnerability",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_is_v3": true
+}

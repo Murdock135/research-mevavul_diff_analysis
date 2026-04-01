@@ -1,0 +1,98 @@
+{
+  "frequency": [
+    {
+      "c": "LocalVariable",
+      "f": "4"
+    },
+    {
+      "c": "TypeReference",
+      "f": "1"
+    },
+    {
+      "c": "Invocation",
+      "f": "1"
+    },
+    {
+      "c": "Try",
+      "f": "1"
+    },
+    {
+      "c": "If",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "3"
+    },
+    {
+      "c": "move-tree_TypeReference_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Try_Block",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Invocation_Assignment",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "LocalVariable",
+      "f": "0.5"
+    },
+    {
+      "c": "TypeReference",
+      "f": "0.125"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.125"
+    },
+    {
+      "c": "Try",
+      "f": "0.125"
+    },
+    {
+      "c": "If",
+      "f": "0.125"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "0.375"
+    },
+    {
+      "c": "move-tree_TypeReference_LocalVariable",
+      "f": "0.125"
+    },
+    {
+      "c": "delete-node_Try_Block",
+      "f": "0.125"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "0.125"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "0.125"
+    },
+    {
+      "c": "move-tree_Invocation_Assignment",
+      "f": "0.125"
+    }
+  ]
+}

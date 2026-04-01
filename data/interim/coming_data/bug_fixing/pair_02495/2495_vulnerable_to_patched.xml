@@ -1,0 +1,580 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="&amp;&amp;: &amp;&amp; [1627,1629]" dest="&amp;&amp;: &amp;&amp; [2108,2110]"/>
+  <match src="field_expression [1637,1670]" dest="field_expression [2118,2151]"/>
+  <match src="pointer_expression [903,912]" dest="pointer_expression [1271,1280]"/>
+  <match src="struct: struct [155,161]" dest="struct: struct [155,161]"/>
+  <match src="-&gt;: -&gt; [1983,1985]" dest="-&gt;: -&gt; [2464,2466]"/>
+  <match src="field_expression [102,111]" dest="field_expression [102,111]"/>
+  <match src="static: static [0,6]" dest="static: static [0,6]"/>
+  <match src=";: ; [1090,1091]" dest=";: ; [1571,1572]"/>
+  <match src="-&gt;: -&gt; [871,873]" dest="-&gt;: -&gt; [1239,1241]"/>
+  <match src="call_expression [894,954]" dest="call_expression [1262,1322]"/>
+  <match src=";: ; [602,603]" dest=";: ; [619,620]"/>
+  <match src="): ) [1157,1158]" dest="): ) [1638,1639]"/>
+  <match src=";: ; [1229,1230]" dest=";: ; [1710,1711]"/>
+  <match src=";: ; [1889,1890]" dest=";: ; [2370,2371]"/>
+  <match src="{: { [1256,1257]" dest="{: { [1737,1738]"/>
+  <match src="field_identifier: intf_assoc [1616,1626]" dest="field_identifier: intf_assoc [2097,2107]"/>
+  <match src="declaration [77,112]" dest="declaration [77,112]"/>
+  <match src="pointer_declarator [187,193]" dest="pointer_declarator [187,193]"/>
+  <match src="expression_statement [278,336]" dest="expression_statement [295,353]"/>
+  <match src="==: == [1737,1739]" dest="==: == [2218,2220]"/>
+  <match src="call_expression [1162,1219]" dest="call_expression [1643,1700]"/>
+  <match src="case_statement [653,754]" dest="case_statement [904,1005]"/>
+  <match src="argument_list [476,488]" dest="argument_list [493,505]"/>
+  <match src="call_expression [355,451]" dest="call_expression [372,468]"/>
+  <match src="parameter_declaration [62,72]" dest="parameter_declaration [62,72]"/>
+  <match src="pointer_declarator [837,840]" dest="pointer_declarator [1088,1091]"/>
+  <match src="-&gt;: -&gt; [907,909]" dest="-&gt;: -&gt; [1275,1277]"/>
+  <match src="): ) [450,451]" dest="): ) [467,468]"/>
+  <match src="): ) [1014,1015]" dest="): ) [1495,1496]"/>
+  <match src="-&gt;: -&gt; [1705,1707]" dest="-&gt;: -&gt; [2186,2188]"/>
+  <match src="}: } [625,626]" dest="}: } [642,643]"/>
+  <match src="&quot;: &quot; [1887,1888]" dest="&quot;: &quot; [2368,2369]"/>
+  <match src="compound_statement [1962,2080]" dest="compound_statement [2443,2561]"/>
+  <match src="field_identifier: intf_assoc [1774,1784]" dest="field_identifier: intf_assoc [2255,2265]"/>
+  <match src="identifier: ctrlif [66,72]" dest="identifier: ctrlif [66,72]"/>
+  <match src="identifier: dev [1568,1571]" dest="identifier: dev [2049,2052]"/>
+  <match src="}: } [2109,2110]" dest="}: } [2590,2591]"/>
+  <match src="identifier: h1 [1198,1200]" dest="identifier: h1 [1679,1681]"/>
+  <match src="identifier: h1 [838,840]" dest="identifier: h1 [1089,1091]"/>
+  <match src="+: + [1580,1581]" dest="+: + [2061,2062]"/>
+  <match src="struct_specifier [1518,1538]" dest="struct_specifier [1999,2019]"/>
+  <match src="field_expression [405,425]" dest="field_expression [422,442]"/>
+  <match src="argument_list [1050,1090]" dest="argument_list [1531,1571]"/>
+  <match src="call_expression [665,753]" dest="call_expression [916,1004]"/>
+  <match src="{: { [552,553]" dest="{: { [569,570]"/>
+  <match src="): ) [1888,1889]" dest="): ) [2369,2370]"/>
+  <match src="return_statement [2099,2108]" dest="return_statement [2580,2589]"/>
+  <match src="-&gt;: -&gt; [1137,1139]" dest="-&gt;: -&gt; [1618,1620]"/>
+  <match src="field_identifier: extra [391,396]" dest="field_identifier: extra [408,413]"/>
+  <match src="if_statement [531,626]" dest="if_statement [548,643]"/>
+  <match src=",: , [226,227]" dest=",: , [226,227]"/>
+  <match src="case: case [779,783]" dest="case: case [1030,1034]"/>
+  <match src="-&gt;: -&gt; [106,108]" dest="-&gt;: -&gt; [106,108]"/>
+  <match src="identifier: i [1957,1958]" dest="identifier: i [2438,2439]"/>
+  <match src="NULL: NULL [434,438]" dest="NULL: NULL [451,455]"/>
+  <match src="field_identifier: intf_assoc [1707,1717]" dest="field_identifier: intf_assoc [2188,2198]"/>
+  <match src="binary_expression [1573,1583]" dest="binary_expression [2054,2064]"/>
+  <match src="(: ( [563,564]" dest="(: ( [580,581]"/>
+  <match src="*: * [95,96]" dest="*: * [95,96]"/>
+  <match src="function_definition [0,2110]" dest="function_definition [0,2591]"/>
+  <match src="escape_sequence: \n [1086,1088]" dest="escape_sequence: \n [1567,1569]"/>
+  <match src="assignment_expression [338,451]" dest="assignment_expression [355,468]"/>
+  <match src="*: * [1539,1540]" dest="*: * [2020,2021]"/>
+  <match src="{: { [1037,1038]" dest="{: { [1518,1519]"/>
+  <match src="++: ++ [1155,1157]" dest="++: ++ [1636,1638]"/>
+  <match src="identifier: protocol [744,752]" dest="identifier: protocol [995,1003]"/>
+  <match src="parenthesized_expression [1010,1015]" dest="parenthesized_expression [1491,1496]"/>
+  <match src="identifier: snd_usb_create_stream [1162,1183]" dest="identifier: snd_usb_create_stream [1643,1664]"/>
+  <match src="&quot;: &quot; [1829,1830]" dest="&quot;: &quot; [2310,2311]"/>
+  <match src="identifier: iface [1609,1614]" dest="identifier: iface [2090,2095]"/>
+  <match src="declaration [1518,1585]" dest="declaration [1999,2066]"/>
+  <match src=";: ; [1908,1909]" dest=";: ; [2389,2390]"/>
+  <match src="=: = [1765,1766]" dest="=: = [2246,2247]"/>
+  <match src="expression_statement [1759,1785]" dest="expression_statement [2240,2266]"/>
+  <match src="(: ( [1796,1797]" dest="(: ( [2277,2278]"/>
+  <match src="&quot;: &quot; [575,576]" dest="&quot;: &quot; [592,593]"/>
+  <match src=";: ; [335,336]" dest=";: ; [352,353]"/>
+  <match src="): ) [2028,2029]" dest="): ) [2509,2510]"/>
+  <match src="string_content: invalid UAC_HEADER (v1) [1063,1086]" dest="string_content: invalid UAC_HEADER (v1) [1544,1567]"/>
+  <match src="==: == [1671,1673]" dest="==: == [2152,2154]"/>
+  <match src="&lt;: &lt; [1931,1932]" dest="&lt;: &lt; [2412,2413]"/>
+  <match src="update_expression [1957,1960]" dest="update_expression [2438,2441]"/>
+  <match src="identifier: dev [308,311]" dest="identifier: dev [325,328]"/>
+  <match src="): ) [72,73]" dest="): ) [72,73]"/>
+  <match src="&quot;: &quot; [1088,1089]" dest="&quot;: &quot; [1569,1570]"/>
+  <match src="identifier: h1 [990,992]" dest="identifier: h1 [1471,1473]"/>
+  <match src="identifier: snd_usb_find_csint_desc [355,378]" dest="identifier: snd_usb_find_csint_desc [372,395]"/>
+  <match src=",: , [1188,1189]" dest=",: , [1669,1670]"/>
+  <match src="compound_statement [552,626]" dest="compound_statement [569,643]"/>
+  <match src="expression_statement [2034,2076]" dest="expression_statement [2515,2557]"/>
+  <match src="init_declarator [95,111]" dest="init_declarator [95,111]"/>
+  <match src="unary_expression [614,621]" dest="unary_expression [631,638]"/>
+  <match src="identifier: snd_usb_create_stream [2034,2055]" dest="identifier: snd_usb_create_stream [2515,2536]"/>
+  <match src="call_expression [292,320]" dest="call_expression [309,337]"/>
+  <match src="(: ( [307,308]" dest="(: ( [324,325]"/>
+  <match src="struct_specifier [804,836]" dest="struct_specifier [1055,1087]"/>
+  <match src="): ) [1089,1090]" dest="): ) [1570,1571]"/>
+  <match src="): ) [1803,1804]" dest="): ) [2284,2285]"/>
+  <match src="case_statement [779,1233]" dest="case_statement [1030,1714]"/>
+  <match src=";: ; [753,754]" dest=";: ; [1004,1005]"/>
+  <match src=",: , [683,684]" dest=",: , [934,935]"/>
+  <match src="struct_specifier [155,186]" dest="struct_specifier [155,186]"/>
+  <match src="null [434,438]" dest="null [451,455]"/>
+  <match src="update_expression [1154,1157]" dest="update_expression [1635,1638]"/>
+  <match src="-&gt;: -&gt; [1717,1719]" dest="-&gt;: -&gt; [2198,2200]"/>
+  <match src="escape_sequence: \n [1885,1887]" dest="escape_sequence: \n [2366,2368]"/>
+  <match src="(: ( [673,674]" dest="(: ( [924,925]"/>
+  <match src="argument_list [902,954]" dest="argument_list [1270,1322]"/>
+  <match src="identifier: dev [675,678]" dest="identifier: dev [926,929]"/>
+  <match src=",: , [1827,1828]" dest=",: , [2308,2309]"/>
+  <match src="call_expression [1310,1338]" dest="call_expression [1791,1819]"/>
+  <match src="parenthesized_expression [1796,1804]" dest="parenthesized_expression [2277,2285]"/>
+  <match src="number_literal: 0 [1926,1927]" dest="number_literal: 0 [2407,2408]"/>
+  <match src="identifier: host_iface [379,389]" dest="identifier: host_iface [396,406]"/>
+  <match src="): ) [1365,1366]" dest="): ) [1846,1847]"/>
+  <match src="identifier: i [225,226]" dest="identifier: i [225,226]"/>
+  <match src="binary_expression [1004,1035]" dest="binary_expression [1485,1516]"/>
+  <match src="identifier: protocol [639,647]" dest="identifier: protocol [890,898]"/>
+  <match src="number_literal: 0 [2106,2107]" dest="number_literal: 0 [2587,2588]"/>
+  <match src=":: : [797,798]" dest=":: : [1048,1049]"/>
+  <match src="&quot;: &quot; [952,953]" dest="&quot;: &quot; [1320,1321]"/>
+  <match src="identifier: ctrlif [1331,1337]" dest="identifier: ctrlif [1812,1818]"/>
+  <match src=";: ; [1110,1111]" dest=";: ; [1591,1592]"/>
+  <match src="field_identifier: dev [108,111]" dest="field_identifier: dev [108,111]"/>
+  <match src="): ) [1337,1338]" dest="): ) [1818,1819]"/>
+  <match src="(: ( [867,868]" dest="(: ( [1235,1236]"/>
+  <match src="identifier: i [2003,2004]" dest="identifier: i [2484,2485]"/>
+  <match src="primitive_type: int [1967,1970]" dest="primitive_type: int [2448,2451]"/>
+  <match src="call_expression [1552,1584]" dest="call_expression [2033,2065]"/>
+  <match src="subscript_expression [1198,1218]" dest="subscript_expression [1679,1699]"/>
+  <match src="}: } [2095,2096]" dest="}: } [2576,2577]"/>
+  <match src=",: , [1329,1330]" dest=",: , [1810,1811]"/>
+  <match src="default: default [653,660]" dest="default: default [904,911]"/>
+  <match src="binary_expression [990,1035]" dest="binary_expression [1471,1516]"/>
+  <match src="struct_specifier [114,139]" dest="struct_specifier [114,139]"/>
+  <match src="number_literal: 1 [1582,1583]" dest="number_literal: 1 [2063,2064]"/>
+  <match src="identifier: iface [1637,1642]" dest="identifier: iface [2118,2123]"/>
+  <match src="expression_statement [894,955]" dest="expression_statement [1262,1323]"/>
+  <match src="identifier: assoc [1360,1365]" dest="identifier: assoc [1841,1846]"/>
+  <match src="break: break [2084,2089]" dest="break: break [2565,2570]"/>
+  <match src="binary_expression [1593,1689]" dest="binary_expression [2074,2170]"/>
+  <match src="call_expression [1043,1090]" dest="call_expression [1524,1571]"/>
+  <match src="identifier: dev [565,568]" dest="identifier: dev [582,585]"/>
+  <match src="field_identifier: intf_assoc [1340,1350]" dest="field_identifier: intf_assoc [1821,1831]"/>
+  <match src="struct_specifier [34,54]" dest="struct_specifier [34,54]"/>
+  <match src="type_identifier: usb_interface_descriptor [162,186]" dest="type_identifier: usb_interface_descriptor [162,186]"/>
+  <match src=";: ; [236,237]" dest=";: ; [236,237]"/>
+  <match src=";: ; [954,955]" dest=";: ; [1322,1323]"/>
+  <match src="-&gt;: -&gt; [1822,1824]" dest="-&gt;: -&gt; [2303,2305]"/>
+  <match src="=: = [353,354]" dest="=: = [370,371]"/>
+  <match src="field_identifier: bFunctionProtocol [1719,1736]" dest="field_identifier: bFunctionProtocol [2200,2217]"/>
+  <match src="(: ( [1592,1593]" dest="(: ( [2073,2074]"/>
+  <match src="-&gt;: -&gt; [1938,1940]" dest="-&gt;: -&gt; [2419,2421]"/>
+  <match src="compound_statement [1037,1115]" dest="compound_statement [1518,1596]"/>
+  <match src="(: ( [1817,1818]" dest="(: ( [2298,2299]"/>
+  <match src="escape_sequence: \n [598,600]" dest="escape_sequence: \n [615,617]"/>
+  <match src="string_literal [1062,1089]" dest="string_literal [1543,1570]"/>
+  <match src="=: = [289,290]" dest="=: = [306,307]"/>
+  <match src="struct: struct [34,40]" dest="struct: struct [34,40]"/>
+  <match src=";: ; [1955,1956]" dest=";: ; [2436,2437]"/>
+  <match src="identifier: EINVAL [1104,1110]" dest="identifier: EINVAL [1585,1591]"/>
+  <match src="call_expression [1810,1889]" dest="call_expression [2291,2370]"/>
+  <match src="primitive_type: void [197,201]" dest="primitive_type: void [197,201]"/>
+  <match src="argument_list [1567,1584]" dest="argument_list [2048,2065]"/>
+  <match src="field_expression [1767,1784]" dest="field_expression [2248,2265]"/>
+  <match src="&lt;: &lt; [1133,1134]" dest="&lt;: &lt; [1614,1615]"/>
+  <match src="identifier: altsd [188,193]" dest="identifier: altsd [188,193]"/>
+  <match src="identifier: i [1216,1217]" dest="identifier: i [1697,1698]"/>
+  <match src="storage_class_specifier [0,6]" dest="storage_class_specifier [0,6]"/>
+  <match src="expression_statement [556,603]" dest="expression_statement [573,620]"/>
+  <match src=":: : [660,661]" dest=":: : [911,912]"/>
+  <match src="identifier: assoc [1933,1938]" dest="identifier: assoc [2414,2419]"/>
+  <match src="identifier: h1 [1012,1014]" dest="identifier: h1 [1493,1495]"/>
+  <match src="-&gt;: -&gt; [389,391]" dest="-&gt;: -&gt; [406,408]"/>
+  <match src=";: ; [2004,2005]" dest=";: ; [2485,2486]"/>
+  <match src="identifier: chip [56,60]" dest="identifier: chip [56,60]"/>
+  <match src="field_identifier: altsetting [322,332]" dest="field_identifier: altsetting [339,349]"/>
+  <match src="unary_expression [1103,1110]" dest="unary_expression [1584,1591]"/>
+  <match src="struct: struct [114,120]" dest="struct: struct [114,120]"/>
+  <match src="binary_expression [1978,2004]" dest="binary_expression [2459,2485]"/>
+  <match src="field_expression [565,573]" dest="field_expression [582,590]"/>
+  <match src="): ) [1218,1219]" dest="): ) [1699,1700]"/>
+  <match src="compound_statement [1805,1913]" dest="compound_statement [2286,2394]"/>
+  <match src="identifier: ctrlif [2022,2028]" dest="identifier: ctrlif [2503,2509]"/>
+  <match src="&quot;: &quot; [737,738]" dest="&quot;: &quot; [988,989]"/>
+  <match src="identifier: assoc [1299,1304]" dest="identifier: assoc [1780,1785]"/>
+  <match src="identifier: i [1922,1923]" dest="identifier: i [2403,2404]"/>
+  <match src="identifier: EINVAL [968,974]" dest="identifier: EINVAL [1336,1342]"/>
+  <match src="=: = [1126,1127]" dest="=: = [1607,1608]"/>
+  <match src=";: ; [151,152]" dest=";: ; [151,152]"/>
+  <match src="!=: != [2019,2021]" dest="!=: != [2500,2502]"/>
+  <match src="pointer_declarator [55,60]" dest="pointer_declarator [55,60]"/>
+  <match src="-&gt;: -&gt; [1642,1644]" dest="-&gt;: -&gt; [2123,2125]"/>
+  <match src="field_identifier: bInCollection [1022,1035]" dest="field_identifier: bInCollection [1503,1516]"/>
+  <match src="(: ( [1050,1051]" dest="(: ( [1531,1532]"/>
+  <match src="field_identifier: bInterfaceProtocol [509,527]" dest="field_identifier: bInterfaceProtocol [526,544]"/>
+  <match src="-&gt;: -&gt; [1055,1057]" dest="-&gt;: -&gt; [1536,1538]"/>
+  <match src=",: , [912,913]" dest=",: , [1280,1281]"/>
+  <match src="*: * [55,56]" dest="*: * [55,56]"/>
+  <match src="primitive_type: int [221,224]" dest="primitive_type: int [221,224]"/>
+  <match src="unary_expression [1797,1803]" dest="unary_expression [2278,2284]"/>
+  <match src="expression_statement [665,754]" dest="expression_statement [916,1005]"/>
+  <match src="case: case [1236,1240]" dest="case: case [1717,1721]"/>
+  <match src="identifier: USB_CLASS_AUDIO [1674,1689]" dest="identifier: USB_CLASS_AUDIO [2155,2170]"/>
+  <match src="compound_statement [799,1233]" dest="compound_statement [1050,1714]"/>
+  <match src="pointer_expression [674,683]" dest="pointer_expression [925,934]"/>
+  <match src="-&gt;: -&gt; [320,322]" dest="-&gt;: -&gt; [337,339]"/>
+  <match src="}: } [2092,2093]" dest="}: } [2573,2574]"/>
+  <match src="identifier: host_iface [405,415]" dest="identifier: host_iface [422,432]"/>
+  <match src="break_statement [2084,2090]" dest="break_statement [2565,2571]"/>
+  <match src="identifier: dev [904,907]" dest="identifier: dev [1272,1275]"/>
+  <match src=";: ; [1927,1928]" dest=";: ; [2408,2409]"/>
+  <match src="field_expression [1052,1060]" dest="field_expression [1533,1541]"/>
+  <match src="field_expression [869,886]" dest="field_expression [1237,1254]"/>
+  <match src="declaration [1967,2005]" dest="declaration [2448,2486]"/>
+  <match src="}: } [1232,1233]" dest="}: } [1713,1714]"/>
+  <match src="identifier: EINVAL [615,621]" dest="identifier: EINVAL [632,638]"/>
+  <match src="&amp;: &amp; [674,675]" dest="&amp;: &amp; [925,926]"/>
+  <match src="sizeof: sizeof [1004,1010]" dest="sizeof: sizeof [1485,1491]"/>
+  <match src=",: , [60,61]" dest=",: , [60,61]"/>
+  <match src="if_statement [1355,1789]" dest="if_statement [1836,2270]"/>
+  <match src="field_expression [1135,1152]" dest="field_expression [1616,1633]"/>
+  <match src="identifier: intf [1971,1975]" dest="identifier: intf [2452,2456]"/>
+  <match src="if: if [1355,1357]" dest="if: if [1836,1838]"/>
+  <match src="): ) [886,887]" dest="): ) [1254,1255]"/>
+  <match src="expression_statement [491,528]" dest="expression_statement [508,545]"/>
+  <match src=",: , [573,574]" dest=",: , [590,591]"/>
+  <match src="identifier: intf [2014,2018]" dest="identifier: intf [2495,2499]"/>
+  <match src="field_identifier: bInCollection [1139,1152]" dest="field_identifier: bInCollection [1620,1633]"/>
+  <match src="parenthesized_expression [1358,1366]" dest="parenthesized_expression [1839,1847]"/>
+  <match src="pointer_declarator [95,99]" dest="pointer_declarator [95,99]"/>
+  <match src="sizeof_expression [1004,1015]" dest="sizeof_expression [1485,1496]"/>
+  <match src="primitive_type: int [7,10]" dest="primitive_type: int [7,10]"/>
+  <match src="-&gt;: -&gt; [507,509]" dest="-&gt;: -&gt; [524,526]"/>
+  <match src="pointer_declarator [202,217]" dest="pointer_declarator [202,217]"/>
+  <match src="=: = [460,461]" dest="=: = [477,478]"/>
+  <match src="identifier: host_iface [141,151]" dest="identifier: host_iface [141,151]"/>
+  <match src="init_declarator [1298,1350]" dest="init_declarator [1779,1831]"/>
+  <match src=";: ; [451,452]" dest=";: ; [468,469]"/>
+  <match src="field_identifier: bInterfaceCount [1940,1955]" dest="field_identifier: bInterfaceCount [2421,2436]"/>
+  <match src="type_identifier: snd_usb_audio [41,54]" dest="type_identifier: snd_usb_audio [41,54]"/>
+  <match src="field_identifier: extralen [417,425]" dest="field_identifier: extralen [434,442]"/>
+  <match src="call_expression [462,488]" dest="call_expression [479,505]"/>
+  <match src="*: * [202,203]" dest="*: * [202,203]"/>
+  <match src=";: ; [1784,1785]" dest=";: ; [2265,2266]"/>
+  <match src=";: ; [488,489]" dest=";: ; [505,506]"/>
+  <match src="identifier: altsd [502,507]" dest="identifier: altsd [519,524]"/>
+  <match src="identifier: dev_info [894,902]" dest="identifier: dev_info [1262,1270]"/>
+  <match src="identifier: ctrlif [313,319]" dest="identifier: ctrlif [330,336]"/>
+  <match src=";: ; [2089,2090]" dest=";: ; [2570,2571]"/>
+  <match src="-&gt;: -&gt; [678,680]" dest="-&gt;: -&gt; [929,931]"/>
+  <match src="field_identifier: baInterfaceNr [1202,1215]" dest="field_identifier: baInterfaceNr [1683,1696]"/>
+  <match src="pointer_declarator [140,151]" dest="pointer_declarator [140,151]"/>
+  <match src="parenthesized_expression [2013,2029]" dest="parenthesized_expression [2494,2510]"/>
+  <match src="{: { [799,800]" dest="{: { [1050,1051]"/>
+  <match src=";: ; [217,218]" dest=";: ; [217,218]"/>
+  <match src="struct_specifier [77,94]" dest="struct_specifier [77,94]"/>
+  <match src="type_identifier: usb_host_interface [121,139]" dest="type_identifier: usb_host_interface [121,139]"/>
+  <match src="field_identifier: bFunctionClass [1656,1670]" dest="field_identifier: bFunctionClass [2137,2151]"/>
+  <match src="identifier: assoc [1798,1803]" dest="identifier: assoc [2279,2284]"/>
+  <match src="=: = [100,101]" dest="=: = [100,101]"/>
+  <match src=",: , [1060,1061]" dest=",: , [1541,1542]"/>
+  <match src="assignment_expression [1124,1129]" dest="assignment_expression [1605,1610]"/>
+  <match src="string_literal [689,738]" dest="string_literal [940,989]"/>
+  <match src="call_expression [556,602]" dest="call_expression [573,619]"/>
+  <match src="comment: 			
+			 * Firmware writers cannot count to three.  So to find
+			 * the IAD on the NuForce UDH-100, also check the next
+			 * interface.
+			 */ [1372,1514]" dest="comment: 			
+			 * Firmware writers cannot count to three.  So to find
+			 * the IAD on the NuForce UDH-100, also check the next
+			 * interface.
+			 */ [1853,1995]"/>
+  <match src=";: ; [193,194]" dest=";: ; [193,194]"/>
+  <match src="-: - [967,968]" dest="-: - [1335,1336]"/>
+  <match src="identifier: chip [1184,1188]" dest="identifier: chip [1665,1669]"/>
+  <match src="&quot;: &quot; [689,690]" dest="&quot;: &quot; [940,941]"/>
+  <match src="=: = [500,501]" dest="=: = [517,518]"/>
+  <match src="-&gt;: -&gt; [1614,1616]" dest="-&gt;: -&gt; [2095,2097]"/>
+  <match src="(: ( [33,34]" dest="(: ( [33,34]"/>
+  <match src="identifier: protocol [228,236]" dest="identifier: protocol [228,236]"/>
+  <match src="number_literal: 0 [333,334]" dest="number_literal: 0 [350,351]"/>
+  <match src="+: + [2001,2002]" dest="+: + [2482,2483]"/>
+  <match src="string_content: cannot find UAC_HEADER [576,598]" dest="string_content: cannot find UAC_HEADER [593,615]"/>
+  <match src="assignment_expression [454,488]" dest="assignment_expression [471,505]"/>
+  <match src="expression_statement [1810,1890]" dest="expression_statement [2291,2371]"/>
+  <match src="-&gt;: -&gt; [1020,1022]" dest="-&gt;: -&gt; [1501,1503]"/>
+  <match src="return: return [960,966]" dest="return: return [1328,1334]"/>
+  <match src="identifier: control_header [338,352]" dest="identifier: control_header [355,369]"/>
+  <match src="identifier: ctrlif [1190,1196]" dest="identifier: ctrlif [1671,1677]"/>
+  <match src="identifier: i [1131,1132]" dest="identifier: i [1612,1613]"/>
+  <match src="-&gt;: -&gt; [1338,1340]" dest="-&gt;: -&gt; [1819,1821]"/>
+  <match src="if: if [864,866]" dest="if: if [1232,1234]"/>
+  <match src="identifier: iface [1767,1772]" dest="identifier: iface [2248,2253]"/>
+  <match src="function_declarator [11,73]" dest="function_declarator [11,73]"/>
+  <match src="for_statement [1917,2080]" dest="for_statement [2398,2561]"/>
+  <match src="if_statement [986,1115]" dest="if_statement [1467,1596]"/>
+  <match src=",: , [738,739]" dest=",: , [989,990]"/>
+  <match src=";: ; [1584,1585]" dest=";: ; [2065,2066]"/>
+  <match src="+: + [1016,1017]" dest="+: + [1497,1498]"/>
+  <match src=":: : [1254,1255]" dest=":: : [1735,1736]"/>
+  <match src="identifier: iface [1540,1545]" dest="identifier: iface [2021,2026]"/>
+  <match src="case_statement [1236,2093]" dest="case_statement [1717,2574]"/>
+  <match src="switch_statement [631,2096]" dest="switch_statement [882,2577]"/>
+  <match src="): ) [319,320]" dest="): ) [336,337]"/>
+  <match src="): ) [487,488]" dest="): ) [504,505]"/>
+  <match src="argument_list [1325,1338]" dest="argument_list [1806,1819]"/>
+  <match src="&amp;: &amp; [1818,1819]" dest="&amp;: &amp; [2299,2300]"/>
+  <match src="if_statement [2010,2076]" dest="if_statement [2491,2557]"/>
+  <match src="-&gt;: -&gt; [568,570]" dest="-&gt;: -&gt; [585,587]"/>
+  <match src="parameter_list [33,73]" dest="parameter_list [33,73]"/>
+  <match src="&quot;: &quot; [914,915]" dest="&quot;: &quot; [1282,1283]"/>
+  <match src="parameter_declaration [34,60]" dest="parameter_declaration [34,60]"/>
+  <match src="*: * [187,188]" dest="*: * [187,188]"/>
+  <match src="(: ( [534,535]" dest="(: ( [551,552]"/>
+  <match src="identifier: altsd [454,459]" dest="identifier: altsd [471,476]"/>
+  <match src=";: ; [111,112]" dest=";: ; [111,112]"/>
+  <match src=";: ; [1129,1130]" dest=";: ; [1610,1611]"/>
+  <match src="unary_expression [1901,1908]" dest="unary_expression [2382,2389]"/>
+  <match src="identifier: dev_err [556,563]" dest="identifier: dev_err [573,580]"/>
+  <match src=";: ; [2075,2076]" dest=";: ; [2556,2557]"/>
+  <match src="field_identifier: dev [570,573]" dest="field_identifier: dev [587,590]"/>
+  <match src="identifier: chip [2056,2060]" dest="identifier: chip [2537,2541]"/>
+  <match src="field_expression [292,332]" dest="field_expression [309,349]"/>
+  <match src="identifier: assoc [1978,1983]" dest="identifier: assoc [2459,2464]"/>
+  <match src="compound_statement [74,2110]" dest="compound_statement [74,2591]"/>
+  <match src="): ) [1583,1584]" dest="): ) [2064,2065]"/>
+  <match src="): ) [752,753]" dest="): ) [1003,1004]"/>
+  <match src="for_statement [1119,1220]" dest="for_statement [1600,1701]"/>
+  <match src="field_expression [1609,1626]" dest="field_expression [2090,2107]"/>
+  <match src="parenthesized_expression [638,648]" dest="parenthesized_expression [889,899]"/>
+  <match src="identifier: control_header [203,217]" dest="identifier: control_header [203,217]"/>
+  <match src="string_content: unknown interface protocol %#02x, assuming v1 [690,735]" dest="string_content: unknown interface protocol %#02x, assuming v1 [941,986]"/>
+  <match src="&amp;: &amp; [903,904]" dest="&amp;: &amp; [1271,1272]"/>
+  <match src="identifier: dev [1052,1055]" dest="identifier: dev [1533,1536]"/>
+  <match src="(: ( [989,990]" dest="(: ( [1470,1471]"/>
+  <match src="struct_specifier [1260,1297]" dest="struct_specifier [1741,1778]"/>
+  <match src="pointer_expression [1818,1827]" dest="pointer_expression [2299,2308]"/>
+  <match src="*: * [140,141]" dest="*: * [140,141]"/>
+  <match src="(: ( [638,639]" dest="(: ( [889,890]"/>
+  <match src="if: if [1793,1795]" dest="if: if [2274,2276]"/>
+  <match src=";: ; [974,975]" dest=";: ; [1342,1343]"/>
+  <match src="struct: struct [1260,1266]" dest="struct: struct [1741,1747]"/>
+  <match src="argument_list [1817,1889]" dest="argument_list [2298,2370]"/>
+  <match src="*: * [837,838]" dest="*: * [1088,1089]"/>
+  <match src="(: ( [1921,1922]" dest="(: ( [2402,2403]"/>
+  <match src="{: { [888,889]" dest="{: { [1256,1257]"/>
+  <match src="declaration [804,858]" dest="declaration [1055,1109]"/>
+  <match src="&quot;: &quot; [600,601]" dest="&quot;: &quot; [617,618]"/>
+  <match src="(: ( [1567,1568]" dest="(: ( [2048,2049]"/>
+  <match src="string_content: skipping empty audio interface (v1) [915,950]" dest="string_content: skipping empty audio interface (v1) [1283,1318]"/>
+  <match src="expression_statement [454,489]" dest="expression_statement [471,506]"/>
+  <match src=",: , [1196,1197]" dest=",: , [1677,1678]"/>
+  <match src="identifier: dev [96,99]" dest="identifier: dev [96,99]"/>
+  <match src="++: ++ [1958,1960]" dest="++: ++ [2439,2441]"/>
+  <match src="(: ( [1123,1124]" dest="(: ( [1604,1605]"/>
+  <match src="-&gt;: -&gt; [1654,1656]" dest="-&gt;: -&gt; [2135,2137]"/>
+  <match src="if: if [1589,1591]" dest="if: if [2070,2072]"/>
+  <match src="string_literal [1829,1888]" dest="string_literal [2310,2369]"/>
+  <match src="field_expression [990,1001]" dest="field_expression [1471,1482]"/>
+  <match src="binary_expression [1593,1626]" dest="binary_expression [2074,2107]"/>
+  <match src="identifier: assoc [1759,1764]" dest="identifier: assoc [2240,2245]"/>
+  <match src="): ) [647,648]" dest="): ) [898,899]"/>
+  <match src="struct: struct [1518,1524]" dest="struct: struct [1999,2005]"/>
+  <match src="for: for [1119,1122]" dest="for: for [1600,1603]"/>
+  <match src="subscript_expression [292,335]" dest="subscript_expression [309,352]"/>
+  <match src="binary_expression [1700,1753]" dest="binary_expression [2181,2234]"/>
+  <match src="struct: struct [804,810]" dest="struct: struct [1055,1061]"/>
+  <match src="unary_expression [535,550]" dest="unary_expression [552,567]"/>
+  <match src="): ) [1035,1036]" dest="): ) [1516,1517]"/>
+  <match src="=: = [1976,1977]" dest="=: = [2457,2458]"/>
+  <match src="field_expression [904,912]" dest="field_expression [1272,1280]"/>
+  <match src="init_declarator [1539,1584]" dest="init_declarator [2020,2065]"/>
+  <match src="init_declarator [837,857]" dest="init_declarator [1088,1108]"/>
+  <match src="field_expression [1637,1654]" dest="field_expression [2118,2135]"/>
+  <match src="pointer_declarator [1298,1304]" dest="pointer_declarator [1779,1785]"/>
+  <match src="unary_expression [1359,1365]" dest="unary_expression [1840,1846]"/>
+  <match src=";: ; [527,528]" dest=";: ; [544,545]"/>
+  <match src="}: } [1788,1789]" dest="}: } [2269,2270]"/>
+  <match src="identifier: EINVAL [1902,1908]" dest="identifier: EINVAL [2383,2389]"/>
+  <match src="field_expression [1198,1215]" dest="field_expression [1679,1696]"/>
+  <match src="identifier: host_iface [278,288]" dest="identifier: host_iface [295,305]"/>
+  <match src="expression_statement [1043,1091]" dest="expression_statement [1524,1572]"/>
+  <match src="{: { [1367,1368]" dest="{: { [1848,1849]"/>
+  <match src="identifier: h1 [1135,1137]" dest="identifier: h1 [1616,1618]"/>
+  <match src="&lt;: &lt; [1002,1003]" dest="&lt;: &lt; [1483,1484]"/>
+  <match src="field_identifier: dev [680,683]" dest="field_identifier: dev [931,934]"/>
+  <match src="return_statement [960,975]" dest="return_statement [1328,1343]"/>
+  <match src="identifier: i [1929,1930]" dest="identifier: i [2410,2411]"/>
+  <match src="return_statement [1096,1111]" dest="return_statement [1577,1592]"/>
+  <match src="): ) [953,954]" dest="): ) [1321,1322]"/>
+  <match src="identifier: snd_usb_create_streams [11,33]" dest="identifier: snd_usb_create_streams [11,33]"/>
+  <match src="return: return [2099,2105]" dest="return: return [2580,2586]"/>
+  <match src="(: ( [2055,2056]" dest="(: ( [2536,2537]"/>
+  <match src="field_expression [1819,1827]" dest="field_expression [2300,2308]"/>
+  <match src="identifier: i [1154,1155]" dest="identifier: i [1635,1636]"/>
+  <match src="break_statement [1224,1230]" dest="break_statement [1705,1711]"/>
+  <match src="break: break [1224,1229]" dest="break: break [1705,1710]"/>
+  <match src="escape_sequence: \n [950,952]" dest="escape_sequence: \n [1318,1320]"/>
+  <match src="{: { [649,650]" dest="{: { [900,901]"/>
+  <match src="]: ] [334,335]" dest="]: ] [351,352]"/>
+  <match src="field_identifier: bLength [994,1001]" dest="field_identifier: bLength [1475,1482]"/>
+  <match src="argument_list [563,602]" dest="argument_list [580,619]"/>
+  <match src=";: ; [1219,1220]" dest=";: ; [1700,1701]"/>
+  <match src="string_content: Audio class v2 interfaces need an interface association [1830,1885]" dest="string_content: Audio class v2 interfaces need an interface association [2311,2366]"/>
+  <match src="struct: struct [77,83]" dest="struct: struct [77,83]"/>
+  <match src="comment: /* find audiocontrol interface */ [242,275]" dest="comment: /* find audiocontrol interface */ [259,292]"/>
+  <match src="binary_expression [2014,2028]" dest="binary_expression [2495,2509]"/>
+  <match src="primitive_type: int [62,65]" dest="primitive_type: int [62,65]"/>
+  <match src="binary_expression [1593,1753]" dest="binary_expression [2074,2234]"/>
+  <match src="if_statement [864,980]" dest="if_statement [1232,1348]"/>
+  <match src="string_literal [914,953]" dest="string_literal [1282,1321]"/>
+  <match src="switch: switch [631,637]" dest="switch: switch [882,888]"/>
+  <match src="return_statement [607,622]" dest="return_statement [624,639]"/>
+  <match src="{: { [74,75]" dest="{: { [74,75]"/>
+  <match src="identifier: protocol [491,499]" dest="identifier: protocol [508,516]"/>
+  <match src="compound_statement [888,980]" dest="compound_statement [1256,1348]"/>
+  <match src="&amp;&amp;: &amp;&amp; [1690,1692]" dest="&amp;&amp;: &amp;&amp; [2171,2173]"/>
+  <match src="*: * [1298,1299]" dest="*: * [1779,1780]"/>
+  <match src="identifier: dev_err [1810,1817]" dest="identifier: dev_err [2291,2298]"/>
+  <match src="identifier: intf [2070,2074]" dest="identifier: intf [2551,2555]"/>
+  <match src="parenthesized_expression [1592,1754]" dest="parenthesized_expression [2073,2235]"/>
+  <match src="if_statement [1589,1785]" dest="if_statement [2070,2266]"/>
+  <match src="if: if [531,533]" dest="if: if [548,550]"/>
+  <match src="}: } [1114,1115]" dest="}: } [1595,1596]"/>
+  <match src="field_expression [675,683]" dest="field_expression [926,934]"/>
+  <match src="}: } [979,980]" dest="}: } [1347,1348]"/>
+  <match src="field_identifier: dev [1057,1060]" dest="field_identifier: dev [1538,1541]"/>
+  <match src="(: ( [1325,1326]" dest="(: ( [1806,1807]"/>
+  <match src="(: ( [1358,1359]" dest="(: ( [1839,1840]"/>
+  <match src="-&gt;: -&gt; [992,994]" dest="-&gt;: -&gt; [1473,1475]"/>
+  <match src="parenthesized_expression [867,887]" dest="parenthesized_expression [1235,1255]"/>
+  <match src="(: ( [378,379]" dest="(: ( [395,396]"/>
+  <match src=",: , [1571,1572]" dest=",: , [2052,2053]"/>
+  <match src="identifier: dev [1819,1822]" dest="identifier: dev [2300,2303]"/>
+  <match src="-&gt;: -&gt; [1200,1202]" dest="-&gt;: -&gt; [1681,1683]"/>
+  <match src="if_statement [1793,1913]" dest="if_statement [2274,2394]"/>
+  <match src=";: ; [1152,1153]" dest=";: ; [1633,1634]"/>
+  <match src="compound_statement [1256,2093]" dest="compound_statement [1737,2574]"/>
+  <match src="{: { [1805,1806]" dest="{: { [2286,2287]"/>
+  <match src="=: = [1924,1925]" dest="=: = [2405,2406]"/>
+  <match src="!: ! [535,536]" dest="!: ! [552,553]"/>
+  <match src="(: ( [1183,1184]" dest="(: ( [1664,1665]"/>
+  <match src="field_expression [379,396]" dest="field_expression [396,413]"/>
+  <match src="identifier: get_iface_desc [462,476]" dest="identifier: get_iface_desc [479,493]"/>
+  <match src="binary_expression [1637,1689]" dest="binary_expression [2118,2170]"/>
+  <match src="(: ( [476,477]" dest="(: ( [493,494]"/>
+  <match src="argument_list [378,451]" dest="argument_list [395,468]"/>
+  <match src="): ) [601,602]" dest="): ) [618,619]"/>
+  <match src="declaration [197,218]" dest="declaration [197,218]"/>
+  <match src="compound_statement [1367,1789]" dest="compound_statement [1848,2270]"/>
+  <match src="field_expression [1933,1955]" dest="field_expression [2414,2436]"/>
+  <match src="type_identifier: usb_interface_assoc_descriptor [1267,1297]" dest="type_identifier: usb_interface_assoc_descriptor [1748,1778]"/>
+  <match src="identifier: usb_ifnum_to_if [1310,1325]" dest="identifier: usb_ifnum_to_if [1791,1806]"/>
+  <match src="field_expression [1310,1350]" dest="field_expression [1791,1831]"/>
+  <match src="=: = [841,842]" dest="=: = [1092,1093]"/>
+  <match src="identifier: usb_ifnum_to_if [1552,1567]" dest="identifier: usb_ifnum_to_if [2033,2048]"/>
+  <match src="identifier: host_iface [477,487]" dest="identifier: host_iface [494,504]"/>
+  <match src="field_expression [1018,1035]" dest="field_expression [1499,1516]"/>
+  <match src="field_identifier: bFirstInterface [1985,2000]" dest="field_identifier: bFirstInterface [2466,2481]"/>
+  <match src="=: = [1546,1547]" dest="=: = [2027,2028]"/>
+  <match src="[: [ [332,333]" dest="[: [ [349,350]"/>
+  <match src="declaration [114,152]" dest="declaration [114,152]"/>
+  <match src="field_expression [502,527]" dest="field_expression [519,544]"/>
+  <match src="field_identifier: bInCollection [873,886]" dest="field_identifier: bInCollection [1241,1254]"/>
+  <match src="return_statement [1894,1909]" dest="return_statement [2375,2390]"/>
+  <match src="argument_list [1183,1219]" dest="argument_list [1664,1700]"/>
+  <match src="&amp;: &amp; [564,565]" dest="&amp;: &amp; [581,582]"/>
+  <match src="pointer_expression [1011,1014]" dest="pointer_expression [1492,1495]"/>
+  <match src="identifier: h1 [869,871]" dest="identifier: h1 [1237,1239]"/>
+  <match src="if: if [986,988]" dest="if: if [1467,1469]"/>
+  <match src="expression_statement [1162,1220]" dest="expression_statement [1643,1701]"/>
+  <match src=";: ; [857,858]" dest=";: ; [1108,1109]"/>
+  <match src="(: ( [2013,2014]" dest="(: ( [2494,2495]"/>
+  <match src="*: * [1011,1012]" dest="*: * [1492,1493]"/>
+  <match src="expression_statement [338,452]" dest="expression_statement [355,469]"/>
+  <match src="!: ! [1359,1360]" dest="!: ! [1840,1841]"/>
+  <match src="argument_list [2055,2075]" dest="argument_list [2536,2556]"/>
+  <match src="parenthesized_expression [534,551]" dest="parenthesized_expression [551,568]"/>
+  <match src="pointer_expression [291,335]" dest="pointer_expression [308,352]"/>
+  <match src="init_declarator [1971,2004]" dest="init_declarator [2452,2485]"/>
+  <match src="call_expression [2034,2075]" dest="call_expression [2515,2556]"/>
+  <match src=",: , [2060,2061]" dest=",: , [2541,2542]"/>
+  <match src="identifier: chip [102,106]" dest="identifier: chip [102,106]"/>
+  <match src="identifier: i [1124,1125]" dest="identifier: i [1605,1606]"/>
+  <match src="identifier: UAC_VERSION_1 [784,797]" dest="identifier: UAC_VERSION_1 [1035,1048]"/>
+  <match src=",: , [2068,2069]" dest=",: , [2549,2550]"/>
+  <match src="!: ! [1797,1798]" dest="!: ! [2278,2279]"/>
+  <match src="&amp;&amp;: &amp;&amp; [1599,1601]" dest="&amp;&amp;: &amp;&amp; [2080,2082]"/>
+  <match src="!: ! [868,869]" dest="!: ! [1236,1237]"/>
+  <match src="-: - [1901,1902]" dest="-: - [2382,2383]"/>
+  <match src="(: ( [902,903]" dest="(: ( [1270,1271]"/>
+  <match src="pointer_expression [564,573]" dest="pointer_expression [581,590]"/>
+  <match src="=: = [1305,1306]" dest="=: = [1786,1787]"/>
+  <match src="identifier: ctrlif [1573,1579]" dest="identifier: ctrlif [2054,2060]"/>
+  <match src="assignment_expression [278,335]" dest="assignment_expression [295,352]"/>
+  <match src="unary_expression [868,886]" dest="unary_expression [1236,1254]"/>
+  <match src="field_identifier: dev [1824,1827]" dest="field_identifier: dev [2305,2308]"/>
+  <match src="&quot;: &quot; [1062,1063]" dest="&quot;: &quot; [1543,1544]"/>
+  <match src="declaration [155,194]" dest="declaration [155,194]"/>
+  <match src="identifier: UAC_VERSION_2 [1740,1753]" dest="identifier: UAC_VERSION_2 [2221,2234]"/>
+  <match src="translation_unit [0,2110]" dest="translation_unit [0,2591]"/>
+  <match src="return: return [607,613]" dest="return: return [624,630]"/>
+  <match src="identifier: ctrlif [2062,2068]" dest="identifier: ctrlif [2543,2549]"/>
+  <match src="]: ] [1217,1218]" dest="]: ] [1698,1699]"/>
+  <match src="type_identifier: usb_device [84,94]" dest="type_identifier: usb_device [84,94]"/>
+  <match src="identifier: iface [1700,1705]" dest="identifier: iface [2181,2186]"/>
+  <match src=",: , [425,426]" dest=",: , [442,443]"/>
+  <match src="{: { [1962,1963]" dest="{: { [2443,2444]"/>
+  <match src="identifier: iface [1593,1598]" dest="identifier: iface [2074,2079]"/>
+  <match src="identifier: control_header [843,857]" dest="identifier: control_header [1094,1108]"/>
+  <match src="identifier: dev [1326,1329]" dest="identifier: dev [1807,1810]"/>
+  <match src="return: return [1096,1102]" dest="return: return [1577,1583]"/>
+  <match src="number_literal: 0 [1128,1129]" dest="number_literal: 0 [1609,1610]"/>
+  <match src=",: , [396,397]" dest=",: , [413,414]"/>
+  <match src="field_expression [1700,1717]" dest="field_expression [2181,2198]"/>
+  <match src="type_identifier: usb_interface [1525,1538]" dest="type_identifier: usb_interface [2006,2019]"/>
+  <match src="-: - [614,615]" dest="-: - [631,632]"/>
+  <match src=",: , [311,312]" dest=",: , [328,329]"/>
+  <match src="assignment_expression [491,527]" dest="assignment_expression [508,544]"/>
+  <match src="return: return [1894,1900]" dest="return: return [2375,2381]"/>
+  <match src="pointer_expression [1051,1060]" dest="pointer_expression [1532,1541]"/>
+  <match src="&amp;: &amp; [1051,1052]" dest="&amp;: &amp; [1532,1533]"/>
+  <match src="-: - [1103,1104]" dest="-: - [1584,1585]"/>
+  <match src="identifier: UAC_VERSION_2 [1241,1254]" dest="identifier: UAC_VERSION_2 [1722,1735]"/>
+  <match src="for: for [1917,1920]" dest="for: for [2398,2401]"/>
+  <match src="if: if [2010,2012]" dest="if: if [2491,2493]"/>
+  <match src="[: [ [1215,1216]" dest="[: [ [1696,1697]"/>
+  <match src="): ) [1960,1961]" dest="): ) [2441,2442]"/>
+  <match src=";: ; [2107,2108]" dest=";: ; [2588,2589]"/>
+  <match src="): ) [1753,1754]" dest="): ) [2234,2235]"/>
+  <match src="binary_expression [1929,1955]" dest="binary_expression [2410,2436]"/>
+  <match src=",: , [438,439]" dest=",: , [455,456]"/>
+  <match src="pointer_declarator [1539,1545]" dest="pointer_declarator [2020,2026]"/>
+  <match src=";: ; [1350,1351]" dest=";: ; [1831,1832]"/>
+  <match src="-&gt;: -&gt; [1772,1774]" dest="-&gt;: -&gt; [2253,2255]"/>
+  <match src="string_literal [575,601]" dest="string_literal [592,618]"/>
+  <match src="identifier: UAC_HEADER [440,450]" dest="identifier: UAC_HEADER [457,467]"/>
+  <match src="): ) [550,551]" dest="): ) [567,568]"/>
+  <match src="escape_sequence: \n [735,737]" dest="escape_sequence: \n [986,988]"/>
+  <match src="identifier: h1 [1018,1020]" dest="identifier: h1 [1499,1501]"/>
+  <match src="compound_statement [649,2096]" dest="compound_statement [900,2577]"/>
+  <match src="argument_list [673,753]" dest="argument_list [924,1004]"/>
+  <match src="binary_expression [1131,1152]" dest="binary_expression [1612,1633]"/>
+  <match src="identifier: dev_err [1043,1050]" dest="identifier: dev_err [1524,1531]"/>
+  <match src="field_identifier: intf_assoc [1644,1654]" dest="field_identifier: intf_assoc [2125,2135]"/>
+  <match src="field_expression [1700,1736]" dest="field_expression [2181,2217]"/>
+  <match src="assignment_expression [1759,1784]" dest="assignment_expression [2240,2265]"/>
+  <match src="identifier: control_header [536,550]" dest="identifier: control_header [553,567]"/>
+  <match src="(: ( [1010,1011]" dest="(: ( [1491,1492]"/>
+  <match src="argument_list [307,320]" dest="argument_list [324,337]"/>
+  <match src="parenthesized_expression [989,1036]" dest="parenthesized_expression [1470,1517]"/>
+  <match src="field_expression [1978,2000]" dest="field_expression [2459,2481]"/>
+  <match src="identifier: dev_warn [665,673]" dest="identifier: dev_warn [916,924]"/>
+  <match src="assignment_expression [1922,1927]" dest="assignment_expression [2403,2408]"/>
+  <match src="declaration [1260,1351]" dest="declaration [1741,1832]"/>
+  <match src="&amp;: &amp; [291,292]" dest="&amp;: &amp; [308,309]"/>
+  <match src="}: } [1912,1913]" dest="}: } [2393,2394]"/>
+  <match src="): ) [2074,2075]" dest="): ) [2555,2556]"/>
+  <match src="field_identifier: dev [909,912]" dest="field_identifier: dev [1277,1280]"/>
+  <match src="unary_expression [967,974]" dest="unary_expression [1335,1342]"/>
+  <match src="comment: /* fall through */ [757,775]" dest="comment: /* fall through */ [1008,1026]"/>
+  <match src="identifier: usb_ifnum_to_if [292,307]" dest="identifier: usb_ifnum_to_if [309,324]"/>
+  <match src="declaration [221,237]" dest="declaration [221,237]"/>
+  <match src="}: } [2079,2080]" dest="}: } [2560,2561]"/>
+  <match src="-&gt;: -&gt; [415,417]" dest="-&gt;: -&gt; [432,434]"/>
+  <match src="type_identifier: uac1_ac_header_descriptor [811,836]" dest="type_identifier: uac1_ac_header_descriptor [1062,1087]"/>
+  <match src=";: ; [621,622]" dest=";: ; [638,639]"/>
+</matches>
+<actions>
+  <insert-tree tree="declaration [239,254]" parent="compound_statement [74,2110]" at="6"/>
+  <insert-tree tree="expression_statement [647,730]" parent="compound_statement [74,2110]" at="13"/>
+  <insert-node tree="comment: /* just to be sure -- this shouldn't hit at all */ [733,783]" parent="compound_statement [74,2110]" at="14"/>
+  <insert-tree tree="if_statement [785,878]" parent="compound_statement [74,2110]" at="15"/>
+  <insert-tree tree="if_statement [1114,1227]" parent="compound_statement [799,1233]" at="2"/>
+  <insert-tree tree="if_statement [1353,1462]" parent="compound_statement [799,1233]" at="4"/>
+</actions>

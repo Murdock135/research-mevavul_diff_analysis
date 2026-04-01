@@ -1,0 +1,122 @@
+{
+  "frequency": [
+    {
+      "c": "Literal",
+      "f": "4"
+    },
+    {
+      "c": "Invocation",
+      "f": "3"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "2"
+    },
+    {
+      "c": "VariableRead",
+      "f": "2"
+    },
+    {
+      "c": "FieldRead",
+      "f": "1"
+    },
+    {
+      "c": "TypeReference",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "insert-node_Invocation_Block",
+      "f": "3"
+    },
+    {
+      "c": "move-tree_VariableRead_BinaryOperator",
+      "f": "2"
+    },
+    {
+      "c": "move-tree_Literal_BinaryOperator",
+      "f": "2"
+    },
+    {
+      "c": "update-node_Literal_BinaryOperator",
+      "f": "2"
+    },
+    {
+      "c": "move-tree_TypeReference_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_FieldRead_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Literal",
+      "f": "0.3076923076923077"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.23076923076923078"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "0.15384615384615385"
+    },
+    {
+      "c": "VariableRead",
+      "f": "0.15384615384615385"
+    },
+    {
+      "c": "FieldRead",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "TypeReference",
+      "f": "0.07692307692307693"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "insert-node_Invocation_Block",
+      "f": "0.23076923076923078"
+    },
+    {
+      "c": "move-tree_VariableRead_BinaryOperator",
+      "f": "0.15384615384615385"
+    },
+    {
+      "c": "move-tree_Literal_BinaryOperator",
+      "f": "0.15384615384615385"
+    },
+    {
+      "c": "update-node_Literal_BinaryOperator",
+      "f": "0.15384615384615385"
+    },
+    {
+      "c": "move-tree_TypeReference_LocalVariable",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "move-tree_FieldRead_Invocation",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "0.07692307692307693"
+    }
+  ]
+}

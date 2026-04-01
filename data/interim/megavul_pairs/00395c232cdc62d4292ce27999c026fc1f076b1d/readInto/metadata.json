@@ -1,0 +1,20 @@
+{
+    "id": "00395c232cdc62d4292ce27999c026fc1f076b1d_readInto_0",
+    "func_name": "readInto",
+    "cve_id": "CVE-2020-7226",
+    "cwe_ids": [
+        "CWE-770"
+    ],
+    "commit_hash": "00395c232cdc62d4292ce27999c026fc1f076b1d",
+    "parent_commit_hash": "132f15ead532d78d4c19d2bcb39ec8f319ad6945",
+    "repo_name": "vt-middleware/cryptacular",
+    "git_url": "https://github.com/vt-middleware/cryptacular/commit/00395c232cdc62d4292ce27999c026fc1f076b1d",
+    "file_path": "src/main/java/org/cryptacular/CiphertextHeaderV2.java",
+    "file_name": "CiphertextHeaderV2.java",
+    "commit_date": 1580305895,
+    "commit_msg": "Remove runtime exception from method sig.",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

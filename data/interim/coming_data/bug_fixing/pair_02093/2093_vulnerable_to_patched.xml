@@ -1,0 +1,338 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="field_identifier: e [450,451]" dest="field_identifier: e [450,451]"/>
+  <match src="pointer_expression [453,458]" dest="pointer_expression [453,458]"/>
+  <match src="struct: struct [31,37]" dest="struct: struct [31,37]"/>
+  <match src=",: , [921,922]" dest=",: , [921,922]"/>
+  <match src="=: = [1219,1220]" dest="=: = [1269,1270]"/>
+  <match src="(: ( [24,25]" dest="(: ( [24,25]"/>
+  <match src="&quot;: &quot; [1174,1175]" dest="&quot;: &quot; [1174,1175]"/>
+  <match src="&quot;: &quot; [574,575]" dest="&quot;: &quot; [574,575]"/>
+  <match src="string_content: verify_sh decrypted SIG1: [895,920]" dest="string_content: verify_sh decrypted SIG1: [895,920]"/>
+  <match src="declaration [276,296]" dest="declaration [276,296]"/>
+  <match src="pointer_declarator [155,160]" dest="pointer_declarator [155,160]"/>
+  <match src="return_statement [1133,1176]" dest="return_statement [1133,1176]"/>
+  <match src="&quot;: &quot; [1142,1143]" dest="&quot;: &quot; [1142,1143]"/>
+  <match src="{: { [270,271]" dest="{: { [270,271]"/>
+  <match src="identifier: padlen [1003,1009]" dest="identifier: padlen [1003,1009]"/>
+  <match src="): ) [1024,1025]" dest="): ) [1024,1025]"/>
+  <match src=",: , [648,649]" dest=",: , [648,649]"/>
+  <match src="-&gt;: -&gt; [448,450]" dest="-&gt;: -&gt; [448,450]"/>
+  <match src="subscript_expression [1108,1119]" dest="subscript_expression [1108,1119]"/>
+  <match src="identifier: c [482,483]" dest="identifier: c [482,483]"/>
+  <match src="number_literal: 2 [1117,1118]" dest="number_literal: 2 [1117,1118]"/>
+  <match src="binary_expression [812,823]" dest="binary_expression [812,823]"/>
+  <match src="parenthesized_expression [526,550]" dest="parenthesized_expression [526,550]"/>
+  <match src="sized_type_specifier [94,106]" dest="sized_type_specifier [94,106]"/>
+  <match src="(: ( [666,667]" dest="(: ( [666,667]"/>
+  <match src=",: , [1001,1002]" dest=",: , [1001,1002]"/>
+  <match src="(: ( [437,438]" dest="(: ( [437,438]"/>
+  <match src="compound_statement [355,701]" dest="compound_statement [355,701]"/>
+  <match src="comment: /* check signature contents */ [707,737]" dest="comment: /* check signature contents */ [707,737]"/>
+  <match src=",: , [145,146]" dest=",: , [145,146]"/>
+  <match src="): ) [1015,1016]" dest="): ) [1015,1016]"/>
+  <match src="argument_list [480,493]" dest="argument_list [480,493]"/>
+  <match src=",: , [398,399]" dest=",: , [398,399]"/>
+  <match src="}: } [625,626]" dest="}: } [625,626]"/>
+  <match src=".: . [644,645]" dest=".: . [644,645]"/>
+  <match src="identifier: sig_len [926,933]" dest="identifier: sig_len [926,933]"/>
+  <match src="argument_list [872,935]" dest="argument_list [872,935]"/>
+  <match src="binary_expression [527,549]" dest="binary_expression [527,549]"/>
+  <match src="expression_statement [420,460]" dest="expression_statement [420,460]"/>
+  <match src="null [1264,1268]" dest="null [1608,1612]"/>
+  <match src="if_statement [1056,1183]" dest="if_statement [1056,1183]"/>
+  <match src="*: * [154,155]" dest="*: * [154,155]"/>
+  <match src=".: . [429,430]" dest=".: . [429,430]"/>
+  <match src="identifier: n_to_mpz [387,395]" dest="identifier: n_to_mpz [387,395]"/>
+  <match src="string_literal [964,1001]" dest="string_literal [964,1001]"/>
+  <match src=";: ; [658,659]" dest=";: ; [658,659]"/>
+  <match src="field_identifier: ptr [645,648]" dest="field_identifier: ptr [645,648]"/>
+  <match src="NULL: NULL [1264,1268]" dest="NULL: NULL [1608,1612]"/>
+  <match src="identifier: s [1085,1086]" dest="identifier: s [1085,1086]"/>
+  <match src="]: ] [1062,1063]" dest="]: ] [1062,1063]"/>
+  <match src="primitive_type: int [285,288]" dest="primitive_type: int [285,288]"/>
+  <match src="&quot;: &quot; [894,895]" dest="&quot;: &quot; [894,895]"/>
+  <match src="argument_list [437,459]" dest="argument_list [437,459]"/>
+  <match src="&quot;: &quot; [1000,1001]" dest="&quot;: &quot; [1000,1001]"/>
+  <match src="pointer_declarator [53,55]" dest="pointer_declarator [53,55]"/>
+  <match src="&amp;: &amp; [446,447]" dest="&amp;: &amp; [446,447]"/>
+  <match src="parameter_declaration [188,203]" dest="parameter_declaration [188,203]"/>
+  <match src="unsigned: unsigned [276,284]" dest="unsigned: unsigned [276,284]"/>
+  <match src="}: } [700,701]" dest="}: } [700,701]"/>
+  <match src="function_definition [0,1271]" dest="function_definition [0,1615]"/>
+  <match src="(: ( [480,481]" dest="(: ( [480,481]"/>
+  <match src=";: ; [1175,1176]" dest=";: ; [1175,1176]"/>
+  <match src="pointer_declarator [244,252]" dest="pointer_declarator [244,252]"/>
+  <match src="field_expression [420,437]" dest="field_expression [420,437]"/>
+  <match src="identifier: sig_val [245,252]" dest="identifier: sig_val [245,252]"/>
+  <match src=";: ; [615,616]" dest=";: ; [615,616]"/>
+  <match src="type_identifier: RSA_public_key [38,52]" dest="type_identifier: RSA_public_key [38,52]"/>
+  <match src="comment: /* actual exponentiation; see PKCS#1 v2.0 5.1 */ [302,350]" dest="comment: /* actual exponentiation; see PKCS#1 v2.0 5.1 */ [302,350]"/>
+  <match src="type_qualifier [25,30]" dest="type_qualifier [25,30]"/>
+  <match src="): ) [549,550]" dest="): ) [549,550]"/>
+  <match src="identifier: c [397,398]" dest="identifier: c [397,398]"/>
+  <match src="string_content: exponentiation failed; too many octets [576,614]" dest="string_content: exponentiation failed; too many octets [576,614]"/>
+  <match src="const: const [231,236]" dest="const: const [231,236]"/>
+  <match src="identifier: temp_s [667,673]" dest="identifier: temp_s [667,673]"/>
+  <match src="struct_specifier [31,52]" dest="struct_specifier [31,52]"/>
+  <match src="&quot;: &quot; [1140,1141]" dest="&quot;: &quot; [1140,1141]"/>
+  <match src=",: , [636,637]" dest=",: , [636,637]"/>
+  <match src=";: ; [417,418]" dest=";: ; [417,418]"/>
+  <match src="compound_statement [270,1271]" dest="compound_statement [270,1615]"/>
+  <match src="field_expression [447,451]" dest="field_expression [447,451]"/>
+  <match src="call_expression [387,417]" dest="call_expression [387,417]"/>
+  <match src="identifier: pfree [661,666]" dest="identifier: pfree [661,666]"/>
+  <match src="-: - [824,825]" dest="-: - [824,825]"/>
+  <match src="if_statement [524,626]" dest="if_statement [524,626]"/>
+  <match src="): ) [492,493]" dest="): ) [492,493]"/>
+  <match src="cast_expression [1011,1024]" dest="cast_expression [1011,1024]"/>
+  <match src="{: { [551,552]" dest="{: { [551,552]"/>
+  <match src="binary_expression [1059,1097]" dest="binary_expression [1059,1097]"/>
+  <match src="call_expression [869,935]" dest="call_expression [869,935]"/>
+  <match src="type_identifier: err_t [0,5]" dest="type_identifier: err_t [0,5]"/>
+  <match src="field_identifier: n [457,458]" dest="field_identifier: n [457,458]"/>
+  <match src="&amp;: &amp; [438,439]" dest="&amp;: &amp; [438,439]"/>
+  <match src=";: ; [459,460]" dest=";: ; [459,460]"/>
+  <match src="argument_list [690,694]" dest="argument_list [690,694]"/>
+  <match src="}: } [1270,1271]" dest="}: } [1614,1615]"/>
+  <match src="identifier: s [635,636]" dest="identifier: s [635,636]"/>
+  <match src=";: ; [694,695]" dest=";: ; [694,695]"/>
+  <match src="identifier: c [443,444]" dest="identifier: c [443,444]"/>
+  <match src="unsigned: unsigned [94,102]" dest="unsigned: unsigned [94,102]"/>
+  <match src="comment: /* verify padding (not including any DER digest info! */ [742,798]" dest="comment: /* verify padding (not including any DER digest info! */ [742,798]"/>
+  <match src="-: - [820,821]" dest="-: - [820,821]"/>
+  <match src="comment: /* back to octets */ [495,515]" dest="comment: /* back to octets */ [495,515]"/>
+  <match src="argument_list [395,417]" dest="argument_list [395,417]"/>
+  <match src="): ) [268,269]" dest="): ) [268,269]"/>
+  <match src="binary_expression [1059,1074]" dest="binary_expression [1059,1074]"/>
+  <match src="identifier: temp_s [463,469]" dest="identifier: temp_s [463,469]"/>
+  <match src="pointer_declarator [154,160]" dest="pointer_declarator [154,160]"/>
+  <match src="identifier: s [1059,1060]" dest="identifier: s [1059,1060]"/>
+  <match src="argument_list [893,934]" dest="argument_list [893,934]"/>
+  <match src="comment: /* skip padding */ [1033,1051]" dest="comment: /* skip padding */ [1033,1051]"/>
+  <match src="string_literal [572,575]" dest="string_literal [572,575]"/>
+  <match src="||: || [1105,1107]" dest="||: || [1105,1107]"/>
+  <match src="}: } [1182,1183]" dest="}: } [1182,1183]"/>
+  <match src="pointer_expression [396,398]" dest="pointer_expression [396,398]"/>
+  <match src="&amp;: &amp; [453,454]" dest="&amp;: &amp; [453,454]"/>
+  <match src="type_identifier: u_char [83,89]" dest="type_identifier: u_char [83,89]"/>
+  <match src=",: , [186,187]" dest=",: , [186,187]"/>
+  <match src="identifier: sig_len [812,819]" dest="identifier: sig_len [812,819]"/>
+  <match src=",: , [1009,1010]" dest=",: , [1009,1010]"/>
+  <match src="identifier: temp_s [366,372]" dest="identifier: temp_s [366,372]"/>
+  <match src="parameter_declaration [147,160]" dest="parameter_declaration [147,160]"/>
+  <match src="&lt;: &lt; [540,541]" dest="&lt;: &lt; [540,541]"/>
+  <match src="call_expression [661,678]" dest="call_expression [661,678]"/>
+  <match src="[: [ [1109,1110]" dest="[: [ [1109,1110]"/>
+  <match src="pointer_expression [481,483]" dest="pointer_expression [481,483]"/>
+  <match src="identifier: temp_s [638,644]" dest="identifier: temp_s [638,644]"/>
+  <match src=";: ; [1268,1269]" dest=";: ; [1612,1613]"/>
+  <match src="type_descriptor [1012,1015]" dest="type_descriptor [1012,1015]"/>
+  <match src=";: ; [383,384]" dest=";: ; [383,384]"/>
+  <match src="&quot;: &quot; [1143,1144]" dest="&quot;: &quot; [1143,1144]"/>
+  <match src="(: ( [634,635]" dest="(: ( [634,635]"/>
+  <match src=";: ; [295,296]" dest=";: ; [295,296]"/>
+  <match src=",: , [252,253]" dest=",: , [252,253]"/>
+  <match src="number_literal: 3 [822,823]" dest="number_literal: 3 [822,823]"/>
+  <match src="identifier: mpz_clear [681,690]" dest="identifier: mpz_clear [681,690]"/>
+  <match src="compound_statement [551,626]" dest="compound_statement [551,626]"/>
+  <match src=";: ; [678,679]" dest=";: ; [678,679]"/>
+  <match src="identifier: DBG [941,944]" dest="identifier: DBG [941,944]"/>
+  <match src="number_literal: 0 [1061,1062]" dest="number_literal: 0 [1061,1062]"/>
+  <match src="expression_statement [628,659]" dest="expression_statement [628,659]"/>
+  <match src="type_identifier: MP_INT [375,381]" dest="type_identifier: MP_INT [375,381]"/>
+  <match src="parameter_declaration [25,55]" dest="parameter_declaration [25,55]"/>
+  <match src="(: ( [1211,1212]" dest="(: ( [1261,1262]"/>
+  <match src="!=: != [1120,1122]" dest="!=: != [1120,1122]"/>
+  <match src="field_expression [638,648]" dest="field_expression [638,648]"/>
+  <match src="type_identifier: u_char [147,153]" dest="type_identifier: u_char [147,153]"/>
+  <match src="=: = [810,811]" dest="=: = [810,811]"/>
+  <match src="if: if [1056,1058]" dest="if: if [1056,1058]"/>
+  <match src="identifier: s [923,924]" dest="identifier: s [923,924]"/>
+  <match src=",: , [882,883]" dest=",: , [882,883]"/>
+  <match src="identifier: padlen [803,809]" dest="identifier: padlen [803,809]"/>
+  <match src="pointer_expression [442,444]" dest="pointer_expression [442,444]"/>
+  <match src="identifier: s [1108,1109]" dest="identifier: s [1108,1109]"/>
+  <match src=",: , [407,408]" dest=",: , [407,408]"/>
+  <match src="parameter_declaration [231,252]" dest="parameter_declaration [231,252]"/>
+  <match src="identifier: verify_signed_hash [6,24]" dest="identifier: verify_signed_hash [6,24]"/>
+  <match src=";: ; [1222,1223]" dest=";: ; [1285,1286]"/>
+  <match src="field_identifier: mod_exp [430,437]" dest="field_identifier: mod_exp [430,437]"/>
+  <match src="field_expression [454,458]" dest="field_expression [454,458]"/>
+  <match src="parameter_declaration [94,119]" dest="parameter_declaration [94,119]"/>
+  <match src="string_content: 3 [1141,1142]" dest="string_content: 3 [1141,1142]"/>
+  <match src="identifier: psig [1213,1217]" dest="identifier: psig [1263,1267]"/>
+  <match src="string_literal [1140,1143]" dest="string_literal [1140,1143]"/>
+  <match src="declaration [375,384]" dest="declaration [375,384]"/>
+  <match src="]: ] [1088,1089]" dest="]: ] [1088,1089]"/>
+  <match src="argument_list [944,1026]" dest="argument_list [944,1026]"/>
+  <match src="&amp;: &amp; [442,443]" dest="&amp;: &amp; [442,443]"/>
+  <match src="argument_list [963,1025]" dest="argument_list [963,1025]"/>
+  <match src="assignment_expression [463,493]" dest="assignment_expression [463,493]"/>
+  <match src="&quot;: &quot; [575,576]" dest="&quot;: &quot; [575,576]"/>
+  <match src="expression_statement [869,936]" dest="expression_statement [869,936]"/>
+  <match src="binary_expression [1085,1097]" dest="binary_expression [1085,1097]"/>
+  <match src="identifier: c [439,440]" dest="identifier: c [439,440]"/>
+  <match src="identifier: memcpy [628,634]" dest="identifier: memcpy [628,634]"/>
+  <match src="(: ( [1011,1012]" dest="(: ( [1011,1012]"/>
+  <match src="pointer_expression [438,440]" dest="pointer_expression [438,440]"/>
+  <match src="&amp;: &amp; [481,482]" dest="&amp;: &amp; [481,482]"/>
+  <match src="pointer_declarator [90,92]" dest="pointer_declarator [90,92]"/>
+  <match src="identifier: hash_len [195,203]" dest="identifier: hash_len [195,203]"/>
+  <match src="primitive_type: size_t [188,194]" dest="primitive_type: size_t [188,194]"/>
+  <match src=",: , [440,441]" dest=",: , [440,441]"/>
+  <match src="identifier: hash_len [1016,1024]" dest="identifier: hash_len [1016,1024]"/>
+  <match src="type_identifier: chunk_t [358,365]" dest="type_identifier: chunk_t [358,365]"/>
+  <match src="&amp;: &amp; [691,692]" dest="&amp;: &amp; [691,692]"/>
+  <match src="identifier: hash_len [826,834]" dest="identifier: hash_len [826,834]"/>
+  <match src="]: ] [1118,1119]" dest="]: ] [1118,1119]"/>
+  <match src="call_expression [420,459]" dest="call_expression [420,459]"/>
+  <match src="call_expression [628,658]" dest="call_expression [628,658]"/>
+  <match src="identifier: sig_len [542,549]" dest="identifier: sig_len [542,549]"/>
+  <match src="&quot;: &quot; [614,615]" dest="&quot;: &quot; [614,615]"/>
+  <match src="*: * [244,245]" dest="*: * [244,245]"/>
+  <match src="pointer_expression [1212,1217]" dest="pointer_expression [1262,1267]"/>
+  <match src="string_content: 2 [573,574]" dest="string_content: 2 [573,574]"/>
+  <match src="): ) [677,678]" dest="): ) [677,678]"/>
+  <match src="): ) [693,694]" dest="): ) [693,694]"/>
+  <match src=",: , [451,452]" dest=",: , [451,452]"/>
+  <match src="string_literal [575,615]" dest="string_literal [575,615]"/>
+  <match src="): ) [416,417]" dest="): ) [416,417]"/>
+  <match src="if: if [524,526]" dest="if: if [524,526]"/>
+  <match src="identifier: padlen [1110,1116]" dest="identifier: padlen [1110,1116]"/>
+  <match src="parameter_list [24,269]" dest="parameter_list [24,269]"/>
+  <match src="expression_statement [803,835]" dest="expression_statement [803,835]"/>
+  <match src="identifier: c [382,383]" dest="identifier: c [382,383]"/>
+  <match src="(: ( [690,691]" dest="(: ( [690,691]"/>
+  <match src="call_expression [941,1026]" dest="call_expression [941,1026]"/>
+  <match src="pointer_expression [691,693]" dest="pointer_expression [691,693]"/>
+  <match src="identifier: k [54,55]" dest="identifier: k [54,55]"/>
+  <match src="identifier: sig_len [409,416]" dest="identifier: sig_len [409,416]"/>
+  <match src="primitive_type: int [1012,1015]" dest="primitive_type: int [1012,1015]"/>
+  <match src="identifier: DBG_log [956,963]" dest="identifier: DBG_log [956,963]"/>
+  <match src=",: , [924,925]" dest=",: , [924,925]"/>
+  <match src="&quot;: &quot; [920,921]" dest="&quot;: &quot; [920,921]"/>
+  <match src=",: , [229,230]" dest=",: , [229,230]"/>
+  <match src="identifier: sig_val [400,407]" dest="identifier: sig_val [400,407]"/>
+  <match src="parenthesized_expression [1211,1218]" dest="parenthesized_expression [1261,1268]"/>
+  <match src="primitive_type: int [103,106]" dest="primitive_type: int [103,106]"/>
+  <match src="type_qualifier [231,236]" dest="type_qualifier [231,236]"/>
+  <match src="return: return [1133,1139]" dest="return: return [1133,1139]"/>
+  <match src="*: * [155,156]" dest="*: * [155,156]"/>
+  <match src="identifier: sig_len [650,657]" dest="identifier: sig_len [650,657]"/>
+  <match src="(: ( [893,894]" dest="(: ( [893,894]"/>
+  <match src="primitive_type: size_t [254,260]" dest="primitive_type: size_t [254,260]"/>
+  <match src="&quot;: &quot; [572,573]" dest="&quot;: &quot; [572,573]"/>
+  <match src="comment: /* return SUCCESS */ [1231,1251]" dest="comment: /* return SUCCESS */ [1575,1595]"/>
+  <match src="binary_expression [1059,1127]" dest="binary_expression [1059,1127]"/>
+  <match src="field_identifier: ptr [674,677]" dest="field_identifier: ptr [674,677]"/>
+  <match src="{: { [1129,1130]" dest="{: { [1129,1130]"/>
+  <match src="comment: /* now check padding */ [840,863]" dest="comment: /* now check padding */ [840,863]"/>
+  <match src="identifier: DBG_CRYPT [945,954]" dest="identifier: DBG_CRYPT [945,954]"/>
+  <match src="(: ( [944,945]" dest="(: ( [944,945]"/>
+  <match src="const: const [25,30]" dest="const: const [25,30]"/>
+  <match src="(: ( [1058,1059]" dest="(: ( [1058,1059]"/>
+  <match src="identifier: k [454,455]" dest="identifier: k [454,455]"/>
+  <match src="parameter_declaration [83,92]" dest="parameter_declaration [83,92]"/>
+  <match src=";: ; [935,936]" dest=";: ; [935,936]"/>
+  <match src=";: ; [372,373]" dest=";: ; [372,373]"/>
+  <match src="return_statement [565,616]" dest="return_statement [565,616]"/>
+  <match src="expression_statement [463,494]" dest="expression_statement [463,494]"/>
+  <match src="[: [ [1060,1061]" dest="[: [ [1060,1061]"/>
+  <match src="binary_expression [1108,1127]" dest="binary_expression [1108,1127]"/>
+  <match src="string_content: pad_len calculated: %d hash_len: %d [965,1000]" dest="string_content: pad_len calculated: %d hash_len: %d [965,1000]"/>
+  <match src="return_statement [1257,1269]" dest="return_statement [1601,1613]"/>
+  <match src="&quot;: &quot; [964,965]" dest="&quot;: &quot; [964,965]"/>
+  <match src="call_expression [885,934]" dest="call_expression [885,934]"/>
+  <match src="expression_statement [941,1027]" dest="expression_statement [941,1027]"/>
+  <match src="number_literal: 0x01 [1093,1097]" dest="number_literal: 0x01 [1093,1097]"/>
+  <match src="subscript_expression [1059,1063]" dest="subscript_expression [1059,1063]"/>
+  <match src="number_literal: 1 [1087,1088]" dest="number_literal: 1 [1087,1088]"/>
+  <match src="!=: != [1067,1069]" dest="!=: != [1067,1069]"/>
+  <match src="function_declarator [6,269]" dest="function_declarator [6,269]"/>
+  <match src="translation_unit [0,1271]" dest="translation_unit [0,1615]"/>
+  <match src="expression_statement [681,695]" dest="expression_statement [681,695]"/>
+  <match src=",: , [81,82]" dest=",: , [81,82]"/>
+  <match src="||: || [1082,1084]" dest="||: || [1082,1084]"/>
+  <match src="return: return [565,571]" dest="return: return [565,571]"/>
+  <match src="compound_statement [1129,1183]" dest="compound_statement [1129,1183]"/>
+  <match src="pointer_expression [446,451]" dest="pointer_expression [446,451]"/>
+  <match src="identifier: DBG_CRYPT [873,882]" dest="identifier: DBG_CRYPT [873,882]"/>
+  <match src="): ) [1127,1128]" dest="): ) [1127,1128]"/>
+  <match src="(: ( [963,964]" dest="(: ( [963,964]"/>
+  <match src="): ) [1025,1026]" dest="): ) [1025,1026]"/>
+  <match src="expression_statement [661,679]" dest="expression_statement [661,679]"/>
+  <match src="string_content: SIG padding does not check out [1144,1174]" dest="string_content: SIG padding does not check out [1144,1174]"/>
+  <match src="identifier: oswcrypto [420,429]" dest="identifier: oswcrypto [420,429]"/>
+  <match src="identifier: padlen [289,295]" dest="identifier: padlen [289,295]"/>
+  <match src="identifier: DBG_dump [885,893]" dest="identifier: DBG_dump [885,893]"/>
+  <match src="number_literal: 0x00 [1123,1127]" dest="number_literal: 0x00 [1123,1127]"/>
+  <match src="argument_list [634,658]" dest="argument_list [634,658]"/>
+  <match src="{: { [355,356]" dest="{: { [355,356]"/>
+  <match src=",: , [483,484]" dest=",: , [483,484]"/>
+  <match src=";: ; [834,835]" dest=";: ; [834,835]"/>
+  <match src="concatenated_string [1140,1175]" dest="concatenated_string [1140,1175]"/>
+  <match src="assignment_expression [803,834]" dest="assignment_expression [803,834]"/>
+  <match src="binary_expression [812,834]" dest="binary_expression [812,834]"/>
+  <match src=";: ; [1026,1027]" dest=";: ; [1026,1027]"/>
+  <match src="identifier: psig [156,160]" dest="identifier: psig [156,160]"/>
+  <match src="parenthesized_expression [1058,1128]" dest="parenthesized_expression [1058,1128]"/>
+  <match src="*: * [90,91]" dest="*: * [90,91]"/>
+  <match src="number_literal: 0x00 [1070,1074]" dest="number_literal: 0x00 [1070,1074]"/>
+  <match src="declaration [358,373]" dest="declaration [358,373]"/>
+  <match src="): ) [1217,1218]" dest="): ) [1267,1268]"/>
+  <match src="identifier: mpz_to_n [472,480]" dest="identifier: mpz_to_n [472,480]"/>
+  <match src="(: ( [872,873]" dest="(: ( [872,873]"/>
+  <match src=",: , [444,445]" dest=",: , [444,445]"/>
+  <match src="identifier: c [692,693]" dest="identifier: c [692,693]"/>
+  <match src=",: , [92,93]" dest=",: , [92,93]"/>
+  <match src="+: + [1116,1117]" dest="+: + [1116,1117]"/>
+  <match src="call_expression [472,493]" dest="call_expression [472,493]"/>
+  <match src="identifier: s_max_octets [527,539]" dest="identifier: s_max_octets [527,539]"/>
+  <match src="call_expression [956,1025]" dest="call_expression [956,1025]"/>
+  <match src="string_literal [1143,1175]" dest="string_literal [1143,1175]"/>
+  <match src="!=: != [1090,1092]" dest="!=: != [1090,1092]"/>
+  <match src="(: ( [395,396]" dest="(: ( [395,396]"/>
+  <match src="): ) [934,935]" dest="): ) [934,935]"/>
+  <match src="binary_expression [1110,1118]" dest="binary_expression [1110,1118]"/>
+  <match src="return: return [1257,1263]" dest="return: return [1601,1607]"/>
+  <match src="assignment_expression [1211,1222]" dest="assignment_expression [1261,1285]"/>
+  <match src="*: * [53,54]" dest="*: * [53,54]"/>
+  <match src="): ) [657,658]" dest="): ) [657,658]"/>
+  <match src="field_expression [667,677]" dest="field_expression [667,677]"/>
+  <match src="): ) [933,934]" dest="): ) [933,934]"/>
+  <match src="): ) [458,459]" dest="): ) [458,459]"/>
+  <match src="concatenated_string [572,615]" dest="concatenated_string [572,615]"/>
+  <match src="identifier: DBG [869,872]" dest="identifier: DBG [869,872]"/>
+  <match src="*: * [1212,1213]" dest="*: * [1262,1263]"/>
+  <match src="identifier: sig_len [485,492]" dest="identifier: sig_len [485,492]"/>
+  <match src="call_expression [681,694]" dest="call_expression [681,694]"/>
+  <match src="&amp;: &amp; [396,397]" dest="&amp;: &amp; [396,397]"/>
+  <match src="identifier: s [91,92]" dest="identifier: s [91,92]"/>
+  <match src="parameter_declaration [254,268]" dest="parameter_declaration [254,268]"/>
+  <match src="(: ( [526,527]" dest="(: ( [526,527]"/>
+  <match src="type_identifier: u_char [237,243]" dest="type_identifier: u_char [237,243]"/>
+  <match src="sized_type_specifier [276,288]" dest="sized_type_specifier [276,288]"/>
+  <match src="-&gt;: -&gt; [455,457]" dest="-&gt;: -&gt; [455,457]"/>
+  <match src="identifier: s_max_octets [107,119]" dest="identifier: s_max_octets [107,119]"/>
+  <match src="=: = [470,471]" dest="=: = [470,471]"/>
+  <match src=";: ; [493,494]" dest=";: ; [493,494]"/>
+  <match src="expression_statement [387,418]" dest="expression_statement [387,418]"/>
+  <match src="string_literal [894,921]" dest="string_literal [894,921]"/>
+  <match src=".: . [673,674]" dest=".: . [673,674]"/>
+  <match src="argument_list [666,678]" dest="argument_list [666,678]"/>
+  <match src="subscript_expression [1085,1089]" dest="subscript_expression [1085,1089]"/>
+  <match src=",: , [954,955]" dest=",: , [954,955]"/>
+  <match src="identifier: sig_len [261,268]" dest="identifier: sig_len [261,268]"/>
+  <match src="[: [ [1086,1087]" dest="[: [ [1086,1087]"/>
+  <match src="identifier: k [447,448]" dest="identifier: k [447,448]"/>
+  <match src="expression_statement [1211,1223]" dest="expression_statement [1261,1286]"/>
+</matches>
+<actions>
+  <insert-node tree="comment: /* signature starts after ASN wrapped padding [00,01,FF..FF,00] */ [1190,1256]" parent="compound_statement [270,1271]" at="12"/>
+  <insert-node tree="comment: /* verify padding contents */ [1292,1321]" parent="compound_statement [270,1271]" at="15"/>
+  <insert-tree tree="compound_statement [1326,1567]" parent="compound_statement [270,1271]" at="16"/>
+  <insert-tree tree="binary_expression [1271,1285]" parent="assignment_expression [1211,1222]" at="2"/>
+  <delete-tree tree="expression_statement [1190,1206]"/>
+  <delete-node tree="identifier: s [1221,1222]"/>
+</actions>

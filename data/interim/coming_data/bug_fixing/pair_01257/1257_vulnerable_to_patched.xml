@@ -1,0 +1,284 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="expression_statement [392,452]" dest="expression_statement [1520,1580]"/>
+  <match src="assignment_expression [551,557]" dest="assignment_expression [1801,1806]"/>
+  <match src="): ) [450,451]" dest="): ) [1578,1579]"/>
+  <match src="identifier: pub_exp [106,113]" dest="identifier: pub_exp [196,203]"/>
+  <match src="assignment_expression [652,670]" dest="assignment_expression [2267,2326]"/>
+  <match src="pointer_declarator [14,114]" dest="pointer_declarator [86,204]"/>
+  <match src="primitive_type: uint8_t [219,226]" dest="primitive_type: uint8_t [303,310]"/>
+  <match src="(: ( [290,291]" dest="(: ( [1418,1419]"/>
+  <match src="identifier: dat_bi [163,169]" dest="identifier: dat_bi [247,253]"/>
+  <match src=";: ; [670,671]" dest=";: ; [2326,2327]"/>
+  <match src="identifier: sig_len [301,308]" dest="identifier: sig_len [1429,1436]"/>
+  <match src="pointer_declarator [183,187]" dest="pointer_declarator [267,271]"/>
+  <match src="identifier: pub_exp [443,450]" dest="identifier: pub_exp [1571,1578]"/>
+  <match src="comment: /* get only the bit we want */ [676,706]" dest="comment: /* check end of padding */ [2040,2066]"/>
+  <match src="pointer_declarator [53,57]" dest="pointer_declarator [125,129]"/>
+  <match src="*: * [209,210]" dest="*: * [293,294]"/>
+  <match src="parameter_declaration [26,37]" dest="parameter_declaration [98,109]"/>
+  <match src="argument_list [420,451]" dest="argument_list [1548,1579]"/>
+  <match src="): ) [502,503]" dest="): ) [1630,1631]"/>
+  <match src="NULL: NULL [190,194]" dest="NULL: NULL [274,278]"/>
+  <match src="identifier: BIGINT_M_OFFSET [528,543]" dest="identifier: BIGINT_M_OFFSET [1462,1477]"/>
+  <match src="field_identifier: mod_offset [321,331]" dest="field_identifier: mod_offset [1643,1653]"/>
+  <match src="parameter_list [25,114]" dest="parameter_list [97,204]"/>
+  <match src="identifier: sig_len [495,502]" dest="identifier: sig_len [1623,1630]"/>
+  <match src="parameter_declaration [81,96]" dest="parameter_declaration [171,186]"/>
+  <match src="pointer_declarator [88,96]" dest="pointer_declarator [178,186]"/>
+  <match src="static: static [0,6]" dest="static: static [0,6]"/>
+  <match src=";: ; [349,350]" dest=";: ; [1671,1672]"/>
+  <match src="(: ( [619,620]" dest="(: ( [1985,1986]"/>
+  <match src=";: ; [451,452]" dest=";: ; [1579,1580]"/>
+  <match src="comment: /* start at the first possible non-padded byte */ [559,608]" dest="comment: /* start at the first padding byte */ [1808,1845]"/>
+  <match src=",: , [160,161]" dest=",: , [244,245]"/>
+  <match src="return: return [997,1003]" dest="return: return [2420,2426]"/>
+  <match src="function_definition [0,1010]" dest="function_definition [0,2433]"/>
+  <match src="argument_list [468,503]" dest="argument_list [1596,1631]"/>
+  <match src="identifier: block [488,493]" dest="identifier: block [1616,1621]"/>
+  <match src="const: const [756,761]" dest="const: const [336,341]"/>
+  <match src="parenthesized_expression [619,646]" dest="parenthesized_expression [1985,2005]"/>
+  <match src="identifier: ctx [291,294]" dest="identifier: ctx [1419,1422]"/>
+  <match src="type_identifier: bigint [140,146]" dest="type_identifier: bigint [224,230]"/>
+  <match src="type_identifier: bigint [176,182]" dest="type_identifier: bigint [260,266]"/>
+  <match src="identifier: ctx [510,513]" dest="identifier: ctx [1444,1447]"/>
+  <match src="type_identifier: bigint [81,87]" dest="type_identifier: bigint [171,177]"/>
+  <match src="while: while [613,618]" dest="while: while [1850,1855]"/>
+  <match src="argument_list [986,991]" dest="argument_list [2409,2414]"/>
+  <match src=";: ; [309,310]" dest=";: ; [1437,1438]"/>
+  <match src=",: , [294,295]" dest=",: , [1422,1423]"/>
+  <match src="compound_statement [116,1010]" dest="compound_statement [206,2433]"/>
+  <match src=",: , [472,473]" dest=",: , [1600,1601]"/>
+  <match src="}: } [1009,1010]" dest="}: } [2432,2433]"/>
+  <match src="expression_statement [916,928]" dest="expression_statement [2339,2351]"/>
+  <match src="(: ( [420,421]" dest="(: ( [1548,1549]"/>
+  <match src="type_identifier: bigint [7,13]" dest="type_identifier: bigint [7,13]"/>
+  <match src="identifier: bi_mod_power2 [407,420]" dest="identifier: bi_mod_power2 [1535,1548]"/>
+  <match src="(: ( [920,921]" dest="(: ( [2343,2344]"/>
+  <match src="identifier: ctx [34,37]" dest="identifier: ctx [106,109]"/>
+  <match src="identifier: sig_verify [15,25]" dest="identifier: sig_verify [87,97]"/>
+  <match src="identifier: modulus [434,441]" dest="identifier: modulus [1562,1569]"/>
+  <match src="primitive_type: uint8_t [45,52]" dest="primitive_type: uint8_t [117,124]"/>
+  <match src="): ) [990,991]" dest="): ) [2413,2414]"/>
+  <match src="-&gt;: -&gt; [319,321]" dest="-&gt;: -&gt; [1641,1643]"/>
+  <match src="*: * [183,184]" dest="*: * [267,268]"/>
+  <match src="identifier: decrypted_bi [148,160]" dest="identifier: decrypted_bi [232,244]"/>
+  <match src="type_identifier: BI_CTX [26,32]" dest="type_identifier: BI_CTX [98,104]"/>
+  <match src="identifier: sig [296,299]" dest="identifier: sig [1424,1427]"/>
+  <match src=";: ; [543,544]" dest=";: ; [1477,1478]"/>
+  <match src="call_expression [459,503]" dest="call_expression [1587,1631]"/>
+  <match src="argument_list [290,309]" dest="argument_list [1418,1437]"/>
+  <match src="identifier: bi_export [459,468]" dest="identifier: bi_export [1587,1596]"/>
+  <match src="++: ++ [627,629]" dest="++: ++ [1993,1995]"/>
+  <match src="(: ( [235,236]" dest="(: ( [319,320]"/>
+  <match src="(: ( [986,987]" dest="(: ( [2409,2410]"/>
+  <match src="subscript_expression [620,630]" dest="subscript_expression [1986,1996]"/>
+  <match src=",: , [486,487]" dest=",: , [1614,1615]"/>
+  <match src="*: * [14,15]" dest="*: * [86,87]"/>
+  <match src="primitive_type: int [59,62]" dest="primitive_type: int [131,134]"/>
+  <match src="function_declarator [15,114]" dest="function_declarator [87,204]"/>
+  <match src="=: = [657,658]" dest="=: = [2271,2272]"/>
+  <match src="identifier: modulus [89,96]" dest="identifier: modulus [179,186]"/>
+  <match src="init_declarator [209,244]" dest="init_declarator [293,328]"/>
+  <match src="identifier: bir [184,187]" dest="identifier: bir [268,271]"/>
+  <match src="declaration [140,170]" dest="declaration [224,254]"/>
+  <match src="*: * [147,148]" dest="*: * [231,232]"/>
+  <match src=";: ; [244,245]" dest=";: ; [328,329]"/>
+  <match src="=: = [279,280]" dest="=: = [1407,1408]"/>
+  <match src="comment: /* convert to a normal block */ [356,387]" dest="comment: /* convert to a normal block */ [1484,1515]"/>
+  <match src="{: { [116,117]" dest="{: { [206,207]"/>
+  <match src="(: ( [218,219]" dest="(: ( [302,303]"/>
+  <match src="*: * [53,54]" dest="*: * [125,126]"/>
+  <match src="type_descriptor [219,228]" dest="type_descriptor [303,312]"/>
+  <match src="expression_statement [551,558]" dest="expression_statement [1801,1807]"/>
+  <match src=",: , [96,97]" dest=",: , [160,161]"/>
+  <match src="identifier: sig_len [63,70]" dest="identifier: sig_len [135,142]"/>
+  <match src=";: ; [169,170]" dest=";: ; [253,254]"/>
+  <match src="expression_statement [459,504]" dest="expression_statement [1587,1632]"/>
+  <match src="init_declarator [183,194]" dest="init_declarator [267,278]"/>
+  <match src="cast_expression [218,244]" dest="cast_expression [302,328]"/>
+  <match src="call_expression [281,309]" dest="call_expression [1409,1437]"/>
+  <match src="(: ( [468,469]" dest="(: ( [1596,1597]"/>
+  <match src="comment: /* decrypt */ [253,266]" dest="comment: /* decrypt */ [1381,1394]"/>
+  <match src="): ) [243,244]" dest="): ) [327,328]"/>
+  <match src="pointer_declarator [105,113]" dest="pointer_declarator [195,203]"/>
+  <match src="=: = [188,189]" dest="=: = [272,273]"/>
+  <match src=";: ; [991,992]" dest=";: ; [2414,2415]"/>
+  <match src="abstract_pointer_declarator [227,228]" dest="abstract_pointer_declarator [311,312]"/>
+  <match src="identifier: bi_clear_cache [972,986]" dest="identifier: bi_clear_cache [2395,2409]"/>
+  <match src="identifier: decrypted_bi [392,404]" dest="identifier: decrypted_bi [1520,1532]"/>
+  <match src="pointer_declarator [162,169]" dest="pointer_declarator [246,253]"/>
+  <match src="argument_list [920,927]" dest="argument_list [2343,2350]"/>
+  <match src="field_identifier: mod_offset [515,525]" dest="field_identifier: mod_offset [1449,1459]"/>
+  <match src="*: * [88,89]" dest="*: * [178,179]"/>
+  <match src="-&gt;: -&gt; [513,515]" dest="-&gt;: -&gt; [1447,1449]"/>
+  <match src="identifier: block [210,215]" dest="identifier: block [294,299]"/>
+  <match src="argument_list [235,244]" dest="argument_list [319,328]"/>
+  <match src="identifier: ctx [421,424]" dest="identifier: ctx [1549,1552]"/>
+  <match src="identifier: free [916,920]" dest="identifier: free [2339,2343]"/>
+  <match src="pointer_declarator [147,160]" dest="pointer_declarator [231,244]"/>
+  <match src=";: ; [503,504]" dest=";: ; [1631,1632]"/>
+  <match src=",: , [441,442]" dest=",: , [1569,1570]"/>
+  <match src=",: , [70,71]" dest=",: , [142,143]"/>
+  <match src="assignment_expression [316,349]" dest="assignment_expression [1638,1671]"/>
+  <match src="identifier: block [921,926]" dest="identifier: block [2344,2349]"/>
+  <match src="type_qualifier [39,44]" dest="type_qualifier [111,116]"/>
+  <match src="=: = [332,333]" dest="=: = [1654,1655]"/>
+  <match src="expression_statement [272,310]" dest="expression_statement [1400,1438]"/>
+  <match src="pointer_declarator [209,215]" dest="pointer_declarator [293,299]"/>
+  <match src="*: * [162,163]" dest="*: * [246,247]"/>
+  <match src="primitive_type: uint8_t [201,208]" dest="primitive_type: uint8_t [285,292]"/>
+  <match src=",: , [299,300]" dest=",: , [1427,1428]"/>
+  <match src="declaration [201,245]" dest="declaration [285,329]"/>
+  <match src="identifier: block [620,625]" dest="identifier: block [1986,1991]"/>
+  <match src="type_qualifier [756,761]" dest="type_qualifier [336,341]"/>
+  <match src="(: ( [25,26]" dest="(: ( [97,98]"/>
+  <match src="]: ] [629,630]" dest="]: ] [1995,1996]"/>
+  <match src="call_expression [972,991]" dest="call_expression [2395,2414]"/>
+  <match src="parameter_declaration [59,70]" dest="parameter_declaration [131,142]"/>
+  <match src="identifier: i [626,627]" dest="identifier: i [1992,1993]"/>
+  <match src="identifier: size [652,656]" dest="identifier: bir [2267,2270]"/>
+  <match src="field_expression [510,525]" dest="field_expression [1444,1459]"/>
+  <match src="declaration [176,195]" dest="declaration [260,279]"/>
+  <match src="expression_statement [316,350]" dest="expression_statement [1638,1672]"/>
+  <match src="assignment_expression [392,451]" dest="assignment_expression [1520,1579]"/>
+  <match src="identifier: ctx [469,472]" dest="identifier: ctx [1597,1600]"/>
+  <match src="identifier: sig_len [236,243]" dest="identifier: sig_len [320,327]"/>
+  <match src="=: = [526,527]" dest="=: = [1460,1461]"/>
+  <match src="): ) [113,114]" dest="): ) [203,204]"/>
+  <match src="translation_unit [0,1010]" dest="translation_unit [0,2433]"/>
+  <match src="storage_class_specifier [0,6]" dest="storage_class_specifier [0,6]"/>
+  <match src="call_expression [916,927]" dest="call_expression [2339,2350]"/>
+  <match src="type_identifier: bigint [98,104]" dest="type_identifier: bigint [188,194]"/>
+  <match src=",: , [37,38]" dest=",: , [109,110]"/>
+  <match src=",: , [432,433]" dest=",: , [1560,1561]"/>
+  <match src="identifier: bir [1004,1007]" dest="identifier: bir [2427,2430]"/>
+  <match src="[: [ [625,626]" dest="[: [ [1991,1992]"/>
+  <match src=";: ; [557,558]" dest=";: ; [1806,1807]"/>
+  <match src="parameter_declaration [98,113]" dest="parameter_declaration [188,203]"/>
+  <match src="identifier: sig [54,57]" dest="identifier: sig [126,129]"/>
+  <match src="): ) [228,229]" dest="): ) [312,313]"/>
+  <match src="comment: /* save a few bytes of memory */ [934,966]" dest="comment: /* save a few bytes of memory */ [2357,2389]"/>
+  <match src="call_expression [229,244]" dest="call_expression [313,328]"/>
+  <match src="assignment_expression [272,309]" dest="assignment_expression [1400,1437]"/>
+  <match src=";: ; [194,195]" dest=";: ; [278,279]"/>
+  <match src=",: , [57,58]" dest=",: , [129,130]"/>
+  <match src="identifier: bi_import [281,290]" dest="identifier: bi_import [1409,1418]"/>
+  <match src="update_expression [626,629]" dest="update_expression [1992,1995]"/>
+  <match src="null [190,194]" dest="null [274,278]"/>
+  <match src=";: ; [1007,1008]" dest=";: ; [2430,2431]"/>
+  <match src="identifier: malloc [229,235]" dest="identifier: malloc [313,319]"/>
+  <match src="identifier: i [551,552]" dest="identifier: i [1801,1802]"/>
+  <match src="expression_statement [652,671]" dest="expression_statement [2267,2327]"/>
+  <match src="=: = [553,554]" dest="=: = [1803,1804]"/>
+  <match src="): ) [308,309]" dest="): ) [1436,1437]"/>
+  <match src="=: = [216,217]" dest="=: = [300,301]"/>
+  <match src="=: = [405,406]" dest="=: = [1533,1534]"/>
+  <match src="identifier: dat_bi [272,278]" dest="identifier: dat_bi [1400,1406]"/>
+  <match src="identifier: ctx [987,990]" dest="identifier: ctx [2410,2413]"/>
+  <match src="*: * [33,34]" dest="*: * [105,106]"/>
+  <match src="identifier: dat_bi [426,432]" dest="identifier: dat_bi [1554,1560]"/>
+  <match src="parameter_declaration [39,57]" dest="parameter_declaration [111,129]"/>
+  <match src="): ) [926,927]" dest="): ) [2349,2350]"/>
+  <match src="expression_statement [972,992]" dest="expression_statement [2395,2415]"/>
+  <match src="return_statement [997,1008]" dest="return_statement [2420,2431]"/>
+  <match src="*: * [227,228]" dest="*: * [311,312]"/>
+  <match src=",: , [424,425]" dest=",: , [1552,1553]"/>
+  <match src=",: , [493,494]" dest=",: , [1621,1622]"/>
+  <match src="identifier: ctx [316,319]" dest="identifier: ctx [1638,1641]"/>
+  <match src="number_literal: 10 [555,557]" dest="number_literal: 2 [1805,1806]"/>
+  <match src="expression_statement [510,544]" dest="expression_statement [1444,1478]"/>
+  <match src="field_expression [316,331]" dest="field_expression [1638,1653]"/>
+  <match src="identifier: BIGINT_M_OFFSET [334,349]" dest="identifier: BIGINT_M_OFFSET [1656,1671]"/>
+  <match src="): ) [645,646]" dest="): ) [2004,2005]"/>
+  <match src="while_statement [613,647]" dest="while_statement [1850,2034]"/>
+  <match src=";: ; [927,928]" dest=";: ; [2350,2351]"/>
+  <match src="identifier: decrypted_bi [474,486]" dest="identifier: decrypted_bi [1602,1614]"/>
+  <match src="call_expression [407,451]" dest="call_expression [1535,1579]"/>
+  <match src="assignment_expression [510,543]" dest="assignment_expression [1444,1477]"/>
+  <match src="binary_expression [620,645]" dest="binary_expression [1986,2004]"/>
+  <match src="pointer_declarator [33,37]" dest="pointer_declarator [105,109]"/>
+  <match src="*: * [105,106]" dest="*: * [195,196]"/>
+  <match src="const: const [39,44]" dest="const: const [111,116]"/>
+</matches>
+<actions>
+  <insert-node tree="pointer_declarator [14,204]" parent="function_definition [0,1010]" at="2"/>
+  <move-tree tree="expression_statement [510,544]" parent="compound_statement [116,1010]" at="7"/>
+  <move-tree tree="expression_statement [316,350]" parent="compound_statement [116,1010]" at="11"/>
+  <move-tree tree="expression_statement [652,671]" parent="compound_statement [116,1010]" at="16"/>
+  <insert-node tree="*: * [14,15]" parent="pointer_declarator [14,204]" at="0"/>
+  <insert-node tree="function_declarator [15,204]" parent="pointer_declarator [14,204]" at="1"/>
+  <insert-tree tree="declaration [212,218]" parent="compound_statement [116,1010]" at="1"/>
+  <insert-node tree="declaration [336,369]" parent="compound_statement [116,1010]" at="6"/>
+  <insert-tree tree="declaration [374,416]" parent="compound_statement [116,1010]" at="7"/>
+  <insert-node tree="comment: /* adjust our expections */ [421,448]" parent="compound_statement [116,1010]" at="8"/>
+  <insert-tree tree="switch_statement [453,1197]" parent="compound_statement [116,1010]" at="9"/>
+  <insert-tree tree="if_statement [1202,1269]" parent="compound_statement [116,1010]" at="10"/>
+  <insert-node tree="comment: /* check length (#A) */ [1275,1298]" parent="compound_statement [116,1010]" at="11"/>
+  <insert-tree tree="if_statement [1303,1374]" parent="compound_statement [116,1010]" at="12"/>
+  <insert-node tree="comment: /* check the first 2 bytes */ [1679,1708]" parent="compound_statement [116,1010]" at="20"/>
+  <insert-tree tree="if_statement [1713,1766]" parent="compound_statement [116,1010]" at="21"/>
+  <insert-node tree="comment: /* check the padding */ [1773,1796]" parent="compound_statement [116,1010]" at="22"/>
+  <update-node tree="comment: /* start at the first possible non-padded byte */ [559,608]" label="/* start at the first padding byte */"/>
+  <update-node tree="comment: /* get only the bit we want */ [676,706]" label="/* check end of padding */"/>
+  <insert-tree tree="if_statement [2071,2109]" parent="compound_statement [116,1010]" at="27"/>
+  <insert-node tree="comment: /* check the ASN.1 metadata */ [2115,2145]" parent="compound_statement [116,1010]" at="28"/>
+  <insert-tree tree="if_statement [2150,2219]" parent="compound_statement [116,1010]" at="29"/>
+  <insert-node tree="comment: /* now we can get the hash we need */ [2225,2262]" parent="compound_statement [116,1010]" at="30"/>
+  <insert-node tree="labeled_statement [2329,2351]" parent="compound_statement [116,1010]" at="32"/>
+  <insert-node tree="identifier: sig_verify [15,25]" parent="function_declarator [15,204]" at="0"/>
+  <insert-node tree="parameter_list [25,204]" parent="function_declarator [15,204]" at="1"/>
+  <move-tree tree="type_qualifier [756,761]" parent="declaration [336,369]" at="0"/>
+  <insert-node tree="primitive_type: uint8_t [342,349]" parent="declaration [336,369]" at="1"/>
+  <insert-tree tree="init_declarator [350,368]" parent="declaration [336,369]" at="2"/>
+  <insert-node tree=";: ; [368,369]" parent="declaration [336,369]" at="3"/>
+  <insert-tree tree="parenthesized_expression [1856,1902]" parent="while_statement [613,647]" at="1"/>
+  <insert-node tree="compound_statement [1907,2034]" parent="while_statement [613,647]" at="2"/>
+  <insert-node tree="statement_identifier: err [2329,2332]" parent="labeled_statement [2329,2351]" at="0"/>
+  <insert-node tree=":: : [2332,2333]" parent="labeled_statement [2329,2351]" at="1"/>
+  <move-tree tree="expression_statement [916,928]" parent="labeled_statement [2329,2351]" at="2"/>
+  <insert-node tree="(: ( [25,26]" parent="parameter_list [25,204]" at="0"/>
+  <insert-tree tree="parameter_declaration [26,37]" parent="parameter_list [25,204]" at="1"/>
+  <insert-node tree=",: , [37,38]" parent="parameter_list [25,204]" at="2"/>
+  <insert-tree tree="parameter_declaration [39,57]" parent="parameter_list [25,204]" at="3"/>
+  <insert-node tree=",: , [57,58]" parent="parameter_list [25,204]" at="4"/>
+  <insert-tree tree="parameter_declaration [59,70]" parent="parameter_list [25,204]" at="5"/>
+  <insert-node tree=",: , [70,71]" parent="parameter_list [25,204]" at="6"/>
+  <insert-node tree="parameter_declaration [72,204]" parent="parameter_list [25,204]" at="7"/>
+  <insert-node tree=") [204,204]" parent="parameter_list [25,204]" at="8"/>
+  <update-node tree="number_literal: 10 [555,557]" label="2"/>
+  <insert-node tree="{: { [1907,1908]" parent="compound_statement [1907,2034]" at="0"/>
+  <insert-node tree="comment: /* together with (#A), we require at least 8 bytes of padding */ [1909,1973]" parent="compound_statement [1907,2034]" at="1"/>
+  <insert-node tree="if_statement [1982,2027]" parent="compound_statement [1907,2034]" at="2"/>
+  <insert-node tree="}: } [2033,2034]" parent="compound_statement [1907,2034]" at="3"/>
+  <update-node tree="identifier: size [652,656]" label="bir"/>
+  <insert-tree tree="call_expression [2273,2326]" parent="assignment_expression [652,670]" at="2"/>
+  <insert-tree tree="storage_class_specifier [72,78]" parent="parameter_declaration [72,204]" at="0"/>
+  <insert-node tree="type_identifier: bigint [79,85]" parent="parameter_declaration [72,204]" at="1"/>
+  <move-tree tree="pointer_declarator [14,114]" parent="parameter_declaration [72,204]" at="2"/>
+  <insert-node tree="if: if [1982,1984]" parent="if_statement [1982,2027]" at="0"/>
+  <move-tree tree="parenthesized_expression [619,646]" parent="if_statement [1982,2027]" at="1"/>
+  <insert-tree tree="goto_statement [2018,2027]" parent="if_statement [1982,2027]" at="2"/>
+  <move-tree tree="parameter_declaration [81,96]" parent="parameter_list [25,114]" at="8"/>
+  <insert-node tree="!=: != [1997,1999]" parent="binary_expression [620,645]" at="1"/>
+  <insert-node tree="number_literal: 0xFF [2000,2004]" parent="binary_expression [620,645]" at="2"/>
+  <insert-tree tree="parameter_declaration [144,160]" parent="parameter_list [25,114]" at="7"/>
+  <insert-node tree=",: , [186,187]" parent="parameter_list [25,114]" at="10"/>
+  <delete-tree tree="declaration [122,134]"/>
+  <delete-node tree="&amp;&amp;: &amp;&amp; [631,633]"/>
+  <delete-tree tree="binary_expression [634,645]"/>
+  <delete-tree tree="expression_statement [646,647]"/>
+  <delete-tree tree="binary_expression [659,670]"/>
+  <delete-node tree="if: if [711,713]"/>
+  <delete-tree tree="parenthesized_expression [714,724]"/>
+  <delete-node tree="{: { [729,730]"/>
+  <delete-tree tree="declaration [739,747]"/>
+  <delete-node tree="primitive_type: uint8_t [762,769]"/>
+  <delete-tree tree="init_declarator [770,811]"/>
+  <delete-node tree=";: ; [811,812]"/>
+  <delete-node tree="declaration [756,812]"/>
+  <delete-tree tree="if_statement [823,903]"/>
+  <delete-node tree="}: } [909,910]"/>
+  <delete-node tree="compound_statement [729,910]"/>
+  <delete-node tree="if_statement [711,910]"/>
+</actions>

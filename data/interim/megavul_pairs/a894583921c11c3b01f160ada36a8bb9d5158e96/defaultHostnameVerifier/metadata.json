@@ -1,0 +1,20 @@
+{
+    "id": "a894583921c11c3b01f160ada36a8bb9d5158e96_defaultHostnameVerifier_0",
+    "func_name": "defaultHostnameVerifier",
+    "cve_id": "CVE-2013-7398",
+    "cwe_ids": [
+        "CWE-345"
+    ],
+    "commit_hash": "a894583921c11c3b01f160ada36a8bb9d5158e96",
+    "parent_commit_hash": "899fd7a6fc84d7f7a1a8ed64d5ded88117c11d64",
+    "repo_name": "AsyncHttpClient/async-http-client",
+    "git_url": "https://github.com/AsyncHttpClient/async-http-client/commit/a894583921c11c3b01f160ada36a8bb9d5158e96",
+    "file_path": "src/main/java/com/ning/http/client/AsyncHttpClientConfigDefaults.java",
+    "file_name": "AsyncHttpClientConfigDefaults.java",
+    "commit_date": 1404952464,
+    "commit_msg": "Use a hostname verifier that does hostname verification, backport #510, close #197",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

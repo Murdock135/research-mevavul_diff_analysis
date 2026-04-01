@@ -1,0 +1,20 @@
+{
+    "id": "716664772d3673ca243bf841fe61c89cf12d8976_save_0",
+    "func_name": "save",
+    "cve_id": "CVE-2019-10158",
+    "cwe_ids": [
+        "CWE-384"
+    ],
+    "commit_hash": "716664772d3673ca243bf841fe61c89cf12d8976",
+    "parent_commit_hash": "936f26826e8bb60758ff70b8f1f2eb2862648e79",
+    "repo_name": "infinispan",
+    "git_url": "https://github.com/infinispan/infinispan/commit/716664772d3673ca243bf841fe61c89cf12d8976",
+    "file_path": "spring/spring5/spring5-common/src/main/java/org/infinispan/spring/common/session/AbstractInfinispanSessionRepository.java",
+    "file_name": "AbstractInfinispanSessionRepository.java",
+    "commit_date": 1560901101,
+    "commit_msg": "ISPN-10224 Skip Listener notification on remove",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

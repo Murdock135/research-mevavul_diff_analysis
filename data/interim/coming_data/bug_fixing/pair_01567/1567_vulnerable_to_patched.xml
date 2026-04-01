@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="primitive_type: int [8,11]" dest="primitive_type: int [8,11]"/>
+  <match src="struct: struct [33,39]" dest="struct: struct [33,39]"/>
+  <match src="return: return [162,168]" dest="return: return [182,188]"/>
+  <match src="struct_specifier [63,83]" dest="struct_specifier [63,83]"/>
+  <match src="identifier: udev [52,56]" dest="identifier: udev [52,56]"/>
+  <match src="(: ( [32,33]" dest="(: ( [32,33]"/>
+  <match src=",: , [56,57]" dest=",: , [56,57]"/>
+  <match src="): ) [158,159]" dest="): ) [178,179]"/>
+  <match src="identifier: usb_set_interface [184,201]" dest="identifier: usb_set_interface [208,225]"/>
+  <match src="if_statement [147,173]" dest="if_statement [170,197]"/>
+  <match src="parameter_list [32,90]" dest="parameter_list [32,90]"/>
+  <match src=";: ; [172,173]" dest=";: ; [196,197]"/>
+  <match src="struct: struct [63,69]" dest="struct: struct [63,69]"/>
+  <match src="static: static [1,7]" dest="static: static [1,7]"/>
+  <match src="translation_unit [1,262]" dest="translation_unit [1,295]"/>
+  <match src="): ) [89,90]" dest="): ) [89,90]"/>
+  <match src="declaration [95,103]" dest="declaration [95,126]"/>
+  <match src="*: * [51,52]" dest="*: * [51,52]"/>
+  <match src="parameter_declaration [33,56]" dest="parameter_declaration [33,56]"/>
+  <match src="call_expression [114,144]" dest="call_expression [137,167]"/>
+  <match src="if: if [147,149]" dest="if: if [170,172]"/>
+  <match src="function_declarator [12,90]" dest="function_declarator [12,90]"/>
+  <match src="pointer_declarator [51,56]" dest="pointer_declarator [51,56]"/>
+  <match src="identifier: uas_find_uas_alt_setting [114,138]" dest="identifier: uas_find_uas_alt_setting [137,161]"/>
+  <match src="type_identifier: usb_device [40,50]" dest="type_identifier: usb_device [40,50]"/>
+  <match src="storage_class_specifier [1,7]" dest="storage_class_specifier [1,7]"/>
+  <match src="type_identifier: usb_interface [70,83]" dest="type_identifier: usb_interface [70,83]"/>
+  <match src="identifier: intf [139,143]" dest="identifier: intf [162,166]"/>
+  <match src="identifier: alt [108,111]" dest="identifier: alt [131,134]"/>
+  <match src="assignment_expression [108,144]" dest="assignment_expression [131,167]"/>
+  <match src="{: { [92,93]" dest="{: { [92,93]"/>
+  <match src="pointer_declarator [84,89]" dest="pointer_declarator [84,89]"/>
+  <match src="): ) [257,258]" dest="): ) [290,291]"/>
+  <match src=";: ; [258,259]" dest=";: ; [291,292]"/>
+  <match src="identifier: uas_switch_interface [12,32]" dest="identifier: uas_switch_interface [12,32]"/>
+  <match src="return: return [177,183]" dest="return: return [201,207]"/>
+  <match src="*: * [84,85]" dest="*: * [84,85]"/>
+  <match src="expression_statement [108,145]" dest="expression_statement [131,168]"/>
+  <match src="return_statement [177,259]" dest="return_statement [201,292]"/>
+  <match src=";: ; [144,145]" dest=";: ; [167,168]"/>
+  <match src=";: ; [102,103]" dest=";: ; [125,126]"/>
+  <match src="}: } [261,262]" dest="}: } [294,295]"/>
+  <match src="): ) [143,144]" dest="): ) [166,167]"/>
+  <match src="argument_list [201,258]" dest="argument_list [225,291]"/>
+  <match src="identifier: intf [85,89]" dest="identifier: intf [85,89]"/>
+  <match src="return_statement [162,173]" dest="return_statement [182,197]"/>
+  <match src="identifier: udev [202,206]" dest="identifier: udev [226,230]"/>
+  <match src="compound_statement [92,262]" dest="compound_statement [92,295]"/>
+  <match src=",: , [252,253]" dest=",: , [258,259]"/>
+  <match src="parenthesized_expression [150,159]" dest="parenthesized_expression [173,179]"/>
+  <match src="call_expression [184,258]" dest="call_expression [208,291]"/>
+  <match src="=: = [112,113]" dest="=: = [135,136]"/>
+  <match src="(: ( [138,139]" dest="(: ( [161,162]"/>
+  <match src="(: ( [201,202]" dest="(: ( [225,226]"/>
+  <match src="(: ( [150,151]" dest="(: ( [173,174]"/>
+  <match src="argument_list [138,144]" dest="argument_list [161,167]"/>
+  <match src="function_definition [1,262]" dest="function_definition [1,295]"/>
+  <match src="parameter_declaration [63,89]" dest="parameter_declaration [63,89]"/>
+  <match src=",: , [206,207]" dest=",: , [230,231]"/>
+  <match src="struct_specifier [33,50]" dest="struct_specifier [33,50]"/>
+</matches>
+<actions>
+  <insert-tree tree="struct_specifier [95,120]" parent="declaration [95,103]" at="0"/>
+  <insert-tree tree="pointer_declarator [121,125]" parent="declaration [95,103]" at="1"/>
+  <insert-tree tree="unary_expression [174,178]" parent="parenthesized_expression [150,159]" at="1"/>
+  <insert-tree tree="unary_expression [189,196]" parent="return_statement [162,173]" at="1"/>
+  <insert-tree tree="field_expression [232,258]" parent="argument_list [201,258]" at="3"/>
+  <insert-tree tree="field_expression [263,290]" parent="argument_list [201,258]" at="6"/>
+  <delete-node tree="primitive_type: int [95,98]"/>
+  <delete-node tree="identifier: alt [99,102]"/>
+  <delete-tree tree="binary_expression [151,158]"/>
+  <delete-node tree="identifier: alt [169,172]"/>
+  <delete-tree tree="field_expression [211,252]"/>
+  <delete-node tree="identifier: alt [254,257]"/>
+</actions>

@@ -1,0 +1,20 @@
+{
+    "id": "f24cec326f5f65c693544fb0b92c37f633bacda2_acceptSocket_0",
+    "func_name": "acceptSocket",
+    "cve_id": "CVE-2014-9908",
+    "cwe_ids": [
+        "CWE-Other"
+    ],
+    "commit_hash": "f24cec326f5f65c693544fb0b92c37f633bacda2",
+    "parent_commit_hash": "c0621ebfba8c8e4f378bfdc5b1a3aaa32ec69a54",
+    "repo_name": "Genymobile/f2ut_platform_frameworks_base",
+    "git_url": "https://github.com/Genymobile/f2ut_platform_frameworks_base/commit/f24cec326f5f65c693544fb0b92c37f633bacda2",
+    "file_path": "core/java/android/bluetooth/BluetoothSocket.java",
+    "file_name": "BluetoothSocket.java",
+    "commit_date": 1476055126,
+    "commit_msg": "FPII-2473: Denial of service vulnerability in Bluetooth CVE-2014-9908\nA-28672558\n\nA denial of service vulnerability in Bluetooth could enable a proximate attacker to block Bluetooth access to an affected device. This issue is\nrated as High due to the possibility of remote denial of service.\n\nChange-Id: I1c0db02e2773d65c30df785d5db6f2765d737cfc",
+    "cvss_vector": "AV:A/AC:L/Au:N/C:N/I:N/A:P",
+    "cvss_base_score": 3.3,
+    "cvss_base_severity": "LOW",
+    "cvss_is_v3": false
+}

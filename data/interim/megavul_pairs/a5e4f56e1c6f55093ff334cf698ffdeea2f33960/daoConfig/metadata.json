@@ -1,0 +1,20 @@
+{
+    "id": "a5e4f56e1c6f55093ff334cf698ffdeea2f33960_daoConfig_0",
+    "func_name": "daoConfig",
+    "cve_id": "CVE-2021-32053",
+    "cwe_ids": [
+        "CWE-400"
+    ],
+    "commit_hash": "a5e4f56e1c6f55093ff334cf698ffdeea2f33960",
+    "parent_commit_hash": "cc05ff9ad4cb0a2a56959cb34c6bfee72c7501c8",
+    "repo_name": "hapifhir/hapi-fhir",
+    "git_url": "https://github.com/hapifhir/hapi-fhir/commit/a5e4f56e1c6f55093ff334cf698ffdeea2f33960",
+    "file_path": "hapi-fhir-jpaserver-uhnfhirtest/src/main/java/ca/uhn/fhirtest/config/TestDstu2Config.java",
+    "file_name": "TestDstu2Config.java",
+    "commit_date": 1620219877,
+    "commit_msg": "Address DOS issue in History operation",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

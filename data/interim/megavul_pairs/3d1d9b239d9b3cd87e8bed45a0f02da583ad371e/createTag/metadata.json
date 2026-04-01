@@ -1,0 +1,20 @@
+{
+    "id": "3d1d9b239d9b3cd87e8bed45a0f02da583ad371e_createTag_0",
+    "func_name": "createTag",
+    "cve_id": "CVE-2015-10076",
+    "cwe_ids": [
+        "CWE-89"
+    ],
+    "commit_hash": "3d1d9b239d9b3cd87e8bed45a0f02da583ad371e",
+    "parent_commit_hash": "7f0bcb70bc927aebbfceca9d72154b5989dd81c3",
+    "repo_name": "dimtion/Shaarlier",
+    "git_url": "https://github.com/dimtion/Shaarlier/commit/3d1d9b239d9b3cd87e8bed45a0f02da583ad371e",
+    "file_path": "app/src/main/java/com/dimtion/shaarlier/TagsSource.java",
+    "file_name": "TagsSource.java",
+    "commit_date": 1433551853,
+    "commit_msg": "Solve bug with tags (possible sql injection)",
+    "cvss_vector": "AV:A/AC:L/Au:S/C:P/I:P/A:P",
+    "cvss_base_score": 5.2,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

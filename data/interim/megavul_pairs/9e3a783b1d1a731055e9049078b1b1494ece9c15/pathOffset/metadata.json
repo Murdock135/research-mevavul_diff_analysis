@@ -1,0 +1,20 @@
+{
+    "id": "9e3a783b1d1a731055e9049078b1b1494ece9c15_pathOffset_0",
+    "func_name": "pathOffset",
+    "cve_id": "CVE-2023-24815",
+    "cwe_ids": [
+        "CWE-22"
+    ],
+    "commit_hash": "9e3a783b1d1a731055e9049078b1b1494ece9c15",
+    "parent_commit_hash": "1c3a0b16ab6721a4cb87194a1dfabbf6c6cdbcc2",
+    "repo_name": "vert-x3/vertx-web",
+    "git_url": "https://github.com/vert-x3/vertx-web/commit/9e3a783b1d1a731055e9049078b1b1494ece9c15",
+    "file_path": "vertx-web/src/main/java/io/vertx/ext/web/impl/Utils.java",
+    "file_name": "Utils.java",
+    "commit_date": 1675314499,
+    "commit_msg": "Fix the webroot escape to classpath on windows\n\nSigned-off-by: Paulo Lopes <pmlopes@gmail.com>",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+    "cvss_base_score": 5.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

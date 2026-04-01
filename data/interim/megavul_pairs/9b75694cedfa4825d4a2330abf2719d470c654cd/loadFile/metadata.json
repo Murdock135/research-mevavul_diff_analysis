@@ -1,0 +1,20 @@
+{
+    "id": "9b75694cedfa4825d4a2330abf2719d470c654cd_loadFile_0",
+    "func_name": "loadFile",
+    "cve_id": "CVE-2018-1000540",
+    "cwe_ids": [
+        "CWE-611"
+    ],
+    "commit_hash": "9b75694cedfa4825d4a2330abf2719d470c654cd",
+    "parent_commit_hash": "8f46f82f22cdf0527cf95df4fae8d74df61bb0c3",
+    "repo_name": "LoboEvolution",
+    "git_url": "https://github.com/LoboEvolution/LoboEvolution/commit/9b75694cedfa4825d4a2330abf2719d470c654cd",
+    "file_path": "HTML_Renderer/src/main/java/org/loboevolution/html/js/xml/XMLDocument.java",
+    "file_name": "XMLDocument.java",
+    "commit_date": 1524489530,
+    "commit_msg": "Fixed XXE Security Vulnerability #38",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 6.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

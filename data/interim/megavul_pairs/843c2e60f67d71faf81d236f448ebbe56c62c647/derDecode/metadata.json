@@ -1,0 +1,20 @@
+{
+    "id": "843c2e60f67d71faf81d236f448ebbe56c62c647_derDecode_0",
+    "func_name": "derDecode",
+    "cve_id": "CVE-2016-1000342",
+    "cwe_ids": [
+        "CWE-347"
+    ],
+    "commit_hash": "843c2e60f67d71faf81d236f448ebbe56c62c647",
+    "parent_commit_hash": "b0c3ce99d43d73a096268831d0d120ffc89eac7f",
+    "repo_name": "bcgit/bc-java",
+    "git_url": "https://github.com/bcgit/bc-java/commit/843c2e60f67d71faf81d236f448ebbe56c62c647",
+    "file_path": "prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/dsa/DSASigner.java",
+    "file_name": "DSASigner.java",
+    "commit_date": 1476462065,
+    "commit_msg": "Added header validation for INTEGER/ENUMERATED\nAdded additional validations for DSA/ECDSA signature parsing.",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

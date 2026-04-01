@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="identifier: usm_free_usmStateReference [0,26]" dest="identifier: usm_free_usmStateReference [0,26]"/>
+  <match src="binary_expression [27,36]" dest="binary_expression [27,36]"/>
+  <match src="identifier: old [33,36]" dest="identifier: old [33,36]"/>
+  <match src="type_identifier: usmStateReference [51,68]" dest="type_identifier: usmStateReference [51,68]"/>
+  <match src="init_declarator [69,112]" dest="init_declarator [69,79]"/>
+  <match src="; [37,37]" dest="; [37,37]"/>
+  <match src="struct_specifier [44,68]" dest="struct_specifier [44,68]"/>
+  <match src="): ) [36,37]" dest="): ) [36,37]"/>
+  <match src="declaration [44,113]" dest="declaration [44,80]"/>
+  <match src="identifier: void [27,31]" dest="identifier: void [27,31]"/>
+  <match src="struct: struct [44,50]" dest="struct: struct [44,50]"/>
+  <match src="*: * [69,70]" dest="*: * [69,70]"/>
+  <match src="translation_unit [0,1057]" dest="translation_unit [0,722]"/>
+  <match src="*: * [32,33]" dest="*: * [32,33]"/>
+  <match src="expression_statement [0,37]" dest="expression_statement [0,37]"/>
+  <match src="argument_list [26,37]" dest="argument_list [26,37]"/>
+  <match src="call_expression [0,37]" dest="call_expression [0,37]"/>
+  <match src="}: } [987,988]" dest="}: } [652,653]"/>
+  <match src="{: { [38,39]" dest="{: { [38,39]"/>
+  <match src="=: = [78,79]" dest="=: = [74,75]"/>
+  <match src="(: ( [26,27]" dest="(: ( [26,27]"/>
+  <match src="identifier: old_ref [70,77]" dest="identifier: ref [70,73]"/>
+  <match src="comment: /* end usm_free_usmStateReference() */ [1019,1057]" dest="comment: /* end usm_free_usmStateReference() */ [684,722]"/>
+  <match src="compound_statement [38,988]" dest="compound_statement [38,653]"/>
+  <match src=";: ; [112,113]" dest=";: ; [79,80]"/>
+  <match src="pointer_declarator [69,77]" dest="pointer_declarator [69,73]"/>
+</matches>
+<actions>
+  <insert-tree tree="if_statement [86,111]" parent="compound_statement [38,988]" at="2"/>
+  <insert-tree tree="if_statement [117,155]" parent="compound_statement [38,988]" at="3"/>
+  <insert-tree tree="expression_statement [161,186]" parent="compound_statement [38,988]" at="4"/>
+  <insert-tree tree="expression_statement [191,221]" parent="compound_statement [38,988]" at="5"/>
+  <insert-tree tree="expression_statement [226,260]" parent="compound_statement [38,988]" at="6"/>
+  <insert-tree tree="expression_statement [265,299]" parent="compound_statement [38,988]" at="7"/>
+  <insert-tree tree="if_statement [305,465]" parent="compound_statement [38,988]" at="8"/>
+  <insert-tree tree="if_statement [470,630]" parent="compound_statement [38,988]" at="9"/>
+  <insert-tree tree="expression_statement [636,651]" parent="compound_statement [38,988]" at="10"/>
+  <insert-node tree="identifier: old [76,79]" parent="init_declarator [69,112]" at="2"/>
+  <update-node tree="identifier: old_ref [70,77]" label="ref"/>
+  <delete-tree tree="cast_expression [80,112]"/>
+  <delete-tree tree="if_statement [119,985]"/>
+</actions>

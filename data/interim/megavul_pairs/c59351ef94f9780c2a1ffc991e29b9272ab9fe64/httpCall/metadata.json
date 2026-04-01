@@ -1,0 +1,20 @@
+{
+    "id": "c59351ef94f9780c2a1ffc991e29b9272ab9fe64_httpCall_0",
+    "func_name": "httpCall",
+    "cve_id": "CVE-2022-38298",
+    "cwe_ids": [
+        "CWE-918"
+    ],
+    "commit_hash": "c59351ef94f9780c2a1ffc991e29b9272ab9fe64",
+    "parent_commit_hash": "de23ea9d61e7c0ad267bea33533b65a64bfd5211",
+    "repo_name": "appsmithorg/appsmith",
+    "git_url": "https://github.com/appsmithorg/appsmith/commit/c59351ef94f9780c2a1ffc991e29b9272ab9fe64",
+    "file_path": "app/server/appsmith-plugins/restApiPlugin/src/main/java/com/external/plugins/RestApiPlugin.java",
+    "file_name": "RestApiPlugin.java",
+    "commit_date": 1659739142,
+    "commit_msg": "Adding a check for invalid hosts on redirects as well",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 8.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

@@ -1,0 +1,20 @@
+{
+    "id": "bd92daa70ab77a40eff0eb18e8e91f3e095694e1_setAttributes_0",
+    "func_name": "setAttributes",
+    "cve_id": "CVE-2017-12647",
+    "cwe_ids": [
+        "CWE-79"
+    ],
+    "commit_hash": "bd92daa70ab77a40eff0eb18e8e91f3e095694e1",
+    "parent_commit_hash": "3889bb34255ddd6f1ba7ec5d08fa6e71ce9748ce",
+    "repo_name": "brianchandotcom/liferay-portal",
+    "git_url": "https://github.com/brianchandotcom/liferay-portal/commit/bd92daa70ab77a40eff0eb18e8e91f3e095694e1",
+    "file_path": "util-taglib/src/com/liferay/taglib/ui/HeaderTag.java",
+    "file_name": "HeaderTag.java",
+    "commit_date": 1494303858,
+    "commit_msg": "LPS-72090 Fix XSS",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

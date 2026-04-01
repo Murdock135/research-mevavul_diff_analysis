@@ -1,0 +1,154 @@
+{
+  "frequency": [
+    {
+      "c": "Invocation",
+      "f": "4"
+    },
+    {
+      "c": "Literal",
+      "f": "2"
+    },
+    {
+      "c": "If",
+      "f": "2"
+    },
+    {
+      "c": "Block",
+      "f": "1"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "Assignment",
+      "f": "1"
+    },
+    {
+      "c": "ConstructorCall",
+      "f": "1"
+    },
+    {
+      "c": "VirtualElement",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "move-tree_Invocation_Invocation",
+      "f": "2"
+    },
+    {
+      "c": "update-node_Literal_BinaryOperator",
+      "f": "2"
+    },
+    {
+      "c": "update-node_Invocation_Invocation",
+      "f": "2"
+    },
+    {
+      "c": "insert-node_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Block_If",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Assignment_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_BinaryOperator_BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "update-node_ConstructorCall_Throw",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_VirtualElement_LocalVariable",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Invocation",
+      "f": "0.3076923076923077"
+    },
+    {
+      "c": "Literal",
+      "f": "0.15384615384615385"
+    },
+    {
+      "c": "If",
+      "f": "0.15384615384615385"
+    },
+    {
+      "c": "Block",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "Assignment",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "ConstructorCall",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "VirtualElement",
+      "f": "0.07692307692307693"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "move-tree_Invocation_Invocation",
+      "f": "0.15384615384615385"
+    },
+    {
+      "c": "update-node_Literal_BinaryOperator",
+      "f": "0.15384615384615385"
+    },
+    {
+      "c": "update-node_Invocation_Invocation",
+      "f": "0.15384615384615385"
+    },
+    {
+      "c": "insert-node_If_Block",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "move-tree_Block_If",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "delete-node_Assignment_Block",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "move-tree_BinaryOperator_BinaryOperator",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "update-node_ConstructorCall_Throw",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "insert-node_VirtualElement_LocalVariable",
+      "f": "0.07692307692307693"
+    }
+  ]
+}

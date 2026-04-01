@@ -1,0 +1,424 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="(: ( [593,594]" dest="(: ( [593,594]"/>
+  <match src="binary_expression [594,679]" dest="binary_expression [594,679]"/>
+  <match src="!=: != [1020,1022]" dest="!=: != [1023,1025]"/>
+  <match src="unary_expression [1213,1226]" dest="unary_expression [1216,1229]"/>
+  <match src=":: : [286,287]" dest=":: : [286,287]"/>
+  <match src="identifier: dir_type [972,980]" dest="identifier: dir_type [975,983]"/>
+  <match src="identifier: DIR_MODULE [990,1000]" dest="identifier: DIR_MODULE [993,1003]"/>
+  <match src="argument_list [93,110]" dest="argument_list [93,110]"/>
+  <match src="primitive_type: bool [0,4]" dest="primitive_type: bool [0,4]"/>
+  <match src="ERROR [818,855]" dest="ERROR [818,855]"/>
+  <match src="
+: #if defined(OS_WIN)
+ [362,363]" dest="
+: #if defined(OS_WIN)
+ [362,363]"/>
+  <match src="parenthesized_expression [593,751]" dest="parenthesized_expression [593,751]"/>
+  <match src="binary_expression [943,1057]" dest="binary_expression [946,1060]"/>
+  <match src="identifier: StartsWith [697,707]" dest="identifier: StartsWith [697,707]"/>
+  <match src="(: ( [927,928]" dest="(: ( [927,928]"/>
+  <match src=";: ; [334,335]" dest=";: ; [334,335]"/>
+  <match src=":: : [1028,1029]" dest=":: : [1031,1032]"/>
+  <match src=":: : [191,192]" dest=":: : [191,192]"/>
+  <match src="identifier: size [674,678]" dest="identifier: size [674,678]"/>
+  <match src="): ) [109,110]" dest="): ) [109,110]"/>
+  <match src="parenthesized_expression [817,868]" dest="parenthesized_expression [817,868]"/>
+  <match src="}: } [906,907]" dest="}: } [906,907]"/>
+  <match src="): ) [719,720]" dest="): ) [719,720]"/>
+  <match src="array_declarator [496,526]" dest="array_declarator [496,526]"/>
+  <match src="]: ] [525,526]" dest="]: ] [525,526]"/>
+  <match src="identifier: base [454,458]" dest="identifier: base [454,458]"/>
+  <match src="defined: defined [245,252]" dest="defined: defined [245,252]"/>
+  <match src="primitive_type: int [22,25]" dest="primitive_type: int [22,25]"/>
+  <match src="): ) [1105,1106]" dest="): ) [1108,1109]"/>
+  <match src="(: ( [817,818]" dest="(: ( [817,818]"/>
+  <match src="defined: defined [920,927]" dest="defined: defined [920,927]"/>
+  <match src="=: = [894,895]" dest="=: = [894,895]"/>
+  <match src="): ) [678,679]" dest="): ) [678,679]"/>
+  <match src="[: [ [516,517]" dest="[: [ [516,517]"/>
+  <match src=";: ; [1126,1127]" dest=";: ; [1129,1130]"/>
+  <match src="function_definition [0,1321]" dest="function_definition [0,1324]"/>
+  <match src="identifier: base [281,285]" dest="identifier: base [281,285]"/>
+  <match src=":: : [464,465]" dest=":: : [464,465]"/>
+  <match src=";: ; [232,233]" dest=";: ; [232,233]"/>
+  <match src="true: true [140,144]" dest="true: true [140,144]"/>
+  <match src="identifier: dir_type [174,182]" dest="identifier: dir_type [174,182]"/>
+  <match src="): ) [934,935]" dest="): ) [937,938]"/>
+  <match src="{: { [808,809]" dest="{: { [808,809]"/>
+  <match src="return_statement [586,752]" dest="return_statement [586,752]"/>
+  <match src="&lt;: &lt; [452,453]" dest="&lt;: &lt; [452,453]"/>
+  <match src=":: : [828,829]" dest=":: : [828,829]"/>
+  <match src=".: . [712,713]" dest=".: . [712,713]"/>
+  <match src="call_expression [708,720]" dest="call_expression [708,720]"/>
+  <match src="): ) [750,751]" dest="): ) [750,751]"/>
+  <match src="identifier: PathService [77,88]" dest="identifier: PathService [77,88]"/>
+  <match src="ERROR [1231,1301]" dest="ERROR [1234,1304]"/>
+  <match src="==: == [278,280]" dest="==: == [278,280]"/>
+  <match src="identifier: GetDefaultUserProfileDirectory [620,650]" dest="identifier: GetDefaultUserProfileDirectory [620,650]"/>
+  <match src=":: : [853,854]" dest=":: : [853,854]"/>
+  <match src="identifier: ReturnsValidPath [5,21]" dest="identifier: ReturnsValidPath [5,21]"/>
+  <match src="identifier: check_path_exists [876,893]" dest="identifier: check_path_exists [876,893]"/>
+  <match src="argument_list [1165,1167]" dest="argument_list [1168,1170]"/>
+  <match src="ERROR [285,303]" dest="ERROR [285,303]"/>
+  <match src="): ) [166,167]" dest="): ) [166,167]"/>
+  <match src="(: ( [1104,1105]" dest="(: ( [1107,1108]"/>
+  <match src="binary_expression [1231,1299]" dest="binary_expression [1234,1302]"/>
+  <match src=",: , [102,103]" dest=",: , [102,103]"/>
+  <match src="!: ! [1231,1232]" dest="!: ! [1234,1235]"/>
+  <match src="field_expression [1144,1165]" dest="field_expression [1147,1168]"/>
+  <match src="field_identifier: ReferencesParent [1149,1165]" dest="field_identifier: ReferencesParent [1152,1168]"/>
+  <match src=":: : [285,286]" dest=":: : [285,286]"/>
+  <match src="else_clause [763,907]" dest="else_clause [763,907]"/>
+  <match src="parenthesized_expression [942,1071]" dest="parenthesized_expression [945,1074]"/>
+  <match src="preproc_else [1132,1186]" dest="preproc_else [1135,1189]"/>
+  <match src="preproc_defined [920,935]" dest="preproc_defined [920,938]"/>
+  <match src="type_identifier: FilePath [46,54]" dest="type_identifier: FilePath [46,54]"/>
+  <match src="&amp;&amp;: &amp;&amp; [680,682]" dest="&amp;&amp;: &amp;&amp; [680,682]"/>
+  <match src="if: if [814,816]" dest="if: if [814,816]"/>
+  <match src="labeled_statement [40,60]" dest="labeled_statement [40,60]"/>
+  <match src="binary_expression [1011,1027]" dest="binary_expression [1014,1030]"/>
+  <match src="ERROR [45,46]" dest="ERROR [45,46]"/>
+  <match src="): ) [806,807]" dest="): ) [806,807]"/>
+  <match src=":: : [386,387]" dest=":: : [386,387]"/>
+  <match src="): ) [749,750]" dest="): ) [749,750]"/>
+  <match src="identifier: base [844,848]" dest="identifier: base [844,848]"/>
+  <match src="identifier: GetVersion [439,449]" dest="identifier: GetVersion [439,449]"/>
+  <match src="parenthesized_expression [173,202]" dest="parenthesized_expression [173,202]"/>
+  <match src="ERROR [1057,1070]" dest="ERROR [1060,1073]"/>
+  <match src="if: if [424,426]" dest="if: if [424,426]"/>
+  <match src="=: = [327,328]" dest="=: = [327,328]"/>
+  <match src="parenthesized_expression [427,479]" dest="parenthesized_expression [427,479]"/>
+  <match src=":: : [959,960]" dest=":: : [962,963]"/>
+  <match src="field_expression [1214,1224]" dest="field_expression [1217,1227]"/>
+  <match src="return_statement [1196,1319]" dest="return_statement [1199,1322]"/>
+  <match src="compound_statement [480,758]" dest="compound_statement [480,758]"/>
+  <match src="if_statement [424,758]" dest="if_statement [424,758]"/>
+  <match src="parameter_list [21,35]" dest="parameter_list [21,35]"/>
+  <match src="(: ( [157,158]" dest="(: ( [157,158]"/>
+  <match src=";: ; [526,527]" dest=";: ; [526,527]"/>
+  <match src="&amp;&amp;: &amp;&amp; [601,603]" dest="&amp;&amp;: &amp;&amp; [601,603]"/>
+  <match src=":: : [989,990]" dest=":: : [992,993]"/>
+  <match src="call_expression [439,451]" dest="call_expression [439,451]"/>
+  <match src="): ) [1317,1318]" dest="): ) [1320,1321]"/>
+  <match src="argument_list [556,578]" dest="argument_list [556,578]"/>
+  <match src="#if: #if [241,244]" dest="#if: #if [241,244]"/>
+  <match src="primitive_type: bool [63,67]" dest="primitive_type: bool [63,67]"/>
+  <match src="ERROR [428,465]" dest="ERROR [428,465]"/>
+  <match src=":: : [1058,1059]" dest=":: : [1061,1062]"/>
+  <match src="declaration [115,145]" dest="declaration [115,145]"/>
+  <match src=":: : [789,790]" dest=":: : [789,790]"/>
+  <match src="call_expression [697,750]" dest="call_expression [697,750]"/>
+  <match src="call_expression [547,578]" dest="call_expression [547,578]"/>
+  <match src="): ) [867,868]" dest="): ) [867,868]"/>
+  <match src="identifier: OS_MAC [928,934]" dest="identifier: OS_MACOSX [928,937]"/>
+  <match src="false: false [227,232]" dest="false: false [227,232]"/>
+  <match src="identifier: dir_type [772,780]" dest="identifier: dir_type [772,780]"/>
+  <match src=":: : [89,90]" dest=":: : [89,90]"/>
+  <match src="binary_expression [269,285]" dest="binary_expression [269,285]"/>
+  <match src="if_statement [1140,1186]" dest="if_statement [1143,1189]"/>
+  <match src="assignment_expression [876,901]" dest="assignment_expression [876,901]"/>
+  <match src="identifier: check_path_exists [309,326]" dest="identifier: check_path_exists [309,326]"/>
+  <match src="parenthesized_expression [771,807]" dest="parenthesized_expression [771,807]"/>
+  <match src="declaration [488,527]" dest="declaration [488,527]"/>
+  <match src="field_identifier: value [713,718]" dest="field_identifier: value [713,718]"/>
+  <match src="identifier: dir_type [943,951]" dest="identifier: dir_type [946,954]"/>
+  <match src="): ) [1106,1107]" dest="): ) [1109,1110]"/>
+  <match src="(: ( [21,22]" dest="(: ( [21,22]"/>
+  <match src="identifier: VERSION_WIN7 [855,867]" dest="identifier: VERSION_WIN7 [855,867]"/>
+  <match src=":: : [190,191]" dest=":: : [190,191]"/>
+  <match src="identifier: path [1214,1218]" dest="identifier: path [1217,1221]"/>
+  <match src="return: return [1173,1179]" dest="return: return [1176,1182]"/>
+  <match src="expression_statement [309,335]" dest="expression_statement [309,335]"/>
+  <match src="binary_expression [1203,1226]" dest="binary_expression [1206,1229]"/>
+  <match src="else: else [763,767]" dest="else: else [763,767]"/>
+  <match src="(: ( [1230,1231]" dest="(: ( [1233,1234]"/>
+  <match src="identifier: check_path_exists [120,137]" dest="identifier: check_path_exists [120,137]"/>
+  <match src="==: == [378,380]" dest="==: == [378,380]"/>
+  <match src="): ) [840,841]" dest="): ) [840,841]"/>
+  <match src="if_statement [1079,1127]" dest="if_statement [1082,1130]"/>
+  <match src="parenthesized_expression [1230,1318]" dest="parenthesized_expression [1233,1321]"/>
+  <match src="ERROR [618,620]" dest="ERROR [618,620]"/>
+  <match src="identifier: check_path_exists [207,224]" dest="identifier: check_path_exists [207,224]"/>
+  <match src="(: ( [252,253]" dest="(: ( [252,253]"/>
+  <match src="if: if [265,267]" dest="if: if [265,267]"/>
+  <match src="&amp;&amp;: &amp;&amp; [1038,1040]" dest="&amp;&amp;: &amp;&amp; [1041,1043]"/>
+  <match src=";: ; [751,752]" dest=";: ; [751,752]"/>
+  <match src="parameter_declaration [22,34]" dest="parameter_declaration [22,34]"/>
+  <match src="defined: defined [347,354]" dest="defined: defined [347,354]"/>
+  <match src="argument_list [650,679]" dest="argument_list [650,679]"/>
+  <match src="(: ( [942,943]" dest="(: ( [945,946]"/>
+  <match src="return_statement [1173,1186]" dest="return_statement [1176,1189]"/>
+  <match src="if: if [939,941]" dest="if: if [942,944]"/>
+  <match src="): ) [1316,1317]" dest="): ) [1319,1320]"/>
+  <match src=":: : [1027,1028]" dest=":: : [1030,1031]"/>
+  <match src=":: : [848,849]" dest=":: : [848,849]"/>
+  <match src="
+: #if defined(OS_LINUX)
+ [262,263]" dest="
+: #if defined(OS_LINUX)
+ [262,263]"/>
+  <match src="&amp;&amp;: &amp;&amp; [969,971]" dest="&amp;&amp;: &amp;&amp; [972,974]"/>
+  <match src="preproc_if [916,1193]" dest="preproc_if [916,1196]"/>
+  <match src="&amp;: &amp; [104,105]" dest="&amp;: &amp; [104,105]"/>
+  <match src="statement_identifier: base [40,44]" dest="statement_identifier: base [40,44]"/>
+  <match src="binary_expression [174,190]" dest="binary_expression [174,190]"/>
+  <match src=":: : [432,433]" dest=":: : [432,433]"/>
+  <match src="return: return [1196,1202]" dest="return: return [1199,1205]"/>
+  <match src=":: : [433,434]" dest=":: : [433,434]"/>
+  <match src="identifier: base [984,988]" dest="identifier: base [987,991]"/>
+  <match src="=: = [75,76]" dest="=: = [75,76]"/>
+  <match src="&amp;&amp;: &amp;&amp; [1227,1229]" dest="&amp;&amp;: &amp;&amp; [1230,1232]"/>
+  <match src="identifier: win [434,437]" dest="identifier: win [434,437]"/>
+  <match src="(: ( [173,174]" dest="(: ( [173,174]"/>
+  <match src="ERROR [369,387]" dest="ERROR [369,387]"/>
+  <match src="expression_statement [876,902]" dest="expression_statement [876,902]"/>
+  <match src=",: , [720,721]" dest=",: , [720,721]"/>
+  <match src="&amp;&amp;: &amp;&amp; [1001,1003]" dest="&amp;&amp;: &amp;&amp; [1004,1006]"/>
+  <match src="): ) [1166,1167]" dest="): ) [1169,1170]"/>
+  <match src=";: ; [1318,1319]" dest=";: ; [1321,1322]"/>
+  <match src=":: : [45,46]" dest=":: : [45,46]"/>
+  <match src="argument_list [1224,1226]" dest="argument_list [1227,1229]"/>
+  <match src="call_expression [620,679]" dest="call_expression [620,679]"/>
+  <match src="}: } [761,762]" dest="}: } [761,762]"/>
+  <match src="(: ( [268,269]" dest="(: ( [268,269]"/>
+  <match src="identifier: path [55,59]" dest="identifier: path [55,59]"/>
+  <match src="return_statement [1114,1127]" dest="return_statement [1117,1130]"/>
+  <match src="): ) [450,451]" dest="): ) [450,451]"/>
+  <match src="{: { [1072,1073]" dest="{: { [1075,1076]"/>
+  <match src=";: ; [59,60]" dest=";: ; [59,60]"/>
+  <match src="return: return [586,592]" dest="return: return [586,592]"/>
+  <match src=";: ; [1185,1186]" dest=";: ; [1188,1189]"/>
+  <match src="call_expression [1214,1226]" dest="call_expression [1217,1229]"/>
+  <match src=":: : [88,89]" dest=":: : [88,89]"/>
+  <match src="if: if [768,770]" dest="if: if [768,770]"/>
+  <match src="assignment_expression [207,232]" dest="assignment_expression [207,232]"/>
+  <match src="): ) [1070,1071]" dest="): ) [1073,1074]"/>
+  <match src="if_statement [939,1131]" dest="if_statement [942,1134]"/>
+  <match src="(: ( [427,428]" dest="(: ( [427,428]"/>
+  <match src="identifier: base [955,959]" dest="identifier: base [958,962]"/>
+  <match src="argument_list [718,720]" dest="argument_list [718,720]"/>
+  <match src="call_expression [829,841]" dest="call_expression [829,841]"/>
+  <match src="=: = [138,139]" dest="=: = [138,139]"/>
+  <match src="type_identifier: DWORD [534,539]" dest="type_identifier: DWORD [534,539]"/>
+  <match src="identifier: DIR_CACHE [192,201]" dest="identifier: DIR_CACHE [192,201]"/>
+  <match src="identifier: OS_WIN [355,361]" dest="identifier: OS_WIN [355,361]"/>
+  <match src="identifier: VERSION_VISTA [465,478]" dest="identifier: VERSION_VISTA [465,478]"/>
+  <match src="preproc_if [343,915]" dest="preproc_if [343,915]"/>
+  <match src="preproc_defined [347,362]" dest="preproc_defined [347,362]"/>
+  <match src="): ) [1167,1168]" dest="): ) [1170,1171]"/>
+  <match src="): ) [416,417]" dest="): ) [416,417]"/>
+  <match src="identifier: base [784,788]" dest="identifier: base [784,788]"/>
+  <match src=".: . [1218,1219]" dest=".: . [1221,1222]"/>
+  <match src="init_declarator [68,110]" dest="init_declarator [68,110]"/>
+  <match src="identifier: dir_type [1041,1049]" dest="identifier: dir_type [1044,1052]"/>
+  <match src="function_declarator [5,35]" dest="function_declarator [5,35]"/>
+  <match src="field_expression [1083,1104]" dest="field_expression [1086,1107]"/>
+  <match src=":: : [823,824]" dest=":: : [823,824]"/>
+  <match src="return: return [1114,1120]" dest="return: return [1117,1123]"/>
+  <match src="(: ( [1311,1312]" dest="(: ( [1314,1315]"/>
+  <match src="identifier: result [68,74]" dest="identifier: result [68,74]"/>
+  <match src="identifier: file_util [1290,1299]" dest="identifier: file_util [1293,1302]"/>
+  <match src="call_expression [1144,1167]" dest="call_expression [1147,1170]"/>
+  <match src="&amp;&amp;: &amp;&amp; [1210,1212]" dest="&amp;&amp;: &amp;&amp; [1213,1215]"/>
+  <match src="compound_statement [36,1321]" dest="compound_statement [36,1324]"/>
+  <match src="declaration [534,579]" dest="declaration [534,579]"/>
+  <match src=";: ; [144,145]" dest=";: ; [144,145]"/>
+  <match src=";: ; [578,579]" dest=";: ; [578,579]"/>
+  <match src="primitive_type: bool [115,119]" dest="primitive_type: bool [115,119]"/>
+  <match src="identifier: base [1023,1027]" dest="identifier: base [1026,1030]"/>
+  <match src="if_statement [265,335]" dest="if_statement [265,335]"/>
+  <match src="defined: defined [150,157]" dest="defined: defined [150,157]"/>
+  <match src="if: if [365,367]" dest="if: if [365,367]"/>
+  <match src="==: == [781,783]" dest="==: == [781,783]"/>
+  <match src="false: false [744,749]" dest="false: false [744,749]"/>
+  <match src="if: if [1079,1081]" dest="if: if [1082,1084]"/>
+  <match src="parenthesized_expression [368,417]" dest="parenthesized_expression [368,417]"/>
+  <match src="binary_expression [772,788]" dest="binary_expression [772,788]"/>
+  <match src="argument_list [839,841]" dest="argument_list [839,841]"/>
+  <match src=":: : [988,989]" dest=":: : [991,992]"/>
+  <match src="call_expression [90,110]" dest="call_expression [90,110]"/>
+  <match src="type_identifier: wchar_t [488,495]" dest="type_identifier: wchar_t [488,495]"/>
+  <match src="!=: != [1050,1052]" dest="!=: != [1053,1055]"/>
+  <match src="false: false [896,901]" dest="false: false [896,901]"/>
+  <match src=":: : [619,620]" dest=":: : [619,620]"/>
+  <match src="identifier: size [540,544]" dest="identifier: size [540,544]"/>
+  <match src="compound_statement [808,907]" dest="compound_statement [808,907]"/>
+  <match src="identifier: OS_POSIX [158,166]" dest="identifier: OS_POSIX [158,166]"/>
+  <match src="(: ( [556,557]" dest="(: ( [556,557]"/>
+  <match src="identifier: path [708,712]" dest="identifier: path [708,712]"/>
+  <match src=":: : [458,459]" dest=":: : [458,459]"/>
+  <match src="(: ( [1143,1144]" dest="(: ( [1146,1147]"/>
+  <match src="identifier: default_profile_path [651,671]" dest="identifier: default_profile_path [651,671]"/>
+  <match src="identifier: path [1083,1087]" dest="identifier: path [1086,1090]"/>
+  <match src="=: = [225,226]" dest="=: = [225,226]"/>
+  <match src="binary_expression [1203,1318]" dest="binary_expression [1206,1321]"/>
+  <match src="ERROR [1027,1037]" dest="ERROR [1030,1040]"/>
+  <match src="identifier: win [460,463]" dest="identifier: win [460,463]"/>
+  <match src="identifier: result [594,600]" dest="identifier: result [594,600]"/>
+  <match src="binary_expression [369,385]" dest="binary_expression [369,385]"/>
+  <match src=":: : [438,439]" dest=":: : [438,439]"/>
+  <match src="identifier: default_profile_path [722,742]" dest="identifier: default_profile_path [722,742]"/>
+  <match src=":: : [827,828]" dest=":: : [827,828]"/>
+  <match src="binary_expression [943,988]" dest="binary_expression [946,991]"/>
+  <match src="}: } [1320,1321]" dest="}: } [1323,1324]"/>
+  <match src="#else: #else [1132,1137]" dest="#else: #else [1135,1140]"/>
+  <match src="#endif: #endif [234,240]" dest="#endif: #endif [234,240]"/>
+  <match src="(: ( [449,450]" dest="(: ( [449,450]"/>
+  <match src="if: if [170,172]" dest="if: if [170,172]"/>
+  <match src="declaration [46,60]" dest="declaration [46,60]"/>
+  <match src="identifier: FILE_MODULE [1059,1070]" dest="identifier: FILE_MODULE [1062,1073]"/>
+  <match src="identifier: win [850,853]" dest="identifier: win [850,853]"/>
+  <match src="identifier: DIR_USER_DESKTOP [287,303]" dest="identifier: DIR_USER_DESKTOP [287,303]"/>
+  <match src=":: : [1057,1058]" dest=":: : [1060,1061]"/>
+  <match src="||: || [1250,1252]" dest="||: || [1253,1255]"/>
+  <match src="ERROR [788,806]" dest="ERROR [788,806]"/>
+  <match src="identifier: base [1053,1057]" dest="identifier: base [1056,1060]"/>
+  <match src="preproc_if [146,240]" dest="preproc_if [146,240]"/>
+  <match src="if_statement [170,233]" dest="if_statement [170,233]"/>
+  <match src="false: false [1121,1126]" dest="false: false [1124,1129]"/>
+  <match src="if_statement [814,902]" dest="if_statement [814,902]"/>
+  <match src="): ) [1225,1226]" dest="): ) [1228,1229]"/>
+  <match src="identifier: arraysize [547,556]" dest="identifier: arraysize [547,556]"/>
+  <match src="binary_expression [943,1027]" dest="binary_expression [946,1030]"/>
+  <match src="binary_expression [1041,1057]" dest="binary_expression [1044,1060]"/>
+  <match src="(: ( [93,94]" dest="(: ( [93,94]"/>
+  <match src="ERROR [988,1000]" dest="ERROR [991,1003]"/>
+  <match src="(: ( [650,651]" dest="(: ( [650,651]"/>
+  <match src="identifier: dir_type [369,377]" dest="identifier: dir_type [369,377]"/>
+  <match src="(: ( [771,772]" dest="(: ( [771,772]"/>
+  <match src="identifier: PathExists [1301,1311]" dest="identifier: PathExists [1304,1314]"/>
+  <match src="=: = [545,546]" dest="=: = [545,546]"/>
+  <match src="init_declarator [540,578]" dest="init_declarator [540,578]"/>
+  <match src="(: ( [1082,1083]" dest="(: ( [1085,1086]"/>
+  <match src="false: false [329,334]" dest="false: false [329,334]"/>
+  <match src=":: : [44,45]" dest=":: : [44,45]"/>
+  <match src="parenthesized_expression [1082,1107]" dest="parenthesized_expression [1085,1110]"/>
+  <match src="parenthesized_expression [268,304]" dest="parenthesized_expression [268,304]"/>
+  <match src="compound_statement [418,762]" dest="compound_statement [418,762]"/>
+  <match src=":: : [437,438]" dest=":: : [437,438]"/>
+  <match src="
+: #if defined(OS_POSIX)
+ [167,168]" dest="
+: #if defined(OS_POSIX)
+ [167,168]"/>
+  <match src="ERROR [959,968]" dest="ERROR [962,971]"/>
+  <match src="identifier: default_profile_path [496,516]" dest="identifier: default_profile_path [496,516]"/>
+  <match src=":: : [788,789]" dest=":: : [788,789]"/>
+  <match src=",: , [742,743]" dest=",: , [742,743]"/>
+  <match src="): ) [361,362]" dest="): ) [361,362]"/>
+  <match src="if_statement [768,907]" dest="if_statement [768,907]"/>
+  <match src="&lt;: &lt; [842,843]" dest="&lt;: &lt; [842,843]"/>
+  <match src=".: . [1087,1088]" dest=".: . [1090,1091]"/>
+  <match src="binary_expression [594,750]" dest="binary_expression [594,750]"/>
+  <match src="identifier: Get [90,93]" dest="identifier: Get [90,93]"/>
+  <match src="{: { [36,37]" dest="{: { [36,37]"/>
+  <match src="argument_list [449,451]" dest="argument_list [449,451]"/>
+  <match src=":: : [854,855]" dest=":: : [854,855]"/>
+  <match src="(: ( [368,369]" dest="(: ( [368,369]"/>
+  <match src="identifier: DIR_DEFAULT_USER_QUICK_LAUNCH [387,416]" dest="identifier: DIR_DEFAULT_USER_QUICK_LAUNCH [387,416]"/>
+  <match src=":: : [385,386]" dest=":: : [385,386]"/>
+  <match src="{: { [480,481]" dest="{: { [480,481]"/>
+  <match src="): ) [201,202]" dest="): ) [201,202]"/>
+  <match src="!: ! [1213,1214]" dest="!: ! [1216,1217]"/>
+  <match src="): ) [478,479]" dest="): ) [478,479]"/>
+  <match src="false: false [1180,1185]" dest="false: false [1183,1188]"/>
+  <match src="!=: != [981,983]" dest="!=: != [984,986]"/>
+  <match src="identifier: base [818,822]" dest="identifier: base [818,822]"/>
+  <match src="#endif: #endif [1187,1193]" dest="#endif: #endif [1190,1196]"/>
+  <match src="declaration [63,111]" dest="declaration [63,111]"/>
+  <match src="identifier: base [186,190]" dest="identifier: base [186,190]"/>
+  <match src="binary_expression [972,988]" dest="binary_expression [975,991]"/>
+  <match src="#if: #if [146,149]" dest="#if: #if [146,149]"/>
+  <match src="#if: #if [916,919]" dest="#if: #if [916,919]"/>
+  <match src="preproc_if [241,342]" dest="preproc_if [241,342]"/>
+  <match src="
+: #if defined(OS_MAC)
+ [935,936]" dest="
+: #if defined(OS_MACOSX)
+ [938,939]"/>
+  <match src="(: ( [1224,1225]" dest="(: ( [1227,1228]"/>
+  <match src="ERROR [190,201]" dest="ERROR [190,201]"/>
+  <match src="binary_expression [439,458]" dest="binary_expression [439,458]"/>
+  <match src="identifier: check_path_exists [1232,1249]" dest="identifier: check_path_exists [1235,1252]"/>
+  <match src="call_expression [1083,1106]" dest="call_expression [1086,1109]"/>
+  <match src="if: if [1140,1142]" dest="if: if [1143,1145]"/>
+  <match src="unary_expression [1231,1249]" dest="unary_expression [1234,1252]"/>
+  <match src=":: : [1299,1300]" dest=":: : [1302,1303]"/>
+  <match src="call_expression [1301,1317]" dest="call_expression [1304,1320]"/>
+  <match src="}: } [757,758]" dest="}: } [757,758]"/>
+  <match src="): ) [577,578]" dest="): ) [577,578]"/>
+  <match src="identifier: DIR_EXE [961,968]" dest="identifier: DIR_EXE [964,971]"/>
+  <match src="identifier: win [824,827]" dest="identifier: win [824,827]"/>
+  <match src="identifier: dir_type [1011,1019]" dest="identifier: dir_type [1014,1022]"/>
+  <match src="}: } [1130,1131]" dest="}: } [1133,1134]"/>
+  <match src="identifier: base [381,385]" dest="identifier: base [381,385]"/>
+  <match src="identifier: MAX_PATH [517,525]" dest="identifier: MAX_PATH [517,525]"/>
+  <match src=";: ; [110,111]" dest=";: ; [110,111]"/>
+  <match src=":: : [960,961]" dest=":: : [963,964]"/>
+  <match src="identifier: DIR_TASKBAR_PINS [790,806]" dest="identifier: DIR_TASKBAR_PINS [790,806]"/>
+  <match src="identifier: dir_type [269,277]" dest="identifier: dir_type [269,277]"/>
+  <match src="argument_list [707,750]" dest="argument_list [707,750]"/>
+  <match src="translation_unit [0,1321]" dest="translation_unit [0,1324]"/>
+  <match src="identifier: dir_type [94,102]" dest="identifier: dir_type [94,102]"/>
+  <match src=":: : [1300,1301]" dest=":: : [1303,1304]"/>
+  <match src="&amp;: &amp; [673,674]" dest="&amp;: &amp; [673,674]"/>
+  <match src="#endif: #endif [909,915]" dest="#endif: #endif [909,915]"/>
+  <match src="identifier: default_profile_path [557,577]" dest="identifier: default_profile_path [557,577]"/>
+  <match src="#endif: #endif [336,342]" dest="#endif: #endif [336,342]"/>
+  <match src="{: { [418,419]" dest="{: { [418,419]"/>
+  <match src="): ) [303,304]" dest="): ) [303,304]"/>
+  <match src="!=: != [952,954]" dest="!=: != [955,957]"/>
+  <match src="pointer_expression [673,678]" dest="pointer_expression [673,678]"/>
+  <match src=":: : [459,460]" dest=":: : [459,460]"/>
+  <match src="pointer_expression [104,109]" dest="pointer_expression [104,109]"/>
+  <match src="binary_expression [943,959]" dest="binary_expression [946,962]"/>
+  <match src="(: ( [1165,1166]" dest="(: ( [1168,1169]"/>
+  <match src=":: : [822,823]" dest=":: : [822,823]"/>
+  <match src="identifier: OS_LINUX [253,261]" dest="identifier: OS_LINUX [253,261]"/>
+  <match src="): ) [261,262]" dest="): ) [261,262]"/>
+  <match src="assignment_expression [309,334]" dest="assignment_expression [309,334]"/>
+  <match src="(: ( [354,355]" dest="(: ( [354,355]"/>
+  <match src="identifier: GetVersion [829,839]" dest="identifier: GetVersion [829,839]"/>
+  <match src="field_identifier: empty [1219,1224]" dest="field_identifier: empty [1222,1227]"/>
+  <match src=";: ; [901,902]" dest=";: ; [901,902]"/>
+  <match src="(: ( [707,708]" dest="(: ( [707,708]"/>
+  <match src=":: : [849,850]" dest=":: : [849,850]"/>
+  <match src=":: : [463,464]" dest=":: : [463,464]"/>
+  <match src="identifier: base [428,432]" dest="identifier: base [428,432]"/>
+  <match src="(: ( [718,719]" dest="(: ( [718,719]"/>
+  <match src="ERROR [77,90]" dest="ERROR [77,90]"/>
+  <match src="argument_list [1104,1106]" dest="argument_list [1107,1109]"/>
+  <match src="init_declarator [120,144]" dest="init_declarator [120,144]"/>
+  <match src="expression_statement [207,233]" dest="expression_statement [207,233]"/>
+  <match src="#if: #if [343,346]" dest="#if: #if [343,346]"/>
+  <match src="): ) [34,35]" dest="): ) [34,35]"/>
+  <match src="preproc_defined [245,262]" dest="preproc_defined [245,262]"/>
+  <match src=":: : [618,619]" dest=":: : [618,619]"/>
+  <match src=",: , [671,672]" dest=",: , [671,672]"/>
+  <match src="field_expression [708,718]" dest="field_expression [708,718]"/>
+  <match src="field_identifier: ReferencesParent [1088,1104]" dest="field_identifier: ReferencesParent [1091,1107]"/>
+  <match src="==: == [183,185]" dest="==: == [183,185]"/>
+  <match src=".: . [1148,1149]" dest=".: . [1151,1152]"/>
+  <match src="preproc_defined [150,167]" dest="preproc_defined [150,167]"/>
+  <match src="identifier: result [1203,1209]" dest="identifier: result [1206,1212]"/>
+  <match src="identifier: dir_type [26,34]" dest="identifier: dir_type [26,34]"/>
+  <match src="(: ( [839,840]" dest="(: ( [839,840]"/>
+  <match src="if_statement [365,907]" dest="if_statement [365,907]"/>
+  <match src="parenthesized_expression [1143,1168]" dest="parenthesized_expression [1146,1171]"/>
+  <match src="binary_expression [829,848]" dest="binary_expression [829,848]"/>
+  <match src="argument_list [1311,1317]" dest="argument_list [1314,1320]"/>
+  <match src="identifier: FILE_EXE [1029,1037]" dest="identifier: FILE_EXE [1032,1040]"/>
+  <match src="compound_statement [1072,1131]" dest="compound_statement [1075,1134]"/>
+  <match src="identifier: path [1144,1148]" dest="identifier: path [1147,1151]"/>
+  <match src="identifier: path [1312,1316]" dest="identifier: path [1315,1319]"/>
+  <match src="identifier: path [105,109]" dest="identifier: path [105,109]"/>
+</matches>
+<actions>
+  <update-node tree="
+: #if defined(OS_MAC)
+ [935,936]" label="#if defined(OS_MACOSX)
+"/>
+  <update-node tree="identifier: OS_MAC [928,934]" label="OS_MACOSX"/>
+</actions>

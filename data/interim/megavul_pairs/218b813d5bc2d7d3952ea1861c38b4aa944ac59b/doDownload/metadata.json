@@ -1,0 +1,20 @@
+{
+    "id": "218b813d5bc2d7d3952ea1861c38b4aa944ac59b_doDownload_0",
+    "func_name": "doDownload",
+    "cve_id": "CVE-2016-5348",
+    "cwe_ids": [
+        "CWE-399"
+    ],
+    "commit_hash": "218b813d5bc2d7d3952ea1861c38b4aa944ac59b",
+    "parent_commit_hash": "f5334952131afa835dd3f08601fb3bced7b781cd",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/218b813d5bc2d7d3952ea1861c38b4aa944ac59b",
+    "file_path": "services/core/java/com/android/server/location/GpsXtraDownloader.java",
+    "file_name": "GpsXtraDownloader.java",
+    "commit_date": 1471994391,
+    "commit_msg": "DO NOT MERGE: Fix vulnerability where large GPS XTRA data can be\ninjected.\n-Can potentially crash system with OOM.\nBug: 29555864\n\nChange-Id: I7157f48dddf148a9bcab029cf12e26a58d8054f4\n(cherry picked from commit 79375723f0f201a6759ddbfda57d491ff3fea64e)\n",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:N/I:N/A:C",
+    "cvss_base_score": 7.1,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

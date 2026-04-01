@@ -1,0 +1,20 @@
+{
+    "id": "c1e848665492e21ef6cc9be443205e36b9a1f6be_find_0",
+    "func_name": "find",
+    "cve_id": "CVE-2016-15018",
+    "cwe_ids": [
+        "CWE-89"
+    ],
+    "commit_hash": "c1e848665492e21ef6cc9be443205e36b9a1f6be",
+    "parent_commit_hash": "b64a15b254b2aa378b1e0463cf10515462606a98",
+    "repo_name": "KrailOrg/krail-jpa",
+    "git_url": "https://github.com/KrailOrg/krail-jpa/commit/c1e848665492e21ef6cc9be443205e36b9a1f6be",
+    "file_path": "src/main/java/uk/q3c/krail/jpa/i18n/JpaPatternDao.java",
+    "file_name": "JpaPatternDao.java",
+    "commit_date": 1453112417,
+    "commit_msg": "Fix #18 SQLInjection vulnerability cleared\n\nPattern and Option DAOs re-written to a common key-value base class.  Using composite primary key in place of surrogate key.",
+    "cvss_vector": "AV:A/AC:L/Au:S/C:P/I:P/A:P",
+    "cvss_base_score": 5.2,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

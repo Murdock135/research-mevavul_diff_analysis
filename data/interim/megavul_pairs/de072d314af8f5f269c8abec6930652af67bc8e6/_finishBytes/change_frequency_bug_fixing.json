@@ -1,0 +1,242 @@
+{
+  "frequency": [
+    {
+      "c": "If",
+      "f": "7"
+    },
+    {
+      "c": "Invocation",
+      "f": "5"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "4"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "3"
+    },
+    {
+      "c": "While",
+      "f": "2"
+    },
+    {
+      "c": "VariableRead",
+      "f": "1"
+    },
+    {
+      "c": "Return",
+      "f": "1"
+    },
+    {
+      "c": "Block",
+      "f": "1"
+    },
+    {
+      "c": "Throw",
+      "f": "1"
+    },
+    {
+      "c": "VirtualElement",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "insert-node_If_Block",
+      "f": "4"
+    },
+    {
+      "c": "move-tree_LocalVariable_Block",
+      "f": "2"
+    },
+    {
+      "c": "update-node_Invocation_Block",
+      "f": "2"
+    },
+    {
+      "c": "move-tree_If_Block",
+      "f": "2"
+    },
+    {
+      "c": "move-tree_Invocation_Block",
+      "f": "2"
+    },
+    {
+      "c": "delete-node_Return_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_While_Block",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_Invocation_Throw",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_While_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Block_If",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_BinaryOperator_If",
+      "f": "1"
+    },
+    {
+      "c": "update-node_VariableRead_BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Throw_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_BinaryOperator_If",
+      "f": "1"
+    },
+    {
+      "c": "update-node_BinaryOperator_If",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_VirtualElement_LocalVariable",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "If",
+      "f": "0.2692307692307692"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.19230769230769232"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "0.15384615384615385"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "0.11538461538461539"
+    },
+    {
+      "c": "While",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "VariableRead",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "Return",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "Block",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "Throw",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "VirtualElement",
+      "f": "0.038461538461538464"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "insert-node_If_Block",
+      "f": "0.15384615384615385"
+    },
+    {
+      "c": "move-tree_LocalVariable_Block",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "update-node_Invocation_Block",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "move-tree_If_Block",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "move-tree_Invocation_Block",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "delete-node_Return_Block",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "move-tree_While_Block",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "update-node_Invocation_Throw",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "delete-node_While_Block",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "move-tree_Block_If",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "delete-node_BinaryOperator_If",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "update-node_VariableRead_BinaryOperator",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "delete-node_Throw_Block",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "move-tree_BinaryOperator_If",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "update-node_BinaryOperator_If",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "insert-node_VirtualElement_LocalVariable",
+      "f": "0.038461538461538464"
+    }
+  ]
+}

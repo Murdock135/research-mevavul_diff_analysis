@@ -1,0 +1,20 @@
+{
+    "id": "d104f38aaae2f1b76c33fadfcf6b1ef1c6c340ed_upload_0",
+    "func_name": "upload",
+    "cve_id": "CVE-2023-29638",
+    "cwe_ids": [
+        "CWE-79"
+    ],
+    "commit_hash": "d104f38aaae2f1b76c33fadfcf6b1ef1c6c340ed",
+    "parent_commit_hash": "8f081ac4d29bd1ac998e9cf4bc576286859a86a0",
+    "repo_name": "WinterChenS/my-site",
+    "git_url": "https://github.com/WinterChenS/my-site/commit/d104f38aaae2f1b76c33fadfcf6b1ef1c6c340ed",
+    "file_path": "src/main/java/cn/luischen/api/QiniuCloudService.java",
+    "file_name": "QiniuCloudService.java",
+    "commit_date": 1680125142,
+    "commit_msg": "fix\uff1aThere is a stored XSS on the article page. #74",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+    "cvss_base_score": 5.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

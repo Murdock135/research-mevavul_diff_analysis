@@ -1,0 +1,112 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src=",: , [26,27]" dest=",: , [26,27]"/>
+  <match src="(: ( [70,71]" dest="(: ( [83,84]"/>
+  <match src="=: = [182,183]" dest="=: = [142,143]"/>
+  <match src=";: ; [120,121]" dest=";: ; [133,134]"/>
+  <match src="identifier: PATH_MAX [76,84]" dest="identifier: PATH_MAX [89,97]"/>
+  <match src="': ' [153,154]" dest="': ' [190,191]"/>
+  <match src="return: return [194,200]" dest="return: return [223,229]"/>
+  <match src="assignment_expression [59,92]" dest="assignment_expression [72,105]"/>
+  <match src="identifier: VFile [86,91]" dest="identifier: VFile [99,104]"/>
+  <match src="!: ! [100,101]" dest="!: ! [113,114]"/>
+  <match src="char_literal [153,157]" dest="char_literal [190,194]"/>
+  <match src="return: return [109,115]" dest="return: return [122,128]"/>
+  <match src="identifier: get_next_file [1,14]" dest="identifier: get_next_file [1,14]"/>
+  <match src=",: , [84,85]" dest=",: , [97,98]"/>
+  <match src="primitive_type: char [44,48]" dest="primitive_type: char [44,48]"/>
+  <match src="}: } [207,208]" dest="}: } [236,237]"/>
+  <match src="argument_list [70,92]" dest="argument_list [83,105]"/>
+  <match src="{: { [40,41]" dest="{: { [40,41]"/>
+  <match src="call_expression [1,38]" dest="call_expression [1,38]"/>
+  <match src="escape_sequence: \n [154,156]" dest="escape_sequence: \n [191,193]"/>
+  <match src="): ) [157,158]" dest="): ) [194,195]"/>
+  <match src="*: * [20,21]" dest="*: * [20,21]"/>
+  <match src="identifier: ret [59,62]" dest="identifier: ret [72,75]"/>
+  <match src="char_literal [184,188]" dest="char_literal [213,217]"/>
+  <match src="null [116,120]" dest="null [129,133]"/>
+  <match src="declaration [44,54]" dest="declaration [44,54]"/>
+  <match src="if: if [96,98]" dest="if: if [109,111]"/>
+  <match src="identifier: VFile [21,26]" dest="identifier: VFile [21,26]"/>
+  <match src="): ) [91,92]" dest="): ) [104,105]"/>
+  <match src="identifier: strlen [165,171]" dest="identifier: strlen [144,150]"/>
+  <match src="identifier: FILE [15,19]" dest="identifier: FILE [15,19]"/>
+  <match src="): ) [37,38]" dest="): ) [37,38]"/>
+  <match src="expression_statement [59,93]" dest="expression_statement [72,106]"/>
+  <match src="assignment_expression [161,188]" dest="assignment_expression [138,156]"/>
+  <match src="binary_expression [129,157]" dest="binary_expression [163,194]"/>
+  <match src="*: * [33,34]" dest="*: * [33,34]"/>
+  <match src="return_statement [109,121]" dest="return_statement [122,134]"/>
+  <match src="): ) [175,176]" dest="): ) [155,156]"/>
+  <match src="; [38,38]" dest="; [38,38]"/>
+  <match src=";: ; [188,189]" dest=";: ; [156,157]"/>
+  <match src="translation_unit [1,208]" dest="translation_unit [1,237]"/>
+  <match src="unary_expression [100,104]" dest="unary_expression [113,117]"/>
+  <match src="identifier: ret [50,53]" dest="identifier: ret [50,53]"/>
+  <match src="identifier: ptr [34,37]" dest="identifier: ptr [34,37]"/>
+  <match src="(: ( [99,100]" dest="(: ( [112,113]"/>
+  <match src="expression_statement [1,38]" dest="expression_statement [1,38]"/>
+  <match src="argument_list [171,176]" dest="argument_list [151,156]"/>
+  <match src="binary_expression [28,37]" dest="binary_expression [28,37]"/>
+  <match src="): ) [104,105]" dest="): ) [117,118]"/>
+  <match src="call_expression [65,92]" dest="call_expression [78,105]"/>
+  <match src="identifier: ptr [71,74]" dest="identifier: ptr [84,87]"/>
+  <match src="expression_statement [161,189]" dest="expression_statement [138,157]"/>
+  <match src="return_statement [194,205]" dest="return_statement [223,234]"/>
+  <match src="NULL: NULL [116,120]" dest="NULL: NULL [129,133]"/>
+  <match src="': ' [184,185]" dest="': ' [213,214]"/>
+  <match src="identifier: fgets [65,70]" dest="identifier: fgets [78,83]"/>
+  <match src=";: ; [92,93]" dest=";: ; [105,106]"/>
+  <match src="if_statement [125,189]" dest="if_statement [159,218]"/>
+  <match src="(: ( [171,172]" dest="(: ( [151,152]"/>
+  <match src="identifier: ptr [172,175]" dest="identifier: ptr [152,155]"/>
+  <match src="pointer_declarator [49,53]" dest="pointer_declarator [49,53]"/>
+  <match src="(: ( [14,15]" dest="(: ( [14,15]"/>
+  <match src="identifier: ret [201,204]" dest="identifier: ret [230,233]"/>
+  <match src="parenthesized_expression [99,105]" dest="parenthesized_expression [112,118]"/>
+  <match src="(: ( [128,129]" dest="(: ( [162,163]"/>
+  <match src="=: = [63,64]" dest="=: = [76,77]"/>
+  <match src="argument_list [14,38]" dest="argument_list [14,38]"/>
+  <match src="binary_expression [15,26]" dest="binary_expression [15,26]"/>
+  <match src="compound_statement [40,208]" dest="compound_statement [40,237]"/>
+  <match src=";: ; [53,54]" dest=";: ; [53,54]"/>
+  <match src="if: if [125,127]" dest="if: if [159,161]"/>
+  <match src="identifier: ret [101,104]" dest="identifier: ret [114,117]"/>
+  <match src="call_expression [165,176]" dest="call_expression [144,156]"/>
+  <match src="': ' [156,157]" dest="': ' [193,194]"/>
+  <match src="if_statement [96,121]" dest="if_statement [109,134]"/>
+  <match src="parenthesized_expression [128,158]" dest="parenthesized_expression [162,195]"/>
+  <match src="escape_sequence: \0 [185,187]" dest="escape_sequence: \0 [214,216]"/>
+  <match src=";: ; [204,205]" dest=";: ; [233,234]"/>
+  <match src="': ' [187,188]" dest="': ' [216,217]"/>
+  <match src="identifier: char [28,32]" dest="identifier: char [28,32]"/>
+  <match src="*: * [49,50]" dest="*: * [49,50]"/>
+  <match src=",: , [74,75]" dest=",: , [87,88]"/>
+</matches>
+<actions>
+  <insert-tree tree="declaration [56,67]" parent="compound_statement [40,208]" at="2"/>
+  <move-tree tree="expression_statement [161,189]" parent="compound_statement [40,208]" at="5"/>
+  <insert-node tree="expression_statement [198,218]" parent="if_statement [125,189]" at="2"/>
+  <insert-node tree="identifier: len [138,141]" parent="assignment_expression [161,188]" at="0"/>
+  <move-tree tree="call_expression [165,176]" parent="assignment_expression [161,188]" at="3"/>
+  <insert-node tree="assignment_expression [198,217]" parent="expression_statement [198,218]" at="0"/>
+  <insert-node tree=";: ; [217,218]" parent="expression_statement [198,218]" at="1"/>
+  <insert-tree tree="binary_expression [163,170]" parent="binary_expression [129,157]" at="0"/>
+  <insert-node tree="&amp;&amp;: &amp;&amp; [171,173]" parent="binary_expression [129,157]" at="1"/>
+  <insert-node tree="binary_expression [174,194]" parent="binary_expression [129,157]" at="2"/>
+  <insert-tree tree="subscript_expression [198,210]" parent="assignment_expression [198,217]" at="0"/>
+  <insert-node tree="=: = [211,212]" parent="assignment_expression [198,217]" at="1"/>
+  <move-tree tree="char_literal [184,188]" parent="assignment_expression [198,217]" at="2"/>
+  <insert-tree tree="subscript_expression [174,186]" parent="binary_expression [174,194]" at="0"/>
+  <insert-node tree="==: == [187,189]" parent="binary_expression [174,194]" at="1"/>
+  <move-tree tree="char_literal [153,157]" parent="binary_expression [174,194]" at="2"/>
+  <delete-node tree="identifier: ptr [161,164]"/>
+  <delete-node tree="[: [ [164,165]"/>
+  <delete-node tree="-: - [177,178]"/>
+  <delete-node tree="number_literal: 1 [179,180]"/>
+  <delete-node tree="binary_expression [165,180]"/>
+  <delete-node tree="]: ] [180,181]"/>
+  <delete-node tree="subscript_expression [161,181]"/>
+  <delete-tree tree="subscript_expression [129,149]"/>
+  <delete-node tree="==: == [150,152]"/>
+</actions>

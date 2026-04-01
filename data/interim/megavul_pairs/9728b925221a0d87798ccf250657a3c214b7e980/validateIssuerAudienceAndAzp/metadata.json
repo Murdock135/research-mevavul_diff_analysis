@@ -1,0 +1,20 @@
+{
+    "id": "9728b925221a0d87798ccf250657a3c214b7e980_validateIssuerAudienceAndAzp_0",
+    "func_name": "validateIssuerAudienceAndAzp",
+    "cve_id": "CVE-2023-36820",
+    "cwe_ids": [
+        "CWE-284"
+    ],
+    "commit_hash": "9728b925221a0d87798ccf250657a3c214b7e980",
+    "parent_commit_hash": "c3eeb1957a1e3d5a6b60042a349bbc93cd0809fc",
+    "repo_name": "micronaut-projects/micronaut-security",
+    "git_url": "https://github.com/micronaut-projects/micronaut-security/commit/9728b925221a0d87798ccf250657a3c214b7e980",
+    "file_path": "security-oauth2/src/main/java/io/micronaut/security/oauth2/client/IdTokenClaimsValidator.java",
+    "file_name": "IdTokenClaimsValidator.java",
+    "commit_date": 1687487816,
+    "commit_msg": "Merge pull request from GHSA-qw22-8w9r-864h\n\nThe `aud` claim should contain the Client ID.\n\nhttps://openid.net/specs/openid-connect-core-1_0.html#IDTokenValidation\n\n> Clients MUST validate the ID Token in the Token Response in the following manner:\n...\n> 1.2. The Issuer Identifier for the OpenID Provider (which is typically obtained during Discovery) MUST exactly match the value of the iss (issuer) Claim.\n> 1.3. The Client MUST validate that the aud (audience) Claim contains its client_id value registered at the Issuer identified by the iss (issuer) Claim as an audience.\n\nThe audience claim is [validated correctly when obtained from authorisation server.](https://github.com/micronaut-projects/micronaut-security/blob/master/security-oauth2/src/main/java/io/micronaut/security/oauth2/endpoint/token/response/validation/DefaultOpenIdTokenResponseValidator.java#L122) with the [`AudienceClaimValidator`](https://github.com/micronaut-projects/micronaut-security/blob/master/security-oauth2/src/main/java/io/micronaut/security/oauth2/endpoint/token/response/validation/AudienceClaimValidator.java).\n\nHowever, if the user set `micronaut.security.authentication` to `idtoken`, the token validation of a new request does not validate `aud` claim to match the Client ID if the `iss` claim matched an existing issuer in the application.\n\nThis change fixes this vulnerability.",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+    "cvss_base_score": 6.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

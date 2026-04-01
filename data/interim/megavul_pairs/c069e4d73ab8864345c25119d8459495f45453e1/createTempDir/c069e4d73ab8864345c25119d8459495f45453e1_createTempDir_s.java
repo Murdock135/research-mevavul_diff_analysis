@@ -1,0 +1,11 @@
+class createTempDir {
+public static File createTempDir() throws IOException {
+		File tmpFile = File.createTempFile("okm", null);
+
+		if (!tmpFile.delete())
+			throw new IOException();
+		if (!tmpFile.mkdir())
+			throw new IOException();
+		return tmpFile;
+	}
+}

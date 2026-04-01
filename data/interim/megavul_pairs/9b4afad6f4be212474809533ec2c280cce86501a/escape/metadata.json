@@ -1,0 +1,20 @@
+{
+    "id": "9b4afad6f4be212474809533ec2c280cce86501a_escape_0",
+    "func_name": "escape",
+    "cve_id": "CVE-2022-31267",
+    "cwe_ids": [
+        "CWE-269"
+    ],
+    "commit_hash": "9b4afad6f4be212474809533ec2c280cce86501a",
+    "parent_commit_hash": "16ec6d07c58356d9b20652b5ae168ae9f0fd2eaa",
+    "repo_name": "gitblit-org/gitblit",
+    "git_url": "https://github.com/gitblit-org/gitblit/commit/9b4afad6f4be212474809533ec2c280cce86501a",
+    "file_path": "src/main/java/com/gitblit/StoredUserConfig.java",
+    "file_name": "StoredUserConfig.java",
+    "commit_date": 1647162197,
+    "commit_msg": "fix: Fix StoredUserConfig not escaping control characters\n\nThe `StoredUserConfig` only escaped the escape character, i.e. backslash.\nBut it does not escape control characters like tab or newline. This\nintroduces a vulnerability where an attacker can create new entries\nin their user account and create new accounts.\nIn addition, other characters are also not properly handled. Field values\nwith a comment character need to be quoted. This only happens for the\n`#` character and only when the value starts with it. Also the quote\nis note escaped in values.\n\nThis change completely rewrites the `escape` method of `StoredUserConfig`.\nIt takes care of properly escaping characters that need escaping for the\ngit configuration file format.\n\nThis fixes #1410",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

@@ -1,0 +1,260 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="return_statement [157,170]" dest="return_statement [668,681]"/>
+  <match src="primitive_type: int [52,55]" dest="primitive_type: int [402,405]"/>
+  <match src="argument_list [1287,1475]" dest="argument_list [1322,1531]"/>
+  <match src="primitive_type: bool [0,4]" dest="primitive_type: bool [0,4]"/>
+  <match src="field_expression [1304,1318]" dest="field_expression [1350,1364]"/>
+  <match src="identifier: interface [1121,1130]" dest="identifier: interface [1491,1500]"/>
+  <match src="*: * [40,41]" dest="*: * [390,391]"/>
+  <match src="identifier: interface [1304,1313]" dest="identifier: interface [1350,1359]"/>
+  <match src="identifier: NetworkInterface [1271,1287]" dest="identifier: NetworkInterface [1306,1322]"/>
+  <match src="identifier: interface [834,843]" dest="identifier: interface [1427,1436]"/>
+  <match src="): ) [1474,1475]" dest="): ) [1530,1531]"/>
+  <match src="field_identifier: index [1330,1335]" dest="field_identifier: id [1376,1378]"/>
+  <match src="argument_list [1445,1447]" dest="argument_list [314,316]"/>
+  <match src="identifier: policy [56,62]" dest="identifier: policy [406,412]"/>
+  <match src=".: . [843,844]" dest=".: . [1436,1437]"/>
+  <match src="field_identifier: addr [844,848]" dest="field_identifier: addr [1437,1441]"/>
+  <match src="function_declarator [5,63]" dest="function_declarator [355,413]"/>
+  <match src="identifier: GetNetworkList [5,19]" dest="identifier: GetNetworkList [355,369]"/>
+  <match src=",: , [1403,1404]" dest=",: , [1395,1396]"/>
+  <match src="(: ( [1445,1446]" dest="(: ( [314,315]"/>
+  <match src="field_expression [1320,1335]" dest="field_expression [1366,1378]"/>
+  <match src="field_identifier: name [1314,1318]" dest="field_identifier: name [1360,1364]"/>
+  <match src="field_identifier: netmask [1131,1138]" dest="field_identifier: netmask [1501,1508]"/>
+  <match src=",: , [1318,1319]" dest=",: , [1364,1365]"/>
+  <match src="(: ( [1198,1199]" dest="(: ( [289,290]"/>
+  <match src=".: . [1297,1298]" dest=".: . [1342,1343]"/>
+  <match src="parameter_declaration [20,50]" dest="parameter_declaration [370,400]"/>
+  <match src=",: , [1447,1448]" dest=",: , [1442,1443]"/>
+  <match src="type_identifier: NetworkInterfaceList [20,40]" dest="type_identifier: NetworkInterfaceList [370,390]"/>
+  <match src=",: , [1335,1336]" dest=",: , [1378,1379]"/>
+  <match src="(: ( [19,20]" dest="(: ( [369,370]"/>
+  <match src=",: , [1462,1463]" dest=",: , [1510,1511]"/>
+  <match src="argument_list [1198,1200]" dest="argument_list [289,291]"/>
+  <match src="identifier: interface [1320,1329]" dest="identifier: interface [1366,1375]"/>
+  <match src="parameter_list [19,63]" dest="parameter_list [369,413]"/>
+  <match src="compound_statement [387,1482]" dest="compound_statement [414,1559]"/>
+  <match src="identifier: attributes [1464,1474]" dest="identifier: attributes [1520,1530]"/>
+  <match src=";: ; [169,170]" dest=";: ; [680,681]"/>
+  <match src="return: return [157,163]" dest="return: return [668,674]"/>
+  <match src="(: ( [1287,1288]" dest="(: ( [1322,1323]"/>
+  <match src="call_expression [1242,1476]" dest="call_expression [1286,1532]"/>
+  <match src="identifier: networks [1242,1250]" dest="identifier: networks [1286,1294]"/>
+  <match src="field_identifier: push_back [1252,1261]" dest="field_identifier: push_back [1296,1305]"/>
+  <match src="): ) [1446,1447]" dest="): ) [315,316]"/>
+  <match src="argument_list [1261,1476]" dest="argument_list [1305,1532]"/>
+  <match src="}: } [1481,1482]" dest="}: } [1558,1559]"/>
+  <match src="identifier: NetworkChangeNotifier [1362,1383]" dest="identifier: connection_type [1380,1395]"/>
+  <match src="{: { [64,65]" dest="{: { [64,65]"/>
+  <match src="): ) [62,63]" dest="): ) [412,413]"/>
+  <match src="parameter_declaration [52,62]" dest="parameter_declaration [402,412]"/>
+  <match src="-&gt;: -&gt; [1250,1252]" dest="-&gt;: -&gt; [1294,1296]"/>
+  <match src=".: . [1329,1330]" dest=".: . [1375,1376]"/>
+  <match src="{: { [387,388]" dest="{: { [414,415]"/>
+  <match src=".: . [1130,1131]" dest=".: . [1500,1501]"/>
+  <match src=",: , [50,51]" dest=",: , [400,401]"/>
+  <match src="field_identifier: name [1298,1302]" dest="field_identifier: name [1343,1347]"/>
+  <match src="function_definition [0,1528]" dest="function_definition [0,1559]"/>
+  <match src="identifier: interface [1288,1297]" dest="identifier: interface [1333,1342]"/>
+  <match src="}: } [1527,1528]" dest="} [1559,1559]"/>
+  <match src=",: , [1302,1303]" dest=",: , [1347,1348]"/>
+  <match src="pointer_declarator [40,50]" dest="pointer_declarator [390,400]"/>
+  <match src="): ) [1475,1476]" dest="): ) [1531,1532]"/>
+  <match src="field_expression [1242,1261]" dest="field_expression [1286,1305]"/>
+  <match src="translation_unit [0,1528]" dest="translation_unit [0,1559]"/>
+  <match src=".: . [1313,1314]" dest=".: . [1359,1360]"/>
+  <match src="identifier: networks [42,50]" dest="identifier: networks [392,400]"/>
+  <match src="field_expression [1288,1302]" dest="field_expression [1333,1347]"/>
+  <match src="field_expression [1121,1138]" dest="field_expression [1491,1508]"/>
+  <match src="call_expression [1271,1475]" dest="call_expression [1306,1531]"/>
+  <match src="compound_statement [64,1528]" dest="compound_statement [64,1559]"/>
+  <match src="): ) [1199,1200]" dest="): ) [290,291]"/>
+  <match src="field_expression [834,848]" dest="field_expression [1427,1441]"/>
+  <match src="false: false [164,169]" dest="false: false [675,680]"/>
+  <match src="(: ( [1261,1262]" dest="(: ( [1305,1306]"/>
+</matches>
+<actions>
+  <insert-tree tree="function_declarator [5,63]" parent="function_definition [0,1528]" at="1"/>
+  <insert-node tree="function_definition [66,347]" parent="compound_statement [64,1528]" at="1"/>
+  <insert-node tree="function_definition [350,1559]" parent="compound_statement [64,1528]" at="2"/>
+  <update-node tree="}: } [1527,1528]" label=""/>
+  <insert-node tree="type_identifier: IPAddress [66,75]" parent="function_definition [66,347]" at="0"/>
+  <insert-tree tree="function_declarator [76,131]" parent="function_definition [66,347]" at="1"/>
+  <insert-node tree="compound_statement [132,347]" parent="function_definition [66,347]" at="2"/>
+  <insert-node tree="primitive_type: bool [350,354]" parent="function_definition [350,1559]" at="0"/>
+  <move-tree tree="function_declarator [5,63]" parent="function_definition [350,1559]" at="1"/>
+  <move-tree tree="compound_statement [387,1482]" parent="function_definition [350,1559]" at="2"/>
+  <insert-node tree="{: { [132,133]" parent="compound_statement [132,347]" at="0"/>
+  <insert-tree tree="if_statement [136,228]" parent="compound_statement [132,347]" at="1"/>
+  <insert-node tree="if_statement [231,323]" parent="compound_statement [132,347]" at="2"/>
+  <insert-tree tree="return_statement [326,345]" parent="compound_statement [132,347]" at="3"/>
+  <insert-node tree="}: } [346,347]" parent="compound_statement [132,347]" at="4"/>
+  <insert-tree tree="labeled_statement [418,562]" parent="compound_statement [387,1482]" at="1"/>
+  <insert-tree tree="labeled_statement [567,618]" parent="compound_statement [387,1482]" at="2"/>
+  <insert-node tree="if_statement [621,681]" parent="compound_statement [387,1482]" at="3"/>
+  <insert-node tree="ERROR [686,1556]" parent="compound_statement [387,1482]" at="4"/>
+  <insert-node tree="if: if [231,233]" parent="if_statement [231,323]" at="0"/>
+  <insert-tree tree="parenthesized_expression [234,245]" parent="if_statement [231,323]" at="1"/>
+  <insert-node tree="compound_statement [246,323]" parent="if_statement [231,323]" at="2"/>
+  <insert-node tree="if: if [621,623]" parent="if_statement [621,681]" at="0"/>
+  <insert-tree tree="parenthesized_expression [624,663]" parent="if_statement [621,681]" at="1"/>
+  <move-tree tree="return_statement [157,170]" parent="if_statement [621,681]" at="2"/>
+  <insert-node tree="for: for [686,689]" parent="ERROR [686,1556]" at="0"/>
+  <insert-node tree="(: ( [690,691]" parent="ERROR [686,1556]" at="1"/>
+  <insert-tree tree="declaration [691,841]" parent="ERROR [686,1556]" at="2"/>
+  <insert-node tree="comment: // Skip loopback. [848,865]" parent="ERROR [686,1556]" at="3"/>
+  <insert-tree tree="call_expression [870,930]" parent="ERROR [686,1556]" at="4"/>
+  <insert-tree tree="ERROR [938,946]" parent="ERROR [686,1556]" at="5"/>
+  <insert-node tree=";: ; [946,947]" parent="ERROR [686,1556]" at="6"/>
+  <insert-node tree="ERROR [954,1550]" parent="ERROR [686,1556]" at="7"/>
+  <insert-node tree="true: true [1551,1555]" parent="ERROR [686,1556]" at="8"/>
+  <insert-node tree=";: ; [1555,1556]" parent="ERROR [686,1556]" at="9"/>
+  <insert-node tree="{: { [246,247]" parent="compound_statement [246,323]" at="0"/>
+  <insert-node tree="return_statement [252,318]" parent="compound_statement [246,323]" at="1"/>
+  <insert-node tree="}: } [322,323]" parent="compound_statement [246,323]" at="2"/>
+  <insert-node tree="identifier: NetworkChangeNotifier [954,975]" parent="ERROR [954,1550]" at="0"/>
+  <insert-node tree=":: : [975,976]" parent="ERROR [954,1550]" at="1"/>
+  <insert-node tree=":: : [976,977]" parent="ERROR [954,1550]" at="2"/>
+  <insert-node tree="identifier: ConnectionType [977,991]" parent="ERROR [954,1550]" at="3"/>
+  <insert-tree tree="assignment_expression [992,1124]" parent="ERROR [954,1550]" at="4"/>
+  <insert-node tree=":: : [1137,1138]" parent="ERROR [954,1550]" at="5"/>
+  <insert-node tree="identifier: NetworkChangeNotifier [1139,1160]" parent="ERROR [954,1550]" at="6"/>
+  <insert-node tree=":: : [1160,1161]" parent="ERROR [954,1550]" at="7"/>
+  <insert-node tree=":: : [1161,1162]" parent="ERROR [954,1550]" at="8"/>
+  <insert-node tree="identifier: CONNECTION_UNKNOWN [1162,1180]" parent="ERROR [954,1550]" at="9"/>
+  <insert-node tree=";: ; [1180,1181]" parent="ERROR [954,1550]" at="10"/>
+  <insert-node tree="comment: // addresses. Currently Netstack doesn't provide this information. [1188,1254]" parent="ERROR [954,1550]" at="11"/>
+  <insert-node tree="primitive_type: int [1260,1263]" parent="ERROR [954,1550]" at="12"/>
+  <insert-tree tree="assignment_expression [1264,1278]" parent="ERROR [954,1550]" at="13"/>
+  <insert-node tree=";: ; [1278,1279]" parent="ERROR [954,1550]" at="14"/>
+  <move-tree tree="call_expression [1242,1476]" parent="ERROR [954,1550]" at="15"/>
+  <insert-node tree=";: ; [1532,1533]" parent="ERROR [954,1550]" at="16"/>
+  <insert-node tree="}: } [1537,1538]" parent="ERROR [954,1550]" at="17"/>
+  <insert-node tree="return: return [1544,1550]" parent="ERROR [954,1550]" at="18"/>
+  <insert-node tree="return: return [252,258]" parent="return_statement [252,318]" at="0"/>
+  <insert-node tree="call_expression [259,317]" parent="return_statement [252,318]" at="1"/>
+  <insert-node tree=";: ; [317,318]" parent="return_statement [252,318]" at="2"/>
+  <insert-node tree="identifier: IPAddress [259,268]" parent="call_expression [259,317]" at="0"/>
+  <insert-node tree="argument_list [268,317]" parent="call_expression [259,317]" at="1"/>
+  <insert-node tree="(: ( [268,269]" parent="argument_list [268,317]" at="0"/>
+  <insert-node tree="call_expression [269,291]" parent="argument_list [268,317]" at="1"/>
+  <insert-node tree=",: , [291,292]" parent="argument_list [268,317]" at="2"/>
+  <insert-node tree="call_expression [293,316]" parent="argument_list [268,317]" at="3"/>
+  <insert-node tree="): ) [316,317]" parent="argument_list [268,317]" at="4"/>
+  <insert-tree tree="field_expression [269,289]" parent="call_expression [269,291]" at="0"/>
+  <move-tree tree="argument_list [1198,1200]" parent="call_expression [269,291]" at="1"/>
+  <insert-tree tree="field_expression [293,314]" parent="call_expression [293,316]" at="0"/>
+  <move-tree tree="argument_list [1445,1447]" parent="call_expression [293,316]" at="1"/>
+  <insert-node tree="pointer_expression [1332,1347]" parent="argument_list [1287,1475]" at="1"/>
+  <insert-node tree="pointer_expression [1349,1364]" parent="argument_list [1287,1475]" at="4"/>
+  <update-node tree="identifier: NetworkChangeNotifier [1362,1383]" label="connection_type"/>
+  <insert-node tree="call_expression [1405,1442]" parent="argument_list [1287,1475]" at="12"/>
+  <insert-node tree="call_expression [1452,1510]" parent="argument_list [1287,1475]" at="15"/>
+  <insert-node tree="*: * [1332,1333]" parent="pointer_expression [1332,1347]" at="0"/>
+  <move-tree tree="field_expression [1288,1302]" parent="pointer_expression [1332,1347]" at="1"/>
+  <insert-node tree="*: * [1349,1350]" parent="pointer_expression [1349,1364]" at="0"/>
+  <move-tree tree="field_expression [1304,1318]" parent="pointer_expression [1349,1364]" at="1"/>
+  <update-node tree="field_identifier: index [1330,1335]" label="id"/>
+  <insert-node tree="identifier: NetAddressToIPAddress [1405,1426]" parent="call_expression [1405,1442]" at="0"/>
+  <insert-node tree="argument_list [1426,1442]" parent="call_expression [1405,1442]" at="1"/>
+  <insert-node tree="identifier: MaskPrefixLength [1452,1468]" parent="call_expression [1452,1510]" at="0"/>
+  <insert-node tree="argument_list [1468,1510]" parent="call_expression [1452,1510]" at="1"/>
+  <insert-node tree="(: ( [1426,1427]" parent="argument_list [1426,1442]" at="0"/>
+  <move-tree tree="field_expression [834,848]" parent="argument_list [1426,1442]" at="1"/>
+  <insert-node tree="): ) [1441,1442]" parent="argument_list [1426,1442]" at="2"/>
+  <insert-node tree="(: ( [1468,1469]" parent="argument_list [1468,1510]" at="0"/>
+  <insert-node tree="call_expression [1469,1509]" parent="argument_list [1468,1510]" at="1"/>
+  <insert-node tree="): ) [1509,1510]" parent="argument_list [1468,1510]" at="2"/>
+  <insert-node tree="identifier: NetAddressToIPAddress [1469,1490]" parent="call_expression [1469,1509]" at="0"/>
+  <insert-node tree="argument_list [1490,1509]" parent="call_expression [1469,1509]" at="1"/>
+  <insert-node tree="(: ( [1490,1491]" parent="argument_list [1490,1509]" at="0"/>
+  <move-tree tree="field_expression [1121,1138]" parent="argument_list [1490,1509]" at="1"/>
+  <insert-node tree="): ) [1508,1509]" parent="argument_list [1490,1509]" at="2"/>
+  <delete-tree tree="ERROR [1383,1403]"/>
+  <delete-tree tree="field_expression [1430,1445]"/>
+  <delete-node tree="call_expression [1430,1447]"/>
+  <delete-node tree="identifier: prefix_length [1449,1462]"/>
+  <delete-tree tree="declaration [393,418]"/>
+  <delete-tree tree="if_statement [425,554]"/>
+  <delete-tree tree="if_statement [561,692]"/>
+  <delete-tree tree="declaration [699,718]"/>
+  <delete-node tree="if: if [723,725]"/>
+  <delete-node tree="(: ( [726,727]"/>
+  <delete-node tree="!: ! [727,728]"/>
+  <delete-tree tree="field_expression [728,748]"/>
+  <delete-node tree="(: ( [748,749]"/>
+  <delete-tree tree="binary_expression [749,795]"/>
+  <delete-node tree=",: , [795,796]"/>
+  <delete-node tree="sizeof: sizeof [827,833]"/>
+  <delete-node tree="(: ( [833,834]"/>
+  <delete-node tree="): ) [848,849]"/>
+  <delete-node tree="parenthesized_expression [833,849]"/>
+  <delete-node tree="sizeof_expression [827,849]"/>
+  <delete-node tree="): ) [849,850]"/>
+  <delete-node tree="argument_list [748,850]"/>
+  <delete-node tree="call_expression [728,850]"/>
+  <delete-node tree="unary_expression [727,850]"/>
+  <delete-node tree="): ) [850,851]"/>
+  <delete-node tree="parenthesized_expression [726,851]"/>
+  <delete-tree tree="compound_statement [852,951]"/>
+  <delete-node tree="if_statement [723,951]"/>
+  <delete-tree tree="declaration [958,980]"/>
+  <delete-tree tree="declaration [985,1004]"/>
+  <delete-node tree="if: if [1009,1011]"/>
+  <delete-node tree="(: ( [1012,1013]"/>
+  <delete-tree tree="field_expression [1013,1033]"/>
+  <delete-node tree="(: ( [1033,1034]"/>
+  <delete-tree tree="binary_expression [1034,1083]"/>
+  <delete-node tree=",: , [1083,1084]"/>
+  <delete-node tree="sizeof: sizeof [1114,1120]"/>
+  <delete-node tree="(: ( [1120,1121]"/>
+  <delete-node tree="): ) [1138,1139]"/>
+  <delete-node tree="parenthesized_expression [1120,1139]"/>
+  <delete-node tree="sizeof_expression [1114,1139]"/>
+  <delete-node tree="): ) [1139,1140]"/>
+  <delete-node tree="argument_list [1033,1140]"/>
+  <delete-node tree="call_expression [1013,1140]"/>
+  <delete-node tree="): ) [1140,1141]"/>
+  <delete-node tree="parenthesized_expression [1012,1141]"/>
+  <delete-node tree="{: { [1142,1143]"/>
+  <delete-node tree="identifier: prefix_length [1150,1163]"/>
+  <delete-node tree="=: = [1164,1165]"/>
+  <delete-node tree="identifier: MaskPrefixLength [1166,1182]"/>
+  <delete-node tree="(: ( [1182,1183]"/>
+  <delete-tree tree="field_expression [1183,1198]"/>
+  <delete-node tree="call_expression [1183,1200]"/>
+  <delete-node tree="): ) [1200,1201]"/>
+  <delete-node tree="argument_list [1182,1201]"/>
+  <delete-node tree="call_expression [1166,1201]"/>
+  <delete-node tree="assignment_expression [1150,1201]"/>
+  <delete-node tree=";: ; [1201,1202]"/>
+  <delete-node tree="expression_statement [1150,1202]"/>
+  <delete-node tree="}: } [1207,1208]"/>
+  <delete-node tree="compound_statement [1142,1208]"/>
+  <delete-node tree="if_statement [1009,1208]"/>
+  <delete-tree tree="declaration [1216,1235]"/>
+  <delete-node tree=";: ; [1476,1477]"/>
+  <delete-node tree="expression_statement [1242,1477]"/>
+  <delete-tree tree="declaration [68,107]"/>
+  <delete-node tree="if: if [110,112]"/>
+  <delete-tree tree="parenthesized_expression [113,121]"/>
+  <delete-node tree="{: { [122,123]"/>
+  <delete-tree tree="expression_statement [128,152]"/>
+  <delete-node tree="}: } [174,175]"/>
+  <delete-node tree="compound_statement [122,175]"/>
+  <delete-node tree="if_statement [110,175]"/>
+  <delete-tree tree="declaration [178,199]"/>
+  <delete-tree tree="if_statement [202,343]"/>
+  <delete-node tree="for: for [348,351]"/>
+  <delete-node tree="(: ( [352,353]"/>
+  <delete-tree tree="declaration [353,368]"/>
+  <delete-tree tree="binary_expression [369,380]"/>
+  <delete-node tree=";: ; [380,381]"/>
+  <delete-tree tree="update_expression [382,385]"/>
+  <delete-node tree="): ) [385,386]"/>
+  <delete-node tree="for_statement [348,1482]"/>
+  <delete-tree tree="expression_statement [1487,1509]"/>
+  <delete-tree tree="return_statement [1513,1525]"/>
+</actions>

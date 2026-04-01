@@ -1,0 +1,20 @@
+{
+    "id": "e3527b98fdd8dc8179c24dc55e662b2c55199434_readDescriptor_0",
+    "func_name": "readDescriptor",
+    "cve_id": "CVE-2023-27480",
+    "cwe_ids": [
+        "CWE-611"
+    ],
+    "commit_hash": "e3527b98fdd8dc8179c24dc55e662b2c55199434",
+    "parent_commit_hash": "c68c0dffa863c30b5a6ce685feccd0f8cada461d",
+    "repo_name": "xwiki/xwiki-platform",
+    "git_url": "https://github.com/xwiki/xwiki-platform/commit/e3527b98fdd8dc8179c24dc55e662b2c55199434",
+    "file_path": "xwiki-platform-core/xwiki-platform-xar/xwiki-platform-xar-model/src/main/java/org/xwiki/xar/XarPackage.java",
+    "file_name": "XarPackage.java",
+    "commit_date": 1667528142,
+    "commit_msg": "XWIKI-20320: Disallow DOCTYPE in the XAR descriptor",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+    "cvss_base_score": 7.7,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

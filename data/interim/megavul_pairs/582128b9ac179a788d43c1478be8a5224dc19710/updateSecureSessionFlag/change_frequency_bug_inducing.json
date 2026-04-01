@@ -1,0 +1,58 @@
+{
+  "frequency": [
+    {
+      "c": "LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "Catch",
+      "f": "1"
+    },
+    {
+      "c": "Invocation",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "delete-node_Catch_Try",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_Invocation_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "LocalVariable",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "Catch",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.3333333333333333"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "delete-node_Catch_Try",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "insert-node_Invocation_Block",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "0.3333333333333333"
+    }
+  ]
+}

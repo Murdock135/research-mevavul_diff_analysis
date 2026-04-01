@@ -1,0 +1,20 @@
+{
+    "id": "4e857d675683095945dd524d6ba03e692c70ecd6_getIterator_0",
+    "func_name": "getIterator",
+    "cve_id": "CVE-2024-24565",
+    "cwe_ids": [
+        "CWE-22"
+    ],
+    "commit_hash": "4e857d675683095945dd524d6ba03e692c70ecd6",
+    "parent_commit_hash": "1b28ea2179457eb26441deb7df8f5d2bb26a5a93",
+    "repo_name": "crate",
+    "git_url": "https://github.com/crate/crate/commit/4e857d675683095945dd524d6ba03e692c70ecd6",
+    "file_path": "server/src/main/java/io/crate/execution/engine/collect/sources/FileCollectSource.java",
+    "file_name": "FileCollectSource.java",
+    "commit_date": 1706247683,
+    "commit_msg": "Restrict `COPY FROM` using local files to superuser\n\nFixing a security issue where any user could read/import content\nof any file on the host system, the CrateDB process user has read\naccess to.",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+    "cvss_base_score": 6.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

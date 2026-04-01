@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="identifier: prepareSwitchingWorkingDirectory [195,227]" dest="identifier: prepareSwitchingWorkingDirectory [195,227]"/>
+  <match src="call_expression [162,191]" dest="call_expression [162,191]"/>
+  <match src="expression_statement [63,77]" dest="expression_statement [63,77]"/>
+  <match src="identifier: options [183,190]" dest="identifier: options [183,190]"/>
+  <match src="): ) [75,76]" dest="): ) [75,76]"/>
+  <match src="(: ( [227,228]" dest="(: ( [227,228]"/>
+  <match src=".: . [145,146]" dest=".: . [145,146]"/>
+  <match src="): ) [190,191]" dest="): ) [190,191]"/>
+  <match src="identifier: info [283,287]" dest="identifier: info [253,257]"/>
+  <match src="type_identifier: SpawnPreparationInfo [80,100]" dest="type_identifier: SpawnPreparationInfo [80,100]"/>
+  <match src="argument_list [227,242]" dest="argument_list [227,242]"/>
+  <match src="expression_statement [109,138]" dest="expression_statement [109,138]"/>
+  <match src=";: ; [287,288]" dest=";: ; [257,258]"/>
+  <match src="identifier: info [141,145]" dest="identifier: info [141,145]"/>
+  <match src="): ) [136,137]" dest="): ) [136,137]"/>
+  <match src="expression_statement [195,243]" dest="expression_statement [195,243]"/>
+  <match src="call_expression [109,137]" dest="call_expression [109,137]"/>
+  <match src="(: ( [182,183]" dest="(: ( [182,183]"/>
+  <match src="field_identifier: userSwitching [146,159]" dest="field_identifier: userSwitching [146,159]"/>
+  <match src="identifier: info [228,232]" dest="identifier: info [228,232]"/>
+  <match src="const: const [35,40]" dest="const: const [35,40]"/>
+  <match src=";: ; [242,243]" dest=";: ; [242,243]"/>
+  <match src="(: ( [122,123]" dest="(: ( [122,123]"/>
+  <match src="expression_statement [141,192]" dest="expression_statement [141,192]"/>
+  <match src=";: ; [76,77]" dest=";: ; [76,77]"/>
+  <match src="identifier: options [129,136]" dest="identifier: options [129,136]"/>
+  <match src="argument_list [182,191]" dest="argument_list [182,191]"/>
+  <match src="type_identifier: Options [41,48]" dest="type_identifier: Options [41,48]"/>
+  <match src=";: ; [105,106]" dest=";: ; [105,106]"/>
+  <match src="declaration [80,106]" dest="declaration [80,106]"/>
+  <match src="identifier: info [123,127]" dest="identifier: info [123,127]"/>
+  <match src="identifier: prepareUserSwitching [162,182]" dest="identifier: prepareUserSwitching [162,182]"/>
+  <match src="call_expression [63,76]" dest="call_expression [63,76]"/>
+  <match src="return_statement [276,288]" dest="return_statement [246,258]"/>
+  <match src="(: ( [74,75]" dest="(: ( [74,75]"/>
+  <match src="identifier: options [50,57]" dest="identifier: options [50,57]"/>
+  <match src="identifier: prepareSpawn [22,34]" dest="identifier: prepareSpawn [22,34]"/>
+  <match src="): ) [241,242]" dest="): ) [241,242]"/>
+  <match src="parameter_declaration [35,57]" dest="parameter_declaration [35,57]"/>
+  <match src="(: ( [34,35]" dest="(: ( [34,35]"/>
+  <match src="identifier: prepareChroot [109,122]" dest="identifier: prepareChroot [109,122]"/>
+  <match src="field_expression [141,159]" dest="field_expression [141,159]"/>
+  <match src="identifier: info [101,105]" dest="identifier: info [101,105]"/>
+  <match src=",: , [232,233]" dest=",: , [232,233]"/>
+  <match src="function_definition [1,291]" dest="function_definition [1,261]"/>
+  <match src="assignment_expression [141,191]" dest="assignment_expression [141,191]"/>
+  <match src=",: , [127,128]" dest=",: , [127,128]"/>
+  <match src="type_identifier: SpawnPreparationInfo [1,21]" dest="type_identifier: SpawnPreparationInfo [1,21]"/>
+  <match src="): ) [57,58]" dest="): ) [57,58]"/>
+  <match src="{: { [59,60]" dest="{: { [59,60]"/>
+  <match src="function_declarator [22,58]" dest="function_declarator [22,58]"/>
+  <match src="identifier: TRACE_POINT [63,74]" dest="identifier: TRACE_POINT [63,74]"/>
+  <match src="argument_list [122,137]" dest="argument_list [122,137]"/>
+  <match src="translation_unit [1,291]" dest="translation_unit [1,261]"/>
+  <match src="}: } [290,291]" dest="}: } [260,261]"/>
+  <match src="identifier: options [234,241]" dest="identifier: options [234,241]"/>
+  <match src=";: ; [137,138]" dest=";: ; [137,138]"/>
+  <match src="compound_statement [59,291]" dest="compound_statement [59,261]"/>
+  <match src="type_qualifier [35,40]" dest="type_qualifier [35,40]"/>
+  <match src="&amp;: &amp; [49,50]" dest="&amp;: &amp; [49,50]"/>
+  <match src="parameter_list [34,58]" dest="parameter_list [34,58]"/>
+  <match src="argument_list [74,76]" dest="argument_list [74,76]"/>
+  <match src="return: return [276,282]" dest="return: return [246,252]"/>
+  <match src="ERROR [49,50]" dest="ERROR [49,50]"/>
+  <match src=";: ; [191,192]" dest=";: ; [191,192]"/>
+  <match src="=: = [160,161]" dest="=: = [160,161]"/>
+  <match src="call_expression [195,242]" dest="call_expression [195,242]"/>
+</matches>
+<actions>
+  <delete-tree tree="expression_statement [246,273]"/>
+</actions>

@@ -1,0 +1,20 @@
+{
+    "id": "153d2e9a979aead8dff95fbc91d659ecc7d0fb82_decodeXid_0",
+    "func_name": "decodeXid",
+    "cve_id": "CVE-2021-4040",
+    "cwe_ids": [
+        "CWE-787"
+    ],
+    "commit_hash": "153d2e9a979aead8dff95fbc91d659ecc7d0fb82",
+    "parent_commit_hash": "4196faf7ce56cb3676d46acb3b0684b5cdf804d7",
+    "repo_name": "apache/activemq-artemis",
+    "git_url": "https://github.com/apache/activemq-artemis/commit/153d2e9a979aead8dff95fbc91d659ecc7d0fb82",
+    "file_path": "artemis-core-client/src/main/java/org/apache/activemq/artemis/utils/XidCodecSupport.java",
+    "file_name": "XidCodecSupport.java",
+    "commit_date": 1638453776,
+    "commit_msg": "ARTEMIS-3593 Defense against OME on parsing XID\n\nCo-authored-by: Viktor Kolomeyko <Viktor.Kolomeyko@r3.com>",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+    "cvss_base_score": 5.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

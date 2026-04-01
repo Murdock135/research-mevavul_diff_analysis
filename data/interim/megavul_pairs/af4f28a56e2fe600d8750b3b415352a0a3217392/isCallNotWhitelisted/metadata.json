@@ -1,0 +1,20 @@
+{
+    "id": "af4f28a56e2fe600d8750b3b415352a0a3217392_isCallNotWhitelisted_0",
+    "func_name": "isCallNotWhitelisted",
+    "cve_id": "CVE-2024-23683",
+    "cwe_ids": [
+        "CWE-Other"
+    ],
+    "commit_hash": "af4f28a56e2fe600d8750b3b415352a0a3217392",
+    "parent_commit_hash": "c93275ed1957c925abcc03f908be98f77432d69b",
+    "repo_name": "ls1intum/Ares",
+    "git_url": "https://github.com/ls1intum/Ares/commit/af4f28a56e2fe600d8750b3b415352a0a3217392",
+    "file_path": "src/main/java/de/tum/in/test/api/security/ArtemisSecurityManager.java",
+    "file_name": "ArtemisSecurityManager.java",
+    "commit_date": 1642394435,
+    "commit_msg": "Merge pull request from GHSA-883x-6fch-6wjx\n\n* Blacklist ReflectionUtils.getUnderlyingCause as it is in the invocation\n\nThis means that trusted classes are no longer have a fully whitelisted\nstack when the cause is fetched and exception methods are invoked.\n\n* Allow security manager to work with method names when checking the stack\n\n* Add security test for a malicious InvocationTargetException\n\nA variant of the exploit found by Daniel, related to GHSA-883x-6fch-6wjx\n\nCo-authored-by: Daniel Kirschten <melodicahaspa@gmail.com>\nCo-authored-by: Christian Femers <c.femers@tum.de>\n\nCo-authored-by: Daniel Kirschten <melodicahaspa@gmail.com>",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H",
+    "cvss_base_score": 8.2,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

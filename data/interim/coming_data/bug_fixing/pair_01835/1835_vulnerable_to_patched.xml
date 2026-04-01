@@ -1,0 +1,914 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="(: ( [3340,3341]" dest="(: ( [5145,5146]"/>
+  <match src=",: , [3342,3343]" dest=",: , [5147,5148]"/>
+  <match src="argument_list [2640,2657]" dest="argument_list [4656,4673]"/>
+  <match src="(: ( [23,24]" dest="(: ( [23,24]"/>
+  <match src="identifier: fs [1937,1939]" dest="identifier: fs [4018,4020]"/>
+  <match src="field_expression [479,488]" dest="field_expression [1319,1328]"/>
+  <match src=".: . [3582,3583]" dest=".: . [5744,5745]"/>
+  <match src="function_declarator [7,126]" dest="function_declarator [7,126]"/>
+  <match src="compound_statement [2938,3060]" dest="compound_statement [4916,5034]"/>
+  <match src="argument_list [3340,3342]" dest="argument_list [5145,5147]"/>
+  <match src="): ) [125,126]" dest="): ) [125,126]"/>
+  <match src="return_statement [178,198]" dest="return_statement [493,513]"/>
+  <match src="): ) [3048,3049]" dest="): ) [5022,5023]"/>
+  <match src="identifier: vector [2492,2498]" dest="identifier: vector [4626,4632]"/>
+  <match src="pointer_expression [1966,1975]" dest="pointer_expression [4042,4051]"/>
+  <match src=":: : [1182,1183]" dest=":: : [2994,2995]"/>
+  <match src="=: = [2843,2844]" dest="=: = [4834,4835]"/>
+  <match src="identifier: string [1232,1238]" dest="identifier: string [2949,2955]"/>
+  <match src="=: = [1935,1936]" dest="=: = [4016,4017]"/>
+  <match src="(: ( [3559,3560]" dest="(: ( [5725,5726]"/>
+  <match src="(: ( [3997,3998]" dest="(: ( [5995,5996]"/>
+  <match src="call_expression [2898,2936]" dest="call_expression [4884,4914]"/>
+  <match src="{: { [2809,2810]" dest="{: { [4801,4802]"/>
+  <match src="unary_expression [1471,1485]" dest="unary_expression [3296,3317]"/>
+  <match src="comma_expression [1227,1256]" dest="comma_expression [2944,2975]"/>
+  <match src="]: ] [3581,3582]" dest="]: ] [5743,5744]"/>
+  <match src="number_literal: 1 [3097,3098]" dest="number_literal: 1 [5921,5922]"/>
+  <match src="): ) [169,170]" dest="): ) [484,485]"/>
+  <match src=";: ; [2526,2527]" dest=";: ; [4673,4674]"/>
+  <match src="{: { [3920,3921]" dest="{: { [5924,5925]"/>
+  <match src="}: } [3307,3308]" dest="}: } [5112,5113]"/>
+  <match src=";: ; [2119,2120]" dest=";: ; [4130,4131]"/>
+  <match src="&amp;: &amp; [1966,1967]" dest="&amp;: &amp; [4042,4043]"/>
+  <match src="): ) [196,197]" dest="): ) [511,512]"/>
+  <match src="identifier: std [1178,1181]" dest="identifier: std [2990,2993]"/>
+  <match src=":: : [3452,3453]" dest=":: : [5853,5854]"/>
+  <match src="argument_list [3287,3289]" dest="argument_list [1439,1441]"/>
+  <match src="(: ( [3947,3948]" dest="(: ( [5948,5949]"/>
+  <match src="parenthesized_expression [2896,2937]" dest="parenthesized_expression [4882,4915]"/>
+  <match src="++: ++ [3409,3411]" dest="++: ++ [5708,5710]"/>
+  <match src="declaration [3424,3489]" dest="declaration [5826,5885]"/>
+  <match src="}: } [3653,3654]" dest="}: } [5815,5816]"/>
+  <match src="}: } [2127,2128]" dest="}: } [4138,4139]"/>
+  <match src="(: ( [3092,3093]" dest="(: ( [5916,5917]"/>
+  <match src="(: ( [478,479]" dest="(: ( [1300,1301]"/>
+  <match src="identifier: dir_q [1202,1207]" dest="identifier: next_expand_queue [3014,3031]"/>
+  <match src="argument_list [3997,4009]" dest="argument_list [5995,6001]"/>
+  <match src="type_identifier: Status [0,6]" dest="type_identifier: Status [0,6]"/>
+  <match src="binary_expression [1240,1256]" dest="binary_expression [2957,2975]"/>
+  <match src="identifier: dir_q [1546,1551]" dest="identifier: expand_queue [6181,6193]"/>
+  <match src="(: ( [1545,1546]" dest="(: ( [6177,6178]"/>
+  <match src="identifier: OK [3285,3287]" dest="identifier: OK [1437,1439]"/>
+  <match src="argument_list [3587,3589]" dest="argument_list [5749,5751]"/>
+  <match src="field_identifier: GetChildren [1941,1952]" dest="field_identifier: GetChildren [4022,4033]"/>
+  <match src="call_expression [3137,3164]" dest="call_expression [5073,5094]"/>
+  <match src="(: ( [2857,2858]" dest="(: ( [4848,4849]"/>
+  <match src="binary_expression [3070,3098]" dest="binary_expression [5898,5922]"/>
+  <match src="): ) [170,171]" dest="): ) [485,486]"/>
+  <match src="identifier: tensorflow [2996,3006]" dest="identifier: tensorflow [4970,4980]"/>
+  <match src="identifier: fs [2898,2900]" dest="identifier: fs [4884,4886]"/>
+  <match src="): ) [3694,3695]" dest="): ) [6045,6046]"/>
+  <match src="expression_statement [3112,3165]" dest="expression_statement [5052,5095]"/>
+  <match src="storage_class_specifier [1565,1569]" dest="storage_class_specifier [3457,3461]"/>
+  <match src="field_identifier: empty [483,488]" dest="field_identifier: size [1324,1328]"/>
+  <match src=":: : [3453,3454]" dest=":: : [5854,5855]"/>
+  <match src="{: { [2103,2104]" dest="{: { [4114,4115]"/>
+  <match src=".: . [3335,3336]" dest=".: . [5140,5141]"/>
+  <match src="declaration [2819,2884]" dest="declaration [4811,4870]"/>
+  <match src="call_expression [193,197]" dest="call_expression [508,512]"/>
+  <match src="identifier: Status [185,191]" dest="identifier: Status [500,506]"/>
+  <match src="(: ( [3692,3693]" dest="(: ( [6043,6044]"/>
+  <match src="binary_expression [2053,2075]" dest="binary_expression [4064,4086]"/>
+  <match src="identifier: dir_q [1472,1477]" dest="identifier: expand_queue [3297,3309]"/>
+  <match src="{: { [2938,2939]" dest="{: { [4916,4917]"/>
+  <match src="parameter_declaration [50,71]" dest="parameter_declaration [50,71]"/>
+  <match src="call_expression [155,170]" dest="call_expression [470,485]"/>
+  <match src="init_declarator [1933,1976]" dest="init_declarator [4014,4052]"/>
+  <match src="{: { [3623,3624]" dest="{: { [5785,5786]"/>
+  <match src="call_expression [2162,2178]" dest="call_expression [4208,4224]"/>
+  <match src="}: } [4084,4085]" dest="}: } [6322,6323]"/>
+  <match src="identifier: j [3485,3486]" dest="identifier: j [5881,5882]"/>
+  <match src=":: : [3013,3014]" dest=":: : [4987,4988]"/>
+  <match src="declaration [3374,3387]" dest="declaration [5672,5685]"/>
+  <match src="subscript_expression [2871,2882]" dest="subscript_expression [4857,4868]"/>
+  <match src="identifier: CANCELLED [3015,3024]" dest="identifier: CANCELLED [4989,4998]"/>
+  <match src="identifier: child_path [3153,3163]" dest="identifier: path [5089,5093]"/>
+  <match src="declaration [1346,1366]" dest="declaration [3245,3264]"/>
+  <match src="auto: auto [2665,2669]" dest="auto: auto [4681,4685]"/>
+  <match src="type_qualifier [50,55]" dest="type_qualifier [50,55]"/>
+  <match src="type_identifier: string [56,62]" dest="type_identifier: string [56,62]"/>
+  <match src="field_expression [3560,3587]" dest="field_expression [5726,5749]"/>
+  <match src=".: . [2054,2055]" dest=".: . [4065,4066]"/>
+  <match src="*: * [116,117]" dest="*: * [116,117]"/>
+  <match src="identifier: results [131,138]" dest="identifier: results [446,453]"/>
+  <match src="if_statement [2049,2128]" dest="if_statement [4060,4139]"/>
+  <match src="call_expression [3392,3407]" dest="call_expression [5690,5705]"/>
+  <match src="(: ( [2640,2641]" dest="(: ( [4656,4657]"/>
+  <match src="field_identifier: empty [2171,2176]" dest="field_identifier: empty [4217,4222]"/>
+  <match src=";: ; [3488,3489]" dest=";: ; [5884,5885]"/>
+  <match src=";: ; [3308,3309]" dest=";: ; [5113,5114]"/>
+  <match src="argument_list [3692,3694]" dest="argument_list [6043,6045]"/>
+  <match src="identifier: JoinPath [3454,3462]" dest="identifier: JoinPath [5855,5863]"/>
+  <match src="compound_statement [172,202]" dest="compound_statement [487,517]"/>
+  <match src="return: return [2113,2119]" dest="return: return [4124,4130]"/>
+  <match src="(: ( [3462,3463]" dest="(: ( [5863,5864]"/>
+  <match src="identifier: next_dir_q [1246,1256]" dest="identifier: expand_queue [2963,2975]"/>
+  <match src="identifier: j [3381,3382]" dest="identifier: j [5679,5680]"/>
+  <match src="identifier: j [2880,2881]" dest="identifier: j [4866,4867]"/>
+  <match src="): ) [2101,2102]" dest="): ) [4112,4113]"/>
+  <match src="(: ( [1952,1953]" dest="(: ( [4033,4034]"/>
+  <match src="primitive_type: int [2802,2805]" dest="primitive_type: int [4794,4797]"/>
+  <match src="ERROR [3006,3024]" dest="ERROR [4980,4998]"/>
+  <match src="field_expression [2641,2654]" dest="field_expression [4657,4670]"/>
+  <match src="&amp;: &amp; [2718,2719]" dest="&amp;: &amp; [3493,3494]"/>
+  <match src="parenthesized_expression [3069,3099]" dest="parenthesized_expression [5897,5923]"/>
+  <match src="(: ( [2052,2053]" dest="(: ( [4063,4064]"/>
+  <match src="function_definition [2802,3308]" dest="function_definition [4794,5113]"/>
+  <match src="call_expression [1845,1856]" dest="call_expression [3718,3736]"/>
+  <match src="identifier: fs [3137,3139]" dest="identifier: fs [5073,5075]"/>
+  <match src=";: ; [3049,3050]" dest=";: ; [5023,5024]"/>
+  <match src="expression_statement [1522,1560]" dest="expression_statement [6170,6216]"/>
+  <match src="const: const [2819,2824]" dest="const: const [4811,4816]"/>
+  <match src=".: . [1551,1552]" dest=".: . [6193,6194]"/>
+  <match src="): ) [3412,3413]" dest="): ) [5710,5711]"/>
+  <match src="&amp;: &amp; [1590,1591]" dest="&amp;: &amp; [3483,3484]"/>
+  <match src="call_expression [1472,1485]" dest="call_expression [3297,3317]"/>
+  <match src=";: ; [2883,2884]" dest=";: ; [4869,4870]"/>
+  <match src="argument_list [2176,2178]" dest="argument_list [4222,4224]"/>
+  <match src="string_content: Operation not needed [3027,3047]" dest="string_content: Operation not needed [5001,5021]"/>
+  <match src="): ) [3693,3694]" dest="): ) [6044,6045]"/>
+  <match src="{: { [3414,3415]" dest="{: { [3621,3622]"/>
+  <match src="pointer_declarator [34,38]" dest="pointer_declarator [34,38]"/>
+  <match src="argument_list [3405,3407]" dest="argument_list [5703,5705]"/>
+  <match src="compound_statement [3920,4061]" dest="compound_statement [5924,6012]"/>
+  <match src="-&gt;: -&gt; [3983,3985]" dest="-&gt;: -&gt; [5981,5983]"/>
+  <match src="identifier: children [1967,1975]" dest="identifier: children [4043,4051]"/>
+  <match src="identifier: io [3450,3452]" dest="identifier: io [5851,5853]"/>
+  <match src="continue_statement [3635,3644]" dest="continue_statement [5797,5806]"/>
+  <match src="if_statement [3556,3654]" dest="if_statement [5722,5816]"/>
+  <match src="): ) [3163,3164]" dest="): ) [5093,5094]"/>
+  <match src="): ) [3359,3360]" dest="): ) [5164,5165]"/>
+  <match src="statement_identifier: std [1167,1170]" dest="statement_identifier: std [2979,2982]"/>
+  <match src="(: ( [2896,2897]" dest="(: ( [4882,4883]"/>
+  <match src="identifier: string [109,115]" dest="identifier: string [109,115]"/>
+  <match src="number_literal: 0 [3324,3325]" dest="number_literal: 0 [5129,5130]"/>
+  <match src="field_identifier: code [3583,3587]" dest="field_identifier: code [5745,5749]"/>
+  <match src="call_expression [479,490]" dest="call_expression [1319,1330]"/>
+  <match src="]: ] [2971,2972]" dest="]: ] [4945,4946]"/>
+  <match src=";: ; [1511,1512]" dest=";: ; [3350,3351]"/>
+  <match src=",: , [2869,2870]" dest=",: , [4855,4856]"/>
+  <match src="parameter_declaration [3948,3961]" dest="parameter_declaration [5949,5961]"/>
+  <match src=":: : [2083,2084]" dest=":: : [4094,4095]"/>
+  <match src="{: { [172,173]" dest="{: { [487,488]"/>
+  <match src=".: . [3400,3401]" dest=".: . [5698,5699]"/>
+  <match src=";: ; [1207,1208]" dest=";: ; [3031,3032]"/>
+  <match src="identifier: children [3392,3400]" dest="identifier: children [5690,5698]"/>
+  <match src=";: ; [3407,3408]" dest=";: ; [5705,5706]"/>
+  <match src="argument_list [3323,3360]" dest="argument_list [5128,5165]"/>
+  <match src="argument_list [2907,2936]" dest="argument_list [4893,4914]"/>
+  <match src="argument_list [2654,2656]" dest="argument_list [4670,4672]"/>
+  <match src="identifier: io [2845,2847]" dest="identifier: io [4836,4838]"/>
+  <match src="identifier: results_mutex [1352,1365]" dest="identifier: result_mutex [3251,3263]"/>
+  <match src="ERROR [2075,2101]" dest="ERROR [4086,4112]"/>
+  <match src="(: ( [2995,2996]" dest="(: ( [4969,4970]"/>
+  <match src="(: ( [3666,3667]" dest="(: ( [6021,6022]"/>
+  <match src="argument_list [1853,1856]" dest="argument_list [3733,3736]"/>
+  <match src="identifier: children_dir_status [2950,2969]" dest="identifier: children_status [4928,4943]"/>
+  <match src="type_identifier: Status [1926,1932]" dest="type_identifier: Status [4007,4013]"/>
+  <match src="): ) [2060,2061]" dest="): ) [4071,4072]"/>
+  <match src="): ) [1558,1559]" dest="): ) [6214,6215]"/>
+  <match src="identifier: std [1222,1225]" dest="identifier: std [2939,2942]"/>
+  <match src="identifier: OK [193,195]" dest="identifier: OK [508,510]"/>
+  <match src=":: : [3014,3015]" dest=":: : [4988,4989]"/>
+  <match src="field_identifier: size [3088,3092]" dest="field_identifier: size [5912,5916]"/>
+  <match src="argument_list [1483,1485]" dest="argument_list [3315,3317]"/>
+  <match src="): ) [1485,1486]" dest="): ) [3317,3318]"/>
+  <match src="}: } [4060,4061]" dest="}: } [6011,6012]"/>
+  <match src="(: ( [3373,3374]" dest="(: ( [5671,5672]"/>
+  <match src="continue: continue [3635,3643]" dest="continue: continue [5797,5805]"/>
+  <match src="*: * [34,35]" dest="*: * [34,35]"/>
+  <match src="field_identifier: size [3401,3405]" dest="field_identifier: size [5699,5703]"/>
+  <match src="storage_class_specifier [2665,2669]" dest="storage_class_specifier [4681,4685]"/>
+  <match src=".: . [1477,1478]" dest=".: . [3309,3310]"/>
+  <match src="field_expression [2162,2176]" dest="field_expression [4208,4222]"/>
+  <match src="identifier: j [3388,3389]" dest="identifier: j [5686,5687]"/>
+  <match src="translation_unit [0,4229]" dest="translation_unit [0,6349]"/>
+  <match src="field_identifier: empty [1478,1483]" dest="field_identifier: empty [3310,3315]"/>
+  <match src="type_identifier: mutex_lock [3934,3944]" dest="type_identifier: mutex_lock [5936,5946]"/>
+  <match src="field_identifier: code [2055,2059]" dest="field_identifier: code [4066,4070]"/>
+  <match src="identifier: s [1933,1934]" dest="identifier: s [4014,4015]"/>
+  <match src=",: , [48,49]" dest=",: , [48,49]"/>
+  <match src="call_expression [1537,1559]" dest="call_expression [6170,6215]"/>
+  <match src="[: [ [3131,3132]" dest="[: [ [5067,5068]"/>
+  <match src="identifier: dirs [3083,3087]" dest="identifier: dirs [5907,5911]"/>
+  <match src="identifier: env [45,48]" dest="identifier: env [45,48]"/>
+  <match src=";: ; [3360,3361]" dest=";: ; [5165,5166]"/>
+  <match src="(: ( [1556,1557]" dest="(: ( [6198,6199]"/>
+  <match src="call_expression [3454,3488]" dest="call_expression [5855,5884]"/>
+  <match src="return: return [2180,2186]" dest="return: return [4236,4242]"/>
+  <match src="identifier: results [3976,3983]" dest="identifier: results [5974,5981]"/>
+  <match src="parameter_list [3947,3962]" dest="parameter_list [5948,5962]"/>
+  <match src=".: . [1503,1504]" dest=".: . [3342,3343]"/>
+  <match src="subscript_expression [3667,3689]" dest="subscript_expression [6022,6040]"/>
+  <match src=",: , [1238,1239]" dest=",: , [2955,2956]"/>
+  <match src=":: : [1170,1171]" dest=":: : [2982,2983]"/>
+  <match src="call_expression [3285,3289]" dest="call_expression [1437,1441]"/>
+  <match src="call_expression [2053,2061]" dest="call_expression [4064,4072]"/>
+  <match src=";: ; [3643,3644]" dest=";: ; [5805,5806]"/>
+  <match src="identifier: dir_q [1845,1850]" dest="identifier: expand_queue [3718,3730]"/>
+  <match src="field_expression [155,168]" dest="field_expression [470,483]"/>
+  <match src="identifier: results [118,125]" dest="identifier: results [118,125]"/>
+  <match src="identifier: current_dir [3463,3474]" dest="identifier: parent [5864,5870]"/>
+  <match src="for_statement [3369,4079]" dest="for_statement [5667,6158]"/>
+  <match src="=: = [3383,3384]" dest="=: = [5681,5682]"/>
+  <match src="comment: // children_dir_status holds is_dir status for children. It can have three [2195,2269]" dest="comment: // pattern, we process them in parallel. [3412,3452]"/>
+  <match src="pointer_declarator [116,125]" dest="pointer_declarator [116,125]"/>
+  <match src="]: ] [3486,3487]" dest="]: ] [5882,5883]"/>
+  <match src="&lt;: &lt; [108,109]" dest="&lt;: &lt; [108,109]"/>
+  <match src="binary_expression [1172,1181]" dest="binary_expression [2984,2993]"/>
+  <match src="compound_statement [127,4213]" dest="compound_statement [127,6349]"/>
+  <match src="argument_list [1952,1976]" dest="argument_list [4033,4052]"/>
+  <match src="&lt;: &lt; [1221,1222]" dest="&lt;: &lt; [2938,2939]"/>
+  <match src="init_declarator [2832,2883]" dest="init_declarator [4829,4869]"/>
+  <match src="expression_statement [2492,2527]" dest="expression_statement [4626,4674]"/>
+  <match src="field_expression [131,145]" dest="field_expression [446,460]"/>
+  <match src="identifier: JoinPath [2849,2857]" dest="identifier: JoinPath [4840,4848]"/>
+  <match src=":: : [1226,1227]" dest=":: : [2943,2944]"/>
+  <match src="number_literal: 0 [3385,3386]" dest="number_literal: 0 [5683,5684]"/>
+  <match src="auto: auto [1565,1569]" dest="auto: auto [3457,3461]"/>
+  <match src=";: ; [1976,1977]" dest=";: ; [4052,4053]"/>
+  <match src="identifier: current_dir [2858,2869]" dest="identifier: parent [4849,4855]"/>
+  <match src="{: { [3696,3697]" dest="{: { [5712,5713]"/>
+  <match src="identifier: children [2871,2879]" dest="identifier: children [4857,4865]"/>
+  <match src="identifier: tensorflow [3593,3603]" dest="identifier: tensorflow [5755,5765]"/>
+  <match src="call_expression [2849,2883]" dest="call_expression [4840,4869]"/>
+  <match src="string_literal [3026,3048]" dest="string_literal [5000,5022]"/>
+  <match src="&quot;: &quot; [3047,3048]" dest="&quot;: &quot; [5021,5022]"/>
+  <match src="&lt;: &lt; [3390,3391]" dest="&lt;: &lt; [5688,5689]"/>
+  <match src="*: * [43,44]" dest="*: * [43,44]"/>
+  <match src="&gt;&gt;: &gt;&gt; [1243,1245]" dest="&gt;&gt;: &gt;&gt; [2960,2962]"/>
+  <match src="if: if [3066,3068]" dest="if: if [4879,4881]"/>
+  <match src="=: = [3448,3449]" dest="=: = [5849,5850]"/>
+  <match src="identifier: CANCELLED [3612,3621]" dest="identifier: CANCELLED [5774,5783]"/>
+  <match src="identifier: deque [1172,1177]" dest="identifier: deque [2984,2989]"/>
+  <match src="[: [ [3686,3687]" dest="[: [ [6037,6038]"/>
+  <match src="call_expression [3083,3094]" dest="call_expression [5907,5918]"/>
+  <match src="call_expression [1546,1558]" dest="call_expression [6181,6200]"/>
+  <match src="identifier: children_dir_status [3112,3131]" dest="identifier: children_status [5052,5067]"/>
+  <match src="}: } [4078,4079]" dest="}: } [6163,6164]"/>
+  <match src="(: ( [2654,2655]" dest="(: ( [4670,4671]"/>
+  <match src="]: ] [3133,3134]" dest="]: ] [5069,5070]"/>
+  <match src="{: { [1487,1488]" dest="{: { [3319,3320]"/>
+  <match src="while: while [1464,1469]" dest="while: while [3289,3294]"/>
+  <match src="comma_expression [1183,1207]" dest="comma_expression [2995,3031]"/>
+  <match src="comment: // In case PERMISSION_DENIED is encountered, we bail here. [1984,2042]" dest="comment: // The work item for every item in `expand_queue`. [3357,3407]"/>
+  <match src=";: ; [197,198]" dest=";: ; [512,513]"/>
+  <match src=":: : [3611,3612]" dest=":: : [5773,5774]"/>
+  <match src="&gt;: &gt; [115,116]" dest="&gt;: &gt; [115,116]"/>
+  <match src="argument_list [1509,1511]" dest="argument_list [3348,3350]"/>
+  <match src="): ) [1975,1976]" dest="): ) [4051,4052]"/>
+  <match src="type_identifier: mutex [1346,1351]" dest="type_identifier: mutex [3245,3250]"/>
+  <match src="parameter_declaration [40,48]" dest="parameter_declaration [40,48]"/>
+  <match src="&lt;: &lt; [1177,1178]" dest="&lt;: &lt; [2989,2990]"/>
+  <match src="if_statement [2158,2187]" dest="if_statement [4204,4251]"/>
+  <match src="identifier: children [3476,3484]" dest="identifier: children [5872,5880]"/>
+  <match src="(: ( [154,155]" dest="(: ( [469,470]"/>
+  <match src="identifier: s [2053,2054]" dest="identifier: s [4064,4065]"/>
+  <match src="argument_list [1556,1558]" dest="argument_list [6198,6200]"/>
+  <match src="ERROR [1214,1226]" dest="ERROR [2931,2943]"/>
+  <match src="(: ( [3587,3588]" dest="(: ( [5749,5750]"/>
+  <match src=",: , [2918,2919]" dest=",: , [4898,4899]"/>
+  <match src="field_identifier: Match [2902,2907]" dest="field_identifier: Match [4888,4893]"/>
+  <match src="binary_expression [3560,3603]" dest="binary_expression [5726,5765]"/>
+  <match src="subscript_expression [3112,3134]" dest="subscript_expression [5052,5070]"/>
+  <match src="subscript_expression [2950,2972]" dest="subscript_expression [4928,4946]"/>
+  <match src="identifier: pair [1227,1231]" dest="identifier: pair [2944,2948]"/>
+  <match src="(: ( [3069,3070]" dest="(: ( [5897,5898]"/>
+  <match src="if: if [3556,3558]" dest="if: if [5722,5724]"/>
+  <match src="expression_statement [3308,3309]" dest="expression_statement [5113,5114]"/>
+  <match src="call_expression [3667,3694]" dest="call_expression [6022,6045]"/>
+  <match src="identifier: Status [2989,2995]" dest="identifier: Status [4963,4969]"/>
+  <match src="identifier: deque [1216,1221]" dest="identifier: deque [2933,2938]"/>
+  <match src="&lt;: &lt; [2498,2499]" dest="&lt;: &lt; [4632,4633]"/>
+  <match src="]: ] [2881,2882]" dest="]: ] [4867,4868]"/>
+  <match src=";: ; [3164,3165]" dest=";: ; [5094,5095]"/>
+  <match src="identifier: next_dir_q [1493,1503]" dest="identifier: next_expand_queue [3325,3342]"/>
+  <match src="subscript_expression [3560,3582]" dest="subscript_expression [5726,5744]"/>
+  <match src="ERROR [2807,2808]" dest="ERROR [4799,4800]"/>
+  <match src="identifier: error [3605,3610]" dest="identifier: error [5767,5772]"/>
+  <match src=";: ; [1559,1560]" dest=";: ; [6215,6216]"/>
+  <match src="field_identifier: size [3336,3340]" dest="field_identifier: size [5141,5145]"/>
+  <match src="identifier: child_path [3437,3447]" dest="identifier: path [5844,5848]"/>
+  <match src="binary_expression [3083,3098]" dest="binary_expression [5907,5922]"/>
+  <match src="(: ( [1509,1510]" dest="(: ( [3348,3349]"/>
+  <match src="type_identifier: FileSystem [24,34]" dest="type_identifier: FileSystem [24,34]"/>
+  <match src="(: ( [2059,2060]" dest="(: ( [4070,4071]"/>
+  <match src="): ) [2656,2657]" dest="): ) [4672,4673]"/>
+  <match src="binary_expression [2492,2526]" dest="binary_expression [4626,4673]"/>
+  <match src="identifier: j [3132,3133]" dest="identifier: j [5068,5069]"/>
+  <match src="): ) [2178,2179]" dest="): ) [4224,4225]"/>
+  <match src="call_expression [1493,1511]" dest="call_expression [3325,3350]"/>
+  <match src="identifier: j [3687,3688]" dest="identifier: j [6038,6039]"/>
+  <match src="pointer_expression [2707,2716]" dest="pointer_expression [4735,4744]"/>
+  <match src="identifier: j [3411,3412]" dest="identifier: j [5707,5708]"/>
+  <match src="field_expression [1546,1556]" dest="field_expression [6181,6198]"/>
+  <match src="{: { [3100,3101]" dest="{: { [5040,5041]"/>
+  <match src="ERROR [1894,1895]" dest="ERROR [6280,6281]"/>
+  <match src="field_identifier: clear [1504,1509]" dest="field_identifier: clear [3343,3348]"/>
+  <match src="argument_list [195,197]" dest="argument_list [510,512]"/>
+  <match src="(: ( [2161,2162]" dest="(: ( [4207,4208]"/>
+  <match src="expression_statement [3976,4010]" dest="expression_statement [5974,6002]"/>
+  <match src="): ) [2655,2656]" dest="): ) [4671,4672]"/>
+  <match src="field_expression [1845,1853]" dest="field_expression [3718,3733]"/>
+  <match src=":: : [1215,1216]" dest=":: : [2932,2933]"/>
+  <match src="identifier: j [3580,3581]" dest="identifier: j [5742,5743]"/>
+  <match src="field_expression [3667,3692]" dest="field_expression [6022,6043]"/>
+  <match src=".: . [2170,2171]" dest=".: . [4216,4217]"/>
+  <match src="=: = [3135,3136]" dest="=: = [5071,5072]"/>
+  <match src="compound_statement [3414,4079]" dest="compound_statement [3621,6164]"/>
+  <match src="field_expression [1937,1952]" dest="field_expression [4018,4033]"/>
+  <match src=":: : [2076,2077]" dest=":: : [4087,4088]"/>
+  <match src="identifier: fs [36,38]" dest="identifier: fs [36,38]"/>
+  <match src="type_identifier: condition_variable [1369,1387]" dest="type_identifier: mutex [3267,3272]"/>
+  <match src="identifier: lk [3945,3947]" dest="identifier: l [5947,5948]"/>
+  <match src="function_definition [0,4213]" dest="function_definition [0,6349]"/>
+  <match src=";: ; [147,148]" dest=";: ; [462,463]"/>
+  <match src="): ) [2177,2178]" dest="): ) [4223,4224]"/>
+  <match src="field_identifier: IsDirectory [3141,3152]" dest="field_identifier: IsDirectory [5077,5088]"/>
+  <match src="field_expression [1493,1509]" dest="field_expression [3325,3348]"/>
+  <match src="[: [ [3579,3580]" dest="[: [ [5741,5742]"/>
+  <match src="identifier: results [1591,1598]" dest="identifier: results [3484,3491]"/>
+  <match src="): ) [3487,3488]" dest="): ) [5883,5884]"/>
+  <match src="}: } [3174,3175]" dest="}: } [5104,5105]"/>
+  <match src=":: : [1171,1172]" dest=":: : [2983,2984]"/>
+  <match src="compound_statement [3696,4071]" dest="compound_statement [5712,6158]"/>
+  <match src="identifier: i [1854,1855]" dest="identifier: i [3734,3735]"/>
+  <match src="if: if [3708,3710]" dest="if: if [5894,5896]"/>
+  <match src=":: : [101,102]" dest=":: : [101,102]"/>
+  <match src="(: ( [2907,2908]" dest="(: ( [4893,4894]"/>
+  <match src="identifier: pattern [64,71]" dest="identifier: pattern [64,71]"/>
+  <match src="identifier: Status [2499,2505]" dest="identifier: Status [4633,4639]"/>
+  <match src="parameter_list [23,126]" dest="parameter_list [23,126]"/>
+  <match src="(: ( [145,146]" dest="(: ( [460,461]"/>
+  <match src="identifier: children [2708,2716]" dest="identifier: children [4736,4744]"/>
+  <match src="parenthesized_expression [1470,1486]" dest="parenthesized_expression [3295,3318]"/>
+  <match src="identifier: children [3327,3335]" dest="identifier: children [5132,5140]"/>
+  <match src="field_expression [3392,3405]" dest="field_expression [5690,5703]"/>
+  <match src="): ) [3093,3094]" dest="): ) [5917,5918]"/>
+  <match src="if: if [2158,2160]" dest="if: if [4204,4206]"/>
+  <match src="update_expression [3409,3412]" dest="update_expression [5707,5710]"/>
+  <match src="while_statement [1464,4085]" dest="while_statement [3289,6323]"/>
+  <match src="argument_list [2995,3049]" dest="argument_list [4969,5023]"/>
+  <match src="function_declarator [3945,3962]" dest="function_declarator [5947,5962]"/>
+  <match src="): ) [3288,3289]" dest="): ) [1440,1441]"/>
+  <match src="pointer_expression [2718,2723]" dest="pointer_expression [3493,3498]"/>
+  <match src="{: { [127,128]" dest="{: { [127,128]"/>
+  <match src=":: : [2075,2076]" dest=":: : [4086,4087]"/>
+  <match src="(: ( [1470,1471]" dest="(: ( [3295,3296]"/>
+  <match src="(: ( [488,489]" dest="(: ( [1328,1329]"/>
+  <match src="identifier: dir_index [3070,3079]" dest="identifier: index [5898,5903]"/>
+  <match src="else: else [3915,3919]" dest="else: else [6013,6017]"/>
+  <match src="expression_statement [3316,3361]" dest="expression_statement [5121,5166]"/>
+  <match src="parenthesized_expression [2052,2102]" dest="parenthesized_expression [4063,4113]"/>
+  <match src="if_statement [3066,3300]" dest="if_statement [4879,5105]"/>
+  <match src="identifier: tensorflow [2065,2075]" dest="identifier: tensorflow [4076,4086]"/>
+  <match src="): ) [3406,3407]" dest="): ) [5704,5705]"/>
+  <match src="): ) [1484,1485]" dest="): ) [3316,3317]"/>
+  <match src="): ) [2935,2936]" dest="): ) [4913,4914]"/>
+  <match src="unary_expression [2897,2936]" dest="unary_expression [4883,4914]"/>
+  <match src="}: } [4212,4213]" dest="}: } [6348,6349]"/>
+  <match src="(: ( [3152,3153]" dest="(: ( [5088,5089]"/>
+  <match src="identifier: children_dir_status [3667,3686]" dest="identifier: children_status [6022,6037]"/>
+  <match src="type_qualifier [2819,2824]" dest="type_qualifier [4811,4816]"/>
+  <match src=":: : [1214,1215]" dest=":: : [2931,2932]"/>
+  <match src="compound_statement [1487,4085]" dest="compound_statement [3319,6323]"/>
+  <match src=",: , [1964,1965]" dest=",: , [4040,4041]"/>
+  <match src="identifier: children [2641,2649]" dest="identifier: children [4657,4665]"/>
+  <match src="statement_identifier: std [2487,2490]" dest="statement_identifier: std [4621,4624]"/>
+  <match src="else_clause [3176,3300]" dest="else_clause [5035,5105]"/>
+  <match src="-&gt;: -&gt; [2900,2902]" dest="-&gt;: -&gt; [4886,4888]"/>
+  <match src="parenthesized_expression [154,171]" dest="parenthesized_expression [469,486]"/>
+  <match src="call_expression [3316,3360]" dest="call_expression [5121,5165]"/>
+  <match src="compound_statement [2103,2128]" dest="compound_statement [4114,4139]"/>
+  <match src=",: , [3325,3326]" dest=",: , [5130,5131]"/>
+  <match src="call_expression [2641,2656]" dest="call_expression [4657,4672]"/>
+  <match src=":: : [1225,1226]" dest=":: : [2942,2943]"/>
+  <match src=":: : [192,193]" dest=":: : [507,508]"/>
+  <match src=".: . [3087,3088]" dest=".: . [5911,5912]"/>
+  <match src="compound_statement [3100,3175]" dest="compound_statement [5040,5105]"/>
+  <match src="(: ( [1483,1484]" dest="(: ( [3315,3316]"/>
+  <match src="ERROR [3603,3621]" dest="ERROR [5765,5783]"/>
+  <match src="[: [ [3484,3485]" dest="[: [ [5880,5881]"/>
+  <match src="if_statement [151,202]" dest="if_statement [466,517]"/>
+  <match src=".: . [162,163]" dest=".: . [477,478]"/>
+  <match src="): ) [1557,1558]" dest="): ) [6199,6200]"/>
+  <match src="(: ( [2176,2177]" dest="(: ( [4222,4223]"/>
+  <match src="): ) [489,490]" dest="): ) [1329,1330]"/>
+  <match src="else: else [3176,3180]" dest="else: else [5035,5039]"/>
+  <match src="call_expression [3976,4009]" dest="call_expression [5974,6001]"/>
+  <match src="type_identifier: string [2825,2831]" dest="type_identifier: std [4817,4820]"/>
+  <match src="comment: // Status to return. [1323,1343]" dest="comment: // [596,598]"/>
+  <match src="!: ! [1471,1472]" dest="!: ! [3296,3297]"/>
+  <match src="identifier: handle_children [3344,3359]" dest="identifier: handle_children [5149,5164]"/>
+  <match src="ERROR [2491,2492]" dest="ERROR [4625,4626]"/>
+  <match src=";: ; [2186,2187]" dest=";: ; [4242,4243]"/>
+  <match src="-&gt;: -&gt; [3139,3141]" dest="-&gt;: -&gt; [5075,5077]"/>
+  <match src="}: } [201,202]" dest="}: } [516,517]"/>
+  <match src="field_expression [3083,3092]" dest="field_expression [5907,5916]"/>
+  <match src="expression_statement [1493,1512]" dest="expression_statement [3325,3351]"/>
+  <match src="comment: // possible values: OK for true; FAILED_PRECONDITION for false; CANCELLED [2276,2349]" dest="comment: // After evaluating one level, swap the &quot;buffers&quot; [6222,6271]"/>
+  <match src="identifier: dir [479,482]" dest="identifier: dirs [1319,1323]"/>
+  <match src="declaration [1926,1977]" dest="declaration [4007,4053]"/>
+  <match src=",: , [1194,1195]" dest=",: , [3006,3007]"/>
+  <match src=".: . [1850,1851]" dest=".: . [3730,3731]"/>
+  <match src="identifier: results_cond [1388,1400]" dest="identifier: queue_mutex [3273,3284]"/>
+  <match src="identifier: j [2970,2971]" dest="identifier: j [4944,4945]"/>
+  <match src="declaration [1369,1401]" dest="declaration [3267,3285]"/>
+  <match src=":: : [2490,2491]" dest=":: : [4624,4625]"/>
+  <match src="[: [ [2969,2970]" dest="[: [ [4943,4944]"/>
+  <match src=":: : [1181,1182]" dest=":: : [2993,2994]"/>
+  <match src="&amp;: &amp; [62,63]" dest="&amp;: &amp; [62,63]"/>
+  <match src="identifier: error [2077,2082]" dest="identifier: error [4088,4093]"/>
+  <match src="field_expression [3137,3152]" dest="field_expression [5073,5088]"/>
+  <match src="declaration [3934,3963]" dest="declaration [5936,5963]"/>
+  <match src="identifier: children_dir_status [3560,3579]" dest="identifier: children_status [5726,5741]"/>
+  <match src="field_expression [2898,2907]" dest="field_expression [4884,4893]"/>
+  <match src="-: - [3095,3096]" dest="-: - [5919,5920]"/>
+  <match src="comment: // If dir is empty then we need to fix up fixed_prefix and eval_pattern to [355,429]" dest="comment: // Check that `fs`, `env` and `results` are non-null. [131,184]"/>
+  <match src=",: , [3024,3025]" dest=",: , [4998,4999]"/>
+  <match src="]: ] [3688,3689]" dest="]: ] [6039,6040]"/>
+  <match src="else_clause [3915,4061]" dest="else_clause [6013,6150]"/>
+  <match src="identifier: child_path [2832,2842]" dest="identifier: path [4829,4833]"/>
+  <match src="ERROR [1170,1182]" dest="ERROR [2982,2994]"/>
+  <match src="&gt;&gt;: &gt;&gt; [1199,1201]" dest="&gt;&gt;: &gt;&gt; [3011,3013]"/>
+  <match src="comment: // include . as the top level directory. [432,472]" dest="comment: // By design, we don't match anything on empty pattern [389,443]"/>
+  <match src="binary_expression [2492,2505]" dest="binary_expression [4626,4639]"/>
+  <match src="return_statement [2113,2120]" dest="return_statement [4124,4131]"/>
+  <match src="pointer_declarator [43,48]" dest="pointer_declarator [43,48]"/>
+  <match src="&quot;: &quot; [3026,3027]" dest="&quot;: &quot; [5000,5001]"/>
+  <match src="(: ( [3323,3324]" dest="(: ( [5128,5129]"/>
+  <match src="expression_statement [131,148]" dest="expression_statement [446,463]"/>
+  <match src="return_statement [2180,2187]" dest="return_statement [4236,4243]"/>
+  <match src="identifier: int [1240,1243]" dest="identifier: int [2957,2960]"/>
+  <match src=";: ; [4085,4086]" dest=";: ; [6164,6165]"/>
+  <match src="type_identifier: results_mutex [3948,3961]" dest="type_identifier: result_mutex [5949,5961]"/>
+  <match src=";: ; [1365,1366]" dest=";: ; [3263,3264]"/>
+  <match src=":: : [3604,3605]" dest=":: : [5766,5767]"/>
+  <match src="&gt;: &gt; [2505,2506]" dest="&gt;: &gt; [4639,4640]"/>
+  <match src="=: = [2973,2974]" dest="=: = [4947,4948]"/>
+  <match src="expression_statement [1227,1257]" dest="expression_statement [2944,2976]"/>
+  <match src="identifier: pattern [155,162]" dest="identifier: pattern [470,477]"/>
+  <match src="field_identifier: emplace_back [3985,3997]" dest="field_identifier: emplace_back [5983,5995]"/>
+  <match src="==: == [2062,2064]" dest="==: == [4073,4075]"/>
+  <match src="call_expression [3560,3589]" dest="call_expression [5726,5751]"/>
+  <match src="field_identifier: ok [3690,3692]" dest="field_identifier: ok [6041,6043]"/>
+  <match src="ERROR [100,116]" dest="ERROR [100,116]"/>
+  <match src="identifier: ForEach [3316,3323]" dest="identifier: ForEach [5121,5128]"/>
+  <match src=".: . [3689,3690]" dest=".: . [6040,6041]"/>
+  <match src="if_statement [3708,4061]" dest="if_statement [5894,6150]"/>
+  <match src=";: ; [3386,3387]" dest=";: ; [5684,5685]"/>
+  <match src="): ) [3588,3589]" dest="): ) [5750,5751]"/>
+  <match src="identifier: current_dir [1953,1964]" dest="identifier: parent [4034,4040]"/>
+  <match src="): ) [2936,2937]" dest="): ) [4914,4915]"/>
+  <match src=".: . [2649,2650]" dest=".: . [4665,4666]"/>
+  <match src="compound_statement [3623,3654]" dest="compound_statement [5785,5816]"/>
+  <match src="call_expression [2989,3049]" dest="call_expression [4963,5023]"/>
+  <match src="argument_list [3152,3164]" dest="argument_list [5088,5094]"/>
+  <match src=":: : [2082,2083]" dest=":: : [4093,4094]"/>
+  <match src="argument_list [3899,3901]" dest="argument_list [1368,1370]"/>
+  <match src="if: if [2049,2051]" dest="if: if [4060,4062]"/>
+  <match src="statement_identifier: std [1211,1214]" dest="statement_identifier: std [2928,2931]"/>
+  <match src="): ) [3961,3962]" dest="): ) [5961,5962]"/>
+  <match src="argument_list [2059,2061]" dest="argument_list [4070,4072]"/>
+  <match src="identifier: new_rets [1537,1545]" dest="identifier: ForEach [6170,6177]"/>
+  <match src="): ) [3341,3342]" dest="): ) [5146,5147]"/>
+  <match src=",: , [3474,3475]" dest=",: , [5870,5871]"/>
+  <match src="): ) [1855,1856]" dest="): ) [3735,3736]"/>
+  <match src="binary_expression [1196,1207]" dest="binary_expression [3008,3031]"/>
+  <match src="argument_list [488,490]" dest="argument_list [1328,1330]"/>
+  <match src="identifier: int [1196,1199]" dest="identifier: int [3008,3011]"/>
+  <match src="field_expression [1472,1483]" dest="field_expression [3297,3315]"/>
+  <match src="parameter_declaration [24,38]" dest="parameter_declaration [24,38]"/>
+  <match src="(: ( [3405,3406]" dest="(: ( [5703,5704]"/>
+  <match src="identifier: j [2806,2807]" dest="identifier: j [4798,4799]"/>
+  <match src=":: : [3610,3611]" dest=":: : [5772,5773]"/>
+  <match src="expression_statement [1183,1208]" dest="expression_statement [2995,3032]"/>
+  <match src=":: : [3007,3008]" dest=":: : [4981,4982]"/>
+  <match src="labeled_statement [1167,1208]" dest="labeled_statement [2979,3032]"/>
+  <match src="for: for [3369,3372]" dest="for: for [5667,5670]"/>
+  <match src="): ) [3098,3099]" dest="): ) [5922,5923]"/>
+  <match src="comment: // Setup a parallel BFS to explore everything under dir. [1108,1164]" dest="comment: // The pattern can contain globbing characters at multiple levels, e.g.: [521,593]"/>
+  <match src="call_expression [1937,1976]" dest="call_expression [4018,4052]"/>
+  <match src="&lt;: &lt; [1187,1188]" dest="&lt;: &lt; [2999,3000]"/>
+  <match src="binary_expression [1227,1238]" dest="binary_expression [2944,2955]"/>
+  <match src="binary_expression [1216,1225]" dest="binary_expression [2933,2942]"/>
+  <match src="field_identifier: clear [140,145]" dest="field_identifier: clear [455,460]"/>
+  <match src="identifier: child_path [2908,2918]" dest="identifier: path [4894,4898]"/>
+  <match src="type_identifier: Env [40,43]" dest="type_identifier: Env [40,43]"/>
+  <match src=":: : [2847,2848]" dest=":: : [4838,4839]"/>
+  <match src="ERROR [62,63]" dest="ERROR [62,63]"/>
+  <match src="): ) [2882,2883]" dest="): ) [4868,4869]"/>
+  <match src="parenthesized_expression [2161,2179]" dest="parenthesized_expression [4207,4225]"/>
+  <match src="const: const [50,55]" dest="const: const [50,55]"/>
+  <match src=",: , [71,72]" dest=",: , [71,72]"/>
+  <match src="-&gt;: -&gt; [1939,1941]" dest="-&gt;: -&gt; [4020,4022]"/>
+  <match src="init_declarator [3437,3488]" dest="init_declarator [5844,5884]"/>
+  <match src="(: ( [1853,1854]" dest="(: ( [3733,3734]"/>
+  <match src="type_qualifier [3424,3429]" dest="type_qualifier [5826,5831]"/>
+  <match src="-&gt;: -&gt; [138,140]" dest="-&gt;: -&gt; [453,455]"/>
+  <match src=":: : [1894,1895]" dest=":: : [6280,6281]"/>
+  <match src="const: const [3424,3429]" dest="const: const [5826,5831]"/>
+  <match src="type_identifier: std [97,100]" dest="type_identifier: std [97,100]"/>
+  <match src="field_expression [2053,2059]" dest="field_expression [4064,4070]"/>
+  <match src="subscript_expression [3476,3487]" dest="subscript_expression [5872,5883]"/>
+  <match src="type_identifier: string [3430,3436]" dest="type_identifier: std [5832,5835]"/>
+  <match src=";: ; [3962,3963]" dest=";: ; [5962,5963]"/>
+  <match src="field_expression [3327,3340]" dest="field_expression [5132,5145]"/>
+  <match src="assignment_expression [3112,3164]" dest="assignment_expression [5052,5094]"/>
+  <match src="&amp;: &amp; [2707,2708]" dest="&amp;: &amp; [4735,4736]"/>
+  <match src="labeled_statement [2487,2527]" dest="labeled_statement [4621,4674]"/>
+  <match src="argument_list [1545,1559]" dest="argument_list [6177,6215]"/>
+  <match src="identifier: PERMISSION_DENIED [2084,2101]" dest="identifier: PERMISSION_DENIED [4095,4112]"/>
+  <match src="field_expression [3976,3997]" dest="field_expression [5974,5995]"/>
+  <match src="): ) [2807,2808]" dest="): ) [4799,4800]"/>
+  <match src="return: return [178,184]" dest="return: return [493,499]"/>
+  <match src="field_identifier: size [2650,2654]" dest="field_identifier: size [4666,4670]"/>
+  <match src="expression_statement [4085,4086]" dest="expression_statement [6164,6165]"/>
+  <match src="comment: // If the IsDirectory call was cancelled we bail. [3498,3547]" dest="comment: // See invariants above, all of these are valid accesses. [3629,3686]"/>
+  <match src="!: ! [2897,2898]" dest="!: ! [4883,4884]"/>
+  <match src="parameter_declaration [97,125]" dest="parameter_declaration [97,125]"/>
+  <match src="argument_list [145,147]" dest="argument_list [460,462]"/>
+  <match src="(: ( [168,169]" dest="(: ( [483,484]"/>
+  <match src="identifier: string [1188,1194]" dest="identifier: string [3000,3006]"/>
+  <match src="call_expression [3327,3342]" dest="call_expression [5132,5147]"/>
+  <match src="call_expression [131,147]" dest="call_expression [446,462]"/>
+  <match src="ERROR [2845,2849]" dest="ERROR [4836,4840]"/>
+  <match src="binary_expression [1183,1194]" dest="binary_expression [2995,3006]"/>
+  <match src="parenthesized_expression [478,491]" dest="parenthesized_expression [1300,1331]"/>
+  <match src="parenthesized_expression [3559,3622]" dest="parenthesized_expression [5725,5784]"/>
+  <match src="argument_list [168,170]" dest="argument_list [483,485]"/>
+  <match src="argument_list [2857,2883]" dest="argument_list [4848,4869]"/>
+  <match src="pointer_expression [1590,1598]" dest="pointer_expression [3483,3491]"/>
+  <match src="expression_statement [2950,3050]" dest="expression_statement [4928,5024]"/>
+  <match src="}: } [3059,3060]" dest="}: } [5033,5034]"/>
+  <match src="[: [ [2879,2880]" dest="[: [ [4865,4866]"/>
+  <match src="binary_expression [3388,3407]" dest="binary_expression [5686,5705]"/>
+  <match src="): ) [146,147]" dest="): ) [461,462]"/>
+  <match src="identifier: pair [1183,1187]" dest="identifier: pair [2995,2999]"/>
+  <match src="): ) [1510,1511]" dest="): ) [3349,3350]"/>
+  <match src=":: : [3603,3604]" dest=":: : [5765,5766]"/>
+  <match src="): ) [4008,4009]" dest="): ) [6000,6001]"/>
+  <match src="field_identifier: size [1552,1556]" dest="field_identifier: size [6194,6198]"/>
+  <match src="compound_statement [2809,3308]" dest="compound_statement [4801,5113]"/>
+  <match src=",: , [38,39]" dest=",: , [38,39]"/>
+  <match src="assignment_expression [2950,3049]" dest="assignment_expression [4928,5023]"/>
+  <match src="): ) [3900,3901]" dest="): ) [1369,1370]"/>
+  <match src="labeled_statement [1211,1257]" dest="labeled_statement [2928,2976]"/>
+  <match src="): ) [490,491]" dest="): ) [1330,1331]"/>
+  <match src="ERROR [185,193]" dest="ERROR [500,508]"/>
+  <match src=":: : [3006,3007]" dest=":: : [4980,4981]"/>
+  <match src="(: ( [195,196]" dest="(: ( [510,511]"/>
+  <match src="parenthesized_expression [3666,3695]" dest="parenthesized_expression [6021,6046]"/>
+  <match src="==: == [3590,3592]" dest="==: == [5752,5754]"/>
+  <match src=";: ; [1400,1401]" dest=";: ; [3284,3285]"/>
+  <match src=";: ; [4009,4010]" dest=";: ; [6001,6002]"/>
+  <match src="init_declarator [3381,3386]" dest="init_declarator [5679,5684]"/>
+  <match src="ERROR [3450,3454]" dest="ERROR [5851,5855]"/>
+  <match src="identifier: dirs [2719,2723]" dest="identifier: dirs [3494,3498]"/>
+  <match src=".: . [482,483]" dest=".: . [1323,1324]"/>
+  <match src="argument_list [3462,3488]" dest="argument_list [5863,5884]"/>
+  <match src="(: ( [3287,3288]" dest="(: ( [1439,1440]"/>
+  <match src=":: : [2848,2849]" dest=":: : [4839,4840]"/>
+  <match src="if: if [151,153]" dest="if: if [466,468]"/>
+  <match src="identifier: children [2162,2170]" dest="identifier: children [4208,4216]"/>
+  <match src="field_identifier: empty [163,168]" dest="field_identifier: empty [478,483]"/>
+  <match src=":: : [191,192]" dest=":: : [506,507]"/>
+  <match src="identifier: GetMatchingPaths [7,23]" dest="identifier: GetMatchingPaths [7,23]"/>
+  <match src="primitive_type: size_t [3374,3380]" dest="primitive_type: size_t [5672,5678]"/>
+  <match src=":: : [2491,2492]" dest=":: : [4625,4626]"/>
+  <match src="(: ( [3899,3900]" dest="(: ( [1368,1369]"/>
+  <match src="}: } [4070,4071]" dest="}: } [6157,6158]"/>
+  <match src="call_expression [2614,2657]" dest="call_expression [4641,4673]"/>
+  <match src=":: : [100,101]" dest=":: : [100,101]"/>
+  <match src="field_identifier: at [1851,1853]" dest="field_identifier: at [3731,3733]"/>
+  <match src=";: ; [1256,1257]" dest=";: ; [2975,2976]"/>
+  <match src="): ) [3621,3622]" dest="): ) [5783,5784]"/>
+  <match src="identifier: child_path [3998,4008]" dest="identifier: path [5996,6000]"/>
+  <match src="identifier: error [3008,3013]" dest="identifier: error [4982,4987]"/>
+  <match src="argument_list [3092,3094]" dest="argument_list [5916,5918]"/>
+  <match src="identifier: vector [102,108]" dest="identifier: vector [102,108]"/>
+  <match src="&lt;: &lt; [1231,1232]" dest="&lt;: &lt; [2948,2949]"/>
+</matches>
+<actions>
+  <move-tree tree="expression_statement [131,148]" parent="compound_statement [127,4213]" at="7"/>
+  <move-tree tree="if_statement [151,202]" parent="compound_statement [127,4213]" at="7"/>
+  <move-tree tree="labeled_statement [1211,1257]" parent="compound_statement [127,4213]" at="22"/>
+  <move-tree tree="labeled_statement [1167,1208]" parent="compound_statement [127,4213]" at="22"/>
+  <update-node tree="comment: // If dir is empty then we need to fix up fixed_prefix and eval_pattern to [355,429]" label="// Check that `fs`, `env` and `results` are non-null."/>
+  <insert-tree tree="if_statement [187,385]" parent="compound_statement [127,4213]" at="5"/>
+  <update-node tree="comment: // include . as the top level directory. [432,472]" label="// By design, we don't match anything on empty pattern"/>
+  <update-node tree="comment: // Setup a parallel BFS to explore everything under dir. [1108,1164]" label="// The pattern can contain globbing characters at multiple levels, e.g.:"/>
+  <update-node tree="comment: // Status to return. [1323,1343]" label="//"/>
+  <insert-node tree="comment: //   foo/ba?/baz/f*r [601,621]" parent="compound_statement [127,4213]" at="22"/>
+  <insert-node tree="comment: // [624,626]" parent="compound_statement [127,4213]" at="23"/>
+  <insert-node tree="comment: // To match the full pattern, we must match every prefix subpattern and then [629,705]" parent="compound_statement [127,4213]" at="24"/>
+  <insert-node tree="comment: // operate on the children for each match. Thus, we separate all subpatterns [708,784]" parent="compound_statement [127,4213]" at="25"/>
+  <insert-node tree="comment: // in the `dirs` vector below. [787,817]" parent="compound_statement [127,4213]" at="26"/>
+  <insert-tree tree="labeled_statement [820,882]" parent="compound_statement [127,4213]" at="27"/>
+  <insert-node tree="comment: // We can have patterns that have several parents where no globbing is being [886,962]" parent="compound_statement [127,4213]" at="28"/>
+  <insert-node tree="comment: // done, for example, `foo/bar/baz/*`. We don't need to expand the directories [965,1043]" parent="compound_statement [127,4213]" at="29"/>
+  <insert-node tree="comment: // which don't contain the globbing characters. [1046,1093]" parent="compound_statement [127,4213]" at="30"/>
+  <insert-tree tree="declaration [1096,1145]" parent="compound_statement [127,4213]" at="31"/>
+  <insert-node tree="comment: // If we don't have globbing characters in the pattern then it specifies a [1149,1223]" parent="compound_statement [127,4213]" at="32"/>
+  <insert-node tree="comment: // path in the filesystem. We add it to the result set if it exists. [1226,1294]" parent="compound_statement [127,4213]" at="33"/>
+  <insert-node tree="if_statement [1297,1446]" parent="compound_statement [127,4213]" at="34"/>
+  <insert-node tree="comment: // To expand the globbing, we do a BFS from `dirs[matching_index-1]`. [1450,1519]" parent="compound_statement [127,4213]" at="35"/>
+  <insert-node tree="comment: // At every step, we work on a pair `{dir, ix}` such that `dir` is a real [1522,1595]" parent="compound_statement [127,4213]" at="36"/>
+  <insert-node tree="comment: // directory, `ix &lt; dirs.size() - 1` and `dirs[ix+1]` is a globbing pattern. [1598,1674]" parent="compound_statement [127,4213]" at="37"/>
+  <insert-node tree="comment: // To expand the pattern, we select from all the children of `dir` only those [1677,1754]" parent="compound_statement [127,4213]" at="38"/>
+  <insert-node tree="comment: // that match against `dirs[ix+1]`. [1757,1792]" parent="compound_statement [127,4213]" at="39"/>
+  <insert-node tree="comment: // If there are more entries in `dirs` after `dirs[ix+1]` this mean we have [1795,1870]" parent="compound_statement [127,4213]" at="40"/>
+  <insert-node tree="comment: // more patterns to match. So, we add to the queue only those children that [1873,1948]" parent="compound_statement [127,4213]" at="41"/>
+  <insert-node tree="comment: // are also directories, paired with `ix+1`. [1951,1995]" parent="compound_statement [127,4213]" at="42"/>
+  <insert-node tree="comment: // If there are no more entries in `dirs`, we return all children as part of [1998,2074]" parent="compound_statement [127,4213]" at="43"/>
+  <insert-node tree="comment: // the answer. [2077,2091]" parent="compound_statement [127,4213]" at="44"/>
+  <insert-node tree="comment: // Since we can get into a combinatorial explosion issue (e.g., pattern [2094,2165]" parent="compound_statement [127,4213]" at="45"/>
+  <insert-node tree="comment: // `/*/*/*`), we process the queue in parallel. Each parallel processing takes [2168,2246]" parent="compound_statement [127,4213]" at="46"/>
+  <insert-node tree="comment: // elements from `expand_queue` and adds them to `next_expand_queue`, after [2249,2324]" parent="compound_statement [127,4213]" at="47"/>
+  <insert-node tree="comment: // which we swap these two queues (similar to double buffering algorithms). [2327,2402]" parent="compound_statement [127,4213]" at="48"/>
+  <insert-node tree="comment: // PRECONDITION: `IsGlobbingPattern(dirs[0]) == false` [2405,2459]" parent="compound_statement [127,4213]" at="49"/>
+  <insert-node tree="comment: // PRECONDITION: `matching_index &gt; 0` [2462,2499]" parent="compound_statement [127,4213]" at="50"/>
+  <insert-node tree="comment: // INVARIANT: If `{d, ix}` is in queue, then `d` and `dirs[ix]` are at the [2502,2576]" parent="compound_statement [127,4213]" at="51"/>
+  <insert-node tree="comment: //            same level in the filesystem tree. [2579,2627]" parent="compound_statement [127,4213]" at="52"/>
+  <insert-node tree="comment: // INVARIANT: If `{d, _}` is in queue, then `IsGlobbingPattern(d) == false`. [2630,2706]" parent="compound_statement [127,4213]" at="53"/>
+  <insert-node tree="comment: // INVARIANT: If `{d, _}` is in queue, then `d` is a real directory. [2709,2777]" parent="compound_statement [127,4213]" at="54"/>
+  <insert-node tree="comment: // INVARIANT: If `{_, ix}` is in queue, then `ix &lt; dirs.size() - 1`. [2780,2848]" parent="compound_statement [127,4213]" at="55"/>
+  <insert-node tree="comment: // INVARIANT: If `{_, ix}` is in queue, `IsGlobbingPattern(dirs[ix + 1])`. [2851,2925]" parent="compound_statement [127,4213]" at="56"/>
+  <insert-tree tree="expression_statement [3035,3107]" parent="compound_statement [127,4213]" at="59"/>
+  <insert-node tree="comment: // Adding to `result` or `new_expand_queue` need to be protected by mutexes [3111,3186]" parent="compound_statement [127,4213]" at="60"/>
+  <insert-node tree="comment: // since there are multiple threads writing to these. [3189,3242]" parent="compound_statement [127,4213]" at="61"/>
+  <insert-tree tree="return_statement [6327,6347]" parent="compound_statement [127,4213]" at="67"/>
+  <insert-node tree="if: if [1297,1299]" parent="if_statement [1297,1446]" at="0"/>
+  <move-tree tree="parenthesized_expression [478,491]" parent="if_statement [1297,1446]" at="1"/>
+  <insert-node tree="compound_statement [1332,1446]" parent="if_statement [1297,1446]" at="2"/>
+  <update-node tree="identifier: results_mutex [1352,1365]" label="result_mutex"/>
+  <update-node tree="type_identifier: condition_variable [1369,1387]" label="mutex"/>
+  <update-node tree="identifier: results_cond [1388,1400]" label="queue_mutex"/>
+  <insert-node tree="binary_expression [1301,1330]" parent="parenthesized_expression [478,491]" at="1"/>
+  <insert-node tree="{: { [1332,1333]" parent="compound_statement [1332,1446]" at="0"/>
+  <insert-node tree="if_statement [1338,1417]" parent="compound_statement [1332,1446]" at="1"/>
+  <insert-node tree="return_statement [1422,1442]" parent="compound_statement [1332,1446]" at="2"/>
+  <insert-node tree="}: } [1445,1446]" parent="compound_statement [1332,1446]" at="3"/>
+  <update-node tree="comment: // In case PERMISSION_DENIED is encountered, we bail here. [1984,2042]" label="// The work item for every item in `expand_queue`."/>
+  <update-node tree="comment: // children_dir_status holds is_dir status for children. It can have three [2195,2269]" label="// pattern, we process them in parallel."/>
+  <insert-node tree="ERROR [3457,3614]" parent="compound_statement [1487,4085]" at="14"/>
+  <insert-node tree="function_definition [3614,6164]" parent="compound_statement [1487,4085]" at="15"/>
+  <move-tree tree="expression_statement [4085,4086]" parent="compound_statement [1487,4085]" at="16"/>
+  <move-tree tree="expression_statement [1522,1560]" parent="compound_statement [1487,4085]" at="17"/>
+  <update-node tree="comment: // possible values: OK for true; FAILED_PRECONDITION for false; CANCELLED [2276,2349]" label="// After evaluating one level, swap the &quot;buffers&quot;"/>
+  <insert-node tree="labeled_statement [6276,6319]" parent="compound_statement [1487,4085]" at="19"/>
+  <insert-node tree="identifier: matching_index [1301,1315]" parent="binary_expression [1301,1330]" at="0"/>
+  <insert-node tree="==: == [1316,1318]" parent="binary_expression [1301,1330]" at="1"/>
+  <move-tree tree="call_expression [479,490]" parent="binary_expression [1301,1330]" at="2"/>
+  <insert-node tree="if: if [1338,1340]" parent="if_statement [1338,1417]" at="0"/>
+  <insert-node tree="parenthesized_expression [1341,1371]" parent="if_statement [1338,1417]" at="1"/>
+  <insert-tree tree="compound_statement [1372,1417]" parent="if_statement [1338,1417]" at="2"/>
+  <insert-node tree="return: return [1422,1428]" parent="return_statement [1422,1442]" at="0"/>
+  <insert-tree tree="ERROR [1429,1437]" parent="return_statement [1422,1442]" at="1"/>
+  <move-tree tree="call_expression [3285,3289]" parent="return_statement [1422,1442]" at="2"/>
+  <insert-node tree=";: ; [1441,1442]" parent="return_statement [1422,1442]" at="3"/>
+  <move-tree tree="storage_class_specifier [1565,1569]" parent="ERROR [3457,3614]" at="0"/>
+  <insert-node tree="type_identifier: handle_level [3462,3474]" parent="ERROR [3457,3614]" at="1"/>
+  <insert-node tree="=: = [3475,3476]" parent="ERROR [3457,3614]" at="2"/>
+  <insert-node tree="[: [ [3477,3478]" parent="ERROR [3457,3614]" at="3"/>
+  <insert-tree tree="pointer_expression [3478,3481]" parent="ERROR [3457,3614]" at="4"/>
+  <insert-node tree=",: , [3481,3482]" parent="ERROR [3457,3614]" at="5"/>
+  <insert-node tree="comma_expression [3483,3612]" parent="ERROR [3457,3614]" at="6"/>
+  <insert-node tree="]: ] [3612,3613]" parent="ERROR [3457,3614]" at="7"/>
+  <insert-node tree="(: ( [3613,3614]" parent="ERROR [3457,3614]" at="8"/>
+  <insert-node tree="primitive_type: int [3614,3617]" parent="function_definition [3614,6164]" at="0"/>
+  <insert-node tree="identifier: i [3618,3619]" parent="function_definition [3614,6164]" at="1"/>
+  <insert-tree tree="ERROR [3619,3620]" parent="function_definition [3614,6164]" at="2"/>
+  <move-tree tree="compound_statement [3414,4079]" parent="function_definition [3614,6164]" at="3"/>
+  <move-tree tree="call_expression [1537,1559]" parent="expression_statement [1522,1560]" at="0"/>
+  <insert-node tree="statement_identifier: std [6276,6279]" parent="labeled_statement [6276,6319]" at="0"/>
+  <insert-node tree=":: : [6279,6280]" parent="labeled_statement [6276,6319]" at="1"/>
+  <move-tree tree="ERROR [1894,1895]" parent="labeled_statement [6276,6319]" at="2"/>
+  <insert-tree tree="expression_statement [6281,6319]" parent="labeled_statement [6276,6319]" at="3"/>
+  <insert-node tree="(: ( [1341,1342]" parent="parenthesized_expression [1341,1371]" at="0"/>
+  <insert-node tree="call_expression [1342,1370]" parent="parenthesized_expression [1341,1371]" at="1"/>
+  <insert-node tree="): ) [1370,1371]" parent="parenthesized_expression [1341,1371]" at="2"/>
+  <update-node tree="identifier: next_dir_q [1246,1256]" label="expand_queue"/>
+  <update-node tree="identifier: dir_q [1202,1207]" label="next_expand_queue"/>
+  <move-tree tree="pointer_expression [1590,1598]" parent="comma_expression [3483,3612]" at="0"/>
+  <insert-node tree=",: , [3491,3492]" parent="comma_expression [3483,3612]" at="1"/>
+  <insert-node tree="comma_expression [3493,3612]" parent="comma_expression [3483,3612]" at="2"/>
+  <update-node tree="comment: // If the IsDirectory call was cancelled we bail. [3498,3547]" label="// See invariants above, all of these are valid accesses."/>
+  <insert-tree tree="ERROR [3693,3703]" parent="compound_statement [3414,4079]" at="3"/>
+  <insert-node tree="expression_statement [3703,3737]" parent="compound_statement [3414,4079]" at="4"/>
+  <insert-tree tree="declaration [3744,3789]" parent="compound_statement [3414,4079]" at="5"/>
+  <insert-tree tree="declaration [3796,3836]" parent="compound_statement [3414,4079]" at="6"/>
+  <insert-tree tree="declaration [3843,3890]" parent="compound_statement [3414,4079]" at="7"/>
+  <insert-node tree="comment: // Get all children of `parent`. If this fails, return early. [3898,3959]" parent="compound_statement [3414,4079]" at="8"/>
+  <insert-tree tree="labeled_statement [3966,4000]" parent="compound_statement [3414,4079]" at="9"/>
+  <move-tree tree="declaration [1926,1977]" parent="compound_statement [3414,4079]" at="10"/>
+  <move-tree tree="if_statement [2049,2128]" parent="compound_statement [3414,4079]" at="11"/>
+  <insert-node tree="comment: // Also return early if we don't have any children [4147,4197]" parent="compound_statement [3414,4079]" at="12"/>
+  <move-tree tree="if_statement [2158,2187]" parent="compound_statement [3414,4079]" at="13"/>
+  <insert-node tree="comment: // Since we can get extremely many children here and on some filesystems [4259,4331]" parent="compound_statement [3414,4079]" at="14"/>
+  <insert-node tree="comment: // `IsDirectory` is expensive, we process the children in parallel. [4338,4405]" parent="compound_statement [3414,4079]" at="15"/>
+  <insert-node tree="comment: // We also check that children match the pattern in parallel, for speedup. [4412,4486]" parent="compound_statement [3414,4079]" at="16"/>
+  <insert-node tree="comment: // We store the status of the match and `IsDirectory` in [4493,4549]" parent="compound_statement [3414,4079]" at="17"/>
+  <insert-node tree="comment: // `children_status` array, one element for each children. [4556,4614]" parent="compound_statement [3414,4079]" at="18"/>
+  <move-tree tree="labeled_statement [2487,2527]" parent="compound_statement [3414,4079]" at="19"/>
+  <insert-node tree="ERROR [4681,4794]" parent="compound_statement [3414,4079]" at="20"/>
+  <move-tree tree="function_definition [2802,3308]" parent="compound_statement [3414,4079]" at="21"/>
+  <move-tree tree="expression_statement [3308,3309]" parent="compound_statement [3414,4079]" at="22"/>
+  <move-tree tree="expression_statement [3316,3361]" parent="compound_statement [3414,4079]" at="23"/>
+  <insert-node tree="comment: // At this point, pairing `children` with `children_status` will tell us [5174,5246]" parent="compound_statement [3414,4079]" at="24"/>
+  <insert-node tree="comment: // if a children: [5253,5270]" parent="compound_statement [3414,4079]" at="25"/>
+  <insert-node tree="comment: //   * does not match the pattern [5277,5310]" parent="compound_statement [3414,4079]" at="26"/>
+  <insert-node tree="comment: //   * matches the pattern and is a directory [5317,5362]" parent="compound_statement [3414,4079]" at="27"/>
+  <insert-node tree="comment: //   * matches the pattern and is not a directory [5369,5418]" parent="compound_statement [3414,4079]" at="28"/>
+  <insert-node tree="comment: // We fully ignore the first case. [5425,5459]" parent="compound_statement [3414,4079]" at="29"/>
+  <insert-node tree="comment: // If we matched the last pattern (`index == dirs.size() - 1`) then all [5466,5537]" parent="compound_statement [3414,4079]" at="30"/>
+  <insert-node tree="comment: // remaining children get added to the result. [5544,5590]" parent="compound_statement [3414,4079]" at="31"/>
+  <insert-node tree="comment: // Otherwise, only the directories get added to the next queue. [5597,5660]" parent="compound_statement [3414,4079]" at="32"/>
+  <move-tree tree="for_statement [3369,4079]" parent="compound_statement [3414,4079]" at="33"/>
+  <update-node tree="identifier: new_rets [1537,1545]" label="ForEach"/>
+  <update-node tree="identifier: dir [479,482]" label="dirs"/>
+  <update-node tree="field_identifier: empty [483,488]" label="size"/>
+  <insert-tree tree="field_expression [1342,1368]" parent="call_expression [1342,1370]" at="0"/>
+  <move-tree tree="argument_list [3899,3901]" parent="call_expression [1342,1370]" at="1"/>
+  <update-node tree="identifier: dir_q [1472,1477]" label="expand_queue"/>
+  <update-node tree="identifier: next_dir_q [1493,1503]" label="next_expand_queue"/>
+  <move-tree tree="pointer_expression [2718,2723]" parent="comma_expression [3493,3612]" at="0"/>
+  <insert-node tree=",: , [3498,3499]" parent="comma_expression [3493,3612]" at="1"/>
+  <insert-tree tree="comma_expression [3500,3612]" parent="comma_expression [3493,3612]" at="2"/>
+  <insert-node tree="assignment_expression [3703,3736]" parent="expression_statement [3703,3737]" at="0"/>
+  <insert-node tree=";: ; [3736,3737]" parent="expression_statement [3703,3737]" at="1"/>
+  <insert-node tree="compound_statement [4226,4251]" parent="if_statement [2158,2187]" at="2"/>
+  <move-tree tree="storage_class_specifier [2665,2669]" parent="ERROR [4681,4794]" at="0"/>
+  <insert-node tree="type_identifier: handle_children [4686,4701]" parent="ERROR [4681,4794]" at="1"/>
+  <insert-node tree="=: = [4702,4703]" parent="ERROR [4681,4794]" at="2"/>
+  <insert-node tree="[: [ [4704,4705]" parent="ERROR [4681,4794]" at="3"/>
+  <insert-node tree="comma_expression [4705,4792]" parent="ERROR [4681,4794]" at="4"/>
+  <insert-node tree="]: ] [4792,4793]" parent="ERROR [4681,4794]" at="5"/>
+  <insert-node tree="(: ( [4793,4794]" parent="ERROR [4681,4794]" at="6"/>
+  <move-tree tree="++: ++ [3409,3411]" parent="update_expression [3409,3412]" at="1"/>
+  <move-tree tree="compound_statement [3696,4071]" parent="for_statement [3369,4079]" at="7"/>
+  <insert-node tree="number_literal: 0 [6178,6179]" parent="argument_list [1545,1559]" at="1"/>
+  <insert-node tree=",: , [6179,6180]" parent="argument_list [1545,1559]" at="2"/>
+  <insert-node tree=",: , [6200,6201]" parent="argument_list [1545,1559]" at="4"/>
+  <insert-node tree="identifier: handle_level [6202,6214]" parent="argument_list [1545,1559]" at="5"/>
+  <insert-tree tree="pointer_expression [3703,3715]" parent="assignment_expression [3703,3736]" at="0"/>
+  <insert-node tree="=: = [3716,3717]" parent="assignment_expression [3703,3736]" at="1"/>
+  <move-tree tree="call_expression [1845,1856]" parent="assignment_expression [3703,3736]" at="2"/>
+  <insert-node tree="{: { [4226,4227]" parent="compound_statement [4226,4251]" at="0"/>
+  <move-tree tree="return_statement [2180,2187]" parent="compound_statement [4226,4251]" at="1"/>
+  <insert-node tree="}: } [4250,4251]" parent="compound_statement [4226,4251]" at="2"/>
+  <insert-tree tree="pointer_expression [4705,4708]" parent="comma_expression [4705,4792]" at="0"/>
+  <insert-node tree=",: , [4708,4709]" parent="comma_expression [4705,4792]" at="1"/>
+  <insert-node tree="comma_expression [4710,4792]" parent="comma_expression [4705,4792]" at="2"/>
+  <move-tree tree="if_statement [3066,3300]" parent="compound_statement [2809,3308]" at="2"/>
+  <move-tree tree="if_statement [3556,3654]" parent="compound_statement [3696,4071]" at="1"/>
+  <move-tree tree="declaration [3424,3489]" parent="compound_statement [3696,4071]" at="2"/>
+  <move-tree tree="call_expression [2614,2657]" parent="binary_expression [2492,2526]" at="2"/>
+  <insert-tree tree="pointer_expression [4710,4724]" parent="comma_expression [4710,4792]" at="0"/>
+  <insert-node tree=",: , [4724,4725]" parent="comma_expression [4710,4792]" at="1"/>
+  <insert-node tree="comma_expression [4726,4792]" parent="comma_expression [4710,4792]" at="2"/>
+  <update-node tree="type_identifier: string [2825,2831]" label="std"/>
+  <insert-tree tree="ERROR [4820,4828]" parent="declaration [2819,2884]" at="2"/>
+  <move-tree tree="parenthesized_expression [2896,2937]" parent="if_statement [3066,3300]" at="1"/>
+  <move-tree tree="compound_statement [2938,3060]" parent="if_statement [3066,3300]" at="2"/>
+  <update-node tree="type_identifier: string [3430,3436]" label="std"/>
+  <insert-tree tree="ERROR [5835,5843]" parent="declaration [3424,3489]" at="2"/>
+  <move-tree tree="parenthesized_expression [3069,3099]" parent="if_statement [3708,4061]" at="1"/>
+  <move-tree tree="compound_statement [3920,4061]" parent="if_statement [3708,4061]" at="2"/>
+  <update-node tree="identifier: dir_q [1546,1551]" label="expand_queue"/>
+  <update-node tree="identifier: dir_q [1845,1850]" label="expand_queue"/>
+  <update-node tree="identifier: current_dir [1953,1964]" label="parent"/>
+  <insert-node tree="identifier: children_status [4641,4656]" parent="call_expression [2614,2657]" at="0"/>
+  <insert-tree tree="pointer_expression [4726,4733]" parent="comma_expression [4726,4792]" at="0"/>
+  <insert-node tree=",: , [4733,4734]" parent="comma_expression [4726,4792]" at="1"/>
+  <insert-node tree="comma_expression [4735,4792]" parent="comma_expression [4726,4792]" at="2"/>
+  <update-node tree="identifier: child_path [2832,2842]" label="path"/>
+  <move-tree tree="compound_statement [3100,3175]" parent="else_clause [3176,3300]" at="1"/>
+  <update-node tree="identifier: child_path [3437,3447]" label="path"/>
+  <insert-node tree="if_statement [6018,6150]" parent="else_clause [3915,4061]" at="1"/>
+  <move-tree tree="pointer_expression [2707,2716]" parent="comma_expression [4735,4792]" at="0"/>
+  <insert-node tree=",: , [4744,4745]" parent="comma_expression [4735,4792]" at="1"/>
+  <insert-tree tree="pointer_expression [4776,4792]" parent="comma_expression [4735,4792]" at="2"/>
+  <update-node tree="identifier: dir_index [3070,3079]" label="index"/>
+  <insert-node tree="==: == [5904,5906]" parent="binary_expression [3070,3098]" at="1"/>
+  <insert-node tree="if: if [6018,6020]" parent="if_statement [6018,6150]" at="0"/>
+  <move-tree tree="parenthesized_expression [3666,3695]" parent="if_statement [6018,6150]" at="1"/>
+  <insert-tree tree="compound_statement [6047,6150]" parent="if_statement [6018,6150]" at="2"/>
+  <update-node tree="identifier: current_dir [2858,2869]" label="parent"/>
+  <update-node tree="identifier: current_dir [3463,3474]" label="parent"/>
+  <update-node tree="identifier: lk [3945,3947]" label="l"/>
+  <update-node tree="identifier: child_path [2908,2918]" label="path"/>
+  <insert-node tree="identifier: match_pattern [4900,4913]" parent="argument_list [2907,2936]" at="3"/>
+  <update-node tree="identifier: children_dir_status [2950,2969]" label="children_status"/>
+  <update-node tree="identifier: child_path [3998,4008]" label="path"/>
+  <update-node tree="identifier: children_dir_status [3112,3131]" label="children_status"/>
+  <update-node tree="identifier: children_dir_status [3560,3579]" label="children_status"/>
+  <update-node tree="type_identifier: results_mutex [3948,3961]" label="result_mutex"/>
+  <update-node tree="identifier: child_path [3153,3163]" label="path"/>
+  <update-node tree="identifier: children_dir_status [3667,3686]" label="children_status"/>
+  <delete-tree tree="declaration [206,278]"/>
+  <delete-tree tree="declaration [281,311]"/>
+  <delete-tree tree="declaration [314,352]"/>
+  <delete-node tree="if: if [475,477]"/>
+  <delete-tree tree="compound_statement [492,616]"/>
+  <delete-node tree="if_statement [475,616]"/>
+  <delete-tree tree="declaration [619,674]"/>
+  <delete-tree tree="preproc_ifdef [675,775]"/>
+  <delete-tree tree="labeled_statement [778,803]"/>
+  <delete-tree tree="if_statement [806,867]"/>
+  <delete-tree tree="declaration [870,917]"/>
+  <delete-tree tree="while_statement [920,1037]"/>
+  <delete-tree tree="expression_statement [1040,1063]"/>
+  <delete-tree tree="labeled_statement [1066,1105]"/>
+  <delete-tree tree="expression_statement [1260,1307]"/>
+  <delete-tree tree="declaration [1310,1321]"/>
+  <delete-tree tree="declaration [1404,1425]"/>
+  <delete-tree tree="declaration [1428,1461]"/>
+  <delete-node tree="statement_identifier: std [1517,1520]"/>
+  <delete-node tree=":: : [1520,1521]"/>
+  <delete-tree tree="ERROR [1521,1522]"/>
+  <delete-node tree="labeled_statement [1517,1560]"/>
+  <delete-node tree="type_identifier: handle_level [1570,1582]"/>
+  <delete-tree tree="ERROR [1583,1586]"/>
+  <delete-node tree="identifier: fs [1586,1588]"/>
+  <delete-node tree=",: , [1588,1589]"/>
+  <delete-node tree="ERROR [1565,1589]"/>
+  <delete-node tree=",: , [1598,1599]"/>
+  <delete-tree tree="comma_expression [1600,1821]"/>
+  <delete-node tree="comma_expression [1590,1821]"/>
+  <delete-node tree=";: ; [1821,1822]"/>
+  <delete-node tree="expression_statement [1590,1822]"/>
+  <delete-node tree="primitive_type: int [1829,1832]"/>
+  <delete-node tree="identifier: dir_index [1833,1842]"/>
+  <delete-node tree="=: = [1843,1844]"/>
+  <delete-node tree=".: . [1856,1857]"/>
+  <delete-node tree="field_identifier: second [1857,1863]"/>
+  <delete-node tree="field_expression [1845,1863]"/>
+  <delete-node tree="init_declarator [1833,1863]"/>
+  <delete-node tree=";: ; [1863,1864]"/>
+  <delete-node tree="declaration [1829,1864]"/>
+  <delete-tree tree="expression_statement [1871,1883]"/>
+  <delete-node tree="statement_identifier: std [1890,1893]"/>
+  <delete-node tree=":: : [1893,1894]"/>
+  <delete-tree tree="expression_statement [1895,1919]"/>
+  <delete-node tree="labeled_statement [1890,1919]"/>
+  <delete-tree tree="expression_statement [2135,2151]"/>
+  <delete-tree tree="field_expression [2614,2640]"/>
+  <delete-node tree="identifier: children_dir_status [2507,2526]"/>
+  <delete-tree tree="subscript_expression [2920,2935]"/>
+  <delete-node tree="{: { [3181,3182]"/>
+  <delete-tree tree="ERROR [3193,3285]"/>
+  <delete-node tree=";: ; [3289,3290]"/>
+  <delete-node tree="expression_statement [3285,3290]"/>
+  <delete-node tree="}: } [3299,3300]"/>
+  <delete-node tree="compound_statement [3181,3300]"/>
+  <delete-node tree="if: if [2893,2895]"/>
+  <delete-node tree="else: else [3061,3065]"/>
+  <delete-node tree="else_clause [3061,3300]"/>
+  <delete-node tree="if_statement [2893,3300]"/>
+  <delete-node tree="!=: != [3080,3082]"/>
+  <delete-tree tree="expression_statement [4023,4049]"/>
+  <delete-tree tree="parenthesized_expression [3711,3741]"/>
+  <delete-node tree="{: { [3742,3743]"/>
+  <delete-tree tree="declaration [3756,3786]"/>
+  <delete-tree tree="expression_statement [3799,3862]"/>
+  <delete-tree tree="field_expression [3875,3899]"/>
+  <delete-node tree="call_expression [3875,3901]"/>
+  <delete-node tree=";: ; [3901,3902]"/>
+  <delete-node tree="expression_statement [3875,3902]"/>
+  <delete-node tree="}: } [3913,3914]"/>
+  <delete-node tree="compound_statement [3742,3914]"/>
+  <delete-node tree="if: if [3663,3665]"/>
+  <delete-node tree="if_statement [3663,4071]"/>
+  <delete-tree tree="binary_expression [1522,1535]"/>
+  <delete-node tree="&gt;: &gt; [1535,1536]"/>
+  <delete-node tree="binary_expression [1522,1559]"/>
+  <delete-node tree="comment: // if we don't calculate IsDirectory (we might do that because there isn't [2356,2430]"/>
+  <delete-node tree="comment: // any point in exploring that child path). [2437,2480]"/>
+  <delete-node tree="comment: // This IsDirectory call can be expensive for some FS. Parallelizing it. [2535,2607]"/>
+  <delete-node tree=";: ; [2657,2658]"/>
+  <delete-node tree="expression_statement [2614,2658]"/>
+  <delete-node tree="type_identifier: handle_children [2670,2685]"/>
+  <delete-tree tree="ERROR [2686,2689]"/>
+  <delete-node tree="identifier: fs [2689,2691]"/>
+  <delete-node tree=",: , [2691,2692]"/>
+  <delete-tree tree="pointer_expression [2693,2705]"/>
+  <delete-node tree=",: , [2705,2706]"/>
+  <delete-node tree=",: , [2716,2717]"/>
+  <delete-node tree=",: , [2723,2724]"/>
+  <delete-tree tree="comma_expression [2725,2800]"/>
+  <delete-node tree="comma_expression [2718,2800]"/>
+  <delete-node tree="comma_expression [2707,2800]"/>
+  <delete-node tree="comma_expression [2693,2800]"/>
+  <delete-node tree="]: ] [2800,2801]"/>
+  <delete-node tree="(: ( [2801,2802]"/>
+  <delete-node tree="ERROR [2665,2802]"/>
+  <delete-tree tree="expression_statement [4091,4130]"/>
+  <delete-tree tree="expression_statement [4136,4175]"/>
+  <delete-tree tree="labeled_statement [4180,4209]"/>
+  <delete-tree tree="return_statement [4216,4227]"/>
+  <delete-tree tree="ERROR [4228,4229]"/>
+</actions>

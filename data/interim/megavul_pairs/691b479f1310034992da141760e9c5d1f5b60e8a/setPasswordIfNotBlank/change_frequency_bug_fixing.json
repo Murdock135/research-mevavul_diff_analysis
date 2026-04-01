@@ -1,0 +1,58 @@
+{
+  "frequency": [
+    {
+      "c": "Assignment",
+      "f": "2"
+    },
+    {
+      "c": "Try",
+      "f": "1"
+    },
+    {
+      "c": "If",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "delete-node_Assignment_Block",
+      "f": "2"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Try_Block",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Assignment",
+      "f": "0.5"
+    },
+    {
+      "c": "Try",
+      "f": "0.25"
+    },
+    {
+      "c": "If",
+      "f": "0.25"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "delete-node_Assignment_Block",
+      "f": "0.5"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "0.25"
+    },
+    {
+      "c": "delete-node_Try_Block",
+      "f": "0.25"
+    }
+  ]
+}

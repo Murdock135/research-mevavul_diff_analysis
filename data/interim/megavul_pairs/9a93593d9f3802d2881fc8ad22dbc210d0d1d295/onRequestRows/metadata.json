@@ -1,0 +1,20 @@
+{
+    "id": "9a93593d9f3802d2881fc8ad22dbc210d0d1d295_onRequestRows_0",
+    "func_name": "onRequestRows",
+    "cve_id": "CVE-2021-33609",
+    "cwe_ids": [
+        "CWE-20"
+    ],
+    "commit_hash": "9a93593d9f3802d2881fc8ad22dbc210d0d1d295",
+    "parent_commit_hash": "c982b1c531b7367ed43976a87be3818e3eeb8e79",
+    "repo_name": "vaadin/framework",
+    "git_url": "https://github.com/vaadin/framework/commit/9a93593d9f3802d2881fc8ad22dbc210d0d1d295",
+    "file_path": "server/src/main/java/com/vaadin/data/provider/DataCommunicator.java",
+    "file_name": "DataCommunicator.java",
+    "commit_date": 1632885478,
+    "commit_msg": "Add row limit to DataCommunicator row data requests",
+    "cvss_vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
+    "cvss_base_score": 4.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

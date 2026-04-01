@@ -1,0 +1,20 @@
+{
+    "id": "4e4743a354e26467318b437892a9980eb9b8328a_run_0",
+    "func_name": "run",
+    "cve_id": "CVE-2016-3833",
+    "cwe_ids": [
+        "CWE-264"
+    ],
+    "commit_hash": "4e4743a354e26467318b437892a9980eb9b8328a",
+    "parent_commit_hash": "01875b0274e74f97edf6b0d5c92de822e0555d03",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/4e4743a354e26467318b437892a9980eb9b8328a",
+    "file_path": "cmds/pm/src/com/android/commands/pm/Pm.java",
+    "file_name": "Pm.java",
+    "commit_date": 1466092680,
+    "commit_msg": "Add pm operation to set user restrictions.\n\nBug: 29189712\nChange-Id: I6fdb3b68dfe3f51119e5ce8008880fc7d9c793df\n",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C",
+    "cvss_base_score": 9.3,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

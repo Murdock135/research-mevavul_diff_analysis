@@ -1,0 +1,20 @@
+{
+    "id": "84a7cb38daf0295b93aba21d562ec627e4eb463b_render_0",
+    "func_name": "render",
+    "cve_id": "CVE-2022-24881",
+    "cwe_ids": [
+        "CWE-20"
+    ],
+    "commit_hash": "84a7cb38daf0295b93aba21d562ec627e4eb463b",
+    "parent_commit_hash": "719dd74cab14c094a483b4ba735fcd3c5cc4058e",
+    "repo_name": "ballcat-projects/ballcat-codegen",
+    "git_url": "https://github.com/ballcat-projects/ballcat-codegen/commit/84a7cb38daf0295b93aba21d562ec627e4eb463b",
+    "file_path": "ballcat-codegen-backend/src/main/java/com/hccake/ballcat/codegen/engine/TemplateEngineDelegator.java",
+    "file_name": "TemplateEngineDelegator.java",
+    "commit_date": 1650844566,
+    "commit_msg": ":lock: \u4fee\u6539\u6a21\u677f\u5f15\u64ce\u7684\u9ed8\u8ba4\u5b89\u5168\u7b56\u7565\uff0c\u4ee5\u9632\u6b62RCE",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

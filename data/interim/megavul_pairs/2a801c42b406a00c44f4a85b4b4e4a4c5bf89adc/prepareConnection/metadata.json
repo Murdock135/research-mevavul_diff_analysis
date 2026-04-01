@@ -1,0 +1,20 @@
+{
+    "id": "2a801c42b406a00c44f4a85b4b4e4a4c5bf89adc_prepareConnection_0",
+    "func_name": "prepareConnection",
+    "cve_id": "CVE-2021-33604",
+    "cwe_ids": [
+        "CWE-172"
+    ],
+    "commit_hash": "2a801c42b406a00c44f4a85b4b4e4a4c5bf89adc",
+    "parent_commit_hash": "7bf140bdab2000bc9f3dc470252fe1a63b554e9d",
+    "repo_name": "vaadin/flow",
+    "git_url": "https://github.com/vaadin/flow/commit/2a801c42b406a00c44f4a85b4b4e4a4c5bf89adc",
+    "file_path": "vaadin-dev-server/src/main/java/com/vaadin/base/devserver/DevModeHandlerImpl.java",
+    "file_name": "DevModeHandlerImpl.java",
+    "commit_date": 1622109365,
+    "commit_msg": "fix: prevent passing bad character to dev-server\n\nThe webpack dev-server does not escape \" character, as it is not valid\nURL. This limitation was not checked when passing request to it via\nDevModeHandlerImpl.",
+    "cvss_vector": "AV:L/AC:H/Au:N/C:P/I:N/A:N",
+    "cvss_base_score": 1.2,
+    "cvss_base_severity": "LOW",
+    "cvss_is_v3": false
+}

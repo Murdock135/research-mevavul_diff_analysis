@@ -1,0 +1,20 @@
+{
+    "id": "98a50b76141f0b14f292f49ce376e6554142d5e2_openNewTab_0",
+    "func_name": "openNewTab",
+    "cve_id": "CVE-2014-3159",
+    "cwe_ids": [
+        "CWE-20"
+    ],
+    "commit_hash": "98a50b76141f0b14f292f49ce376e6554142d5e2",
+    "parent_commit_hash": "daf88e5b295b56718c391da32700069762142d18",
+    "repo_name": "chromium",
+    "git_url": "https://github.com/chromium/chromium/commit/98a50b76141f0b14f292f49ce376e6554142d5e2",
+    "file_path": "components/web_contents_delegate_android/android/java/src/org/chromium/components/web_contents_delegate_android/WebContentsDelegateAndroid.java",
+    "file_name": "WebContentsDelegateAndroid.java",
+    "commit_date": 1401443070,
+    "commit_msg": "Use LoadURLWithParams in ChromeWebContentsDelegateAndroid\n\nBuild a LoadURLParams object from the OpenURLParams and properly set all\nparameters on that object when calling into NavigationController.  This makes\nsure we set the correct state for the load.\n\nBUG=352083\n\nReview URL: https://codereview.chromium.org/267253007\n\ngit-svn-id: svn://svn.chromium.org/chrome/trunk/src@273865 0039d316-1c4b-4281-b951-d872f2087c98",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:N",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

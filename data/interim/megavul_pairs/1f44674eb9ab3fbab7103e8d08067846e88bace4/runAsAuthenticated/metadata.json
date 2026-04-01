@@ -1,0 +1,20 @@
+{
+    "id": "1f44674eb9ab3fbab7103e8d08067846e88bace4_runAsAuthenticated_2",
+    "func_name": "runAsAuthenticated",
+    "cve_id": "CVE-2024-23679",
+    "cwe_ids": [
+        "CWE-384"
+    ],
+    "commit_hash": "1f44674eb9ab3fbab7103e8d08067846e88bace4",
+    "parent_commit_hash": "cb99e61feaaadf3eafa846a83c89608907a2aef5",
+    "repo_name": "enonic/xp",
+    "git_url": "https://github.com/enonic/xp/commit/1f44674eb9ab3fbab7103e8d08067846e88bace4",
+    "file_path": "modules/lib/lib-auth/src/main/java/com/enonic/xp/lib/auth/LoginHandler.java",
+    "file_name": "LoginHandler.java",
+    "commit_date": 1638505884,
+    "commit_msg": "Invalidate old session after login #9253\n\n(cherry picked from commit 0189975691e9e6407a9fee87006f730e84f734ff)",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_is_v3": true
+}

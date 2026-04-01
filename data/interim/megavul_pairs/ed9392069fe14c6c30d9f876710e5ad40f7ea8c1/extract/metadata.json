@@ -1,0 +1,20 @@
+{
+    "id": "ed9392069fe14c6c30d9f876710e5ad40f7ea8c1_extract_0",
+    "func_name": "extract",
+    "cve_id": "CVE-2023-40827",
+    "cwe_ids": [
+        "CWE-22"
+    ],
+    "commit_hash": "ed9392069fe14c6c30d9f876710e5ad40f7ea8c1",
+    "parent_commit_hash": "c1b03c92c03cc42ef7d197d962acd785bbea60dd",
+    "repo_name": "pf4j",
+    "git_url": "https://github.com/pf4j/pf4j/commit/ed9392069fe14c6c30d9f876710e5ad40f7ea8c1",
+    "file_path": "pf4j/src/main/java/org/pf4j/util/Unzip.java",
+    "file_name": "Unzip.java",
+    "commit_date": 1691888654,
+    "commit_msg": "Add security checks to prevent directory traversal when decompressing",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

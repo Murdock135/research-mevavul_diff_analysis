@@ -1,0 +1,138 @@
+{
+  "frequency": [
+    {
+      "c": "LocalVariable",
+      "f": "3"
+    },
+    {
+      "c": "FieldRead",
+      "f": "2"
+    },
+    {
+      "c": "TypeAccess",
+      "f": "2"
+    },
+    {
+      "c": "ForEach",
+      "f": "1"
+    },
+    {
+      "c": "TypeReference",
+      "f": "1"
+    },
+    {
+      "c": "Invocation",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "update-node_Invocation_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_LocalVariable_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_LocalVariable_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_ForEach_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_TypeAccess_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_TypeAccess_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_FieldRead_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "update-node_FieldRead_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "update-node_TypeReference_LocalVariable",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "LocalVariable",
+      "f": "0.3"
+    },
+    {
+      "c": "FieldRead",
+      "f": "0.2"
+    },
+    {
+      "c": "TypeAccess",
+      "f": "0.2"
+    },
+    {
+      "c": "ForEach",
+      "f": "0.1"
+    },
+    {
+      "c": "TypeReference",
+      "f": "0.1"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.1"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "update-node_Invocation_LocalVariable",
+      "f": "0.1"
+    },
+    {
+      "c": "move-tree_LocalVariable_Block",
+      "f": "0.1"
+    },
+    {
+      "c": "update-node_LocalVariable_Block",
+      "f": "0.1"
+    },
+    {
+      "c": "insert-node_ForEach_Block",
+      "f": "0.1"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "0.1"
+    },
+    {
+      "c": "update-node_TypeAccess_Invocation",
+      "f": "0.1"
+    },
+    {
+      "c": "move-tree_TypeAccess_Invocation",
+      "f": "0.1"
+    },
+    {
+      "c": "move-tree_FieldRead_Invocation",
+      "f": "0.1"
+    },
+    {
+      "c": "update-node_FieldRead_Invocation",
+      "f": "0.1"
+    },
+    {
+      "c": "update-node_TypeReference_LocalVariable",
+      "f": "0.1"
+    }
+  ]
+}

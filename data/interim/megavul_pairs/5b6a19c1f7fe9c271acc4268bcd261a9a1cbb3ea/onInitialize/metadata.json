@@ -1,0 +1,20 @@
+{
+    "id": "5b6a19c1f7fe9c271acc4268bcd261a9a1cbb3ea_onInitialize_0",
+    "func_name": "onInitialize",
+    "cve_id": "CVE-2022-38301",
+    "cwe_ids": [
+        "CWE-22"
+    ],
+    "commit_hash": "5b6a19c1f7fe9c271acc4268bcd261a9a1cbb3ea",
+    "parent_commit_hash": "6ecf335728b4994a66e1a0274419f074eb762d31",
+    "repo_name": "theonedev/onedev",
+    "git_url": "https://github.com/theonedev/onedev/commit/5b6a19c1f7fe9c271acc4268bcd261a9a1cbb3ea",
+    "file_path": "server-core/src/main/java/io/onedev/server/web/page/project/builds/detail/artifacts/ArtifactUploadPanel.java",
+    "file_name": "ArtifactUploadPanel.java",
+    "commit_date": 1660003368,
+    "commit_msg": "Fix issue #842 - A security vulnerability relating to path traversal",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 8.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

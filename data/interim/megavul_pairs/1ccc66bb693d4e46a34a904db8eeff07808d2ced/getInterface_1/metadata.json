@@ -1,0 +1,20 @@
+{
+    "id": "1ccc66bb693d4e46a34a904db8eeff07808d2ced_getInterface_3",
+    "func_name": "getInterface",
+    "cve_id": "CVE-2016-2510",
+    "cwe_ids": [
+        "CWE-19"
+    ],
+    "commit_hash": "1ccc66bb693d4e46a34a904db8eeff07808d2ced",
+    "parent_commit_hash": "65a3c86837f0cff718fc9d389543e5ad59b527cd",
+    "repo_name": "beanshell",
+    "git_url": "https://github.com/beanshell/beanshell/commit/1ccc66bb693d4e46a34a904db8eeff07808d2ced",
+    "file_path": "src/bsh/XThis.java",
+    "file_name": "XThis.java",
+    "commit_date": 1454305452,
+    "commit_msg": "Avoid (de)serialization of XThis.Handler",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 6.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

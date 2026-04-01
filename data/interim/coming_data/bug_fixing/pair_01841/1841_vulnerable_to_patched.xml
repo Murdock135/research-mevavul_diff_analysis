@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="identifier: LibarchivePlugin [4,20]" dest="identifier: LibarchivePlugin [4,20]"/>
+  <match src=";: ; [394,395]" dest=";: ; [169,170]"/>
+  <match src="function_definition [0,397]" dest="function_definition [0,172]"/>
+  <match src="translation_unit [0,397]" dest="translation_unit [0,172]"/>
+  <match src="): ) [38,39]" dest="): ) [38,39]"/>
+  <match src="return_statement [381,395]" dest="return_statement [52,170]"/>
+  <match src="parameter_list [37,39]" dest="parameter_list [37,39]"/>
+  <match src="function_declarator [22,39]" dest="function_declarator [22,39]"/>
+  <match src="identifier: extractionFlags [22,37]" dest="identifier: extractionFlags [22,37]"/>
+  <match src="ERROR [40,45]" dest="ERROR [40,45]"/>
+  <match src="compound_statement [46,397]" dest="compound_statement [46,172]"/>
+  <match src="type_qualifier [40,45]" dest="type_qualifier [40,45]"/>
+  <match src=":: : [20,21]" dest=":: : [20,21]"/>
+  <match src="(: ( [37,38]" dest="(: ( [37,38]"/>
+  <match src="ERROR [4,22]" dest="ERROR [4,22]"/>
+  <match src="return: return [381,387]" dest="return: return [52,58]"/>
+  <match src="const: const [40,45]" dest="const: const [40,45]"/>
+  <match src="{: { [46,47]" dest="{: { [46,47]"/>
+  <match src="primitive_type: int [0,3]" dest="primitive_type: int [0,3]"/>
+  <match src=":: : [21,22]" dest=":: : [21,22]"/>
+  <match src="}: } [396,397]" dest="}: } [171,172]"/>
+</matches>
+<actions>
+  <insert-tree tree="binary_expression [59,169]" parent="return_statement [381,395]" at="1"/>
+  <delete-tree tree="declaration [52,86]"/>
+  <delete-tree tree="expression_statement [91,133]"/>
+  <delete-node tree="comment: // TODO: Don't use arksettings here [139,174]"/>
+  <delete-node tree="comment:     
+    {
+        result &amp;= ARCHIVE_EXTRACT_PERM;
+    }
+
+    if ( !ArkSettings::extractOverwrite() )
+    {
+        result &amp;= ARCHIVE_EXTRACT_NO_OVERWRITE;
+    }*/ [179,375]"/>
+  <delete-node tree="identifier: result [388,394]"/>
+</actions>

@@ -1,0 +1,20 @@
+{
+    "id": "a101f4f12180fd3dfa7d3345188a099877a3c327_reverseLookup_0",
+    "func_name": "reverseLookup",
+    "cve_id": "CVE-2023-41045",
+    "cwe_ids": [
+        "CWE-345"
+    ],
+    "commit_hash": "a101f4f12180fd3dfa7d3345188a099877a3c327",
+    "parent_commit_hash": "b3a967b5f9ea2fac5637de33aaaa05509207d8b3",
+    "repo_name": "Graylog2/graylog2-server",
+    "git_url": "https://github.com/Graylog2/graylog2-server/commit/a101f4f12180fd3dfa7d3345188a099877a3c327",
+    "file_path": "graylog2-server/src/main/java/org/graylog2/lookup/adapters/dnslookup/DnsClient.java",
+    "file_name": "DnsClient.java",
+    "commit_date": 1688523881,
+    "commit_msg": "Merge pull request from GHSA-g96c-x7rh-99r3\n\n* Add support for randomizing DNS Lookup source port\n\n* Clarify purpose of lease\n\n* Skip initial refresh\n\nPreviously, the pool was being refreshed immediately upon initialization. Now, the refresh waits until the `poolRefreshSeconds` duration has elapsed.\n\n* Ensure thread safety, skip unused poller refreshes\n\n* Add change log\n\n* Restore location of local flag",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+    "cvss_base_score": 5.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

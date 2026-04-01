@@ -1,0 +1,42 @@
+{
+  "frequency": [
+    {
+      "c": "Literal",
+      "f": "1"
+    },
+    {
+      "c": "Assignment",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "insert-node_Assignment_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_Literal_ConstructorCall",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Literal",
+      "f": "0.5"
+    },
+    {
+      "c": "Assignment",
+      "f": "0.5"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "insert-node_Assignment_Block",
+      "f": "0.5"
+    },
+    {
+      "c": "update-node_Literal_ConstructorCall",
+      "f": "0.5"
+    }
+  ]
+}

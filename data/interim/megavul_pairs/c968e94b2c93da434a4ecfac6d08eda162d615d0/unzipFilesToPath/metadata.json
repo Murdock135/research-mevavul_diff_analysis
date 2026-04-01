@@ -1,0 +1,20 @@
+{
+    "id": "c968e94b2c93da434a4ecfac6d08eda162d615d0_unzipFilesToPath_2",
+    "func_name": "unzipFilesToPath",
+    "cve_id": "CVE-2022-21675",
+    "cwe_ids": [
+        "CWE-22"
+    ],
+    "commit_hash": "c968e94b2c93da434a4ecfac6d08eda162d615d0",
+    "parent_commit_hash": "5624f3f0105ec8ba3092adb3eb0529e3b9a2e396",
+    "repo_name": "Konloch/bytecode-viewer",
+    "git_url": "https://github.com/Konloch/bytecode-viewer/commit/c968e94b2c93da434a4ecfac6d08eda162d615d0",
+    "file_path": "src/main/java/the/bytecode/club/bytecodeviewer/util/ZipUtils.java",
+    "file_name": "ZipUtils.java",
+    "commit_date": 1641559044,
+    "commit_msg": "Mitigate Zip Slip exlpoit",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 6.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

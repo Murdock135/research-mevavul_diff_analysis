@@ -1,0 +1,20 @@
+{
+    "id": "3b242fbd6bdc1e2fa2f07842213a6301a0a0b468_process_0",
+    "func_name": "process",
+    "cve_id": "CVE-2022-34298",
+    "cwe_ids": [
+        "CWE-Other"
+    ],
+    "commit_hash": "3b242fbd6bdc1e2fa2f07842213a6301a0a0b468",
+    "parent_commit_hash": "9208bcd6fe59d362bb1747472e4bad1bd1a6d56b",
+    "repo_name": "OpenIdentityPlatform/OpenAM",
+    "git_url": "https://github.com/OpenIdentityPlatform/OpenAM/commit/3b242fbd6bdc1e2fa2f07842213a6301a0a0b468",
+    "file_path": "openam-authentication/openam-auth-nt/src/main/java/com/sun/identity/authentication/modules/nt/NT.java",
+    "file_name": "NT.java",
+    "commit_date": 1655766227,
+    "commit_msg": "fix NT auth module vulnerability",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

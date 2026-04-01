@@ -1,0 +1,20 @@
+{
+    "id": "cde1389507aac2dc8aa6ae39296765c1ca457b69_setErrorParameter_0",
+    "func_name": "setErrorParameter",
+    "cve_id": "CVE-2019-25027",
+    "cwe_ids": [
+        "CWE-79"
+    ],
+    "commit_hash": "cde1389507aac2dc8aa6ae39296765c1ca457b69",
+    "parent_commit_hash": "3f15eccd97147bf0a34925bb87cc4b3d0fe48353",
+    "repo_name": "vaadin/flow",
+    "git_url": "https://github.com/vaadin/flow/commit/cde1389507aac2dc8aa6ae39296765c1ca457b69",
+    "file_path": "flow-server/src/main/java/com/vaadin/flow/router/RouteNotFoundError.java",
+    "file_name": "RouteNotFoundError.java",
+    "commit_date": 1555369706,
+    "commit_msg": "Sanitize input used in error template\n\nAs error template is html, and the input used in it is taken from the path, which can be anything, the input needs to be sanitized before added to the template to avoid possible XSS injection.",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

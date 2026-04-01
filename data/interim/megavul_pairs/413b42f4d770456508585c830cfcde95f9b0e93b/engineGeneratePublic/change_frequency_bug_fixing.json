@@ -1,0 +1,42 @@
+{
+  "frequency": [
+    {
+      "c": "Return",
+      "f": "1"
+    },
+    {
+      "c": "Try",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "insert-node_Try_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Return_Block",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Return",
+      "f": "0.5"
+    },
+    {
+      "c": "Try",
+      "f": "0.5"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "insert-node_Try_Block",
+      "f": "0.5"
+    },
+    {
+      "c": "move-tree_Return_Block",
+      "f": "0.5"
+    }
+  ]
+}

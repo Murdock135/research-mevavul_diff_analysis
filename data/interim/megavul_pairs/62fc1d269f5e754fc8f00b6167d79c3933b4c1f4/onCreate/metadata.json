@@ -1,0 +1,20 @@
+{
+    "id": "62fc1d269f5e754fc8f00b6167d79c3933b4c1f4_onCreate_3",
+    "func_name": "onCreate",
+    "cve_id": "CVE-2023-21256",
+    "cwe_ids": [
+        "CWE-Other"
+    ],
+    "commit_hash": "62fc1d269f5e754fc8f00b6167d79c3933b4c1f4",
+    "parent_commit_hash": "476d9182b0ea740327aecd1b7133076371d7a53c",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/packages/apps/Settings/+/62fc1d269f5e754fc8f00b6167d79c3933b4c1f4",
+    "file_path": "src/com/android/settings/homepage/SettingsHomepageActivity.java",
+    "file_name": "SettingsHomepageActivity.java",
+    "commit_date": 1679556619,
+    "commit_msg": "Refine permission check process of 2-pane deep link\n\n- Check the deep link activity instance before redirecting to the\n  internal activity for the managed profile invocation, so the caller\n  can't bypass the permission check.\n- Get the referrer as the caller so that onNewIntent can recognize the\n  new caller and check if it has a permission to open the target page.\n\nTest: robotest & manual\nBug: 268193384\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:0f13f70655099543ba34eb8aeaa74b34a3993a3b)\nMerged-In: Ie69742983fb74ee2316b7aad16461db95ed927c2\nChange-Id: Ie69742983fb74ee2316b7aad16461db95ed927c2\n",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 7.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

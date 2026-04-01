@@ -1,0 +1,16 @@
+class startOneTimePermissionSession_1 {
+@SystemApi
+    @RequiresPermission(Manifest.permission.MANAGE_ONE_TIME_PERMISSION_SESSIONS)
+    public void startOneTimePermissionSession(@NonNull String packageName,
+            @DurationMillisLong long timeoutMillis,
+            @DurationMillisLong long revokeAfterKilledDelayMillis,
+            @ActivityManager.RunningAppProcessInfo.Importance int importanceToResetTimer,
+            @ActivityManager.RunningAppProcessInfo.Importance int importanceToKeepSessionAlive) {
+        try {
+            mPermissionManager.startOneTimePermissionSession(packageName, mContext.getUserId(),
+                    timeoutMillis, revokeAfterKilledDelayMillis);
+        } catch (RemoteException e) {
+            e.rethrowFromSystemServer();
+        }
+    }
+}

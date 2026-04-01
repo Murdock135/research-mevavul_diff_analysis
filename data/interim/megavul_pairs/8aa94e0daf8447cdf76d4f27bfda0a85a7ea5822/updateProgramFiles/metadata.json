@@ -1,0 +1,20 @@
+{
+    "id": "8aa94e0daf8447cdf76d4f27bfda0a85a7ea5822_updateProgramFiles_0",
+    "func_name": "updateProgramFiles",
+    "cve_id": "CVE-2022-39208",
+    "cwe_ids": [
+        "CWE-552"
+    ],
+    "commit_hash": "8aa94e0daf8447cdf76d4f27bfda0a85a7ea5822",
+    "parent_commit_hash": "f1e97688e4e19d6de1dfa1d00e04655209d39f8e",
+    "repo_name": "theonedev/onedev",
+    "git_url": "https://github.com/theonedev/onedev/commit/8aa94e0daf8447cdf76d4f27bfda0a85a7ea5822",
+    "file_path": "server-core/src/main/java/io/onedev/server/maintenance/Upgrade.java",
+    "file_name": "Upgrade.java",
+    "commit_date": 1653886698,
+    "commit_msg": "Fix security vulnerability issue regarding site/* access",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

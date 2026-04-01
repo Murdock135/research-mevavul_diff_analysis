@@ -1,0 +1,20 @@
+{
+    "id": "a294ae5342410431a568126183efe86261668b5d_createIncomingCallPendingIntent_0",
+    "func_name": "createIncomingCallPendingIntent",
+    "cve_id": "CVE-2016-0847",
+    "cwe_ids": [
+        "CWE-264"
+    ],
+    "commit_hash": "a294ae5342410431a568126183efe86261668b5d",
+    "parent_commit_hash": "06067b94b092a3d6f422386bf3ec6d70771a5616",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/packages/services/Telephony/+/a294ae5342410431a568126183efe86261668b5d",
+    "file_path": "sip/src/com/android/services/telephony/sip/SipUtil.java",
+    "file_name": "SipUtil.java",
+    "commit_date": 1454091576,
+    "commit_msg": "Fixes creation of incorrect SIP PhoneAccountHandle\n\nWhen a new incoming call occurs in SIP, SipUtil mistakenly uses the\nUri handle instead of the profile name to create the\nPhoneAccountHandle. Since this PhoneAccountHandle is not registered\nwith telecom, it will throw a security exception (as of b/26864502).\n\nBUG: 26874216\nChange-Id: I27611b45f0834fca328c4cc2b867edaf970f7171\n",
+    "cvss_vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C",
+    "cvss_base_score": 7.2,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

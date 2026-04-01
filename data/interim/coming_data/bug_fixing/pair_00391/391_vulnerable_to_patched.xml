@@ -1,0 +1,135 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="*: * [312,313]" dest="*: * [242,243]"/>
+  <match src="): ) [325,326]" dest="): ) [255,256]"/>
+  <match src="(: ( [67,68]" dest="(: ( [114,115]"/>
+  <match src="else: else [150,154]" dest="else: else [197,201]"/>
+  <match src="): ) [82,83]" dest="): ) [129,130]"/>
+  <match src="declaration [162,172]" dest="declaration [209,219]"/>
+  <match src="update_expression [320,328]" dest="update_expression [250,258]"/>
+  <match src="': ' [332,333]" dest="': ' [262,263]"/>
+  <match src="argument_list [76,83]" dest="argument_list [123,130]"/>
+  <match src=",: , [31,32]" dest=",: , [31,32]"/>
+  <match src="comment: /* return default value */ [120,146]" dest="comment: /* return default value */ [167,193]"/>
+  <match src="parameter_list [18,58]" dest="parameter_list [18,58]"/>
+  <match src="assignment_expression [307,335]" dest="assignment_expression [237,265]"/>
+  <match src="identifier: df [115,117]" dest="identifier: df [162,164]"/>
+  <match src="identifier: fmt [322,325]" dest="identifier: fmt [252,255]"/>
+  <match src="*: * [29,30]" dest="*: * [29,30]"/>
+  <match src="*: * [45,46]" dest="*: * [45,46]"/>
+  <match src="while: while [344,349]" dest="while: while [274,279]"/>
+  <match src="identifier: df [55,57]" dest="identifier: df [55,57]"/>
+  <match src="storage_class_specifier [0,6]" dest="storage_class_specifier [0,6]"/>
+  <match src=";: ; [366,367]" dest=";: ; [296,297]"/>
+  <match src="*: * [78,79]" dest="*: * [125,126]"/>
+  <match src=";: ; [171,172]" dest=";: ; [218,219]"/>
+  <match src="identifier: L [30,31]" dest="identifier: L [30,31]"/>
+  <match src="binary_expression [311,329]" dest="binary_expression [241,259]"/>
+  <match src="parenthesized_expression [319,329]" dest="parenthesized_expression [249,259]"/>
+  <match src="else_clause [150,386]" dest="else_clause [197,316]"/>
+  <match src="pointer_expression [318,329]" dest="pointer_expression [248,259]"/>
+  <match src="primitive_type: int [51,54]" dest="primitive_type: int [51,54]"/>
+  <match src="*: * [77,78]" dest="*: * [124,125]"/>
+  <match src="(: ( [319,320]" dest="(: ( [249,250]"/>
+  <match src="primitive_type: int [7,10]" dest="primitive_type: int [7,10]"/>
+  <match src="return: return [108,114]" dest="return: return [155,161]"/>
+  <match src="{: { [155,156]" dest="{: { [202,203]"/>
+  <match src="call_expression [69,83]" dest="call_expression [116,130]"/>
+  <match src="pointer_expression [359,364]" dest="pointer_expression [289,294]"/>
+  <match src=";: ; [381,382]" dest=";: ; [311,312]"/>
+  <match src="if: if [64,66]" dest="if: if [111,113]"/>
+  <match src="number_literal: 10 [313,315]" dest="number_literal: 10 [243,245]"/>
+  <match src="compound_statement [181,343]" dest="compound_statement [228,273]"/>
+  <match src="parameter_declaration [33,49]" dest="parameter_declaration [33,49]"/>
+  <match src="call_expression [351,365]" dest="call_expression [281,295]"/>
+  <match src="*: * [360,361]" dest="*: * [290,291]"/>
+  <match src="identifier: fmt [79,82]" dest="identifier: fmt [126,129]"/>
+  <match src="': ' [334,335]" dest="': ' [264,265]"/>
+  <match src="function_definition [0,388]" dest="function_definition [0,318]"/>
+  <match src="=: = [309,310]" dest="=: = [239,240]"/>
+  <match src="return: return [373,379]" dest="return: return [303,309]"/>
+  <match src="if_statement [64,386]" dest="if_statement [111,316]"/>
+  <match src="!: ! [68,69]" dest="!: ! [115,116]"/>
+  <match src="identifier: fmt [46,49]" dest="identifier: fmt [46,49]"/>
+  <match src=";: ; [117,118]" dest=";: ; [164,165]"/>
+  <match src="binary_expression [311,335]" dest="binary_expression [241,265]"/>
+  <match src="translation_unit [0,388]" dest="translation_unit [0,318]"/>
+  <match src="(: ( [76,77]" dest="(: ( [123,124]"/>
+  <match src="(: ( [350,351]" dest="(: ( [280,281]"/>
+  <match src=",: , [49,50]" dest=",: , [49,50]"/>
+  <match src="parenthesized_expression [350,366]" dest="parenthesized_expression [280,296]"/>
+  <match src="compound_statement [59,388]" dest="compound_statement [106,318]"/>
+  <match src="type_identifier: lua_State [19,28]" dest="type_identifier: lua_State [19,28]"/>
+  <match src="number_literal: 0 [170,171]" dest="number_literal: 0 [217,218]"/>
+  <match src="identifier: fmt [361,364]" dest="identifier: fmt [291,294]"/>
+  <match src="+: + [316,317]" dest="+: + [246,247]"/>
+  <match src="init_declarator [166,171]" dest="init_declarator [213,218]"/>
+  <match src="comment: /* no number? */ [86,102]" dest="comment: /* no number? */ [133,149]"/>
+  <match src="): ) [328,329]" dest="): ) [258,259]"/>
+  <match src="-: - [330,331]" dest="-: - [260,261]"/>
+  <match src="identifier: getnum [11,17]" dest="identifier: getnum [11,17]"/>
+  <match src="type_qualifier [33,38]" dest="type_qualifier [33,38]"/>
+  <match src="}: } [387,388]" dest="}: } [317,318]"/>
+  <match src="*: * [44,45]" dest="*: * [44,45]"/>
+  <match src="=: = [168,169]" dest="=: = [215,216]"/>
+  <match src="pointer_declarator [29,31]" dest="pointer_declarator [29,31]"/>
+  <match src="pointer_expression [78,82]" dest="pointer_expression [125,129]"/>
+  <match src="char_literal [332,335]" dest="char_literal [262,265]"/>
+  <match src="argument_list [358,365]" dest="argument_list [288,295]"/>
+  <match src="binary_expression [311,315]" dest="binary_expression [241,245]"/>
+  <match src="parameter_declaration [51,57]" dest="parameter_declaration [51,57]"/>
+  <match src="): ) [57,58]" dest="): ) [57,58]"/>
+  <match src="}: } [342,343]" dest="}: } [272,273]"/>
+  <match src="parenthesized_expression [320,326]" dest="parenthesized_expression [250,256]"/>
+  <match src="pointer_declarator [45,49]" dest="pointer_declarator [45,49]"/>
+  <match src="return_statement [108,118]" dest="return_statement [155,165]"/>
+  <match src="): ) [83,84]" dest="): ) [130,131]"/>
+  <match src="unary_expression [68,83]" dest="unary_expression [115,130]"/>
+  <match src="identifier: a [311,312]" dest="identifier: a [241,242]"/>
+  <match src="character: 0 [333,334]" dest="character: 0 [263,264]"/>
+  <match src="const: const [33,38]" dest="const: const [33,38]"/>
+  <match src="parameter_declaration [19,31]" dest="parameter_declaration [19,31]"/>
+  <match src="{: { [59,60]" dest="{: { [106,107]"/>
+  <match src="{: { [181,182]" dest="{: { [228,229]"/>
+  <match src="identifier: isdigit [69,76]" dest="identifier: isdigit [116,123]"/>
+  <match src="pointer_expression [360,364]" dest="pointer_expression [290,294]"/>
+  <match src="*: * [318,319]" dest="*: * [248,249]"/>
+  <match src="compound_statement [155,386]" dest="compound_statement [202,316]"/>
+  <match src="do: do [178,180]" dest="do: do [225,227]"/>
+  <match src="(: ( [358,359]" dest="(: ( [288,289]"/>
+  <match src="parenthesized_expression [67,84]" dest="parenthesized_expression [114,131]"/>
+  <match src="primitive_type: char [39,43]" dest="primitive_type: char [39,43]"/>
+  <match src="primitive_type: int [162,165]" dest="primitive_type: int [209,212]"/>
+  <match src="pointer_expression [77,82]" dest="pointer_expression [124,129]"/>
+  <match src="static: static [0,6]" dest="static: static [0,6]"/>
+  <match src="): ) [364,365]" dest="): ) [294,295]"/>
+  <match src="pointer_expression [321,325]" dest="pointer_expression [251,255]"/>
+  <match src="++: ++ [326,328]" dest="++: ++ [256,258]"/>
+  <match src="return_statement [373,382]" dest="return_statement [303,312]"/>
+  <match src="(: ( [18,19]" dest="(: ( [18,19]"/>
+  <match src="identifier: a [380,381]" dest="identifier: a [310,311]"/>
+  <match src="*: * [321,322]" dest="*: * [251,252]"/>
+  <match src="}: } [385,386]" dest="}: } [315,316]"/>
+  <match src="identifier: isdigit [351,358]" dest="identifier: isdigit [281,288]"/>
+  <match src="): ) [365,366]" dest="): ) [295,296]"/>
+  <match src="identifier: a [166,167]" dest="identifier: a [213,214]"/>
+  <match src="(: ( [320,321]" dest="(: ( [250,251]"/>
+  <match src="identifier: a [307,308]" dest="identifier: a [237,238]"/>
+  <match src="function_declarator [11,58]" dest="function_declarator [11,58]"/>
+  <match src="pointer_declarator [44,49]" dest="pointer_declarator [44,49]"/>
+  <match src="*: * [359,360]" dest="*: * [289,290]"/>
+  <match src=";: ; [335,336]" dest=";: ; [265,266]"/>
+  <match src="expression_statement [307,336]" dest="expression_statement [237,266]"/>
+  <match src="do_statement [178,367]" dest="do_statement [225,297]"/>
+</matches>
+<actions>
+  <insert-node tree="compound_statement [59,318]" parent="function_definition [0,388]" at="3"/>
+  <insert-node tree="{: { [59,60]" parent="compound_statement [59,318]" at="0"/>
+  <insert-node tree="function_definition [61,318]" parent="compound_statement [59,318]" at="1"/>
+  <insert-node tree="} [318,318]" parent="compound_statement [59,318]" at="2"/>
+  <insert-tree tree="storage_class_specifier [61,67]" parent="function_definition [61,318]" at="0"/>
+  <insert-node tree="primitive_type: int [68,71]" parent="function_definition [61,318]" at="1"/>
+  <insert-tree tree="function_declarator [72,105]" parent="function_definition [61,318]" at="2"/>
+  <move-tree tree="compound_statement [59,388]" parent="function_definition [61,318]" at="3"/>
+  <delete-tree tree="if_statement [189,299]"/>
+</actions>

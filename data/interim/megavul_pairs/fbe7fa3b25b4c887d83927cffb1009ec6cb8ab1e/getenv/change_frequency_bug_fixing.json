@@ -1,0 +1,66 @@
+{
+  "frequency": [
+    {
+      "c": "Invocation",
+      "f": "2"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "TypeAccess",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "move-tree_TypeAccess_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "update-node_Invocation_If",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_BinaryOperator_If",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Invocation_If",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Invocation",
+      "f": "0.5"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "0.25"
+    },
+    {
+      "c": "TypeAccess",
+      "f": "0.25"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "move-tree_TypeAccess_Invocation",
+      "f": "0.25"
+    },
+    {
+      "c": "update-node_Invocation_If",
+      "f": "0.25"
+    },
+    {
+      "c": "insert-node_BinaryOperator_If",
+      "f": "0.25"
+    },
+    {
+      "c": "move-tree_Invocation_If",
+      "f": "0.25"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+class getExecutionPreamble {
+protected String getExecutionPreamble()
+    {
+        if ( getWorkingDirectoryAsString() == null )
+        {
+            return null;
+        }
+
+        String dir = getWorkingDirectoryAsString();
+        StringBuilder sb = new StringBuilder();
+        sb.append( "cd " );
+
+        sb.append( unifyQuotes( dir ) );
+        sb.append( " && " );
+
+        return sb.toString();
+    }
+}

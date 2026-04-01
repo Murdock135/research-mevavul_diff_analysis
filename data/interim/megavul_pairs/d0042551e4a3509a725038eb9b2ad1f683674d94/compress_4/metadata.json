@@ -1,0 +1,20 @@
+{
+    "id": "d0042551e4a3509a725038eb9b2ad1f683674d94_compress_4",
+    "func_name": "compress",
+    "cve_id": "CVE-2023-34454",
+    "cwe_ids": [
+        "CWE-190"
+    ],
+    "commit_hash": "d0042551e4a3509a725038eb9b2ad1f683674d94",
+    "parent_commit_hash": "3bf67857fcf70d9eea56eed4af7c925671e8eaea",
+    "repo_name": "xerial/snappy-java",
+    "git_url": "https://github.com/xerial/snappy-java/commit/d0042551e4a3509a725038eb9b2ad1f683674d94",
+    "file_path": "src/main/java/org/xerial/snappy/Snappy.java",
+    "file_name": "Snappy.java",
+    "commit_date": 1686737190,
+    "commit_msg": "Merge pull request from GHSA-fjpj-2g6w-x25r\n\n* Fixed integer overflow by checking if bytesize is bigger than input length, then throwing exception\n\n* Fixed integer overflow by checking if bytesize is bigger than input length, then throwing exception\n\n* Fixed integer overflow by checking if bytesize is bigger than input length, then throwing exception\n\n* improved error messages by adding new error enum INPUT_TOO_LARGE in SnappyErrorCode.java, and added happy and sad cases in SnappyTest.java\n\n* fixed mispelling: validArrayInputLength --> isInvalidArrayInputLength\n\n* switched SnappyError into ILLEGAL_ARGUMENT in SnappyErrorCode.java and Snappy.java and fixed a typo in error comment\n\n* Fix buffer size boundary tests\n\n* Remove negative array size tests\n\n* updated comments for unit test\n\n---------\n\nCo-authored-by: Taro L. Saito <leo@xerial.org>",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

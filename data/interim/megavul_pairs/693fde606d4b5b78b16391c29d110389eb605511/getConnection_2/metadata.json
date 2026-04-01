@@ -1,0 +1,20 @@
+{
+    "id": "693fde606d4b5b78b16391c29d110389eb605511_getConnection_0",
+    "func_name": "getConnection",
+    "cve_id": "CVE-2023-41887",
+    "cwe_ids": [
+        "CWE-89"
+    ],
+    "commit_hash": "693fde606d4b5b78b16391c29d110389eb605511",
+    "parent_commit_hash": "6b7d981b298f454ef6d97a2f68d6873eb3c4e2be",
+    "repo_name": "OpenRefine",
+    "git_url": "https://github.com/OpenRefine/OpenRefine/commit/693fde606d4b5b78b16391c29d110389eb605511",
+    "file_path": "extensions/database/src/com/google/refine/extension/database/pgsql/PgSQLConnectionManager.java",
+    "file_name": "PgSQLConnectionManager.java",
+    "commit_date": 1693697500,
+    "commit_msg": "Properly escape JDBC URL components in database extension",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_is_v3": true
+}

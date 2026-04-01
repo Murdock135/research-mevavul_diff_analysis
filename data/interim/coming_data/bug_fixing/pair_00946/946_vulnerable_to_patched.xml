@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="): ) [154,155]" dest="): ) [161,162]"/>
+  <match src="pointer_declarator [59,64]" dest="pointer_declarator [59,64]"/>
+  <match src="*: * [24,25]" dest="*: * [24,25]"/>
+  <match src="argument_list [125,131]" dest="argument_list [125,131]"/>
+  <match src="type_identifier: crypto_template [8,23]" dest="type_identifier: crypto_template [8,23]"/>
+  <match src="struct_specifier [1,23]" dest="struct_specifier [1,23]"/>
+  <match src="parameter_list [47,65]" dest="parameter_list [47,65]"/>
+  <match src="argument_list [100,155]" dest="argument_list [100,162]"/>
+  <match src="{: { [67,68]" dest="{: { [67,68]"/>
+  <match src="identifier: crypto_lookup_template [25,47]" dest="identifier: crypto_lookup_template [25,47]"/>
+  <match src="return: return [70,76]" dest="return: return [70,76]"/>
+  <match src=",: , [131,132]" dest=",: , [131,132]"/>
+  <match src="}: } [158,159]" dest="}: } [165,166]"/>
+  <match src=",: , [137,138]" dest=",: , [155,156]"/>
+  <match src="): ) [64,65]" dest="): ) [64,65]"/>
+  <match src="function_definition [1,159]" dest="function_definition [1,166]"/>
+  <match src="call_expression [77,155]" dest="call_expression [77,162]"/>
+  <match src="identifier: name [60,64]" dest="identifier: name [60,64]"/>
+  <match src="string_content: %s [134,136]" dest="string_content: crypto-%s [145,154]"/>
+  <match src="identifier: name [150,154]" dest="identifier: name [157,161]"/>
+  <match src="*: * [59,60]" dest="*: * [59,60]"/>
+  <match src="pointer_declarator [24,65]" dest="pointer_declarator [24,65]"/>
+  <match src="): ) [130,131]" dest="): ) [130,131]"/>
+  <match src="call_expression [101,131]" dest="call_expression [101,131]"/>
+  <match src="(: ( [100,101]" dest="(: ( [100,101]"/>
+  <match src="string_literal [133,137]" dest="string_literal [144,155]"/>
+  <match src="parameter_declaration [48,64]" dest="parameter_declaration [48,64]"/>
+  <match src="translation_unit [1,159]" dest="translation_unit [1,166]"/>
+  <match src="&quot;: &quot; [133,134]" dest="&quot;: &quot; [144,145]"/>
+  <match src="return_statement [70,156]" dest="return_statement [70,163]"/>
+  <match src="identifier: try_then_request_module [77,100]" dest="identifier: try_then_request_module [77,100]"/>
+  <match src="identifier: name [126,130]" dest="identifier: name [126,130]"/>
+  <match src="type_qualifier [48,53]" dest="type_qualifier [48,53]"/>
+  <match src=";: ; [155,156]" dest=";: ; [162,163]"/>
+  <match src="&quot;: &quot; [136,137]" dest="&quot;: &quot; [154,155]"/>
+  <match src="compound_statement [67,159]" dest="compound_statement [67,166]"/>
+  <match src="(: ( [47,48]" dest="(: ( [47,48]"/>
+  <match src="primitive_type: char [54,58]" dest="primitive_type: char [54,58]"/>
+  <match src="(: ( [125,126]" dest="(: ( [125,126]"/>
+  <match src="function_declarator [25,65]" dest="function_declarator [25,65]"/>
+  <match src="const: const [48,53]" dest="const: const [48,53]"/>
+  <match src="struct: struct [1,7]" dest="struct: struct [1,7]"/>
+  <match src="identifier: __crypto_lookup_template [101,125]" dest="identifier: __crypto_lookup_template [101,125]"/>
+</matches>
+<actions>
+  <update-node tree="string_content: %s [134,136]" label="crypto-%s"/>
+</actions>

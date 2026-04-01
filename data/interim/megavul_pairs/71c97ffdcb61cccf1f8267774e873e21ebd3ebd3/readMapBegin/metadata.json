@@ -1,0 +1,20 @@
+{
+    "id": "71c97ffdcb61cccf1f8267774e873e21ebd3ebd3_readMapBegin_1",
+    "func_name": "readMapBegin",
+    "cve_id": "CVE-2019-11938",
+    "cwe_ids": [
+        "CWE-770"
+    ],
+    "commit_hash": "71c97ffdcb61cccf1f8267774e873e21ebd3ebd3",
+    "parent_commit_hash": "0076bf75dbb1cbfb331c34e96ec0f80807037438",
+    "repo_name": "facebook/fbthrift",
+    "git_url": "https://github.com/facebook/fbthrift/commit/71c97ffdcb61cccf1f8267774e873e21ebd3ebd3",
+    "file_path": "thrift/lib/java/src/main/java/com/facebook/thrift/protocol/TCompactProtocol.java",
+    "file_name": "TCompactProtocol.java",
+    "commit_date": 1575637917,
+    "commit_msg": "Java: Check the size of the remaining frame before deserializing collection\n\nSummary:\nIn order to avoid over-allocating memory for malformed or truncated frame, we ensure that we have enough data (we only check for the lower bound) in the current frame.\n\nThis is a partial fix for CVE-2019-11938.\n\nReviewed By: vitaut\n\nDifferential Revision: D14500775\n\nfbshipit-source-id: ca8b38965514d6319addcb72c8999a6854a94a88",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

@@ -1,0 +1,122 @@
+{
+  "frequency": [
+    {
+      "c": "VariableRead",
+      "f": "3"
+    },
+    {
+      "c": "Parameter",
+      "f": "1"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "TypeReference",
+      "f": "1"
+    },
+    {
+      "c": "Invocation",
+      "f": "1"
+    },
+    {
+      "c": "ExecutableReferenceExpression",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "update-node_VariableRead_Return",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_BinaryOperator_If",
+      "f": "1"
+    },
+    {
+      "c": "update-node_TypeReference_Parameter",
+      "f": "1"
+    },
+    {
+      "c": "update-node_Parameter_Method",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Invocation_BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "update-node_VariableRead_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_VariableRead_Return",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_ExecutableReferenceExpression_Return",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "VariableRead",
+      "f": "0.375"
+    },
+    {
+      "c": "Parameter",
+      "f": "0.125"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "0.125"
+    },
+    {
+      "c": "TypeReference",
+      "f": "0.125"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.125"
+    },
+    {
+      "c": "ExecutableReferenceExpression",
+      "f": "0.125"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "update-node_VariableRead_Return",
+      "f": "0.125"
+    },
+    {
+      "c": "delete-node_BinaryOperator_If",
+      "f": "0.125"
+    },
+    {
+      "c": "update-node_TypeReference_Parameter",
+      "f": "0.125"
+    },
+    {
+      "c": "update-node_Parameter_Method",
+      "f": "0.125"
+    },
+    {
+      "c": "move-tree_Invocation_BinaryOperator",
+      "f": "0.125"
+    },
+    {
+      "c": "update-node_VariableRead_Invocation",
+      "f": "0.125"
+    },
+    {
+      "c": "move-tree_VariableRead_Return",
+      "f": "0.125"
+    },
+    {
+      "c": "insert-node_ExecutableReferenceExpression_Return",
+      "f": "0.125"
+    }
+  ]
+}

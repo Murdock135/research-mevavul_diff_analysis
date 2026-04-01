@@ -1,0 +1,20 @@
+{
+    "id": "b9a7f6ad72073ddd40254c0058710e87a073047d_addPathParam_0",
+    "func_name": "addPathParam",
+    "cve_id": "CVE-2018-1000850",
+    "cwe_ids": [
+        "CWE-22"
+    ],
+    "commit_hash": "b9a7f6ad72073ddd40254c0058710e87a073047d",
+    "parent_commit_hash": "5088b0df6f2c52fcead426dafbb04214225e0cc7",
+    "repo_name": "square/retrofit",
+    "git_url": "https://github.com/square/retrofit/commit/b9a7f6ad72073ddd40254c0058710e87a073047d",
+    "file_path": "retrofit/src/main/java/retrofit2/RequestBuilder.java",
+    "file_name": "RequestBuilder.java",
+    "commit_date": 1540125951,
+    "commit_msg": "Forbid path traversal ('.' and '..') as @Path parameters.\n\nThey're likely to have the unintended effect. For example, passing \"..\"\nto @DELETE /account/book/{isbn}/ yields @DELETE /account/.",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:P/A:P",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

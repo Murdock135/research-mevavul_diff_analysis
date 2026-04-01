@@ -1,0 +1,6 @@
+class dialogHead {
+public String dialogHead(String title) {
+
+        return "<div class=\"dialoghead\" unselectable=\"on\">" + (title == null ? "" : title) + "</div>";
+    }
+}

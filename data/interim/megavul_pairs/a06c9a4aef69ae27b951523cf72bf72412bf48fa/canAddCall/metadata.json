@@ -1,0 +1,20 @@
+{
+    "id": "a06c9a4aef69ae27b951523cf72bf72412bf48fa_canAddCall_0",
+    "func_name": "canAddCall",
+    "cve_id": "CVE-2016-2423",
+    "cwe_ids": [
+        "CWE-264"
+    ],
+    "commit_hash": "a06c9a4aef69ae27b951523cf72bf72412bf48fa",
+    "parent_commit_hash": "a31be4320756471d3a41e0b75bb209d6be10516f",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/packages/services/Telecomm/+/a06c9a4aef69ae27b951523cf72bf72412bf48fa",
+    "file_path": "src/com/android/server/telecom/CallsManager.java",
+    "file_name": "CallsManager.java",
+    "commit_date": 1453921627,
+    "commit_msg": "DO NOT MERGE - Restrict ability to add call based on device provision status\n\nAlways return false for canAddCall if device is not yet provisioned.\n\nBug: 26303187\nChange-Id: I9c4ebc8b954a79562b2ec83d59314a3fb621ddfb\n",
+    "cvss_vector": "AV:L/AC:L/Au:N/C:N/I:C/A:C",
+    "cvss_base_score": 6.6,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

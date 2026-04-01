@@ -1,0 +1,122 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="(: ( [52,53]" dest="(: ( [52,53]"/>
+  <match src=";: ; [204,205]" dest=";: ; [204,205]"/>
+  <match src="): ) [526,527]" dest="): ) [673,674]"/>
+  <match src=";: ; [552,553]" dest=";: ; [699,700]"/>
+  <match src="(: ( [513,514]" dest="(: ( [660,661]"/>
+  <match src="init_declarator [186,204]" dest="init_declarator [186,204]"/>
+  <match src="storage_class_specifier [210,218]" dest="storage_class_specifier [210,218]"/>
+  <match src="expression_statement [45,75]" dest="expression_statement [45,75]"/>
+  <match src="declaration [117,144]" dest="declaration [117,144]"/>
+  <match src="identifier: pDbeScreenPriv [97,111]" dest="identifier: pDbeScreenPriv [97,111]"/>
+  <match src="identifier: drawables [159,168]" dest="identifier: drawables [159,168]"/>
+  <match src=";: ; [231,232]" dest=";: ; [231,232]"/>
+  <match src=";: ; [418,419]" dest=";: ; [418,419]"/>
+  <match src=";: ; [143,144]" dest=";: ; [143,144]"/>
+  <match src="): ) [469,470]" dest="): ) [469,470]"/>
+  <match src="parenthesized_expression [513,526]" dest="parenthesized_expression [660,673]"/>
+  <match src="declaration [149,169]" dest="declaration [149,169]"/>
+  <match src="null [200,204]" dest="null [200,204]"/>
+  <match src="identifier: rep [140,143]" dest="identifier: rep [140,143]"/>
+  <match src=";: ; [168,169]" dest=";: ; [168,169]"/>
+  <match src="identifier: BadAlloc [544,552]" dest="identifier: BadAlloc [691,699]"/>
+  <match src="if: if [479,481]" dest="if: if [626,628]"/>
+  <match src="identifier: pScrVisInfo [407,418]" dest="identifier: pScrVisInfo [407,418]"/>
+  <match src="argument_list [52,74]" dest="argument_list [52,74]"/>
+  <match src="identifier: pDrawables [187,197]" dest="identifier: pDrawables [187,197]"/>
+  <match src="return: return [537,543]" dest="return: return [684,690]"/>
+  <match src="field_identifier: n [490,491]" dest="field_identifier: n [637,638]"/>
+  <match src="identifier: pScreen [371,378]" dest="identifier: pScreen [371,378]"/>
+  <match src="declaration [385,419]" dest="declaration [385,419]"/>
+  <match src="call_expression [427,470]" dest="call_expression [427,470]"/>
+  <match src="identifier: UINT32_MAX [494,504]" dest="identifier: UINT32_MAX [641,651]"/>
+  <match src=";: ; [74,75]" dest=";: ; [74,75]"/>
+  <match src="register: register [237,245]" dest="register: register [237,245]"/>
+  <match src="field_expression [483,491]" dest="field_expression [630,638]"/>
+  <match src="binary_expression [483,526]" dest="binary_expression [630,673]"/>
+  <match src="register: register [210,218]" dest="register: register [210,218]"/>
+  <match src="primitive_type: int [316,319]" dest="primitive_type: int [316,319]"/>
+  <match src=";: ; [255,256]" dest=";: ; [255,256]"/>
+  <match src="NULL: NULL [200,204]" dest="NULL: NULL [200,204]"/>
+  <match src="sizeof: sizeof [507,513]" dest="sizeof: sizeof [654,660]"/>
+  <match src="argument_list [448,470]" dest="argument_list [448,470]"/>
+  <match src=";: ; [581,582]" dest=";: ; [728,729]"/>
+  <match src="compound_statement [39,592]" dest="compound_statement [39,739]"/>
+  <match src="identifier: client [31,37]" dest="identifier: client [31,37]"/>
+  <match src="sizeof_expression [507,526]" dest="sizeof_expression [654,673]"/>
+  <match src="/: / [505,506]" dest="/: / [652,653]"/>
+  <match src="): ) [73,74]" dest="): ) [73,74]"/>
+  <match src="type_identifier: XdbeScreenVisualInfo [385,405]" dest="type_identifier: XdbeScreenVisualInfo [385,405]"/>
+  <match src=";: ; [111,112]" dest=";: ; [111,112]"/>
+  <match src="translation_unit [0,592]" dest="translation_unit [0,739]"/>
+  <match src="pointer_declarator [186,197]" dest="pointer_declarator [186,197]"/>
+  <match src="declaration [361,379]" dest="declaration [361,379]"/>
+  <match src="register: register [307,315]" dest="register: register [307,315]"/>
+  <match src="; [38,38]" dest="; [38,38]"/>
+  <match src="if_statement [479,553]" dest="if_statement [626,700]"/>
+  <match src="pointer_declarator [406,418]" dest="pointer_declarator [406,418]"/>
+  <match src="declaration [237,256]" dest="declaration [237,256]"/>
+  <match src="binary_expression [494,526]" dest="binary_expression [641,673]"/>
+  <match src="pointer_declarator [158,168]" dest="pointer_declarator [158,168]"/>
+  <match src="type_identifier: xDbeGetVisualInfoReply [117,139]" dest="type_identifier: xDbeGetVisualInfoReply [117,139]"/>
+  <match src="expression_statement [427,471]" dest="expression_statement [427,471]"/>
+  <match src="identifier: ProcDbeGetVisualInfo [0,20]" dest="identifier: ProcDbeGetVisualInfo [0,20]"/>
+  <match src="): ) [525,526]" dest="): ) [672,673]"/>
+  <match src="identifier: BadAlloc [573,581]" dest="identifier: BadAlloc [720,728]"/>
+  <match src="type_identifier: ClientPtr [21,30]" dest="type_identifier: ClientPtr [21,30]"/>
+  <match src="primitive_type: int [219,222]" dest="primitive_type: int [219,222]"/>
+  <match src="return_statement [566,582]" dest="return_statement [713,729]"/>
+  <match src="declaration [307,327]" dest="declaration [307,327]"/>
+  <match src=",: , [227,228]" dest=",: , [227,228]"/>
+  <match src="*: * [158,159]" dest="*: * [158,159]"/>
+  <match src="=: = [198,199]" dest="=: = [198,199]"/>
+  <match src=";: ; [326,327]" dest=";: ; [326,327]"/>
+  <match src="identifier: REQUEST [45,52]" dest="identifier: REQUEST [45,52]"/>
+  <match src="*: * [406,407]" dest="*: * [406,407]"/>
+  <match src="storage_class_specifier [307,315]" dest="storage_class_specifier [307,315]"/>
+  <match src="call_expression [45,74]" dest="call_expression [45,74]"/>
+  <match src="identifier: rc [229,231]" dest="identifier: rc [229,231]"/>
+  <match src="identifier: xDbeGetVisualInfoReq [449,469]" dest="identifier: xDbeGetVisualInfoReq [449,469]"/>
+  <match src="macro_type_specifier [0,38]" dest="macro_type_specifier [0,38]"/>
+  <match src="identifier: xDbeGetVisualInfoReq [53,73]" dest="identifier: xDbeGetVisualInfoReq [53,73]"/>
+  <match src="identifier: DrawablePtr [514,525]" dest="identifier: DrawablePtr [661,672]"/>
+  <match src=";: ; [378,379]" dest=";: ; [378,379]"/>
+  <match src="-&gt;: -&gt; [488,490]" dest="-&gt;: -&gt; [635,637]"/>
+  <match src="identifier: i [223,224]" dest="identifier: i [223,224]"/>
+  <match src="type_identifier: DbeScreenPrivPtr [80,96]" dest="type_identifier: DbeScreenPrivPtr [80,96]"/>
+  <match src="}: } [591,592]" dest="}: } [738,739]"/>
+  <match src="type_identifier: Drawable [149,157]" dest="type_identifier: Drawable [149,157]"/>
+  <match src="return_statement [537,553]" dest="return_statement [684,700]"/>
+  <match src="comment: /* length of reply */ [335,356]" dest="comment: /* length of reply */ [335,356]"/>
+  <match src="declaration [80,112]" dest="declaration [80,112]"/>
+  <match src=";: ; [470,471]" dest=";: ; [470,471]"/>
+  <match src="type_identifier: DrawablePtr [174,185]" dest="type_identifier: DrawablePtr [174,185]"/>
+  <match src="identifier: count [250,255]" dest="identifier: count [250,255]"/>
+  <match src="return: return [566,572]" dest="return: return [713,719]"/>
+  <match src="parenthesized_expression [482,527]" dest="parenthesized_expression [629,674]"/>
+  <match src="): ) [37,38]" dest="): ) [37,38]"/>
+  <match src="{: { [39,40]" dest="{: { [39,40]"/>
+  <match src="storage_class_specifier [237,245]" dest="storage_class_specifier [237,245]"/>
+  <match src="ERROR [31,37]" dest="ERROR [31,37]"/>
+  <match src=",: , [224,225]" dest=",: , [224,225]"/>
+  <match src="*: * [186,187]" dest="*: * [186,187]"/>
+  <match src="(: ( [20,21]" dest="(: ( [20,21]"/>
+  <match src="declaration [174,205]" dest="declaration [174,205]"/>
+  <match src="identifier: REQUEST_AT_LEAST_SIZE [427,448]" dest="identifier: REQUEST_AT_LEAST_SIZE [427,448]"/>
+  <match src="type_identifier: ScreenPtr [361,370]" dest="type_identifier: ScreenPtr [361,370]"/>
+  <match src="comment: /* number of visual infos in reply */ [265,302]" dest="comment: /* number of visual infos in reply */ [265,302]"/>
+  <match src="identifier: length [320,326]" dest="identifier: length [320,326]"/>
+  <match src="type_descriptor [21,30]" dest="type_descriptor [21,30]"/>
+  <match src="(: ( [448,449]" dest="(: ( [448,449]"/>
+  <match src="declaration [210,232]" dest="declaration [210,232]"/>
+  <match src="identifier: j [226,227]" dest="identifier: j [226,227]"/>
+  <match src="primitive_type: int [246,249]" dest="primitive_type: int [246,249]"/>
+  <match src="identifier: stuff [483,488]" dest="identifier: stuff [630,635]"/>
+  <match src="(: ( [482,483]" dest="(: ( [629,630]"/>
+  <match src="&gt;: &gt; [492,493]" dest="&gt;: &gt; [639,640]"/>
+</matches>
+<actions>
+  <insert-tree tree="if_statement [476,545]" parent="compound_statement [39,592]" at="14"/>
+  <insert-tree tree="expression_statement [550,618]" parent="compound_statement [39,592]" at="15"/>
+</actions>

@@ -1,0 +1,20 @@
+{
+    "id": "69729fa8b13cadbf3173fe1f389fe4f3b7bd0f9c_detectSafeMode_0",
+    "func_name": "detectSafeMode",
+    "cve_id": "CVE-2016-3875",
+    "cwe_ids": [
+        "CWE-264"
+    ],
+    "commit_hash": "69729fa8b13cadbf3173fe1f389fe4f3b7bd0f9c",
+    "parent_commit_hash": "f0ea4c8737ec911074cc4d284f984c5c353f32e2",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/69729fa8b13cadbf3173fe1f389fe4f3b7bd0f9c",
+    "file_path": "services/core/java/com/android/server/wm/WindowManagerService.java",
+    "file_name": "WindowManagerService.java",
+    "commit_date": 1468333247,
+    "commit_msg": "DO NOT MERGE Block the user from entering safe boot mode\n\nBlock the user from entering safe boot mode if the DISALLOW_SAFE_BOOT\npolicy is set.\n\nBug: 26251884\nChange-Id: I4945d5d676928346c11ea305a5b6a2e1a42e94e6\n",
+    "cvss_vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C",
+    "cvss_base_score": 7.2,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

@@ -1,0 +1,32 @@
+class notifyFailedSynchronization {
+private void notifyFailedSynchronization() {
+        NotificationCompat.Builder notificationBuilder = createNotificationBuilder();
+        boolean needsToUpdateCredentials = mLastFailedResult != null
+                && ResultCode.UNAUTHORIZED.equals(mLastFailedResult.getCode());
+        if (needsToUpdateCredentials) {
+            // let the user update credentials with one click
+            Intent updateAccountCredentials = new Intent(getContext(), AuthenticatorActivity.class);
+            updateAccountCredentials.putExtra(AuthenticatorActivity.EXTRA_ACCOUNT, getAccount());
+            updateAccountCredentials.putExtra(AuthenticatorActivity.EXTRA_ACTION,
+                    AuthenticatorActivity.ACTION_UPDATE_EXPIRED_TOKEN);
+            updateAccountCredentials.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            updateAccountCredentials.addFlags(Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS);
+            updateAccountCredentials.addFlags(Intent.FLAG_FROM_BACKGROUND);
+            notificationBuilder
+                .setTicker(i18n(R.string.sync_fail_ticker_unauthorized))
+                .setContentTitle(i18n(R.string.sync_fail_ticker_unauthorized))
+                .setContentIntent(PendingIntent.getActivity(
+                    getContext(), (int)System.currentTimeMillis(), updateAccountCredentials,
+                        PendingIntent.FLAG_ONE_SHOT | PendingIntent.FLAG_IMMUTABLE
+                ))
+                .setContentText(i18n(R.string.sync_fail_content_unauthorized, getAccount().name));
+        } else {
+            notificationBuilder
+                .setTicker(i18n(R.string.sync_fail_ticker))
+                .setContentTitle(i18n(R.string.sync_fail_ticker))
+                .setContentText(i18n(R.string.sync_fail_content, getAccount().name));
+        }
+
+        showNotification(R.string.sync_fail_ticker, notificationBuilder);
+    }
+}

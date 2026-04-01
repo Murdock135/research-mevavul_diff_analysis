@@ -1,0 +1,7 @@
+class of {
+public static AsciiString of(AsciiString name) {
+        final AsciiString lowerCased = name.toLowerCase();
+        final AsciiString cached = map.get(lowerCased);
+        return cached != null ? cached : lowerCased;
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "id": "c3bc12c484ef3bbca4cec19234437c45af5e584d_close_0",
+    "func_name": "close",
+    "cve_id": "CVE-2023-40103",
+    "cwe_ids": [
+        "CWE-415"
+    ],
+    "commit_hash": "c3bc12c484ef3bbca4cec19234437c45af5e584d",
+    "parent_commit_hash": "8f326fdea66691d4711cd074bf20a53211c9a7aa",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/c3bc12c484ef3bbca4cec19234437c45af5e584d",
+    "file_path": "core/java/android/content/res/StringBlock.java",
+    "file_name": "StringBlock.java",
+    "commit_date": 1679618604,
+    "commit_msg": "[res] Better native pointer tracking in Java\n\nMake sure we clear the native pointers when freeing them,\nso any race condition that calls into it gets a null instead\nof calling into already freed object\n\nBug: 197260547\nTest: build + unit tests\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:7c2f195cfc8c02403d61a394213398d13584a5de)\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:b9ef411d0f480ee59d73601cce7fb40335a7d389)\nMerged-In: I817dc2f5ef24e1fafeba3ce4c1c440abe70ad3ed\nChange-Id: I817dc2f5ef24e1fafeba3ce4c1c440abe70ad3ed\n",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 7.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

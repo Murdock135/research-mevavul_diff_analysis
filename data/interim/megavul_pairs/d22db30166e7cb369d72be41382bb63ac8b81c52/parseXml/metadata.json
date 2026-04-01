@@ -1,0 +1,20 @@
+{
+    "id": "d22db30166e7cb369d72be41382bb63ac8b81c52_parseXml_0",
+    "func_name": "parseXml",
+    "cve_id": "CVE-2022-0219",
+    "cwe_ids": [
+        "CWE-611"
+    ],
+    "commit_hash": "d22db30166e7cb369d72be41382bb63ac8b81c52",
+    "parent_commit_hash": "6db61e7a5908db0138a3a15d42c0a46ae787c72c",
+    "repo_name": "skylot/jadx",
+    "git_url": "https://github.com/skylot/jadx/commit/d22db30166e7cb369d72be41382bb63ac8b81c52",
+    "file_path": "jadx-core/src/main/java/jadx/core/export/ExportGradleProject.java",
+    "file_name": "ExportGradleProject.java",
+    "commit_date": 1642648632,
+    "commit_msg": "fix: use secure xml parser for process manifest",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

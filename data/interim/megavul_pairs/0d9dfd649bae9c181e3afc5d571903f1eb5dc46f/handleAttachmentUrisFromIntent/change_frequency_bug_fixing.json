@@ -1,0 +1,130 @@
+{
+  "frequency": [
+    {
+      "c": "Literal",
+      "f": "4"
+    },
+    {
+      "c": "TypeAccess",
+      "f": "3"
+    },
+    {
+      "c": "Invocation",
+      "f": "3"
+    },
+    {
+      "c": "If",
+      "f": "2"
+    },
+    {
+      "c": "UnaryOperator",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "update-node_TypeAccess_Invocation",
+      "f": "2"
+    },
+    {
+      "c": "move-tree_Literal_BinaryOperator",
+      "f": "2"
+    },
+    {
+      "c": "update-node_Literal_BinaryOperator",
+      "f": "2"
+    },
+    {
+      "c": "delete-node_UnaryOperator_If",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_Invocation_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_TypeAccess_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "update-node_Invocation_If",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Invocation_If",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Literal",
+      "f": "0.3076923076923077"
+    },
+    {
+      "c": "TypeAccess",
+      "f": "0.23076923076923078"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.23076923076923078"
+    },
+    {
+      "c": "If",
+      "f": "0.15384615384615385"
+    },
+    {
+      "c": "UnaryOperator",
+      "f": "0.07692307692307693"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "update-node_TypeAccess_Invocation",
+      "f": "0.15384615384615385"
+    },
+    {
+      "c": "move-tree_Literal_BinaryOperator",
+      "f": "0.15384615384615385"
+    },
+    {
+      "c": "update-node_Literal_BinaryOperator",
+      "f": "0.15384615384615385"
+    },
+    {
+      "c": "delete-node_UnaryOperator_If",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "move-tree_If_Block",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "insert-node_Invocation_Block",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "move-tree_TypeAccess_Invocation",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "update-node_Invocation_If",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "move-tree_Invocation_If",
+      "f": "0.07692307692307693"
+    }
+  ]
+}

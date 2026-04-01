@@ -1,0 +1,20 @@
+{
+    "id": "468651c86a8adb7aa56c708d2348e99022088af3_stopLockTaskMode_0",
+    "func_name": "stopLockTaskMode",
+    "cve_id": "CVE-2016-3838",
+    "cwe_ids": [
+        "CWE-284"
+    ],
+    "commit_hash": "468651c86a8adb7aa56c708d2348e99022088af3",
+    "parent_commit_hash": "a75537b496e9df71c74c1d045ba5569631a16298",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/468651c86a8adb7aa56c708d2348e99022088af3",
+    "file_path": "services/core/java/com/android/server/am/ActivityManagerService.java",
+    "file_name": "ActivityManagerService.java",
+    "commit_date": 1464888728,
+    "commit_msg": "DO NOT MERGE Disable app pinning when emergency call button pressed\n\nAlso disables app pinning when the \"return to call\" button is pressed\nand brings up the in-call screen when app pinning is stopped if there is\nan existing call.\n\nCombination of ag/1091397 and ag/1085584 adapted for MNC.\n\nBug: 28558307\nBug: 28761672\nChange-Id: I82ec4042bff387c845ce571b197a4a86e1dd5ec8\n",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

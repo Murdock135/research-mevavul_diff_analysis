@@ -1,0 +1,20 @@
+{
+    "id": "9c87439d9afa14a365ff13e73adc809cb2c3d97b_createSchemaInstance_0",
+    "func_name": "createSchemaInstance",
+    "cve_id": "CVE-2020-26247",
+    "cwe_ids": [
+        "CWE-611"
+    ],
+    "commit_hash": "9c87439d9afa14a365ff13e73adc809cb2c3d97b",
+    "parent_commit_hash": "025e8911f7a606bdce396c52ded5ab0dc20271b4",
+    "repo_name": "sparklemotion/nokogiri",
+    "git_url": "https://github.com/sparklemotion/nokogiri/commit/9c87439d9afa14a365ff13e73adc809cb2c3d97b",
+    "file_path": "ext/java/nokogiri/XmlRelaxng.java",
+    "file_name": "XmlRelaxng.java",
+    "commit_date": 1606081622,
+    "commit_msg": "feat: XML::Schema and RelaxNG creation accept optional ParseOptions\n\nI'm trying out a new pattern, which is that the parsed object carries\naround the ParseOptions it was created with, which should make some\ntesting a bit easier.\n\nI'm also not implementing the \"config block\" pattern in use for\nDocuments, because I think the UX is weird and I'm hoping to change\neverything to use kwargs in a 2.0 release, anyway.",
+    "cvss_vector": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+    "cvss_base_score": 4.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

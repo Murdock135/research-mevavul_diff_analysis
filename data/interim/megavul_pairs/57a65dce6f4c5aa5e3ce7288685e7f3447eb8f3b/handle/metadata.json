@@ -1,0 +1,20 @@
+{
+    "id": "57a65dce6f4c5aa5e3ce7288685e7f3447eb8f3b_handle_0",
+    "func_name": "handle",
+    "cve_id": "CVE-2018-12542",
+    "cwe_ids": [
+        "CWE-22"
+    ],
+    "commit_hash": "57a65dce6f4c5aa5e3ce7288685e7f3447eb8f3b",
+    "parent_commit_hash": "3fcb0036dc11f22ea232f61cfff31b29a6b6eca4",
+    "repo_name": "vert-x3/vertx-web",
+    "git_url": "https://github.com/vert-x3/vertx-web/commit/57a65dce6f4c5aa5e3ce7288685e7f3447eb8f3b",
+    "file_path": "vertx-web/src/main/java/io/vertx/ext/web/handler/impl/StaticHandlerImpl.java",
+    "file_name": "StaticHandlerImpl.java",
+    "commit_date": 1537400550,
+    "commit_msg": "CVE-2018-12542: The StaticHandler uses external input to construct a pathname that should be within a restricted directory, but it does not properly neutralize '\\' (forward slashes) sequences that can resolve to a location that is outside of that directory when running on Windows Operating Systems. - fixes #1025",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

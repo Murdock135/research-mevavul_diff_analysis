@@ -1,0 +1,74 @@
+{
+  "frequency": [
+    {
+      "c": "Invocation",
+      "f": "4"
+    },
+    {
+      "c": "If",
+      "f": "3"
+    },
+    {
+      "c": "Literal",
+      "f": "2"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "delete-node_If_Block",
+      "f": "3"
+    },
+    {
+      "c": "delete-node_Invocation_Block",
+      "f": "2"
+    },
+    {
+      "c": "update-node_Literal_ConstructorCall",
+      "f": "2"
+    },
+    {
+      "c": "update-node_Invocation_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Invocation_Block",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Invocation",
+      "f": "0.4444444444444444"
+    },
+    {
+      "c": "If",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "Literal",
+      "f": "0.2222222222222222"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "delete-node_If_Block",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "delete-node_Invocation_Block",
+      "f": "0.2222222222222222"
+    },
+    {
+      "c": "update-node_Literal_ConstructorCall",
+      "f": "0.2222222222222222"
+    },
+    {
+      "c": "update-node_Invocation_Block",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "move-tree_Invocation_Block",
+      "f": "0.1111111111111111"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "frequency": [
+    {
+      "c": "Literal",
+      "f": "2"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "update-node_Literal_BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "update-node_Literal_ConstructorCall",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Literal",
+      "f": "1.0"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "update-node_Literal_BinaryOperator",
+      "f": "0.5"
+    },
+    {
+      "c": "update-node_Literal_ConstructorCall",
+      "f": "0.5"
+    }
+  ]
+}

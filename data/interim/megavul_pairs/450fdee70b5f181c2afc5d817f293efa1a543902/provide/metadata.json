@@ -1,0 +1,20 @@
+{
+    "id": "450fdee70b5f181c2afc5d817f293efa1a543902_provide_0",
+    "func_name": "provide",
+    "cve_id": "CVE-2022-24913",
+    "cwe_ids": [
+        "CWE-668"
+    ],
+    "commit_hash": "450fdee70b5f181c2afc5d817f293efa1a543902",
+    "parent_commit_hash": "83b29a8ab784ff4c6cd05517371aa9893409d29b",
+    "repo_name": "cowtowncoder/java-merge-sort",
+    "git_url": "https://github.com/cowtowncoder/java-merge-sort/commit/450fdee70b5f181c2afc5d817f293efa1a543902",
+    "file_path": "src/main/java/com/fasterxml/sort/std/StdTempFileProvider.java",
+    "file_name": "StdTempFileProvider.java",
+    "commit_date": 1668794710,
+    "commit_msg": "vuln-fix: Temporary File Information Disclosure\n\n\n\nThis fixes temporary file information disclosure vulnerability due to the use\nof the vulnerable `File.createTempFile()` method. The vulnerability is fixed by\nusing the `Files.createTempFile()` method which sets the correct posix permissions.\n\nWeakness: CWE-377: Insecure Temporary File\nSeverity: Medium\nCVSSS: 5.5\nDetection: CodeQL & OpenRewrite (https://public.moderne.io/recipes/org.openrewrite.java.security.SecureTempFileCreation)\n\nReported-by: Jonathan Leitschuh <Jonathan.Leitschuh@gmail.com>\nSigned-off-by: Jonathan Leitschuh <Jonathan.Leitschuh@gmail.com>\n\nBug-tracker: https://github.com/JLLeitschuh/security-research/issues/18\n\n\nCo-authored-by: Moderne <team@moderne.io>",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

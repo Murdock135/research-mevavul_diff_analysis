@@ -1,0 +1,106 @@
+{
+  "frequency": [
+    {
+      "c": "LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "VariableRead",
+      "f": "1"
+    },
+    {
+      "c": "Invocation",
+      "f": "1"
+    },
+    {
+      "c": "Annotation",
+      "f": "1"
+    },
+    {
+      "c": "VirtualElement",
+      "f": "1"
+    },
+    {
+      "c": "If",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "delete-node_VariableRead_If",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Annotation_Method",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_VirtualElement_Method",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Invocation_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "LocalVariable",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "VariableRead",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "Annotation",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "VirtualElement",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "If",
+      "f": "0.16666666666666666"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "delete-node_VariableRead_If",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "delete-node_Annotation_Method",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "insert-node_VirtualElement_Method",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "move-tree_Invocation_LocalVariable",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "0.16666666666666666"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+    "id": "7212a4bec2d2f1a74fa54a12a04255d6a183baa9_updateActionViews_0",
+    "func_name": "updateActionViews",
+    "cve_id": "CVE-2023-40123",
+    "cwe_ids": [
+        "CWE-Other"
+    ],
+    "commit_hash": "7212a4bec2d2f1a74fa54a12a04255d6a183baa9",
+    "parent_commit_hash": "08becc8c600f14c5529115cc1a1e0c97cd503f33",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/7212a4bec2d2f1a74fa54a12a04255d6a183baa9",
+    "file_path": "libs/WindowManager/Shell/src/com/android/wm/shell/pip/phone/PipMenuView.java",
+    "file_name": "PipMenuView.java",
+    "commit_date": 1685042324,
+    "commit_msg": "Disallow loading icon from content URI to PipMenu\n\nBug: 278246904\nTest: manually, with the PoC app attached to the bug\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:1aee65603e262affd815fa53dcc5416c605e4037)\nMerged-In: Ib3f5b8b6b9ce644fdf1173548d9078e4d969ae2e\nChange-Id: Ib3f5b8b6b9ce644fdf1173548d9078e4d969ae2e\n",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

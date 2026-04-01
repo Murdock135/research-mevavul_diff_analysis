@@ -1,0 +1,20 @@
+{
+    "id": "b6491eba_execute_0",
+    "func_name": "execute",
+    "cve_id": "CVE-2016-3079",
+    "cwe_ids": [
+        "CWE-79"
+    ],
+    "commit_hash": "b6491eba",
+    "parent_commit_hash": "b7d3345f9e4a7b54e7879b354cf3be09ccf2c4f9",
+    "repo_name": "spacewalkproject/spacewalk",
+    "git_url": "https://github.com/spacewalkproject/spacewalk/commit/b6491eba7f942d424f6267045a417c747e2f1996",
+    "file_path": "java/code/src/com/redhat/rhn/frontend/action/groups/DeleteGroupAction.java",
+    "file_name": "DeleteGroupAction.java",
+    "commit_date": 1459327999,
+    "commit_msg": "1320452 - Cleaning up some remaining Tag/Group XSS issues",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

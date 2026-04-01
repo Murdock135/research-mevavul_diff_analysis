@@ -1,0 +1,20 @@
+{
+    "id": "6c049120c2d749f0c0289d822ec7d0aa692f55c5_cleanUpApplicationRecordLocked_0",
+    "func_name": "cleanUpApplicationRecordLocked",
+    "cve_id": "CVE-2016-3912",
+    "cwe_ids": [
+        "CWE-264"
+    ],
+    "commit_hash": "6c049120c2d749f0c0289d822ec7d0aa692f55c5",
+    "parent_commit_hash": "5f256310187b4ff2f13a7abb9afed9126facd7bc",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/6c049120c2d749f0c0289d822ec7d0aa692f55c5",
+    "file_path": "services/core/java/com/android/server/am/ActivityManagerService.java",
+    "file_name": "ActivityManagerService.java",
+    "commit_date": 1470435903,
+    "commit_msg": "DO NOT MERGE: Clean up when recycling a pid with a pending launch\n\nFix for accidental launch of a broadcast receiver in an\nincorrect app instance.\n\nBug: 30202481\nChange-Id: I8ec8f19c633f3aec8da084dab5fd5b312443336f\n(cherry picked from commit 55eacb944122ddc0a3bb693b36fe0f07b0fe18c9)\n",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C",
+    "cvss_base_score": 9.3,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

@@ -1,0 +1,20 @@
+{
+    "id": "d67dd9686897fe5e4ab881d749464aa7c06a68e5_onInitialize_0",
+    "func_name": "onInitialize",
+    "cve_id": "CVE-2023-24828",
+    "cwe_ids": [
+        "CWE-338"
+    ],
+    "commit_hash": "d67dd9686897fe5e4ab881d749464aa7c06a68e5",
+    "parent_commit_hash": "92c3a12e11d895a2911473cc2c892ba0585856bb",
+    "repo_name": "theonedev/onedev",
+    "git_url": "https://github.com/theonedev/onedev/commit/d67dd9686897fe5e4ab881d749464aa7c06a68e5",
+    "file_path": "server-core/src/main/java/io/onedev/server/web/page/simple/security/PasswordResetPage.java",
+    "file_name": "PasswordResetPage.java",
+    "commit_date": 1675721565,
+    "commit_msg": "Fix issue #1179 - OneDev should use crypto strong random string for access token and password reset",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 8.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

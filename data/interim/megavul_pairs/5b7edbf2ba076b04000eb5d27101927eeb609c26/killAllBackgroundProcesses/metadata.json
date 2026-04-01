@@ -1,0 +1,20 @@
+{
+    "id": "5b7edbf2ba076b04000eb5d27101927eeb609c26_killAllBackgroundProcesses_1",
+    "func_name": "killAllBackgroundProcesses",
+    "cve_id": "CVE-2023-21266",
+    "cwe_ids": [
+        "CWE-Other"
+    ],
+    "commit_hash": "5b7edbf2ba076b04000eb5d27101927eeb609c26",
+    "parent_commit_hash": "a267ee1bc216c7e62ec984a88aa2310762bb5519",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/5b7edbf2ba076b04000eb5d27101927eeb609c26",
+    "file_path": "services/core/java/com/android/server/am/ActivityManagerService.java",
+    "file_name": "ActivityManagerService.java",
+    "commit_date": 1666762792,
+    "commit_msg": "DO NOT MERGE: ActivityManager#killBackgroundProcesses can kill caller's own app only\n\nunless it's a system app.\n\nBug: 239423414\nBug: 223376078\nTest: atest CtsAppTestCases:ActivityManagerTest\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:fa94ce5c7738e449cb6bd68c77af4858018e49e0)\nMerged-In: Iac6baa889965b8ffecd9a43179a4c96632ad1d02\nChange-Id: Iac6baa889965b8ffecd9a43179a4c96632ad1d02\n",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 7.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

@@ -1,0 +1,20 @@
+{
+    "id": "c5c2e4a2dd12f61235555ea81a6c96065ced22c9_channelRead_0",
+    "func_name": "channelRead",
+    "cve_id": "CVE-2021-21295",
+    "cwe_ids": [
+        "CWE-444"
+    ],
+    "commit_hash": "c5c2e4a2dd12f61235555ea81a6c96065ced22c9",
+    "parent_commit_hash": "f58c18ee1df16d782e9a2ab00cfc0ea7b31eff0d",
+    "repo_name": "Netflix/zuul",
+    "git_url": "https://github.com/Netflix/zuul/commit/c5c2e4a2dd12f61235555ea81a6c96065ced22c9",
+    "file_path": "zuul-core/src/main/java/com/netflix/zuul/netty/server/http2/Http2ContentLengthEnforcingHandler.java",
+    "file_name": "Http2ContentLengthEnforcingHandler.java",
+    "commit_date": 1611154823,
+    "commit_msg": "refactor based on comments",
+    "cvss_vector": "AV:N/AC:H/Au:N/C:N/I:P/A:N",
+    "cvss_base_score": 2.6,
+    "cvss_base_severity": "LOW",
+    "cvss_is_v3": false
+}

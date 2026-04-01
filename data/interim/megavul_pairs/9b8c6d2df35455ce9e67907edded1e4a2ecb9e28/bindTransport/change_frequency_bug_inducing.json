@@ -1,0 +1,42 @@
+{
+  "frequency": [
+    {
+      "c": "FieldRead",
+      "f": "1"
+    },
+    {
+      "c": "If",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "delete-node_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_FieldRead_If",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "FieldRead",
+      "f": "0.5"
+    },
+    {
+      "c": "If",
+      "f": "0.5"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "delete-node_If_Block",
+      "f": "0.5"
+    },
+    {
+      "c": "update-node_FieldRead_If",
+      "f": "0.5"
+    }
+  ]
+}

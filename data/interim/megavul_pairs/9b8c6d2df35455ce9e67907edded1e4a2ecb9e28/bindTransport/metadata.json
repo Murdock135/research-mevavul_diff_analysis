@@ -1,0 +1,20 @@
+{
+    "id": "9b8c6d2df35455ce9e67907edded1e4a2ecb9e28_bindTransport_0",
+    "func_name": "bindTransport",
+    "cve_id": "CVE-2016-3759",
+    "cwe_ids": [
+        "CWE-200"
+    ],
+    "commit_hash": "9b8c6d2df35455ce9e67907edded1e4a2ecb9e28",
+    "parent_commit_hash": "d2ef34d04101da98be587dd5b0455b86de88ed70",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/9b8c6d2df35455ce9e67907edded1e4a2ecb9e28",
+    "file_path": "services/backup/java/com/android/server/backup/BackupManagerService.java",
+    "file_name": "BackupManagerService.java",
+    "commit_date": 1463783371,
+    "commit_msg": "Backport of backup transport whitelist\n\nSysconfig define a whitelist of permitted backup transports\n\nPreviously any apk bundled in priv-app could insert a backup transport.\nReduce risk surface by giving the OEM explicit control over who is\nallowed to handle backup data.\n\nBug 28406080\n\nBackport of 494df791728f4d42d67e935c327910975993ad29 from N\n\nChange-Id: I9f90e324169a68720d608f74754d284a7e59cf87\n",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

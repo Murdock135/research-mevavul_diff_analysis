@@ -1,0 +1,1196 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="identifier: slot [1625,1629]" dest="identifier: slot [1625,1629]"/>
+  <match src="identifier: id_to_memslot [2758,2771]" dest="identifier: id_to_memslot [2758,2771]"/>
+  <match src="comment: /* destroy any largepage mappings for dirty tracking */ [2486,2541]" dest="comment: /* destroy any largepage mappings for dirty tracking */ [2486,2541]"/>
+  <match src="sizeof_expression [3841,3857]" dest="sizeof_expression [3888,3904]"/>
+  <match src="declaration [242,284]" dest="declaration [242,284]"/>
+  <match src="if_statement [750,797]" dest="if_statement [750,797]"/>
+  <match src="goto_statement [2469,2483]" dest="goto_statement [2469,2483]"/>
+  <match src="&amp;: &amp; [2178,2179]" dest="&amp;: &amp; [2178,2179]"/>
+  <match src="=: = [1563,1564]" dest="=: = [1563,1564]"/>
+  <match src="}: } [1809,1810]" dest="}: } [1809,1810]"/>
+  <match src="identifier: old_memslots [2866,2878]" dest="identifier: old_memslots [2866,2878]"/>
+  <match src="binary_expression [1625,1672]" dest="binary_expression [1625,1672]"/>
+  <match src="field_identifier: memslots [2886,2894]" dest="field_identifier: memslots [2886,2894]"/>
+  <match src="): ) [2421,2422]" dest="): ) [2421,2422]"/>
+  <match src="unary_expression [1693,1788]" dest="unary_expression [1693,1788]"/>
+  <match src="): ) [483,484]" dest="): ) [483,484]"/>
+  <match src="identifier: mem [88,91]" dest="identifier: mem [88,91]"/>
+  <match src=";: ; [321,322]" dest=";: ; [321,322]"/>
+  <match src=";: ; [1164,1165]" dest=";: ; [1164,1165]"/>
+  <match src="identifier: kvm_free_physmem_slot [4158,4179]" dest="identifier: kvm_free_physmem_slot [4231,4252]"/>
+  <match src=",: , [2853,2854]" dest=",: , [2853,2854]"/>
+  <match src="comment: /* Allocate page dirty bitmap if needed */ [2315,2357]" dest="comment: /* Allocate page dirty bitmap if needed */ [2315,2357]"/>
+  <match src="(: ( [1423,1424]" dest="(: ( [1423,1424]"/>
+  <match src="if: if [324,326]" dest="if: if [324,326]"/>
+  <match src="identifier: update_memslots [3865,3880]" dest="identifier: update_memslots [3912,3927]"/>
+  <match src="identifier: memslot [881,888]" dest="identifier: memslot [881,888]"/>
+  <match src="if_statement [1855,1925]" dest="if_statement [1855,1925]"/>
+  <match src="identifier: synchronize_srcu_expedited [3970,3996]" dest="identifier: synchronize_srcu_expedited [4017,4043]"/>
+  <match src="if_statement [1689,1807]" dest="if_statement [1689,1807]"/>
+  <match src=",: , [3360,3361]" dest=",: , [3451,3452]"/>
+  <match src="field_expression [2656,2669]" dest="field_expression [2656,2669]"/>
+  <match src="pointer_expression [3997,4007]" dest="pointer_expression [4044,4054]"/>
+  <match src="(: ( [3826,3827]" dest="(: ( [3873,3874]"/>
+  <match src="identifier: npages [1228,1234]" dest="identifier: npages [1228,1234]"/>
+  <match src="goto: goto [487,491]" dest="goto: goto [487,491]"/>
+  <match src="+: + [1705,1706]" dest="+: + [1705,1706]"/>
+  <match src="identifier: slots [2640,2645]" dest="identifier: slots [2640,2645]"/>
+  <match src="): ) [2981,2982]" dest="): ) [2981,2982]"/>
+  <match src="identifier: mem [717,720]" dest="identifier: mem [717,720]"/>
+  <match src="&amp;: &amp; [2971,2972]" dest="&amp;: &amp; [2971,2972]"/>
+  <match src="abstract_pointer_declarator [676,677]" dest="abstract_pointer_declarator [676,677]"/>
+  <match src="type_descriptor [3630,3649]" dest="type_descriptor [3550,3569]"/>
+  <match src=".: . [1864,1865]" dest=".: . [1864,1865]"/>
+  <match src="field_expression [2105,2123]" dest="field_expression [2105,2123]"/>
+  <match src="pointer_expression [3346,3350]" dest="pointer_expression [3437,3441]"/>
+  <match src="-&gt;: -&gt; [2797,2799]" dest="-&gt;: -&gt; [2797,2799]"/>
+  <match src="identifier: old_memslots [271,283]" dest="identifier: old_memslots [271,283]"/>
+  <match src="argument_list [2917,2939]" dest="argument_list [2917,2939]"/>
+  <match src="unsigned: unsigned [144,152]" dest="unsigned: unsigned [144,152]"/>
+  <match src="struct_specifier [242,261]" dest="struct_specifier [242,261]"/>
+  <match src="unary_expression [1410,1417]" dest="unary_expression [1410,1417]"/>
+  <match src="goto_statement [430,439]" dest="goto_statement [430,439]"/>
+  <match src="if: if [3452,3454]" dest="if: if [3666,3668]"/>
+  <match src="number_literal: 1 [424,425]" dest="number_literal: 1 [424,425]"/>
+  <match src=",: , [268,269]" dest=",: , [268,269]"/>
+  <match src="field_expression [2574,2586]" dest="field_expression [2574,2586]"/>
+  <match src="=: = [3909,3910]" dest="=: = [3956,3957]"/>
+  <match src="identifier: memslot [1157,1164]" dest="identifier: memslot [1157,1164]"/>
+  <match src=",: , [712,713]" dest=",: , [712,713]"/>
+  <match src="function_definition [0,4212]" dest="function_definition [0,4285]"/>
+  <match src="field_identifier: guest_phys_addr [850,865]" dest="field_identifier: guest_phys_addr [850,865]"/>
+  <match src=";: ; [3299,3300]" dest=";: ; [3390,3391]"/>
+  <match src="field_identifier: memory_size [995,1006]" dest="field_identifier: memory_size [995,1006]"/>
+  <match src="=: = [1408,1409]" dest="=: = [1408,1409]"/>
+  <match src="): ) [1071,1072]" dest="): ) [1071,1072]"/>
+  <match src="): ) [1788,1789]" dest="): ) [1788,1789]"/>
+  <match src="identifier: mem [1249,1252]" dest="identifier: mem [1249,1252]"/>
+  <match src="parenthesized_expression [3778,3787]" dest="parenthesized_expression [3825,3834]"/>
+  <match src="(: ( [1695,1696]" dest="(: ( [1695,1696]"/>
+  <match src="identifier: slot [2616,2620]" dest="identifier: slot [2616,2620]"/>
+  <match src="field_identifier: base_gfn [1723,1731]" dest="field_identifier: base_gfn [1723,1731]"/>
+  <match src="call_expression [2154,2191]" dest="call_expression [2154,2191]"/>
+  <match src="-&gt;: -&gt; [1252,1254]" dest="-&gt;: -&gt; [1252,1254]"/>
+  <match src="parenthesized_expression [2362,2422]" dest="parenthesized_expression [2362,2422]"/>
+  <match src="identifier: kvm [3911,3914]" dest="identifier: kvm [3958,3961]"/>
+  <match src="(: ( [3945,3946]" dest="(: ( [3992,3993]"/>
+  <match src="identifier: slot [1657,1661]" dest="identifier: slot [1657,1661]"/>
+  <match src=".: . [3796,3797]" dest=".: . [3843,3844]"/>
+  <match src="assignment_expression [3896,3924]" dest="assignment_expression [3943,3971]"/>
+  <match src="&amp;&amp;: &amp;&amp; [2230,2232]" dest="&amp;&amp;: &amp;&amp; [2230,2232]"/>
+  <match src="field_expression [3911,3924]" dest="field_expression [3958,3971]"/>
+  <match src="identifier: kfree [3280,3285]" dest="identifier: kfree [3371,3376]"/>
+  <match src=",: , [3566,3567]" dest=",: , [3066,3067]"/>
+  <match src="(: ( [2917,2918]" dest="(: ( [2917,2918]"/>
+  <match src="statement_identifier: out [874,877]" dest="statement_identifier: out [874,877]"/>
+  <match src="goto: goto [2734,2738]" dest="goto: goto [2734,2738]"/>
+  <match src="assignment_expression [2105,2145]" dest="assignment_expression [2105,2145]"/>
+  <match src="field_expression [1237,1246]" dest="field_expression [1237,1246]"/>
+  <match src="field_expression [3998,4007]" dest="field_expression [4045,4054]"/>
+  <match src="identifier: npages [2184,2190]" dest="identifier: npages [2184,2190]"/>
+  <match src="parenthesized_expression [2363,2400]" dest="parenthesized_expression [2363,2400]"/>
+  <match src="parenthesized_expression [2222,2275]" dest="parenthesized_expression [2222,2275]"/>
+  <match src="identifier: npages [2223,2229]" dest="identifier: npages [2223,2229]"/>
+  <match src="assignment_expression [2640,2715]" dest="assignment_expression [2640,2715]"/>
+  <match src="(: ( [1744,1745]" dest="(: ( [1744,1745]"/>
+  <match src="assignment_expression [1168,1186]" dest="assignment_expression [1168,1186]"/>
+  <match src="field_identifier: npages [1508,1514]" dest="field_identifier: npages [1508,1514]"/>
+  <match src="identifier: new [3498,3501]" dest="identifier: new [3712,3715]"/>
+  <match src="argument_list [4179,4191]" dest="argument_list [4252,4264]"/>
+  <match src="=: = [3598,3599]" dest="=: = [3518,3519]"/>
+  <match src="type_identifier: kvm_memslots [2685,2697]" dest="type_identifier: kvm_memslots [2685,2697]"/>
+  <match src="identifier: kvm [2656,2659]" dest="identifier: kvm [2656,2659]"/>
+  <match src="argument_list [316,321]" dest="argument_list [316,321]"/>
+  <match src="parenthesized_expression [1692,1789]" dest="parenthesized_expression [1692,1789]"/>
+  <match src="compound_statement [3464,3533]" dest="compound_statement [3678,3748]"/>
+  <match src="statement_identifier: out_free [2474,2482]" dest="statement_identifier: out_free [2474,2482]"/>
+  <match src="identifier: old [3569,3572]" dest="identifier: old [3069,3072]"/>
+  <match src="type_identifier: kvm [35,38]" dest="type_identifier: kvm [35,38]"/>
+  <match src="): ) [1786,1787]" dest="): ) [1786,1787]"/>
+  <match src=";: ; [4105,4106]" dest=";: ; [4152,4153]"/>
+  <match src="comment: /* We can read the guest memory with __xxx_user() later on. */ [498,560]" dest="comment: /* We can read the guest memory with __xxx_user() later on. */ [498,560]"/>
+  <match src="identifier: slot [201,205]" dest="identifier: slot [201,205]"/>
+  <match src=";: ; [1572,1573]" dest=";: ; [1572,1573]"/>
+  <match src="expression_statement [3793,3817]" dest="expression_statement [3840,3864]"/>
+  <match src="pointer_declarator [2615,2620]" dest="pointer_declarator [2615,2620]"/>
+  <match src="goto_statement [788,797]" dest="goto_statement [788,797]"/>
+  <match src=";: ; [141,142]" dest=";: ; [141,142]"/>
+  <match src="expression_statement [1144,1165]" dest="expression_statement [1144,1165]"/>
+  <match src="): ) [623,624]" dest="): ) [623,624]"/>
+  <match src="expression_statement [2944,2983]" dest="expression_statement [2944,2983]"/>
+  <match src="identifier: kfree [4108,4113]" dest="identifier: kfree [4155,4160]"/>
+  <match src="): ) [624,625]" dest="): ) [624,625]"/>
+  <match src="call_expression [2431,2460]" dest="call_expression [2431,2460]"/>
+  <match src="expression_statement [1168,1187]" dest="expression_statement [1168,1187]"/>
+  <match src="(: ( [3607,3608]" dest="(: ( [3527,3528]"/>
+  <match src="type_descriptor [2678,2697]" dest="type_descriptor [2678,2697]"/>
+  <match src="): ) [3372,3373]" dest="): ) [3463,3464]"/>
+  <match src="): ) [1615,1616]" dest="): ) [1615,1616]"/>
+  <match src="identifier: slots [2848,2853]" dest="identifier: slots [2848,2853]"/>
+  <match src="-&gt;: -&gt; [1180,1182]" dest="-&gt;: -&gt; [1180,1182]"/>
+  <match src="{: { [2276,2277]" dest="{: { [2276,2277]"/>
+  <match src="identifier: r [3306,3307]" dest="identifier: r [3397,3398]"/>
+  <match src="*: * [87,88]" dest="*: * [87,88]"/>
+  <match src="comment: 	
+	 * Disallow changing a memory slot's size or changing anything about
+	 * zero sized slots that doesn't involve making them non-zero.
+	 */ [1263,1404]" dest="comment: 	
+	 * Disallow changing a memory slot's size or changing anything about
+	 * zero sized slots that doesn't involve making them non-zero.
+	 */ [1263,1404]"/>
+  <match src="): ) [2464,2465]" dest="): ) [2464,2465]"/>
+  <match src="(: ( [4113,4114]" dest="(: ( [4160,4161]"/>
+  <match src="expression_statement [2751,2790]" dest="expression_statement [2751,2790]"/>
+  <match src="!: ! [2404,2405]" dest="!: ! [2404,2405]"/>
+  <match src=";: ; [747,748]" dest=";: ; [747,748]"/>
+  <match src="): ) [482,483]" dest="): ) [482,483]"/>
+  <match src="identifier: kvm [40,43]" dest="identifier: kvm [40,43]"/>
+  <match src="field_expression [1861,1870]" dest="field_expression [1861,1870]"/>
+  <match src=";: ; [2145,2146]" dest=";: ; [2145,2146]"/>
+  <match src="comment: /* Check for overlaps */ [1535,1559]" dest="comment: /* Check for overlaps */ [1535,1559]"/>
+  <match src="if_statement [1038,1084]" dest="if_statement [1038,1084]"/>
+  <match src=".: . [2061,2062]" dest=".: . [2061,2062]"/>
+  <match src="if: if [3377,3379]" dest="if: if [3468,3470]"/>
+  <match src="argument_list [3880,3893]" dest="argument_list [3927,3940]"/>
+  <match src="(: ( [1692,1693]" dest="(: ( [1692,1693]"/>
+  <match src="null [3812,3816]" dest="null [3859,3863]"/>
+  <match src="goto: goto [430,434]" dest="goto: goto [430,434]"/>
+  <match src="parenthesized_expression [1860,1897]" dest="parenthesized_expression [1860,1897]"/>
+  <match src="): ) [2729,2730]" dest="): ) [2729,2730]"/>
+  <match src="argument_list [2177,2191]" dest="argument_list [2177,2191]"/>
+  <match src="identifier: new [1901,1904]" dest="identifier: new [1901,1904]"/>
+  <match src="!: ! [3675,3676]" dest="!: ! [3595,3596]"/>
+  <match src=";: ; [495,496]" dest=";: ; [495,496]"/>
+  <match src="): ) [329,330]" dest="): ) [329,330]"/>
+  <match src=";: ; [3667,3668]" dest=";: ; [3587,3588]"/>
+  <match src="binary_expression [1757,1786]" dest="binary_expression [1757,1786]"/>
+  <match src="unary_expression [1503,1514]" dest="unary_expression [1503,1514]"/>
+  <match src="field_expression [1602,1615]" dest="field_expression [1602,1615]"/>
+  <match src=":: : [4154,4155]" dest=":: : [4227,4228]"/>
+  <match src="binary_expression [1696,1731]" dest="binary_expression [1696,1731]"/>
+  <match src="if: if [2427,2429]" dest="if: if [2427,2429]"/>
+  <match src="=: = [1154,1155]" dest="=: = [1154,1155]"/>
+  <match src="(: ( [27,28]" dest="(: ( [27,28]"/>
+  <match src=",: , [3344,3345]" dest=",: , [3435,3436]"/>
+  <match src="): ) [2859,2860]" dest="): ) [2859,2860]"/>
+  <match src="field_identifier: memslots [2661,2669]" dest="field_identifier: memslots [2661,2669]"/>
+  <match src=";: ; [2982,2983]" dest=";: ; [2982,2983]"/>
+  <match src="identifier: new [1189,1192]" dest="identifier: new [1189,1192]"/>
+  <match src="call_expression [3472,3502]" dest="call_expression [3686,3716]"/>
+  <match src=".: . [1240,1241]" dest=".: . [1240,1241]"/>
+  <match src=";: ; [3588,3589]" dest=";: ; [3508,3509]"/>
+  <match src="field_identifier: npages [1462,1468]" dest="field_identifier: npages [1462,1468]"/>
+  <match src="statement_identifier: out_free [2739,2747]" dest="statement_identifier: out_free [2739,2747]"/>
+  <match src="field_identifier: userspace_addr [2238,2252]" dest="field_identifier: userspace_addr [2238,2252]"/>
+  <match src="field_identifier: base_gfn [2578,2586]" dest="field_identifier: base_gfn [2578,2586]"/>
+  <match src="field_identifier: userspace_addr [2131,2145]" dest="field_identifier: userspace_addr [2131,2145]"/>
+  <match src="argument_list [2771,2789]" dest="argument_list [2771,2789]"/>
+  <match src="parenthesized_expression [3455,3463]" dest="parenthesized_expression [3669,3677]"/>
+  <match src="identifier: mem [1177,1180]" dest="identifier: mem [1177,1180]"/>
+  <match src="): ) [3966,3967]" dest="): ) [4013,4014]"/>
+  <match src="identifier: kvm [3946,3949]" dest="identifier: kvm [3993,3996]"/>
+  <match src="compound_statement [3788,3862]" dest="compound_statement [3835,3909]"/>
+  <match src="pointer_declarator [270,283]" dest="pointer_declarator [270,283]"/>
+  <match src="}: } [3861,3862]" dest="}: } [3908,3909]"/>
+  <match src="identifier: kvm [905,908]" dest="identifier: kvm [905,908]"/>
+  <match src="unary_expression [1859,1897]" dest="unary_expression [1859,1897]"/>
+  <match src="if: if [2053,2055]" dest="if: if [2053,2055]"/>
+  <match src="&amp;: &amp; [4100,4101]" dest="&amp;: &amp; [4147,4148]"/>
+  <match src="identifier: KVM_MEM_LOG_DIRTY_PAGES [1117,1140]" dest="identifier: KVM_MEM_LOG_DIRTY_PAGES [1117,1140]"/>
+  <match src="(: ( [565,566]" dest="(: ( [565,566]"/>
+  <match src="==: == [1662,1664]" dest="==: == [1662,1664]"/>
+  <match src="): ) [3681,3682]" dest="): ) [3601,3602]"/>
+  <match src="if_statement [324,342]" dest="if_statement [324,342]"/>
+  <match src="identifier: new [2405,2408]" dest="identifier: new [2405,2408]"/>
+  <match src="identifier: kvm [3492,3495]" dest="identifier: kvm [3706,3709]"/>
+  <match src="(: ( [468,469]" dest="(: ( [468,469]"/>
+  <match src="unary_expression [2404,2421]" dest="unary_expression [2404,2421]"/>
+  <match src="expression_statement [3592,3668]" dest="expression_statement [3512,3588]"/>
+  <match src="field_identifier: flags [2799,2804]" dest="field_identifier: flags [2799,2804]"/>
+  <match src=";: ; [3276,3277]" dest=";: ; [3367,3368]"/>
+  <match src="assignment_expression [3793,3816]" dest="assignment_expression [3840,3863]"/>
+  <match src="): ) [1896,1897]" dest="): ) [1896,1897]"/>
+  <match src="if: if [1420,1422]" dest="if: if [1420,1422]"/>
+  <match src="(: ( [2454,2455]" dest="(: ( [2454,2455]"/>
+  <match src="call_expression [4108,4127]" dest="call_expression [4155,4174]"/>
+  <match src="parameter_declaration [100,114]" dest="parameter_declaration [100,114]"/>
+  <match src="call_expression [3865,3893]" dest="call_expression [3912,3940]"/>
+  <match src="if: if [3671,3673]" dest="if: if [3591,3593]"/>
+  <match src=",: , [4098,4099]" dest=",: , [4145,4146]"/>
+  <match src="identifier: PAGE_SHIFT [1010,1020]" dest="identifier: PAGE_SHIFT [1010,1020]"/>
+  <match src=";: ; [2291,2292]" dest=";: ; [2291,2292]"/>
+  <match src="struct_specifier [28,38]" dest="struct_specifier [28,38]"/>
+  <match src="!: ! [2723,2724]" dest="!: ! [2723,2724]"/>
+  <match src="struct: struct [28,34]" dest="struct: struct [28,34]"/>
+  <match src="parenthesized_expression [1041,1072]" dest="parenthesized_expression [1041,1072]"/>
+  <match src="type_identifier: kvm_memory_slot [215,230]" dest="type_identifier: kvm_memory_slot [215,230]"/>
+  <match src="field_expression [3608,3621]" dest="field_expression [3528,3541]"/>
+  <match src="type_identifier: gfn_t [127,132]" dest="type_identifier: gfn_t [127,132]"/>
+  <match src="(: ( [3285,3286]" dest="(: ( [3376,3377]"/>
+  <match src=",: , [4055,4056]" dest=",: , [4102,4103]"/>
+  <match src="|=: |= [2805,2807]" dest="|=: |= [2805,2807]"/>
+  <match src=",: , [3350,3351]" dest=",: , [3441,3442]"/>
+  <match src="parenthesized_expression [2153,2192]" dest="parenthesized_expression [2153,2192]"/>
+  <match src="(: ( [1491,1492]" dest="(: ( [1491,1492]"/>
+  <match src="parenthesized_expression [3509,3512]" dest="parenthesized_expression [3723,3726]"/>
+  <match src="parenthesized_expression [3380,3383]" dest="parenthesized_expression [3471,3474]"/>
+  <match src="argument_list [645,734]" dest="argument_list [645,734]"/>
+  <match src="binary_expression [1424,1444]" dest="binary_expression [1424,1444]"/>
+  <match src="!: ! [1503,1504]" dest="!: ! [1503,1504]"/>
+  <match src="argument_list [4113,4127]" dest="argument_list [4160,4174]"/>
+  <match src="call_expression [3280,3299]" dest="call_expression [3371,3390]"/>
+  <match src="=: = [889,890]" dest="=: = [889,890]"/>
+  <match src="primitive_type: int [0,3]" dest="primitive_type: int [0,3]"/>
+  <match src="-: - [2629,2630]" dest="-: - [2629,2630]"/>
+  <match src="=: = [1247,1248]" dest="=: = [1247,1248]"/>
+  <match src="pointer_expression [3497,3501]" dest="pointer_expression [3711,3715]"/>
+  <match src="field_expression [1504,1514]" dest="field_expression [1504,1514]"/>
+  <match src="goto: goto [2469,2473]" dest="goto: goto [2469,2473]"/>
+  <match src="field_expression [2233,2252]" dest="field_expression [2233,2252]"/>
+  <match src="field_expression [2405,2421]" dest="field_expression [2405,2421]"/>
+  <match src=";: ; [1234,1235]" dest=";: ; [1234,1235]"/>
+  <match src="struct_specifier [208,230]" dest="struct_specifier [208,230]"/>
+  <match src="identifier: new [236,239]" dest="identifier: new [236,239]"/>
+  <match src="identifier: kvm_arch_prepare_memory_region [3310,3340]" dest="identifier: kvm_arch_prepare_memory_region [3401,3431]"/>
+  <match src="-: - [1410,1411]" dest="-: - [1410,1411]"/>
+  <match src="assignment_expression [1150,1164]" dest="assignment_expression [1150,1164]"/>
+  <match src="field_identifier: arch [3852,3856]" dest="field_identifier: arch [3899,3903]"/>
+  <match src="if: if [750,752]" dest="if: if [750,752]"/>
+  <match src="assignment_expression [1237,1259]" dest="assignment_expression [1237,1259]"/>
+  <match src="field_expression [3946,3959]" dest="field_expression [3993,4006]"/>
+  <match src="identifier: kvm [3563,3566]" dest="identifier: kvm [3063,3066]"/>
+  <match src="return: return [4133,4139]" dest="return: return [4180,4186]"/>
+  <match src="(: ( [411,412]" dest="(: ( [411,412]"/>
+  <match src="call_expression [3310,3373]" dest="call_expression [3401,3464]"/>
+  <match src="binary_expression [1657,1672]" dest="binary_expression [1657,1672]"/>
+  <match src="comment: /* General sanity checks */ [359,386]" dest="comment: /* General sanity checks */ [359,386]"/>
+  <match src="binary_expression [803,865]" dest="binary_expression [803,865]"/>
+  <match src="unary_expression [1565,1572]" dest="unary_expression [1565,1572]"/>
+  <match src="identifier: rcu_assign_pointer [3927,3945]" dest="identifier: rcu_assign_pointer [3974,3992]"/>
+  <match src="field_expression [1901,1917]" dest="field_expression [1901,1917]"/>
+  <match src="-&gt;: -&gt; [2782,2784]" dest="-&gt;: -&gt; [2782,2784]"/>
+  <match src="(: ( [391,392]" dest="(: ( [391,392]"/>
+  <match src="assignment_expression [3592,3667]" dest="assignment_expression [3512,3587]"/>
+  <match src=",: , [2698,2699]" dest=",: , [2698,2699]"/>
+  <match src="identifier: mem [826,829]" dest="identifier: mem [826,829]"/>
+  <match src="(: ( [444,445]" dest="(: ( [444,445]"/>
+  <match src="&amp;: &amp; [4094,4095]" dest="&amp;: &amp; [4141,4142]"/>
+  <match src="(: ( [316,317]" dest="(: ( [316,317]"/>
+  <match src=".: . [2108,2109]" dest=".: . [2108,2109]"/>
+  <match src="type_descriptor [669,677]" dest="type_descriptor [669,677]"/>
+  <match src="call_expression [4158,4191]" dest="call_expression [4231,4264]"/>
+  <match src="-&gt;: -&gt; [923,925]" dest="-&gt;: -&gt; [923,925]"/>
+  <match src="identifier: mem [4047,4050]" dest="identifier: mem [4094,4097]"/>
+  <match src="identifier: KVM_MEM_MAX_NR_PAGES [1051,1071]" dest="identifier: KVM_MEM_MAX_NR_PAGES [1051,1071]"/>
+  <match src="argument_list [1595,1616]" dest="argument_list [1595,1616]"/>
+  <match src="{: { [2070,2071]" dest="{: { [2070,2071]"/>
+  <match src="(: ( [1624,1625]" dest="(: ( [1624,1625]"/>
+  <match src="identifier: ENOMEM [2630,2636]" dest="identifier: ENOMEM [2630,2636]"/>
+  <match src="identifier: kvm_for_each_memslot [1575,1595]" dest="identifier: kvm_for_each_memslot [1575,1595]"/>
+  <match src="field_expression [2256,2274]" dest="field_expression [2256,2274]"/>
+  <match src="identifier: kvm_arch_create_memslot [2154,2177]" dest="identifier: kvm_arch_create_memslot [2154,2177]"/>
+  <match src="identifier: GFP_KERNEL [3656,3666]" dest="identifier: GFP_KERNEL [3576,3586]"/>
+  <match src="expression_statement [881,931]" dest="expression_statement [881,931]"/>
+  <match src="struct: struct [3630,3636]" dest="struct: struct [3550,3556]"/>
+  <match src="expression_statement [2793,2828]" dest="expression_statement [2793,2828]"/>
+  <match src="): ) [4007,4008]" dest="): ) [4054,4055]"/>
+  <match src="): ) [2068,2069]" dest="): ) [2068,2069]"/>
+  <match src="=: = [1148,1149]" dest="=: = [1148,1149]"/>
+  <match src="(: ( [1041,1042]" dest="(: ( [1041,1042]"/>
+  <match src="unary_expression [1932,1939]" dest="unary_expression [1932,1939]"/>
+  <match src="(: ( [2430,2431]" dest="(: ( [2430,2431]"/>
+  <match src="identifier: slots [3881,3886]" dest="identifier: slots [3928,3933]"/>
+  <match src="field_identifier: base_gfn [1193,1201]" dest="field_identifier: base_gfn [1193,1201]"/>
+  <match src="&gt;&gt;: &gt;&gt; [965,967]" dest="&gt;&gt;: &gt;&gt; [965,967]"/>
+  <match src="binary_expression [1696,1713]" dest="binary_expression [1696,1713]"/>
+  <match src="field_expression [845,865]" dest="field_expression [845,865]"/>
+  <match src="(: ( [3880,3881]" dest="(: ( [3927,3928]"/>
+  <match src=";: ; [2620,2621]" dest=";: ; [2620,2621]"/>
+  <match src="): ) [733,734]" dest="): ) [733,734]"/>
+  <match src="(: ( [802,803]" dest="(: ( [802,803]"/>
+  <match src="pointer_expression [4094,4098]" dest="pointer_expression [4141,4145]"/>
+  <match src="identifier: r [1561,1562]" dest="identifier: r [1561,1562]"/>
+  <match src=",: , [918,919]" dest=",: , [918,919]"/>
+  <match src="identifier: user_alloc [566,576]" dest="identifier: user_alloc [566,576]"/>
+  <match src="declaration [208,240]" dest="declaration [208,240]"/>
+  <match src="sized_type_specifier [679,692]" dest="sized_type_specifier [679,692]"/>
+  <match src="if_statement [562,748]" dest="if_statement [562,748]"/>
+  <match src="field_expression [1434,1444]" dest="field_expression [1434,1444]"/>
+  <match src="identifier: mem [2233,2236]" dest="identifier: mem [2233,2236]"/>
+  <match src="binary_expression [1424,1468]" dest="binary_expression [1424,1468]"/>
+  <match src="if_statement [2150,2210]" dest="if_statement [2150,2210]"/>
+  <match src="field_identifier: id [1172,1174]" dest="field_identifier: id [1172,1174]"/>
+  <match src="assignment_expression [1928,1939]" dest="assignment_expression [1928,1939]"/>
+  <match src="-&gt;: -&gt; [848,850]" dest="-&gt;: -&gt; [848,850]"/>
+  <match src="number_literal: 1 [481,482]" dest="number_literal: 1 [481,482]"/>
+  <match src="-&gt;: -&gt; [3611,3613]" dest="-&gt;: -&gt; [3531,3533]"/>
+  <match src="statement_identifier: out_free [1523,1531]" dest="statement_identifier: out_free [1523,1531]"/>
+  <match src="pointer_expression [3568,3572]" dest="pointer_expression [3068,3072]"/>
+  <match src="compound_statement [2588,3303]" dest="compound_statement [2588,3394]"/>
+  <match src="argument_list [3562,3573]" dest="argument_list [3062,3073]"/>
+  <match src=";: ; [1939,1940]" dest=";: ; [1939,1940]"/>
+  <match src=";: ; [1417,1418]" dest=";: ; [1417,1418]"/>
+  <match src="identifier: slots [2724,2729]" dest="identifier: slots [2724,2729]"/>
+  <match src="field_identifier: userspace_addr [2109,2123]" dest="field_identifier: userspace_addr [2109,2123]"/>
+  <match src="if: if [2150,2152]" dest="if: if [2150,2152]"/>
+  <match src="if_statement [3775,3862]" dest="if_statement [3822,3909]"/>
+  <match src=",: , [3839,3840]" dest=",: , [3886,3887]"/>
+  <match src="if: if [2547,2549]" dest="if: if [2547,2549]"/>
+  <match src="&amp;&amp;: &amp;&amp; [1445,1447]" dest="&amp;&amp;: &amp;&amp; [1445,1447]"/>
+  <match src="goto: goto [3686,3690]" dest="goto: goto [3606,3610]"/>
+  <match src="comment: /* map/unmap the pages in iommu page table */ [3405,3450]" dest="comment: /* map new memory slot into the iommu */ [3624,3664]"/>
+  <match src="*: * [190,191]" dest="*: * [190,191]"/>
+  <match src="-&gt;: -&gt; [448,450]" dest="-&gt;: -&gt; [448,450]"/>
+  <match src="struct: struct [242,248]" dest="struct: struct [242,248]"/>
+  <match src="field_expression [1215,1225]" dest="field_expression [1215,1225]"/>
+  <match src="identifier: old [1504,1507]" dest="identifier: old [1504,1507]"/>
+  <match src="}: } [2543,2544]" dest="}: } [2543,2544]"/>
+  <match src="field_identifier: memslots [2923,2931]" dest="field_identifier: memslots [2923,2931]"/>
+  <match src="identifier: npages [2552,2558]" dest="identifier: npages [2552,2558]"/>
+  <match src="*: * [262,263]" dest="*: * [262,263]"/>
+  <match src="-&gt;: -&gt; [395,397]" dest="-&gt;: -&gt; [395,397]"/>
+  <match src="field_identifier: base_gfn [1763,1771]" dest="field_identifier: base_gfn [1763,1771]"/>
+  <match src=";: ; [3893,3894]" dest=";: ; [3940,3941]"/>
+  <match src="expression_statement [1561,1573]" dest="expression_statement [1561,1573]"/>
+  <match src="if_statement [441,496]" dest="if_statement [441,496]"/>
+  <match src=";: ; [341,342]" dest=";: ; [341,342]"/>
+  <match src="&amp;&amp;: &amp;&amp; [1431,1433]" dest="&amp;&amp;: &amp;&amp; [1431,1433]"/>
+  <match src="identifier: slot [1717,1721]" dest="identifier: slot [1717,1721]"/>
+  <match src="(: ( [2655,2656]" dest="(: ( [2655,2656]"/>
+  <match src="assignment_expression [2074,2101]" dest="assignment_expression [2074,2101]"/>
+  <match src="field_identifier: guest_phys_addr [949,964]" dest="field_identifier: guest_phys_addr [949,964]"/>
+  <match src="parenthesized_expression [586,625]" dest="parenthesized_expression [586,625]"/>
+  <match src="identifier: slot [1757,1761]" dest="identifier: slot [1757,1761]"/>
+  <match src="identifier: old [4187,4190]" dest="identifier: old [4260,4263]"/>
+  <match src="number_literal: 0 [2463,2464]" dest="number_literal: 0 [2463,2464]"/>
+  <match src="parenthesized_expression [391,427]" dest="parenthesized_expression [391,427]"/>
+  <match src="(: ( [2177,2178]" dest="(: ( [2177,2178]"/>
+  <match src="identifier: mem [693,696]" dest="identifier: mem [693,696]"/>
+  <match src="field_expression [2881,2894]" dest="field_expression [2881,2894]"/>
+  <match src=",: , [234,235]" dest=",: , [234,235]"/>
+  <match src="argument_list [3945,3967]" dest="argument_list [3992,4014]"/>
+  <match src="unary_expression [2057,2068]" dest="unary_expression [2057,2068]"/>
+  <match src="call_expression [3927,3967]" dest="call_expression [3974,4014]"/>
+  <match src="-&gt;: -&gt; [947,949]" dest="-&gt;: -&gt; [947,949]"/>
+  <match src="identifier: memset [3820,3826]" dest="identifier: memset [3867,3873]"/>
+  <match src="||: || [1654,1656]" dest="||: || [1654,1656]"/>
+  <match src="): ) [735,736]" dest="): ) [735,736]"/>
+  <match src="parenthesized_expression [1695,1732]" dest="parenthesized_expression [1695,1732]"/>
+  <match src="statement_identifier: out [338,341]" dest="statement_identifier: out [338,341]"/>
+  <match src="call_expression [2899,2939]" dest="call_expression [2899,2939]"/>
+  <match src="if_statement [2219,2312]" dest="if_statement [2219,2312]"/>
+  <match src="): ) [1672,1673]" dest="): ) [1672,1673]"/>
+  <match src="identifier: KVM_MEM_SLOTS_NUM [767,784]" dest="identifier: KVM_MEM_SLOTS_NUM [767,784]"/>
+  <match src="=: = [2089,2090]" dest="=: = [2089,2090]"/>
+  <match src="if_statement [3377,3401]" dest="if_statement [3468,3492]"/>
+  <match src="if_statement [2053,2312]" dest="if_statement [2053,2312]"/>
+  <match src="struct_specifier [2592,2614]" dest="struct_specifier [2592,2614]"/>
+  <match src="cast_expression [678,712]" dest="cast_expression [678,712]"/>
+  <match src="=: = [3579,3580]" dest="=: = [3499,3500]"/>
+  <match src=",: , [3621,3622]" dest=",: , [3541,3542]"/>
+  <match src=";: ; [1083,1084]" dest=";: ; [1083,1084]"/>
+  <match src="{: { [116,117]" dest="{: { [116,117]"/>
+  <match src="identifier: VERIFY_WRITE [646,658]" dest="identifier: VERIFY_WRITE [646,658]"/>
+  <match src="type_identifier: kvm_userspace_memory_region [59,86]" dest="type_identifier: kvm_userspace_memory_region [59,86]"/>
+  <match src="identifier: mem [920,923]" dest="identifier: mem [920,923]"/>
+  <match src="{: { [2423,2424]" dest="{: { [2423,2424]"/>
+  <match src="identifier: old [2574,2577]" dest="identifier: old [2574,2577]"/>
+  <match src="&amp;: &amp; [3997,3998]" dest="&amp;: &amp; [4044,4045]"/>
+  <match src=";: ; [2209,2210]" dest=";: ; [2209,2210]"/>
+  <match src="expression_statement [1215,1235]" dest="expression_statement [1215,1235]"/>
+  <match src="}: } [3532,3533]" dest="}: } [3747,3748]"/>
+  <match src="primitive_type: void [664,668]" dest="primitive_type: void [664,668]"/>
+  <match src="identifier: kvm_iommu_unmap_pages [3541,3562]" dest="identifier: kvm_iommu_unmap_pages [3041,3062]"/>
+  <match src="identifier: update_memslots [2832,2847]" dest="identifier: update_memslots [2832,2847]"/>
+  <match src="if_statement [388,439]" dest="if_statement [388,439]"/>
+  <match src="identifier: old [2058,2061]" dest="identifier: old [2058,2061]"/>
+  <match src=";: ; [1259,1260]" dest=";: ; [1259,1260]"/>
+  <match src="): ) [3382,3383]" dest="): ) [3473,3474]"/>
+  <match src="binary_expression [1492,1514]" dest="binary_expression [1492,1514]"/>
+  <match src="parenthesized_expression [753,785]" dest="parenthesized_expression [753,785]"/>
+  <match src=";: ; [4008,4009]" dest=";: ; [4055,4056]"/>
+  <match src="!: ! [1492,1493]" dest="!: ! [1492,1493]"/>
+  <match src="assignment_expression [1561,1572]" dest="assignment_expression [1561,1572]"/>
+  <match src="&amp;: &amp; [3346,3347]" dest="&amp;: &amp; [3437,3438]"/>
+  <match src="!: ! [2057,2058]" dest="!: ! [2057,2058]"/>
+  <match src=".: . [1171,1172]" dest=".: . [1171,1172]"/>
+  <match src="argument_list [4093,4105]" dest="argument_list [4140,4152]"/>
+  <match src="identifier: slot [2793,2797]" dest="identifier: slot [2793,2797]"/>
+  <match src="=: = [2124,2125]" dest="=: = [2124,2125]"/>
+  <match src="statement_identifier: out [744,747]" dest="statement_identifier: out [744,747]"/>
+  <match src="compound_statement [2423,2544]" dest="compound_statement [2423,2544]"/>
+  <match src="parenthesized_expression [2056,2069]" dest="parenthesized_expression [2056,2069]"/>
+  <match src="): ) [1098,1099]" dest="): ) [1098,1099]"/>
+  <match src="identifier: new [2179,2182]" dest="identifier: new [2179,2182]"/>
+  <match src="assignment_expression [2751,2789]" dest="assignment_expression [2751,2789]"/>
+  <match src="): ) [3275,3276]" dest="): ) [3366,3367]"/>
+  <match src="identifier: npages [1092,1098]" dest="identifier: npages [1092,1098]"/>
+  <match src="argument_list [3285,3299]" dest="argument_list [3376,3390]"/>
+  <match src="(: ( [4179,4180]" dest="(: ( [4252,4253]"/>
+  <match src="identifier: mem [3357,3360]" dest="identifier: mem [3448,3451]"/>
+  <match src="goto: goto [333,337]" dest="goto: goto [333,337]"/>
+  <match src=";: ; [239,240]" dest=";: ; [239,240]"/>
+  <match src="comment: /* Free page dirty bitmap if unneeded */ [1813,1853]" dest="comment: /* Free page dirty bitmap if unneeded */ [1813,1853]"/>
+  <match src="(: ( [904,905]" dest="(: ( [904,905]"/>
+  <match src="identifier: mem [944,947]" dest="identifier: mem [944,947]"/>
+  <match src=";: ; [3373,3374]" dest=";: ; [3464,3465]"/>
+  <match src="expression_statement [3970,4009]" dest="expression_statement [4017,4056]"/>
+  <match src="&lt;: &lt; [2461,2462]" dest="&lt;: &lt; [2461,2462]"/>
+  <match src="if_statement [3671,3700]" dest="if_statement [3591,3620]"/>
+  <match src="comment: 	
+	 * Allocate if a slot is being created.  If modifying a slot,
+	 * the userspace_addr cannot change.
+	 */ [1943,2051]" dest="comment: 	
+	 * Allocate if a slot is being created.  If modifying a slot,
+	 * the userspace_addr cannot change.
+	 */ [1943,2051]"/>
+  <match src="binary_expression [469,482]" dest="binary_expression [469,482]"/>
+  <match src="field_identifier: memslots [1607,1615]" dest="field_identifier: memslots [1607,1615]"/>
+  <match src="identifier: mem [587,590]" dest="identifier: mem [587,590]"/>
+  <match src="field_expression [1757,1771]" dest="field_expression [1757,1771]"/>
+  <match src="-&gt;: -&gt; [829,831]" dest="-&gt;: -&gt; [829,831]"/>
+  <match src="pointer_expression [3888,3892]" dest="pointer_expression [3935,3939]"/>
+  <match src="expression_statement [3280,3300]" dest="expression_statement [3371,3391]"/>
+  <match src="expression_statement [3236,3277]" dest="expression_statement [3327,3368]"/>
+  <match src="): ) [734,735]" dest="): ) [734,735]"/>
+  <match src="field_identifier: memslots [910,918]" dest="field_identifier: memslots [910,918]"/>
+  <match src="field_expression [2074,2088]" dest="field_expression [2074,2088]"/>
+  <match src="assignment_expression [1901,1924]" dest="assignment_expression [1901,1924]"/>
+  <match src="identifier: PAGE_SIZE [610,619]" dest="identifier: PAGE_SIZE [610,619]"/>
+  <match src="binary_expression [2431,2464]" dest="binary_expression [2431,2464]"/>
+  <match src="assignment_expression [3468,3502]" dest="assignment_expression [3682,3716]"/>
+  <match src="field_identifier: userspace_addr [698,712]" dest="field_identifier: userspace_addr [698,712]"/>
+  <match src="identifier: base_gfn [1745,1753]" dest="identifier: base_gfn [1745,1753]"/>
+  <match src="expression_statement [1575,1616]" dest="expression_statement [1575,1616]"/>
+  <match src="identifier: user_alloc [2091,2101]" dest="identifier: user_alloc [2091,2101]"/>
+  <match src="identifier: old_memslots [3896,3908]" dest="identifier: old_memslots [3943,3955]"/>
+  <match src="identifier: r [3468,3469]" dest="identifier: r [3682,3683]"/>
+  <match src="field_expression [1625,1633]" dest="field_expression [1625,1633]"/>
+  <match src="unary_expression [2551,2558]" dest="unary_expression [2551,2558]"/>
+  <match src="(: ( [3674,3675]" dest="(: ( [3594,3595]"/>
+  <match src="&gt;: &gt; [1049,1050]" dest="&gt;: &gt; [1049,1050]"/>
+  <match src="=: = [347,348]" dest="=: = [347,348]"/>
+  <match src="): ) [426,427]" dest="): ) [426,427]"/>
+  <match src="field_expression [754,763]" dest="field_expression [754,763]"/>
+  <match src="identifier: KVM_MEMSLOT_INVALID [2808,2827]" dest="identifier: KVM_MEMSLOT_INVALID [2808,2827]"/>
+  <match src="identifier: slots [3961,3966]" dest="identifier: slots [4008,4013]"/>
+  <match src="ERROR [664,668]" dest="ERROR [664,668]"/>
+  <match src="(: ( [586,587]" dest="(: ( [586,587]"/>
+  <match src="(: ( [609,610]" dest="(: ( [609,610]"/>
+  <match src="expression_statement [287,322]" dest="expression_statement [287,322]"/>
+  <match src="parenthesized_expression [327,330]" dest="parenthesized_expression [327,330]"/>
+  <match src=";: ; [438,439]" dest=";: ; [438,439]"/>
+  <match src="if: if [1855,1857]" dest="if: if [1855,1857]"/>
+  <match src="identifier: old [3352,3355]" dest="identifier: old [3443,3446]"/>
+  <match src="field_identifier: srcu [4003,4007]" dest="field_identifier: srcu [4050,4054]"/>
+  <match src="!=: != [2253,2255]" dest="!=: != [2253,2255]"/>
+  <match src="&amp;: &amp; [4180,4181]" dest="&amp;: &amp; [4253,4254]"/>
+  <match src="(: ( [1090,1091]" dest="(: ( [1090,1091]"/>
+  <match src="assignment_expression [933,978]" dest="assignment_expression [933,978]"/>
+  <match src="identifier: new [2456,2459]" dest="identifier: new [2456,2459]"/>
+  <match src="if_statement [2547,3303]" dest="if_statement [2547,3394]"/>
+  <match src="-&gt;: -&gt; [2129,2131]" dest="-&gt;: -&gt; [2129,2131]"/>
+  <match src=",: , [3959,3960]" dest=",: , [4006,4007]"/>
+  <match src="if: if [1087,1089]" dest="if: if [1087,1089]"/>
+  <match src="pointer_expression [2455,2459]" dest="pointer_expression [2455,2459]"/>
+  <match src=",: , [4184,4185]" dest=",: , [4257,4258]"/>
+  <match src="identifier: slots [3592,3597]" dest="identifier: slots [3512,3517]"/>
+  <match src="=: = [1930,1931]" dest="=: = [1930,1931]"/>
+  <match src="goto_statement [1472,1486]" dest="goto_statement [1472,1486]"/>
+  <match src="return_statement [4200,4209]" dest="return_statement [4273,4282]"/>
+  <match src="statement_identifier: out [435,438]" dest="statement_identifier: out [435,438]"/>
+  <match src="): ) [3856,3857]" dest="): ) [3903,3904]"/>
+  <match src="argument_list [2655,2715]" dest="argument_list [2655,2715]"/>
+  <match src="parenthesized_expression [2550,2587]" dest="parenthesized_expression [2550,2587]"/>
+  <match src="identifier: EINVAL [1411,1417]" dest="identifier: EINVAL [1411,1417]"/>
+  <match src="(: ( [2363,2364]" dest="(: ( [2363,2364]"/>
+  <match src=".: . [2077,2078]" dest=".: . [2077,2078]"/>
+  <match src="else_clause [2214,2312]" dest="else_clause [2214,2312]"/>
+  <match src="): ) [3892,3893]" dest="): ) [3939,3940]"/>
+  <match src="pointer_declarator [39,43]" dest="pointer_declarator [39,43]"/>
+  <match src="identifier: mem [1102,1105]" dest="identifier: mem [1102,1105]"/>
+  <match src="assignment_expression [1102,1140]" dest="assignment_expression [1102,1140]"/>
+  <match src="argument_list [2847,2860]" dest="argument_list [2847,2860]"/>
+  <match src="struct_specifier [2678,2697]" dest="struct_specifier [2678,2697]"/>
+  <match src="parenthesized_expression [2722,2730]" dest="parenthesized_expression [2722,2730]"/>
+  <match src="||: || [1733,1735]" dest="||: || [1733,1735]"/>
+  <match src="-&gt;: -&gt; [2975,2977]" dest="-&gt;: -&gt; [2975,2977]"/>
+  <match src="if_statement [1621,1686]" dest="if_statement [1621,1686]"/>
+  <match src="primitive_type: int [100,103]" dest="primitive_type: int [100,103]"/>
+  <match src="argument_list [2454,2460]" dest="argument_list [2454,2460]"/>
+  <match src="identifier: old [1434,1437]" dest="identifier: old [1434,1437]"/>
+  <match src="binary_expression [990,1020]" dest="binary_expression [990,1020]"/>
+  <match src="identifier: old_memslots [4114,4126]" dest="identifier: old_memslots [4161,4173]"/>
+  <match src=";: ; [2482,2483]" dest=";: ; [2482,2483]"/>
+  <match src="field_expression [717,733]" dest="field_expression [717,733]"/>
+  <match src="-: - [3581,3582]" dest="-: - [3501,3502]"/>
+  <match src="argument_list [3996,4008]" dest="argument_list [4043,4055]"/>
+  <match src="{: { [1617,1618]" dest="{: { [1617,1618]"/>
+  <match src="expression_statement [1189,1213]" dest="expression_statement [1189,1213]"/>
+  <match src="declaration [167,206]" dest="declaration [167,206]"/>
+  <match src="(: ( [3996,3997]" dest="(: ( [4043,4044]"/>
+  <match src="expression_statement [1024,1036]" dest="expression_statement [1024,1036]"/>
+  <match src="goto: goto [1472,1476]" dest="goto: goto [1472,1476]"/>
+  <match src=";: ; [205,206]" dest=";: ; [205,206]"/>
+  <match src="): ) [4067,4068]" dest="): ) [4114,4115]"/>
+  <match src="continue: continue [1677,1685]" dest="continue: continue [1677,1685]"/>
+  <match src=";: ; [1020,1021]" dest=";: ; [1020,1021]"/>
+  <match src="): ) [677,678]" dest="): ) [677,678]"/>
+  <match src="): ) [2190,2191]" dest="): ) [2190,2191]"/>
+  <match src="binary_expression [392,426]" dest="binary_expression [392,426]"/>
+  <match src="call_expression [2832,2860]" dest="call_expression [2832,2860]"/>
+  <match src="call_expression [3600,3667]" dest="call_expression [3520,3587]"/>
+  <match src="identifier: new [1144,1147]" dest="identifier: new [1144,1147]"/>
+  <match src="if_statement [2427,2483]" dest="if_statement [2427,2483]"/>
+  <match src="statement_identifier: out [4194,4197]" dest="statement_identifier: out [4267,4270]"/>
+  <match src="binary_expression [2233,2274]" dest="binary_expression [2233,2274]"/>
+  <match src="&amp;: &amp; [1871,1872]" dest="&amp;: &amp; [1871,1872]"/>
+  <match src="identifier: KVM_MEM_LOG_DIRTY_PAGES [1873,1896]" dest="identifier: KVM_MEM_LOG_DIRTY_PAGES [1873,1896]"/>
+  <match src=".: . [3851,3852]" dest=".: . [3898,3899]"/>
+  <match src="if: if [3506,3508]" dest="if: if [3720,3722]"/>
+  <match src="argument_list [3826,3858]" dest="argument_list [3873,3905]"/>
+  <match src=";: ; [1186,1187]" dest=";: ; [1186,1187]"/>
+  <match src=";: ; [283,284]" dest=";: ; [283,284]"/>
+  <match src="field_expression [3793,3809]" dest="field_expression [3840,3856]"/>
+  <match src="(: ( [678,679]" dest="(: ( [678,679]"/>
+  <match src="!: ! [635,636]" dest="!: ! [635,636]"/>
+  <match src="identifier: base_gfn [1696,1704]" dest="identifier: base_gfn [1696,1704]"/>
+  <match src="identifier: ENOMEM [1933,1939]" dest="identifier: ENOMEM [1933,1939]"/>
+  <match src="): ) [2714,2715]" dest="): ) [2714,2715]"/>
+  <match src="function_declarator [4,115]" dest="function_declarator [4,115]"/>
+  <match src="call_expression [2944,2982]" dest="call_expression [2944,2982]"/>
+  <match src="expression_statement [2105,2146]" dest="expression_statement [2105,2146]"/>
+  <match src="argument_list [904,930]" dest="argument_list [904,930]"/>
+  <match src="identifier: PAGE_SIZE [469,478]" dest="identifier: PAGE_SIZE [469,478]"/>
+  <match src="): ) [2788,2789]" dest="): ) [2788,2789]"/>
+  <match src="parenthesized_expression [1858,1898]" dest="parenthesized_expression [1858,1898]"/>
+  <match src="field_identifier: srcu [2977,2981]" dest="field_identifier: srcu [2977,2981]"/>
+  <match src="if: if [562,564]" dest="if: if [562,564]"/>
+  <match src="binary_expression [2562,2586]" dest="binary_expression [2562,2586]"/>
+  <match src="&gt;&gt;: &gt;&gt; [1007,1009]" dest="&gt;&gt;: &gt;&gt; [1007,1009]"/>
+  <match src=",: , [3650,3651]" dest=",: , [3570,3571]"/>
+  <match src=",: , [198,199]" dest=",: , [198,199]"/>
+  <match src="identifier: new [1861,1864]" dest="identifier: new [1861,1864]"/>
+  <match src="): ) [425,426]" dest="): ) [425,426]"/>
+  <match src="continue_statement [1677,1686]" dest="continue_statement [1677,1686]"/>
+  <match src="binary_expression [1695,1787]" dest="binary_expression [1695,1787]"/>
+  <match src="goto: goto [2295,2299]" dest="goto: goto [2295,2299]"/>
+  <match src="): ) [2274,2275]" dest="): ) [2274,2275]"/>
+  <match src="number_literal: 0 [3838,3839]" dest="number_literal: 0 [3885,3886]"/>
+  <match src="): ) [3462,3463]" dest="): ) [3676,3677]"/>
+  <match src="if_statement [1488,1532]" dest="if_statement [1488,1532]"/>
+  <match src="number_literal: 0 [4140,4141]" dest="number_literal: 0 [4187,4188]"/>
+  <match src="(: ( [585,586]" dest="(: ( [585,586]"/>
+  <match src=",: , [2931,2932]" dest=",: , [2931,2932]"/>
+  <match src="else: else [2214,2218]" dest="else: else [2214,2218]"/>
+  <match src="comment:  		
+ 		 * or moved, memslot will be created.
+ 		 *
+		 * validation of sp-&gt;gfn happens in:
+		 * 	- gfn_to_hva (kvm_read_guest, gfn_to_pfn)
+		 * 	- kvm_is_visible_gfn (mmu_check_roots)
+		 */ [2987,3233]" dest="comment:  		
+ 		 * or moved, memslot will be created.
+ 		 *
+		 * validation of sp-&gt;gfn happens in:
+		 * 	- gfn_to_hva (kvm_read_guest, gfn_to_pfn)
+		 * 	- kvm_is_visible_gfn (mmu_check_roots)
+		 */ [3078,3324]"/>
+  <match src="identifier: npages [158,164]" dest="identifier: npages [158,164]"/>
+  <match src="pointer_declarator [262,268]" dest="pointer_declarator [262,268]"/>
+  <match src="identifier: r [3510,3511]" dest="identifier: r [3724,3725]"/>
+  <match src="identifier: KVM_MEM_LOG_DIRTY_PAGES [2376,2399]" dest="identifier: KVM_MEM_LOG_DIRTY_PAGES [2376,2399]"/>
+  <match src="-&gt;: -&gt; [908,910]" dest="-&gt;: -&gt; [908,910]"/>
+  <match src="if: if [2719,2721]" dest="if: if [2719,2721]"/>
+  <match src="compound_statement [2070,2213]" dest="compound_statement [2070,2213]"/>
+  <match src="expression_statement [1102,1141]" dest="expression_statement [1102,1141]"/>
+  <match src="&amp;&amp;: &amp;&amp; [2401,2403]" dest="&amp;&amp;: &amp;&amp; [2401,2403]"/>
+  <match src="pointer_expression [4100,4104]" dest="pointer_expression [4147,4151]"/>
+  <match src="expression_statement [4158,4192]" dest="expression_statement [4231,4265]"/>
+  <match src="field_identifier: memory_size [831,842]" dest="field_identifier: memory_size [831,842]"/>
+  <match src="binary_expression [1625,1653]" dest="binary_expression [1625,1653]"/>
+  <match src=";: ; [2894,2895]" dest=";: ; [2894,2895]"/>
+  <match src="): ) [1514,1515]" dest="): ) [1514,1515]"/>
+  <match src=";: ; [1924,1925]" dest=";: ; [1924,1925]"/>
+  <match src="&amp;: &amp; [2455,2456]" dest="&amp;: &amp; [2455,2456]"/>
+  <match src=".: . [1437,1438]" dest=".: . [1437,1438]"/>
+  <match src="labeled_statement [4194,4209]" dest="labeled_statement [4267,4282]"/>
+  <match src="expression_statement [2832,2861]" dest="expression_statement [2832,2861]"/>
+  <match src="): ) [114,115]" dest="): ) [114,115]"/>
+  <match src="(: ( [3265,3266]" dest="(: ( [3356,3357]"/>
+  <match src="parenthesized_expression [585,735]" dest="parenthesized_expression [585,735]"/>
+  <match src="): ) [4190,4191]" dest="): ) [4263,4264]"/>
+  <match src="goto: goto [1518,1522]" dest="goto: goto [1518,1522]"/>
+  <match src="field_identifier: flags [1241,1246]" dest="field_identifier: flags [1241,1246]"/>
+  <match src="expression_statement [3577,3589]" dest="expression_statement [3497,3509]"/>
+  <match src="identifier: new [1215,1218]" dest="identifier: new [1215,1218]"/>
+  <match src="sizeof: sizeof [3623,3629]" dest="sizeof: sizeof [3543,3549]"/>
+  <match src="identifier: GFP_KERNEL [2704,2714]" dest="identifier: GFP_KERNEL [2704,2714]"/>
+  <match src="goto: goto [869,873]" dest="goto: goto [869,873]"/>
+  <match src="call_expression [2758,2789]" dest="call_expression [2758,2789]"/>
+  <match src="goto: goto [3387,3391]" dest="goto: goto [3478,3482]"/>
+  <match src="if: if [388,390]" dest="if: if [388,390]"/>
+  <match src="goto: goto [2196,2200]" dest="goto: goto [2196,2200]"/>
+  <match src="primitive_type: int [119,122]" dest="primitive_type: int [119,122]"/>
+  <match src="argument_list [2970,2982]" dest="argument_list [2970,2982]"/>
+  <match src="statement_identifier: out_free [1798,1806]" dest="statement_identifier: out_free [1798,1806]"/>
+  <match src="): ) [2938,2939]" dest="): ) [2938,2939]"/>
+  <match src="-&gt;: -&gt; [696,698]" dest="-&gt;: -&gt; [696,698]"/>
+  <match src="||: || [2559,2561]" dest="||: || [2559,2561]"/>
+  <match src="identifier: check_memory_region_flags [291,316]" dest="identifier: check_memory_region_flags [291,316]"/>
+  <match src="-&gt;: -&gt; [993,995]" dest="-&gt;: -&gt; [993,995]"/>
+  <match src="): ) [1468,1469]" dest="): ) [1468,1469]"/>
+  <match src="identifier: mem [2779,2782]" dest="identifier: mem [2779,2782]"/>
+  <match src="sizeof_expression [2671,2698]" dest="sizeof_expression [2671,2698]"/>
+  <match src="(: ( [3491,3492]" dest="(: ( [3705,3706]"/>
+  <match src=";: ; [1806,1807]" dest=";: ; [1806,1807]"/>
+  <match src="(: ( [2550,2551]" dest="(: ( [2550,2551]"/>
+  <match src="identifier: mem [754,757]" dest="identifier: mem [754,757]"/>
+  <match src="unary_expression [1492,1499]" dest="unary_expression [1492,1499]"/>
+  <match src="identifier: PAGE_SHIFT [968,978]" dest="identifier: PAGE_SHIFT [968,978]"/>
+  <match src="identifier: kvm_iommu_map_pages [3472,3491]" dest="identifier: kvm_iommu_map_pages [3686,3705]"/>
+  <match src=";: ; [4127,4128]" dest=";: ; [4174,4175]"/>
+  <match src="(: ( [1595,1596]" dest="(: ( [1595,1596]"/>
+  <match src="-&gt;: -&gt; [757,759]" dest="-&gt;: -&gt; [757,759]"/>
+  <match src="call_expression [3820,3858]" dest="call_expression [3867,3905]"/>
+  <match src="): ) [3501,3502]" dest="): ) [3715,3716]"/>
+  <match src=",: , [2777,2778]" dest=",: , [2777,2778]"/>
+  <match src="if: if [1689,1691]" dest="if: if [1689,1691]"/>
+  <match src="struct: struct [52,58]" dest="struct: struct [52,58]"/>
+  <match src="goto: goto [1075,1079]" dest="goto: goto [1075,1079]"/>
+  <match src="field_expression [2126,2145]" dest="field_expression [2126,2145]"/>
+  <match src="unary_expression [2723,2729]" dest="unary_expression [2723,2729]"/>
+  <match src="identifier: npages [1493,1499]" dest="identifier: npages [1493,1499]"/>
+  <match src="identifier: new [3889,3892]" dest="identifier: new [3936,3939]"/>
+  <match src="=: = [1918,1919]" dest="=: = [1918,1919]"/>
+  <match src="statement_identifier: out [492,495]" dest="statement_identifier: out [492,495]"/>
+  <match src="type_descriptor [679,692]" dest="type_descriptor [679,692]"/>
+  <match src="field_identifier: slot [1182,1186]" dest="field_identifier: slot [1182,1186]"/>
+  <match src="expression_statement [1406,1418]" dest="expression_statement [1406,1418]"/>
+  <match src="comment: /* actual memory is freed via old in kvm_free_physmem_slot below */ [3705,3772]" dest="comment: /* actual memory is freed via old in kvm_free_physmem_slot below */ [3752,3819]"/>
+  <match src="(: ( [1860,1861]" dest="(: ( [1860,1861]"/>
+  <match src="goto_statement [2295,2309]" dest="goto_statement [2295,2309]"/>
+  <match src="parenthesized_expression [1624,1673]" dest="parenthesized_expression [1624,1673]"/>
+  <match src=".: . [1461,1462]" dest=".: . [1461,1462]"/>
+  <match src="type_identifier: __user [669,675]" dest="type_identifier: __user [669,675]"/>
+  <match src="*: * [1156,1157]" dest="*: * [1156,1157]"/>
+  <match src="(: ( [327,328]" dest="(: ( [327,328]"/>
+  <match src="identifier: r [123,124]" dest="identifier: r [123,124]"/>
+  <match src="(: ( [1694,1695]" dest="(: ( [1694,1695]"/>
+  <match src=".: . [2259,2260]" dest=".: . [2259,2260]"/>
+  <match src="field_identifier: memslots [3613,3621]" dest="field_identifier: memslots [3533,3541]"/>
+  <match src="field_identifier: dirty_bitmap [1905,1917]" dest="field_identifier: dirty_bitmap [1905,1917]"/>
+  <match src="struct_specifier [167,189]" dest="struct_specifier [167,189]"/>
+  <match src="identifier: slots [2772,2777]" dest="identifier: slots [2772,2777]"/>
+  <match src="&amp;=: &amp;= [1113,1115]" dest="&amp;=: &amp;= [1113,1115]"/>
+  <match src="expression_statement [3820,3859]" dest="expression_statement [3867,3906]"/>
+  <match src="null [1920,1924]" dest="null [1920,1924]"/>
+  <match src=";: ; [2747,2748]" dest=";: ; [2747,2748]"/>
+  <match src="assignment_expression [2280,2291]" dest="assignment_expression [2280,2291]"/>
+  <match src="field_identifier: npages [1438,1444]" dest="field_identifier: npages [1438,1444]"/>
+  <match src="identifier: r [4207,4208]" dest="identifier: r [4280,4281]"/>
+  <match src="(: ( [2362,2363]" dest="(: ( [2362,2363]"/>
+  <match src=";: ; [4208,4209]" dest=";: ; [4281,4282]"/>
+  <match src="if_statement [3506,3530]" dest="if_statement [3720,3745]"/>
+  <match src="NULL: NULL [1920,1924]" dest="NULL: NULL [1920,1924]"/>
+  <match src=".: . [2408,2409]" dest=".: . [2408,2409]"/>
+  <match src="if: if [799,801]" dest="if: if [799,801]"/>
+  <match src=";: ; [2789,2790]" dest=";: ; [2789,2790]"/>
+  <match src="goto: goto [1793,1797]" dest="goto: goto [1793,1797]"/>
+  <match src="identifier: old [4052,4055]" dest="identifier: old [4099,4102]"/>
+  <match src="=: = [1175,1176]" dest="=: = [1175,1176]"/>
+  <match src=";: ; [1212,1213]" dest=";: ; [1212,1213]"/>
+  <match src="parenthesized_expression [411,426]" dest="parenthesized_expression [411,426]"/>
+  <match src="assignment_expression [981,1020]" dest="assignment_expression [981,1020]"/>
+  <match src="(: ( [2771,2772]" dest="(: ( [2771,2772]"/>
+  <match src="parenthesized_expression [609,624]" dest="parenthesized_expression [609,624]"/>
+  <match src="-&gt;: -&gt; [1721,1723]" dest="-&gt;: -&gt; [1721,1723]"/>
+  <match src="=: = [3470,3471]" dest="=: = [3684,3685]"/>
+  <match src="field_identifier: guest_phys_addr [450,465]" dest="field_identifier: guest_phys_addr [450,465]"/>
+  <match src="&gt;=: &gt;= [764,766]" dest="&gt;=: &gt;= [764,766]"/>
+  <match src="parameter_declaration [52,91]" dest="parameter_declaration [52,91]"/>
+  <match src="=: = [289,290]" dest="=: = [289,290]"/>
+  <match src="binary_expression [803,842]" dest="binary_expression [803,842]"/>
+  <match src="return: return [4200,4206]" dest="return: return [4273,4279]"/>
+  <match src="(: ( [663,664]" dest="(: ( [663,664]"/>
+  <match src="assignment_expression [345,356]" dest="assignment_expression [345,356]"/>
+  <match src="-: - [2284,2285]" dest="-: - [2284,2285]"/>
+  <match src="identifier: r [1406,1407]" dest="identifier: r [1406,1407]"/>
+  <match src="field_expression [2058,2068]" dest="field_expression [2058,2068]"/>
+  <match src="statement_identifier: out_free [3691,3699]" dest="statement_identifier: out_free [3611,3619]"/>
+  <match src="identifier: slot [1596,1600]" dest="identifier: slot [1596,1600]"/>
+  <match src="(: ( [2677,2678]" dest="(: ( [2677,2678]"/>
+  <match src="identifier: kvm_arch_commit_memory_region [4012,4041]" dest="identifier: kvm_arch_commit_memory_region [4059,4088]"/>
+  <match src="identifier: mem [990,993]" dest="identifier: mem [990,993]"/>
+  <match src=",: , [4050,4051]" dest=",: , [4097,4098]"/>
+  <match src="(: ( [3847,3848]" dest="(: ( [3894,3895]"/>
+  <match src="field_expression [3828,3836]" dest="field_expression [3875,3883]"/>
+  <match src="=: = [2879,2880]" dest="=: = [2879,2880]"/>
+  <match src="long: long [688,692]" dest="long: long [688,692]"/>
+  <match src="number_literal: 1 [622,623]" dest="number_literal: 1 [622,623]"/>
+  <match src="-&gt;: -&gt; [720,722]" dest="-&gt;: -&gt; [720,722]"/>
+  <match src="identifier: EINVAL [1029,1035]" dest="identifier: EINVAL [1029,1035]"/>
+  <match src="field_identifier: id [1631,1633]" dest="field_identifier: id [1631,1633]"/>
+  <match src="goto_statement [333,342]" dest="goto_statement [333,342]"/>
+  <match src="expression_statement [345,357]" dest="expression_statement [345,357]"/>
+  <match src="field_expression [1189,1201]" dest="field_expression [1189,1201]"/>
+  <match src="parenthesized_expression [3674,3682]" dest="parenthesized_expression [3594,3602]"/>
+  <match src="unary_expression [349,356]" dest="unary_expression [349,356]"/>
+  <match src="cast_expression [663,712]" dest="cast_expression [663,712]"/>
+  <match src="(: ( [3455,3456]" dest="(: ( [3669,3670]"/>
+  <match src="call_expression [3541,3573]" dest="call_expression [3041,3073]"/>
+  <match src="unary_expression [635,734]" dest="unary_expression [635,734]"/>
+  <match src="identifier: r [3577,3578]" dest="identifier: r [3497,3498]"/>
+  <match src="goto_statement [1518,1532]" dest="goto_statement [1518,1532]"/>
+  <match src="identifier: memslot [191,198]" dest="identifier: memslot [191,198]"/>
+  <match src="declaration [127,142]" dest="declaration [127,142]"/>
+  <match src="identifier: npages [1424,1430]" dest="identifier: npages [1424,1430]"/>
+  <match src="&lt;: &lt; [843,844]" dest="&lt;: &lt; [843,844]"/>
+  <match src="-&gt;: -&gt; [1778,1780]" dest="-&gt;: -&gt; [1778,1780]"/>
+  <match src="goto_statement [869,878]" dest="goto_statement [869,878]"/>
+  <match src="identifier: npages [1042,1048]" dest="identifier: npages [1042,1048]"/>
+  <match src="unary_expression [1091,1098]" dest="unary_expression [1091,1098]"/>
+  <match src=",: , [2669,2670]" dest=",: , [2669,2670]"/>
+  <match src="goto: goto [739,743]" dest="goto: goto [739,743]"/>
+  <match src=";: ; [3699,3700]" dest=";: ; [3619,3620]"/>
+  <match src="identifier: r [3381,3382]" dest="identifier: r [3472,3473]"/>
+  <match src=";: ; [2636,2637]" dest=";: ; [2636,2637]"/>
+  <match src="statement_identifier: out_free [4146,4154]" dest="statement_identifier: out_free [4219,4227]"/>
+  <match src="*: * [200,201]" dest="*: * [200,201]"/>
+  <match src="-&gt;: -&gt; [1761,1763]" dest="-&gt;: -&gt; [1761,1763]"/>
+  <match src="(: ( [2722,2723]" dest="(: ( [2722,2723]"/>
+  <match src="identifier: EEXIST [1566,1572]" dest="identifier: EEXIST [1566,1572]"/>
+  <match src="}: } [2212,2213]" dest="}: } [2212,2213]"/>
+  <match src="goto_statement [2734,2748]" dest="goto_statement [2734,2748]"/>
+  <match src=";: ; [3816,3817]" dest=";: ; [3863,3864]"/>
+  <match src="&amp;&amp;: &amp;&amp; [1500,1502]" dest="&amp;&amp;: &amp;&amp; [1500,1502]"/>
+  <match src="labeled_statement [4146,4192]" dest="labeled_statement [4219,4265]"/>
+  <match src="return_statement [4133,4142]" dest="return_statement [4180,4189]"/>
+  <match src="field_expression [693,712]" dest="field_expression [693,712]"/>
+  <match src="identifier: old [4095,4098]" dest="identifier: old [4142,4145]"/>
+  <match src=";: ; [1531,1532]" dest=";: ; [1531,1532]"/>
+  <match src="identifier: kmemdup [3600,3607]" dest="identifier: kmemdup [3520,3527]"/>
+  <match src="type_identifier: kvm_memslots [3637,3649]" dest="type_identifier: kvm_memslots [3557,3569]"/>
+  <match src="identifier: new [2105,2108]" dest="identifier: new [2105,2108]"/>
+  <match src="expression_statement [2899,2940]" dest="expression_statement [2899,2940]"/>
+  <match src="): ) [784,785]" dest="): ) [784,785]"/>
+  <match src="=: = [3810,3811]" dest="=: = [3857,3858]"/>
+  <match src="}: } [2311,2312]" dest="}: } [2311,2312]"/>
+  <match src="identifier: kvm_arch_flush_shadow_memslot [3236,3265]" dest="identifier: kvm_arch_flush_shadow_memslot [3327,3356]"/>
+  <match src="field_expression [3848,3856]" dest="field_expression [3895,3903]"/>
+  <match src="struct: struct [167,173]" dest="struct: struct [167,173]"/>
+  <match src="pointer_declarator [200,205]" dest="pointer_declarator [200,205]"/>
+  <match src="identifier: kvm [4042,4045]" dest="identifier: kvm [4089,4092]"/>
+  <match src="identifier: user_alloc [104,114]" dest="identifier: user_alloc [104,114]"/>
+  <match src="=: = [1202,1203]" dest="=: = [1202,1203]"/>
+  <match src="if_statement [1420,1486]" dest="if_statement [1420,1486]"/>
+  <match src="=: = [3308,3309]" dest="=: = [3399,3400]"/>
+  <match src=",: , [3836,3837]" dest=",: , [3883,3884]"/>
+  <match src="&amp;: &amp; [4186,4187]" dest="&amp;: &amp; [4259,4260]"/>
+  <match src="declaration [2592,2621]" dest="declaration [2592,2621]"/>
+  <match src="(: ( [2970,2971]" dest="(: ( [2970,2971]"/>
+  <match src="identifier: r [1024,1025]" dest="identifier: r [1024,1025]"/>
+  <match src="binary_expression [1745,1786]" dest="binary_expression [1745,1786]"/>
+  <match src="if: if [2359,2361]" dest="if: if [2359,2361]"/>
+  <match src="call_expression [4012,4068]" dest="call_expression [4059,4115]"/>
+  <match src="-&gt;: -&gt; [590,592]" dest="-&gt;: -&gt; [590,592]"/>
+  <match src="expression_statement [2074,2102]" dest="expression_statement [2074,2102]"/>
+  <match src="identifier: kvm [3341,3344]" dest="identifier: kvm [3432,3435]"/>
+  <match src="field_identifier: memslots [3951,3959]" dest="field_identifier: memslots [3998,4006]"/>
+  <match src="&gt;=: &gt;= [1634,1636]" dest="&gt;=: &gt;= [1634,1636]"/>
+  <match src=",: , [1600,1601]" dest=",: , [1600,1601]"/>
+  <match src=";: ; [2939,2940]" dest=";: ; [2939,2940]"/>
+  <match src="field_identifier: flags [1865,1870]" dest="field_identifier: flags [1865,1870]"/>
+  <match src="expression_statement [1901,1925]" dest="expression_statement [1901,1925]"/>
+  <match src="-: - [1565,1566]" dest="-: - [1565,1566]"/>
+  <match src="assignment_expression [287,321]" dest="assignment_expression [287,321]"/>
+  <match src="expression_statement [3541,3574]" dest="expression_statement [3041,3074]"/>
+  <match src="field_expression [1168,1174]" dest="field_expression [1168,1174]"/>
+  <match src="): ) [1731,1732]" dest="): ) [1731,1732]"/>
+  <match src="field_identifier: dirty_bitmap [2409,2421]" dest="field_identifier: dirty_bitmap [2409,2421]"/>
+  <match src="(: ( [3562,3563]" dest="(: ( [3062,3063]"/>
+  <match src=";: ; [4141,4142]" dest=";: ; [4188,4189]"/>
+  <match src="=: = [1026,1027]" dest="=: = [1026,1027]"/>
+  <match src="-&gt;: -&gt; [2236,2238]" dest="-&gt;: -&gt; [2236,2238]"/>
+  <match src="field_identifier: slot [925,929]" dest="field_identifier: slot [925,929]"/>
+  <match src="binary_expression [944,978]" dest="binary_expression [944,978]"/>
+  <match src=";: ; [1140,1141]" dest=";: ; [1140,1141]"/>
+  <match src="expression_statement [4108,4128]" dest="expression_statement [4155,4175]"/>
+  <match src="&amp;: &amp; [3827,3828]" dest="&amp;: &amp; [3874,3875]"/>
+  <match src="!=: != [2571,2573]" dest="!=: != [2571,2573]"/>
+  <match src="-&gt;: -&gt; [806,808]" dest="-&gt;: -&gt; [806,808]"/>
+  <match src="): ) [2191,2192]" dest="): ) [2191,2192]"/>
+  <match src="*: * [270,271]" dest="*: * [270,271]"/>
+  <match src="*: * [2615,2616]" dest="*: * [2615,2616]"/>
+  <match src="call_expression [636,734]" dest="call_expression [636,734]"/>
+  <match src="long: long [153,157]" dest="long: long [153,157]"/>
+  <match src=".: . [3831,3832]" dest=".: . [3878,3879]"/>
+  <match src=";: ; [2715,2716]" dest=";: ; [2715,2716]"/>
+  <match src="): ) [320,321]" dest="): ) [320,321]"/>
+  <match src="identifier: access_ok [636,645]" dest="identifier: access_ok [636,645]"/>
+  <match src="unary_expression [3675,3681]" dest="unary_expression [3595,3601]"/>
+  <match src="assignment_expression [1189,1212]" dest="assignment_expression [1189,1212]"/>
+  <match src="): ) [2459,2460]" dest="): ) [2459,2460]"/>
+  <match src=";: ; [4191,4192]" dest=";: ; [4264,4265]"/>
+  <match src=";: ; [3858,3859]" dest=";: ; [3905,3906]"/>
+  <match src="identifier: new [4101,4104]" dest="identifier: new [4148,4151]"/>
+  <match src="): ) [3649,3650]" dest="): ) [3569,3570]"/>
+  <match src="identifier: r [1928,1929]" dest="identifier: r [1928,1929]"/>
+  <match src="assignment_expression [2793,2827]" dest="assignment_expression [2793,2827]"/>
+  <match src="parenthesized_expression [1090,1099]" dest="parenthesized_expression [1090,1099]"/>
+  <match src="identifier: EINVAL [2285,2291]" dest="identifier: EINVAL [2285,2291]"/>
+  <match src="call_expression [291,321]" dest="call_expression [291,321]"/>
+  <match src="if_statement [2719,2748]" dest="if_statement [2719,2748]"/>
+  <match src="(: ( [3340,3341]" dest="(: ( [3431,3432]"/>
+  <match src="binary_expression [587,624]" dest="binary_expression [587,624]"/>
+  <match src="field_identifier: slot [2784,2788]" dest="field_identifier: slot [2784,2788]"/>
+  <match src="NULL: NULL [3812,3816]" dest="NULL: NULL [3859,3863]"/>
+  <match src="unary_expression [2629,2636]" dest="unary_expression [2629,2636]"/>
+  <match src="struct: struct [2592,2598]" dest="struct: struct [2592,2598]"/>
+  <match src="identifier: npages [981,987]" dest="identifier: npages [981,987]"/>
+  <match src="declaration [119,125]" dest="declaration [119,125]"/>
+  <match src="field_identifier: flags [1254,1259]" dest="field_identifier: flags [1254,1259]"/>
+  <match src=";: ; [164,165]" dest=";: ; [164,165]"/>
+  <match src="identifier: npages [1707,1713]" dest="identifier: npages [1707,1713]"/>
+  <match src="identifier: base_gfn [933,941]" dest="identifier: base_gfn [933,941]"/>
+  <match src=".: . [2577,2578]" dest=".: . [2577,2578]"/>
+  <match src="assignment_expression [1406,1417]" dest="assignment_expression [1406,1417]"/>
+  <match src="identifier: id_to_memslot [891,904]" dest="identifier: id_to_memslot [891,904]"/>
+  <match src="field_expression [1102,1112]" dest="field_expression [1102,1112]"/>
+  <match src=".: . [1507,1508]" dest=".: . [1507,1508]"/>
+  <match src="): ) [4126,4127]" dest="): ) [4173,4174]"/>
+  <match src="(: ( [3509,3510]" dest="(: ( [3723,3724]"/>
+  <match src="field_identifier: memslots [3916,3924]" dest="field_identifier: memslots [3963,3971]"/>
+  <match src="parenthesized_expression [1744,1787]" dest="parenthesized_expression [1744,1787]"/>
+  <match src="identifier: old [1150,1153]" dest="identifier: old [1150,1153]"/>
+  <match src="parameter_list [27,115]" dest="parameter_list [27,115]"/>
+  <match src="-&gt;: -&gt; [2884,2886]" dest="-&gt;: -&gt; [2884,2886]"/>
+  <match src=",: , [3355,3356]" dest=",: , [3446,3447]"/>
+  <match src="expression_statement [933,979]" dest="expression_statement [933,979]"/>
+  <match src="identifier: rcu_assign_pointer [2899,2917]" dest="identifier: rcu_assign_pointer [2899,2917]"/>
+  <match src="binary_expression [412,425]" dest="binary_expression [412,425]"/>
+  <match src="&amp;: &amp; [3888,3889]" dest="&amp;: &amp; [3935,3936]"/>
+  <match src="identifier: mem [803,806]" dest="identifier: mem [803,806]"/>
+  <match src=";: ; [3529,3530]" dest=";: ; [3744,3745]"/>
+  <match src="if_statement [1087,1141]" dest="if_statement [1087,1141]"/>
+  <match src="identifier: new [4181,4184]" dest="identifier: new [4254,4257]"/>
+  <match src="-&gt;: -&gt; [3914,3916]" dest="-&gt;: -&gt; [3961,3963]"/>
+  <match src="assignment_expression [3306,3373]" dest="assignment_expression [3397,3464]"/>
+  <match src="-&gt;: -&gt; [3949,3951]" dest="-&gt;: -&gt; [3996,3998]"/>
+  <match src="identifier: r [2625,2626]" dest="identifier: r [2625,2626]"/>
+  <match src="parenthesized_expression [1423,1469]" dest="parenthesized_expression [1423,1469]"/>
+  <match src="!=: != [1455,1457]" dest="!=: != [1455,1457]"/>
+  <match src=",: , [43,44]" dest=",: , [43,44]"/>
+  <match src="): ) [3572,3573]" dest="): ) [3072,3073]"/>
+  <match src="parenthesized_expression [3847,3857]" dest="parenthesized_expression [3894,3904]"/>
+  <match src="=: = [2646,2647]" dest="=: = [2646,2647]"/>
+  <match src="&gt;=: &gt;= [1754,1756]" dest="&gt;=: &gt;= [1754,1756]"/>
+  <match src="(: ( [1858,1859]" dest="(: ( [1858,1859]"/>
+  <match src="identifier: base_gfn [1204,1212]" dest="identifier: base_gfn [1204,1212]"/>
+  <match src=";: ; [1485,1486]" dest=";: ; [1485,1486]"/>
+  <match src="sizeof: sizeof [2671,2677]" dest="sizeof: sizeof [2671,2677]"/>
+  <match src="): ) [865,866]" dest="): ) [865,866]"/>
+  <match src="||: || [626,628]" dest="||: || [626,628]"/>
+  <match src="identifier: kvm_free_physmem_slot [4072,4093]" dest="identifier: kvm_free_physmem_slot [4119,4140]"/>
+  <match src="(: ( [4041,4042]" dest="(: ( [4088,4089]"/>
+  <match src="identifier: new [1168,1171]" dest="identifier: new [1168,1171]"/>
+  <match src="call_expression [891,930]" dest="call_expression [891,930]"/>
+  <match src="unary_expression [3779,3786]" dest="unary_expression [3826,3833]"/>
+  <match src="identifier: mem [845,848]" dest="identifier: mem [845,848]"/>
+  <match src="!: ! [1091,1092]" dest="!: ! [1091,1092]"/>
+  <match src=",: , [3886,3887]" dest=",: , [3933,3934]"/>
+  <match src="type_identifier: kvm_memslots [249,261]" dest="type_identifier: kvm_memslots [249,261]"/>
+  <match src=";: ; [1035,1036]" dest=";: ; [1035,1036]"/>
+  <match src="parenthesized_expression [565,736]" dest="parenthesized_expression [565,736]"/>
+  <match src="-: - [422,423]" dest="-: - [422,423]"/>
+  <match src="binary_expression [610,623]" dest="binary_expression [610,623]"/>
+  <match src="+: + [1772,1773]" dest="+: + [1772,1773]"/>
+  <match src="identifier: new [3848,3851]" dest="identifier: new [3895,3898]"/>
+  <match src="pointer_expression [2971,2981]" dest="pointer_expression [2971,2981]"/>
+  <match src="}: } [3302,3303]" dest="}: } [3393,3394]"/>
+  <match src="(: ( [2056,2057]" dest="(: ( [2056,2057]"/>
+  <match src="(: ( [3380,3381]" dest="(: ( [3471,3472]"/>
+  <match src="field_identifier: guest_phys_addr [808,823]" dest="field_identifier: guest_phys_addr [808,823]"/>
+  <match src="=: = [942,943]" dest="=: = [942,943]"/>
+  <match src="field_expression [990,1006]" dest="field_expression [990,1006]"/>
+  <match src="field_identifier: user_alloc [2078,2088]" dest="field_identifier: user_alloc [2078,2088]"/>
+  <match src="field_expression [1458,1468]" dest="field_expression [1458,1468]"/>
+  <match src="{: { [2588,2589]" dest="{: { [2588,2589]"/>
+  <match src="&amp;: &amp; [409,410]" dest="&amp;: &amp; [409,410]"/>
+  <match src=";: ; [124,125]" dest=";: ; [124,125]"/>
+  <match src="identifier: slots [2933,2938]" dest="identifier: slots [2933,2938]"/>
+  <match src="): ) [2399,2400]" dest="): ) [2399,2400]"/>
+  <match src="field_expression [2364,2373]" dest="field_expression [2364,2373]"/>
+  <match src="): ) [3298,3299]" dest="): ) [3389,3390]"/>
+  <match src="if: if [2219,2221]" dest="if: if [2219,2221]"/>
+  <match src="compound_statement [116,4212]" dest="compound_statement [116,4285]"/>
+  <match src="field_identifier: memory_size [722,733]" dest="field_identifier: memory_size [722,733]"/>
+  <match src="identifier: ENOMEM [3582,3588]" dest="identifier: ENOMEM [3502,3508]"/>
+  <match src="struct_specifier [3630,3649]" dest="struct_specifier [3550,3569]"/>
+  <match src="if: if [1621,1623]" dest="if: if [1621,1623]"/>
+  <match src="parameter_declaration [28,43]" dest="parameter_declaration [28,43]"/>
+  <match src="): ) [1897,1898]" dest="): ) [1897,1898]"/>
+  <match src="compound_statement [2276,2312]" dest="compound_statement [2276,2312]"/>
+  <match src="binary_expression [586,734]" dest="binary_expression [586,734]"/>
+  <match src="+: + [824,825]" dest="+: + [824,825]"/>
+  <match src=";: ; [3924,3925]" dest=";: ; [3971,3972]"/>
+  <match src=";: ; [930,931]" dest=";: ; [930,931]"/>
+  <match src="argument_list [3340,3373]" dest="argument_list [3431,3464]"/>
+  <match src="identifier: synchronize_srcu_expedited [2944,2970]" dest="identifier: synchronize_srcu_expedited [2944,2970]"/>
+  <match src="field_expression [1249,1259]" dest="field_expression [1249,1259]"/>
+  <match src="identifier: npages [3780,3786]" dest="identifier: npages [3827,3833]"/>
+  <match src="call_expression [1575,1616]" dest="call_expression [1575,1616]"/>
+  <match src="identifier: old_memslots [3286,3298]" dest="identifier: old_memslots [3377,3389]"/>
+  <match src="pointer_declarator [87,91]" dest="pointer_declarator [87,91]"/>
+  <match src="pointer_expression [1156,1164]" dest="pointer_expression [1156,1164]"/>
+  <match src="expression_statement [2625,2637]" dest="expression_statement [2625,2637]"/>
+  <match src="binary_expression [445,483]" dest="binary_expression [445,483]"/>
+  <match src="&amp;: &amp; [466,467]" dest="&amp;: &amp; [466,467]"/>
+  <match src="expression_statement [2640,2716]" dest="expression_statement [2640,2716]"/>
+  <match src="!: ! [2551,2552]" dest="!: ! [2551,2552]"/>
+  <match src="identifier: old [1458,1461]" dest="identifier: old [1458,1461]"/>
+  <match src="identifier: kvm [1602,1605]" dest="identifier: kvm [1602,1605]"/>
+  <match src="expression_statement [3927,3968]" dest="expression_statement [3974,4015]"/>
+  <match src="identifier: npages [3456,3462]" dest="identifier: npages [3670,3676]"/>
+  <match src="assignment_expression [2866,2894]" dest="assignment_expression [2866,2894]"/>
+  <match src="): ) [1787,1788]" dest="): ) [1787,1788]"/>
+  <match src="expression_statement [2280,2292]" dest="expression_statement [2280,2292]"/>
+  <match src="compound_statement [1617,1810]" dest="compound_statement [1617,1810]"/>
+  <match src="identifier: kvm [3998,4001]" dest="identifier: kvm [4045,4048]"/>
+  <match src="*: * [676,677]" dest="*: * [676,677]"/>
+  <match src="): ) [2586,2587]" dest="): ) [2586,2587]"/>
+  <match src="type_identifier: kvm_memory_slot [2599,2614]" dest="type_identifier: kvm_memory_slot [2599,2614]"/>
+  <match src="identifier: EINVAL [350,356]" dest="identifier: EINVAL [350,356]"/>
+  <match src="!: ! [1859,1860]" dest="!: ! [1859,1860]"/>
+  <match src="expression_statement [1928,1940]" dest="expression_statement [1928,1940]"/>
+  <match src="assignment_expression [2625,2636]" dest="assignment_expression [2625,2636]"/>
+  <match src="NULL: NULL [2855,2859]" dest="NULL: NULL [2855,2859]"/>
+  <match src="field_identifier: arch [3832,3836]" dest="field_identifier: arch [3879,3883]"/>
+  <match src="-&gt;: -&gt; [1629,1631]" dest="-&gt;: -&gt; [1629,1631]"/>
+  <match src="field_expression [392,408]" dest="field_expression [392,408]"/>
+  <match src="statement_identifier: out [1080,1083]" dest="statement_identifier: out [1080,1083]"/>
+  <match src="): ) [3511,3512]" dest="): ) [3725,3726]"/>
+  <match src="field_expression [587,606]" dest="field_expression [587,606]"/>
+  <match src="{: { [3464,3465]" dest="{: { [3678,3679]"/>
+  <match src="&lt;=: &lt;= [1714,1716]" dest="&lt;=: &lt;= [1714,1716]"/>
+  <match src="if: if [3775,3777]" dest="if: if [3822,3824]"/>
+  <match src="identifier: base_gfn [2562,2570]" dest="identifier: base_gfn [2562,2570]"/>
+  <match src="identifier: mem [445,448]" dest="identifier: mem [445,448]"/>
+  <match src="binary_expression [1861,1896]" dest="binary_expression [1861,1896]"/>
+  <match src="sized_type_specifier [144,157]" dest="sized_type_specifier [144,157]"/>
+  <match src="unary_expression [2284,2291]" dest="unary_expression [2284,2291]"/>
+  <match src="field_identifier: npages [2062,2068]" dest="field_identifier: npages [2062,2068]"/>
+  <match src="identifier: new [3793,3796]" dest="identifier: new [3840,3843]"/>
+  <match src="field_identifier: npages [1219,1225]" dest="field_identifier: npages [1219,1225]"/>
+  <match src="goto_statement [1075,1084]" dest="goto_statement [1075,1084]"/>
+  <match src="expression_statement [981,1021]" dest="expression_statement [981,1021]"/>
+  <match src="identifier: kvm [3608,3611]" dest="identifier: kvm [3528,3531]"/>
+  <match src="assignment_expression [3577,3588]" dest="assignment_expression [3497,3508]"/>
+  <match src="pointer_expression [4180,4184]" dest="pointer_expression [4253,4257]"/>
+  <match src="binary_expression [2364,2399]" dest="binary_expression [2364,2399]"/>
+  <match src="field_expression [1774,1786]" dest="field_expression [1774,1786]"/>
+  <match src="pointer_declarator [190,198]" dest="pointer_declarator [190,198]"/>
+  <match src=";: ; [356,357]" dest=";: ; [356,357]"/>
+  <match src="expression_statement [4072,4106]" dest="expression_statement [4119,4153]"/>
+  <match src="expression_statement [2866,2895]" dest="expression_statement [2866,2895]"/>
+  <match src="identifier: kvm [2881,2884]" dest="identifier: kvm [2881,2884]"/>
+  <match src="field_expression [920,929]" dest="field_expression [920,929]"/>
+  <match src="identifier: old [2256,2259]" dest="identifier: old [2256,2259]"/>
+  <match src="=: = [2282,2283]" dest="=: = [2282,2283]"/>
+  <match src="goto_statement [1793,1807]" dest="goto_statement [1793,1807]"/>
+  <match src="): ) [3857,3858]" dest="): ) [3904,3905]"/>
+  <match src="identifier: kvm [3266,3269]" dest="identifier: kvm [3357,3360]"/>
+  <match src="&amp;: &amp; [3568,3569]" dest="&amp;: &amp; [3068,3069]"/>
+  <match src="field_expression [1177,1186]" dest="field_expression [1177,1186]"/>
+  <match src="field_identifier: memory_size [397,408]" dest="field_identifier: memory_size [397,408]"/>
+  <match src="assignment_expression [1144,1164]" dest="assignment_expression [1144,1164]"/>
+  <match src=";: ; [3400,3401]" dest=";: ; [3491,3492]"/>
+  <match src=":: : [4197,4198]" dest=":: : [4270,4271]"/>
+  <match src=";: ; [3967,3968]" dest=";: ; [4014,4015]"/>
+  <match src="field_expression [2972,2981]" dest="field_expression [2972,2981]"/>
+  <match src=";: ; [3573,3574]" dest=";: ; [3073,3074]"/>
+  <match src="identifier: mem [317,320]" dest="identifier: mem [317,320]"/>
+  <match src="field_expression [803,823]" dest="field_expression [803,823]"/>
+  <match src="identifier: new [1237,1240]" dest="identifier: new [1237,1240]"/>
+  <match src="assignment_expression [1215,1234]" dest="assignment_expression [1215,1234]"/>
+  <match src="identifier: memslot [1665,1672]" dest="identifier: memslot [1665,1672]"/>
+  <match src="&amp;: &amp; [2374,2375]" dest="&amp;: &amp; [2374,2375]"/>
+  <match src="-: - [479,480]" dest="-: - [479,480]"/>
+  <match src="call_expression [3236,3276]" dest="call_expression [3327,3367]"/>
+  <match src="goto_statement [739,748]" dest="goto_statement [739,748]"/>
+  <match src="~: ~ [1116,1117]" dest="~: ~ [1116,1117]"/>
+  <match src="-&gt;: -&gt; [1605,1607]" dest="-&gt;: -&gt; [1605,1607]"/>
+  <match src="identifier: new [2074,2077]" dest="identifier: new [2074,2077]"/>
+  <match src="expression_statement [3468,3503]" dest="expression_statement [3682,3717]"/>
+  <match src="=: = [1226,1227]" dest="=: = [1226,1227]"/>
+  <match src="(: ( [645,646]" dest="(: ( [645,646]"/>
+  <match src="; [1616,1616]" dest="; [1616,1616]"/>
+  <match src=";: ; [2860,2861]" dest=";: ; [2860,2861]"/>
+  <match src="identifier: r [2280,2281]" dest="identifier: r [2280,2281]"/>
+  <match src="identifier: slot [1774,1778]" dest="identifier: slot [1774,1778]"/>
+  <match src="field_expression [1717,1731]" dest="field_expression [1717,1731]"/>
+  <match src="(: ( [4093,4094]" dest="(: ( [4140,4141]"/>
+  <match src="identifier: kvm [2972,2975]" dest="identifier: kvm [2972,2975]"/>
+  <match src="&amp;&amp;: &amp;&amp; [577,579]" dest="&amp;&amp;: &amp;&amp; [577,579]"/>
+  <match src="identifier: __kvm_set_memory_region [4,27]" dest="identifier: __kvm_set_memory_region [4,27]"/>
+  <match src="identifier: PAGE_SIZE [412,421]" dest="identifier: PAGE_SIZE [412,421]"/>
+  <match src="(: ( [3629,3630]" dest="(: ( [3549,3550]"/>
+  <match src="{: { [3788,3789]" dest="{: { [3835,3836]"/>
+  <match src="*: * [39,40]" dest="*: * [39,40]"/>
+  <match src="goto_statement [3516,3530]" dest="goto_statement [3730,3745]"/>
+  <match src="binary_expression [1042,1071]" dest="binary_expression [1042,1071]"/>
+  <match src="struct_specifier [52,86]" dest="struct_specifier [52,86]"/>
+  <match src="call_expression [2648,2715]" dest="call_expression [2648,2715]"/>
+  <match src="pointer_expression [4186,4190]" dest="pointer_expression [4259,4263]"/>
+  <match src="identifier: slot [3271,3275]" dest="identifier: slot [3362,3366]"/>
+  <match src=";: ; [877,878]" dest=";: ; [877,878]"/>
+  <match src="(: ( [2847,2848]" dest="(: ( [2847,2848]"/>
+  <match src="identifier: user_alloc [3362,3372]" dest="identifier: user_alloc [3453,3463]"/>
+  <match src="pointer_expression [2178,2182]" dest="pointer_expression [2178,2182]"/>
+  <match src="}: } [4211,4212]" dest="}: } [4284,4285]"/>
+  <match src=";: ; [4068,4069]" dest=";: ; [4115,4116]"/>
+  <match src="field_identifier: dirty_bitmap [3797,3809]" dest="field_identifier: dirty_bitmap [3844,3856]"/>
+  <match src="field_expression [826,842]" dest="field_expression [826,842]"/>
+  <match src="=: = [988,989]" dest="=: = [988,989]"/>
+  <match src="identifier: slot [2751,2755]" dest="identifier: slot [2751,2755]"/>
+  <match src="&amp;: &amp; [607,608]" dest="&amp;: &amp; [607,608]"/>
+  <match src=";: ; [978,979]" dest=";: ; [978,979]"/>
+  <match src="): ) [692,693]" dest="): ) [692,693]"/>
+  <match src="goto_statement [3686,3700]" dest="goto_statement [3606,3620]"/>
+  <match src="sizeof: sizeof [3841,3847]" dest="sizeof: sizeof [3888,3894]"/>
+  <match src="field_expression [2793,2804]" dest="field_expression [2793,2804]"/>
+  <match src="unsigned: unsigned [679,687]" dest="unsigned: unsigned [679,687]"/>
+  <match src="call_expression [4072,4105]" dest="call_expression [4119,4152]"/>
+  <match src="identifier: kvm [2918,2921]" dest="identifier: kvm [2918,2921]"/>
+  <match src="-: - [1028,1029]" dest="-: - [1028,1029]"/>
+  <match src="field_expression [944,964]" dest="field_expression [944,964]"/>
+  <match src="-&gt;: -&gt; [2659,2661]" dest="-&gt;: -&gt; [2659,2661]"/>
+  <match src="expression_statement [3896,3925]" dest="expression_statement [3943,3972]"/>
+  <match src="statement_identifier: out_free [2300,2308]" dest="statement_identifier: out_free [2300,2308]"/>
+  <match src="field_identifier: userspace_addr [2260,2274]" dest="field_identifier: userspace_addr [2260,2274]"/>
+  <match src="identifier: r [287,288]" dest="identifier: r [287,288]"/>
+  <match src="): ) [929,930]" dest="): ) [929,930]"/>
+  <match src="-&gt;: -&gt; [4001,4003]" dest="-&gt;: -&gt; [4048,4050]"/>
+  <match src="field_expression [2918,2931]" dest="field_expression [2918,2931]"/>
+  <match src=";: ; [2308,2309]" dest=";: ; [2308,2309]"/>
+  <match src=",: , [91,92]" dest=",: , [91,92]"/>
+  <match src="if: if [1038,1040]" dest="if: if [1038,1040]"/>
+  <match src=",: , [658,659]" dest=",: , [658,659]"/>
+  <match src=";: ; [796,797]" dest=";: ; [796,797]"/>
+  <match src="parenthesized_expression [802,866]" dest="parenthesized_expression [802,866]"/>
+  <match src="identifier: new [3828,3831]" dest="identifier: new [3875,3878]"/>
+  <match src="unary_expression [3581,3588]" dest="unary_expression [3501,3508]"/>
+  <match src="argument_list [4041,4068]" dest="argument_list [4088,4115]"/>
+  <match src="binary_expression [2363,2421]" dest="binary_expression [2363,2421]"/>
+  <match src="identifier: new [2364,2367]" dest="identifier: new [2364,2367]"/>
+  <match src="sizeof_expression [3623,3650]" dest="sizeof_expression [3543,3570]"/>
+  <match src="field_identifier: flags [2368,2373]" dest="field_identifier: flags [2368,2373]"/>
+  <match src="struct: struct [2678,2684]" dest="struct: struct [2678,2684]"/>
+  <match src=".: . [1218,1219]" dest=".: . [1218,1219]"/>
+  <match src=",: , [4045,4046]" dest=",: , [4092,4093]"/>
+  <match src=".: . [1192,1193]" dest=".: . [1192,1193]"/>
+  <match src="=: = [2756,2757]" dest="=: = [2756,2757]"/>
+  <match src="-: - [1932,1933]" dest="-: - [1932,1933]"/>
+  <match src="identifier: user_alloc [4057,4067]" dest="identifier: user_alloc [4104,4114]"/>
+  <match src="identifier: mem [2126,2129]" dest="identifier: mem [2126,2129]"/>
+  <match src="struct: struct [208,214]" dest="struct: struct [208,214]"/>
+  <match src="field_identifier: userspace_addr [592,606]" dest="field_identifier: userspace_addr [592,606]"/>
+  <match src="statement_identifier: out_free [2201,2209]" dest="statement_identifier: out_free [2201,2209]"/>
+  <match src="identifier: kvm_create_dirty_bitmap [2431,2454]" dest="identifier: kvm_create_dirty_bitmap [2431,2454]"/>
+  <match src="field_identifier: npages [1780,1786]" dest="field_identifier: npages [1780,1786]"/>
+  <match src=".: . [1904,1905]" dest=".: . [1904,1905]"/>
+  <match src="if: if [1488,1490]" dest="if: if [1488,1490]"/>
+  <match src="!: ! [1693,1694]" dest="!: ! [1693,1694]"/>
+  <match src="translation_unit [0,4212]" dest="translation_unit [0,4285]"/>
+  <match src="binary_expression [1448,1468]" dest="binary_expression [1448,1468]"/>
+  <match src=",: , [2182,2183]" dest=",: , [2182,2183]"/>
+  <match src="): ) [2697,2698]" dest="): ) [2697,2698]"/>
+  <match src="goto_statement [3387,3401]" dest="goto_statement [3478,3492]"/>
+  <match src=".: . [2367,2368]" dest=".: . [2367,2368]"/>
+  <match src="statement_identifier: out_free [1477,1485]" dest="statement_identifier: out_free [1477,1485]"/>
+  <match src=";: ; [1685,1686]" dest=";: ; [1685,1686]"/>
+  <match src="&amp;: &amp; [3497,3498]" dest="&amp;: &amp; [3711,3712]"/>
+  <match src="binary_expression [754,784]" dest="binary_expression [754,784]"/>
+  <match src="pointer_expression [3827,3836]" dest="pointer_expression [3874,3883]"/>
+  <match src="binary_expression [2551,2586]" dest="binary_expression [2551,2586]"/>
+  <match src="unary_expression [1028,1035]" dest="unary_expression [1028,1035]"/>
+  <match src="call_expression [3970,4008]" dest="call_expression [4017,4055]"/>
+  <match src="parenthesized_expression [444,484]" dest="parenthesized_expression [444,484]"/>
+  <match src="field_expression [2779,2788]" dest="field_expression [2779,2788]"/>
+  <match src="-: - [620,621]" dest="-: - [620,621]"/>
+  <match src="-&gt;: -&gt; [1105,1107]" dest="-&gt;: -&gt; [1105,1107]"/>
+  <match src="if_statement [799,878]" dest="if_statement [799,878]"/>
+  <match src="identifier: mem [392,395]" dest="identifier: mem [392,395]"/>
+  <match src="field_expression [445,465]" dest="field_expression [445,465]"/>
+  <match src="goto_statement [487,496]" dest="goto_statement [487,496]"/>
+  <match src="parenthesized_expression [2430,2465]" dest="parenthesized_expression [2430,2465]"/>
+  <match src="=: = [2627,2628]" dest="=: = [2627,2628]"/>
+  <match src="argument_list [3491,3502]" dest="argument_list [3705,3716]"/>
+  <match src="expression_statement [4012,4069]" dest="expression_statement [4059,4116]"/>
+  <match src="goto: goto [3516,3520]" dest="goto: goto [3730,3734]"/>
+  <match src="identifier: npages [1448,1454]" dest="identifier: npages [1448,1454]"/>
+  <match src="assignment_expression [1024,1035]" dest="assignment_expression [1024,1035]"/>
+  <match src="identifier: base_gfn [133,141]" dest="identifier: base_gfn [133,141]"/>
+  <match src="type_identifier: kvm_memory_slot [174,189]" dest="type_identifier: kvm_memory_slot [174,189]"/>
+  <match src="parenthesized_expression [468,483]" dest="parenthesized_expression [468,483]"/>
+  <match src="(: ( [753,754]" dest="(: ( [753,754]"/>
+  <match src="identifier: kmemdup [2648,2655]" dest="identifier: kmemdup [2648,2655]"/>
+  <match src="null [2855,2859]" dest="null [2855,2859]"/>
+  <match src="if_statement [2359,2544]" dest="if_statement [2359,2544]"/>
+  <match src="expression_statement [3306,3374]" dest="expression_statement [3397,3465]"/>
+  <match src="unary_expression [1116,1140]" dest="unary_expression [1116,1140]"/>
+  <match src="binary_expression [566,735]" dest="binary_expression [566,735]"/>
+  <match src="identifier: r [345,346]" dest="identifier: r [345,346]"/>
+  <match src="!: ! [3779,3780]" dest="!: ! [3826,3827]"/>
+  <match src="if: if [441,443]" dest="if: if [441,443]"/>
+  <match src="if_statement [3452,3574]" dest="if_statement [3666,3748]"/>
+  <match src="expression_statement [3865,3894]" dest="expression_statement [3912,3941]"/>
+  <match src="parenthesized_expression [1694,1788]" dest="parenthesized_expression [1694,1788]"/>
+  <match src="parenthesized_expression [1491,1515]" dest="parenthesized_expression [1491,1515]"/>
+  <match src="identifier: new [3347,3350]" dest="identifier: new [3438,3441]"/>
+  <match src=";: ; [3502,3503]" dest=";: ; [3716,3717]"/>
+  <match src="(: ( [2153,2154]" dest="(: ( [2153,2154]"/>
+  <match src="assignment_expression [881,930]" dest="assignment_expression [881,930]"/>
+  <match src="argument_list [3265,3276]" dest="argument_list [3356,3367]"/>
+  <match src="): ) [3666,3667]" dest="): ) [3586,3587]"/>
+  <match src="expression_statement [1237,1260]" dest="expression_statement [1237,1260]"/>
+  <match src="-: - [349,350]" dest="-: - [349,350]"/>
+  <match src="field_expression [905,918]" dest="field_expression [905,918]"/>
+  <match src="statement_identifier: out [793,796]" dest="statement_identifier: out [793,796]"/>
+  <match src="field_identifier: slot [759,763]" dest="field_identifier: slot [759,763]"/>
+  <match src="identifier: KVM_MEMORY_SLOTS [1637,1653]" dest="identifier: KVM_MEMORY_SLOTS [1637,1653]"/>
+  <match src="statement_identifier: out_free [3392,3400]" dest="statement_identifier: out_free [3483,3491]"/>
+  <match src=";: ; [2101,2102]" dest=";: ; [2101,2102]"/>
+  <match src="identifier: r [328,329]" dest="identifier: r [328,329]"/>
+  <match src="binary_expression [2223,2274]" dest="binary_expression [2223,2274]"/>
+  <match src="-&gt;: -&gt; [2921,2923]" dest="-&gt;: -&gt; [2921,2923]"/>
+  <match src="): ) [3786,3787]" dest="): ) [3833,3834]"/>
+  <match src="identifier: slots [263,268]" dest="identifier: slots [263,268]"/>
+  <match src="(: ( [3778,3779]" dest="(: ( [3825,3826]"/>
+  <match src="identifier: old [231,234]" dest="identifier: old [231,234]"/>
+  <match src="declaration [144,165]" dest="declaration [144,165]"/>
+  <match src=";: ; [2827,2828]" dest=";: ; [2827,2828]"/>
+  <match src="statement_identifier: out_free [3521,3529]" dest="statement_identifier: out_slots [3735,3744]"/>
+  <match src="): ) [4104,4105]" dest="): ) [4151,4152]"/>
+  <match src="goto: goto [788,792]" dest="goto: goto [788,792]"/>
+  <match src=",: , [3269,3270]" dest=",: , [3360,3361]"/>
+  <match src="(: ( [2222,2223]" dest="(: ( [2222,2223]"/>
+  <match src="field_identifier: flags [1107,1112]" dest="field_identifier: flags [1107,1112]"/>
+  <match src=",: , [3495,3496]" dest=",: , [3709,3710]"/>
+  <match src="identifier: slots [3676,3681]" dest="identifier: slots [3596,3601]"/>
+  <match src="goto_statement [2196,2210]" dest="goto_statement [2196,2210]"/>
+  <match src="argument_list [3607,3667]" dest="argument_list [3527,3587]"/>
+</matches>
+<actions>
+  <move-tree tree="comment: /* map/unmap the pages in iommu page table */ [3405,3450]" parent="compound_statement [116,4212]" at="50"/>
+  <move-tree tree="if_statement [3452,3574]" parent="compound_statement [116,4212]" at="50"/>
+  <update-node tree="comment: /* map/unmap the pages in iommu page table */ [3405,3450]" label="/* map new memory slot into the iommu */"/>
+  <insert-tree tree="labeled_statement [4192,4217]" parent="compound_statement [116,4212]" at="61"/>
+  <insert-node tree="comment: /* slot was deleted or moved, clear iommu mapping */ [2986,3038]" parent="compound_statement [2588,3303]" at="11"/>
+  <move-tree tree="expression_statement [3541,3574]" parent="compound_statement [2588,3303]" at="12"/>
+  <update-node tree="statement_identifier: out_free [3521,3529]" label="out_slots"/>
+  <delete-node tree="else: else [3534,3538]"/>
+  <delete-node tree="else_clause [3534,3574]"/>
+</actions>

@@ -1,0 +1,20 @@
+{
+    "id": "726328874812cfb5d0a28c5a76b3925e531928b7_getFiles_2",
+    "func_name": "getFiles",
+    "cve_id": "CVE-2023-40612",
+    "cwe_ids": [
+        "CWE-91"
+    ],
+    "commit_hash": "726328874812cfb5d0a28c5a76b3925e531928b7",
+    "parent_commit_hash": "69db8566de1ee90d7c5ed660d417a5e9fdc51ab5",
+    "repo_name": "OpenNMS/opennms",
+    "git_url": "https://github.com/OpenNMS/opennms/commit/726328874812cfb5d0a28c5a76b3925e531928b7",
+    "file_path": "opennms-webapp-rest/src/main/java/org/opennms/web/rest/v1/FilesystemRestService.java",
+    "file_name": "FilesystemRestService.java",
+    "commit_date": 1688003291,
+    "commit_msg": "NMS-15704: Added tests",
+    "cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 8.0,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

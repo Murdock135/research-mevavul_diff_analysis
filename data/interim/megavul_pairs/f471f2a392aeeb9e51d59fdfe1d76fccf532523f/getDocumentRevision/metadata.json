@@ -1,0 +1,20 @@
+{
+    "id": "f471f2a392aeeb9e51d59fdfe1d76fccf532523f_getDocumentRevision_0",
+    "func_name": "getDocumentRevision",
+    "cve_id": "CVE-2023-37911",
+    "cwe_ids": [
+        "CWE-668"
+    ],
+    "commit_hash": "f471f2a392aeeb9e51d59fdfe1d76fccf532523f",
+    "parent_commit_hash": "5e9cceb57f65bf6789f08f8a94a96fdd5c0a5e6b",
+    "repo_name": "xwiki/xwiki-platform",
+    "git_url": "https://github.com/xwiki/xwiki-platform/commit/f471f2a392aeeb9e51d59fdfe1d76fccf532523f",
+    "file_path": "xwiki-platform-core/xwiki-platform-oldcore/src/main/java/com/xpn/xwiki/api/Document.java",
+    "file_name": "Document.java",
+    "commit_date": 1680594874,
+    "commit_msg": "XWIKI-20685: Check access on the revision provider in the script API",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+    "cvss_base_score": 6.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

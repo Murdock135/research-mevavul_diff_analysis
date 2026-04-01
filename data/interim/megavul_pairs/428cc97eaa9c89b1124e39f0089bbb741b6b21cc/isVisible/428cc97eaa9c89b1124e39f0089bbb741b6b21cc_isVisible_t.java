@@ -1,0 +1,12 @@
+class isVisible {
+public boolean isVisible() {
+        if (hasFeature(ElementData.class)) {
+            boolean isVisibleSelf = getFeature(ElementData.class).isVisible();
+            if (!isVisibleSelf || getParent() == null) {
+                return isVisibleSelf;
+            }
+            return parent.isVisible();
+        }
+        return getParent() == null || parent.isVisible();
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "id": "49cc584dd6bd38ca26129eeaca5cd04e40a27f25_getHttpResponse_0",
+    "func_name": "getHttpResponse",
+    "cve_id": "CVE-2021-31828",
+    "cwe_ids": [
+        "CWE-918"
+    ],
+    "commit_hash": "49cc584dd6bd38ca26129eeaca5cd04e40a27f25",
+    "parent_commit_hash": "8f1b7d55d129dd69adf38acc034bb013c146a307",
+    "repo_name": "opendistro-for-elasticsearch/alerting",
+    "git_url": "https://github.com/opendistro-for-elasticsearch/alerting/commit/49cc584dd6bd38ca26129eeaca5cd04e40a27f25",
+    "file_path": "notification/src/main/java/com/amazon/opendistroforelasticsearch/alerting/destination/client/DestinationHttpClient.java",
+    "file_name": "DestinationHttpClient.java",
+    "commit_date": 1613573349,
+    "commit_msg": "Support deny list for destinations",
+    "cvss_vector": "AV:N/AC:L/Au:S/C:P/I:P/A:N",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

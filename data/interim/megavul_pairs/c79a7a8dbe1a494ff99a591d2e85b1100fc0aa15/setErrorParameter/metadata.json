@@ -1,0 +1,20 @@
+{
+    "id": "c79a7a8dbe1a494ff99a591d2e85b1100fc0aa15_setErrorParameter_0",
+    "func_name": "setErrorParameter",
+    "cve_id": "CVE-2021-31412",
+    "cwe_ids": [
+        "CWE-20"
+    ],
+    "commit_hash": "c79a7a8dbe1a494ff99a591d2e85b1100fc0aa15",
+    "parent_commit_hash": "2c07bd36f7e5728fa207d4494fb82db73c29226e",
+    "repo_name": "vaadin/flow",
+    "git_url": "https://github.com/vaadin/flow/commit/c79a7a8dbe1a494ff99a591d2e85b1100fc0aa15",
+    "file_path": "flow-server/src/main/java/com/vaadin/flow/router/RouteNotFoundError.java",
+    "file_name": "RouteNotFoundError.java",
+    "commit_date": 1622168488,
+    "commit_msg": "fix: set routes first into the template\n\nfixes psi#26",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

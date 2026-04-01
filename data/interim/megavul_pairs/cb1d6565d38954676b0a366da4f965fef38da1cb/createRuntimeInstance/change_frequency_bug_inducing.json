@@ -1,0 +1,42 @@
+{
+  "frequency": [
+    {
+      "c": "ConstructorCall",
+      "f": "1"
+    },
+    {
+      "c": "If",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "update-node_ConstructorCall_Throw",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "ConstructorCall",
+      "f": "0.5"
+    },
+    {
+      "c": "If",
+      "f": "0.5"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "update-node_ConstructorCall_Throw",
+      "f": "0.5"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "0.5"
+    }
+  ]
+}

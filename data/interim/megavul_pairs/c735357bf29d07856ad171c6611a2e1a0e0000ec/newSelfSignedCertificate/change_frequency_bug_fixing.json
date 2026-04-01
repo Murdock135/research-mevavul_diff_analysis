@@ -1,0 +1,42 @@
+{
+  "frequency": [
+    {
+      "c": "TypeAccess",
+      "f": "2"
+    },
+    {
+      "c": "Literal",
+      "f": "2"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "update-node_TypeAccess_Invocation",
+      "f": "2"
+    },
+    {
+      "c": "insert-node_Literal_Invocation",
+      "f": "2"
+    }
+  ],
+  "probability": [
+    {
+      "c": "TypeAccess",
+      "f": "0.5"
+    },
+    {
+      "c": "Literal",
+      "f": "0.5"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "update-node_TypeAccess_Invocation",
+      "f": "0.5"
+    },
+    {
+      "c": "insert-node_Literal_Invocation",
+      "f": "0.5"
+    }
+  ]
+}

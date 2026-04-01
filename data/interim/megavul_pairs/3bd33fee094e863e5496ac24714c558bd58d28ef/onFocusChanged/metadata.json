@@ -1,0 +1,20 @@
+{
+    "id": "3bd33fee094e863e5496ac24714c558bd58d28ef_onFocusChanged_0",
+    "func_name": "onFocusChanged",
+    "cve_id": "CVE-2016-5163",
+    "cwe_ids": [
+        "CWE-254"
+    ],
+    "commit_hash": "3bd33fee094e863e5496ac24714c558bd58d28ef",
+    "parent_commit_hash": "d86695c18f2854abb9931a6afa1a30acb720b80d",
+    "repo_name": "chromium",
+    "git_url": "https://chromium.googlesource.com/chromium/src/+/3bd33fee094e863e5496ac24714c558bd58d28ef",
+    "file_path": "chrome/android/java/src/org/chromium/chrome/browser/omnibox/UrlBar.java",
+    "file_name": "UrlBar.java",
+    "commit_date": 1466110384,
+    "commit_msg": "Android omnibox: Force paragraph direction to LTR.\n\nThis means that URLs will always be displayed in a left-to-right\ncontext. Right-to-left runs are still rendered as RTL, but will not\ncause the whole URL to flip around.\n\nThis fixes several spoofing concerns and makes Android's omnibox\nconsistent with the Views omnibox.\n\nBUG=609680\n\nReview-Url: https://codereview.chromium.org/1988553002\nCr-Commit-Position: refs/heads/master@{#400359}\n",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

@@ -1,0 +1,794 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="(: ( [2362,2363]" dest="(: ( [2372,2373]"/>
+  <match src="field_expression [2363,2374]" dest="field_expression [2373,2384]"/>
+  <match src="field_identifier: sk_shutdown [3688,3699]" dest="field_identifier: sk_shutdown [3958,3969]"/>
+  <match src="-&gt;: -&gt; [959,961]" dest="-&gt;: -&gt; [959,961]"/>
+  <match src="comment: 	
+	 * new socket.
+	 */ [411,502]" dest="comment: 	
+	 * new socket.
+	 */ [411,502]"/>
+  <match src="*: * [315,316]" dest="*: * [315,316]"/>
+  <match src="call_expression [217,231]" dest="call_expression [217,231]"/>
+  <match src="identifier: newsk [3666,3671]" dest="identifier: newsk [3936,3941]"/>
+  <match src="assignment_expression [3681,3715]" dest="assignment_expression [3951,3985]"/>
+  <match src="call_expression [2193,2207]" dest="call_expression [2203,2217]"/>
+  <match src="if: if [1188,1190]" dest="if: if [1188,1190]"/>
+  <match src="): ) [2738,2739]" dest="): ) [2753,2754]"/>
+  <match src="call_expression [1314,1443]" dest="call_expression [1314,1443]"/>
+  <match src="parenthesized_expression [2362,2383]" dest="parenthesized_expression [2372,2393]"/>
+  <match src="identifier: newsk [504,509]" dest="identifier: newsk [504,509]"/>
+  <match src="call_expression [3626,3651]" dest="call_expression [3896,3921]"/>
+  <match src="field_identifier: pd_lobby [2405,2413]" dest="field_identifier: pd_lobby [2415,2423]"/>
+  <match src="(: ( [1191,1192]" dest="(: ( [1191,1192]"/>
+  <match src="-&gt;: -&gt; [3724,3726]" dest="-&gt;: -&gt; [3994,3996]"/>
+  <match src="parameter_list [29,144]" dest="parameter_list [29,144]"/>
+  <match src="parenthesized_expression [2245,2270]" dest="parenthesized_expression [2255,2280]"/>
+  <match src="(: ( [2634,2635]" dest="(: ( [2644,2645]"/>
+  <match src="call_expression [3759,3783]" dest="call_expression [4029,4053]"/>
+  <match src="identifier: skb [1726,1729]" dest="identifier: skb [1731,1734]"/>
+  <match src="argument_list [3463,3470]" dest="argument_list [3733,3740]"/>
+  <match src="field_identifier: sk_rcvbuf [568,577]" dest="field_identifier: sk_rcvbuf [568,577]"/>
+  <match src="call_expression [2153,2190]" dest="call_expression [2163,2200]"/>
+  <match src="if_statement [2907,2956]" dest="if_statement [2927,2976]"/>
+  <match src="assignment_expression [765,783]" dest="assignment_expression [765,783]"/>
+  <match src="&amp;: &amp; [2397,2398]" dest="&amp;: &amp; [2407,2408]"/>
+  <match src="field_identifier: pd_mode [2209,2216]" dest="field_identifier: pd_mode [2219,2226]"/>
+  <match src="-&gt;: -&gt; [2728,2730]" dest="-&gt;: -&gt; [2743,2745]"/>
+  <match src="): ) [1778,1779]" dest="): ) [1783,1784]"/>
+  <match src="&amp;: &amp; [2435,2436]" dest="&amp;: &amp; [2445,2446]"/>
+  <match src="identifier: PF_INET6 [1118,1126]" dest="identifier: PF_INET6 [1118,1126]"/>
+  <match src="identifier: assoc [2664,2669]" dest="identifier: assoc [2674,2679]"/>
+  <match src="assignment_expression [1220,1248]" dest="assignment_expression [1220,1248]"/>
+  <match src="call_expression [2746,2774]" dest="call_expression [2761,2789]"/>
+  <match src="field_expression [1130,1141]" dest="field_expression [1130,1141]"/>
+  <match src="identifier: flags [1437,1442]" dest="identifier: flags [1437,1442]"/>
+  <match src="comment:  	
+ 	 * original UDP-style socket or created with the accept() call on a
+ 	 * TCP-style socket..
+	 */ [2967,3134]" dest="comment:  	
+ 	 * original UDP-style socket or created with the accept() call on a
+ 	 * TCP-style socket..
+	 */ [3237,3404]"/>
+  <match src="comment: 		
+		 * delivery to finish.
+		 */ [2829,2904]" dest="comment: 		
+		 * delivery to finish.
+		 */ [2849,2924]"/>
+  <match src=";: ; [783,784]" dest=";: ; [783,784]"/>
+  <match src="argument_list [2253,2260]" dest="argument_list [2263,2270]"/>
+  <match src="*: * [42,43]" dest="*: * [42,43]"/>
+  <match src="identifier: tmp [2601,2604]" dest="identifier: tmp [2611,2614]"/>
+  <match src="field_identifier: pd_lobby [2730,2738]" dest="field_identifier: pd_lobby [2745,2753]"/>
+  <match src="): ) [2638,2639]" dest="): ) [2648,2649]"/>
+  <match src="identifier: flags [398,403]" dest="identifier: flags [398,403]"/>
+  <match src="identifier: sctp_sk [174,181]" dest="identifier: sctp_sk [174,181]"/>
+  <match src="=: = [404,405]" dest="=: = [404,405]"/>
+  <match src="identifier: sctp_skb_set_owner_r [2780,2800]" dest="identifier: sctp_skb_set_owner_r_frag [2795,2820]"/>
+  <match src="=: = [322,323]" dest="=: = [322,323]"/>
+  <match src="identifier: oldsk [1755,1760]" dest="identifier: oldsk [1760,1765]"/>
+  <match src="identifier: sctp_skb2event [2620,2634]" dest="identifier: sctp_skb2event [2630,2644]"/>
+  <match src="field_expression [2398,2413]" dest="field_expression [2408,2423]"/>
+  <match src="field_expression [1130,1155]" dest="field_expression [1130,1155]"/>
+  <match src="null [779,783]" dest="null [779,783]"/>
+  <match src="argument_list [890,909]" dest="argument_list [890,909]"/>
+  <match src="type_identifier: sctp_endpoint [301,314]" dest="type_identifier: sctp_endpoint [301,314]"/>
+  <match src="function_definition [0,3786]" dest="function_definition [0,4056]"/>
+  <match src="*: * [208,209]" dest="*: * [208,209]"/>
+  <match src="(: ( [2245,2246]" dest="(: ( [2255,2256]"/>
+  <match src=";: ; [188,189]" dest=";: ; [188,189]"/>
+  <match src="identifier: assoc [104,109]" dest="identifier: assoc [104,109]"/>
+  <match src="identifier: pp [940,942]" dest="identifier: pp [940,942]"/>
+  <match src="field_expression [1192,1216]" dest="field_expression [1192,1216]"/>
+  <match src="&amp;: &amp; [2722,2723]" dest="&amp;: &amp; [2737,2738]"/>
+  <match src=";: ; [1185,1186]" dest=";: ; [1185,1186]"/>
+  <match src=",: , [1435,1436]" dest=",: , [1435,1436]"/>
+  <match src="pointer_expression [1802,1826]" dest="pointer_expression [1807,1831]"/>
+  <match src="(: ( [3463,3464]" dest="(: ( [3733,3734]"/>
+  <match src="=: = [2618,2619]" dest="=: = [2628,2629]"/>
+  <match src="assignment_expression [2427,2459]" dest="assignment_expression [2437,2469]"/>
+  <match src="else_clause [2419,2460]" dest="else_clause [2429,2470]"/>
+  <match src="field_identifier: owner [903,908]" dest="field_identifier: owner [903,908]"/>
+  <match src="expression_statement [841,872]" dest="expression_statement [841,872]"/>
+  <match src="field_identifier: bind_hash [862,871]" dest="field_identifier: bind_hash [862,871]"/>
+  <match src="): ) [2811,2812]" dest="): ) [2831,2832]"/>
+  <match src="call_expression [1588,1641]" dest="call_expression [1588,1641]"/>
+  <match src="pointer_declarator [208,214]" dest="pointer_declarator [208,214]"/>
+  <match src="compound_statement [2384,2418]" dest="compound_statement [2394,2428]"/>
+  <match src="argument_list [1748,1779]" dest="argument_list [1753,1784]"/>
+  <match src="struct_specifier [30,41]" dest="struct_specifier [30,41]"/>
+  <match src="field_expression [1755,1778]" dest="field_expression [1760,1783]"/>
+  <match src="=: = [844,845]" dest="=: = [844,845]"/>
+  <match src="identifier: newsp [209,214]" dest="identifier: newsp [209,214]"/>
+  <match src="*: * [2295,2296]" dest="*: * [2305,2306]"/>
+  <match src="argument_list [919,926]" dest="argument_list [919,926]"/>
+  <match src="identifier: SCTP_SS_ESTABLISHED [3737,3756]" dest="identifier: SCTP_SS_ESTABLISHED [4007,4026]"/>
+  <match src="field_identifier: peer [1199,1203]" dest="field_identifier: peer [1199,1203]"/>
+  <match src=",: , [2599,2600]" dest=",: , [2609,2610]"/>
+  <match src="identifier: sctp_skb_for_each [1588,1605]" dest="identifier: sctp_skb_for_each [1588,1605]"/>
+  <match src="struct_specifier [294,314]" dest="struct_specifier [294,314]"/>
+  <match src="(: ( [2200,2201]" dest="(: ( [2210,2211]"/>
+  <match src="(: ( [1605,1606]" dest="(: ( [1605,1606]"/>
+  <match src="identifier: newsp [765,770]" dest="identifier: newsp [765,770]"/>
+  <match src="field_identifier: pd_mode [2231,2238]" dest="field_identifier: pd_mode [2241,2248]"/>
+  <match src="identifier: pp [841,843]" dest="identifier: pp [841,843]"/>
+  <match src="=: = [559,560]" dest="=: = [559,560]"/>
+  <match src="=: = [215,216]" dest="=: = [215,216]"/>
+  <match src="(: ( [3625,3626]" dest="(: ( [3895,3896]"/>
+  <match src="expression_statement [2560,2605]" dest="expression_statement [2570,2615]"/>
+  <match src="): ) [3469,3470]" dest="): ) [3739,3740]"/>
+  <match src="field_expression [3136,3147]" dest="field_expression [3406,3417]"/>
+  <match src="parameter_declaration [120,143]" dest="parameter_declaration [120,143]"/>
+  <match src=",: , [68,69]" dest=",: , [68,69]"/>
+  <match src="field_identifier: sk_state [3726,3734]" dest="field_identifier: sk_state [3996,4004]"/>
+  <match src="identifier: oldsk [182,187]" dest="identifier: oldsk [182,187]"/>
+  <match src="identifier: newsp [2398,2403]" dest="identifier: newsp [2408,2413]"/>
+  <match src="identifier: oldsp [2723,2728]" dest="identifier: oldsp [2738,2743]"/>
+  <match src="if_statement [1188,1249]" dest="if_statement [1188,1249]"/>
+  <match src="expression_statement [1647,1675]" dest="expression_statement [1647,1675]"/>
+  <match src="{: { [145,146]" dest="{: { [145,146]"/>
+  <match src="parameter_declaration [50,68]" dest="parameter_declaration [50,68]"/>
+  <match src="identifier: newsk [3681,3686]" dest="identifier: newsk [3951,3956]"/>
+  <match src="pointer_declarator [62,68]" dest="pointer_declarator [62,68]"/>
+  <match src="struct_specifier [336,350]" dest="struct_specifier [336,350]"/>
+  <match src="identifier: tmp [358,361]" dest="identifier: tmp [358,361]"/>
+  <match src=",: , [2720,2721]" dest=",: , [2735,2736]"/>
+  <match src="binary_expression [1683,1703]" dest="binary_expression [1683,1703]"/>
+  <match src="identifier: newsk [3499,3504]" dest="identifier: newsk [3769,3774]"/>
+  <match src="comment: 		
+		 * need moved to the new socket.
+		 */ [2464,2556]" dest="comment: 		
+		 * need moved to the new socket.
+		 */ [2474,2566]"/>
+  <match src="field_identifier: ep [1342,1344]" dest="field_identifier: ep [1342,1344]"/>
+  <match src=";: ; [2459,2460]" dest=";: ; [2469,2470]"/>
+  <match src="): ) [1831,1832]" dest="): ) [1836,1837]"/>
+  <match src=";: ; [407,408]" dest=";: ; [407,408]"/>
+  <match src=",: , [1396,1397]" dest=",: , [1396,1397]"/>
+  <match src="type_identifier: sctp_bind_bucket [241,257]" dest="type_identifier: sctp_bind_bucket [241,257]"/>
+  <match src="-&gt;: -&gt; [926,928]" dest="-&gt;: -&gt; [926,928]"/>
+  <match src="field_identifier: ipv6_address [1267,1279]" dest="field_identifier: ipv6_address [1267,1279]"/>
+  <match src="identifier: newsp [2174,2179]" dest="identifier: newsp [2184,2189]"/>
+  <match src="pointer_expression [1370,1396]" dest="pointer_expression [1370,1396]"/>
+  <match src=";: ; [231,232]" dest=";: ; [231,232]"/>
+  <match src="field_expression [324,333]" dest="field_expression [324,333]"/>
+  <match src="&amp;: &amp; [1370,1371]" dest="&amp;: &amp; [1370,1371]"/>
+  <match src="&amp;&amp;: &amp;&amp; [3652,3654]" dest="&amp;&amp;: &amp;&amp; [3922,3924]"/>
+  <match src="identifier: skb [2693,2696]" dest="identifier: skb [2708,2711]"/>
+  <match src="comment: 	
+	 * peeled off association to the new socket's receive queue.
+	 */ [1447,1585]" dest="comment: 	
+	 * peeled off association to the new socket's receive queue.
+	 */ [1447,1585]"/>
+  <match src="field_expression [967,986]" dest="field_expression [967,986]"/>
+  <match src="=: = [521,522]" dest="=: = [521,522]"/>
+  <match src="field_expression [945,964]" dest="field_expression [945,964]"/>
+  <match src=";: ; [1674,1675]" dest=";: ; [1674,1675]"/>
+  <match src="if: if [1114,1116]" dest="if: if [1114,1116]"/>
+  <match src="identifier: sctp_sock_rfree [1710,1725]" dest="identifier: sctp_sock_rfree_frag [1710,1730]"/>
+  <match src="): ) [2954,2955]" dest="): ) [2974,2975]"/>
+  <match src="field_identifier: hmac [772,776]" dest="field_identifier: hmac [772,776]"/>
+  <match src="): ) [1216,1217]" dest="): ) [1216,1217]"/>
+  <match src="}: } [3785,3786]" dest="}: } [4055,4056]"/>
+  <match src=",: , [1360,1361]" dest=",: , [1360,1361]"/>
+  <match src="struct: struct [30,36]" dest="struct: struct [30,36]"/>
+  <match src="call_expression [912,926]" dest="call_expression [912,926]"/>
+  <match src=";: ; [2639,2640]" dest=";: ; [2649,2650]"/>
+  <match src="static: static [0,6]" dest="static: static [0,6]"/>
+  <match src="identifier: assoc [1130,1135]" dest="identifier: assoc [1130,1135]"/>
+  <match src="-&gt;: -&gt; [2368,2370]" dest="-&gt;: -&gt; [2378,2380]"/>
+  <match src="identifier: skb [2770,2773]" dest="identifier: skb [2785,2788]"/>
+  <match src="expression_statement [3681,3716]" dest="expression_statement [3951,3986]"/>
+  <match src="(: ( [641,642]" dest="(: ( [641,642]"/>
+  <match src="field_identifier: bind_addr [1387,1396]" dest="field_identifier: bind_addr [1387,1396]"/>
+  <match src="; [1641,1641]" dest="; [1641,1641]"/>
+  <match src="expression_statement [1159,1186]" dest="expression_statement [1159,1186]"/>
+  <match src="compound_statement [2606,2824]" dest="compound_statement [2616,2844]"/>
+  <match src="argument_list [2800,2812]" dest="argument_list [2820,2832]"/>
+  <match src="call_expression [2246,2260]" dest="call_expression [2256,2270]"/>
+  <match src="pointer_expression [898,908]" dest="pointer_expression [898,908]"/>
+  <match src=";: ; [261,262]" dest=";: ; [261,262]"/>
+  <match src="field_expression [1371,1386]" dest="field_expression [1371,1386]"/>
+  <match src="expression_statement [745,763]" dest="expression_statement [745,763]"/>
+  <match src="field_identifier: pd_lobby [2181,2189]" dest="field_identifier: pd_lobby [2191,2199]"/>
+  <match src="(: ( [2716,2717]" dest="(: ( [2731,2732]"/>
+  <match src="-&gt;: -&gt; [2403,2405]" dest="-&gt;: -&gt; [2413,2415]"/>
+  <match src="assignment_expression [3719,3756]" dest="assignment_expression [3989,4026]"/>
+  <match src="declaration [364,392]" dest="declaration [364,392]"/>
+  <match src="field_identifier: sk_family [1146,1155]" dest="field_identifier: sk_family [1146,1155]"/>
+  <match src=",: , [1752,1753]" dest=",: , [1757,1758]"/>
+  <match src="expression_statement [2780,2813]" dest="expression_statement [2795,2833]"/>
+  <match src="if_statement [3622,3716]" dest="if_statement [3892,3986]"/>
+  <match src=";: ; [909,910]" dest=";: ; [909,910]"/>
+  <match src="type_identifier: sctp_sock [198,207]" dest="type_identifier: sctp_sock [198,207]"/>
+  <match src="argument_list [2692,2697]" dest="argument_list [2707,2712]"/>
+  <match src="field_expression [2219,2230]" dest="field_expression [2229,2240]"/>
+  <match src="expression_statement [3136,3155]" dest="expression_statement [3406,3425]"/>
+  <match src="NULL: NULL [779,783]" dest="NULL: NULL [779,783]"/>
+  <match src="-&gt;: -&gt; [1260,1262]" dest="-&gt;: -&gt; [1260,1262]"/>
+  <match src="&amp;: &amp; [1754,1755]" dest="&amp;: &amp; [1759,1760]"/>
+  <match src="identifier: assoc [2911,2916]" dest="identifier: assoc [2931,2936]"/>
+  <match src="): ) [230,231]" dest="): ) [230,231]"/>
+  <match src="identifier: event [1647,1652]" dest="identifier: event [1647,1652]"/>
+  <match src="(: ( [1117,1118]" dest="(: ( [1117,1118]"/>
+  <match src="call_expression [3473,3505]" dest="call_expression [3743,3775]"/>
+  <match src="identifier: queue [2427,2432]" dest="identifier: queue [2437,2442]"/>
+  <match src="identifier: sctp_sock_rfree [2677,2692]" dest="identifier: sctp_sock_rfree_frag [2687,2707]"/>
+  <match src="identifier: assoc [3637,3642]" dest="identifier: assoc [3907,3912]"/>
+  <match src="identifier: oldsp [166,171]" dest="identifier: oldsp [166,171]"/>
+  <match src="field_identifier: type [3143,3147]" dest="field_identifier: type [3413,3417]"/>
+  <match src="identifier: skb [352,355]" dest="identifier: skb [352,355]"/>
+  <match src=";: ; [1248,1249]" dest=";: ; [1248,1249]"/>
+  <match src=",: , [1861,1862]" dest=",: , [1871,1872]"/>
+  <match src="): ) [2604,2605]" dest="): ) [2614,2615]"/>
+  <match src=";: ; [762,763]" dest=";: ; [762,763]"/>
+  <match src="struct: struct [234,240]" dest="struct: struct [234,240]"/>
+  <match src="type_identifier: sock [37,41]" dest="type_identifier: sock [37,41]"/>
+  <match src="identifier: skb [1749,1752]" dest="identifier: skb [1754,1757]"/>
+  <match src="if_statement [1251,1312]" dest="if_statement [1251,1312]"/>
+  <match src="identifier: newsk [3719,3724]" dest="identifier: newsk [3989,3994]"/>
+  <match src="call_expression [967,981]" dest="call_expression [967,981]"/>
+  <match src="expression_statement [1837,1870]" dest="expression_statement [1842,1880]"/>
+  <match src="(: ( [853,854]" dest="(: ( [853,854]"/>
+  <match src="assignment_expression [1283,1311]" dest="assignment_expression [1283,1311]"/>
+  <match src="argument_list [2634,2639]" dest="argument_list [2644,2649]"/>
+  <match src=";: ; [2812,2813]" dest=";: ; [2832,2833]"/>
+  <match src="comment: /* hash list port iterator */ [263,292]" dest="comment: /* hash list port iterator */ [263,292]"/>
+  <match src=";: ; [3154,3155]" dest=";: ; [3424,3425]"/>
+  <match src="declaration [336,362]" dest="declaration [336,362]"/>
+  <match src="(: ( [224,225]" dest="(: ( [224,225]"/>
+  <match src="(: ( [952,953]" dest="(: ( [952,953]"/>
+  <match src=",: , [896,897]" dest=",: , [896,897]"/>
+  <match src="parenthesized_expression [2910,2931]" dest="parenthesized_expression [2930,2951]"/>
+  <match src="field_expression [2649,2660]" dest="field_expression [2659,2670]"/>
+  <match src="}: } [2818,2819]" dest="}: } [2838,2839]"/>
+  <match src="expression_statement [1785,1833]" dest="expression_statement [1790,1838]"/>
+  <match src="-&gt;: -&gt; [2654,2656]" dest="-&gt;: -&gt; [2664,2666]"/>
+  <match src="comment: 	
+	 * that may arrive on the association after we've moved it are
+	 * queued to the backlog.  This prevents a potential race between
+	 * backlog processing on the old socket and new-packet processing
+	 * on the new socket.
+	 */ [3158,3447]" dest="comment: 	
+	 * that may arrive on the association after we've moved it are
+	 * queued to the backlog.  This prevents a potential race between
+	 * backlog processing on the old socket and new-packet processing
+	 * on the new socket.
+	 */ [3428,3717]"/>
+  <match src=";: ; [986,987]" dest=";: ; [986,987]"/>
+  <match src="pointer_declarator [103,109]" dest="pointer_declarator [103,109]"/>
+  <match src="field_expression [1335,1344]" dest="field_expression [1335,1344]"/>
+  <match src=",: , [1826,1827]" dest=",: , [1831,1832]"/>
+  <match src="if_statement [1679,1875]" dest="if_statement [1679,1885]"/>
+  <match src="argument_list [2577,2605]" dest="argument_list [2587,2615]"/>
+  <match src="struct: struct [148,154]" dest="struct: struct [148,154]"/>
+  <match src="field_identifier: num [983,986]" dest="field_identifier: num [983,986]"/>
+  <match src="expression_statement [3759,3784]" dest="expression_statement [4029,4054]"/>
+  <match src="identifier: newsk [1863,1868]" dest="identifier: newsk [1873,1878]"/>
+  <match src="field_identifier: ulpq [2370,2374]" dest="field_identifier: ulpq [2380,2384]"/>
+  <match src="{: { [1642,1643]" dest="{: { [1642,1643]"/>
+  <match src="(: ( [2253,2254]" dest="(: ( [2263,2264]"/>
+  <match src="-&gt;: -&gt; [547,549]" dest="-&gt;: -&gt; [547,549]"/>
+  <match src="{: { [1705,1706]" dest="{: { [1705,1706]"/>
+  <match src="): ) [2269,2270]" dest="): ) [2279,2280]"/>
+  <match src="argument_list [2172,2190]" dest="argument_list [2182,2200]"/>
+  <match src="argument_list [2948,2955]" dest="argument_list [2968,2975]"/>
+  <match src="(: ( [3491,3492]" dest="(: ( [3761,3762]"/>
+  <match src="parenthesized_expression [2648,2670]" dest="parenthesized_expression [2658,2680]"/>
+  <match src=",: , [2804,2805]" dest=",: , [2824,2825]"/>
+  <match src="type_identifier: sctp_ulpevent [371,384]" dest="type_identifier: sctp_ulpevent [371,384]"/>
+  <match src="expression_statement [912,943]" dest="expression_statement [912,943]"/>
+  <match src="pointer_declarator [42,48]" dest="pointer_declarator [42,48]"/>
+  <match src="identifier: event [1683,1688]" dest="identifier: event [1683,1688]"/>
+  <match src="{: { [2384,2385]" dest="{: { [2394,2395]"/>
+  <match src="binary_expression [3626,3677]" dest="binary_expression [3896,3947]"/>
+  <match src="type_identifier: sk_buff_head [2282,2294]" dest="type_identifier: sk_buff_head [2292,2304]"/>
+  <match src="struct_specifier [50,61]" dest="struct_specifier [50,61]"/>
+  <match src="argument_list [853,860]" dest="argument_list [853,860]"/>
+  <match src="parenthesized_expression [1682,1704]" dest="parenthesized_expression [1682,1704]"/>
+  <match src="parenthesized_expression [3625,3678]" dest="parenthesized_expression [3895,3948]"/>
+  <match src="): ) [1640,1641]" dest="): ) [1640,1641]"/>
+  <match src=";: ; [3715,3716]" dest=";: ; [3985,3986]"/>
+  <match src="pointer_declarator [385,391]" dest="pointer_declarator [385,391]"/>
+  <match src=";: ; [1832,1833]" dest=";: ; [1837,1838]"/>
+  <match src="-&gt;: -&gt; [2260,2262]" dest="-&gt;: -&gt; [2270,2272]"/>
+  <match src="-&gt;: -&gt; [2916,2918]" dest="-&gt;: -&gt; [2936,2938]"/>
+  <match src="if: if [1679,1681]" dest="if: if [1679,1681]"/>
+  <match src="argument_list [3665,3677]" dest="argument_list [3935,3947]"/>
+  <match src="assignment_expression [945,986]" dest="assignment_expression [945,986]"/>
+  <match src="): ) [2696,2697]" dest="): ) [2711,2712]"/>
+  <match src="): ) [2669,2670]" dest="): ) [2679,2680]"/>
+  <match src="): ) [2206,2207]" dest="): ) [2216,2217]"/>
+  <match src=";: ; [3470,3471]" dest=";: ; [3740,3741]"/>
+  <match src="}: } [1874,1875]" dest="}: } [1884,1885]"/>
+  <match src="identifier: sctp_assoc_migrate [3473,3491]" dest="identifier: sctp_assoc_migrate [3743,3761]"/>
+  <match src="struct: struct [50,56]" dest="struct: struct [50,56]"/>
+  <match src="parenthesized_expression [1254,1280]" dest="parenthesized_expression [1254,1280]"/>
+  <match src="=: = [938,939]" dest="=: = [938,939]"/>
+  <match src="pointer_declarator [357,361]" dest="pointer_declarator [357,361]"/>
+  <match src="expression_statement [2746,2775]" dest="expression_statement [2761,2790]"/>
+  <match src="identifier: oldsp [1371,1376]" dest="identifier: oldsp [1371,1376]"/>
+  <match src="=: = [172,173]" dest="=: = [172,173]"/>
+  <match src="*: * [357,358]" dest="*: * [357,358]"/>
+  <match src="identifier: inet_sk [945,952]" dest="identifier: inet_sk [945,952]"/>
+  <match src="-&gt;: -&gt; [1376,1378]" dest="-&gt;: -&gt; [1376,1378]"/>
+  <match src="identifier: TCP [3673,3676]" dest="identifier: TCP [3943,3946]"/>
+  <match src="identifier: pp [899,901]" dest="identifier: pp [899,901]"/>
+  <match src="(: ( [2948,2949]" dest="(: ( [2968,2969]"/>
+  <match src="-&gt;: -&gt; [981,983]" dest="-&gt;: -&gt; [981,983]"/>
+  <match src="identifier: assoc [3492,3497]" dest="identifier: assoc [3762,3767]"/>
+  <match src="argument_list [181,188]" dest="argument_list [181,188]"/>
+  <match src="field_identifier: ep [1378,1380]" dest="field_identifier: ep [1378,1380]"/>
+  <match src="struct: struct [294,300]" dest="struct: struct [294,300]"/>
+  <match src=";: ; [3505,3506]" dest=";: ; [3775,3776]"/>
+  <match src="field_identifier: bind_hash [928,937]" dest="field_identifier: bind_hash [928,937]"/>
+  <match src="call_expression [2677,2697]" dest="call_expression [2687,2712]"/>
+  <match src="identifier: newsk [542,547]" dest="identifier: newsk [542,547]"/>
+  <match src="&amp;: &amp; [1334,1335]" dest="&amp;: &amp; [1334,1335]"/>
+  <match src="pointer_expression [1754,1778]" dest="pointer_expression [1759,1783]"/>
+  <match src="call_expression [2620,2639]" dest="call_expression [2630,2649]"/>
+  <match src="identifier: newsk [642,647]" dest="identifier: newsk [642,647]"/>
+  <match src=";: ; [2955,2956]" dest=";: ; [2975,2976]"/>
+  <match src="expression_statement [3473,3506]" dest="expression_statement [3743,3776]"/>
+  <match src="field_expression [2436,2459]" dest="field_expression [2446,2469]"/>
+  <match src="field_expression [504,520]" dest="field_expression [504,520]"/>
+  <match src="field_expression [542,558]" dest="field_expression [542,558]"/>
+  <match src="field_expression [3681,3699]" dest="field_expression [3951,3969]"/>
+  <match src="identifier: newsk [2806,2811]" dest="identifier: newsk [2826,2831]"/>
+  <match src="call_expression [846,860]" dest="call_expression [846,860]"/>
+  <match src="if: if [3622,3624]" dest="if: if [3892,3894]"/>
+  <match src="*: * [62,63]" dest="*: * [62,63]"/>
+  <match src="): ) [1279,1280]" dest="): ) [1279,1280]"/>
+  <match src="|=: |= [1226,1228]" dest="|=: |= [1226,1228]"/>
+  <match src="==: == [2661,2663]" dest="==: == [2671,2673]"/>
+  <match src="(: ( [974,975]" dest="(: ( [974,975]"/>
+  <match src="*: * [385,386]" dest="*: * [385,386]"/>
+  <match src="pointer_declarator [2295,2301]" dest="pointer_declarator [2305,2311]"/>
+  <match src="-&gt;: -&gt; [528,530]" dest="-&gt;: -&gt; [528,530]"/>
+  <match src="field_expression [1255,1266]" dest="field_expression [1255,1266]"/>
+  <match src="): ) [2382,2383]" dest="): ) [2392,2393]"/>
+  <match src="expression_statement [2193,2239]" dest="expression_statement [2203,2249]"/>
+  <match src="*: * [351,352]" dest="*: * [351,352]"/>
+  <match src="identifier: event [2612,2617]" dest="identifier: event [2622,2627]"/>
+  <match src="pointer_declarator [315,321]" dest="pointer_declarator [315,321]"/>
+  <match src="identifier: newsp [745,750]" dest="identifier: newsp [745,750]"/>
+  <match src="struct: struct [191,197]" dest="struct: struct [191,197]"/>
+  <match src="=: = [777,778]" dest="=: = [777,778]"/>
+  <match src="): ) [143,144]" dest="): ) [143,144]"/>
+  <match src="-&gt;: -&gt; [750,752]" dest="-&gt;: -&gt; [750,752]"/>
+  <match src="expression_statement [874,910]" dest="expression_statement [874,910]"/>
+  <match src="parameter_declaration [79,109]" dest="parameter_declaration [79,109]"/>
+  <match src="(: ( [2648,2649]" dest="(: ( [2658,2659]"/>
+  <match src=";: ; [3783,3784]" dest=";: ; [4053,4054]"/>
+  <match src="argument_list [1857,1869]" dest="argument_list [1867,1879]"/>
+  <match src="; [2605,2605]" dest="; [2615,2615]"/>
+  <match src="=: = [1653,1654]" dest="=: = [1653,1654]"/>
+  <match src="identifier: GFP_KERNEL [1425,1435]" dest="identifier: GFP_KERNEL [1425,1435]"/>
+  <match src="expression_statement [3719,3757]" dest="expression_statement [3989,4027]"/>
+  <match src="comment: /* Hook this new socket in to the bind_hash list. */ [787,839]" dest="comment: /* Hook this new socket in to the bind_hash list. */ [787,839]"/>
+  <match src="identifier: sctp_skb_for_each [2560,2577]" dest="identifier: sctp_skb_for_each [2570,2587]"/>
+  <match src="-&gt;: -&gt; [1197,1199]" dest="-&gt;: -&gt; [1197,1199]"/>
+  <match src="struct_specifier [79,102]" dest="struct_specifier [79,102]"/>
+  <match src="argument_list [1725,1730]" dest="argument_list [1730,1735]"/>
+  <match src=";: ; [333,334]" dest=";: ; [333,334]"/>
+  <match src="struct: struct [336,342]" dest="struct: struct [336,342]"/>
+  <match src="if: if [2359,2361]" dest="if: if [2369,2371]"/>
+  <match src="declaration [294,334]" dest="declaration [294,334]"/>
+  <match src="): ) [859,860]" dest="): ) [859,860]"/>
+  <match src="=: = [965,966]" dest="=: = [965,966]"/>
+  <match src="): ) [908,909]" dest="): ) [908,909]"/>
+  <match src="=: = [3148,3149]" dest="=: = [3418,3419]"/>
+  <match src=";: ; [2190,2191]" dest=";: ; [2200,2201]"/>
+  <match src="identifier: inet_sk_copy_descendant [618,641]" dest="identifier: inet_sk_copy_descendant [618,641]"/>
+  <match src=".: . [1203,1204]" dest=".: . [1203,1204]"/>
+  <match src="*: * [165,166]" dest="*: * [165,166]"/>
+  <match src="field_expression [1371,1396]" dest="field_expression [1371,1396]"/>
+  <match src="identifier: CLOSED [3644,3650]" dest="identifier: CLOSED [3914,3920]"/>
+  <match src="argument_list [3776,3783]" dest="argument_list [4046,4053]"/>
+  <match src="primitive_type: void [7,11]" dest="primitive_type: void [7,11]"/>
+  <match src="=: = [2433,2434]" dest="=: = [2443,2444]"/>
+  <match src="field_expression [1803,1826]" dest="field_expression [1808,1831]"/>
+  <match src="*: * [103,104]" dest="*: * [103,104]"/>
+  <match src="field_identifier: base [1137,1141]" dest="field_identifier: base [1137,1141]"/>
+  <match src="declaration [2275,2302]" dest="declaration [2285,2312]"/>
+  <match src="field_expression [3719,3734]" dest="field_expression [3989,4004]"/>
+  <match src="): ) [3782,3783]" dest="): ) [4052,4053]"/>
+  <match src="expression_statement [2612,2640]" dest="expression_statement [2622,2650]"/>
+  <match src="expression_statement [618,656]" dest="expression_statement [618,656]"/>
+  <match src="field_identifier: ulpq [2918,2922]" dest="field_identifier: ulpq [2938,2942]"/>
+  <match src="if_statement [2645,2819]" dest="if_statement [2655,2839]"/>
+  <match src="compound_statement [1642,1879]" dest="compound_statement [1642,1889]"/>
+  <match src="if_statement [2242,2962]" dest="if_statement [2252,2982]"/>
+  <match src="identifier: sctp_sk [846,853]" dest="identifier: sctp_sk [846,853]"/>
+  <match src="assignment_expression [504,539]" dest="assignment_expression [504,539]"/>
+  <match src="compound_statement [2671,2819]" dest="compound_statement [2681,2839]"/>
+  <match src="field_identifier: base [1346,1350]" dest="field_identifier: base [1346,1350]"/>
+  <match src="call_expression [2704,2739]" dest="call_expression [2719,2754]"/>
+  <match src="identifier: inet_sk [967,974]" dest="identifier: inet_sk [967,974]"/>
+  <match src="&amp;: &amp; [898,899]" dest="&amp;: &amp; [898,899]"/>
+  <match src=";: ; [1311,1312]" dest=";: ; [1311,1312]"/>
+  <match src="{: { [2271,2272]" dest="{: { [2281,2282]"/>
+  <match src="pointer_expression [2173,2189]" dest="pointer_expression [2183,2199]"/>
+  <match src="expression_statement [542,578]" dest="expression_statement [542,578]"/>
+  <match src="expression_statement [2153,2191]" dest="expression_statement [2163,2201]"/>
+  <match src="parameter_declaration [30,48]" dest="parameter_declaration [30,48]"/>
+  <match src="&amp;: &amp; [2583,2584]" dest="&amp;: &amp; [2593,2594]"/>
+  <match src="identifier: newsp [324,329]" dest="identifier: newsp [324,329]"/>
+  <match src="identifier: queue [2296,2301]" dest="identifier: queue [2306,2311]"/>
+  <match src="init_declarator [165,188]" dest="init_declarator [165,188]"/>
+  <match src="identifier: __skb_queue_tail [1785,1801]" dest="identifier: __skb_queue_tail [1790,1806]"/>
+  <match src="expression_statement [945,987]" dest="expression_statement [945,987]"/>
+  <match src="-&gt;: -&gt; [770,772]" dest="-&gt;: -&gt; [770,772]"/>
+  <match src="struct: struct [2275,2281]" dest="struct: struct [2285,2291]"/>
+  <match src="identifier: assoc [1698,1703]" dest="identifier: assoc [1698,1703]"/>
+  <match src="call_expression [874,909]" dest="call_expression [874,909]"/>
+  <match src=",: , [1635,1636]" dest=",: , [1635,1636]"/>
+  <match src="field_expression [899,908]" dest="field_expression [899,908]"/>
+  <match src="pointer_expression [1611,1635]" dest="pointer_expression [1611,1635]"/>
+  <match src=".: . [2230,2231]" dest=".: . [2240,2241]"/>
+  <match src="): ) [958,959]" dest="): ) [958,959]"/>
+  <match src="comment: 	
+	 * copy.
+	 */ [659,743]" dest="comment: 	
+	 * copy.
+	 */ [659,743]"/>
+  <match src="compound_statement [145,3786]" dest="compound_statement [145,4056]"/>
+  <match src="-&gt;: -&gt; [1135,1137]" dest="-&gt;: -&gt; [1135,1137]"/>
+  <match src=",: , [109,110]" dest=",: , [109,110]"/>
+  <match src="identifier: SCTP_ADDR6_ALLOWED [1167,1185]" dest="identifier: SCTP_ADDR6_ALLOWED [1167,1185]"/>
+  <match src=";: ; [655,656]" dest=";: ; [655,656]"/>
+  <match src=",: , [355,356]" dest=",: , [355,356]"/>
+  <match src="assignment_expression [745,762]" dest="assignment_expression [745,762]"/>
+  <match src="struct: struct [79,85]" dest="struct: struct [79,85]"/>
+  <match src="|=: |= [3700,3702]" dest="|=: |= [3970,3972]"/>
+  <match src="field_identifier: pd_mode [2262,2269]" dest="field_identifier: pd_mode [2272,2279]"/>
+  <match src="field_identifier: asoc [2656,2660]" dest="field_identifier: asoc [2666,2670]"/>
+  <match src="field_expression [912,937]" dest="field_expression [912,937]"/>
+  <match src="argument_list [1333,1443]" dest="argument_list [1333,1443]"/>
+  <match src="comment: 	
+	 * endpoint so that we can handle restarts properly
+	 */ [990,1112]" dest="comment: 	
+	 * endpoint so that we can handle restarts properly
+	 */ [990,1112]"/>
+  <match src="expression_statement [2677,2698]" dest="expression_statement [2687,2713]"/>
+  <match src="identifier: type [3150,3154]" dest="identifier: type [3420,3424]"/>
+  <match src=".: . [1266,1267]" dest=".: . [1266,1267]"/>
+  <match src="field_identifier: sk_receive_queue [2443,2459]" dest="field_identifier: sk_receive_queue [2453,2469]"/>
+  <match src="expression_statement [1736,1780]" dest="expression_statement [1741,1785]"/>
+  <match src="(: ( [2577,2578]" dest="(: ( [2587,2588]"/>
+  <match src="(: ( [1333,1334]" dest="(: ( [1333,1334]"/>
+  <match src=";: ; [577,578]" dest=";: ; [577,578]"/>
+  <match src="comment: 	
+	 * is called, set RCV_SHUTDOWN flag.
+	 */ [3509,3620]" dest="comment: 	
+	 * is called, set RCV_SHUTDOWN flag.
+	 */ [3779,3890]"/>
+  <match src="-&gt;: -&gt; [1808,1810]" dest="-&gt;: -&gt; [1813,1815]"/>
+  <match src="assignment_expression [2612,2639]" dest="assignment_expression [2622,2649]"/>
+  <match src="): ) [3677,3678]" dest="): ) [3947,3948]"/>
+  <match src="-&gt;: -&gt; [509,511]" dest="-&gt;: -&gt; [509,511]"/>
+  <match src="assignment_expression [2193,2238]" dest="assignment_expression [2203,2248]"/>
+  <match src="call_expression [618,655]" dest="call_expression [618,655]"/>
+  <match src="binary_expression [1118,1155]" dest="binary_expression [1118,1155]"/>
+  <match src="identifier: event [2649,2654]" dest="identifier: event [2659,2664]"/>
+  <match src=";: ; [2697,2698]" dest=";: ; [2712,2713]"/>
+  <match src="&amp;: &amp; [2173,2174]" dest="&amp;: &amp; [2183,2184]"/>
+  <match src="field_identifier: peer [1262,1266]" dest="field_identifier: peer [1262,1266]"/>
+  <match src="=: = [755,756]" dest="=: = [755,756]"/>
+  <match src="call_expression [1655,1674]" dest="call_expression [1655,1674]"/>
+  <match src="expression_statement [1283,1312]" dest="expression_statement [1283,1312]"/>
+  <match src="field_identifier: ipv4_address [1204,1216]" dest="field_identifier: ipv4_address [1204,1216]"/>
+  <match src="): ) [2773,2774]" dest="): ) [2788,2789]"/>
+  <match src="init_declarator [315,333]" dest="init_declarator [315,333]"/>
+  <match src="-&gt;: -&gt; [1760,1762]" dest="-&gt;: -&gt; [1765,1767]"/>
+  <match src="identifier: type [139,143]" dest="identifier: type [139,143]"/>
+  <match src="field_identifier: pd_mode [2375,2382]" dest="field_identifier: pd_mode [2385,2392]"/>
+  <match src="field_identifier: sk [1142,1144]" dest="field_identifier: sk [1142,1144]"/>
+  <match src="pointer_expression [2722,2738]" dest="pointer_expression [2737,2753]"/>
+  <match src="identifier: sctp_sk [912,919]" dest="identifier: sctp_sk [912,919]"/>
+  <match src="identifier: sctp_lock_sock [3449,3463]" dest="identifier: sctp_lock_sock [3719,3733]"/>
+  <match src="assignment_expression [1159,1185]" dest="assignment_expression [1159,1185]"/>
+  <match src="expression_statement [2427,2460]" dest="expression_statement [2437,2470]"/>
+  <match src="identifier: oldsk [649,654]" dest="identifier: oldsk [649,654]"/>
+  <match src="): ) [1442,1443]" dest="): ) [1442,1443]"/>
+  <match src="}: } [2823,2824]" dest="}: } [2843,2844]"/>
+  <match src="type_identifier: sctp_socket_type_t [120,138]" dest="type_identifier: sctp_socket_type_t [120,138]"/>
+  <match src="identifier: skb [1858,1861]" dest="identifier: skb [1868,1871]"/>
+  <match src="field_identifier: ulpq [2226,2230]" dest="field_identifier: ulpq [2236,2240]"/>
+  <match src="assignment_expression [2389,2413]" dest="assignment_expression [2399,2423]"/>
+  <match src="assignment_expression [1647,1674]" dest="assignment_expression [1647,1674]"/>
+  <match src="struct_specifier [234,257]" dest="struct_specifier [234,257]"/>
+  <match src="identifier: sctp_clear_pd [2935,2948]" dest="identifier: sctp_clear_pd [2955,2968]"/>
+  <match src="field_expression [561,577]" dest="field_expression [561,577]"/>
+  <match src="field_expression [2584,2599]" dest="field_expression [2594,2609]"/>
+  <match src="(: ( [1857,1858]" dest="(: ( [1867,1868]"/>
+  <match src="argument_list [952,959]" dest="argument_list [952,959]"/>
+  <match src="identifier: RCV_SHUTDOWN [3703,3715]" dest="identifier: RCV_SHUTDOWN [3973,3985]"/>
+  <match src="if_statement [1114,1186]" dest="if_statement [1114,1186]"/>
+  <match src="-&gt;: -&gt; [566,568]" dest="-&gt;: -&gt; [566,568]"/>
+  <match src="identifier: assoc [2363,2368]" dest="identifier: assoc [2373,2378]"/>
+  <match src="identifier: assoc [1255,1260]" dest="identifier: assoc [1255,1260]"/>
+  <match src="field_expression [523,539]" dest="field_expression [523,539]"/>
+  <match src="field_expression [1335,1360]" dest="field_expression [1335,1360]"/>
+  <match src="field_identifier: base [1382,1386]" dest="field_identifier: base [1382,1386]"/>
+  <match src="field_identifier: sk_rcvbuf [549,558]" dest="field_identifier: sk_rcvbuf [549,558]"/>
+  <match src="expression_statement [3449,3471]" dest="expression_statement [3719,3741]"/>
+  <match src="identifier: newsk [2436,2441]" dest="identifier: newsk [2446,2451]"/>
+  <match src="(: ( [1801,1802]" dest="(: ( [1806,1807]"/>
+  <match src="argument_list [3636,3651]" dest="argument_list [3906,3921]"/>
+  <match src="expression_statement [1220,1249]" dest="expression_statement [1220,1249]"/>
+  <match src=",: , [647,648]" dest=",: , [647,648]"/>
+  <match src="identifier: skb [2801,2804]" dest="identifier: skb [2821,2824]"/>
+  <match src="(: ( [2692,2693]" dest="(: ( [2707,2708]"/>
+  <match src="field_expression [2219,2238]" dest="field_expression [2229,2248]"/>
+  <match src="field_expression [2246,2269]" dest="field_expression [2256,2279]"/>
+  <match src="identifier: newsp [3136,3141]" dest="identifier: newsp [3406,3411]"/>
+  <match src=",: , [1423,1424]" dest=",: , [1423,1424]"/>
+  <match src="call_expression [174,188]" dest="call_expression [174,188]"/>
+  <match src="struct_specifier [2275,2294]" dest="struct_specifier [2285,2304]"/>
+  <match src="-&gt;: -&gt; [1688,1690]" dest="-&gt;: -&gt; [1688,1690]"/>
+  <match src="): ) [925,926]" dest="): ) [925,926]"/>
+  <match src="identifier: newsk [63,68]" dest="identifier: newsk [63,68]"/>
+  <match src="declaration [148,189]" dest="declaration [148,189]"/>
+  <match src=";: ; [1869,1870]" dest=";: ; [1879,1880]"/>
+  <match src="): ) [2189,2190]" dest="): ) [2199,2200]"/>
+  <match src="identifier: __skb_unlink [1736,1748]" dest="identifier: __skb_unlink [1741,1753]"/>
+  <match src="identifier: sctp_sk [217,224]" dest="identifier: sctp_sk [217,224]"/>
+  <match src="-&gt;: -&gt; [2179,2181]" dest="-&gt;: -&gt; [2189,2191]"/>
+  <match src="identifier: SCTP_ADDR6_PEERSUPP [1292,1311]" dest="identifier: SCTP_ADDR6_PEERSUPP [1292,1311]"/>
+  <match src="identifier: event [386,391]" dest="identifier: event [386,391]"/>
+  <match src=",: , [1609,1610]" dest=",: , [1609,1610]"/>
+  <match src="argument_list [641,655]" dest="argument_list [641,655]"/>
+  <match src="identifier: __skb_unlink [2704,2716]" dest="identifier: __skb_unlink [2719,2731]"/>
+  <match src="call_expression [2935,2955]" dest="call_expression [2955,2975]"/>
+  <match src="): ) [187,188]" dest="): ) [187,188]"/>
+  <match src="if_statement [2359,2460]" dest="if_statement [2369,2470]"/>
+  <match src="field_expression [2174,2189]" dest="field_expression [2184,2199]"/>
+  <match src="expression_statement [765,784]" dest="expression_statement [765,784]"/>
+  <match src="comment: 	
+	 * delivery.   Three cases:
+	 * 1) No partial deliver;  no work.
+	 * 2) Peeling off partial delivery; keep pd_lobby in new pd_lobby.
+	 * 3) Peeling off non-partial delivery; move pd_lobby to receive_queue.
+	 */ [1883,2151]" dest="comment: 	
+	 * delivery.   Three cases:
+	 * 1) No partial deliver;  no work.
+	 * 2) Peeling off partial delivery; keep pd_lobby in new pd_lobby.
+	 * 3) Peeling off non-partial delivery; move pd_lobby to receive_queue.
+	 */ [1893,2161]"/>
+  <match src="-&gt;: -&gt; [860,862]" dest="-&gt;: -&gt; [860,862]"/>
+  <match src="(: ( [3776,3777]" dest="(: ( [4046,4047]"/>
+  <match src="declaration [394,408]" dest="declaration [394,408]"/>
+  <match src="identifier: newsk [920,925]" dest="identifier: newsk [920,925]"/>
+  <match src="identifier: sk_add_bind_node [874,890]" dest="identifier: sk_add_bind_node [874,890]"/>
+  <match src="(: ( [2910,2911]" dest="(: ( [2930,2931]"/>
+  <match src="field_expression [2723,2738]" dest="field_expression [2738,2753]"/>
+  <match src="field_identifier: sk_sndbuf [530,539]" dest="field_identifier: sk_sndbuf [530,539]"/>
+  <match src="call_expression [2780,2812]" dest="call_expression [2795,2832]"/>
+  <match src="): ) [980,981]" dest="): ) [980,981]"/>
+  <match src="if: if [1251,1253]" dest="if: if [1251,1253]"/>
+  <match src="): ) [1155,1156]" dest="): ) [1155,1156]"/>
+  <match src=";: ; [2301,2302]" dest=";: ; [2311,2312]"/>
+  <match src="}: } [2961,2962]" dest="}: } [2981,2982]"/>
+  <match src="identifier: sctp_state [3626,3636]" dest="identifier: sctp_state [3896,3906]"/>
+  <match src="(: ( [2172,2173]" dest="(: ( [2182,2183]"/>
+  <match src="expression_statement [2704,2740]" dest="expression_statement [2719,2755]"/>
+  <match src="call_expression [1837,1869]" dest="call_expression [1842,1879]"/>
+  <match src="identifier: sctp_sk [2193,2200]" dest="identifier: sctp_sk [2203,2210]"/>
+  <match src="call_expression [1710,1730]" dest="call_expression [1710,1735]"/>
+  <match src="if: if [2242,2244]" dest="if: if [2252,2254]"/>
+  <match src="type_identifier: sk_buff [343,350]" dest="type_identifier: sk_buff [343,350]"/>
+  <match src="field_identifier: ep [331,333]" dest="field_identifier: ep [331,333]"/>
+  <match src="): ) [3676,3677]" dest="): ) [3946,3947]"/>
+  <match src="field_expression [1255,1279]" dest="field_expression [1255,1279]"/>
+  <match src="identifier: skb [1670,1673]" dest="identifier: skb [1670,1673]"/>
+  <match src="expression_statement [2389,2414]" dest="expression_statement [2399,2424]"/>
+  <match src="(: ( [1725,1726]" dest="(: ( [1730,1731]"/>
+  <match src="field_expression [1335,1350]" dest="field_expression [1335,1350]"/>
+  <match src="-&gt;: -&gt; [1617,1619]" dest="-&gt;: -&gt; [1617,1619]"/>
+  <match src="-&gt;: -&gt; [1144,1146]" dest="-&gt;: -&gt; [1144,1146]"/>
+  <match src="struct: struct [364,370]" dest="struct: struct [364,370]"/>
+  <match src="argument_list [1669,1674]" dest="argument_list [1669,1674]"/>
+  <match src=".: . [1141,1142]" dest=".: . [1141,1142]"/>
+  <match src=",: , [2581,2582]" dest=",: , [2591,2592]"/>
+  <match src="identifier: sctp_sock_migrate [12,29]" dest="identifier: sctp_sock_migrate [12,29]"/>
+  <match src="type_identifier: sock [57,61]" dest="type_identifier: sock [57,61]"/>
+  <match src="expression_statement [504,540]" dest="expression_statement [504,540]"/>
+  <match src="identifier: skb [2578,2581]" dest="identifier: skb [2588,2591]"/>
+  <match src="struct_specifier [191,207]" dest="struct_specifier [191,207]"/>
+  <match src=".: . [1350,1351]" dest=".: . [1350,1351]"/>
+  <match src="-&gt;: -&gt; [1380,1382]" dest="-&gt;: -&gt; [1380,1382]"/>
+  <match src="(: ( [1682,1683]" dest="(: ( [1682,1683]"/>
+  <match src="): ) [1868,1869]" dest="): ) [1878,1879]"/>
+  <match src="(: ( [919,920]" dest="(: ( [919,920]"/>
+  <match src="): ) [3650,3651]" dest="): ) [3920,3921]"/>
+  <match src="==: == [1127,1129]" dest="==: == [1127,1129]"/>
+  <match src="identifier: flags [1283,1288]" dest="identifier: flags [1283,1288]"/>
+  <match src="argument_list [2716,2739]" dest="argument_list [2731,2754]"/>
+  <match src="identifier: flags [1220,1225]" dest="identifier: flags [1220,1225]"/>
+  <match src="-&gt;: -&gt; [2441,2443]" dest="-&gt;: -&gt; [2451,2453]"/>
+  <match src="(: ( [181,182]" dest="(: ( [181,182]"/>
+  <match src="field_identifier: sk_sndbuf [511,520]" dest="field_identifier: sk_sndbuf [511,520]"/>
+  <match src="identifier: newsk [3777,3782]" dest="identifier: newsk [4047,4052]"/>
+  <match src="pointer_declarator [351,355]" dest="pointer_declarator [351,355]"/>
+  <match src="field_identifier: ep [752,754]" dest="field_identifier: ep [752,754]"/>
+  <match src="identifier: skb [1828,1831]" dest="identifier: skb [1833,1836]"/>
+  <match src="identifier: oldsp [2584,2589]" dest="identifier: oldsp [2594,2599]"/>
+  <match src="identifier: assoc [1192,1197]" dest="identifier: assoc [1192,1197]"/>
+  <match src="storage_class_specifier [0,6]" dest="storage_class_specifier [0,6]"/>
+  <match src="assignment_expression [3136,3154]" dest="assignment_expression [3406,3424]"/>
+  <match src="field_expression [2363,2382]" dest="field_expression [2373,2392]"/>
+  <match src="binary_expression [2649,2669]" dest="binary_expression [2659,2679]"/>
+  <match src="identifier: newsk [3464,3469]" dest="identifier: newsk [3734,3739]"/>
+  <match src="): ) [1703,1704]" dest="): ) [1703,1704]"/>
+  <match src="field_expression [2193,2216]" dest="field_expression [2203,2226]"/>
+  <match src="init_declarator [398,407]" dest="init_declarator [398,407]"/>
+  <match src=".: . [2922,2923]" dest=".: . [2942,2943]"/>
+  <match src=",: , [2768,2769]" dest=",: , [2783,2784]"/>
+  <match src="identifier: SCTP_SCOPE_GLOBAL [1406,1423]" dest="identifier: SCTP_SCOPE_GLOBAL [1406,1423]"/>
+  <match src="(: ( [1748,1749]" dest="(: ( [1753,1754]"/>
+  <match src="pointer_expression [1334,1360]" dest="pointer_expression [1334,1360]"/>
+  <match src="-&gt;: -&gt; [1344,1346]" dest="-&gt;: -&gt; [1344,1346]"/>
+  <match src="field_expression [745,754]" dest="field_expression [745,754]"/>
+  <match src="(: ( [1669,1670]" dest="(: ( [1669,1670]"/>
+  <match src="-&gt;: -&gt; [1340,1342]" dest="-&gt;: -&gt; [1340,1342]"/>
+  <match src="identifier: __skb_queue_tail [2746,2762]" dest="identifier: __skb_queue_tail [2761,2777]"/>
+  <match src="parenthesized_expression [1117,1156]" dest="parenthesized_expression [1117,1156]"/>
+  <match src="field_identifier: num [961,964]" dest="field_identifier: num [961,964]"/>
+  <match src="identifier: oldsk [854,859]" dest="identifier: oldsk [854,859]"/>
+  <match src="identifier: queue [2763,2768]" dest="identifier: queue [2778,2783]"/>
+  <match src="declaration [234,262]" dest="declaration [234,262]"/>
+  <match src="identifier: sctp_release_sock [3759,3776]" dest="identifier: sctp_release_sock [4029,4046]"/>
+  <match src="assignment_expression [542,577]" dest="assignment_expression [542,577]"/>
+  <match src=",: , [3671,3672]" dest=",: , [3941,3942]"/>
+  <match src="{: { [2606,2607]" dest="{: { [2616,2617]"/>
+  <match src=";: ; [2739,2740]" dest=";: ; [2754,2755]"/>
+  <match src="field_expression [1192,1203]" dest="field_expression [1192,1203]"/>
+  <match src="=: = [3735,3736]" dest="=: = [4005,4006]"/>
+  <match src="identifier: newsk [891,896]" dest="identifier: newsk [891,896]"/>
+  <match src="function_declarator [12,144]" dest="function_declarator [12,144]"/>
+  <match src="): ) [3504,3505]" dest="): ) [3774,3775]"/>
+  <match src="(: ( [3665,3666]" dest="(: ( [3935,3936]"/>
+  <match src="field_expression [765,776]" dest="field_expression [765,776]"/>
+  <match src="): ) [1673,1674]" dest="): ) [1673,1674]"/>
+  <match src=";: ; [871,872]" dest=";: ; [871,872]"/>
+  <match src="parenthesized_expression [1191,1217]" dest="parenthesized_expression [1191,1217]"/>
+  <match src="(: ( [2800,2801]" dest="(: ( [2820,2821]"/>
+  <match src="expression_statement [1710,1731]" dest="expression_statement [1710,1736]"/>
+  <match src="(: ( [2762,2763]" dest="(: ( [2777,2778]"/>
+  <match src="identifier: oldsk [975,980]" dest="identifier: oldsk [975,980]"/>
+  <match src="(: ( [1254,1255]" dest="(: ( [1254,1255]"/>
+  <match src="declaration [191,232]" dest="declaration [191,232]"/>
+  <match src="field_expression [2911,2930]" dest="field_expression [2931,2950]"/>
+  <match src=";: ; [2774,2775]" dest=";: ; [2789,2790]"/>
+  <match src="identifier: newep [757,762]" dest="identifier: newep [757,762]"/>
+  <match src=".: . [1386,1387]" dest=".: . [1386,1387]"/>
+  <match src="identifier: pp [259,261]" dest="identifier: pp [259,261]"/>
+  <match src="identifier: skb [1606,1609]" dest="identifier: skb [1606,1609]"/>
+  <match src="pointer_expression [2583,2599]" dest="pointer_expression [2593,2609]"/>
+  <match src="identifier: assoc [2219,2224]" dest="identifier: assoc [2229,2234]"/>
+  <match src="call_expression [945,959]" dest="call_expression [945,959]"/>
+  <match src=";: ; [361,362]" dest=";: ; [361,362]"/>
+  <match src="field_expression [2911,2922]" dest="field_expression [2931,2942]"/>
+  <match src="argument_list [1605,1641]" dest="argument_list [1605,1641]"/>
+  <match src="&amp;: &amp; [1611,1612]" dest="&amp;: &amp; [1611,1612]"/>
+  <match src="identifier: newep [316,321]" dest="identifier: newep [316,321]"/>
+  <match src="struct_specifier [148,164]" dest="struct_specifier [148,164]"/>
+  <match src="==: == [1695,1697]" dest="==: == [1695,1697]"/>
+  <match src="identifier: oldsk [1612,1617]" dest="identifier: oldsk [1612,1617]"/>
+  <match src="expression_statement [1588,1641]" dest="expression_statement [1588,1641]"/>
+  <match src="): ) [2930,2931]" dest="): ) [2950,2951]"/>
+  <match src="=: = [1165,1166]" dest="=: = [1165,1166]"/>
+  <match src="identifier: sctp_style [3655,3665]" dest="identifier: sctp_style [3925,3935]"/>
+  <match src="comment: /* Brute force copy old sctp opt. */ [580,616]" dest="comment: /* Brute force copy old sctp opt. */ [580,616]"/>
+  <match src="argument_list [1801,1832]" dest="argument_list [1806,1837]"/>
+  <match src="-&gt;: -&gt; [3686,3688]" dest="-&gt;: -&gt; [3956,3958]"/>
+  <match src="(: ( [890,891]" dest="(: ( [890,891]"/>
+  <match src="identifier: newsp [1335,1340]" dest="identifier: newsp [1335,1340]"/>
+  <match src="field_expression [1130,1144]" dest="field_expression [1130,1144]"/>
+  <match src="=: = [2217,2218]" dest="=: = [2227,2228]"/>
+  <match src="identifier: oldsk [523,528]" dest="identifier: oldsk [523,528]"/>
+  <match src="call_expression [3655,3677]" dest="call_expression [3925,3947]"/>
+  <match src="identifier: skb [2717,2720]" dest="identifier: skb [2732,2735]"/>
+  <match src="init_declarator [208,231]" dest="init_declarator [208,231]"/>
+  <match src="identifier: oldsk [2949,2954]" dest="identifier: oldsk [2969,2974]"/>
+  <match src=";: ; [2413,2414]" dest=";: ; [2423,2424]"/>
+  <match src="identifier: sctp_skb_set_owner_r [1837,1857]" dest="identifier: sctp_skb_set_owner_r_frag [1842,1867]"/>
+  <match src="translation_unit [0,3786]" dest="translation_unit [0,4056]"/>
+  <match src="-&gt;: -&gt; [3141,3143]" dest="-&gt;: -&gt; [3411,3413]"/>
+  <match src="argument_list [2200,2207]" dest="argument_list [2210,2217]"/>
+  <match src="field_expression [1612,1635]" dest="field_expression [1612,1635]"/>
+  <match src="if: if [2907,2909]" dest="if: if [2927,2929]"/>
+  <match src=";: ; [539,540]" dest=";: ; [539,540]"/>
+  <match src="pointer_expression [2397,2413]" dest="pointer_expression [2407,2423]"/>
+  <match src="primitive_type: int [394,397]" dest="primitive_type: int [394,397]"/>
+  <match src=";: ; [1779,1780]" dest=";: ; [1784,1785]"/>
+  <match src="if: if [2645,2647]" dest="if: if [2655,2657]"/>
+  <match src="identifier: flags [1159,1164]" dest="identifier: flags [1159,1164]"/>
+  <match src="(: ( [29,30]" dest="(: ( [29,30]"/>
+  <match src="comment: /* Decide which queue to move pd_lobby skbs to. */ [2306,2356]" dest="comment: /* Decide which queue to move pd_lobby skbs to. */ [2316,2366]"/>
+  <match src="argument_list [2762,2774]" dest="argument_list [2777,2789]"/>
+  <match src="field_identifier: bind_addr [1351,1360]" dest="field_identifier: bind_addr [1351,1360]"/>
+  <match src="|=: |= [1289,1291]" dest="|=: |= [1289,1291]"/>
+  <match src="argument_list [224,231]" dest="argument_list [224,231]"/>
+  <match src="type_identifier: sctp_sock [155,164]" dest="type_identifier: sctp_sock [155,164]"/>
+  <match src=",: , [3642,3643]" dest=",: , [3912,3913]"/>
+  <match src="expression_statement [2935,2956]" dest="expression_statement [2955,2976]"/>
+  <match src="call_expression [3449,3470]" dest="call_expression [3719,3740]"/>
+  <match src="=: = [2395,2396]" dest="=: = [2405,2406]"/>
+  <match src=";: ; [1443,1444]" dest=";: ; [1443,1444]"/>
+  <match src="identifier: newsk [2201,2206]" dest="identifier: newsk [2211,2216]"/>
+  <match src="field_expression [1683,1694]" dest="field_expression [1683,1694]"/>
+  <match src="(: ( [3636,3637]" dest="(: ( [3906,3907]"/>
+  <match src=";: ; [391,392]" dest=";: ; [391,392]"/>
+  <match src="field_expression [846,871]" dest="field_expression [846,871]"/>
+  <match src="-&gt;: -&gt; [329,331]" dest="-&gt;: -&gt; [329,331]"/>
+  <match src=";: ; [1730,1731]" dest=";: ; [1735,1736]"/>
+  <match src="call_expression [1785,1832]" dest="call_expression [1790,1837]"/>
+  <match src="identifier: oldsk [2254,2259]" dest="identifier: oldsk [2264,2269]"/>
+  <match src="): ) [2259,2260]" dest="): ) [2269,2270]"/>
+  <match src="identifier: newsk [225,230]" dest="identifier: newsk [225,230]"/>
+  <match src="struct_specifier [364,384]" dest="struct_specifier [364,384]"/>
+  <match src="expression_statement [1314,1444]" dest="expression_statement [1314,1444]"/>
+  <match src="identifier: newsk [1803,1808]" dest="identifier: newsk [1808,1813]"/>
+  <match src="argument_list [974,981]" dest="argument_list [974,981]"/>
+  <match src="identifier: skb [2635,2638]" dest="identifier: skb [2645,2648]"/>
+  <match src="identifier: SCTP_ADDR4_PEERSUPP [1229,1248]" dest="identifier: SCTP_ADDR4_PEERSUPP [1229,1248]"/>
+  <match src="field_identifier: sk_receive_queue [1762,1778]" dest="field_identifier: sk_receive_queue [1767,1783]"/>
+  <match src="}: } [2417,2418]" dest="}: } [2427,2428]"/>
+  <match src="call_expression [1736,1779]" dest="call_expression [1741,1784]"/>
+  <match src="field_identifier: pd_mode [2923,2930]" dest="field_identifier: pd_mode [2943,2950]"/>
+  <match src="compound_statement [1705,1875]" dest="compound_statement [1705,1885]"/>
+  <match src="field_expression [1371,1380]" dest="field_expression [1371,1380]"/>
+  <match src="pointer_expression [2435,2459]" dest="pointer_expression [2445,2469]"/>
+  <match src="-&gt;: -&gt; [901,903]" dest="-&gt;: -&gt; [901,903]"/>
+  <match src="field_identifier: pd_lobby [2591,2599]" dest="field_identifier: pd_lobby [2601,2609]"/>
+  <match src="type_identifier: sctp_association [86,102]" dest="type_identifier: sctp_association [86,102]"/>
+  <match src=";: ; [3756,3757]" dest=";: ; [4026,4027]"/>
+  <match src="{: { [2671,2672]" dest="{: { [2681,2682]"/>
+  <match src="compound_statement [2271,2962]" dest="compound_statement [2281,2982]"/>
+  <match src=",: , [48,49]" dest=",: , [48,49]"/>
+  <match src="pointer_declarator [165,171]" dest="pointer_declarator [165,171]"/>
+  <match src="identifier: sctp_sk [2246,2253]" dest="identifier: sctp_sk [2256,2263]"/>
+  <match src="*: * [258,259]" dest="*: * [258,259]"/>
+  <match src="number_literal: 0 [406,407]" dest="number_literal: 0 [406,407]"/>
+  <match src=".: . [2374,2375]" dest=".: . [2384,2385]"/>
+  <match src="identifier: queue [2389,2394]" dest="identifier: queue [2399,2404]"/>
+  <match src="else: else [2419,2423]" dest="else: else [2429,2433]"/>
+  <match src="-&gt;: -&gt; [2589,2591]" dest="-&gt;: -&gt; [2599,2601]"/>
+  <match src=";: ; [942,943]" dest=";: ; [942,943]"/>
+  <match src="assignment_expression [841,871]" dest="assignment_expression [841,871]"/>
+  <match src="assignment_expression [912,942]" dest="assignment_expression [912,942]"/>
+  <match src="identifier: newsk [953,958]" dest="identifier: newsk [953,958]"/>
+  <match src="identifier: oldsk [43,48]" dest="identifier: oldsk [43,48]"/>
+  <match src="field_identifier: sk_receive_queue [1810,1826]" dest="field_identifier: sk_receive_queue [1815,1831]"/>
+  <match src="identifier: sctp_bind_addr_copy [1314,1333]" dest="identifier: sctp_bind_addr_copy [1314,1333]"/>
+  <match src="-&gt;: -&gt; [2224,2226]" dest="-&gt;: -&gt; [2234,2236]"/>
+  <match src="&amp;: &amp; [1802,1803]" dest="&amp;: &amp; [1807,1808]"/>
+  <match src="}: } [1878,1879]" dest="}: } [1888,1889]"/>
+  <match src="field_identifier: sk_receive_queue [1619,1635]" dest="field_identifier: sk_receive_queue [1619,1635]"/>
+  <match src="field_identifier: asoc [1690,1694]" dest="field_identifier: asoc [1690,1694]"/>
+  <match src="identifier: skb_queue_head_init [2153,2172]" dest="identifier: skb_queue_head_init [2163,2182]"/>
+  <match src=",: , [3497,3498]" dest=",: , [3767,3768]"/>
+  <match src="pointer_declarator [258,261]" dest="pointer_declarator [258,261]"/>
+  <match src="): ) [1729,1730]" dest="): ) [1734,1735]"/>
+  <match src="call_expression [2560,2605]" dest="call_expression [2570,2615]"/>
+  <match src=";: ; [2238,2239]" dest=";: ; [2248,2249]"/>
+  <match src="): ) [654,655]" dest="): ) [654,655]"/>
+  <match src="identifier: sctp_skb2event [1655,1669]" dest="identifier: sctp_skb2event [1655,1669]"/>
+  <match src="identifier: tmp [1637,1640]" dest="identifier: tmp [1637,1640]"/>
+  <match src="argument_list [3491,3505]" dest="argument_list [3761,3775]"/>
+  <match src="identifier: oldsk [561,566]" dest="identifier: oldsk [561,566]"/>
+  <match src="-&gt;: -&gt; [2207,2209]" dest="-&gt;: -&gt; [2217,2219]"/>
+</matches>
+<actions>
+  <insert-tree tree="expression_statement [2986,3033]" parent="compound_statement [145,3786]" at="34"/>
+  <insert-tree tree="compound_statement [3034,3108]" parent="compound_statement [145,3786]" at="35"/>
+  <insert-tree tree="expression_statement [3111,3158]" parent="compound_statement [145,3786]" at="36"/>
+  <insert-tree tree="compound_statement [3159,3233]" parent="compound_statement [145,3786]" at="37"/>
+  <update-node tree="identifier: sctp_sock_rfree [1710,1725]" label="sctp_sock_rfree_frag"/>
+  <update-node tree="identifier: sctp_skb_set_owner_r [1837,1857]" label="sctp_skb_set_owner_r_frag"/>
+  <update-node tree="identifier: sctp_sock_rfree [2677,2692]" label="sctp_sock_rfree_frag"/>
+  <update-node tree="identifier: sctp_skb_set_owner_r [2780,2800]" label="sctp_skb_set_owner_r_frag"/>
+</actions>

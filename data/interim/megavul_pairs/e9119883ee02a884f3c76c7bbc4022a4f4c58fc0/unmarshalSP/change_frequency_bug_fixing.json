@@ -1,0 +1,114 @@
+{
+  "frequency": [
+    {
+      "c": "LocalVariable",
+      "f": "2"
+    },
+    {
+      "c": "Invocation",
+      "f": "2"
+    },
+    {
+      "c": "ConstructorCall",
+      "f": "2"
+    },
+    {
+      "c": "VariableRead",
+      "f": "1"
+    },
+    {
+      "c": "TypeReference",
+      "f": "1"
+    },
+    {
+      "c": "Try",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "insert-node_Invocation_Block",
+      "f": "2"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "2"
+    },
+    {
+      "c": "delete-node_TypeReference_CatchVariable",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_Try_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_ConstructorCall_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_VariableRead_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_ConstructorCall_Invocation",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "LocalVariable",
+      "f": "0.2222222222222222"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.2222222222222222"
+    },
+    {
+      "c": "ConstructorCall",
+      "f": "0.2222222222222222"
+    },
+    {
+      "c": "VariableRead",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "TypeReference",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "Try",
+      "f": "0.1111111111111111"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "insert-node_Invocation_Block",
+      "f": "0.2222222222222222"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "0.2222222222222222"
+    },
+    {
+      "c": "delete-node_TypeReference_CatchVariable",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "insert-node_Try_Block",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "update-node_ConstructorCall_Invocation",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "insert-node_VariableRead_Invocation",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "move-tree_ConstructorCall_Invocation",
+      "f": "0.1111111111111111"
+    }
+  ]
+}

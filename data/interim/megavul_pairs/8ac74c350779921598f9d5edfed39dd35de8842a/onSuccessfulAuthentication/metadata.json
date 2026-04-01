@@ -1,0 +1,20 @@
+{
+    "id": "8ac74c350779921598f9d5edfed39dd35de8842a_onSuccessfulAuthentication_0",
+    "func_name": "onSuccessfulAuthentication",
+    "cve_id": "CVE-2014-2066",
+    "cwe_ids": [
+        "CWE-287"
+    ],
+    "commit_hash": "8ac74c350779921598f9d5edfed39dd35de8842a",
+    "parent_commit_hash": "5d57c855f3147bfc5e7fda9252317b428a700014",
+    "repo_name": "jenkinsci/jenkins",
+    "git_url": "https://github.com/jenkinsci/jenkins/commit/8ac74c350779921598f9d5edfed39dd35de8842a",
+    "file_path": "core/src/main/java/hudson/security/AuthenticationProcessingFilter2.java",
+    "file_name": "AuthenticationProcessingFilter2.java",
+    "commit_date": 1371123957,
+    "commit_msg": "[FIXED SECURITY-75] Invalidate session after login to avoid session fixation",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 6.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

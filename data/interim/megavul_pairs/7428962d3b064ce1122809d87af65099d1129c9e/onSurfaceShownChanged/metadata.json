@@ -1,0 +1,20 @@
+{
+    "id": "7428962d3b064ce1122809d87af65099d1129c9e_onSurfaceShownChanged_0",
+    "func_name": "onSurfaceShownChanged",
+    "cve_id": "CVE-2023-35674",
+    "cwe_ids": [
+        "CWE-Other"
+    ],
+    "commit_hash": "7428962d3b064ce1122809d87af65099d1129c9e",
+    "parent_commit_hash": "375227708b825b70a1b50f0feb0355036d0058fb",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/7428962d3b064ce1122809d87af65099d1129c9e",
+    "file_path": "services/core/java/com/android/server/wm/WindowState.java",
+    "file_name": "WindowState.java",
+    "commit_date": 1684801593,
+    "commit_msg": "Ignore virtual presentation windows - RESTRICT AUTOMERGE\n\nWindows of TYPE_PRESENTATION on virtual displays should not be counted\nas visible windows to determine if BAL is allowed.\n\nTest: manual test, atest BackgroundActivityLaunchTest\nBug: 264029851, 205130886\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:4c40b187cd5277c27d20758c675865bf89180c7a)\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:5bf9607bec3f1224158cfcff7dd91ac558b46c0f)\nMerged-In: I08b16ba1c155e951286ddc22019180cbd6334dfa\nChange-Id: I08b16ba1c155e951286ddc22019180cbd6334dfa\n",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 7.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

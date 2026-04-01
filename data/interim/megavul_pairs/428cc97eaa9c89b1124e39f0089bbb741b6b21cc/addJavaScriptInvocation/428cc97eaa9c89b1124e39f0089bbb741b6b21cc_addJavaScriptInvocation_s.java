@@ -1,0 +1,7 @@
+class addJavaScriptInvocation {
+public void addJavaScriptInvocation(
+            PendingJavaScriptInvocation invocation) {
+        session.checkHasLock();
+        pendingJsInvocations.add(invocation);
+    }
+}

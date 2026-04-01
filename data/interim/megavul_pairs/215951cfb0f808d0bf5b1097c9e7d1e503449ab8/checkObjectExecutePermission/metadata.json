@@ -1,0 +1,20 @@
+{
+    "id": "215951cfb0f808d0bf5b1097c9e7d1e503449ab8_checkObjectExecutePermission_0",
+    "func_name": "checkObjectExecutePermission",
+    "cve_id": "CVE-2022-24897",
+    "cwe_ids": [
+        "CWE-22"
+    ],
+    "commit_hash": "215951cfb0f808d0bf5b1097c9e7d1e503449ab8",
+    "parent_commit_hash": "75aadf3257c57c6ab62f7441b66f3cf3abddfdde",
+    "repo_name": "xwiki/xwiki-commons",
+    "git_url": "https://github.com/xwiki/xwiki-commons/commit/215951cfb0f808d0bf5b1097c9e7d1e503449ab8",
+    "file_path": "xwiki-commons-core/xwiki-commons-velocity/src/main/java/org/xwiki/velocity/introspection/SecureIntrospector.java",
+    "file_name": "SecureIntrospector.java",
+    "commit_date": 1609895502,
+    "commit_msg": "XWIKI-5168: Don't allow some methods in velocity introspector (#127)",
+    "cvss_vector": "AV:N/AC:M/Au:S/C:P/I:P/A:P",
+    "cvss_base_score": 6.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

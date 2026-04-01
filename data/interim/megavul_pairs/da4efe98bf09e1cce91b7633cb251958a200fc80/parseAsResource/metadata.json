@@ -1,0 +1,20 @@
+{
+    "id": "da4efe98bf09e1cce91b7633cb251958a200fc80_parseAsResource_2",
+    "func_name": "parseAsResource",
+    "cve_id": "CVE-2021-23792",
+    "cwe_ids": [
+        "CWE-611"
+    ],
+    "commit_hash": "da4efe98bf09e1cce91b7633cb251958a200fc80",
+    "parent_commit_hash": "6653f4a85d4d44eae25154373706c4e1350b45cc",
+    "repo_name": "haraldk/TwelveMonkeys",
+    "git_url": "https://github.com/haraldk/TwelveMonkeys/commit/da4efe98bf09e1cce91b7633cb251958a200fc80",
+    "file_path": "imageio/imageio-metadata/src/main/java/com/twelvemonkeys/imageio/metadata/xmp/XMPReader.java",
+    "file_name": "XMPReader.java",
+    "commit_date": 1639111265,
+    "commit_msg": "Avoid fetching external resources in XMPReader.",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

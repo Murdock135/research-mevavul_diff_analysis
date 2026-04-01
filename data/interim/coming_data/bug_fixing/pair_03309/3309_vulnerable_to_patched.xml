@@ -1,0 +1,910 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="if: if [2575,2577]" dest="if: if [2399,2401]"/>
+  <match src=",: , [1968,1969]" dest=",: , [1792,1793]"/>
+  <match src="(: ( [3842,3843]" dest="(: ( [3666,3667]"/>
+  <match src="goto: goto [1665,1669]" dest="goto: goto [1489,1493]"/>
+  <match src="expression_statement [3839,3908]" dest="expression_statement [3663,3732]"/>
+  <match src=",: , [319,320]" dest=",: , [319,320]"/>
+  <match src="NULL: NULL [591,595]" dest="NULL: NULL [565,569]"/>
+  <match src="null [554,558]" dest="null [1254,1258]"/>
+  <match src="}: } [3363,3364]" dest="}: } [3187,3188]"/>
+  <match src="comment: /* return 1 (failure) */ [2532,2556]" dest="comment: /* return 1 (failure) */ [2356,2380]"/>
+  <match src="identifier: settings_bOpenGPGCheck [3733,3755]" dest="identifier: settings_bOpenGPGCheck [3557,3579]"/>
+  <match src="compound_statement [2782,2940]" dest="compound_statement [2606,2764]"/>
+  <match src="pointer_declarator [1938,1947]" dest="pointer_declarator [1762,1771]"/>
+  <match src="call_expression [4667,4720]" dest="call_expression [4488,4541]"/>
+  <match src="update_expression [2002,2012]" dest="update_expression [1826,1836]"/>
+  <match src="identifier: component [4938,4947]" dest="identifier: component [4759,4768]"/>
+  <match src="identifier: dd_load_text_ext [807,823]" dest="identifier: dd_load_text_ext [781,797]"/>
+  <match src="(: ( [3625,3626]" dest="(: ( [3449,3450]"/>
+  <match src=",: , [844,845]" dest=",: , [818,819]"/>
+  <match src="&quot;: &quot; [3885,3886]" dest="&quot;: &quot; [3709,3710]"/>
+  <match src="identifier: pkg_name [4517,4525]" dest="identifier: pkg_name [4338,4346]"/>
+  <match src="unary_expression [2740,2768]" dest="unary_expression [2564,2592]"/>
+  <match src="&quot;: &quot; [1572,1573]" dest="&quot;: &quot; [1396,1397]"/>
+  <match src="NULL: NULL [630,634]" dest="NULL: NULL [604,608]"/>
+  <match src="identifier: basename [1939,1947]" dest="identifier: basename [1763,1771]"/>
+  <match src="&quot;: &quot; [2863,2864]" dest="&quot;: &quot; [2687,2688]"/>
+  <match src="NULL: NULL [554,558]" dest="NULL: NULL [1254,1258]"/>
+  <match src="call_expression [2462,2508]" dest="call_expression [2286,2332]"/>
+  <match src=";: ; [2335,2336]" dest=";: ; [2159,2160]"/>
+  <match src="): ) [4449,4450]" dest="): ) [4270,4271]"/>
+  <match src=",: , [4574,4575]" dest=",: , [4395,4396]"/>
+  <match src="(: ( [246,247]" dest="(: ( [246,247]"/>
+  <match src="identifier: dd [150,152]" dest="identifier: dd [150,152]"/>
+  <match src="): ) [5022,5023]" dest="): ) [4843,4844]"/>
+  <match src="identifier: pkg_name [4838,4846]" dest="identifier: pkg_name [4659,4667]"/>
+  <match src="{: { [2448,2449]" dest="{: { [2272,2273]"/>
+  <match src="comment: /*flags:*/ [4437,4447]" dest="comment: /*flags:*/ [4258,4268]"/>
+  <match src="function_definition [0,5215]" dest="function_definition [0,5017]"/>
+  <match src="assignment_expression [3336,3357]" dest="assignment_expression [3160,3181]"/>
+  <match src="): ) [5192,5193]" dest="): ) [4994,4995]"/>
+  <match src="!: ! [1445,1446]" dest="!: ! [1269,1270]"/>
+  <match src="argument_list [110,139]" dest="argument_list [110,139]"/>
+  <match src="(: ( [2803,2804]" dest="(: ( [2627,2628]"/>
+  <match src="goto: goto [2892,2896]" dest="goto: goto [2716,2720]"/>
+  <match src="argument_list [298,330]" dest="argument_list [298,330]"/>
+  <match src=";: ; [5193,5194]" dest=";: ; [4995,4996]"/>
+  <match src="string_content: Executable '%s' doesn't belong to any package [1714,1759]" dest="string_content: Executable '%s' doesn't belong to any package [1538,1583]"/>
+  <match src="compound_statement [2600,3292]" dest="compound_statement [2424,3116]"/>
+  <match src="{: { [1511,1512]" dest="{: { [1335,1336]"/>
+  <match src="(: ( [4679,4680]" dest="(: ( [4500,4501]"/>
+  <match src="&quot;: &quot; [384,385]" dest="&quot;: &quot; [384,385]"/>
+  <match src="compound_statement [3612,3723]" dest="compound_statement [3436,3547]"/>
+  <match src="): ) [3501,3502]" dest="): ) [3325,3326]"/>
+  <match src=",: , [4902,4903]" dest=",: , [4723,4724]"/>
+  <match src="argument_list [246,270]" dest="argument_list [246,270]"/>
+  <match src=";: ; [5093,5094]" dest=";: ; [4914,4915]"/>
+  <match src="}: } [3722,3723]" dest="}: } [3546,3547]"/>
+  <match src="string_content: kernel [322,328]" dest="string_content: kernel [322,328]"/>
+  <match src="&quot;: &quot; [1763,1764]" dest="&quot;: &quot; [1587,1588]"/>
+  <match src="argument_list [4421,4450]" dest="argument_list [4242,4271]"/>
+  <match src=",: , [375,376]" dest=",: , [375,376]"/>
+  <match src="string_content: kernel [378,384]" dest="string_content: kernel [378,384]"/>
+  <match src="}: } [2939,2940]" dest="}: } [2763,2764]"/>
+  <match src="field_identifier: p_version [4779,4788]" dest="field_identifier: p_version [4600,4609]"/>
+  <match src=";: ; [170,171]" dest=";: ; [170,171]"/>
+  <match src="argument_list [4742,4789]" dest="argument_list [4563,4610]"/>
+  <match src=";: ; [3424,3425]" dest=";: ; [3248,3249]"/>
+  <match src="): ) [4857,4858]" dest="): ) [4678,4679]"/>
+  <match src=";: ; [2052,2053]" dest=";: ; [1876,1877]"/>
+  <match src="identifier: settings_bProcessUnpackaged [2741,2768]" dest="identifier: settings_bProcessUnpackaged [2565,2592]"/>
+  <match src="-&gt;: -&gt; [4711,4713]" dest="-&gt;: -&gt; [4532,4534]"/>
+  <match src="identifier: log [3839,3842]" dest="identifier: log [3663,3666]"/>
+  <match src="init_declarator [182,229]" dest="init_declarator [182,229]"/>
+  <match src="identifier: dd [207,209]" dest="identifier: dd [207,209]"/>
+  <match src=";: ; [3326,3327]" dest=";: ; [3150,3151]"/>
+  <match src=";: ; [5071,5072]" dest=";: ; [4892,4893]"/>
+  <match src="(: ( [466,467]" dest="(: ( [466,467]"/>
+  <match src="type_identifier: pkg_envra [608,617]" dest="type_identifier: pkg_envra [582,591]"/>
+  <match src="(: ( [1473,1474]" dest="(: ( [1297,1298]"/>
+  <match src="string_content: Package:'%s' short:'%s' [3440,3463]" dest="string_content: Package:'%s' short:'%s' [3264,3287]"/>
+  <match src="struct: struct [2267,2273]" dest="struct: struct [2091,2097]"/>
+  <match src=";: ; [4657,4658]" dest=";: ; [4478,4479]"/>
+  <match src="type_identifier: pkg_envra [2274,2283]" dest="type_identifier: pkg_envra [2098,2107]"/>
+  <match src="unary_expression [3775,3815]" dest="unary_expression [3599,3639]"/>
+  <match src="primitive_type: char [509,513]" dest="primitive_type: char [509,513]"/>
+  <match src=";: ; [532,533]" dest=";: ; [532,533]"/>
+  <match src="identifier: component [4994,5003]" dest="identifier: component [4815,4824]"/>
+  <match src="call_expression [807,869]" dest="call_expression [781,843]"/>
+  <match src="string_content: Blacklisted executable '%s' [1287,1314]" dest="string_content: Blacklisted executable '%s' [1114,1141]"/>
+  <match src="identifier: dump_dir_name [4422,4435]" dest="identifier: dump_dir_name [4243,4256]"/>
+  <match src="NULL: NULL [658,662]" dest="NULL: NULL [632,636]"/>
+  <match src="identifier: free [418,422]" dest="identifier: free [418,422]"/>
+  <match src="expression_statement [2002,2013]" dest="expression_statement [1826,1837]"/>
+  <match src="{: { [3825,3826]" dest="{: { [3649,3650]"/>
+  <match src="}: } [1875,1876]" dest="}: } [1699,1700]"/>
+  <match src="identifier: executable [2497,2507]" dest="identifier: executable [2321,2331]"/>
+  <match src="init_declarator [1938,1974]" dest="init_declarator [1762,1798]"/>
+  <match src="): ) [228,229]" dest="): ) [228,229]"/>
+  <match src=",: , [4556,4557]" dest=",: , [4377,4378]"/>
+  <match src="compound_statement [276,457]" dest="compound_statement [276,457]"/>
+  <match src="comment: /* return 1 (failure) */ [3931,3955]" dest="comment: /* return 1 (failure) */ [3755,3779]"/>
+  <match src="identifier: DD_FAIL_QUIETLY_ENOENT [846,868]" dest="identifier: DD_FAIL_QUIETLY_ENOENT [820,842]"/>
+  <match src="): ) [2768,2769]" dest="): ) [2592,2593]"/>
+  <match src="identifier: log_info [1525,1533]" dest="identifier: log_info [1349,1357]"/>
+  <match src="): ) [4463,4464]" dest="): ) [4284,4285]"/>
+  <match src="argument_list [4553,4592]" dest="argument_list [4374,4413]"/>
+  <match src="!: ! [4460,4461]" dest="!: ! [4281,4282]"/>
+  <match src="identifier: dd_close [1212,1220]" dest="identifier: dd_close [1039,1047]"/>
+  <match src="identifier: dd [299,301]" dest="identifier: dd [299,301]"/>
+  <match src="identifier: dd_save_text [4602,4614]" dest="identifier: dd_save_text [4423,4435]"/>
+  <match src="call_expression [1950,1974]" dest="call_expression [1774,1798]"/>
+  <match src=",: , [3580,3581]" dest=",: , [3404,3405]"/>
+  <match src="statement_identifier: ret [1343,1346]" dest="statement_identifier: ret [1170,1173]"/>
+  <match src="identifier: executable [1255,1265]" dest="identifier: executable [1082,1092]"/>
+  <match src="statement_identifier: ret0 [3277,3281]" dest="statement_identifier: ret0 [3101,3105]"/>
+  <match src="field_expression [3407,3423]" dest="field_expression [3231,3247]"/>
+  <match src="identifier: dd [4970,4972]" dest="identifier: dd [4791,4793]"/>
+  <match src="string_literal [2804,2864]" dest="string_literal [2628,2688]"/>
+  <match src="if_statement [3771,3965]" dest="if_statement [3595,3789]"/>
+  <match src="identifier: FILENAME_PKG_RELEASE [4816,4836]" dest="identifier: FILENAME_PKG_RELEASE [4637,4657]"/>
+  <match src="call_expression [194,229]" dest="call_expression [194,229]"/>
+  <match src="identifier: dd [824,826]" dest="identifier: dd [798,800]"/>
+  <match src="identifier: free [5178,5182]" dest="identifier: free [4980,4984]"/>
+  <match src="type_identifier: GCompareFunc [3583,3595]" dest="type_identifier: GCompareFunc [3407,3419]"/>
+  <match src="identifier: dd_close [396,404]" dest="identifier: dd_close [396,404]"/>
+  <match src="primitive_type: char [483,487]" dest="primitive_type: char [483,487]"/>
+  <match src="): ) [270,271]" dest="): ) [270,271]"/>
+  <match src="call_expression [1235,1266]" dest="call_expression [1062,1093]"/>
+  <match src="char_literal [1970,1973]" dest="char_literal [1794,1797]"/>
+  <match src="identifier: cmdline [489,496]" dest="identifier: cmdline [489,496]"/>
+  <match src="=: = [526,527]" dest="=: = [526,527]"/>
+  <match src="null [658,662]" dest="null [632,636]"/>
+  <match src=",: , [4767,4768]" dest=",: , [4588,4589]"/>
+  <match src="if: if [1470,1472]" dest="if: if [1294,1296]"/>
+  <match src="identifier: dd_save_text [4799,4811]" dest="identifier: dd_save_text [4620,4632]"/>
+  <match src="string_literal [1713,1760]" dest="string_literal [1537,1584]"/>
+  <match src="call_expression [4541,4592]" dest="call_expression [4362,4413]"/>
+  <match src="if_statement [1231,1378]" dest="if_statement [1058,1205]"/>
+  <match src="identifier: package_short_name [3888,3906]" dest="identifier: package_short_name [3712,3730]"/>
+  <match src="type_descriptor [3583,3595]" dest="type_descriptor [3407,3419]"/>
+  <match src="(: ( [5062,5063]" dest="(: ( [4883,4884]"/>
+  <match src="*: * [514,515]" dest="*: * [514,515]"/>
+  <match src="argument_list [900,925]" dest="argument_list [874,899]"/>
+  <match src="identifier: FILENAME_PKG_NAME [4684,4701]" dest="identifier: FILENAME_PKG_NAME [4505,4522]"/>
+  <match src="(: ( [2174,2175]" dest="(: ( [1998,1999]"/>
+  <match src="{: { [2600,2601]" dest="{: { [2424,2425]"/>
+  <match src="if: if [3729,3731]" dest="if: if [3553,3555]"/>
+  <match src="comment: /* return 1 (failure) */ [1846,1870]" dest="comment: /* return 1 (failure) */ [1670,1694]"/>
+  <match src="string_content: Package '%s' isn't signed with proper key [3844,3885]" dest="string_content: Package '%s' isn't signed with proper key [3668,3709]"/>
+  <match src="): ) [152,153]" dest="): ) [152,153]"/>
+  <match src="identifier: settings_bProcessUnpackaged [1474,1501]" dest="identifier: settings_bProcessUnpackaged [1298,1325]"/>
+  <match src="field_identifier: p_nvr [4586,4591]" dest="field_identifier: p_nvr [4407,4412]"/>
+  <match src="identifier: rpm_chk_fingerprint [3776,3795]" dest="identifier: rpm_chk_fingerprint [3600,3619]"/>
+  <match src="labeled_statement [5027,5047]" dest="labeled_statement [4848,4868]"/>
+  <match src="++: ++ [2010,2012]" dest="++: ++ [1834,1836]"/>
+  <match src="identifier: FILENAME_CMDLINE [828,844]" dest="identifier: FILENAME_CMDLINE [802,818]"/>
+  <match src="identifier: free [5058,5062]" dest="identifier: free [4879,4883]"/>
+  <match src="number_literal: 0 [449,450]" dest="number_literal: 0 [449,450]"/>
+  <match src="argument_list [206,229]" dest="argument_list [206,229]"/>
+  <match src="): ) [3595,3596]" dest="): ) [3419,3420]"/>
+  <match src="(: ( [206,207]" dest="(: ( [206,207]"/>
+  <match src="identifier: free [5077,5081]" dest="identifier: free [4898,4902]"/>
+  <match src="return_statement [162,171]" dest="return_statement [162,171]"/>
+  <match src="call_expression [286,330]" dest="call_expression [286,330]"/>
+  <match src="(: ( [3400,3401]" dest="(: ( [3224,3225]"/>
+  <match src="string_literal [1286,1315]" dest="string_literal [1113,1142]"/>
+  <match src="-&gt;: -&gt; [4846,4848]" dest="-&gt;: -&gt; [4667,4669]"/>
+  <match src=";: ; [1224,1225]" dest=";: ; [1051,1052]"/>
+  <match src="call_expression [2298,2335]" dest="call_expression [2122,2159]"/>
+  <match src="identifier: pkg_name [3407,3415]" dest="identifier: pkg_name [3231,3239]"/>
+  <match src="call_expression [3622,3673]" dest="call_expression [3446,3497]"/>
+  <match src=";: ; [476,477]" dest=";: ; [476,477]"/>
+  <match src="comment:     
+     * not the interpreter
+     */ [2059,2166]" dest="comment:     
+     * not the interpreter
+     */ [1883,1990]"/>
+  <match src="&quot;: &quot; [1314,1315]" dest="&quot;: &quot; [1141,1142]"/>
+  <match src="(: ( [5182,5183]" dest="(: ( [4984,4985]"/>
+  <match src="cast_expression [3582,3605]" dest="cast_expression [3406,3429]"/>
+  <match src="identifier: log [3622,3625]" dest="identifier: log [3446,3449]"/>
+  <match src="-&gt;: -&gt; [3415,3417]" dest="-&gt;: -&gt; [3239,3241]"/>
+  <match src="&quot;: &quot; [3651,3652]" dest="&quot;: &quot; [3475,3476]"/>
+  <match src="call_expression [3839,3907]" dest="call_expression [3663,3731]"/>
+  <match src=";: ; [386,387]" dest=";: ; [386,387]"/>
+  <match src="if_statement [3729,4343]" dest="if_statement [3553,4167]"/>
+  <match src="call_expression [4730,4789]" dest="call_expression [4551,4610]"/>
+  <match src="}: } [4927,4928]" dest="}: } [4748,4749]"/>
+  <match src="null [499,503]" dest="null [499,503]"/>
+  <match src=";: ; [634,635]" dest=";: ; [608,609]"/>
+  <match src="identifier: log [1709,1712]" dest="identifier: log [1533,1536]"/>
+  <match src="identifier: dd [901,903]" dest="identifier: dd [875,877]"/>
+  <match src="): ) [5092,5093]" dest="): ) [4913,4914]"/>
+  <match src="identifier: package_short_name [3483,3501]" dest="identifier: package_short_name [3307,3325]"/>
+  <match src="statement_identifier: ret [3688,3691]" dest="statement_identifier: ret [3512,3515]"/>
+  <match src="primitive_type: int [7,10]" dest="primitive_type: int [7,10]"/>
+  <match src=";: ; [4481,4482]" dest=";: ; [4302,4303]"/>
+  <match src="goto_statement [1338,1347]" dest="goto_statement [1165,1174]"/>
+  <match src="): ) [2590,2591]" dest="): ) [2414,2415]"/>
+  <match src=";: ; [595,596]" dest=";: ; [569,570]"/>
+  <match src="call_expression [4602,4657]" dest="call_expression [4423,4478]"/>
+  <match src="assignment_expression [3370,3424]" dest="assignment_expression [3194,3248]"/>
+  <match src=",: , [4435,4436]" dest=",: , [4256,4257]"/>
+  <match src="goto: goto [4473,4477]" dest="goto: goto [4294,4298]"/>
+  <match src="identifier: free [462,466]" dest="identifier: free [462,466]"/>
+  <match src="*: * [488,489]" dest="*: * [488,489]"/>
+  <match src="expression_statement [5058,5072]" dest="expression_statement [4879,4893]"/>
+  <match src="if: if [4934,4936]" dest="if: if [4755,4757]"/>
+  <match src="identifier: dd [1221,1223]" dest="identifier: dd [1048,1050]"/>
+  <match src=",: , [255,256]" dest=",: , [255,256]"/>
+  <match src="identifier: executable [2324,2334]" dest="identifier: executable [2148,2158]"/>
+  <match src="number_literal: 0 [5045,5046]" dest="number_literal: 0 [4866,4867]"/>
+  <match src="call_expression [4957,5004]" dest="call_expression [4778,4825]"/>
+  <match src="primitive_type: int [668,671]" dest="primitive_type: int [642,645]"/>
+  <match src="if_statement [235,457]" dest="if_statement [235,457]"/>
+  <match src="identifier: FILENAME_PKG_ARCH [4885,4902]" dest="identifier: FILENAME_PKG_ARCH [4706,4723]"/>
+  <match src="identifier: dd [4743,4745]" dest="identifier: dd [4564,4566]"/>
+  <match src=";: ; [2530,2531]" dest=";: ; [2354,2355]"/>
+  <match src="expression_statement [4957,5005]" dest="expression_statement [4778,4826]"/>
+  <match src="(: ( [404,405]" dest="(: ( [404,405]"/>
+  <match src="(: ( [298,299]" dest="(: ( [298,299]"/>
+  <match src="expression_statement [462,477]" dest="expression_statement [462,477]"/>
+  <match src="{: { [3612,3613]" dest="{: { [3436,3437]"/>
+  <match src="primitive_type: char [564,568]" dest="primitive_type: char [538,542]"/>
+  <match src=";: ; [5142,5143]" dest=";: ; [4944,4945]"/>
+  <match src="comment:         
+         *  if (!CheckHash(package_short_name.c_str(), executable)) BOOM();
+         * Checking the MD5 sum requires to run prelink to &quot;un-prelink&quot; the
+         * binaries - this is considered potential security risk so we don't
+         * do it now, until we find some non-intrusive way.
+         */ [3974,4337]" dest="comment:         
+         *  if (!CheckHash(package_short_name.c_str(), executable)) BOOM();
+         * Checking the MD5 sum requires to run prelink to &quot;un-prelink&quot; the
+         * binaries - this is considered potential security risk so we don't
+         * do it now, until we find some non-intrusive way.
+         */ [3798,4161]"/>
+  <match src="return_statement [5200,5213]" dest="return_statement [5002,5015]"/>
+  <match src=",: , [4814,4815]" dest=",: , [4635,4636]"/>
+  <match src="parenthesized_expression [3774,3816]" dest="parenthesized_expression [3598,3640]"/>
+  <match src=";: ; [869,870]" dest=";: ; [843,844]"/>
+  <match src="&quot;: &quot; [2804,2805]" dest="&quot;: &quot; [2628,2629]"/>
+  <match src="): ) [868,869]" dest="): ) [842,843]"/>
+  <match src="field_expression [4769,4788]" dest="field_expression [4590,4609]"/>
+  <match src="(: ( [2465,2466]" dest="(: ( [2289,2290]"/>
+  <match src=":: : [5052,5053]" dest=":: : [4873,4874]"/>
+  <match src="null [591,595]" dest="null [565,569]"/>
+  <match src="identifier: g_list_find_custom [2175,2193]" dest="identifier: g_list_find_custom [1999,2017]"/>
+  <match src="call_expression [2407,2438]" dest="call_expression [2231,2262]"/>
+  <match src="if_statement [2171,3364]" dest="if_statement [1995,3188]"/>
+  <match src="expression_statement [396,409]" dest="expression_statement [396,409]"/>
+  <match src="string_content: Blacklisted package '%s' [3627,3651]" dest="string_content: Blacklisted package '%s' [3451,3475]"/>
+  <match src="{: { [276,277]" dest="{: { [276,277]"/>
+  <match src="argument_list [1220,1224]" dest="argument_list [1047,1051]"/>
+  <match src="*: * [645,646]" dest="*: * [619,620]"/>
+  <match src="init_declarator [672,681]" dest="init_declarator [646,655]"/>
+  <match src=",: , [3560,3561]" dest=",: , [3384,3385]"/>
+  <match src="primitive_type: char [1933,1937]" dest="primitive_type: char [1757,1761]"/>
+  <match src="argument_list [4679,4720]" dest="argument_list [4500,4541]"/>
+  <match src="if_statement [1980,2053]" dest="if_statement [1804,1877]"/>
+  <match src=";: ; [3502,3503]" dest=";: ; [3326,3327]"/>
+  <match src="parenthesized_expression [1444,1455]" dest="parenthesized_expression [1268,1279]"/>
+  <match src="(: ( [4421,4422]" dest="(: ( [4242,4243]"/>
+  <match src="field_identifier: p_nvr [3476,3481]" dest="field_identifier: p_nvr [3300,3305]"/>
+  <match src="string_literal [257,269]" dest="string_literal [257,269]"/>
+  <match src="expression_statement [286,331]" dest="expression_statement [286,331]"/>
+  <match src="goto_statement [1665,1675]" dest="goto_statement [1489,1499]"/>
+  <match src="-&gt;: -&gt; [4777,4779]" dest="-&gt;: -&gt; [4598,4600]"/>
+  <match src="pointer_declarator [618,627]" dest="pointer_declarator [592,601]"/>
+  <match src="field_identifier: p_name [3417,3423]" dest="field_identifier: p_name [3241,3247]"/>
+  <match src=",: , [4745,4746]" dest=",: , [4566,4567]"/>
+  <match src="string_literal [3843,3886]" dest="string_literal [3667,3710]"/>
+  <match src="call_expression [3302,3326]" dest="call_expression [3126,3150]"/>
+  <match src="expression_statement [5011,5024]" dest="expression_statement [4832,4845]"/>
+  <match src="comment: /* return 1 (failure) */ [1348,1372]" dest="comment: /* return 1 (failure) */ [1175,1199]"/>
+  <match src=";: ; [2874,2875]" dest=";: ; [2698,2699]"/>
+  <match src="if: if [4456,4458]" dest="if: if [4277,4279]"/>
+  <match src="identifier: basename [2217,2225]" dest="identifier: basename [2041,2049]"/>
+  <match src="}: } [3291,3292]" dest="}: } [3115,3116]"/>
+  <match src="null [528,532]" dest="null [528,532]"/>
+  <match src="compound_statement [3825,3965]" dest="compound_statement [3649,3789]"/>
+  <match src="identifier: package_short_name [3654,3672]" dest="identifier: package_short_name [3478,3496]"/>
+  <match src="identifier: dd [4461,4463]" dest="identifier: dd [4282,4284]"/>
+  <match src=",: , [301,302]" dest=",: , [301,302]"/>
+  <match src="): ) [2437,2438]" dest="): ) [2261,2262]"/>
+  <match src="goto_statement [3921,3930]" dest="goto_statement [3745,3754]"/>
+  <match src=";: ; [1346,1347]" dest=";: ; [1173,1174]"/>
+  <match src="parenthesized_expression [3513,3607]" dest="parenthesized_expression [3337,3431]"/>
+  <match src="&quot;: &quot; [1534,1535]" dest="&quot;: &quot; [1358,1359]"/>
+  <match src="identifier: script_pkg [2580,2590]" dest="identifier: script_pkg [2404,2414]"/>
+  <match src="&quot;: &quot; [2466,2467]" dest="&quot;: &quot; [2290,2291]"/>
+  <match src="call_expression [462,476]" dest="call_expression [462,476]"/>
+  <match src=";: ; [681,682]" dest=";: ; [655,656]"/>
+  <match src="argument_list [2803,2874]" dest="argument_list [2627,2698]"/>
+  <match src="(: ( [5019,5020]" dest="(: ( [4840,4841]"/>
+  <match src=",: , [355,356]" dest=",: , [355,356]"/>
+  <match src="if_statement [2736,2940]" dest="if_statement [2560,2764]"/>
+  <match src="string_literal [3439,3464]" dest="string_literal [3263,3288]"/>
+  <match src="unary_expression [239,270]" dest="unary_expression [239,270]"/>
+  <match src="call_expression [1212,1224]" dest="call_expression [1039,1051]"/>
+  <match src="&quot;: &quot; [3843,3844]" dest="&quot;: &quot; [3667,3668]"/>
+  <match src="if: if [2403,2405]" dest="if: if [2227,2229]"/>
+  <match src="goto_statement [3683,3692]" dest="goto_statement [3507,3516]"/>
+  <match src="argument_list [2313,2335]" dest="argument_list [2137,2159]"/>
+  <match src="identifier: basename [1984,1992]" dest="identifier: basename [1808,1816]"/>
+  <match src="compound_statement [3761,4343]" dest="compound_statement [3585,4167]"/>
+  <match src="identifier: dd_save_text [340,352]" dest="identifier: dd_save_text [340,352]"/>
+  <match src="call_expression [5118,5142]" dest="call_expression [4920,4944]"/>
+  <match src="&amp;: &amp; [2323,2324]" dest="&amp;: &amp; [2147,2148]"/>
+  <match src="-&gt;: -&gt; [3474,3476]" dest="-&gt;: -&gt; [3298,3300]"/>
+  <match src="assignment_expression [797,869]" dest="assignment_expression [771,843]"/>
+  <match src="identifier: dd_save_text [4730,4742]" dest="identifier: dd_save_text [4551,4563]"/>
+  <match src="field_expression [4639,4656]" dest="field_expression [4460,4477]"/>
+  <match src=";: ; [3929,3930]" dest=";: ; [3753,3754]"/>
+  <match src="parenthesized_expression [148,153]" dest="parenthesized_expression [148,153]"/>
+  <match src="argument_list [3532,3606]" dest="argument_list [3356,3430]"/>
+  <match src="string_literal [3401,3405]" dest="string_literal [3225,3229]"/>
+  <match src=",: , [903,904]" dest=",: , [877,878]"/>
+  <match src="identifier: log [1282,1285]" dest="identifier: log [1109,1112]"/>
+  <match src="string_content: %s [3402,3404]" dest="string_content: %s [3226,3228]"/>
+  <match src="=: = [589,590]" dest="=: = [563,564]"/>
+  <match src=";: ; [4858,4859]" dest=";: ; [4679,4680]"/>
+  <match src="identifier: error [672,677]" dest="identifier: error [646,651]"/>
+  <match src="goto: goto [3921,3925]" dest="goto: goto [3745,3749]"/>
+  <match src="pointer_declarator [645,655]" dest="pointer_declarator [619,629]"/>
+  <match src=";: ; [139,140]" dest=";: ; [139,140]"/>
+  <match src="!: ! [149,150]" dest="!: ! [149,150]"/>
+  <match src="&quot;: &quot; [257,258]" dest="&quot;: &quot; [257,258]"/>
+  <match src="identifier: is_path_blacklisted [1235,1254]" dest="identifier: is_path_blacklisted [1062,1081]"/>
+  <match src=",: , [1315,1316]" dest=",: , [1142,1143]"/>
+  <match src=",: , [2495,2496]" dest=",: , [2319,2320]"/>
+  <match src="): ) [3755,3756]" dest="): ) [3579,3580]"/>
+  <match src="): ) [3906,3907]" dest="): ) [3730,3731]"/>
+  <match src="primitive_type: char [51,55]" dest="primitive_type: char [51,55]"/>
+  <match src="string_literal [321,329]" dest="string_literal [321,329]"/>
+  <match src="identifier: strrchr [1950,1957]" dest="identifier: strrchr [1774,1781]"/>
+  <match src="const: const [45,50]" dest="const: const [45,50]"/>
+  <match src="): ) [3815,3816]" dest="): ) [3639,3640]"/>
+  <match src="(: ( [5122,5123]" dest="(: ( [4924,4925]"/>
+  <match src=",: , [4992,4993]" dest=",: , [4813,4814]"/>
+  <match src="type_descriptor [2228,2240]" dest="type_descriptor [2052,2064]"/>
+  <match src=";: ; [3281,3282]" dest=";: ; [3105,3106]"/>
+  <match src="declaration [483,504]" dest="declaration [483,504]"/>
+  <match src="call_expression [5148,5172]" dest="call_expression [4950,4974]"/>
+  <match src="string_literal [2466,2495]" dest="string_literal [2290,2319]"/>
+  <match src="expression_statement [4602,4658]" dest="expression_statement [4423,4479]"/>
+  <match src="{: { [2257,2258]" dest="{: { [2081,2082]"/>
+  <match src="identifier: error [5207,5212]" dest="identifier: error [5009,5014]"/>
+  <match src="(: ( [3774,3775]" dest="(: ( [3598,3599]"/>
+  <match src="compound_statement [2448,2566]" dest="compound_statement [2272,2390]"/>
+  <match src="call_expression [3514,3606]" dest="call_expression [3338,3430]"/>
+  <match src=";: ; [4921,4922]" dest=";: ; [4742,4743]"/>
+  <match src="goto_statement [3272,3282]" dest="goto_statement [3096,3106]"/>
+  <match src="init_declarator [94,139]" dest="init_declarator [94,139]"/>
+  <match src="!: ! [239,240]" dest="!: ! [239,240]"/>
+  <match src="if_statement [2575,3292]" dest="if_statement [2399,3116]"/>
+  <match src="string_literal [3626,3652]" dest="string_literal [3450,3476]"/>
+  <match src="identifier: pkg_name [5163,5171]" dest="identifier: pkg_name [4965,4973]"/>
+  <match src="=: = [678,679]" dest="=: = [652,653]"/>
+  <match src=";: ; [925,926]" dest=";: ; [899,900]"/>
+  <match src="return: return [162,168]" dest="return: return [162,168]"/>
+  <match src="pointer_expression [2323,2334]" dest="pointer_expression [2147,2158]"/>
+  <match src=",: , [2225,2226]" dest=",: , [2049,2050]"/>
+  <match src="): ) [2251,2252]" dest="): ) [2075,2076]"/>
+  <match src="struct_specifier [78,93]" dest="struct_specifier [78,93]"/>
+  <match src="compound_statement [4531,4928]" dest="compound_statement [4352,4749]"/>
+  <match src="pointer_declarator [569,588]" dest="pointer_declarator [543,562]"/>
+  <match src="argument_list [404,408]" dest="argument_list [404,408]"/>
+  <match src="(: ( [44,45]" dest="(: ( [44,45]"/>
+  <match src="expression_statement [5077,5094]" dest="expression_statement [4898,4915]"/>
+  <match src="identifier: package_short_name [3796,3814]" dest="identifier: package_short_name [3620,3638]"/>
+  <match src="if_statement [1441,1876]" dest="if_statement [1265,1700]"/>
+  <match src="): ) [269,270]" dest="): ) [269,270]"/>
+  <match src="identifier: SavePackageDescriptionToDebugDump [11,44]" dest="identifier: SavePackageDescriptionToDebugDump [11,44]"/>
+  <match src="argument_list [3795,3815]" dest="argument_list [3619,3639]"/>
+  <match src="argument_list [1712,1826]" dest="argument_list [1536,1650]"/>
+  <match src="*: * [94,95]" dest="*: * [94,95]"/>
+  <match src="string_content:  and ProcessUnpackaged is set to 'no' [1764,1801]" dest="string_content:  and ProcessUnpackaged is set to 'no' [1588,1625]"/>
+  <match src="parenthesized_expression [238,271]" dest="parenthesized_expression [238,271]"/>
+  <match src="(: ( [352,353]" dest="(: ( [352,353]"/>
+  <match src="expression_statement [1212,1225]" dest="expression_statement [1039,1052]"/>
+  <match src=",: , [209,210]" dest=",: , [209,210]"/>
+  <match src="): ) [70,71]" dest="): ) [70,71]"/>
+  <match src="*: * [56,57]" dest="*: * [56,57]"/>
+  <match src="identifier: cmdline [797,804]" dest="identifier: cmdline [771,778]"/>
+  <match src=";: ; [2900,2901]" dest=";: ; [2724,2725]"/>
+  <match src="goto_statement [2522,2531]" dest="goto_statement [2346,2355]"/>
+  <match src=";: ; [2012,2013]" dest=";: ; [1836,1837]"/>
+  <match src="call_expression [3776,3815]" dest="call_expression [3600,3639]"/>
+  <match src="argument_list [3842,3907]" dest="argument_list [3666,3731]"/>
+  <match src="expression_statement [2462,2509]" dest="expression_statement [2286,2333]"/>
+  <match src="goto: goto [3683,3687]" dest="goto: goto [3507,3511]"/>
+  <match src="&quot;: &quot; [1286,1287]" dest="&quot;: &quot; [1113,1114]"/>
+  <match src="expression_statement [797,870]" dest="expression_statement [771,844]"/>
+  <match src="(: ( [1234,1235]" dest="(: ( [1061,1062]"/>
+  <match src="comment: /* return 1 (failure) */ [3693,3717]" dest="comment: /* return 1 (failure) */ [3517,3541]"/>
+  <match src=";: ; [2508,2509]" dest=";: ; [2332,2333]"/>
+  <match src="NULL: NULL [528,532]" dest="NULL: NULL [528,532]"/>
+  <match src="argument_list [4811,4858]" dest="argument_list [4632,4679]"/>
+  <match src="=: = [98,99]" dest="=: = [98,99]"/>
+  <match src="(: ( [5081,5082]" dest="(: ( [4902,4903]"/>
+  <match src="parenthesized_expression [2739,2769]" dest="parenthesized_expression [2563,2593]"/>
+  <match src="if_statement [2403,2566]" dest="if_statement [2227,2390]"/>
+  <match src="&quot;: &quot; [328,329]" dest="&quot;: &quot; [328,329]"/>
+  <match src=";: ; [5004,5005]" dest=";: ; [4825,4826]"/>
+  <match src="{: { [3761,3762]" dest="{: { [3585,3586]"/>
+  <match src="): ) [385,386]" dest="): ) [385,386]"/>
+  <match src="identifier: pkg_name [4576,4584]" dest="identifier: pkg_name [4397,4405]"/>
+  <match src="-&gt;: -&gt; [4584,4586]" dest="-&gt;: -&gt; [4405,4407]"/>
+  <match src="call_expression [1709,1826]" dest="call_expression [1533,1650]"/>
+  <match src="init_declarator [488,503]" dest="init_declarator [488,503]"/>
+  <match src="string_content: Crash in unpackaged executable '%s',  [1535,1572]" dest="string_content: Crash in unpackaged executable '%s',  [1359,1396]"/>
+  <match src="declaration [668,682]" dest="declaration [642,656]"/>
+  <match src="): ) [1501,1502]" dest="): ) [1325,1326]"/>
+  <match src="{: { [1272,1273]" dest="{: { [1099,1100]"/>
+  <match src="parenthesized_expression [2406,2439]" dest="parenthesized_expression [2230,2263]"/>
+  <match src="*: * [2284,2285]" dest="*: * [2108,2109]"/>
+  <match src="string_content: Interpreter crashed, but no packaged script detected: '%s' [2805,2863]" dest="string_content: Interpreter crashed, but no packaged script detected: '%s' [2629,2687]"/>
+  <match src="identifier: strcmp [240,246]" dest="identifier: strcmp [240,246]"/>
+  <match src="(: ( [1220,1221]" dest="(: ( [1047,1048]"/>
+  <match src="identifier: FILENAME_PKG_VERSION [4747,4767]" dest="identifier: FILENAME_PKG_VERSION [4568,4588]"/>
+  <match src="type_qualifier [1927,1932]" dest="type_qualifier [1751,1756]"/>
+  <match src="=: = [3389,3390]" dest="=: = [3213,3214]"/>
+  <match src="{: { [4531,4532]" dest="{: { [4352,4353]"/>
+  <match src="if: if [2171,2173]" dest="if: if [1995,1997]"/>
+  <match src="identifier: pkg_name [4703,4711]" dest="identifier: pkg_name [4524,4532]"/>
+  <match src="identifier: dd [4812,4814]" dest="identifier: dd [4633,4635]"/>
+  <match src="identifier: FILENAME_PACKAGE [4558,4574]" dest="identifier: FILENAME_PACKAGE [4379,4395]"/>
+  <match src="if: if [2736,2738]" dest="if: if [2560,2562]"/>
+  <match src="identifier: log [2800,2803]" dest="identifier: log [2624,2627]"/>
+  <match src="}: } [456,457]" dest="}: } [456,457]"/>
+  <match src="expression_statement [418,433]" dest="expression_statement [418,433]"/>
+  <match src=";: ; [1651,1652]" dest=";: ; [1475,1476]"/>
+  <match src="identifier: settings_Interpreters [2194,2215]" dest="identifier: settings_Interpreters [2018,2039]"/>
+  <match src="identifier: dd [353,355]" dest="identifier: dd [353,355]"/>
+  <match src="goto: goto [1836,1840]" dest="goto: goto [1660,1664]"/>
+  <match src="}: } [4342,4343]" dest="}: } [4166,4167]"/>
+  <match src="pointer_declarator [56,70]" dest="pointer_declarator [56,70]"/>
+  <match src="identifier: dd [4406,4408]" dest="identifier: dd [4227,4229]"/>
+  <match src=";: ; [1844,1845]" dest=";: ; [1668,1669]"/>
+  <match src="argument_list [5062,5071]" dest="argument_list [4883,4892]"/>
+  <match src="}: } [2565,2566]" dest="}: } [2389,2390]"/>
+  <match src="function_declarator [11,71]" dest="function_declarator [11,71]"/>
+  <match src="parenthesized_expression [4459,4464]" dest="parenthesized_expression [4280,4285]"/>
+  <match src=",: , [4637,4638]" dest=",: , [4458,4459]"/>
+  <match src="(: ( [3795,3796]" dest="(: ( [3619,3620]"/>
+  <match src="call_expression [4868,4921]" dest="call_expression [4689,4742]"/>
+  <match src="else: else [2018,2022]" dest="else: else [1842,1846]"/>
+  <match src="(: ( [2193,2194]" dest="(: ( [2017,2018]"/>
+  <match src=",: , [3652,3653]" dest=",: , [3476,3477]"/>
+  <match src="expression_statement [875,926]" dest="expression_statement [849,900]"/>
+  <match src="argument_list [5182,5193]" dest="argument_list [4984,4995]"/>
+  <match src="argument_list [4880,4921]" dest="argument_list [4701,4742]"/>
+  <match src="*: * [618,619]" dest="*: * [592,593]"/>
+  <match src="comment: /*flags:*/ [126,136]" dest="comment: /*flags:*/ [126,136]"/>
+  <match src="identifier: g_strcmp0 [3596,3605]" dest="identifier: g_strcmp0 [3420,3429]"/>
+  <match src="identifier: executable [1958,1968]" dest="identifier: executable [1782,1792]"/>
+  <match src="identifier: dd_opendir [100,110]" dest="identifier: dd_opendir [100,110]"/>
+  <match src="}: } [5214,5215]" dest="}: } [5016,5017]"/>
+  <match src="call_expression [4411,4450]" dest="call_expression [4232,4271]"/>
+  <match src="expression_statement [340,387]" dest="expression_statement [340,387]"/>
+  <match src="identifier: script_pkg [3347,3357]" dest="identifier: script_pkg [3171,3181]"/>
+  <match src="): ) [3606,3607]" dest="): ) [3430,3431]"/>
+  <match src="): ) [2438,2439]" dest="): ) [2262,2263]"/>
+  <match src="identifier: executable [2042,2052]" dest="identifier: executable [1866,1876]"/>
+  <match src="): ) [4920,4921]" dest="): ) [4741,4742]"/>
+  <match src=";: ; [1974,1975]" dest=";: ; [1798,1799]"/>
+  <match src=",: , [4701,4702]" dest=",: , [4522,4523]"/>
+  <match src=";: ; [3357,3358]" dest=";: ; [3181,3182]"/>
+  <match src="call_expression [3430,3502]" dest="call_expression [3254,3326]"/>
+  <match src="&quot;: &quot; [3401,3402]" dest="&quot;: &quot; [3225,3226]"/>
+  <match src="identifier: dd_save_text [4957,4969]" dest="identifier: dd_save_text [4778,4790]"/>
+  <match src="identifier: log_info [3430,3438]" dest="identifier: log_info [3254,3262]"/>
+  <match src="string_literal [1534,1573]" dest="string_literal [1358,1397]"/>
+  <match src="': ' [1972,1973]" dest="': ' [1796,1797]"/>
+  <match src="!: ! [2740,2741]" dest="!: ! [2564,2565]"/>
+  <match src="(: ( [1983,1984]" dest="(: ( [1807,1808]"/>
+  <match src="string_content: Kerneloops [258,268]" dest="string_content: Kerneloops [258,268]"/>
+  <match src="expression_statement [3370,3425]" dest="expression_statement [3194,3249]"/>
+  <match src="&quot;: &quot; [3404,3405]" dest="&quot;: &quot; [3228,3229]"/>
+  <match src="declaration [601,635]" dest="declaration [575,609]"/>
+  <match src="identifier: dd [4615,4617]" dest="identifier: dd [4436,4438]"/>
+  <match src="declaration [509,533]" dest="declaration [509,533]"/>
+  <match src="=: = [1948,1949]" dest="=: = [1772,1773]"/>
+  <match src="(: ( [2406,2407]" dest="(: ( [2230,2231]"/>
+  <match src=";: ; [662,663]" dest=";: ; [636,637]"/>
+  <match src="identifier: free [5118,5122]" dest="identifier: free [4920,4924]"/>
+  <match src="(: ( [4553,4554]" dest="(: ( [4374,4375]"/>
+  <match src="expression_statement [4868,4922]" dest="expression_statement [4689,4743]"/>
+  <match src="identifier: pkg_name [4769,4777]" dest="identifier: pkg_name [4590,4598]"/>
+  <match src=";: ; [450,451]" dest=";: ; [450,451]"/>
+  <match src="(: ( [4880,4881]" dest="(: ( [4701,4702]"/>
+  <match src="statement_identifier: ret [2527,2530]" dest="statement_identifier: ret [2351,2354]"/>
+  <match src="): ) [2334,2335]" dest="): ) [2158,2159]"/>
+  <match src="call_expression [2800,2874]" dest="call_expression [2624,2698]"/>
+  <match src="identifier: free_pkg_envra [5148,5162]" dest="identifier: free_pkg_envra [4950,4964]"/>
+  <match src="): ) [407,408]" dest="): ) [407,408]"/>
+  <match src="identifier: executable [515,525]" dest="identifier: executable [515,525]"/>
+  <match src="(: ( [4614,4615]" dest="(: ( [4435,4436]"/>
+  <match src="character: / [1971,1972]" dest="character: / [1795,1796]"/>
+  <match src="=: = [886,887]" dest="=: = [860,861]"/>
+  <match src="concatenated_string [1534,1638]" dest="concatenated_string [1358,1462]"/>
+  <match src=",: , [4617,4618]" dest=",: , [4438,4439]"/>
+  <match src="(: ( [422,423]" dest="(: ( [422,423]"/>
+  <match src="(: ( [5162,5163]" dest="(: ( [4964,4965]"/>
+  <match src="&quot;: &quot; [1759,1760]" dest="&quot;: &quot; [1583,1584]"/>
+  <match src="{: { [72,73]" dest="{: { [72,73]"/>
+  <match src="identifier: FILENAME_PKG_EPOCH [4619,4637]" dest="identifier: FILENAME_PKG_EPOCH [4440,4458]"/>
+  <match src="parenthesized_expression [3732,3756]" dest="parenthesized_expression [3556,3580]"/>
+  <match src="identifier: dump_dir_name [111,124]" dest="identifier: dump_dir_name [111,124]"/>
+  <match src="if_statement [4513,4928]" dest="if_statement [4334,4749]"/>
+  <match src="number_literal: 1 [680,681]" dest="number_literal: 1 [654,655]"/>
+  <match src="call_expression [3391,3424]" dest="call_expression [3215,3248]"/>
+  <match src="comment: /* return 1 (failure) */ [4483,4507]" dest="comment: /* return 1 (failure) */ [4304,4328]"/>
+  <match src="=: = [3345,3346]" dest="=: = [3169,3170]"/>
+  <match src="expression_statement [4730,4790]" dest="expression_statement [4551,4611]"/>
+  <match src="call_expression [5077,5093]" dest="call_expression [4898,4914]"/>
+  <match src="identifier: component [646,655]" dest="identifier: component [620,629]"/>
+  <match src="': ' [1970,1971]" dest="': ' [1794,1795]"/>
+  <match src="): ) [2250,2251]" dest="): ) [2074,2075]"/>
+  <match src="goto_statement [2892,2901]" dest="goto_statement [2716,2725]"/>
+  <match src="(: ( [3438,3439]" dest="(: ( [3262,3263]"/>
+  <match src="if: if [1980,1982]" dest="if: if [1804,1806]"/>
+  <match src="identifier: basename [2031,2039]" dest="identifier: basename [1855,1863]"/>
+  <match src=",: , [2321,2322]" dest=",: , [2145,2146]"/>
+  <match src="return_statement [442,451]" dest="return_statement [442,451]"/>
+  <match src="}: } [1377,1378]" dest="}: } [1204,1205]"/>
+  <match src="statement_identifier: ret [3926,3929]" dest="statement_identifier: ret [3750,3753]"/>
+  <match src="argument_list [4969,5004]" dest="argument_list [4790,4825]"/>
+  <match src=":: : [5031,5032]" dest=":: : [4852,4853]"/>
+  <match src=";: ; [5046,5047]" dest=";: ; [4867,4868]"/>
+  <match src="comment: /* no error */ [1676,1690]" dest="comment: /* no error */ [1500,1514]"/>
+  <match src=";: ; [3673,3674]" dest=";: ; [3497,3498]"/>
+  <match src="string_content: proceeding without packaging information [1597,1637]" dest="string_content: proceeding without packaging information [1421,1461]"/>
+  <match src="argument_list [2426,2438]" dest="argument_list [2250,2262]"/>
+  <match src="unary_expression [4460,4463]" dest="unary_expression [4281,4284]"/>
+  <match src="-&gt;: -&gt; [4912,4914]" dest="-&gt;: -&gt; [4733,4735]"/>
+  <match src="struct_specifier [2267,2283]" dest="struct_specifier [2091,2107]"/>
+  <match src="identifier: dd [4680,4682]" dest="identifier: dd [4501,4503]"/>
+  <match src="pointer_declarator [488,496]" dest="pointer_declarator [488,496]"/>
+  <match src="identifier: log [2462,2465]" dest="identifier: log [2286,2289]"/>
+  <match src="(: ( [2578,2579]" dest="(: ( [2402,2403]"/>
+  <match src="identifier: cmdline [2314,2321]" dest="identifier: cmdline [2138,2145]"/>
+  <match src="identifier: pkg_name [3466,3474]" dest="identifier: pkg_name [3290,3298]"/>
+  <match src="argument_list [5019,5023]" dest="argument_list [4840,4844]"/>
+  <match src="pointer_declarator [2284,2295]" dest="pointer_declarator [2108,2119]"/>
+  <match src="identifier: package_short_name [3562,3580]" dest="identifier: package_short_name [3386,3404]"/>
+  <match src="declaration [177,230]" dest="declaration [177,230]"/>
+  <match src="comment:     
+     * but they don't dd_close(dd) */ [687,791]" dest="comment:     
+     * but they don't dd_close(dd) */ [661,765]"/>
+  <match src="identifier: pkg_name [3317,3325]" dest="identifier: pkg_name [3141,3149]"/>
+  <match src="parameter_declaration [45,70]" dest="parameter_declaration [45,70]"/>
+  <match src="&quot;: &quot; [2494,2495]" dest="&quot;: &quot; [2318,2319]"/>
+  <match src="expression_statement [3302,3327]" dest="expression_statement [3126,3151]"/>
+  <match src="struct: struct [601,607]" dest="struct: struct [575,581]"/>
+  <match src="argument_list [352,386]" dest="argument_list [352,386]"/>
+  <match src="number_literal: 0 [4448,4449]" dest="number_literal: 0 [4269,4270]"/>
+  <match src="(: ( [1533,1534]" dest="(: ( [1357,1358]"/>
+  <match src=",: , [3405,3406]" dest=",: , [3229,3230]"/>
+  <match src="): ) [4656,4657]" dest="): ) [4477,4478]"/>
+  <match src="identifier: executable [2427,2437]" dest="identifier: executable [2251,2261]"/>
+  <match src="call_expression [5058,5071]" dest="call_expression [4879,4892]"/>
+  <match src=";: ; [503,504]" dest=";: ; [503,504]"/>
+  <match src="parenthesized_expression [1234,1267]" dest="parenthesized_expression [1061,1094]"/>
+  <match src="identifier: dd_close [5011,5019]" dest="identifier: dd_close [4832,4840]"/>
+  <match src="identifier: analyzer [247,255]" dest="identifier: analyzer [247,255]"/>
+  <match src="identifier: dd [95,97]" dest="identifier: dd [95,97]"/>
+  <match src="&quot;: &quot; [3439,3440]" dest="&quot;: &quot; [3263,3264]"/>
+  <match src=",: , [4682,4683]" dest=",: , [4503,4504]"/>
+  <match src="call_expression [1525,1651]" dest="call_expression [1349,1475]"/>
+  <match src="(: ( [4516,4517]" dest="(: ( [4337,4338]"/>
+  <match src="}: } [1699,1700]" dest="}: } [1523,1524]"/>
+  <match src="(: ( [3513,3514]" dest="(: ( [3337,3338]"/>
+  <match src="identifier: error [5037,5042]" dest="identifier: error [4858,4863]"/>
+  <match src="labeled_statement [5049,5072]" dest="labeled_statement [4870,4893]"/>
+  <match src="else_clause [2018,2053]" dest="else_clause [1842,1877]"/>
+  <match src="-&gt;: -&gt; [4647,4649]" dest="-&gt;: -&gt; [4468,4470]"/>
+  <match src="): ) [1650,1651]" dest="): ) [1474,1475]"/>
+  <match src="comment:             
+             * BZ plugin wont allow to report this anyway, because component
+             * is missing, so there is no reason to mark it as not_reportable.
+             * Someone might want to use abrt to report it using ftp.
+             */ [2954,3259]" dest="comment:             
+             * BZ plugin wont allow to report this anyway, because component
+             * is missing, so there is no reason to mark it as not_reportable.
+             * Someone might want to use abrt to report it using ftp.
+             */ [2778,3083]"/>
+  <match src="=: = [497,498]" dest="=: = [497,498]"/>
+  <match src="&quot;: &quot; [1713,1714]" dest="&quot;: &quot; [1537,1538]"/>
+  <match src="statement_identifier: ret0 [5027,5031]" dest="statement_identifier: ret0 [4848,4852]"/>
+  <match src="type_identifier: GCompareFunc [2228,2240]" dest="type_identifier: GCompareFunc [2052,2064]"/>
+  <match src="if_statement [3510,3723]" dest="if_statement [3334,3547]"/>
+  <match src="(: ( [3582,3583]" dest="(: ( [3406,3407]"/>
+  <match src="unary_expression [2579,2590]" dest="unary_expression [2403,2414]"/>
+  <match src="(: ( [4969,4970]" dest="(: ( [4790,4791]"/>
+  <match src="field_expression [4576,4591]" dest="field_expression [4397,4412]"/>
+  <match src=";: ; [4592,4593]" dest=";: ; [4413,4414]"/>
+  <match src="): ) [5171,5172]" dest="): ) [4973,4974]"/>
+  <match src="(: ( [1285,1286]" dest="(: ( [1112,1113]"/>
+  <match src="struct_specifier [601,617]" dest="struct_specifier [575,591]"/>
+  <match src="expression_statement [2031,2053]" dest="expression_statement [1855,1877]"/>
+  <match src="primitive_type: char [640,644]" dest="primitive_type: char [614,618]"/>
+  <match src="statement_identifier: ret [2897,2900]" dest="statement_identifier: ret [2721,2724]"/>
+  <match src="(: ( [3732,3733]" dest="(: ( [3556,3557]"/>
+  <match src=",: , [3481,3482]" dest=",: , [3305,3306]"/>
+  <match src="field_identifier: p_name [4713,4719]" dest="field_identifier: p_name [4534,4540]"/>
+  <match src="comment:     
+     * don't want to keep dd locked longer than necessary */ [1079,1207]" dest="comment:     
+     * don't want to keep dd locked longer than necessary */ [906,1034]"/>
+  <match src="call_expression [396,408]" dest="call_expression [396,408]"/>
+  <match src="): ) [1223,1224]" dest="): ) [1050,1051]"/>
+  <match src="(: ( [900,901]" dest="(: ( [874,875]"/>
+  <match src="): ) [1265,1266]" dest="): ) [1092,1093]"/>
+  <match src="&quot;: &quot; [1596,1597]" dest="&quot;: &quot; [1420,1421]"/>
+  <match src="NULL: NULL [499,503]" dest="NULL: NULL [499,503]"/>
+  <match src="): ) [329,330]" dest="): ) [329,330]"/>
+  <match src=",: , [124,125]" dest=",: , [124,125]"/>
+  <match src="): ) [4719,4720]" dest="): ) [4540,4541]"/>
+  <match src="identifier: executable [1317,1327]" dest="identifier: executable [1144,1154]"/>
+  <match src="identifier: script_pkg [2285,2295]" dest="identifier: script_pkg [2109,2119]"/>
+  <match src=",: , [4836,4837]" dest=",: , [4657,4658]"/>
+  <match src=",: , [1638,1639]" dest=",: , [1462,1463]"/>
+  <match src="(: ( [4937,4938]" dest="(: ( [4758,4759]"/>
+  <match src="=: = [2296,2297]" dest="=: = [2120,2121]"/>
+  <match src="): ) [3814,3815]" dest="): ) [3638,3639]"/>
+  <match src="concatenated_string [1713,1802]" dest="concatenated_string [1537,1626]"/>
+  <match src="identifier: cmdline [5063,5070]" dest="identifier: cmdline [4884,4891]"/>
+  <match src="(: ( [148,149]" dest="(: ( [148,149]"/>
+  <match src="parameter_list [44,71]" dest="parameter_list [44,71]"/>
+  <match src="return: return [442,448]" dest="return: return [442,448]"/>
+  <match src="=: = [2040,2041]" dest="=: = [1864,1865]"/>
+  <match src="cast_expression [2227,2250]" dest="cast_expression [2051,2074]"/>
+  <match src="identifier: package_short_name [3370,3388]" dest="identifier: package_short_name [3194,3212]"/>
+  <match src="argument_list [1533,1651]" dest="argument_list [1357,1475]"/>
+  <match src="if_statement [4456,4482]" dest="if_statement [4277,4303]"/>
+  <match src="if: if [145,147]" dest="if: if [145,147]"/>
+  <match src=",: , [2864,2865]" dest=",: , [2688,2689]"/>
+  <match src="expression_statement [5118,5143]" dest="expression_statement [4920,4945]"/>
+  <match src="if: if [3510,3512]" dest="if: if [3334,3336]"/>
+  <match src="identifier: dump_dir_name [57,70]" dest="identifier: dump_dir_name [57,70]"/>
+  <match src="): ) [3423,3424]" dest="): ) [3247,3248]"/>
+  <match src="comment: /* return 1 (failure) */ [2902,2926]" dest="comment: /* return 1 (failure) */ [2726,2750]"/>
+  <match src="=: = [192,193]" dest="=: = [192,193]"/>
+  <match src="): ) [475,476]" dest="): ) [475,476]"/>
+  <match src="struct: struct [78,84]" dest="struct: struct [78,84]"/>
+  <match src="expression_statement [4799,4859]" dest="expression_statement [4620,4680]"/>
+  <match src="type_identifier: dump_dir [85,93]" dest="type_identifier: dump_dir [85,93]"/>
+  <match src="(: ( [4742,4743]" dest="(: ( [4563,4564]"/>
+  <match src="if_statement [4934,5005]" dest="if_statement [4755,4826]"/>
+  <match src=";: ; [229,230]" dest=";: ; [229,230]"/>
+  <match src="argument_list [466,476]" dest="argument_list [466,476]"/>
+  <match src="identifier: dd [5020,5022]" dest="identifier: dd [4841,4843]"/>
+  <match src="pointer_declarator [182,191]" dest="pointer_declarator [182,191]"/>
+  <match src="identifier: settings_setBlackListedPkgs [3533,3560]" dest="identifier: settings_setBlackListedPkgs [3357,3384]"/>
+  <match src=";: ; [5172,5173]" dest=";: ; [4974,4975]"/>
+  <match src=";: ; [1674,1675]" dest=";: ; [1498,1499]"/>
+  <match src="goto: goto [3272,3276]" dest="goto: goto [3096,3100]"/>
+  <match src="(: ( [4459,4460]" dest="(: ( [4280,4281]"/>
+  <match src="expression_statement [4541,4593]" dest="expression_statement [4362,4414]"/>
+  <match src="expression_statement [3430,3503]" dest="expression_statement [3254,3327]"/>
+  <match src="field_expression [4904,4920]" dest="field_expression [4725,4741]"/>
+  <match src="init_declarator [2284,2335]" dest="init_declarator [2108,2159]"/>
+  <match src="): ) [138,139]" dest="): ) [138,139]"/>
+  <match src="assignment_expression [5037,5046]" dest="assignment_expression [4858,4867]"/>
+  <match src="*: * [569,570]" dest="*: * [543,544]"/>
+  <match src="init_declarator [645,662]" dest="init_declarator [619,636]"/>
+  <match src="): ) [1454,1455]" dest="): ) [1278,1279]"/>
+  <match src="type_qualifier [45,50]" dest="type_qualifier [45,50]"/>
+  <match src="): ) [4525,4526]" dest="): ) [4346,4347]"/>
+  <match src="if_statement [145,171]" dest="if_statement [145,171]"/>
+  <match src="): ) [1266,1267]" dest="): ) [1093,1094]"/>
+  <match src="parenthesized_expression [2174,2252]" dest="parenthesized_expression [1998,2076]"/>
+  <match src="compound_statement [2257,3364]" dest="compound_statement [2081,3188]"/>
+  <match src="identifier: free_pkg_envra [3302,3316]" dest="identifier: free_pkg_envra [3126,3140]"/>
+  <match src="expression_statement [1709,1827]" dest="expression_statement [1533,1651]"/>
+  <match src="(: ( [3532,3533]" dest="(: ( [3356,3357]"/>
+  <match src=";: ; [3907,3908]" dest=";: ; [3731,3732]"/>
+  <match src="argument_list [5162,5172]" dest="argument_list [4964,4974]"/>
+  <match src="expression_statement [5178,5194]" dest="expression_statement [4980,4996]"/>
+  <match src="(: ( [238,239]" dest="(: ( [238,239]"/>
+  <match src="expression_statement [3622,3674]" dest="expression_statement [3446,3498]"/>
+  <match src="(: ( [4811,4812]" dest="(: ( [4632,4633]"/>
+  <match src="statement_identifier: ret [1841,1844]" dest="statement_identifier: ret [1665,1668]"/>
+  <match src=",: , [1802,1803]" dest=",: , [1626,1627]"/>
+  <match src="identifier: FILENAME_COMPONENT [357,375]" dest="identifier: FILENAME_COMPONENT [357,375]"/>
+  <match src="compound_statement [72,5215]" dest="compound_statement [72,5017]"/>
+  <match src="argument_list [2465,2508]" dest="argument_list [2289,2332]"/>
+  <match src="init_declarator [569,595]" dest="init_declarator [543,569]"/>
+  <match src="goto: goto [2522,2526]" dest="goto: goto [2346,2350]"/>
+  <match src="=: = [4409,4410]" dest="=: = [4230,4231]"/>
+  <match src="identifier: dd_load_text [194,206]" dest="identifier: dd_load_text [194,206]"/>
+  <match src=";: ; [4450,4451]" dest=";: ; [4271,4272]"/>
+  <match src="goto_statement [4473,4482]" dest="goto_statement [4294,4303]"/>
+  <match src="): ) [4591,4592]" dest="): ) [4412,4413]"/>
+  <match src="call_expression [418,432]" dest="call_expression [418,432]"/>
+  <match src=",: , [2215,2216]" dest=",: , [2039,2040]"/>
+  <match src="call_expression [5011,5023]" dest="call_expression [4832,4844]"/>
+  <match src="expression_statement [4406,4451]" dest="expression_statement [4227,4272]"/>
+  <match src="identifier: component [5183,5192]" dest="identifier: component [4985,4994]"/>
+  <match src="declaration [564,596]" dest="declaration [538,570]"/>
+  <match src="{: { [1460,1461]" dest="{: { [1284,1285]"/>
+  <match src="): ) [4947,4948]" dest="): ) [4768,4769]"/>
+  <match src="): ) [1992,1993]" dest="): ) [1816,1817]"/>
+  <match src="): ) [5141,5142]" dest="): ) [4943,4944]"/>
+  <match src="init_declarator [514,532]" dest="init_declarator [514,532]"/>
+  <match src="pointer_declarator [94,97]" dest="pointer_declarator [94,97]"/>
+  <match src=",: , [4972,4973]" dest=",: , [4793,4794]"/>
+  <match src="identifier: pkg_name [4904,4912]" dest="identifier: pkg_name [4725,4733]"/>
+  <match src=";: ; [4789,4790]" dest=";: ; [4610,4611]"/>
+  <match src="expression_statement [3336,3358]" dest="expression_statement [3160,3182]"/>
+  <match src="argument_list [422,432]" dest="argument_list [422,432]"/>
+  <match src="call_expression [100,139]" dest="call_expression [100,139]"/>
+  <match src="): ) [2507,2508]" dest="): ) [2331,2332]"/>
+  <match src="assignment_expression [4406,4450]" dest="assignment_expression [4227,4271]"/>
+  <match src="comment: /* executable may have changed, check it again */ [2345,2394]" dest="comment: /* executable may have changed, check it again */ [2169,2218]"/>
+  <match src="): ) [4788,4789]" dest="): ) [4609,4610]"/>
+  <match src="argument_list [1285,1328]" dest="argument_list [1112,1155]"/>
+  <match src="identifier: dd_save_text [4541,4553]" dest="identifier: dd_save_text [4362,4374]"/>
+  <match src="argument_list [5122,5142]" dest="argument_list [4924,4944]"/>
+  <match src="(: ( [823,824]" dest="(: ( [797,798]"/>
+  <match src="identifier: executable [1640,1650]" dest="identifier: executable [1464,1474]"/>
+  <match src="parenthesized_expression [2578,2591]" dest="parenthesized_expression [2402,2415]"/>
+  <match src="goto: goto [1338,1342]" dest="goto: goto [1165,1169]"/>
+  <match src=";: ; [5023,5024]" dest=";: ; [4844,4845]"/>
+  <match src="(: ( [2227,2228]" dest="(: ( [2051,2052]"/>
+  <match src="identifier: cmdline [2866,2873]" dest="identifier: cmdline [2690,2697]"/>
+  <match src="unary_expression [1445,1454]" dest="unary_expression [1269,1278]"/>
+  <match src="field_identifier: p_arch [4914,4920]" dest="field_identifier: p_arch [4735,4741]"/>
+  <match src="identifier: dd [4554,4556]" dest="identifier: dd [4375,4377]"/>
+  <match src="declaration [78,140]" dest="declaration [78,140]"/>
+  <match src="field_expression [4838,4857]" dest="field_expression [4659,4678]"/>
+  <match src=";: ; [432,433]" dest=";: ; [432,433]"/>
+  <match src="}: } [3964,3965]" dest="}: } [3788,3789]"/>
+  <match src="storage_class_specifier [0,6]" dest="storage_class_specifier [0,6]"/>
+  <match src="compound_statement [1511,1700]" dest="compound_statement [1335,1524]"/>
+  <match src="=: = [628,629]" dest="=: = [602,603]"/>
+  <match src="&quot;: &quot; [1801,1802]" dest="&quot;: &quot; [1625,1626]"/>
+  <match src="argument_list [3316,3326]" dest="argument_list [3140,3150]"/>
+  <match src="identifier: dd [405,407]" dest="identifier: dd [405,407]"/>
+  <match src="): ) [431,432]" dest="): ) [431,432]"/>
+  <match src="identifier: pkg_name [3336,3344]" dest="identifier: pkg_name [3160,3168]"/>
+  <match src=";: ; [3691,3692]" dest=";: ; [3515,3516]"/>
+  <match src="(: ( [1712,1713]" dest="(: ( [1536,1537]"/>
+  <match src="): ) [3605,3606]" dest="): ) [3429,3430]"/>
+  <match src="primitive_type: char [177,181]" dest="primitive_type: char [177,181]"/>
+  <match src="=: = [656,657]" dest="=: = [630,631]"/>
+  <match src="*: * [182,183]" dest="*: * [182,183]"/>
+  <match src="parenthesized_expression [4937,4948]" dest="parenthesized_expression [4758,4769]"/>
+  <match src=";: ; [1328,1329]" dest=";: ; [1155,1156]"/>
+  <match src="call_expression [5178,5193]" dest="call_expression [4980,4995]"/>
+  <match src="init_declarator [618,634]" dest="init_declarator [592,608]"/>
+  <match src="comment:             
+             * belong to any installed package.
+             */ [2614,2723]" dest="comment:             
+             * belong to any installed package.
+             */ [2438,2547]"/>
+  <match src="goto_statement [1836,1845]" dest="goto_statement [1660,1669]"/>
+  <match src="const: const [1927,1932]" dest="const: const [1751,1756]"/>
+  <match src="string_content: Blacklisted executable '%s' [2467,2494]" dest="string_content: Blacklisted executable '%s' [2291,2318]"/>
+  <match src="identifier: dd_load_text [888,900]" dest="identifier: dd_load_text [862,874]"/>
+  <match src="identifier: FILENAME_COMPONENT [4974,4992]" dest="identifier: FILENAME_COMPONENT [4795,4813]"/>
+  <match src="if: if [235,237]" dest="if: if [235,237]"/>
+  <match src="expression_statement [4667,4721]" dest="expression_statement [4488,4542]"/>
+  <match src=";: ; [4720,4721]" dest=";: ; [4541,4542]"/>
+  <match src="null [630,634]" dest="null [604,608]"/>
+  <match src="identifier: get_script_name [2298,2313]" dest="identifier: get_script_name [2122,2137]"/>
+  <match src="): ) [5003,5004]" dest="): ) [4824,4825]"/>
+  <match src=",: , [826,827]" dest=",: , [800,801]"/>
+  <match src="identifier: analyzer [423,431]" dest="identifier: analyzer [423,431]"/>
+  <match src="(: ( [3316,3317]" dest="(: ( [3140,3141]"/>
+  <match src="): ) [2873,2874]" dest="): ) [2697,2698]"/>
+  <match src="field_identifier: p_release [4848,4857]" dest="field_identifier: p_release [4669,4678]"/>
+  <match src="): ) [3672,3673]" dest="): ) [3496,3497]"/>
+  <match src="statement_identifier: ret [5049,5052]" dest="statement_identifier: ret [4870,4873]"/>
+  <match src="argument_list [2193,2251]" dest="argument_list [2017,2075]"/>
+  <match src="identifier: analyzer [183,191]" dest="identifier: analyzer [183,191]"/>
+  <match src="parenthesized_expression [1473,1502]" dest="parenthesized_expression [1297,1326]"/>
+  <match src=",: , [4883,4884]" dest=",: , [4704,4705]"/>
+  <match src="identifier: FILENAME_ANALYZER [211,228]" dest="identifier: FILENAME_ANALYZER [211,228]"/>
+  <match src="argument_list [3625,3673]" dest="argument_list [3449,3497]"/>
+  <match src="parenthesized_expression [1983,1993]" dest="parenthesized_expression [1807,1817]"/>
+  <match src="(: ( [110,111]" dest="(: ( [110,111]"/>
+  <match src=";: ; [5212,5213]" dest=";: ; [5014,5015]"/>
+  <match src="=: = [805,806]" dest="=: = [779,780]"/>
+  <match src="identifier: FILENAME_PACKAGE [303,319]" dest="identifier: FILENAME_PACKAGE [303,319]"/>
+  <match src="compound_statement [1272,1378]" dest="compound_statement [1099,1205]"/>
+  <match src="identifier: executable [5082,5092]" dest="identifier: executable [4903,4913]"/>
+  <match src="expression_statement [1525,1652]" dest="expression_statement [1349,1476]"/>
+  <match src="argument_list [1957,1974]" dest="argument_list [1781,1798]"/>
+  <match src="identifier: g_strcmp0 [2241,2250]" dest="identifier: g_strcmp0 [2065,2074]"/>
+  <match src="(: ( [2426,2427]" dest="(: ( [2250,2251]"/>
+  <match src="&quot;: &quot; [3626,3627]" dest="&quot;: &quot; [3450,3451]"/>
+  <match src="return: return [5200,5206]" dest="return: return [5002,5008]"/>
+  <match src="statement_identifier: ret0 [1670,1674]" dest="statement_identifier: ret0 [1494,1498]"/>
+  <match src="unary_expression [149,152]" dest="unary_expression [149,152]"/>
+  <match src="identifier: is_path_blacklisted [2407,2426]" dest="identifier: is_path_blacklisted [2231,2250]"/>
+  <match src="number_literal: 0 [137,138]" dest="number_literal: 0 [137,138]"/>
+  <match src="identifier: analyzer [467,475]" dest="identifier: analyzer [467,475]"/>
+  <match src="identifier: dd [4881,4883]" dest="identifier: dd [4702,4704]"/>
+  <match src="if: if [4513,4515]" dest="if: if [4334,4336]"/>
+  <match src="identifier: dd_opendir [4411,4421]" dest="identifier: dd_opendir [4232,4242]"/>
+  <match src=";: ; [408,409]" dest=";: ; [408,409]"/>
+  <match src="assignment_expression [2031,2052]" dest="assignment_expression [1855,1876]"/>
+  <match src="identifier: dd_save_text [4868,4880]" dest="identifier: dd_save_text [4689,4701]"/>
+  <match src="pointer_declarator [514,525]" dest="pointer_declarator [514,525]"/>
+  <match src="expression_statement [5148,5173]" dest="expression_statement [4950,4975]"/>
+  <match src="): ) [1327,1328]" dest="): ) [1154,1155]"/>
+  <match src="parenthesized_expression [4516,4526]" dest="parenthesized_expression [4337,4347]"/>
+  <match src="argument_list [1254,1266]" dest="argument_list [1081,1093]"/>
+  <match src="identifier: basename [2002,2010]" dest="identifier: basename [1826,1834]"/>
+  <match src="(: ( [2313,2314]" dest="(: ( [2137,2138]"/>
+  <match src="field_expression [3466,3481]" dest="field_expression [3290,3305]"/>
+  <match src="&quot;: &quot; [1637,1638]" dest="&quot;: &quot; [1461,1462]"/>
+  <match src="(: ( [1254,1255]" dest="(: ( [1081,1082]"/>
+  <match src="expression_statement [5037,5047]" dest="expression_statement [4858,4868]"/>
+  <match src="string_literal [1763,1802]" dest="string_literal [1587,1626]"/>
+  <match src="identifier: executable [1806,1816]" dest="identifier: executable [1630,1640]"/>
+  <match src="call_expression [4799,4858]" dest="call_expression [4620,4679]"/>
+  <match src=";: ; [1826,1827]" dest=";: ; [1650,1651]"/>
+  <match src="expression_statement [1282,1329]" dest="expression_statement [1109,1156]"/>
+  <match src="identifier: pkg_name [619,627]" dest="identifier: pkg_name [593,601]"/>
+  <match src="=: = [5043,5044]" dest="=: = [4864,4865]"/>
+  <match src="(: ( [1957,1958]" dest="(: ( [1781,1782]"/>
+  <match src="(: ( [1444,1445]" dest="(: ( [1268,1269]"/>
+  <match src="argument_list [5081,5093]" dest="argument_list [4902,4914]"/>
+  <match src="&quot;: &quot; [268,269]" dest="&quot;: &quot; [268,269]"/>
+  <match src="): ) [2240,2241]" dest="): ) [2064,2065]"/>
+  <match src="call_expression [340,386]" dest="call_expression [340,386]"/>
+  <match src="!: ! [3775,3776]" dest="!: ! [3599,3600]"/>
+  <match src="statement_identifier: ret [4478,4481]" dest="statement_identifier: ret [4299,4302]"/>
+  <match src="): ) [3325,3326]" dest="): ) [3149,3150]"/>
+  <match src="argument_list [4614,4657]" dest="argument_list [4435,4478]"/>
+  <match src="identifier: xasprintf [3391,3400]" dest="identifier: xasprintf [3215,3224]"/>
+  <match src="{: { [2782,2783]" dest="{: { [2606,2607]"/>
+  <match src="translation_unit [0,5215]" dest="translation_unit [0,5017]"/>
+  <match src="&quot;: &quot; [321,322]" dest="&quot;: &quot; [321,322]"/>
+  <match src="): ) [1825,1826]" dest="): ) [1649,1650]"/>
+  <match src="(: ( [2739,2740]" dest="(: ( [2563,2564]"/>
+  <match src="): ) [924,925]" dest="): ) [898,899]"/>
+  <match src="string_literal [1596,1638]" dest="string_literal [1420,1462]"/>
+  <match src="identifier: dd_save_text [4667,4679]" dest="identifier: dd_save_text [4488,4500]"/>
+  <match src="): ) [1973,1974]" dest="): ) [1797,1798]"/>
+  <match src="declaration [2267,2336]" dest="declaration [2091,2160]"/>
+  <match src="identifier: g_list_find_custom [3514,3532]" dest="identifier: g_list_find_custom [3338,3356]"/>
+  <match src="assignment_expression [875,925]" dest="assignment_expression [849,899]"/>
+  <match src="identifier: pkg_name [4639,4647]" dest="identifier: pkg_name [4460,4468]"/>
+  <match src="*: * [1938,1939]" dest="*: * [1762,1763]"/>
+  <match src="if: if [3771,3773]" dest="if: if [3595,3597]"/>
+  <match src="call_expression [1282,1328]" dest="call_expression [1109,1155]"/>
+  <match src="static: static [0,6]" dest="static: static [0,6]"/>
+  <match src="identifier: package_short_name [5123,5141]" dest="identifier: package_short_name [4925,4943]"/>
+  <match src="comment: /* Check well-known interpreter names */ [1882,1922]" dest="comment: /* Check well-known interpreter names */ [1706,1746]"/>
+  <match src="declaration [1927,1975]" dest="declaration [1751,1799]"/>
+  <match src="identifier: FILENAME_EXECUTABLE [905,924]" dest="identifier: FILENAME_EXECUTABLE [879,898]"/>
+  <match src="argument_list [823,869]" dest="argument_list [797,843]"/>
+  <match src="if: if [1441,1443]" dest="if: if [1265,1267]"/>
+  <match src="field_identifier: p_epoch [4649,4656]" dest="field_identifier: p_epoch [4470,4477]"/>
+  <match src="call_expression [888,925]" dest="call_expression [862,899]"/>
+  <match src="call_expression [2175,2251]" dest="call_expression [1999,2075]"/>
+  <match src="declaration [640,663]" dest="declaration [614,637]"/>
+  <match src="compound_statement [1460,1876]" dest="compound_statement [1284,1700]"/>
+  <match src="if: if [1231,1233]" dest="if: if [1058,1060]"/>
+  <match src="expression_statement [2800,2875]" dest="expression_statement [2624,2699]"/>
+  <match src="argument_list [3400,3424]" dest="argument_list [3224,3248]"/>
+  <match src="identifier: dd_save_text [286,298]" dest="identifier: dd_save_text [286,298]"/>
+  <match src=",: , [3464,3465]" dest=",: , [3288,3289]"/>
+  <match src="argument_list [3438,3502]" dest="argument_list [3262,3326]"/>
+  <match src="!: ! [2579,2580]" dest="!: ! [2403,2404]"/>
+  <match src="call_expression [240,270]" dest="call_expression [240,270]"/>
+  <match src="&quot;: &quot; [377,378]" dest="&quot;: &quot; [377,378]"/>
+  <match src="field_expression [4703,4719]" dest="field_expression [4524,4540]"/>
+  <match src="if_statement [1470,1700]" dest="if_statement [1294,1524]"/>
+  <match src="identifier: package_short_name [570,588]" dest="identifier: package_short_name [544,562]"/>
+  <match src="identifier: pkg_name [1446,1454]" dest="identifier: pkg_name [1270,1278]"/>
+  <match src="number_literal: 1 [169,170]" dest="number_literal: 1 [169,170]"/>
+  <match src=",: , [3886,3887]" dest=",: , [3710,3711]"/>
+  <match src="): ) [5070,5071]" dest="): ) [4891,4892]"/>
+  <match src="&quot;: &quot; [3463,3464]" dest="&quot;: &quot; [3287,3288]"/>
+  <match src="string_literal [377,385]" dest="string_literal [377,385]"/>
+  <match src="identifier: executable [875,885]" dest="identifier: executable [849,859]"/>
+  <match src=";: ; [330,331]" dest=";: ; [330,331]"/>
+</matches>
+<actions>
+  <insert-node tree="expression_statement [1211,1260]" parent="compound_statement [72,5215]" at="20"/>
+  <insert-tree tree="expression_statement [4173,4221]" parent="compound_statement [72,5215]" at="32"/>
+  <insert-node tree="assignment_expression [1211,1259]" parent="expression_statement [1211,1260]" at="0"/>
+  <insert-node tree=";: ; [1259,1260]" parent="expression_statement [1211,1260]" at="1"/>
+  <insert-node tree="identifier: pkg_name [1211,1219]" parent="assignment_expression [1211,1259]" at="0"/>
+  <insert-node tree="=: = [1220,1221]" parent="assignment_expression [1211,1259]" at="1"/>
+  <insert-node tree="call_expression [1222,1259]" parent="assignment_expression [1211,1259]" at="2"/>
+  <insert-node tree="identifier: rpm_get_package_nvr [1222,1241]" parent="call_expression [1222,1259]" at="0"/>
+  <insert-node tree="argument_list [1241,1259]" parent="call_expression [1222,1259]" at="1"/>
+  <insert-node tree="(: ( [1241,1242]" parent="argument_list [1241,1259]" at="0"/>
+  <insert-node tree="identifier: executable [1242,1252]" parent="argument_list [1241,1259]" at="1"/>
+  <insert-node tree=",: , [1252,1253]" parent="argument_list [1241,1259]" at="2"/>
+  <move-tree tree="null [554,558]" parent="argument_list [1241,1259]" at="3"/>
+  <insert-node tree="): ) [1258,1259]" parent="argument_list [1241,1259]" at="4"/>
+  <delete-node tree="primitive_type: char [538,542]"/>
+  <delete-tree tree="pointer_declarator [543,551]"/>
+  <delete-node tree="=: = [552,553]"/>
+  <delete-node tree="init_declarator [543,558]"/>
+  <delete-node tree=";: ; [558,559]"/>
+  <delete-node tree="declaration [538,559]"/>
+  <delete-tree tree="expression_statement [931,1073]"/>
+  <delete-tree tree="expression_statement [1384,1436]"/>
+  <delete-tree tree="expression_statement [4349,4400]"/>
+  <delete-tree tree="expression_statement [5099,5113]"/>
+</actions>

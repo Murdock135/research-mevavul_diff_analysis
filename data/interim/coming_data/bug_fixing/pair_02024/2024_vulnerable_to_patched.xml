@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="identifier: reason [175,181]" dest="identifier: reason [253,259]"/>
+  <match src="call_expression [83,100]" dest="call_expression [161,178]"/>
+  <match src=";: ; [100,101]" dest=";: ; [178,179]"/>
+  <match src=",: , [220,221]" dest=",: , [427,428]"/>
+  <match src="parameter_declaration [60,76]" dest="parameter_declaration [60,76]"/>
+  <match src="(: ( [98,99]" dest="(: ( [176,177]"/>
+  <match src="ERROR [12,16]" dest="ERROR [12,16]"/>
+  <match src="identifier: die [193,196]" dest="identifier: arm64_notify_die [387,403]"/>
+  <match src="identifier: pr_crit [106,113]" dest="identifier: pr_crit [184,191]"/>
+  <match src="identifier: esr [73,76]" dest="identifier: esr [73,76]"/>
+  <match src="primitive_type: int [48,51]" dest="primitive_type: int [48,51]"/>
+  <match src=";: ; [188,189]" dest=";: ; [266,267]"/>
+  <match src="): ) [76,77]" dest="): ) [76,77]"/>
+  <match src="identifier: void [12,16]" dest="identifier: void [12,16]"/>
+  <match src="number_literal: 0 [222,223]" dest="number_literal: 0 [436,437]"/>
+  <match src=",: , [214,215]" dest=",: , [421,422]"/>
+  <match src="identifier: handler [167,174]" dest="identifier: handler [245,252]"/>
+  <match src="&quot;: &quot; [161,162]" dest="&quot;: &quot; [239,240]"/>
+  <match src="parameter_declaration [48,58]" dest="parameter_declaration [48,58]"/>
+  <match src="subscript_expression [167,182]" dest="subscript_expression [245,260]"/>
+  <match src="argument_list [113,188]" dest="argument_list [191,266]"/>
+  <match src="escape_sequence: \n [159,161]" dest="escape_sequence: \n [237,239]"/>
+  <match src="identifier: console_verbose [83,98]" dest="identifier: console_verbose [161,176]"/>
+  <match src="string_literal [197,214]" dest="string_literal [404,421]"/>
+  <match src="]: ] [181,182]" dest="]: ] [259,260]"/>
+  <match src="primitive_type: int [69,72]" dest="primitive_type: int [69,72]"/>
+  <match src="identifier: reason [52,58]" dest="identifier: reason [52,58]"/>
+  <match src=";: ; [224,225]" dest=";: ; [438,439]"/>
+  <match src="parameter_declaration [26,46]" dest="parameter_declaration [26,46]"/>
+  <match src="expression_statement [106,189]" dest="expression_statement [184,267]"/>
+  <match src="expression_statement [193,225]" dest="expression_statement [387,439]"/>
+  <match src="[: [ [174,175]" dest="[: [ [252,253]"/>
+  <match src="type_identifier: asmlinkage [1,11]" dest="type_identifier: asmlinkage [1,11]"/>
+  <match src="unsigned: unsigned [60,68]" dest="unsigned: unsigned [60,68]"/>
+  <match src="struct_specifier [26,40]" dest="struct_specifier [26,40]"/>
+  <match src="sized_type_specifier [60,72]" dest="sized_type_specifier [60,72]"/>
+  <match src="): ) [99,100]" dest="): ) [177,178]"/>
+  <match src="(: ( [113,114]" dest="(: ( [191,192]"/>
+  <match src="(: ( [196,197]" dest="(: ( [403,404]"/>
+  <match src=",: , [162,163]" dest=",: , [240,241]"/>
+  <match src="): ) [187,188]" dest="): ) [265,266]"/>
+  <match src="pointer_declarator [41,46]" dest="pointer_declarator [41,46]"/>
+  <match src="identifier: esr [184,187]" dest="identifier: esr [262,265]"/>
+  <match src="{: { [79,80]" dest="{: { [79,80]"/>
+  <match src="}: } [269,270]" dest="}: } [441,442]"/>
+  <match src="): ) [223,224]" dest="): ) [437,438]"/>
+  <match src="parameter_list [25,77]" dest="parameter_list [25,77]"/>
+  <match src="identifier: bad_mode [17,25]" dest="identifier: bad_mode [17,25]"/>
+  <match src="call_expression [193,224]" dest="call_expression [387,438]"/>
+  <match src="string_literal [114,162]" dest="string_literal [192,240]"/>
+  <match src=",: , [46,47]" dest=",: , [46,47]"/>
+  <match src="&quot;: &quot; [197,198]" dest="&quot;: &quot; [404,405]"/>
+  <match src="argument_list [196,224]" dest="argument_list [403,438]"/>
+  <match src="&quot;: &quot; [114,115]" dest="&quot;: &quot; [192,193]"/>
+  <match src="function_definition [1,270]" dest="function_definition [1,442]"/>
+  <match src="identifier: regs [42,46]" dest="identifier: regs [42,46]"/>
+  <match src="*: * [41,42]" dest="*: * [41,42]"/>
+  <match src="function_declarator [17,77]" dest="function_declarator [17,77]"/>
+  <match src=",: , [182,183]" dest=",: , [260,261]"/>
+  <match src="string_content: Bad mode in %s handler detected, code 0x%08x [115,159]" dest="string_content: Bad mode in %s handler detected, code 0x%08x [193,237]"/>
+  <match src="translation_unit [1,270]" dest="translation_unit [1,442]"/>
+  <match src="expression_statement [83,101]" dest="expression_statement [161,179]"/>
+  <match src="argument_list [98,100]" dest="argument_list [176,178]"/>
+  <match src="identifier: regs [216,220]" dest="identifier: regs [423,427]"/>
+  <match src="compound_statement [79,270]" dest="compound_statement [79,442]"/>
+  <match src="(: ( [25,26]" dest="(: ( [25,26]"/>
+  <match src="type_identifier: pt_regs [33,40]" dest="type_identifier: pt_regs [33,40]"/>
+  <match src="string_content: Oops - bad mode [198,213]" dest="string_content: Oops - bad mode [405,420]"/>
+  <match src="struct: struct [26,32]" dest="struct: struct [26,32]"/>
+  <match src="call_expression [106,188]" dest="call_expression [184,266]"/>
+  <match src="&quot;: &quot; [213,214]" dest="&quot;: &quot; [420,421]"/>
+  <match src=",: , [58,59]" dest=",: , [58,59]"/>
+</matches>
+<actions>
+  <insert-tree tree="declaration [82,97]" parent="compound_statement [79,270]" at="1"/>
+  <insert-tree tree="declaration [99,158]" parent="compound_statement [79,270]" at="2"/>
+  <insert-tree tree="expression_statement [269,287]" parent="compound_statement [79,270]" at="5"/>
+  <insert-tree tree="expression_statement [290,313]" parent="compound_statement [79,270]" at="6"/>
+  <insert-tree tree="expression_statement [315,333]" parent="compound_statement [79,270]" at="7"/>
+  <insert-tree tree="expression_statement [335,362]" parent="compound_statement [79,270]" at="8"/>
+  <insert-tree tree="expression_statement [364,383]" parent="compound_statement [79,270]" at="9"/>
+  <update-node tree="identifier: die [193,196]" label="arm64_notify_die"/>
+  <insert-tree tree="pointer_expression [429,434]" parent="argument_list [196,224]" at="5"/>
+  <insert-node tree=",: , [434,435]" parent="argument_list [196,224]" at="6"/>
+  <delete-tree tree="expression_statement [227,247]"/>
+  <delete-tree tree="expression_statement [249,267]"/>
+</actions>

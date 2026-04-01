@@ -1,0 +1,845 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="break_statement [1187,1193]" dest="break_statement [1187,1193]"/>
+  <match src="else: else [3011,3015]" dest="else: else [3027,3031]"/>
+  <match src="=: = [566,567]" dest="=: = [566,567]"/>
+  <match src="=: = [3569,3570]" dest="=: = [3585,3586]"/>
+  <match src=",: , [74,75]" dest=",: , [74,75]"/>
+  <match src=";: ; [3991,3992]" dest=";: ; [4007,4008]"/>
+  <match src="=: = [2998,2999]" dest="=: = [3014,3015]"/>
+  <match src="else_clause [3207,3290]" dest="else_clause [3223,3306]"/>
+  <match src="declaration [124,137]" dest="declaration [124,137]"/>
+  <match src="parenthesized_expression [2167,2227]" dest="parenthesized_expression [2183,2243]"/>
+  <match src="+: + [1181,1182]" dest="+: + [1181,1182]"/>
+  <match src="number_literal: 8 [2947,2948]" dest="number_literal: 8 [2963,2964]"/>
+  <match src="=: = [902,903]" dest="=: = [902,903]"/>
+  <match src="}: } [1893,1894]" dest="}: } [1909,1910]"/>
+  <match src=";: ; [1257,1258]" dest=";: ; [1257,1258]"/>
+  <match src="number_literal: 60 [1694,1696]" dest="number_literal: 60 [1710,1712]"/>
+  <match src="type_identifier: EAS_U32 [3752,3759]" dest="type_identifier: EAS_U32 [3768,3775]"/>
+  <match src="identifier: p [2318,2319]" dest="identifier: p [2334,2335]"/>
+  <match src="subscript_expression [3631,3675]" dest="subscript_expression [3647,3691]"/>
+  <match src="identifier: size [3073,3077]" dest="identifier: size [3089,3093]"/>
+  <match src="field_expression [466,486]" dest="field_expression [466,486]"/>
+  <match src="number_literal: 8 [1248,1249]" dest="number_literal: 8 [1248,1249]"/>
+  <match src="identifier: pDLSData [53,61]" dest="identifier: pDLSData [53,61]"/>
+  <match src="if_statement [2931,3336]" dest="if_statement [2947,3352]"/>
+  <match src="identifier: chunkPos [1304,1312]" dest="identifier: chunkPos [1304,1312]"/>
+  <match src="-&gt;: -&gt; [1659,1661]" dest="-&gt;: -&gt; [1675,1677]"/>
+  <match src="): ) [1427,1428]" dest="): ) [1443,1444]"/>
+  <match src="parenthesized_expression [1118,1124]" dest="parenthesized_expression [1118,1124]"/>
+  <match src=",: , [1040,1041]" dest=",: , [1040,1041]"/>
+  <match src="type_identifier: EAS_RESULT [7,17]" dest="type_identifier: EAS_RESULT [7,17]"/>
+  <match src="assignment_expression [893,914]" dest="assignment_expression [893,914]"/>
+  <match src="return: return [511,517]" dest="return: return [511,517]"/>
+  <match src="{: { [3146,3147]" dest="{: { [3162,3163]"/>
+  <match src="identifier: EAS_SUCCESS [4106,4117]" dest="identifier: EAS_SUCCESS [4122,4133]"/>
+  <match src="identifier: Parse_wave [18,28]" dest="identifier: Parse_wave [18,28]"/>
+  <match src="field_expression [1598,1616]" dest="field_expression [1614,1632]"/>
+  <match src="binary_expression [3820,3869]" dest="binary_expression [3836,3885]"/>
+  <match src="{: { [704,705]" dest="{: { [704,705]"/>
+  <match src="if_statement [1969,2116]" dest="if_statement [1985,2132]"/>
+  <match src="assignment_expression [1719,1735]" dest="assignment_expression [1735,1751]"/>
+  <match src="switch_statement [1111,1380]" dest="switch_statement [1111,1380]"/>
+  <match src="function_definition [0,4120]" dest="function_definition [0,4136]"/>
+  <match src="parenthesized_expression [1398,1428]" dest="parenthesized_expression [1398,1444]"/>
+  <match src="): ) [2158,2159]" dest="): ) [2174,2175]"/>
+  <match src="identifier: result [2169,2175]" dest="identifier: result [2185,2191]"/>
+  <match src="assignment_expression [1294,1316]" dest="assignment_expression [1294,1316]"/>
+  <match src="identifier: dataSize [1334,1342]" dest="identifier: dataSize [1334,1342]"/>
+  <match src="assignment_expression [3189,3204]" dest="assignment_expression [3205,3220]"/>
+  <match src="identifier: temp [595,599]" dest="identifier: temp [595,599]"/>
+  <match src="expression_statement [1228,1250]" dest="expression_statement [1228,1250]"/>
+  <match src="): ) [2210,2211]" dest="): ) [2226,2227]"/>
+  <match src="!=: != [2322,2324]" dest="!=: != [2338,2340]"/>
+  <match src="field_identifier: loopLength [3299,3309]" dest="field_identifier: loopLength [3315,3325]"/>
+  <match src=";: ; [3500,3501]" dest=";: ; [3516,3517]"/>
+  <match src=";: ; [3765,3766]" dest=";: ; [3781,3782]"/>
+  <match src=";: ; [4117,4118]" dest=";: ; [4133,4134]"/>
+  <match src="(: ( [4002,4003]" dest="(: ( [4018,4019]"/>
+  <match src="compound_statement [3146,3336]" dest="compound_statement [3162,3352]"/>
+  <match src="-&gt;: -&gt; [3686,3688]" dest="-&gt;: -&gt; [3702,3704]"/>
+  <match src="expression_statement [3269,3290]" dest="expression_statement [3285,3306]"/>
+  <match src="&amp;: &amp; [601,602]" dest="&amp;: &amp; [601,602]"/>
+  <match src="(: ( [3295,3296]" dest="(: ( [3311,3312]"/>
+  <match src="-&gt;: -&gt; [3297,3299]" dest="-&gt;: -&gt; [3313,3315]"/>
+  <match src="field_identifier: wavePoolOffset [3611,3625]" dest="field_identifier: wavePoolOffset [3627,3641]"/>
+  <match src="if_statement [2276,2353]" dest="if_statement [2292,2369]"/>
+  <match src="break_statement [1352,1358]" dest="break_statement [1352,1358]"/>
+  <match src="comment: /* allocate memory and read in the sample data */ [3507,3556]" dest="comment: /* allocate memory and read in the sample data */ [3523,3572]"/>
+  <match src="pointer_expression [1572,1577]" dest="pointer_expression [1588,1593]"/>
+  <match src="field_identifier: pDLS [1546,1550]" dest="field_identifier: pDLS [1562,1566]"/>
+  <match src="): ) [3759,3760]" dest="): ) [3775,3776]"/>
+  <match src="field_identifier: wsmpData [1608,1616]" dest="field_identifier: wsmpData [1624,1632]"/>
+  <match src="break_statement [1252,1258]" dest="break_statement [1252,1258]"/>
+  <match src="number_literal: 0 [1712,1713]" dest="number_literal: 0 [1728,1729]"/>
+  <match src="identifier: endChunk [168,176]" dest="identifier: endChunk [168,176]"/>
+  <match src="return_statement [3961,3992]" dest="return_statement [3977,4008]"/>
+  <match src="if: if [1532,1534]" dest="if: if [1548,1550]"/>
+  <match src=";: ; [3008,3009]" dest=";: ; [3024,3025]"/>
+  <match src="(: ( [2150,2151]" dest="(: ( [2166,2167]"/>
+  <match src=";: ; [835,836]" dest=";: ; [835,836]"/>
+  <match src="identifier: result [112,118]" dest="identifier: result [112,118]"/>
+  <match src="if_statement [554,640]" dest="if_statement [554,640]"/>
+  <match src="identifier: chunkPos [879,887]" dest="identifier: chunkPos [879,887]"/>
+  <match src="identifier: wsmpPos [2199,2206]" dest="identifier: wsmpPos [2215,2222]"/>
+  <match src="type_identifier: EAS_U16 [76,83]" dest="type_identifier: EAS_U16 [76,83]"/>
+  <match src="(: ( [999,1000]" dest="(: ( [999,1000]"/>
+  <match src="identifier: fmtPos [2310,2316]" dest="identifier: fmtPos [2326,2332]"/>
+  <match src="assignment_expression [1000,1048]" dest="assignment_expression [1000,1048]"/>
+  <match src="binary_expression [2958,2979]" dest="binary_expression [2974,2995]"/>
+  <match src="init_declarator [237,247]" dest="init_declarator [237,247]"/>
+  <match src="=: = [220,221]" dest="=: = [220,221]"/>
+  <match src="parameter_declaration [63,74]" dest="parameter_declaration [63,74]"/>
+  <match src="static: static [0,6]" dest="static: static [0,6]"/>
+  <match src="if: if [3400,3402]" dest="if: if [3416,3418]"/>
+  <match src="comment: /* get the chunk type */ [528,552]" dest="comment: /* get the chunk type */ [528,552]"/>
+  <match src="parenthesized_expression [419,493]" dest="parenthesized_expression [419,493]"/>
+  <match src="+=: += [3796,3798]" dest="+=: += [3812,3814]"/>
+  <match src=";: ; [1673,1674]" dest=";: ; [1689,1690]"/>
+  <match src="identifier: size [2993,2997]" dest="identifier: size [3009,3013]"/>
+  <match src="parenthesized_expression [2934,2949]" dest="parenthesized_expression [2950,2965]"/>
+  <match src=":: : [1144,1145]" dest=":: : [1144,1145]"/>
+  <match src="declaration [142,155]" dest="declaration [142,155]"/>
+  <match src="): ) [508,509]" dest="): ) [508,509]"/>
+  <match src="field_identifier: bitsPerSample [3156,3169]" dest="field_identifier: bitsPerSample [3172,3185]"/>
+  <match src="parenthesized_expression [3099,3114]" dest="parenthesized_expression [3115,3130]"/>
+  <match src="break: break [1252,1257]" dest="break: break [1252,1257]"/>
+  <match src="cast_expression [3751,3765]" dest="cast_expression [3767,3781]"/>
+  <match src="): ) [2226,2227]" dest="): ) [2242,2243]"/>
+  <match src="compound_statement [1434,1483]" dest="compound_statement [1450,1499]"/>
+  <match src="): ) [492,493]" dest="): ) [492,493]"/>
+  <match src="declaration [304,319]" dest="declaration [304,319]"/>
+  <match src=";: ; [2112,2113]" dest=";: ; [2128,2129]"/>
+  <match src="=: = [3194,3195]" dest="=: = [3210,3211]"/>
+  <match src="binary_expression [2280,2336]" dest="binary_expression [2296,2352]"/>
+  <match src="{: { [1984,1985]" dest="{: { [2000,2001]"/>
+  <match src="(: ( [3465,3466]" dest="(: ( [3481,3482]"/>
+  <match src="==: == [3419,3421]" dest="==: == [3435,3437]"/>
+  <match src=",: , [4053,4054]" dest=",: , [4069,4070]"/>
+  <match src="default: default [1361,1368]" dest="default: default [1361,1368]"/>
+  <match src="identifier: dataPos [1294,1301]" dest="identifier: dataPos [1294,1301]"/>
+  <match src="if_statement [2954,3094]" dest="if_statement [2970,3110]"/>
+  <match src="pointer_expression [1597,1627]" dest="pointer_expression [1613,1643]"/>
+  <match src=";: ; [3813,3814]" dest=";: ; [3829,3830]"/>
+  <match src="identifier: size [3475,3479]" dest="identifier: size [3491,3495]"/>
+  <match src="+=: += [3328,3330]" dest="+=: += [3344,3346]"/>
+  <match src="*: * [326,327]" dest="*: * [326,327]"/>
+  <match src="-&gt;: -&gt; [3154,3156]" dest="-&gt;: -&gt; [3170,3172]"/>
+  <match src=",: , [4040,4041]" dest=",: , [4056,4057]"/>
+  <match src="pointer_declarator [316,318]" dest="pointer_declarator [316,318]"/>
+  <match src="type_identifier: EAS_I32 [204,211]" dest="type_identifier: EAS_I32 [204,211]"/>
+  <match src="{: { [95,96]" dest="{: { [95,96]"/>
+  <match src="expression_statement [1568,1578]" dest="expression_statement [1584,1594]"/>
+  <match src="identifier: pDLSData [2189,2197]" dest="identifier: pDLSData [2205,2213]"/>
+  <match src="field_identifier: wavePoolSize [3857,3869]" dest="field_identifier: wavePoolSize [3873,3885]"/>
+  <match src="else: else [1580,1584]" dest="else: else [1596,1600]"/>
+  <match src="pointer_expression [594,599]" dest="pointer_expression [594,599]"/>
+  <match src="identifier: pos [488,491]" dest="identifier: pos [488,491]"/>
+  <match src="=: = [402,403]" dest="=: = [402,403]"/>
+  <match src="binary_expression [3080,3093]" dest="binary_expression [3096,3109]"/>
+  <match src="): ) [3473,3474]" dest="): ) [3489,3490]"/>
+  <match src="number_literal: 0 [246,247]" dest="number_literal: 0 [246,247]"/>
+  <match src="return_statement [2339,2353]" dest="return_statement [2355,2369]"/>
+  <match src="}: } [838,839]" dest="}: } [838,839]"/>
+  <match src="(: ( [923,924]" dest="(: ( [923,924]"/>
+  <match src="assignment_expression [1228,1249]" dest="assignment_expression [1228,1249]"/>
+  <match src="binary_expression [2935,2948]" dest="binary_expression [2951,2964]"/>
+  <match src="if: if [2931,2933]" dest="if: if [2947,2949]"/>
+  <match src="assignment_expression [3073,3093]" dest="assignment_expression [3089,3109]"/>
+  <match src=",: , [2206,2207]" dest=",: , [2222,2223]"/>
+  <match src="if_statement [3998,4096]" dest="if_statement [4014,4112]"/>
+  <match src="identifier: EAS_ERROR_FILE_FORMAT [814,835]" dest="identifier: EAS_ERROR_FILE_FORMAT [814,835]"/>
+  <match src="-&gt;: -&gt; [2959,2961]" dest="-&gt;: -&gt; [2975,2977]"/>
+  <match src="comment: /* dpp: EAS_ReportEx(_EAS_SEVERITY_ERROR, &quot;DLS wave chunk has no fmt chunk\n&quot;); */ [1810,1892]" dest="comment: /* dpp: EAS_ReportEx(_EAS_SEVERITY_ERROR, &quot;DLS wave chunk has no fmt chunk\n&quot;); */ [1826,1908]"/>
+  <match src="(: ( [443,444]" dest="(: ( [443,444]"/>
+  <match src=";: ; [3479,3480]" dest=";: ; [3495,3496]"/>
+  <match src="comment: /* parse the fmt chunk */ [2249,2274]" dest="comment: /* parse the fmt chunk */ [2265,2290]"/>
+  <match src="parameter_declaration [30,61]" dest="parameter_declaration [30,61]"/>
+  <match src="): ) [3175,3176]" dest="): ) [3191,3192]"/>
+  <match src=";: ; [4095,4096]" dest=";: ; [4111,4112]"/>
+  <match src="identifier: pDLSData [1598,1606]" dest="identifier: pDLSData [1614,1622]"/>
+  <match src="(: ( [1018,1019]" dest="(: ( [1018,1019]"/>
+  <match src="expression_statement [1658,1674]" dest="expression_statement [1674,1690]"/>
+  <match src="field_identifier: unityNote [1682,1691]" dest="field_identifier: unityNote [1698,1707]"/>
+  <match src="expression_statement [3708,3766]" dest="expression_statement [3724,3782]"/>
+  <match src="pointer_declarator [326,334]" dest="pointer_declarator [326,334]"/>
+  <match src="parenthesized_expression [3403,3427]" dest="parenthesized_expression [3419,3443]"/>
+  <match src="type_descriptor [3466,3473]" dest="type_descriptor [3482,3489]"/>
+  <match src="-&gt;: -&gt; [3639,3641]" dest="-&gt;: -&gt; [3655,3657]"/>
+  <match src="identifier: dataSize [3000,3008]" dest="identifier: dataSize [3016,3024]"/>
+  <match src="expression_statement [3323,3333]" dest="expression_statement [3339,3349]"/>
+  <match src="(: ( [2934,2935]" dest="(: ( [2950,2951]"/>
+  <match src="identifier: pDLSData [1536,1544]" dest="identifier: pDLSData [1552,1560]"/>
+  <match src="(: ( [4022,4023]" dest="(: ( [4038,4039]"/>
+  <match src="identifier: p [317,318]" dest="identifier: p [317,318]"/>
+  <match src="type_descriptor [3800,3807]" dest="type_descriptor [3816,3823]"/>
+  <match src="pointer_expression [588,592]" dest="pointer_expression [588,592]"/>
+  <match src="=: = [3676,3677]" dest="=: = [3692,3693]"/>
+  <match src="-&gt;: -&gt; [3412,3414]" dest="-&gt;: -&gt; [3428,3430]"/>
+  <match src="(: ( [3799,3800]" dest="(: ( [3815,3816]"/>
+  <match src=":: : [1210,1211]" dest=":: : [1210,1211]"/>
+  <match src="declaration [160,177]" dest="declaration [160,177]"/>
+  <match src="(: ( [2279,2280]" dest="(: ( [2295,2296]"/>
+  <match src="identifier: pos [873,876]" dest="identifier: pos [873,876]"/>
+  <match src="assignment_expression [1679,1696]" dest="assignment_expression [1695,1712]"/>
+  <match src="type_identifier: S_WSMP_DATA [304,315]" dest="type_identifier: S_WSMP_DATA [304,315]"/>
+  <match src="identifier: dataPos [1974,1981]" dest="identifier: dataPos [1990,1997]"/>
+  <match src="unary_expression [1795,1802]" dest="unary_expression [1811,1818]"/>
+  <match src="if: if [3149,3151]" dest="if: if [3165,3167]"/>
+  <match src="comment: /* dpp: EAS_ReportEx(_EAS_SEVERITY_ERROR, &quot;Offset in ptbl does not point to wave chunk\n&quot;); */ [709,803]" dest="comment: /* dpp: EAS_ReportEx(_EAS_SEVERITY_ERROR, &quot;Offset in ptbl does not point to wave chunk\n&quot;); */ [709,803]"/>
+  <match src="&amp;: &amp; [1035,1036]" dest="&amp;: &amp; [1035,1036]"/>
+  <match src="-&gt;: -&gt; [3101,3103]" dest="-&gt;: -&gt; [3117,3119]"/>
+  <match src="parenthesized_expression [4002,4064]" dest="parenthesized_expression [4018,4080]"/>
+  <match src="null [1554,1558]" dest="null [1570,1574]"/>
+  <match src="identifier: chunkPos [1172,1180]" dest="identifier: chunkPos [1172,1180]"/>
+  <match src="): ) [1981,1982]" dest="): ) [1997,1998]"/>
+  <match src="identifier: size [910,914]" dest="identifier: size [910,914]"/>
+  <match src="field_expression [3820,3844]" dest="field_expression [3836,3860]"/>
+  <match src=";: ; [3332,3333]" dest=";: ; [3348,3349]"/>
+  <match src="identifier: size [3189,3193]" dest="identifier: size [3205,3209]"/>
+  <match src="): ) [1802,1803]" dest="): ) [1818,1819]"/>
+  <match src="}: } [3503,3504]" dest="}: } [3519,3520]"/>
+  <match src="field_expression [1702,1709]" dest="field_expression [1718,1725]"/>
+  <match src="{: { [1434,1435]" dest="{: { [1450,1451]"/>
+  <match src="number_literal: 0 [297,298]" dest="number_literal: 0 [297,298]"/>
+  <match src=";: ; [154,155]" dest=";: ; [154,155]"/>
+  <match src="field_expression [3100,3113]" dest="field_expression [3116,3129]"/>
+  <match src="comment: /* use ADPCM encode for unlooped 16-bit samples if ADPCM is enabled */ [2780,2850]" dest="comment: /* use ADPCM encode for unlooped 16-bit samples if ADPCM is enabled */ [2796,2866]"/>
+  <match src="=: = [1595,1596]" dest="=: = [1611,1612]"/>
+  <match src="parenthesized_expression [2957,2980]" dest="parenthesized_expression [2973,2996]"/>
+  <match src="=: = [1302,1303]" dest="=: = [1302,1303]"/>
+  <match src="assignment_expression [1568,1577]" dest="assignment_expression [1584,1593]"/>
+  <match src="): ) [1123,1124]" dest="): ) [1123,1124]"/>
+  <match src="storage_class_specifier [0,6]" dest="storage_class_specifier [0,6]"/>
+  <match src="identifier: pos [924,927]" dest="identifier: pos [924,927]"/>
+  <match src="!=: != [1050,1052]" dest="!=: != [1050,1052]"/>
+  <match src="parenthesized_expression [1972,1982]" dest="parenthesized_expression [1988,1998]"/>
+  <match src="while_statement [917,1388]" dest="while_statement [917,1388]"/>
+  <match src="assignment_expression [3323,3332]" dest="assignment_expression [3339,3348]"/>
+  <match src="identifier: pDLSData [3631,3639]" dest="identifier: pDLSData [3647,3655]"/>
+  <match src="==: == [3170,3172]" dest="==: == [3186,3188]"/>
+  <match src="+=: += [3462,3464]" dest="+=: += [3478,3480]"/>
+  <match src="return_statement [2076,2113]" dest="return_statement [2092,2129]"/>
+  <match src="): ) [2320,2321]" dest="): ) [2336,2337]"/>
+  <match src="identifier: pDLSData [3771,3779]" dest="identifier: pDLSData [3787,3795]"/>
+  <match src=";: ; [1932,1933]" dest=";: ; [1948,1949]"/>
+  <match src="-&gt;: -&gt; [1680,1682]" dest="-&gt;: -&gt; [1696,1698]"/>
+  <match src="parenthesized_expression [2168,2211]" dest="parenthesized_expression [2184,2227]"/>
+  <match src="parenthesized_expression [3152,3176]" dest="parenthesized_expression [3168,3192]"/>
+  <match src="number_literal: 16 [3173,3175]" dest="number_literal: 16 [3189,3191]"/>
+  <match src="identifier: result [559,565]" dest="identifier: result [559,565]"/>
+  <match src="=: = [1570,1571]" dest="=: = [1586,1587]"/>
+  <match src="NULL: NULL [1554,1558]" dest="NULL: NULL [1570,1574]"/>
+  <match src="comment: /*lint -e{704} use shift for performance */ [3017,3060]" dest="comment: /*lint -e{704} use shift for performance */ [3033,3076]"/>
+  <match src="field_identifier: fineTune [1661,1669]" dest="field_identifier: fineTune [1677,1685]"/>
+  <match src=";: ; [1376,1377]" dest=";: ; [1376,1377]"/>
+  <match src="-&gt;: -&gt; [3828,3830]" dest="-&gt;: -&gt; [3844,3846]"/>
+  <match src="NULL: NULL [3422,3426]" dest="NULL: NULL [3438,3442]"/>
+  <match src="expression_statement [1334,1350]" dest="expression_statement [1334,1350]"/>
+  <match src="): ) [3113,3114]" dest="): ) [3129,3130]"/>
+  <match src="number_literal: 0 [1734,1735]" dest="number_literal: 0 [1750,1751]"/>
+  <match src="{: { [941,942]" dest="{: { [941,942]"/>
+  <match src="break_statement [1371,1377]" dest="break_statement [1371,1377]"/>
+  <match src="field_expression [3708,3722]" dest="field_expression [3724,3738]"/>
+  <match src="init_declarator [212,223]" dest="init_declarator [212,223]"/>
+  <match src="comment: /* seek to start of chunk */ [360,388]" dest="comment: /* seek to start of chunk */ [360,388]"/>
+  <match src="assignment_expression [2993,3008]" dest="assignment_expression [3009,3024]"/>
+  <match src="-&gt;: -&gt; [3645,3647]" dest="-&gt;: -&gt; [3661,3663]"/>
+  <match src="=: = [1755,1756]" dest="=: = [1771,1772]"/>
+  <match src="expression_statement [873,888]" dest="expression_statement [873,888]"/>
+  <match src="): ) [3869,3870]" dest="): ) [3885,3886]"/>
+  <match src="identifier: dataSize [3196,3204]" dest="identifier: dataSize [3212,3220]"/>
+  <match src="identifier: result [1074,1080]" dest="identifier: result [1074,1080]"/>
+  <match src="number_literal: 1 [3092,3093]" dest="number_literal: 1 [3108,3109]"/>
+  <match src="null [3422,3426]" dest="null [3438,3442]"/>
+  <match src="{: { [3429,3430]" dest="{: { [3445,3446]"/>
+  <match src="}: } [2245,2246]" dest="}: } [2261,2262]"/>
+  <match src="identifier: CHUNK_FMT [1201,1210]" dest="identifier: CHUNK_FMT [1201,1210]"/>
+  <match src="{: { [1126,1127]" dest="{: { [1126,1127]"/>
+  <match src="return: return [4099,4105]" dest="return: return [4115,4121]"/>
+  <match src="assignment_expression [873,887]" dest="assignment_expression [873,887]"/>
+  <match src="comment: /* parse the wsmp chunk */ [2119,2145]" dest="comment: /* parse the wsmp chunk */ [2135,2161]"/>
+  <match src="compound_statement [3875,3959]" dest="compound_statement [3891,3975]"/>
+  <match src="expression_statement [1294,1317]" dest="expression_statement [1294,1317]"/>
+  <match src="&gt;: &gt; [3845,3846]" dest="&gt;: &gt; [3861,3862]"/>
+  <match src="identifier: dataSize [1399,1407]" dest="identifier: dataSize [1415,1423]"/>
+  <match src="identifier: CHUNK_WAVE [691,701]" dest="identifier: CHUNK_WAVE [691,701]"/>
+  <match src="if: if [3292,3294]" dest="if: if [3308,3310]"/>
+  <match src="=: = [1235,1236]" dest="=: = [1235,1236]"/>
+  <match src=";: ; [3625,3626]" dest=";: ; [3641,3642]"/>
+  <match src=";: ; [3133,3134]" dest=";: ; [3149,3150]"/>
+  <match src="expression_statement [3073,3094]" dest="expression_statement [3089,3110]"/>
+  <match src="identifier: size [1043,1047]" dest="identifier: size [1043,1047]"/>
+  <match src="identifier: waveIndex [3665,3674]" dest="identifier: waveIndex [3681,3690]"/>
+  <match src=",: , [1027,1028]" dest=",: , [1027,1028]"/>
+  <match src="compound_statement [2951,3137]" dest="compound_statement [2967,3153]"/>
+  <match src="&lt;&lt;: &lt;&lt; [3285,3287]" dest="&lt;&lt;: &lt;&lt; [3301,3303]"/>
+  <match src="number_literal: 0 [222,223]" dest="number_literal: 0 [222,223]"/>
+  <match src="pointer_expression [1035,1040]" dest="pointer_expression [1035,1040]"/>
+  <match src="assignment_expression [1658,1673]" dest="assignment_expression [1674,1689]"/>
+  <match src="-&gt;: -&gt; [1544,1546]" dest="-&gt;: -&gt; [1560,1562]"/>
+  <match src="identifier: Parse_fmt [2290,2299]" dest="identifier: Parse_fmt [2306,2315]"/>
+  <match src="if: if [3096,3098]" dest="if: if [3112,3114]"/>
+  <match src="identifier: pDLSData [3439,3447]" dest="identifier: pDLSData [3455,3463]"/>
+  <match src="return_statement [4082,4096]" dest="return_statement [4098,4112]"/>
+  <match src="}: } [1482,1483]" dest="}: } [1498,1499]"/>
+  <match src="[: [ [1616,1617]" dest="[: [ [1632,1633]"/>
+  <match src="parameter_list [29,94]" dest="parameter_list [29,94]"/>
+  <match src=";: ; [3093,3094]" dest=";: ; [3109,3110]"/>
+  <match src="expression_statement [893,915]" dest="expression_statement [893,915]"/>
+  <match src="field_expression [1658,1669]" dest="field_expression [1674,1685]"/>
+  <match src="(: ( [3152,3153]" dest="(: ( [3168,3169]"/>
+  <match src="identifier: dataSize [4042,4050]" dest="identifier: dataSize [4058,4066]"/>
+  <match src="(: ( [3403,3404]" dest="(: ( [3419,3420]"/>
+  <match src="identifier: CHUNK_WSMP [1134,1144]" dest="identifier: CHUNK_WSMP [1134,1144]"/>
+  <match src="): ) [2948,2949]" dest="): ) [2964,2965]"/>
+  <match src="identifier: dataSize [3080,3088]" dest="identifier: dataSize [3096,3104]"/>
+  <match src="return_statement [4099,4118]" dest="return_statement [4115,4134]"/>
+  <match src="expression_statement [1719,1736]" dest="expression_statement [1735,1752]"/>
+  <match src="else: else [3207,3211]" dest="else: else [3223,3227]"/>
+  <match src="}: } [3958,3959]" dest="}: } [3974,3975]"/>
+  <match src="expression_statement [1679,1697]" dest="expression_statement [1695,1713]"/>
+  <match src="expression_statement [3631,3703]" dest="expression_statement [3647,3719]"/>
+  <match src="*: * [52,53]" dest="*: * [52,53]"/>
+  <match src="type_identifier: EAS_I32 [63,70]" dest="type_identifier: EAS_I32 [63,70]"/>
+  <match src="expression_statement [2993,3009]" dest="expression_statement [3009,3025]"/>
+  <match src="init_declarator [286,298]" dest="init_declarator [286,298]"/>
+  <match src="identifier: MAX_DLS_WAVE_SIZE [1410,1427]" dest="identifier: MAX_DLS_WAVE_SIZE [1426,1443]"/>
+  <match src="=: = [960,961]" dest="=: = [960,961]"/>
+  <match src=":: : [1368,1369]" dest=":: : [1368,1369]"/>
+  <match src=";: ; [298,299]" dest=";: ; [298,299]"/>
+  <match src="compound_statement [1126,1380]" dest="compound_statement [1126,1380]"/>
+  <match src="expression_statement [3127,3134]" dest="expression_statement [3143,3150]"/>
+  <match src="parenthesized_expression [2279,2337]" dest="parenthesized_expression [2295,2353]"/>
+  <match src="(: ( [998,999]" dest="(: ( [998,999]"/>
+  <match src="(: ( [2957,2958]" dest="(: ( [2973,2974]"/>
+  <match src="comment: /* parse useful chunks */ [1084,1109]" dest="comment: /* parse useful chunks */ [1084,1109]"/>
+  <match src="assignment_expression [3439,3479]" dest="assignment_expression [3455,3495]"/>
+  <match src="argument_list [4022,4063]" dest="argument_list [4038,4079]"/>
+  <match src=";: ; [1357,1358]" dest=";: ; [1357,1358]"/>
+  <match src="}: } [3136,3137]" dest="}: } [3152,3153]"/>
+  <match src="if_statement [3816,3995]" dest="if_statement [3832,4011]"/>
+  <match src=";: ; [1184,1185]" dest=";: ; [1184,1185]"/>
+  <match src="field_expression [3631,3664]" dest="field_expression [3647,3680]"/>
+  <match src=";: ; [136,137]" dest=";: ; [136,137]"/>
+  <match src="=: = [269,270]" dest="=: = [269,270]"/>
+  <match src="comment: /* for first pass, use temporary variable */ [1486,1530]" dest="comment: /* for first pass, use temporary variable */ [1502,1546]"/>
+  <match src="[: [ [3737,3738]" dest="[: [ [3753,3754]"/>
+  <match src=",: , [1033,1034]" dest=",: , [1033,1034]"/>
+  <match src="expression_statement [951,966]" dest="expression_statement [951,966]"/>
+  <match src="if: if [995,997]" dest="if: if [995,997]"/>
+  <match src="return_statement [807,836]" dest="return_statement [807,836]"/>
+  <match src="-&gt;: -&gt; [3716,3718]" dest="-&gt;: -&gt; [3732,3734]"/>
+  <match src="-&gt;: -&gt; [474,476]" dest="-&gt;: -&gt; [474,476]"/>
+  <match src="type_identifier: SDLS_SYNTHESIZER_DATA [30,51]" dest="type_identifier: SDLS_SYNTHESIZER_DATA [30,51]"/>
+  <match src="return: return [1445,1451]" dest="return: return [1461,1467]"/>
+  <match src="number_literal: 2 [3331,3332]" dest="number_literal: 2 [3347,3348]"/>
+  <match src="field_identifier: pDLSSampleLen [3724,3737]" dest="field_identifier: pDLSSampleLen [3740,3753]"/>
+  <match src="number_literal: 8 [2978,2979]" dest="number_literal: 8 [2994,2995]"/>
+  <match src="(: ( [2167,2168]" dest="(: ( [2183,2184]"/>
+  <match src="identifier: p [3153,3154]" dest="identifier: p [3169,3170]"/>
+  <match src="field_identifier: bitsPerSample [2961,2974]" dest="field_identifier: bitsPerSample [2977,2990]"/>
+  <match src="-&gt;: -&gt; [3855,3857]" dest="-&gt;: -&gt; [3871,3873]"/>
+  <match src="return: return [807,813]" dest="return: return [807,813]"/>
+  <match src="type_identifier: EAS_I32 [182,189]" dest="type_identifier: EAS_I32 [182,189]"/>
+  <match src="&amp;: &amp; [588,589]" dest="&amp;: &amp; [588,589]"/>
+  <match src="identifier: size [602,606]" dest="identifier: size [602,606]"/>
+  <match src="identifier: size [3127,3131]" dest="identifier: size [3143,3147]"/>
+  <match src=";: ; [3289,3290]" dest=";: ; [3305,3306]"/>
+  <match src="=: = [1670,1671]" dest="=: = [1686,1687]"/>
+  <match src="binary_expression [3571,3625]" dest="binary_expression [3587,3641]"/>
+  <match src="identifier: size [1345,1349]" dest="identifier: size [1345,1349]"/>
+  <match src="identifier: wsmpPos [1162,1169]" dest="identifier: wsmpPos [1162,1169]"/>
+  <match src="identifier: p [2958,2959]" dest="identifier: p [2974,2975]"/>
+  <match src="field_identifier: loopStart [1722,1731]" dest="field_identifier: loopStart [1738,1747]"/>
+  <match src="else_clause [3011,3094]" dest="else_clause [3027,3110]"/>
+  <match src="switch: switch [1111,1117]" dest="switch: switch [1111,1117]"/>
+  <match src="]: ] [3674,3675]" dest="]: ] [3690,3691]"/>
+  <match src="if_statement [3400,3504]" dest="if_statement [3416,3520]"/>
+  <match src="+: + [408,409]" dest="+: + [408,409]"/>
+  <match src="identifier: dataPos [4033,4040]" dest="identifier: dataPos [4049,4056]"/>
+  <match src="identifier: pDLSData [3678,3686]" dest="identifier: pDLSData [3694,3702]"/>
+  <match src="assignment_expression [1162,1184]" dest="assignment_expression [1162,1184]"/>
+  <match src="identifier: wsmpPos [212,219]" dest="identifier: wsmpPos [212,219]"/>
+  <match src="expression_statement [1593,1628]" dest="expression_statement [1609,1644]"/>
+  <match src="identifier: chunkPos [1237,1245]" dest="identifier: chunkPos [1237,1245]"/>
+  <match src=";: ; [356,357]" dest=";: ; [356,357]"/>
+  <match src="&amp;: &amp; [1042,1043]" dest="&amp;: &amp; [1042,1043]"/>
+  <match src="assignment_expression [3269,3289]" dest="assignment_expression [3285,3305]"/>
+  <match src="!: ! [1973,1974]" dest="!: ! [1989,1990]"/>
+  <match src="{: { [2951,2952]" dest="{: { [2967,2968]"/>
+  <match src="): ) [3309,3310]" dest="): ) [3325,3326]"/>
+  <match src=";: ; [524,525]" dest=";: ; [524,525]"/>
+  <match src="if_statement [1532,1628]" dest="if_statement [1548,1644]"/>
+  <match src=",: , [586,587]" dest=",: , [586,587]"/>
+  <match src="identifier: pSample [327,334]" dest="identifier: pSample [327,334]"/>
+  <match src="if_statement [415,525]" dest="if_statement [415,525]"/>
+  <match src="identifier: fmtPos [1796,1802]" dest="identifier: fmtPos [1812,1818]"/>
+  <match src="(: ( [1398,1399]" dest="(: ( [1398,1399]"/>
+  <match src="identifier: p [2208,2209]" dest="identifier: p [2224,2225]"/>
+  <match src="!=: != [4065,4067]" dest="!=: != [4081,4083]"/>
+  <match src="): ) [1047,1048]" dest="): ) [1047,1048]"/>
+  <match src="call_expression [1009,1048]" dest="call_expression [1009,1048]"/>
+  <match src="binary_expression [1304,1316]" dest="binary_expression [1304,1316]"/>
+  <match src="identifier: pos [71,74]" dest="identifier: pos [71,74]"/>
+  <match src="else: else [3140,3144]" dest="else: else [3156,3160]"/>
+  <match src="): ) [1558,1559]" dest="): ) [1574,1575]"/>
+  <match src="field_identifier: fileHandle [476,486]" dest="field_identifier: fileHandle [476,486]"/>
+  <match src="compound_statement [1987,2074]" dest="compound_statement [2003,2090]"/>
+  <match src="while: while [917,922]" dest="while: while [917,922]"/>
+  <match src=";: ; [2352,2353]" dest=";: ; [2368,2369]"/>
+  <match src="identifier: p [1593,1594]" dest="identifier: p [1609,1610]"/>
+  <match src="return_statement [511,525]" dest="return_statement [511,525]"/>
+  <match src="binary_expression [1237,1249]" dest="binary_expression [1237,1249]"/>
+  <match src=":: : [1276,1277]" dest=":: : [1276,1277]"/>
+  <match src="identifier: pDLSData [444,452]" dest="identifier: pDLSData [444,452]"/>
+  <match src="(: ( [418,419]" dest="(: ( [418,419]"/>
+  <match src="assignment_expression [559,607]" dest="assignment_expression [559,607]"/>
+  <match src="): ) [938,939]" dest="): ) [938,939]"/>
+  <match src="if_statement [3292,3333]" dest="if_statement [3308,3349]"/>
+  <match src="if: if [1395,1397]" dest="if: if [1395,1397]"/>
+  <match src="field_expression [3847,3869]" dest="field_expression [3863,3885]"/>
+  <match src="return: return [626,632]" dest="return: return [626,632]"/>
+  <match src="identifier: EAS_ERROR_SOUND_LIBRARY [3968,3991]" dest="identifier: EAS_ERROR_SOUND_LIBRARY [3984,4007]"/>
+  <match src="identifier: p [3100,3101]" dest="identifier: p [3116,3117]"/>
+  <match src="if_statement [1791,1936]" dest="if_statement [1807,1952]"/>
+  <match src=";: ; [639,640]" dest=";: ; [639,640]"/>
+  <match src="assignment_expression [3708,3765]" dest="assignment_expression [3724,3781]"/>
+  <match src="number_literal: 8 [1183,1184]" dest="number_literal: 8 [1183,1184]"/>
+  <match src=";: ; [1735,1736]" dest=";: ; [1751,1752]"/>
+  <match src=";: ; [176,177]" dest=";: ; [176,177]"/>
+  <match src="call_expression [2290,2320]" dest="call_expression [2306,2336]"/>
+  <match src="==: == [2975,2977]" dest="==: == [2991,2993]"/>
+  <match src="]: ] [1626,1627]" dest="]: ] [1642,1643]"/>
+  <match src="if: if [3816,3818]" dest="if: if [3832,3834]"/>
+  <match src="return: return [1896,1902]" dest="return: return [1912,1918]"/>
+  <match src="identifier: endChunk [930,938]" dest="identifier: endChunk [930,938]"/>
+  <match src="field_identifier: pDLS [3641,3645]" dest="field_identifier: pDLS [3657,3661]"/>
+  <match src="field_expression [3771,3795]" dest="field_expression [3787,3811]"/>
+  <match src="if: if [3998,4000]" dest="if: if [4014,4016]"/>
+  <match src="parenthesized_expression [682,702]" dest="parenthesized_expression [682,702]"/>
+  <match src="comment: /* dpp: EAS_ReportEx(_EAS_SEVERITY_ERROR, &quot;Wave pool exceeded allocation\n&quot;); */ [3877,3957]" dest="comment: /* dpp: EAS_ReportEx(_EAS_SEVERITY_ERROR, &quot;Wave pool exceeded allocation\n&quot;); */ [3893,3973]"/>
+  <match src="return_statement [3482,3501]" dest="return_statement [3498,3517]"/>
+  <match src="field_expression [3708,3737]" dest="field_expression [3724,3753]"/>
+  <match src="-&gt;: -&gt; [1720,1722]" dest="-&gt;: -&gt; [1736,1738]"/>
+  <match src="declaration [101,119]" dest="declaration [101,119]"/>
+  <match src="binary_expression [3276,3289]" dest="binary_expression [3292,3305]"/>
+  <match src="identifier: pos [904,907]" dest="identifier: pos [904,907]"/>
+  <match src="if_statement [2164,2243]" dest="if_statement [2180,2259]"/>
+  <match src="identifier: EAS_SUCCESS [3489,3500]" dest="identifier: EAS_SUCCESS [3505,3516]"/>
+  <match src=";: ; [1080,1081]" dest=";: ; [1080,1081]"/>
+  <match src="=: = [1692,1693]" dest="=: = [1708,1709]"/>
+  <match src="declaration [321,335]" dest="declaration [321,335]"/>
+  <match src="identifier: Parse_data [4012,4022]" dest="identifier: Parse_data [4028,4038]"/>
+  <match src="identifier: pDLSData [3708,3716]" dest="identifier: pDLSData [3724,3732]"/>
+  <match src="identifier: temp [683,687]" dest="identifier: temp [683,687]"/>
+  <match src="return: return [2339,2345]" dest="return: return [2355,2361]"/>
+  <match src="if: if [2164,2166]" dest="if: if [2180,2182]"/>
+  <match src="field_expression [3571,3598]" dest="field_expression [3587,3614]"/>
+  <match src=";: ; [2242,2243]" dest=";: ; [2258,2259]"/>
+  <match src="(: ( [1972,1973]" dest="(: ( [1988,1989]"/>
+  <match src=";: ; [1249,1250]" dest=";: ; [1249,1250]"/>
+  <match src="binary_expression [3153,3175]" dest="binary_expression [3169,3191]"/>
+  <match src=";: ; [3702,3703]" dest=";: ; [3718,3719]"/>
+  <match src="assignment_expression [2281,2320]" dest="assignment_expression [2297,2336]"/>
+  <match src="compound_statement [1805,1936]" dest="compound_statement [1821,1952]"/>
+  <match src="identifier: pDLSData [3847,3855]" dest="identifier: pDLSData [3863,3871]"/>
+  <match src="): ) [1048,1049]" dest="): ) [1048,1049]"/>
+  <match src="comment: /* read to end of chunk */ [842,868]" dest="comment: /* read to end of chunk */ [842,868]"/>
+  <match src=";: ; [223,224]" dest=";: ; [223,224]"/>
+  <match src="!=: != [494,496]" dest="!=: != [494,496]"/>
+  <match src="identifier: waveIndex [1617,1626]" dest="identifier: waveIndex [1633,1642]"/>
+  <match src="identifier: p [1568,1569]" dest="identifier: p [1584,1585]"/>
+  <match src="if: if [679,681]" dest="if: if [679,681]"/>
+  <match src="field_expression [444,464]" dest="field_expression [444,464]"/>
+  <match src="parenthesized_expression [4001,4080]" dest="parenthesized_expression [4017,4096]"/>
+  <match src="binary_expression [1172,1184]" dest="binary_expression [1172,1184]"/>
+  <match src="identifier: temp [1036,1040]" dest="identifier: temp [1036,1040]"/>
+  <match src="identifier: CHUNK_DATA [1266,1276]" dest="identifier: CHUNK_DATA [1266,1276]"/>
+  <match src="type_identifier: EAS_I32 [253,260]" dest="type_identifier: EAS_I32 [253,260]"/>
+  <match src="if: if [415,417]" dest="if: if [415,417]"/>
+  <match src=";: ; [247,248]" dest=";: ; [247,248]"/>
+  <match src="(: ( [2280,2281]" dest="(: ( [2296,2297]"/>
+  <match src="identifier: result [2236,2242]" dest="identifier: result [2252,2258]"/>
+  <match src="identifier: chunkPos [190,198]" dest="identifier: chunkPos [190,198]"/>
+  <match src="identifier: result [2281,2287]" dest="identifier: result [2297,2303]"/>
+  <match src="assignment_expression [420,492]" dest="assignment_expression [420,492]"/>
+  <match src="return: return [2076,2082]" dest="return: return [2092,2098]"/>
+  <match src="identifier: dataPos [261,268]" dest="identifier: dataPos [261,268]"/>
+  <match src=",: , [599,600]" dest=",: , [599,600]"/>
+  <match src="=: = [2288,2289]" dest="=: = [2304,2305]"/>
+  <match src="identifier: bitDepth [2935,2943]" dest="identifier: bitDepth [2951,2959]"/>
+  <match src="identifier: size [150,154]" dest="identifier: size [150,154]"/>
+  <match src="comment: /* must have a fmt chunk */ [1762,1789]" dest="comment: /* must have a fmt chunk */ [1778,1805]"/>
+  <match src="{: { [2161,2162]" dest="{: { [2177,2178]"/>
+  <match src="(: ( [1794,1795]" dest="(: ( [1810,1811]"/>
+  <match src="field_expression [1536,1550]" dest="field_expression [1552,1566]"/>
+  <match src="comment: /* set the defaults */ [1631,1653]" dest="comment: /* set the defaults */ [1647,1669]"/>
+  <match src="if_statement [995,1081]" dest="if_statement [995,1081]"/>
+  <match src="assignment_expression [1334,1349]" dest="assignment_expression [1334,1349]"/>
+  <match src="identifier: pos [1030,1033]" dest="identifier: pos [1030,1033]"/>
+  <match src="(: ( [3819,3820]" dest="(: ( [3835,3836]"/>
+  <match src="identifier: EAS_HWFileSeek [429,443]" dest="identifier: EAS_HWFileSeek [429,443]"/>
+  <match src="): ) [3426,3427]" dest="): ) [3442,3443]"/>
+  <match src="field_identifier: wavePoolOffset [3830,3844]" dest="field_identifier: wavePoolOffset [3846,3860]"/>
+  <match src="}: } [2073,2074]" dest="}: } [2089,2090]"/>
+  <match src="if_statement [3096,3134]" dest="if_statement [3112,3150]"/>
+  <match src="+: + [908,909]" dest="+: + [908,909]"/>
+  <match src="field_expression [3571,3585]" dest="field_expression [3587,3601]"/>
+  <match src="declaration [278,299]" dest="declaration [278,299]"/>
+  <match src="{: { [1987,1988]" dest="{: { [2003,2004]"/>
+  <match src="argument_list [577,607]" dest="argument_list [577,607]"/>
+  <match src="[: [ [3664,3665]" dest="[: [ [3680,3681]"/>
+  <match src="parenthesized_expression [557,624]" dest="parenthesized_expression [557,624]"/>
+  <match src="): ) [1064,1065]" dest="): ) [1064,1065]"/>
+  <match src="declaration [253,273]" dest="declaration [253,273]"/>
+  <match src="identifier: temp [132,136]" dest="identifier: temp [132,136]"/>
+  <match src="=: = [4010,4011]" dest="=: = [4026,4027]"/>
+  <match src=";: ; [914,915]" dest=";: ; [914,915]"/>
+  <match src="parenthesized_expression [999,1049]" dest="parenthesized_expression [999,1049]"/>
+  <match src="identifier: EAS_SUCCESS [2325,2336]" dest="identifier: EAS_SUCCESS [2341,2352]"/>
+  <match src=";: ; [334,335]" dest=";: ; [334,335]"/>
+  <match src="(: ( [1118,1119]" dest="(: ( [1118,1119]"/>
+  <match src=";: ; [1192,1193]" dest=";: ; [1192,1193]"/>
+  <match src="identifier: waveIndex [3738,3747]" dest="identifier: waveIndex [3754,3763]"/>
+  <match src="identifier: p [1679,1680]" dest="identifier: p [1695,1696]"/>
+  <match src="&amp;: &amp; [1029,1030]" dest="&amp;: &amp; [1029,1030]"/>
+  <match src="=: = [1007,1008]" dest="=: = [1007,1008]"/>
+  <match src="cast_expression [3465,3479]" dest="cast_expression [3481,3495]"/>
+  <match src="unary_expression [1973,1981]" dest="unary_expression [1989,1997]"/>
+  <match src="assignment_expression [3771,3813]" dest="assignment_expression [3787,3829]"/>
+  <match src="identifier: pDLSData [3820,3828]" dest="identifier: pDLSData [3836,3844]"/>
+  <match src="if: if [2147,2149]" dest="if: if [2163,2165]"/>
+  <match src="}: } [4119,4120]" dest="}: } [4135,4136]"/>
+  <match src="identifier: p [1658,1659]" dest="identifier: p [1674,1675]"/>
+  <match src="if_statement [679,839]" dest="if_statement [679,839]"/>
+  <match src="case: case [1129,1133]" dest="case: case [1129,1133]"/>
+  <match src="break: break [1371,1376]" dest="break: break [1371,1376]"/>
+  <match src="binary_expression [1399,1427]" dest="binary_expression [1415,1443]"/>
+  <match src="number_literal: 1 [3288,3289]" dest="number_literal: 1 [3304,3305]"/>
+  <match src="return: return [2229,2235]" dest="return: return [2245,2251]"/>
+  <match src=",: , [2308,2309]" dest=",: , [2324,2325]"/>
+  <match src="return: return [1067,1073]" dest="return: return [1067,1073]"/>
+  <match src="type_identifier: EAS_I32 [229,236]" dest="type_identifier: EAS_I32 [229,236]"/>
+  <match src="-&gt;: -&gt; [3779,3781]" dest="-&gt;: -&gt; [3795,3797]"/>
+  <match src=",: , [4031,4032]" dest=",: , [4047,4048]"/>
+  <match src="if_statement [3149,3290]" dest="if_statement [3165,3306]"/>
+  <match src="): ) [2336,2337]" dest="): ) [2352,2353]"/>
+  <match src="binary_expression [683,701]" dest="binary_expression [683,701]"/>
+  <match src="identifier: EAS_SUCCESS [2215,2226]" dest="identifier: EAS_SUCCESS [2231,2242]"/>
+  <match src=",: , [464,465]" dest=",: , [464,465]"/>
+  <match src="identifier: p [1702,1703]" dest="identifier: p [1718,1719]"/>
+  <match src="type_descriptor [3752,3759]" dest="type_descriptor [3768,3775]"/>
+  <match src="(: ( [577,578]" dest="(: ( [577,578]"/>
+  <match src="expression_statement [3439,3480]" dest="expression_statement [3455,3496]"/>
+  <match src="field_identifier: loopLength [1744,1754]" dest="field_identifier: loopLength [1760,1770]"/>
+  <match src="expression_statement [393,413]" dest="expression_statement [393,413]"/>
+  <match src="(: ( [2299,2300]" dest="(: ( [2315,2316]"/>
+  <match src="cast_expression [3799,3813]" dest="cast_expression [3815,3829]"/>
+  <match src="(: ( [558,559]" dest="(: ( [558,559]"/>
+  <match src="break: break [1352,1357]" dest="break: break [1352,1357]"/>
+  <match src="*: * [316,317]" dest="*: * [316,317]"/>
+  <match src="&amp;: &amp; [594,595]" dest="&amp;: &amp; [594,595]"/>
+  <match src="-&gt;: -&gt; [1703,1705]" dest="-&gt;: -&gt; [1719,1721]"/>
+  <match src="identifier: pos [962,965]" dest="identifier: pos [962,965]"/>
+  <match src="field_identifier: loopLength [3103,3113]" dest="field_identifier: loopLength [3119,3129]"/>
+  <match src="identifier: size [3809,3813]" dest="identifier: size [3825,3829]"/>
+  <match src="type_identifier: EAS_U32 [3466,3473]" dest="type_identifier: EAS_U32 [3482,3489]"/>
+  <match src=";: ; [412,413]" dest=";: ; [412,413]"/>
+  <match src="case_statement [1196,1258]" dest="case_statement [1196,1258]"/>
+  <match src="identifier: result [518,524]" dest="identifier: result [518,524]"/>
+  <match src="identifier: pDLSData [3601,3609]" dest="identifier: pDLSData [3617,3625]"/>
+  <match src="if: if [2276,2278]" dest="if: if [2292,2294]"/>
+  <match src="number_literal: 0 [271,272]" dest="number_literal: 0 [271,272]"/>
+  <match src="identifier: result [4089,4095]" dest="identifier: result [4105,4111]"/>
+  <match src="declaration [340,357]" dest="declaration [340,357]"/>
+  <match src="parenthesized_expression [3819,3870]" dest="parenthesized_expression [3835,3886]"/>
+  <match src="=: = [1343,1344]" dest="=: = [1343,1344]"/>
+  <match src="==: == [2944,2946]" dest="==: == [2960,2962]"/>
+  <match src="parenthesized_expression [1535,1559]" dest="parenthesized_expression [1551,1575]"/>
+  <match src="identifier: size [3323,3327]" dest="identifier: size [3339,3343]"/>
+  <match src="field_expression [1741,1754]" dest="field_expression [1757,1770]"/>
+  <match src="-&gt;: -&gt; [1742,1744]" dest="-&gt;: -&gt; [1758,1760]"/>
+  <match src="comment: /* make sure it is a wave chunk */ [643,677]" dest="comment: /* make sure it is a wave chunk */ [643,677]"/>
+  <match src="identifier: pSample [4055,4062]" dest="identifier: pSample [4071,4078]"/>
+  <match src="{: { [3872,3873]" dest="{: { [3888,3889]"/>
+  <match src="if: if [554,556]" dest="if: if [554,556]"/>
+  <match src=";: ; [318,319]" dest=";: ; [318,319]"/>
+  <match src="identifier: size [3269,3273]" dest="identifier: size [3285,3289]"/>
+  <match src="(: ( [1535,1536]" dest="(: ( [1551,1552]"/>
+  <match src="binary_expression [3404,3426]" dest="binary_expression [3420,3442]"/>
+  <match src="field_expression [1679,1691]" dest="field_expression [1695,1707]"/>
+  <match src="identifier: NextChunk [1009,1018]" dest="identifier: NextChunk [1009,1018]"/>
+  <match src="&amp;: &amp; [1597,1598]" dest="&amp;: &amp; [1613,1614]"/>
+  <match src="binary_expression [558,623]" dest="binary_expression [558,623]"/>
+  <match src="argument_list [1018,1048]" dest="argument_list [1018,1048]"/>
+  <match src="): ) [2979,2980]" dest="): ) [2995,2996]"/>
+  <match src=",: , [592,593]" dest=",: , [592,593]"/>
+  <match src="field_identifier: wavePoolOffset [3688,3702]" dest="field_identifier: wavePoolOffset [3704,3718]"/>
+  <match src="argument_list [443,492]" dest="argument_list [443,492]"/>
+  <match src="field_expression [3601,3625]" dest="field_expression [3617,3641]"/>
+  <match src="): ) [3807,3808]" dest="): ) [3823,3824]"/>
+  <match src="assignment_expression [951,965]" dest="assignment_expression [951,965]"/>
+  <match src="return_statement [2229,2243]" dest="return_statement [2245,2259]"/>
+  <match src="{: { [1808,1809]" dest="{: { [1824,1825]"/>
+  <match src=";: ; [1758,1759]" dest=";: ; [1774,1775]"/>
+  <match src="type_identifier: EAS_RESULT [101,111]" dest="type_identifier: EAS_RESULT [101,111]"/>
+  <match src="+: + [1313,1314]" dest="+: + [1313,1314]"/>
+  <match src="+: + [3599,3600]" dest="+: + [3615,3616]"/>
+  <match src="compound_statement [3429,3504]" dest="compound_statement [3445,3520]"/>
+  <match src="expression_statement [3771,3814]" dest="expression_statement [3787,3830]"/>
+  <match src="}: } [1935,1936]" dest="}: } [1951,1952]"/>
+  <match src=";: ; [1349,1350]" dest=";: ; [1349,1350]"/>
+  <match src="primitive_type: void [321,325]" dest="primitive_type: void [321,325]"/>
+  <match src="pointer_declarator [52,61]" dest="pointer_declarator [52,61]"/>
+  <match src="identifier: pSample [3561,3568]" dest="identifier: pSample [3577,3584]"/>
+  <match src="&gt;: &gt; [1408,1409]" dest="&gt;: &gt; [1424,1425]"/>
+  <match src="{: { [3875,3876]" dest="{: { [3891,3892]"/>
+  <match src=";: ; [1577,1578]" dest=";: ; [1593,1594]"/>
+  <match src="==: == [1551,1553]" dest="==: == [1567,1569]"/>
+  <match src="compound_statement [1984,2116]" dest="compound_statement [2000,2132]"/>
+  <match src="=: = [1710,1711]" dest="=: = [1726,1727]"/>
+  <match src="comment: /* dpp: EAS_ReportEx(_EAS_SEVERITY_ERROR, &quot;DLS wave chunk has no data chunk\n&quot;); */ [1989,2072]" dest="comment: /* dpp: EAS_ReportEx(_EAS_SEVERITY_ERROR, &quot;DLS wave chunk has no data chunk\n&quot;); */ [2005,2088]"/>
+  <match src="field_identifier: wavePoolOffset [3781,3795]" dest="field_identifier: wavePoolOffset [3797,3811]"/>
+  <match src="=: = [877,878]" dest="=: = [877,878]"/>
+  <match src="-&gt;: -&gt; [3585,3587]" dest="-&gt;: -&gt; [3601,3603]"/>
+  <match src="return: return [3961,3967]" dest="return: return [3977,3983]"/>
+  <match src="field_identifier: wavePoolSize [3449,3461]" dest="field_identifier: wavePoolSize [3465,3477]"/>
+  <match src=";: ; [272,273]" dest=";: ; [272,273]"/>
+  <match src="identifier: NextChunk [568,577]" dest="identifier: NextChunk [568,577]"/>
+  <match src="case_statement [1361,1377]" dest="case_statement [1361,1377]"/>
+  <match src="declaration [204,224]" dest="declaration [204,224]"/>
+  <match src=",: , [486,487]" dest=",: , [486,487]"/>
+  <match src="assignment_expression [4003,4063]" dest="assignment_expression [4019,4079]"/>
+  <match src="identifier: result [1000,1006]" dest="identifier: result [1000,1006]"/>
+  <match src="identifier: EAS_ERROR_SOUND_LIBRARY [1452,1475]" dest="identifier: EAS_ERROR_SOUND_LIBRARY [1468,1491]"/>
+  <match src="call_expression [2178,2210]" dest="call_expression [2194,2226]"/>
+  <match src="if_statement [1395,1483]" dest="if_statement [1395,1499]"/>
+  <match src="(: ( [3751,3752]" dest="(: ( [3767,3768]"/>
+  <match src="identifier: pDLSData [466,474]" dest="identifier: pDLSData [466,474]"/>
+  <match src="): ) [4062,4063]" dest="): ) [4078,4079]"/>
+  <match src="field_expression [1719,1731]" dest="field_expression [1735,1747]"/>
+  <match src="parenthesized_expression [923,939]" dest="parenthesized_expression [923,939]"/>
+  <match src="parenthesized_expression [998,1065]" dest="parenthesized_expression [998,1065]"/>
+  <match src="}: } [1379,1380]" dest="}: } [1379,1380]"/>
+  <match src="identifier: pDLSData [578,586]" dest="identifier: pDLSData [578,586]"/>
+  <match src="-&gt;: -&gt; [3447,3449]" dest="-&gt;: -&gt; [3463,3465]"/>
+  <match src="&gt;&gt;: &gt;&gt; [3089,3091]" dest="&gt;&gt;: &gt;&gt; [3105,3107]"/>
+  <match src="init_declarator [261,272]" dest="init_declarator [261,272]"/>
+  <match src="declaration [229,248]" dest="declaration [229,248]"/>
+  <match src="++: ++ [3131,3133]" dest="++: ++ [3147,3149]"/>
+  <match src="expression_statement [3561,3626]" dest="expression_statement [3577,3642]"/>
+  <match src="identifier: pDLSData [3571,3579]" dest="identifier: pDLSData [3587,3595]"/>
+  <match src="assignment_expression [1593,1627]" dest="assignment_expression [1609,1643]"/>
+  <match src="identifier: chunkPos [393,401]" dest="identifier: chunkPos [393,401]"/>
+  <match src="identifier: result [633,639]" dest="identifier: result [633,639]"/>
+  <match src="): ) [607,608]" dest="): ) [607,608]"/>
+  <match src="(: ( [682,683]" dest="(: ( [682,683]"/>
+  <match src="parenthesized_expression [3295,3310]" dest="parenthesized_expression [3311,3326]"/>
+  <match src="type_identifier: S_WSMP_DATA [340,351]" dest="type_identifier: S_WSMP_DATA [340,351]"/>
+  <match src="compound_statement [95,4120]" dest="compound_statement [95,4136]"/>
+  <match src="identifier: temp [1119,1123]" dest="identifier: temp [1119,1123]"/>
+  <match src="return_statement [1445,1476]" dest="return_statement [1461,1492]"/>
+  <match src="=: = [1170,1171]" dest="=: = [1170,1171]"/>
+  <match src="binary_expression [419,508]" dest="binary_expression [419,508]"/>
+  <match src="compound_statement [941,1388]" dest="compound_statement [941,1388]"/>
+  <match src="identifier: wsmp [352,356]" dest="identifier: wsmp [352,356]"/>
+  <match src="type_identifier: EAS_U32 [3800,3807]" dest="type_identifier: EAS_U32 [3816,3823]"/>
+  <match src="{: { [1805,1806]" dest="{: { [1821,1822]"/>
+  <match src="argument_list [2188,2210]" dest="argument_list [2204,2226]"/>
+  <match src="=: = [295,296]" dest="=: = [295,296]"/>
+  <match src="type_identifier: EAS_I32 [160,167]" dest="type_identifier: EAS_I32 [160,167]"/>
+  <match src=";: ; [198,199]" dest=";: ; [198,199]"/>
+  <match src="identifier: p [1719,1720]" dest="identifier: p [1735,1736]"/>
+  <match src=";: ; [118,119]" dest=";: ; [118,119]"/>
+  <match src="identifier: fmtPos [237,243]" dest="identifier: fmtPos [237,243]"/>
+  <match src="identifier: result [4003,4009]" dest="identifier: result [4019,4025]"/>
+  <match src="]: ] [3747,3748]" dest="]: ] [3763,3764]"/>
+  <match src="assignment_expression [3561,3625]" dest="assignment_expression [3577,3641]"/>
+  <match src="identifier: wsmp [1573,1577]" dest="identifier: wsmp [1589,1593]"/>
+  <match src="identifier: wsmpPos [2151,2158]" dest="identifier: wsmpPos [2167,2174]"/>
+  <match src="(: ( [419,420]" dest="(: ( [419,420]"/>
+  <match src="expression_statement [1162,1185]" dest="expression_statement [1162,1185]"/>
+  <match src="pointer_expression [1042,1047]" dest="pointer_expression [1042,1047]"/>
+  <match src="&amp;: &amp; [1572,1573]" dest="&amp;: &amp; [1588,1589]"/>
+  <match src="assignment_expression [1741,1758]" dest="assignment_expression [1757,1774]"/>
+  <match src="identifier: endChunk [893,901]" dest="identifier: endChunk [893,901]"/>
+  <match src="number_literal: 12 [410,412]" dest="number_literal: 12 [410,412]"/>
+  <match src="{: { [707,708]" dest="{: { [707,708]"/>
+  <match src="return: return [4082,4088]" dest="return: return [4098,4104]"/>
+  <match src="): ) [491,492]" dest="): ) [491,492]"/>
+  <match src="type_identifier: EAS_I32 [278,285]" dest="type_identifier: EAS_I32 [278,285]"/>
+  <match src="}: } [3994,3995]" dest="}: } [4010,4011]"/>
+  <match src="parenthesized_expression [558,608]" dest="parenthesized_expression [558,608]"/>
+  <match src="subscript_expression [3708,3748]" dest="subscript_expression [3724,3764]"/>
+  <match src="break: break [1187,1192]" dest="break: break [1187,1192]"/>
+  <match src="field_identifier: pDLS [3414,3418]" dest="field_identifier: pDLS [3430,3434]"/>
+  <match src="type_identifier: EAS_U32 [124,131]" dest="type_identifier: EAS_U32 [124,131]"/>
+  <match src="identifier: chunkPos [951,959]" dest="identifier: chunkPos [951,959]"/>
+  <match src="-&gt;: -&gt; [3609,3611]" dest="-&gt;: -&gt; [3625,3627]"/>
+  <match src="number_literal: 8 [1315,1316]" dest="number_literal: 8 [1315,1316]"/>
+  <match src="assignment_expression [2169,2210]" dest="assignment_expression [2185,2226]"/>
+  <match src="call_expression [4012,4063]" dest="call_expression [4028,4079]"/>
+  <match src="identifier: EAS_SUCCESS [497,508]" dest="identifier: EAS_SUCCESS [497,508]"/>
+  <match src="binary_expression [904,914]" dest="binary_expression [904,914]"/>
+  <match src="subscript_expression [1598,1627]" dest="subscript_expression [1614,1643]"/>
+  <match src="call_expression [429,492]" dest="call_expression [429,492]"/>
+  <match src="if: if [1791,1793]" dest="if: if [1807,1809]"/>
+  <match src="(: ( [3099,3100]" dest="(: ( [3115,3116]"/>
+  <match src="comment:  
+     * the memory for 16-bit samples when in 8-bit mode, and we need
+     * double the memory for 8-bit samples in 16-bit mode. For
+     * unlooped samples, we may use ADPCM. If so, we need only 1/4
+     * the memory.
+     *
+     * We also need to add one for looped samples to allow for
+     * the first sample to be copied to the end of the loop.
+     */ [2356,2777]" dest="comment:  
+     * the memory for 16-bit samples when in 8-bit mode, and we need
+     * double the memory for 8-bit samples in 16-bit mode. For
+     * unlooped samples, we may use ADPCM. If so, we need only 1/4
+     * the memory.
+     *
+     * We also need to add one for looped samples to allow for
+     * the first sample to be copied to the end of the loop.
+     */ [2372,2793]"/>
+  <match src="): ) [2209,2210]" dest="): ) [2225,2226]"/>
+  <match src="parameter_declaration [76,93]" dest="parameter_declaration [76,93]"/>
+  <match src="): ) [606,607]" dest="): ) [606,607]"/>
+  <match src="}: } [1387,1388]" dest="}: } [1387,1388]"/>
+  <match src="): ) [93,94]" dest="): ) [93,94]"/>
+  <match src="expression_statement [1741,1759]" dest="expression_statement [1757,1775]"/>
+  <match src="identifier: EAS_ERROR_UNRECOGNIZED_FORMAT [2083,2112]" dest="identifier: EAS_ERROR_UNRECOGNIZED_FORMAT [2099,2128]"/>
+  <match src="}: } [3335,3336]" dest="}: } [3351,3352]"/>
+  <match src="=: = [427,428]" dest="=: = [427,428]"/>
+  <match src="compound_statement [2161,2246]" dest="compound_statement [2177,2262]"/>
+  <match src="field_expression [3678,3702]" dest="field_expression [3694,3718]"/>
+  <match src="expression_statement [1702,1714]" dest="expression_statement [1718,1730]"/>
+  <match src="identifier: pos [589,592]" dest="identifier: pos [589,592]"/>
+  <match src="return: return [3482,3488]" dest="return: return [3498,3504]"/>
+  <match src="comment: /*lint -e{506} -e{774} groundwork for future version to support 8 &amp; 16 bit */ [2852,2929]" dest="comment: /*lint -e{506} -e{774} groundwork for future version to support 8 &amp; 16 bit */ [2868,2945]"/>
+  <match src="if: if [1969,1971]" dest="if: if [1985,1987]"/>
+  <match src="field_identifier: pDLS [3581,3585]" dest="field_identifier: pDLS [3597,3601]"/>
+  <match src="identifier: pDLSData [3404,3412]" dest="identifier: pDLSData [3420,3428]"/>
+  <match src="identifier: fmtPos [1228,1234]" dest="identifier: fmtPos [1228,1234]"/>
+  <match src="binary_expression [404,412]" dest="binary_expression [404,412]"/>
+  <match src="return_statement [626,640]" dest="return_statement [626,640]"/>
+  <match src="case_statement [1129,1193]" dest="case_statement [1129,1193]"/>
+  <match src="update_expression [3127,3133]" dest="update_expression [3143,3149]"/>
+  <match src=",: , [2316,2317]" dest=",: , [2332,2333]"/>
+  <match src="binary_expression [1536,1558]" dest="binary_expression [1552,1574]"/>
+  <match src="declaration [182,199]" dest="declaration [182,199]"/>
+  <match src="identifier: pDLSData [1019,1027]" dest="identifier: pDLSData [1019,1027]"/>
+  <match src="identifier: result [420,426]" dest="identifier: result [420,426]"/>
+  <match src="identifier: EAS_ERROR_UNRECOGNIZED_FORMAT [1903,1932]" dest="identifier: EAS_ERROR_UNRECOGNIZED_FORMAT [1919,1948]"/>
+  <match src="if_statement [2147,2246]" dest="if_statement [2163,2262]"/>
+  <match src=";: ; [1316,1317]" dest=";: ; [1316,1317]"/>
+  <match src="-&gt;: -&gt; [1606,1608]" dest="-&gt;: -&gt; [1622,1624]"/>
+  <match src="field_identifier: pDLSSampleOffsets [3647,3664]" dest="field_identifier: pDLSSampleOffsets [3663,3680]"/>
+  <match src="&lt;: &lt; [928,929]" dest="&lt;: &lt; [928,929]"/>
+  <match src="!=: != [688,690]" dest="!=: != [688,690]"/>
+  <match src=",: , [2197,2198]" dest=",: , [2213,2214]"/>
+  <match src="compound_statement [704,839]" dest="compound_statement [704,839]"/>
+  <match src="binary_expression [4002,4079]" dest="binary_expression [4018,4095]"/>
+  <match src="assignment_expression [3631,3702]" dest="assignment_expression [3647,3718]"/>
+  <match src="comment: /* for first pass, add size to wave pool size and return */ [3339,3398]" dest="comment: /* for first pass, add size to wave pool size and return */ [3355,3414]"/>
+  <match src=";: ; [1713,1714]" dest=";: ; [1729,1730]"/>
+  <match src="assignment_expression [1702,1713]" dest="assignment_expression [1718,1729]"/>
+  <match src=",: , [61,62]" dest=",: , [61,62]"/>
+  <match src=";: ; [3204,3205]" dest=";: ; [3220,3221]"/>
+  <match src="): ) [4063,4064]" dest="): ) [4079,4080]"/>
+  <match src="!=: != [2212,2214]" dest="!=: != [2228,2230]"/>
+  <match src="comment: /* get the chunk type */ [969,993]" dest="comment: /* get the chunk type */ [969,993]"/>
+  <match src="return_statement [1067,1081]" dest="return_statement [1067,1081]"/>
+  <match src="field_expression [3631,3645]" dest="field_expression [3647,3661]"/>
+  <match src="call_expression [568,607]" dest="call_expression [568,607]"/>
+  <match src="identifier: EAS_SUCCESS [1053,1064]" dest="identifier: EAS_SUCCESS [1053,1064]"/>
+  <match src="field_identifier: pDLSSamples [3587,3598]" dest="field_identifier: pDLSSamples [3603,3614]"/>
+  <match src=";: ; [887,888]" dest=";: ; [887,888]"/>
+  <match src="(: ( [4001,4002]" dest="(: ( [4017,4018]"/>
+  <match src="identifier: size [3761,3765]" dest="identifier: size [3777,3781]"/>
+  <match src="-&gt;: -&gt; [452,454]" dest="-&gt;: -&gt; [452,454]"/>
+  <match src=";: ; [1696,1697]" dest=";: ; [1712,1713]"/>
+  <match src="parenthesized_expression [418,509]" dest="parenthesized_expression [418,509]"/>
+  <match src=";: ; [1627,1628]" dest=";: ; [1643,1644]"/>
+  <match src="=: = [244,245]" dest="=: = [244,245]"/>
+  <match src="compound_statement [3872,3995]" dest="compound_statement [3888,4011]"/>
+  <match src="return_statement [1896,1933]" dest="return_statement [1912,1949]"/>
+  <match src="-&gt;: -&gt; [3722,3724]" dest="-&gt;: -&gt; [3738,3740]"/>
+  <match src="field_expression [3404,3418]" dest="field_expression [3420,3434]"/>
+  <match src="field_identifier: hwInstData [454,464]" dest="field_identifier: hwInstData [454,464]"/>
+  <match src=",: , [4050,4051]" dest=",: , [4066,4067]"/>
+  <match src="=: = [3749,3750]" dest="=: = [3765,3766]"/>
+  <match src="comment: /* must have a data chunk */ [1939,1967]" dest="comment: /* must have a data chunk */ [1955,1983]"/>
+  <match src="pointer_expression [1029,1033]" dest="pointer_expression [1029,1033]"/>
+  <match src="type_identifier: EAS_I32 [142,149]" dest="type_identifier: EAS_I32 [142,149]"/>
+  <match src="(: ( [557,558]" dest="(: ( [557,558]"/>
+  <match src="identifier: p [4052,4053]" dest="identifier: p [4068,4069]"/>
+  <match src="pointer_expression [601,606]" dest="pointer_expression [601,606]"/>
+  <match src="!=: != [609,611]" dest="!=: != [609,611]"/>
+  <match src="else_clause [1580,1628]" dest="else_clause [1596,1644]"/>
+  <match src="): ) [623,624]" dest="): ) [623,624]"/>
+  <match src="number_literal: 0 [1672,1673]" dest="number_literal: 0 [1688,1689]"/>
+  <match src="identifier: EAS_SUCCESS [4068,4079]" dest="identifier: EAS_SUCCESS [4084,4095]"/>
+  <match src="(: ( [2168,2169]" dest="(: ( [2184,2185]"/>
+  <match src="field_expression [3153,3169]" dest="field_expression [3169,3185]"/>
+  <match src=";: ; [965,966]" dest=";: ; [965,966]"/>
+  <match src="identifier: dataSize [3276,3284]" dest="identifier: dataSize [3292,3300]"/>
+  <match src="field_expression [2958,2974]" dest="field_expression [2974,2990]"/>
+  <match src="parenthesized_expression [2150,2159]" dest="parenthesized_expression [2166,2175]"/>
+  <match src="parenthesized_expression [2280,2321]" dest="parenthesized_expression [2296,2337]"/>
+  <match src="case_statement [1261,1358]" dest="case_statement [1261,1358]"/>
+  <match src="translation_unit [0,4120]" dest="translation_unit [0,4136]"/>
+  <match src="comment: /*lint -e{703} use shift for performance */ [3213,3256]" dest="comment: /*lint -e{703} use shift for performance */ [3229,3272]"/>
+  <match src="): ) [701,702]" dest="): ) [701,702]"/>
+  <match src="identifier: EAS_SUCCESS [612,623]" dest="identifier: EAS_SUCCESS [612,623]"/>
+  <match src="+: + [1246,1247]" dest="+: + [1246,1247]"/>
+  <match src="): ) [2319,2320]" dest="): ) [2335,2336]"/>
+  <match src="field_identifier: pDLS [3718,3722]" dest="field_identifier: pDLS [3734,3738]"/>
+  <match src="binary_expression [999,1064]" dest="binary_expression [999,1064]"/>
+  <match src="field_expression [3439,3461]" dest="field_expression [3455,3477]"/>
+  <match src="argument_list [2299,2320]" dest="argument_list [2315,2336]"/>
+  <match src="identifier: p [1741,1742]" dest="identifier: p [1757,1758]"/>
+  <match src="if: if [2954,2956]" dest="if: if [2970,2972]"/>
+  <match src="): ) [4079,4080]" dest="): ) [4095,4096]"/>
+  <match src="identifier: dataSize [286,294]" dest="identifier: dataSize [286,294]"/>
+  <match src="-&gt;: -&gt; [3579,3581]" dest="-&gt;: -&gt; [3595,3597]"/>
+  <match src="binary_expression [2168,2226]" dest="binary_expression [2184,2242]"/>
+  <match src="identifier: pDLSData [2300,2308]" dest="identifier: pDLSData [2316,2324]"/>
+  <match src="binary_expression [924,938]" dest="binary_expression [924,938]"/>
+  <match src="compound_statement [707,805]" dest="compound_statement [707,805]"/>
+  <match src="compound_statement [1808,1894]" dest="compound_statement [1824,1910]"/>
+  <match src="identifier: Parse_wsmp [2178,2188]" dest="identifier: Parse_wsmp [2194,2204]"/>
+  <match src="identifier: pDLSData [4023,4031]" dest="identifier: pDLSData [4039,4047]"/>
+  <match src="identifier: waveIndex [84,93]" dest="identifier: waveIndex [84,93]"/>
+  <match src="field_identifier: gain [1705,1709]" dest="field_identifier: gain [1721,1725]"/>
+  <match src="case: case [1261,1265]" dest="case: case [1261,1265]"/>
+  <match src="(: ( [29,30]" dest="(: ( [29,30]"/>
+  <match src="expression_statement [3189,3205]" dest="expression_statement [3205,3221]"/>
+  <match src="function_declarator [18,94]" dest="function_declarator [18,94]"/>
+  <match src="!: ! [1795,1796]" dest="!: ! [1811,1812]"/>
+  <match src="=: = [1732,1733]" dest="=: = [1748,1749]"/>
+  <match src="}: } [2115,2116]" dest="}: } [2131,2132]"/>
+  <match src="case: case [1196,1200]" dest="case: case [1196,1200]"/>
+  <match src="else_clause [3140,3336]" dest="else_clause [3156,3352]"/>
+  <match src="identifier: p [3296,3297]" dest="identifier: p [3312,3313]"/>
+  <match src="identifier: result [2346,2352]" dest="identifier: result [2362,2368]"/>
+  <match src="(: ( [2188,2189]" dest="(: ( [2204,2205]"/>
+  <match src=";: ; [1475,1476]" dest=";: ; [1491,1492]"/>
+  <match src="=: = [2176,2177]" dest="=: = [2192,2193]"/>
+  <match src="parenthesized_expression [1794,1803]" dest="parenthesized_expression [1810,1819]"/>
+  <match src="number_literal: 0 [1757,1758]" dest="number_literal: 0 [1773,1774]"/>
+  <match src="assignment_expression [393,412]" dest="assignment_expression [393,412]"/>
+  <match src="=: = [3078,3079]" dest="=: = [3094,3095]"/>
+  <match src="identifier: pos [404,407]" dest="identifier: pos [404,407]"/>
+  <match src="field_expression [3296,3309]" dest="field_expression [3312,3325]"/>
+  <match src="}: } [804,805]" dest="}: } [804,805]"/>
+  <match src="=: = [3274,3275]" dest="=: = [3290,3291]"/>
+</matches>
+<actions>
+  <insert-node tree="binary_expression [1399,1443]" parent="parenthesized_expression [1398,1428]" at="1"/>
+  <insert-tree tree="binary_expression [1399,1411]" parent="binary_expression [1399,1443]" at="0"/>
+  <insert-node tree="||: || [1412,1414]" parent="binary_expression [1399,1443]" at="1"/>
+  <move-tree tree="binary_expression [1399,1427]" parent="binary_expression [1399,1443]" at="2"/>
+</actions>

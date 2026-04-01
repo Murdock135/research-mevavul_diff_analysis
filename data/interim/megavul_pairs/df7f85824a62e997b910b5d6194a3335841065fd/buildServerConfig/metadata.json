@@ -1,0 +1,20 @@
+{
+    "id": "df7f85824a62e997b910b5d6194a3335841065fd_buildServerConfig_0",
+    "func_name": "buildServerConfig",
+    "cve_id": "CVE-2023-44487",
+    "cwe_ids": [
+        "CWE-400"
+    ],
+    "commit_hash": "df7f85824a62e997b910b5d6194a3335841065fd",
+    "parent_commit_hash": "f93ccca0ea955b6e1858f2b7d95974b561a98423",
+    "repo_name": "line/armeria",
+    "git_url": "https://github.com/line/armeria/commit/df7f85824a62e997b910b5d6194a3335841065fd",
+    "file_path": "core/src/main/java/com/linecorp/armeria/server/ServerBuilder.java",
+    "file_name": "ServerBuilder.java",
+    "commit_date": 1696992830,
+    "commit_msg": "Limit max reset frames to mitigate HTTP/2 RST floods\n\nMotivation:\n\nTo mitigate against the \"HTTP/2 Rapid Reset\" attack, it is recommended\nthat HTTP/2 servers should close connections that exceed the concurrent\nstream limit.\n\nReference:\n\n- https://blog.cloudflare.com/technical-breakdown-http2-rapid-reset-ddos-attack/\n- https://www.cve.org/CVERecord?id=CVE-2023-44487\n- https://github.com/netty/netty/commit/58f75f665aa81a8cbcf6ffa74820042a285c5e61#diff-82f568a075ff63e9727ce8622f3a2b1553099182edf1fd0b4f857226252b05adR47\n\nModifications:\n\n- Add `ServerBuilder.http2MaxRestFramesPerWindow()` option\n  `-Dcom.linecorp.armeria.defaultHttp2MaxResetFramesPerMinute<integer>`\n  property to limit the maximum allowed RST frames.\n  - If not set, 400 RST frames per minute are alllowed by default.\n- Bump Netty version to 4.1.100 from 4.1.96\n\nResult:\n\nYou can now protect your server against DDOS caused by RST floods.\n```java\nServer\n  .builder()\n  .http2MaxResetFramesPerWindow(100, 10)\n  .build();\n```",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

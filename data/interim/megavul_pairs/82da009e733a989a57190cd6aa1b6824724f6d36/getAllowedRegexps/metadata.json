@@ -1,0 +1,20 @@
+{
+    "id": "82da009e733a989a57190cd6aa1b6824724f6d36_getAllowedRegexps_1",
+    "func_name": "getAllowedRegexps",
+    "cve_id": "CVE-2017-14735",
+    "cwe_ids": [
+        "CWE-79"
+    ],
+    "commit_hash": "82da009e733a989a57190cd6aa1b6824724f6d36",
+    "parent_commit_hash": "c48ed190a8e8e374444588ef43bb058dced3b93f",
+    "repo_name": "nahsra/antisamy",
+    "git_url": "https://github.com/nahsra/antisamy/commit/82da009e733a989a57190cd6aa1b6824724f6d36",
+    "file_path": "src/main/java/org/owasp/validator/html/Policy.java",
+    "file_name": "Policy.java",
+    "commit_date": 1506332274,
+    "commit_msg": "Issue #10 (#15)\n\n* upgraded batik-css version\r\nremoved redundant regex beginning/end markers\r\nupdated policies to contain new url validation which is sensitive to\r\nhtml5 colon entity\r\n\r\n* removed test code",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

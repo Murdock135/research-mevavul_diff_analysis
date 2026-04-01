@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="-&gt;: -&gt; [240,242]" dest="-&gt;: -&gt; [249,251]"/>
+  <match src="static: static [0,6]" dest="static: static [0,6]"/>
+  <match src="identifier: type [70,74]" dest="identifier: type [66,70]"/>
+  <match src="identifier: intr [278,282]" dest="identifier: intr [287,291]"/>
+  <match src="*: * [52,53]" dest="*: * [52,53]"/>
+  <match src="parameter_list [31,110]" dest="parameter_list [31,119]"/>
+  <match src="identifier: session [53,60]" dest="identifier: session [53,60]"/>
+  <match src="argument_list [182,213]" dest="argument_list [191,222]"/>
+  <match src="}: } [285,286]" dest="}: } [294,295]"/>
+  <match src="pointer_declarator [52,60]" dest="pointer_declarator [52,60]"/>
+  <match src="pointer_declarator [85,90]" dest="pointer_declarator [85,90]"/>
+  <match src="identifier: data [203,207]" dest="identifier: data [212,216]"/>
+  <match src=",: , [74,75]" dest=",: , [70,71]"/>
+  <match src="identifier: hidp_process_report [12,31]" dest="identifier: hidp_process_report [12,31]"/>
+  <match src="type_qualifier [76,81]" dest="type_qualifier [76,81]"/>
+  <match src="-&gt;: -&gt; [190,192]" dest="-&gt;: -&gt; [199,201]"/>
+  <match src="expression_statement [176,214]" dest="expression_statement [185,223]"/>
+  <match src="field_expression [253,271]" dest="field_expression [262,280]"/>
+  <match src="field_identifier: input_buf [192,201]" dest="field_identifier: input_buf [201,210]"/>
+  <match src="parameter_declaration [32,60]" dest="parameter_declaration [32,60]"/>
+  <match src=",: , [271,272]" dest=",: , [280,281]"/>
+  <match src="field_expression [233,245]" dest="field_expression [242,254]"/>
+  <match src="*: * [85,86]" dest="*: * [85,86]"/>
+  <match src="parameter_declaration [66,74]" dest="parameter_declaration [62,70]"/>
+  <match src="): ) [109,110]" dest="): ) [118,119]"/>
+  <match src="primitive_type: int [66,69]" dest="primitive_type: int [62,65]"/>
+  <match src="identifier: hid_input_report [216,232]" dest="identifier: hid_input_report [225,241]"/>
+  <match src=";: ; [172,173]" dest=";: ; [181,182]"/>
+  <match src="(: ( [232,233]" dest="(: ( [241,242]"/>
+  <match src="type_identifier: hidp_session [39,51]" dest="type_identifier: hidp_session [39,51]"/>
+  <match src=",: , [207,208]" dest=",: , [216,217]"/>
+  <match src="identifier: len [273,276]" dest="identifier: len [282,285]"/>
+  <match src=",: , [99,100]" dest=",: , [108,109]"/>
+  <match src="primitive_type: int [101,104]" dest="primitive_type: int [110,113]"/>
+  <match src="call_expression [216,283]" dest="call_expression [225,292]"/>
+  <match src="): ) [282,283]" dest="): ) [291,292]"/>
+  <match src="field_identifier: hid [242,245]" dest="field_identifier: hid [251,254]"/>
+  <match src=",: , [60,61]" dest=",: , [60,61]"/>
+  <match src="identifier: session [183,190]" dest="identifier: session [192,199]"/>
+  <match src="call_expression [176,213]" dest="call_expression [185,222]"/>
+  <match src="&gt;: &gt; [122,123]" dest="&gt;: &gt; [131,132]"/>
+  <match src="if_statement [114,173]" dest="if_statement [123,182]"/>
+  <match src="identifier: session [233,240]" dest="identifier: session [242,249]"/>
+  <match src="field_identifier: input_buf [262,271]" dest="field_identifier: input_buf [271,280]"/>
+  <match src="field_expression [183,201]" dest="field_expression [192,210]"/>
+  <match src="identifier: HID_MAX_BUFFER_SIZE [124,143]" dest="identifier: HID_MAX_BUFFER_SIZE [133,152]"/>
+  <match src="(: ( [182,183]" dest="(: ( [191,192]"/>
+  <match src="function_declarator [12,110]" dest="function_declarator [12,119]"/>
+  <match src="identifier: len [209,212]" dest="identifier: len [218,221]"/>
+  <match src="argument_list [232,283]" dest="argument_list [241,292]"/>
+  <match src=",: , [251,252]" dest=",: , [260,261]"/>
+  <match src=",: , [90,91]" dest=",: , [90,91]"/>
+  <match src="assignment_expression [147,172]" dest="assignment_expression [156,181]"/>
+  <match src="identifier: type [247,251]" dest="identifier: type [256,260]"/>
+  <match src="if: if [114,116]" dest="if: if [123,125]"/>
+  <match src="binary_expression [118,143]" dest="binary_expression [127,152]"/>
+  <match src="-&gt;: -&gt; [260,262]" dest="-&gt;: -&gt; [269,271]"/>
+  <match src="(: ( [117,118]" dest="(: ( [126,127]"/>
+  <match src="): ) [212,213]" dest="): ) [221,222]"/>
+  <match src="struct: struct [32,38]" dest="struct: struct [32,38]"/>
+  <match src=",: , [276,277]" dest=",: , [285,286]"/>
+  <match src="identifier: HID_MAX_BUFFER_SIZE [153,172]" dest="identifier: HID_MAX_BUFFER_SIZE [162,181]"/>
+  <match src="storage_class_specifier [0,6]" dest="storage_class_specifier [0,6]"/>
+  <match src=";: ; [213,214]" dest=";: ; [222,223]"/>
+  <match src="function_definition [0,286]" dest="function_definition [0,295]"/>
+  <match src="=: = [151,152]" dest="=: = [160,161]"/>
+  <match src="const: const [76,81]" dest="const: const [76,81]"/>
+  <match src="identifier: len [147,150]" dest="identifier: len [156,159]"/>
+  <match src="{: { [111,112]" dest="{: { [120,121]"/>
+  <match src=",: , [245,246]" dest=",: , [254,255]"/>
+  <match src="(: ( [31,32]" dest="(: ( [31,32]"/>
+  <match src="expression_statement [216,284]" dest="expression_statement [225,293]"/>
+  <match src="parameter_declaration [101,109]" dest="parameter_declaration [110,118]"/>
+  <match src="translation_unit [0,286]" dest="translation_unit [0,295]"/>
+  <match src="struct_specifier [32,51]" dest="struct_specifier [32,51]"/>
+  <match src="identifier: len [96,99]" dest="identifier: len [105,108]"/>
+  <match src="identifier: session [253,260]" dest="identifier: session [262,269]"/>
+  <match src=";: ; [283,284]" dest=";: ; [292,293]"/>
+  <match src="identifier: intr [105,109]" dest="identifier: intr [114,118]"/>
+  <match src="identifier: data [86,90]" dest="identifier: data [86,90]"/>
+  <match src="compound_statement [111,286]" dest="compound_statement [120,295]"/>
+  <match src="identifier: len [118,121]" dest="identifier: len [127,130]"/>
+  <match src="expression_statement [147,173]" dest="expression_statement [156,182]"/>
+  <match src="parameter_declaration [92,99]" dest="parameter_declaration [92,108]"/>
+  <match src="parenthesized_expression [117,144]" dest="parenthesized_expression [126,153]"/>
+  <match src="type_identifier: u8 [82,84]" dest="type_identifier: u8 [82,84]"/>
+  <match src="): ) [143,144]" dest="): ) [152,153]"/>
+  <match src=",: , [201,202]" dest=",: , [210,211]"/>
+  <match src="parameter_declaration [76,90]" dest="parameter_declaration [76,90]"/>
+  <match src="primitive_type: void [7,11]" dest="primitive_type: void [7,11]"/>
+  <match src="identifier: memcpy [176,182]" dest="identifier: memcpy [185,191]"/>
+</matches>
+<actions>
+  <insert-tree tree="sized_type_specifier [92,104]" parent="parameter_declaration [92,99]" at="0"/>
+  <delete-node tree="primitive_type: int [92,95]"/>
+</actions>

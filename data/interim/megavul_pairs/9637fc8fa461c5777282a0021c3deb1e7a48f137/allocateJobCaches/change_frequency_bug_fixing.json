@@ -1,0 +1,106 @@
+{
+  "frequency": [
+    {
+      "c": "VariableRead",
+      "f": "3"
+    },
+    {
+      "c": "Parameter",
+      "f": "1"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "TypeAccess",
+      "f": "1"
+    },
+    {
+      "c": "ArrayTypeReference",
+      "f": "1"
+    },
+    {
+      "c": "Invocation",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "update-node_VariableRead_Invocation",
+      "f": "3"
+    },
+    {
+      "c": "update-node_Invocation_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "update-node_LocalVariable_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_TypeAccess_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "update-node_Parameter_Method",
+      "f": "1"
+    },
+    {
+      "c": "update-node_ArrayTypeReference_Parameter",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "VariableRead",
+      "f": "0.375"
+    },
+    {
+      "c": "Parameter",
+      "f": "0.125"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "0.125"
+    },
+    {
+      "c": "TypeAccess",
+      "f": "0.125"
+    },
+    {
+      "c": "ArrayTypeReference",
+      "f": "0.125"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.125"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "update-node_VariableRead_Invocation",
+      "f": "0.375"
+    },
+    {
+      "c": "update-node_Invocation_LocalVariable",
+      "f": "0.125"
+    },
+    {
+      "c": "update-node_LocalVariable_Block",
+      "f": "0.125"
+    },
+    {
+      "c": "update-node_TypeAccess_Invocation",
+      "f": "0.125"
+    },
+    {
+      "c": "update-node_Parameter_Method",
+      "f": "0.125"
+    },
+    {
+      "c": "update-node_ArrayTypeReference_Parameter",
+      "f": "0.125"
+    }
+  ]
+}

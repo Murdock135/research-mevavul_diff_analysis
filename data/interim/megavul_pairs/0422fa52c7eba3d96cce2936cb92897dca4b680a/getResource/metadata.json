@@ -1,0 +1,20 @@
+{
+    "id": "0422fa52c7eba3d96cce2936cb92897dca4b680a_getResource_0",
+    "func_name": "getResource",
+    "cve_id": "CVE-2020-24621",
+    "cwe_ids": [
+        "CWE-22"
+    ],
+    "commit_hash": "0422fa52c7eba3d96cce2936cb92897dca4b680a",
+    "parent_commit_hash": "2f663c28b4a9aeb776a9080a7786b3686762f2ca",
+    "repo_name": "openmrs/openmrs-module-uiframework",
+    "git_url": "https://github.com/openmrs/openmrs-module-uiframework/commit/0422fa52c7eba3d96cce2936cb92897dca4b680a",
+    "file_path": "api/src/main/java/org/openmrs/ui/framework/resource/ModuleResourceProvider.java",
+    "file_name": "ModuleResourceProvider.java",
+    "commit_date": 1588937309,
+    "commit_msg": "UIFR-215: Do not allow loading arbitrary files",
+    "cvss_vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+    "cvss_base_score": 6.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

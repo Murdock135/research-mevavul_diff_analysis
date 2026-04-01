@@ -1,0 +1,74 @@
+{
+  "frequency": [
+    {
+      "c": "VariableRead",
+      "f": "3"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "3"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "update-node_VariableRead_Conditional",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_BinaryOperator_Conditional",
+      "f": "1"
+    },
+    {
+      "c": "update-node_BinaryOperator_Conditional",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_VariableRead_Conditional",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_BinaryOperator_Conditional",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_VariableRead_Conditional",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "VariableRead",
+      "f": "0.5"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "0.5"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "update-node_VariableRead_Conditional",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "move-tree_BinaryOperator_Conditional",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "update-node_BinaryOperator_Conditional",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "move-tree_VariableRead_Conditional",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "insert-node_BinaryOperator_Conditional",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "insert-node_VariableRead_Conditional",
+      "f": "0.16666666666666666"
+    }
+  ]
+}

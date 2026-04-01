@@ -1,0 +1,42 @@
+{
+  "frequency": [
+    {
+      "c": "Catch",
+      "f": "3"
+    },
+    {
+      "c": "TypeReference",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "insert-node_Catch_Try",
+      "f": "3"
+    },
+    {
+      "c": "insert-node_TypeReference_CatchVariable",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Catch",
+      "f": "0.75"
+    },
+    {
+      "c": "TypeReference",
+      "f": "0.25"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "insert-node_Catch_Try",
+      "f": "0.75"
+    },
+    {
+      "c": "insert-node_TypeReference_CatchVariable",
+      "f": "0.25"
+    }
+  ]
+}

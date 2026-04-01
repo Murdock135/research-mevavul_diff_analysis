@@ -1,0 +1,20 @@
+{
+    "id": "d348c43b24a9de350ff6e5bd610545a10c1fc712_decode_0",
+    "func_name": "decode",
+    "cve_id": "CVE-2024-21633",
+    "cwe_ids": [
+        "CWE-22"
+    ],
+    "commit_hash": "d348c43b24a9de350ff6e5bd610545a10c1fc712",
+    "parent_commit_hash": "e5c88ece1b7881879ed1a6f65e5f81d3cf788c4c",
+    "repo_name": "iBotPeaches/Apktool",
+    "git_url": "https://github.com/iBotPeaches/Apktool/commit/d348c43b24a9de350ff6e5bd610545a10c1fc712",
+    "file_path": "brut.apktool/apktool-lib/src/main/java/brut/androlib/res/decoder/ResFileDecoder.java",
+    "file_name": "ResFileDecoder.java",
+    "commit_date": 1704165063,
+    "commit_msg": "Prevent arbitrary file writes with malicious resource names. (#3484)\n\n* refactor: rename sanitize function\r\n\r\n* fix: expose getDir\r\n\r\n* fix: safe handling of untrusted resource names\r\n\r\n - fixes: GHSA-2hqv-2xv4-5h5w\r\n\r\n* test: sample file for GHSA-2hqv-2xv4-5h5w\r\n\r\n* refactor: avoid detection of absolute files for resource check\r\n\r\n* chore: enable info mode on gradle\r\n\r\n* test: skip test on windows\r\n\r\n* chore: debug windows handling\r\n\r\n* fix: normalize entry with file separators\r\n\r\n* fix: normalize filepath after cleansing\r\n\r\n* chore: Android paths are not OS specific\r\n\r\n* refactor: use java.nio for path traversal checking\r\n\r\n* chore: align path separator on Windows for Zip files\r\n\r\n* chore: rework towards basic directory traversal\r\n\r\n* chore: remove '--info' on build.yml",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 7.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

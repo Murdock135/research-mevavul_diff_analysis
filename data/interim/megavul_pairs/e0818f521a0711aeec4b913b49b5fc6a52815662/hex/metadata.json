@@ -1,0 +1,22 @@
+{
+    "id": "e0818f521a0711aeec4b913b49b5fc6a52815662_hex_0",
+    "func_name": "hex",
+    "cve_id": "CVE-2019-10182",
+    "cwe_ids": [
+        "CWE-345",
+        "CWE-94",
+        "CWE-22"
+    ],
+    "commit_hash": "e0818f521a0711aeec4b913b49b5fc6a52815662",
+    "parent_commit_hash": "2ab070cdac087bd208f64fa8138bb709f8d7680c",
+    "repo_name": "AdoptOpenJDK/IcedTea-Web",
+    "git_url": "https://github.com/AdoptOpenJDK/IcedTea-Web/commit/e0818f521a0711aeec4b913b49b5fc6a52815662",
+    "file_path": "core/src/main/java/net/sourceforge/jnlp/cache/CacheUtil.java",
+    "file_name": "CacheUtil.java",
+    "commit_date": 1561520805,
+    "commit_msg": "Nested jar, if by relative path point up, is stored as hashed - CVE-2019-10185\n\n* tests/netx/unit/net/sourceforge/jnlp/runtime/jar03_dotdotN1.jar: crafted jar with hacked zip entries to be named like \"..\"\n* tests/netx/unit/net/sourceforge/jnlp/runtime/jar_03_dotdot_jarN1.jnlp: jnlp to call jar03_dotdotN1.jar\n* netx/net/sourceforge/jnlp/cache/CacheUtil.jsava: (hex) made public to be reused in JNLPClassLoader\n* netx/net/sourceforge/jnlp/runtime/JNLPClassLoader.java: if nested jar contains .. in path, is extracted as hashed",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:N/I:P/A:P",
+    "cvss_base_score": 5.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

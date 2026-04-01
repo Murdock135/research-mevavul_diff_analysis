@@ -1,0 +1,114 @@
+{
+  "frequency": [
+    {
+      "c": "LocalVariable",
+      "f": "2"
+    },
+    {
+      "c": "Invocation",
+      "f": "2"
+    },
+    {
+      "c": "For",
+      "f": "1"
+    },
+    {
+      "c": "Return",
+      "f": "1"
+    },
+    {
+      "c": "TypeAccess",
+      "f": "1"
+    },
+    {
+      "c": "Throw",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "2"
+    },
+    {
+      "c": "insert-node_Return_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_Invocation_BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_For_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_TypeAccess_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Throw_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Invocation_BinaryOperator",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "LocalVariable",
+      "f": "0.25"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.25"
+    },
+    {
+      "c": "For",
+      "f": "0.125"
+    },
+    {
+      "c": "Return",
+      "f": "0.125"
+    },
+    {
+      "c": "TypeAccess",
+      "f": "0.125"
+    },
+    {
+      "c": "Throw",
+      "f": "0.125"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "0.25"
+    },
+    {
+      "c": "insert-node_Return_Block",
+      "f": "0.125"
+    },
+    {
+      "c": "update-node_Invocation_BinaryOperator",
+      "f": "0.125"
+    },
+    {
+      "c": "delete-node_For_Block",
+      "f": "0.125"
+    },
+    {
+      "c": "update-node_TypeAccess_Invocation",
+      "f": "0.125"
+    },
+    {
+      "c": "delete-node_Throw_Block",
+      "f": "0.125"
+    },
+    {
+      "c": "move-tree_Invocation_BinaryOperator",
+      "f": "0.125"
+    }
+  ]
+}

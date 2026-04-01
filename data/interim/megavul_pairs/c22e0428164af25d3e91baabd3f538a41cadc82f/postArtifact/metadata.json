@@ -1,0 +1,20 @@
+{
+    "id": "c22e0428164af25d3e91baabd3f538a41cadc82f_postArtifact_0",
+    "func_name": "postArtifact",
+    "cve_id": "CVE-2021-43289",
+    "cwe_ids": [
+        "CWE-22"
+    ],
+    "commit_hash": "c22e0428164af25d3e91baabd3f538a41cadc82f",
+    "parent_commit_hash": "c47c61cc262e365e99583763ab08d4f6628d26fe",
+    "repo_name": "gocd",
+    "git_url": "https://github.com/gocd/gocd/commit/c22e0428164af25d3e91baabd3f538a41cadc82f",
+    "file_path": "server/src/main/java/com/thoughtworks/go/server/controller/ArtifactsController.java",
+    "file_name": "ArtifactsController.java",
+    "commit_date": 1634873848,
+    "commit_msg": "#000 - Validate stage counter during upload artifacts",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

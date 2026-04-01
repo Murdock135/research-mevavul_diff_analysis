@@ -1,0 +1,20 @@
+{
+    "id": "53ceaac3e0a10e86d512ce96a0056578f2d1978f_sanitizeString_0",
+    "func_name": "sanitizeString",
+    "cve_id": "CVE-2020-13973",
+    "cwe_ids": [
+        "CWE-79"
+    ],
+    "commit_hash": "53ceaac3e0a10e86d512ce96a0056578f2d1978f",
+    "parent_commit_hash": "305b0f235a831391b736c03eaefbd42b104c10ec",
+    "repo_name": "OWASP/json-sanitizer",
+    "git_url": "https://github.com/OWASP/json-sanitizer/commit/53ceaac3e0a10e86d512ce96a0056578f2d1978f",
+    "file_path": "src/main/java/com/google/json/JsonSanitizer.java",
+    "file_name": "JsonSanitizer.java",
+    "commit_date": 1591233035,
+    "commit_msg": "Escape <!--, --> and <script\n\nIn HTML script elements, `</script` is not the only substring that\nswitches the HTML parser state even when contained in a JS string\nliteral. This commit adds escaping for `<!--`, `-->` and `<script`,\nwhich appear to be all substrings that cause state transitions which\nare not reset by the `\"` closing the string literal.",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

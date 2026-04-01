@@ -1,0 +1,356 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="&amp;: &amp; [1005,1006]" dest="&amp;: &amp; [975,976]"/>
+  <match src="*: * [67,68]" dest="*: * [67,68]"/>
+  <match src="*: * [531,532]" dest="*: * [498,499]"/>
+  <match src=";: ; [282,283]" dest=";: ; [282,283]"/>
+  <match src="binary_expression [412,454]" dest="binary_expression [412,454]"/>
+  <match src=";: ; [953,954]" dest=";: ; [923,924]"/>
+  <match src="&amp;: &amp; [748,749]" dest="&amp;: &amp; [718,719]"/>
+  <match src="if: if [965,967]" dest="if: if [935,937]"/>
+  <match src=",: , [379,380]" dest=",: , [379,380]"/>
+  <match src="=: = [724,725]" dest="=: = [694,695]"/>
+  <match src="*: * [13,14]" dest="*: * [13,14]"/>
+  <match src="identifier: bitmapUpdate [774,786]" dest="identifier: bitmapUpdate [744,756]"/>
+  <match src="concatenated_string [354,379]" dest="concatenated_string [354,379]"/>
+  <match src="binary_expression [809,860]" dest="binary_expression [779,830]"/>
+  <match src="assignment_expression [865,892]" dest="assignment_expression [835,862]"/>
+  <match src="type_identifier: rdpUpdate [41,50]" dest="type_identifier: rdpUpdate [41,50]"/>
+  <match src="if_statement [186,236]" dest="if_statement [186,236]"/>
+  <match src="identifier: update_read_bitmap_update [15,40]" dest="identifier: update_read_bitmap_update [15,40]"/>
+  <match src="field_identifier: number [947,953]" dest="field_identifier: number [917,923]"/>
+  <match src="identifier: update [52,58]" dest="identifier: update [52,58]"/>
+  <match src=";: ; [148,149]" dest=";: ; [148,149]"/>
+  <match src="unary_expression [969,1034]" dest="unary_expression [939,1004]"/>
+  <match src="): ) [1034,1035]" dest="): ) [1004,1005]"/>
+  <match src="expression_statement [239,283]" dest="expression_statement [239,283]"/>
+  <match src="pointer_expression [748,794]" dest="pointer_expression [718,764]"/>
+  <match src="field_identifier: count [879,884]" dest="field_identifier: count [849,854]"/>
+  <match src="{: { [961,962]" dest="{: { [931,932]"/>
+  <match src="call_expression [318,402]" dest="call_expression [318,402]"/>
+  <match src="for_statement [917,1052]" dest="for_statement [887,1022]"/>
+  <match src="field_expression [510,530]" dest="field_expression [477,497]"/>
+  <match src="pointer_expression [1005,1033]" dest="pointer_expression [975,1003]"/>
+  <match src="]: ] [1032,1033]" dest="]: ] [1002,1003]"/>
+  <match src=";: ; [1132,1133]" dest=";: ; [1102,1103]"/>
+  <match src="parenthesized_expression [411,455]" dest="parenthesized_expression [411,455]"/>
+  <match src="*: * [50,51]" dest="*: * [50,51]"/>
+  <match src="(: ( [132,133]" dest="(: ( [132,133]"/>
+  <match src="return: return [1055,1061]" dest="return: return [1025,1031]"/>
+  <match src="compound_statement [458,896]" dest="compound_statement [458,866]"/>
+  <match src="*: * [560,561]" dest="*: * [540,541]"/>
+  <match src="!: ! [969,970]" dest="!: ! [939,940]"/>
+  <match src="(: ( [411,412]" dest="(: ( [411,412]"/>
+  <match src="identifier: update [1102,1108]" dest="identifier: update [1072,1078]"/>
+  <match src="&lt;: &lt; [931,932]" dest="&lt;: &lt; [901,902]"/>
+  <match src="identifier: bitmapUpdate [1006,1018]" dest="identifier: bitmapUpdate [976,988]"/>
+  <match src="{: { [72,73]" dest="{: { [72,73]"/>
+  <match src="*: * [829,830]" dest="*: * [799,800]"/>
+  <match src="parenthesized_expression [132,147]" dest="parenthesized_expression [132,147]"/>
+  <match src="string_content: BitmapUpdate: % [355,370]" dest="string_content: BitmapUpdate: % [355,370]"/>
+  <match src="field_expression [1102,1117]" dest="field_expression [1072,1087]"/>
+  <match src="identifier: bitmapUpdate [1062,1074]" dest="identifier: bitmapUpdate [1032,1044]"/>
+  <match src="binary_expression [190,222]" dest="binary_expression [190,222]"/>
+  <match src="subscript_expression [749,794]" dest="subscript_expression [719,764]"/>
+  <match src="identifier: BITMAP_DATA [639,650]" dest="identifier: BITMAP_DATA [609,620]"/>
+  <match src="pointer_declarator [489,498]" dest="pointer_declarator [516,525]"/>
+  <match src="binary_expression [832,859]" dest="binary_expression [802,829]"/>
+  <match src="function_declarator [15,71]" dest="function_declarator [15,71]"/>
+  <match src="{: { [458,459]" dest="{: { [458,459]"/>
+  <match src="-&gt;: -&gt; [945,947]" dest="-&gt;: -&gt; [915,917]"/>
+  <match src="if: if [667,669]" dest="if: if [637,639]"/>
+  <match src="(: ( [189,190]" dest="(: ( [189,190]"/>
+  <match src="field_identifier: number [426,432]" dest="field_identifier: number [426,432]"/>
+  <match src=",: , [340,341]" dest=",: , [340,341]"/>
+  <match src="identifier: s [216,217]" dest="identifier: s [216,217]"/>
+  <match src="function_definition [0,1149]" dest="function_definition [0,1119]"/>
+  <match src="parenthesized_expression [155,170]" dest="parenthesized_expression [155,170]"/>
+  <match src="unary_expression [156,169]" dest="unary_expression [156,169]"/>
+  <match src="call_expression [116,148]" dest="call_expression [116,148]"/>
+  <match src="sizeof_expression [126,147]" dest="sizeof_expression [126,147]"/>
+  <match src="number_literal: 2 [221,222]" dest="number_literal: 2 [221,222]"/>
+  <match src="pointer_declarator [13,71]" dest="pointer_declarator [13,71]"/>
+  <match src="field_expression [1006,1030]" dest="field_expression [976,1000]"/>
+  <match src="goto_statement [226,236]" dest="goto_statement [226,236]"/>
+  <match src="if_statement [667,695]" dest="if_statement [637,665]"/>
+  <match src="-&gt;: -&gt; [786,788]" dest="-&gt;: -&gt; [756,758]"/>
+  <match src="field_expression [329,340]" dest="field_expression [329,340]"/>
+  <match src="): ) [146,147]" dest="): ) [146,147]"/>
+  <match src="): ) [454,455]" dest="): ) [454,455]"/>
+  <match src="&quot;: &quot; [354,355]" dest="&quot;: &quot; [354,355]"/>
+  <match src="(: ( [1101,1102]" dest="(: ( [1071,1072]"/>
+  <match src="argument_list [570,660]" dest="argument_list [550,630]"/>
+  <match src="sizeof: sizeof [809,815]" dest="sizeof: sizeof [779,785]"/>
+  <match src="field_identifier: count [788,793]" dest="field_identifier: count [758,763]"/>
+  <match src="-&gt;: -&gt; [273,275]" dest="-&gt;: -&gt; [273,275]"/>
+  <match src="compound_statement [72,1149]" dest="compound_statement [72,1119]"/>
+  <match src=",: , [1117,1118]" dest=",: , [1087,1088]"/>
+  <match src="binary_expression [510,534]" dest="binary_expression [477,501]"/>
+  <match src="expression_statement [699,734]" dest="expression_statement [669,704]"/>
+  <match src="identifier: count [832,837]" dest="identifier: count [802,807]"/>
+  <match src="identifier: i [955,956]" dest="identifier: i [925,926]"/>
+  <match src="(: ( [122,123]" dest="(: ( [122,123]"/>
+  <match src="declaration [75,84]" dest="declaration [75,84]"/>
+  <match src="parameter_declaration [41,58]" dest="parameter_declaration [41,58]"/>
+  <match src="identifier: count [654,659]" dest="identifier: count [624,629]"/>
+  <match src="null [1142,1146]" dest="null [1112,1116]"/>
+  <match src="}: } [1051,1052]" dest="}: } [1021,1022]"/>
+  <match src="field_expression [865,884]" dest="field_expression [835,854]"/>
+  <match src=";: ; [733,734]" dest=";: ; [703,704]"/>
+  <match src="type_identifier: BITMAP_UPDATE [86,99]" dest="type_identifier: BITMAP_UPDATE [86,99]"/>
+  <match src="field_identifier: context [1110,1117]" dest="field_identifier: context [1080,1087]"/>
+  <match src="goto: goto [173,177]" dest="goto: goto [173,177]"/>
+  <match src=":: : [1080,1081]" dest=":: : [1050,1051]"/>
+  <match src="argument_list [747,861]" dest="argument_list [717,831]"/>
+  <match src="expression_statement [1083,1133]" dest="expression_statement [1053,1103]"/>
+  <match src=";: ; [182,183]" dest=";: ; [182,183]"/>
+  <match src="identifier: bitmapUpdate [571,583]" dest="identifier: bitmapUpdate [551,563]"/>
+  <match src="argument_list [215,218]" dest="argument_list [215,218]"/>
+  <match src="(: ( [548,549]" dest="(: ( [528,529]"/>
+  <match src=",: , [1003,1004]" dest=",: , [973,974]"/>
+  <match src=";: ; [892,893]" dest=";: ; [862,863]"/>
+  <match src="field_identifier: log [337,340]" dest="field_identifier: log [337,340]"/>
+  <match src="]: ] [793,794]" dest="]: ] [763,764]"/>
+  <match src="identifier: bitmapUpdate [101,113]" dest="identifier: bitmapUpdate [101,113]"/>
+  <match src="return: return [1135,1141]" dest="return: return [1105,1111]"/>
+  <match src="identifier: s [1002,1003]" dest="identifier: s [972,973]"/>
+  <match src="field_expression [774,793]" dest="field_expression [744,763]"/>
+  <match src="=: = [114,115]" dest="=: = [114,115]"/>
+  <match src="identifier: newdata [672,679]" dest="identifier: newdata [642,649]"/>
+  <match src="(: ( [993,994]" dest="(: ( [963,964]"/>
+  <match src="subscript_expression [1006,1033]" dest="subscript_expression [976,1003]"/>
+  <match src="-&gt;: -&gt; [424,426]" dest="-&gt;: -&gt; [424,426]"/>
+  <match src="identifier: newdata [726,733]" dest="identifier: newdata [696,703]"/>
+  <match src="update_expression [955,958]" dest="update_expression [925,928]"/>
+  <match src="=: = [885,886]" dest="=: = [855,856]"/>
+  <match src="(: ( [570,571]" dest="(: ( [550,551]"/>
+  <match src=",: , [124,125]" dest=",: , [124,125]"/>
+  <match src=";: ; [1074,1075]" dest=";: ; [1044,1045]"/>
+  <match src="): ) [958,959]" dest="): ) [928,929]"/>
+  <match src=",: , [595,596]" dest=",: , [575,576]"/>
+  <match src="comment: /* numberRectangles (2 bytes) */ [284,316]" dest="comment: /* numberRectangles (2 bytes) */ [284,316]"/>
+  <match src="): ) [860,861]" dest="): ) [830,831]"/>
+  <match src=",: , [1000,1001]" dest=",: , [970,971]"/>
+  <match src="!: ! [156,157]" dest="!: ! [156,157]"/>
+  <match src="return_statement [1135,1147]" dest="return_statement [1105,1117]"/>
+  <match src="-&gt;: -&gt; [1018,1020]" dest="-&gt;: -&gt; [988,990]"/>
+  <match src="(: ( [831,832]" dest="(: ( [801,802]"/>
+  <match src="identifier: PRIu32 [371,377]" dest="identifier: PRIu32 [371,377]"/>
+  <match src="type_descriptor [549,561]" dest="type_descriptor [529,541]"/>
+  <match src="for: for [917,920]" dest="for: for [887,890]"/>
+  <match src="call_expression [190,218]" dest="call_expression [190,218]"/>
+  <match src="field_identifier: rectangles [585,595]" dest="field_identifier: rectangles [565,575]"/>
+  <match src="-&gt;: -&gt; [335,337]" dest="-&gt;: -&gt; [335,337]"/>
+  <match src="-&gt;: -&gt; [761,763]" dest="-&gt;: -&gt; [731,733]"/>
+  <match src="if_statement [152,183]" dest="if_statement [152,183]"/>
+  <match src="type_identifier: UINT32 [75,81]" dest="type_identifier: UINT32 [75,81]"/>
+  <match src="identifier: i [1031,1032]" dest="identifier: i [1001,1002]"/>
+  <match src="binary_expression [632,659]" dest="binary_expression [602,629]"/>
+  <match src="(: ( [40,41]" dest="(: ( [40,41]"/>
+  <match src="-: - [838,839]" dest="-: - [808,809]"/>
+  <match src="call_expression [970,1034]" dest="call_expression [940,1004]"/>
+  <match src="assignment_expression [699,733]" dest="assignment_expression [669,703]"/>
+  <match src="): ) [222,223]" dest="): ) [222,223]"/>
+  <match src="(: ( [215,216]" dest="(: ( [215,216]"/>
+  <match src="number_literal: 2 [533,534]" dest="number_literal: 2 [500,501]"/>
+  <match src="identifier: count [887,892]" dest="identifier: count [857,862]"/>
+  <match src="-&gt;: -&gt; [711,713]" dest="-&gt;: -&gt; [681,683]"/>
+  <match src="identifier: bitmapUpdate [699,711]" dest="identifier: bitmapUpdate [669,681]"/>
+  <match src="call_expression [239,282]" dest="call_expression [239,282]"/>
+  <match src="string_literal [354,371]" dest="string_literal [354,371]"/>
+  <match src="-&gt;: -&gt; [447,449]" dest="-&gt;: -&gt; [447,449]"/>
+  <match src="(: ( [815,816]" dest="(: ( [785,786]"/>
+  <match src="field_expression [840,859]" dest="field_expression [810,829]"/>
+  <match src="): ) [147,148]" dest="): ) [147,148]"/>
+  <match src=",: , [259,260]" dest=",: , [259,260]"/>
+  <match src="argument_list [993,1034]" dest="argument_list [963,1004]"/>
+  <match src="field_identifier: number [275,281]" dest="field_identifier: number [275,281]"/>
+  <match src="call_expression [1083,1132]" dest="call_expression [1053,1102]"/>
+  <match src=";: ; [694,695]" dest=";: ; [664,665]"/>
+  <match src="field_identifier: rectangles [763,773]" dest="field_identifier: rectangles [733,743]"/>
+  <match src="identifier: calloc [116,122]" dest="identifier: calloc [116,122]"/>
+  <match src="*: * [489,490]" dest="*: * [516,517]"/>
+  <match src="(: ( [921,922]" dest="(: ( [891,892]"/>
+  <match src="binary_expression [929,953]" dest="binary_expression [899,923]"/>
+  <match src="&quot;: &quot; [377,378]" dest="&quot;: &quot; [377,378]"/>
+  <match src="if: if [186,188]" dest="if: if [186,188]"/>
+  <match src="type_identifier: BITMAP_DATA [549,560]" dest="type_identifier: BITMAP_DATA [529,540]"/>
+  <match src="-&gt;: -&gt; [583,585]" dest="-&gt;: -&gt; [563,565]"/>
+  <match src="identifier: realloc [563,570]" dest="identifier: realloc [543,550]"/>
+  <match src="parenthesized_expression [638,651]" dest="parenthesized_expression [608,621]"/>
+  <match src=",: , [58,59]" dest=",: , [58,59]"/>
+  <match src="goto: goto [1039,1043]" dest="goto: goto [1009,1013]"/>
+  <match src="): ) [401,402]" dest="): ) [401,402]"/>
+  <match src="identifier: WLOG_TRACE [342,352]" dest="identifier: WLOG_TRACE [342,352]"/>
+  <match src="++: ++ [956,958]" dest="++: ++ [926,928]"/>
+  <match src="): ) [679,680]" dest="): ) [649,650]"/>
+  <match src="field_expression [435,454]" dest="field_expression [435,454]"/>
+  <match src="&gt;: &gt; [433,434]" dest="&gt;: &gt; [433,434]"/>
+  <match src="&quot;: &quot; [370,371]" dest="&quot;: &quot; [370,371]"/>
+  <match src="if_statement [965,1049]" dest="if_statement [935,1019]"/>
+  <match src="expression_statement [318,403]" dest="expression_statement [318,403]"/>
+  <match src="field_identifier: rectangles [1020,1030]" dest="field_identifier: rectangles [990,1000]"/>
+  <match src="-&gt;: -&gt; [1108,1110]" dest="-&gt;: -&gt; [1078,1080]"/>
+  <match src="expression_statement [737,862]" dest="expression_statement [707,832]"/>
+  <match src="declaration [86,149]" dest="declaration [86,149]"/>
+  <match src="identifier: update [329,335]" dest="identifier: update [329,335]"/>
+  <match src="identifier: BITMAP_UPDATE [133,146]" dest="identifier: BITMAP_UPDATE [133,146]"/>
+  <match src="(: ( [155,156]" dest="(: ( [155,156]"/>
+  <match src="identifier: i [82,83]" dest="identifier: i [82,83]"/>
+  <match src="(: ( [747,748]" dest="(: ( [717,718]"/>
+  <match src="identifier: update [994,1000]" dest="identifier: update [964,970]"/>
+  <match src="): ) [281,282]" dest="): ) [281,282]"/>
+  <match src="parenthesized_expression [189,223]" dest="parenthesized_expression [189,223]"/>
+  <match src="init_declarator [99,148]" dest="init_declarator [99,148]"/>
+  <match src="statement_identifier: fail [178,182]" dest="statement_identifier: fail [178,182]"/>
+  <match src="parameter_list [40,71]" dest="parameter_list [40,71]"/>
+  <match src="identifier: Stream_GetRemainingLength [190,215]" dest="identifier: Stream_GetRemainingLength [190,215]"/>
+  <match src=",: , [352,353]" dest=",: , [352,353]"/>
+  <match src="field_identifier: number [395,401]" dest="field_identifier: number [395,401]"/>
+  <match src=",: , [794,795]" dest=",: , [764,765]"/>
+  <match src="(: ( [670,671]" dest="(: ( [640,641]"/>
+  <match src="identifier: s [258,259]" dest="identifier: s [258,259]"/>
+  <match src="compound_statement [961,1052]" dest="compound_statement [931,1022]"/>
+  <match src=";: ; [927,928]" dest=";: ; [897,898]"/>
+  <match src="identifier: bitmapUpdate [435,447]" dest="identifier: bitmapUpdate [435,447]"/>
+  <match src="identifier: bitmapUpdate [1119,1131]" dest="identifier: bitmapUpdate [1089,1101]"/>
+  <match src="pointer_declarator [50,58]" dest="pointer_declarator [50,58]"/>
+  <match src="field_identifier: number [524,530]" dest="field_identifier: number [491,497]"/>
+  <match src="-&gt;: -&gt; [522,524]" dest="-&gt;: -&gt; [489,491]"/>
+  <match src="identifier: bitmapUpdate [865,877]" dest="identifier: bitmapUpdate [835,847]"/>
+  <match src="field_identifier: count [449,454]" dest="field_identifier: count [449,454]"/>
+  <match src="type_identifier: wStream [60,67]" dest="type_identifier: wStream [60,67]"/>
+  <match src="field_expression [412,432]" dest="field_expression [412,432]"/>
+  <match src="comment: /* rectangles */ [899,915]" dest="comment: /* rectangles */ [869,885]"/>
+  <match src="): ) [169,170]" dest="): ) [169,170]"/>
+  <match src="call_expression [563,660]" dest="call_expression [543,630]"/>
+  <match src=";: ; [402,403]" dest=";: ; [402,403]"/>
+  <match src="identifier: i [922,923]" dest="identifier: i [892,893]"/>
+  <match src="assignment_expression [922,927]" dest="assignment_expression [892,897]"/>
+  <match src="expression_statement [865,893]" dest="expression_statement [835,863]"/>
+  <match src="parenthesized_expression [815,828]" dest="parenthesized_expression [785,798]"/>
+  <match src="goto_statement [1039,1049]" dest="goto_statement [1009,1019]"/>
+  <match src="identifier: s [69,70]" dest="identifier: s [69,70]"/>
+  <match src="!: ! [671,672]" dest="!: ! [641,642]"/>
+  <match src="if: if [408,410]" dest="if: if [408,410]"/>
+  <match src="argument_list [122,148]" dest="argument_list [122,148]"/>
+  <match src="identifier: update_read_bitmap_data [970,993]" dest="identifier: update_read_bitmap_data [940,963]"/>
+  <match src="argument_list [1101,1132]" dest="argument_list [1071,1102]"/>
+  <match src="field_identifier: count [854,859]" dest="field_identifier: count [824,829]"/>
+  <match src="identifier: bitmapUpdate [933,945]" dest="identifier: bitmapUpdate [903,915]"/>
+  <match src="parameter_declaration [60,70]" dest="parameter_declaration [60,70]"/>
+  <match src="identifier: bitmapUpdate [510,522]" dest="identifier: bitmapUpdate [477,489]"/>
+  <match src="field_expression [933,953]" dest="field_expression [903,923]"/>
+  <match src="if_statement [408,896]" dest="if_statement [408,866]"/>
+  <match src="argument_list [257,282]" dest="argument_list [257,282]"/>
+  <match src="(: ( [328,329]" dest="(: ( [328,329]"/>
+  <match src="translation_unit [0,1149]" dest="translation_unit [0,1119]"/>
+  <match src="field_expression [381,401]" dest="field_expression [381,401]"/>
+  <match src="[: [ [1030,1031]" dest="[: [ [1000,1001]"/>
+  <match src=";: ; [861,862]" dest=";: ; [831,832]"/>
+  <match src="unary_expression [671,679]" dest="unary_expression [641,649]"/>
+  <match src="pointer_declarator [67,70]" dest="pointer_declarator [67,70]"/>
+  <match src="string_literal [377,379]" dest="string_literal [377,379]"/>
+  <match src="identifier: i [929,930]" dest="identifier: i [899,900]"/>
+  <match src="identifier: ZeroMemory [737,747]" dest="identifier: ZeroMemory [707,717]"/>
+  <match src="parenthesized_expression [968,1035]" dest="parenthesized_expression [938,1005]"/>
+  <match src="): ) [217,218]" dest="): ) [217,218]"/>
+  <match src="): ) [70,71]" dest="): ) [70,71]"/>
+  <match src="sizeof: sizeof [632,638]" dest="sizeof: sizeof [602,608]"/>
+  <match src="}: } [895,896]" dest="}: } [865,866]"/>
+  <match src="identifier: bitmapUpdate [840,852]" dest="identifier: bitmapUpdate [810,822]"/>
+  <match src="goto: goto [226,230]" dest="goto: goto [226,230]"/>
+  <match src="field_expression [749,773]" dest="field_expression [719,743]"/>
+  <match src="): ) [561,562]" dest="): ) [541,542]"/>
+  <match src="): ) [1131,1132]" dest="): ) [1101,1102]"/>
+  <match src="field_expression [699,723]" dest="field_expression [669,693]"/>
+  <match src="field_identifier: rectangles [713,723]" dest="field_identifier: rectangles [683,693]"/>
+  <match src="[: [ [773,774]" dest="[: [ [743,744]"/>
+  <match src="-&gt;: -&gt; [393,395]" dest="-&gt;: -&gt; [393,395]"/>
+  <match src="(: ( [968,969]" dest="(: ( [938,939]"/>
+  <match src="identifier: bitmapUpdate [412,424]" dest="identifier: bitmapUpdate [412,424]"/>
+  <match src="abstract_pointer_declarator [560,561]" dest="abstract_pointer_declarator [540,541]"/>
+  <match src="identifier: WLog_Print [318,328]" dest="identifier: WLog_Print [318,328]"/>
+  <match src="goto_statement [685,695]" dest="goto_statement [655,665]"/>
+  <match src="&lt;: &lt; [219,220]" dest="&lt;: &lt; [219,220]"/>
+  <match src="): ) [1033,1034]" dest="): ) [1003,1004]"/>
+  <match src="return_statement [1055,1075]" dest="return_statement [1025,1045]"/>
+  <match src="identifier: BITMAP_DATA [816,827]" dest="identifier: BITMAP_DATA [786,797]"/>
+  <match src="identifier: newdata [491,498]" dest="identifier: newdata [518,525]"/>
+  <match src="sizeof_expression [809,828]" dest="sizeof_expression [779,798]"/>
+  <match src="statement_identifier: fail [690,694]" dest="statement_identifier: fail [660,664]"/>
+  <match src="statement_identifier: fail [1044,1048]" dest="statement_identifier: fail [1014,1018]"/>
+  <match src="type_identifier: BITMAP_UPDATE [0,13]" dest="type_identifier: BITMAP_UPDATE [0,13]"/>
+  <match src="number_literal: 0 [926,927]" dest="number_literal: 0 [896,897]"/>
+  <match src="identifier: bitmapUpdate [749,761]" dest="identifier: bitmapUpdate [719,731]"/>
+  <match src="identifier: Stream_Read_UINT16 [239,257]" dest="identifier: Stream_Read_UINT16 [239,257]"/>
+  <match src=";: ; [1146,1147]" dest=";: ; [1116,1117]"/>
+  <match src="field_expression [571,595]" dest="field_expression [551,575]"/>
+  <match src="call_expression [737,861]" dest="call_expression [707,831]"/>
+  <match src="): ) [650,651]" dest="): ) [620,621]"/>
+  <match src="sizeof_expression [632,651]" dest="sizeof_expression [602,621]"/>
+  <match src="NULL: NULL [1142,1146]" dest="NULL: NULL [1112,1116]"/>
+  <match src="parenthesized_expression [670,680]" dest="parenthesized_expression [640,650]"/>
+  <match src="pointer_declarator [99,113]" dest="pointer_declarator [99,113]"/>
+  <match src="labeled_statement [1076,1133]" dest="labeled_statement [1046,1103]"/>
+  <match src="): ) [859,860]" dest="): ) [829,830]"/>
+  <match src="identifier: bitmapUpdate [261,273]" dest="identifier: bitmapUpdate [261,273]"/>
+  <match src=";: ; [83,84]" dest=";: ; [83,84]"/>
+  <match src="(: ( [638,639]" dest="(: ( [608,609]"/>
+  <match src="): ) [827,828]" dest="): ) [797,798]"/>
+  <match src="-&gt;: -&gt; [852,854]" dest="-&gt;: -&gt; [822,824]"/>
+  <match src="): ) [659,660]" dest="): ) [629,630]"/>
+  <match src="statement_identifier: fail [231,235]" dest="statement_identifier: fail [231,235]"/>
+  <match src="cast_expression [548,660]" dest="cast_expression [528,630]"/>
+  <match src="identifier: bitmapUpdate [381,393]" dest="identifier: bitmapUpdate [381,393]"/>
+  <match src="goto: goto [685,689]" dest="goto: goto [655,659]"/>
+  <match src="identifier: bitmapUpdate [157,169]" dest="identifier: bitmapUpdate [157,169]"/>
+  <match src="*: * [652,653]" dest="*: * [622,623]"/>
+  <match src="sizeof: sizeof [126,132]" dest="sizeof: sizeof [126,132]"/>
+  <match src="if: if [152,154]" dest="if: if [152,154]"/>
+  <match src="argument_list [328,402]" dest="argument_list [328,402]"/>
+  <match src="-&gt;: -&gt; [877,879]" dest="-&gt;: -&gt; [847,849]"/>
+  <match src=";: ; [235,236]" dest=";: ; [235,236]"/>
+  <match src="}: } [1148,1149]" dest="}: } [1118,1119]"/>
+  <match src="*: * [99,100]" dest="*: * [99,100]"/>
+  <match src="number_literal: 1 [123,124]" dest="number_literal: 1 [123,124]"/>
+  <match src="statement_identifier: fail [1076,1080]" dest="statement_identifier: fail [1046,1050]"/>
+  <match src=";: ; [1048,1049]" dest=";: ; [1018,1019]"/>
+  <match src="parenthesized_expression [831,860]" dest="parenthesized_expression [801,830]"/>
+  <match src="(: ( [257,258]" dest="(: ( [257,258]"/>
+  <match src="=: = [924,925]" dest="=: = [894,895]"/>
+  <match src="goto_statement [173,183]" dest="goto_statement [173,183]"/>
+  <match src="&quot;: &quot; [378,379]" dest="&quot;: &quot; [378,379]"/>
+  <match src="identifier: free_bitmap_update [1083,1101]" dest="identifier: free_bitmap_update [1053,1071]"/>
+  <match src="field_expression [261,281]" dest="field_expression [261,281]"/>
+</matches>
+<actions>
+  <insert-node tree="declaration [462,502]" parent="compound_statement [458,896]" at="1"/>
+  <insert-node tree="declaration [505,631]" parent="compound_statement [458,896]" at="2"/>
+  <insert-node tree="type_identifier: UINT32 [462,468]" parent="declaration [462,502]" at="0"/>
+  <insert-node tree="init_declarator [469,501]" parent="declaration [462,502]" at="1"/>
+  <insert-node tree=";: ; [501,502]" parent="declaration [462,502]" at="2"/>
+  <insert-node tree="type_identifier: BITMAP_DATA [505,516]" parent="declaration [505,631]" at="0"/>
+  <insert-node tree="init_declarator [516,630]" parent="declaration [505,631]" at="1"/>
+  <insert-node tree=";: ; [630,631]" parent="declaration [505,631]" at="2"/>
+  <insert-node tree="identifier: count [469,474]" parent="init_declarator [469,501]" at="0"/>
+  <insert-node tree="=: = [475,476]" parent="init_declarator [469,501]" at="1"/>
+  <move-tree tree="binary_expression [510,534]" parent="init_declarator [469,501]" at="2"/>
+  <move-tree tree="pointer_declarator [489,498]" parent="init_declarator [516,630]" at="0"/>
+  <insert-node tree="=: = [526,527]" parent="init_declarator [516,630]" at="1"/>
+  <move-tree tree="cast_expression [548,660]" parent="init_declarator [516,630]" at="2"/>
+  <delete-tree tree="declaration [462,475]"/>
+  <delete-node tree="type_identifier: BITMAP_DATA [478,489]"/>
+  <delete-node tree=";: ; [498,499]"/>
+  <delete-node tree="declaration [478,499]"/>
+  <delete-node tree="identifier: count [502,507]"/>
+  <delete-node tree="=: = [508,509]"/>
+  <delete-node tree="assignment_expression [502,534]"/>
+  <delete-node tree=";: ; [534,535]"/>
+  <delete-node tree="expression_statement [502,535]"/>
+  <delete-node tree="identifier: newdata [538,545]"/>
+  <delete-node tree="=: = [546,547]"/>
+  <delete-node tree="assignment_expression [538,660]"/>
+  <delete-node tree=";: ; [660,661]"/>
+  <delete-node tree="expression_statement [538,661]"/>
+</actions>

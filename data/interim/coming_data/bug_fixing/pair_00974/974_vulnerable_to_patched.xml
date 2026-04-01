@@ -1,0 +1,205 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src=",: , [42,43]" dest=",: , [42,43]"/>
+  <match src="identifier: int [116,119]" dest="identifier: int [116,119]"/>
+  <match src="(: ( [864,865]" dest="(: ( [912,913]"/>
+  <match src=";: ; [866,867]" dest=";: ; [914,915]"/>
+  <match src="argument_list [983,1039]" dest="argument_list [1031,1087]"/>
+  <match src="argument_list [891,954]" dest="argument_list [939,1002]"/>
+  <match src="-&gt;: -&gt; [705,707]" dest="-&gt;: -&gt; [753,755]"/>
+  <match src="field_identifier: efi_memdesc_version [790,809]" dest="field_identifier: efi_memdesc_version [838,857]"/>
+  <match src="field_identifier: efi_info [258,266]" dest="field_identifier: efi_info [258,266]"/>
+  <match src="identifier: params [250,256]" dest="identifier: params [250,256]"/>
+  <match src="(: ( [273,274]" dest="(: ( [273,274]"/>
+  <match src=";: ; [266,267]" dest=";: ; [266,267]"/>
+  <match src="field_identifier: efi_loader_signature [601,621]" dest="field_identifier: efi_loader_signature [649,669]"/>
+  <match src="identifier: unsigned [78,86]" dest="identifier: unsigned [78,86]"/>
+  <match src="identifier: efi_map_sz [943,953]" dest="identifier: efi_map_sz [991,1001]"/>
+  <match src="identifier: int [143,146]" dest="identifier: int [143,146]"/>
+  <match src="return: return [1042,1048]" dest="return: return [1090,1096]"/>
+  <match src="field_identifier: efi_loader_signature [636,656]" dest="field_identifier: efi_loader_signature [684,704]"/>
+  <match src="struct_specifier [16,34]" dest="struct_specifier [16,34]"/>
+  <match src="pointer_declarator [243,246]" dest="pointer_declarator [243,246]"/>
+  <match src="argument_list [864,866]" dest="argument_list [912,914]"/>
+  <match src="=: = [776,777]" dest="=: = [824,825]"/>
+  <match src="identifier: ei [660,662]" dest="identifier: ei [708,710]"/>
+  <match src="identifier: unsigned [107,115]" dest="identifier: unsigned [107,115]"/>
+  <match src="unary_expression [274,302]" dest="unary_expression [274,302]"/>
+  <match src="expression_statement [870,955]" dest="expression_statement [918,1003]"/>
+  <match src="type_descriptor [16,36]" dest="type_descriptor [16,36]"/>
+  <match src="assignment_expression [597,656]" dest="assignment_expression [645,704]"/>
+  <match src="return: return [306,312]" dest="return: return [306,312]"/>
+  <match src="): ) [865,866]" dest="): ) [913,914]"/>
+  <match src="=: = [675,676]" dest="=: = [723,724]"/>
+  <match src="struct: struct [227,233]" dest="struct: struct [227,233]"/>
+  <match src="field_expression [250,266]" dest="field_expression [250,266]"/>
+  <match src="return_statement [306,315]" dest="return_statement [306,315]"/>
+  <match src="assignment_expression [752,809]" dest="assignment_expression [800,857]"/>
+  <match src="(: ( [15,16]" dest="(: ( [15,16]"/>
+  <match src="identifier: efi_info [180,188]" dest="identifier: efi_info [180,188]"/>
+  <match src=";: ; [591,592]" dest=";: ; [591,592]"/>
+  <match src=".: . [215,216]" dest=".: . [215,216]"/>
+  <match src="*: * [35,36]" dest="*: * [35,36]"/>
+  <match src=",: , [74,75]" dest=",: , [74,75]"/>
+  <match src="expression_statement [812,867]" dest="expression_statement [860,915]"/>
+  <match src=";: ; [809,810]" dest=";: ; [857,858]"/>
+  <match src="identifier: ei [703,705]" dest="identifier: ei [751,753]"/>
+  <match src="identifier: long [53,57]" dest="identifier: long [53,57]"/>
+  <match src="ERROR [78,90]" dest="ERROR [78,90]"/>
+  <match src="struct_specifier [227,242]" dest="struct_specifier [227,242]"/>
+  <match src=";: ; [314,315]" dest=";: ; [314,315]"/>
+  <match src="init_declarator [243,266]" dest="init_declarator [243,266]"/>
+  <match src="field_identifier: efi_info [216,224]" dest="field_identifier: efi_info [216,224]"/>
+  <match src="field_expression [660,674]" dest="field_expression [708,722]"/>
+  <match src="}: } [1052,1053]" dest="}: } [1100,1101]"/>
+  <match src=";: ; [699,700]" dest=";: ; [747,748]"/>
+  <match src="=: = [247,248]" dest="=: = [247,248]"/>
+  <match src="identifier: current_ei [190,200]" dest="identifier: current_ei [190,200]"/>
+  <match src="identifier: prepare_add_efi_setup_data [957,983]" dest="identifier: prepare_add_efi_setup_data [1005,1031]"/>
+  <match src="field_identifier: efi_systab_hi [707,720]" dest="field_identifier: efi_systab_hi [755,768]"/>
+  <match src="assignment_expression [660,699]" dest="assignment_expression [708,747]"/>
+  <match src="): ) [953,954]" dest="): ) [1001,1002]"/>
+  <match src="-&gt;: -&gt; [599,601]" dest="-&gt;: -&gt; [647,649]"/>
+  <match src="ERROR [44,57]" dest="ERROR [44,57]"/>
+  <match src="identifier: params [892,898]" dest="identifier: params [940,946]"/>
+  <match src="if_statement [270,315]" dest="if_statement [270,315]"/>
+  <match src="&amp;: &amp; [249,250]" dest="&amp;: &amp; [249,250]"/>
+  <match src="(: ( [550,551]" dest="(: ( [550,551]"/>
+  <match src="=: = [833,834]" dest="=: = [881,882]"/>
+  <match src="expression_statement [660,700]" dest="expression_statement [708,748]"/>
+  <match src="): ) [168,169]" dest="): ) [168,169]"/>
+  <match src="-&gt;: -&gt; [788,790]" dest="-&gt;: -&gt; [836,838]"/>
+  <match src=";: ; [748,749]" dest=";: ; [796,797]"/>
+  <match src="if: if [270,272]" dest="if: if [270,272]"/>
+  <match src="macro_type_specifier [0,36]" dest="macro_type_specifier [0,36]"/>
+  <match src="identifier: EFI_OLD_MEMMAP [563,577]" dest="identifier: EFI_OLD_MEMMAP [563,577]"/>
+  <match src="*: * [243,244]" dest="*: * [243,244]"/>
+  <match src="type_identifier: boot_params [23,34]" dest="type_identifier: boot_params [23,34]"/>
+  <match src="declaration [0,225]" dest="declaration [0,225]"/>
+  <match src=",: , [932,933]" dest=",: , [980,981]"/>
+  <match src="if_statement [547,592]" dest="if_statement [547,592]"/>
+  <match src="field_identifier: efi_memdesc_version [756,775]" dest="field_identifier: efi_memdesc_version [804,823]"/>
+  <match src="identifier: boot_params [204,215]" dest="identifier: boot_params [204,215]"/>
+  <match src="-&gt;: -&gt; [662,664]" dest="-&gt;: -&gt; [710,712]"/>
+  <match src="-&gt;: -&gt; [754,756]" dest="-&gt;: -&gt; [802,804]"/>
+  <match src="abstract_pointer_declarator [35,36]" dest="abstract_pointer_declarator [35,36]"/>
+  <match src=";: ; [656,657]" dest=";: ; [704,705]"/>
+  <match src="identifier: ei [597,599]" dest="identifier: ei [645,647]"/>
+  <match src="return_statement [1042,1051]" dest="return_statement [1090,1099]"/>
+  <match src="field_expression [624,656]" dest="field_expression [672,704]"/>
+  <match src="field_identifier: efi_memdesc_size [816,832]" dest="field_identifier: efi_memdesc_size [864,880]"/>
+  <match src="(: ( [983,984]" dest="(: ( [1031,1032]"/>
+  <match src="declaration [227,267]" dest="declaration [227,267]"/>
+  <match src="type_identifier: efi_info [234,242]" dest="type_identifier: efi_info [234,242]"/>
+  <match src="call_expression [835,866]" dest="call_expression [883,914]"/>
+  <match src="*: * [189,190]" dest="*: * [189,190]"/>
+  <match src=";: ; [1050,1051]" dest=";: ; [1098,1099]"/>
+  <match src="): ) [302,303]" dest="): ) [302,303]"/>
+  <match src="identifier: unsigned [44,52]" dest="identifier: unsigned [44,52]"/>
+  <match src="identifier: ei [244,246]" dest="identifier: ei [244,246]"/>
+  <match src="identifier: current_ei [275,285]" dest="identifier: current_ei [275,285]"/>
+  <match src="identifier: setup_efi_info_memmap [870,891]" dest="identifier: setup_efi_info_memmap [918,939]"/>
+  <match src=",: , [130,131]" dest=",: , [130,131]"/>
+  <match src="expression_statement [752,810]" dest="expression_statement [800,858]"/>
+  <match src="identifier: efi_enabled [551,562]" dest="identifier: efi_enabled [551,562]"/>
+  <match src="ERROR [134,188]" dest="ERROR [134,188]"/>
+  <match src="-&gt;: -&gt; [256,258]" dest="-&gt;: -&gt; [256,258]"/>
+  <match src="(: ( [562,563]" dest="(: ( [562,563]"/>
+  <match src="!: ! [274,275]" dest="!: ! [274,275]"/>
+  <match src="call_expression [957,1039]" dest="call_expression [1005,1087]"/>
+  <match src=",: , [916,917]" dest=",: , [964,965]"/>
+  <match src="translation_unit [0,1053]" dest="translation_unit [0,1101]"/>
+  <match src="identifier: ei [812,814]" dest="identifier: ei [860,862]"/>
+  <match src="field_expression [703,720]" dest="field_expression [751,768]"/>
+  <match src="field_identifier: efi_memmap_size [287,302]" dest="field_identifier: efi_memmap_size [287,302]"/>
+  <match src="number_literal: 0 [1049,1050]" dest="number_literal: 0 [1097,1098]"/>
+  <match src="=: = [201,202]" dest="=: = [201,202]"/>
+  <match src="field_identifier: efi_systab [689,699]" dest="field_identifier: efi_systab [737,747]"/>
+  <match src="field_expression [752,775]" dest="field_expression [800,823]"/>
+  <match src="field_expression [723,748]" dest="field_expression [771,796]"/>
+  <match src="identifier: current_ei [723,733]" dest="identifier: current_ei [771,781]"/>
+  <match src="identifier: params_load_addr [992,1008]" dest="identifier: params_load_addr [1040,1056]"/>
+  <match src="identifier: unsigned [134,142]" dest="identifier: unsigned [134,142]"/>
+  <match src="number_literal: 0 [590,591]" dest="number_literal: 0 [590,591]"/>
+  <match src="field_expression [677,699]" dest="field_expression [725,747]"/>
+  <match src="): ) [578,579]" dest="): ) [578,579]"/>
+  <match src="-&gt;: -&gt; [814,816]" dest="-&gt;: -&gt; [862,864]"/>
+  <match src="identifier: current_ei [778,788]" dest="identifier: current_ei [826,836]"/>
+  <match src=") [36,36]" dest=") [36,36]"/>
+  <match src="identifier: int [87,90]" dest="identifier: int [87,90]"/>
+  <match src="&amp;: &amp; [203,204]" dest="&amp;: &amp; [203,204]"/>
+  <match src="if: if [547,549]" dest="if: if [547,549]"/>
+  <match src="identifier: params [36,42]" dest="identifier: params [36,42]"/>
+  <match src="identifier: efi_setup_data_offset [147,168]" dest="identifier: efi_setup_data_offset [147,168]"/>
+  <match src="return: return [583,589]" dest="return: return [583,589]"/>
+  <match src="expression_statement [597,657]" dest="expression_statement [645,705]"/>
+  <match src="identifier: params [984,990]" dest="identifier: params [1032,1038]"/>
+  <match src="expression_statement [703,749]" dest="expression_statement [751,797]"/>
+  <match src="pointer_expression [203,224]" dest="pointer_expression [203,224]"/>
+  <match src="parenthesized_expression [273,303]" dest="parenthesized_expression [273,303]"/>
+  <match src=",: , [990,991]" dest=",: , [1038,1039]"/>
+  <match src=",: , [898,899]" dest=",: , [946,947]"/>
+  <match src="ERROR [1052,1053]" dest="ERROR [1100,1101]"/>
+  <match src="init_declarator [189,224]" dest="init_declarator [189,224]"/>
+  <match src="): ) [1038,1039]" dest="): ) [1086,1087]"/>
+  <match src="call_expression [870,954]" dest="call_expression [918,1002]"/>
+  <match src="identifier: setup_efi_state [0,15]" dest="identifier: setup_efi_state [0,15]"/>
+  <match src="=: = [622,623]" dest="=: = [670,671]"/>
+  <match src="identifier: params_load_addr [58,74]" dest="identifier: params_load_addr [58,74]"/>
+  <match src="identifier: current_ei [677,687]" dest="identifier: current_ei [725,735]"/>
+  <match src="argument_list [562,578]" dest="argument_list [562,578]"/>
+  <match src="identifier: efi_setup_data_offset [1017,1038]" dest="identifier: efi_setup_data_offset [1065,1086]"/>
+  <match src="field_expression [778,809]" dest="field_expression [826,857]"/>
+  <match src="(: ( [891,892]" dest="(: ( [939,940]"/>
+  <match src="struct: struct [173,179]" dest="struct: struct [173,179]"/>
+  <match src="identifier: efi_map_offset [918,932]" dest="identifier: efi_map_offset [966,980]"/>
+  <match src="field_expression [275,302]" dest="field_expression [275,302]"/>
+  <match src="assignment_expression [703,748]" dest="assignment_expression [751,796]"/>
+  <match src=";: ; [1039,1040]" dest=";: ; [1087,1088]"/>
+  <match src="field_expression [204,224]" dest="field_expression [204,224]"/>
+  <match src=",: , [105,106]" dest=",: , [105,106]"/>
+  <match src="identifier: efi_map_sz [120,130]" dest="identifier: efi_map_sz [120,130]"/>
+  <match src="number_literal: 0 [313,314]" dest="number_literal: 0 [313,314]"/>
+  <match src="identifier: params_load_addr [900,916]" dest="identifier: params_load_addr [948,964]"/>
+  <match src="ERROR [107,119]" dest="ERROR [107,119]"/>
+  <match src="identifier: ei [752,754]" dest="identifier: ei [800,802]"/>
+  <match src="assignment_expression [812,866]" dest="assignment_expression [860,914]"/>
+  <match src=";: ; [224,225]" dest=";: ; [224,225]"/>
+  <match src="field_expression [597,621]" dest="field_expression [645,669]"/>
+  <match src="call_expression [551,578]" dest="call_expression [551,578]"/>
+  <match src="field_identifier: efi_systab [664,674]" dest="field_identifier: efi_systab [712,722]"/>
+  <match src="return_statement [583,592]" dest="return_statement [583,592]"/>
+  <match src="-&gt;: -&gt; [285,287]" dest="-&gt;: -&gt; [285,287]"/>
+  <match src="comment: 	
+	 * If 1:1 mapping is not enabled, second kernel can not setup EFI
+	 * and use EFI run time services. User space will have to pass
+	 * acpi_rsdp=&lt;addr&gt; on kernel command line to make second kernel boot
+	 * without efi.
+	 */ [318,544]" dest="comment: 	
+	 * If 1:1 mapping is not enabled, second kernel can not setup EFI
+	 * and use EFI run time services. User space will have to pass
+	 * acpi_rsdp=&lt;addr&gt; on kernel command line to make second kernel boot
+	 * without efi.
+	 */ [318,544]"/>
+  <match src="pointer_declarator [189,200]" dest="pointer_declarator [189,200]"/>
+  <match src="identifier: efi_map_offset [91,105]" dest="identifier: efi_map_offset [91,105]"/>
+  <match src="-&gt;: -&gt; [733,735]" dest="-&gt;: -&gt; [781,783]"/>
+  <match src="struct: struct [16,22]" dest="struct: struct [16,22]"/>
+  <match src="pointer_expression [249,266]" dest="pointer_expression [249,266]"/>
+  <match src="expression_statement [957,1040]" dest="expression_statement [1005,1088]"/>
+  <match src=";: ; [954,955]" dest=";: ; [1002,1003]"/>
+  <match src="=: = [721,722]" dest="=: = [769,770]"/>
+  <match src="parenthesized_expression [550,579]" dest="parenthesized_expression [550,579]"/>
+  <match src="{: { [170,171]" dest="{: { [170,171]"/>
+  <match src="field_expression [812,832]" dest="field_expression [860,880]"/>
+  <match src="identifier: current_ei [624,634]" dest="identifier: current_ei [672,682]"/>
+  <match src="-&gt;: -&gt; [634,636]" dest="-&gt;: -&gt; [682,684]"/>
+  <match src="field_identifier: efi_systab_hi [735,748]" dest="field_identifier: efi_systab_hi [783,796]"/>
+  <match src="identifier: efi_get_runtime_map_desc_size [835,864]" dest="identifier: efi_get_runtime_map_desc_size [883,912]"/>
+  <match src="-&gt;: -&gt; [687,689]" dest="-&gt;: -&gt; [735,737]"/>
+  <match src="): ) [577,578]" dest="): ) [577,578]"/>
+  <match src=",: , [1008,1009]" dest=",: , [1056,1057]"/>
+</matches>
+<actions>
+  <insert-tree tree="expression_statement [596,642]" parent="translation_unit [0,1053]" at="5"/>
+</actions>

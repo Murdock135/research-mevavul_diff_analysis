@@ -1,0 +1,538 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="field_expression [403,410]" dest="field_expression [444,451]"/>
+  <match src="-&gt;: -&gt; [404,406]" dest="-&gt;: -&gt; [445,447]"/>
+  <match src="field_identifier: thread_keyring [985,999]" dest="field_identifier: thread_keyring [1026,1040]"/>
+  <match src="identifier: new [654,657]" dest="identifier: new [695,698]"/>
+  <match src="field_expression [1477,1500]" dest="field_expression [1518,1541]"/>
+  <match src="compound_statement [968,1108]" dest="compound_statement [1009,1149]"/>
+  <match src="(: ( [979,980]" dest="(: ( [1020,1021]"/>
+  <match src="expression_statement [1304,1350]" dest="expression_statement [1345,1391]"/>
+  <match src="&amp;: &amp; [1647,1648]" dest="&amp;: &amp; [1688,1689]"/>
+  <match src="identifier: prepare_creds [548,561]" dest="identifier: prepare_creds [589,602]"/>
+  <match src="unary_expression [191,215]" dest="unary_expression [232,256]"/>
+  <match src=",: , [392,393]" dest=",: , [433,434]"/>
+  <match src="pointer_declarator [34,36]" dest="pointer_declarator [34,36]"/>
+  <match src="preproc_ifdef [838,1633]" dest="preproc_ifdef [879,1674]"/>
+  <match src="call_expression [451,481]" dest="call_expression [492,522]"/>
+  <match src="field_expression [1648,1657]" dest="field_expression [1689,1698]"/>
+  <match src="pointer_declarator [112,119]" dest="pointer_declarator [112,119]"/>
+  <match src="expression_statement [1511,1575]" dest="expression_statement [1552,1616]"/>
+  <match src="(: ( [14,15]" dest="(: ( [14,15]"/>
+  <match src=";: ; [1804,1805]" dest=";: ; [1845,1846]"/>
+  <match src="declaration [150,158]" dest="declaration [150,158]"/>
+  <match src="assignment_expression [1004,1030]" dest="assignment_expression [1045,1071]"/>
+  <match src="argument_list [1421,1440]" dest="argument_list [1462,1481]"/>
+  <match src="-&gt;: -&gt; [432,434]" dest="-&gt;: -&gt; [473,475]"/>
+  <match src="(: ( [1320,1321]" dest="(: ( [1361,1362]"/>
+  <match src="=: = [546,547]" dest="=: = [587,588]"/>
+  <match src="compound_statement [629,696]" dest="compound_statement [670,737]"/>
+  <match src="identifier: tgcred [113,119]" dest="identifier: tgcred [113,119]"/>
+  <match src=";: ; [482,483]" dest=";: ; [523,524]"/>
+  <match src="return: return [1807,1813]" dest="return: return [1848,1854]"/>
+  <match src="identifier: alter_cred_subscribers [323,345]" dest="identifier: alter_cred_subscribers [364,386]"/>
+  <match src="field_expression [1672,1679]" dest="field_expression [1713,1720]"/>
+  <match src="identifier: p [346,347]" dest="identifier: p [387,388]"/>
+  <match src="call_expression [302,319]" dest="call_expression [343,360]"/>
+  <match src="expression_statement [1444,1474]" dest="expression_statement [1485,1515]"/>
+  <match src="call_expression [1537,1574]" dest="call_expression [1578,1615]"/>
+  <match src=";: ; [1104,1105]" dest=";: ; [1145,1146]"/>
+  <match src="call_expression [548,563]" dest="call_expression [589,604]"/>
+  <match src="expression_statement [1636,1670]" dest="expression_statement [1677,1711]"/>
+  <match src="&amp;: &amp; [612,613]" dest="&amp;: &amp; [653,654]"/>
+  <match src="field_identifier: usage [434,439]" dest="field_identifier: usage [475,480]"/>
+  <match src="(: ( [345,346]" dest="(: ( [386,387]"/>
+  <match src="parenthesized_expression [1268,1299]" dest="parenthesized_expression [1309,1340]"/>
+  <match src="function_definition [0,1820]" dest="function_definition [0,1861]"/>
+  <match src=";: ; [1473,1474]" dest=";: ; [1514,1515]"/>
+  <match src=";: ; [119,120]" dest=";: ; [119,120]"/>
+  <match src="identifier: p [311,312]" dest="identifier: p [352,353]"/>
+  <match src=",: , [1436,1437]" dest=",: , [1477,1478]"/>
+  <match src="pointer_expression [1647,1668]" dest="pointer_expression [1688,1709]"/>
+  <match src="(: ( [1593,1594]" dest="(: ( [1634,1635]"/>
+  <match src=";: ; [1403,1404]" dest=";: ; [1444,1445]"/>
+  <match src="identifier: new [1648,1651]" dest="identifier: new [1689,1692]"/>
+  <match src="expression_statement [542,564]" dest="expression_statement [583,605]"/>
+  <match src="string_content: share_creds(%p{%d,%d}) [369,391]" dest="string_content: share_creds(%p{%d,%d}) [410,432]"/>
+  <match src="expression_statement [302,320]" dest="expression_statement [343,361]"/>
+  <match src="if: if [566,568]" dest="if: if [607,609]"/>
+  <match src="-&gt;: -&gt; [474,476]" dest="-&gt;: -&gt; [515,517]"/>
+  <match src="(: ( [472,473]" dest="(: ( [513,514]"/>
+  <match src="pointer_expression [497,522]" dest="pointer_expression [538,563]"/>
+  <match src="identifier: CLONE_THREAD [1285,1297]" dest="identifier: CLONE_THREAD [1326,1338]"/>
+  <match src="compound_statement [1366,1408]" dest="compound_statement [1407,1449]"/>
+  <match src="goto: goto [678,682]" dest="goto: goto [719,723]"/>
+  <match src="): ) [1472,1473]" dest="): ) [1513,1514]"/>
+  <match src="pointer_expression [424,439]" dest="pointer_expression [465,480]"/>
+  <match src=";: ; [592,593]" dest=";: ; [633,634]"/>
+  <match src="identifier: tgcred [1511,1517]" dest="identifier: tgcred [1552,1558]"/>
+  <match src="identifier: clone_flags [600,611]" dest="identifier: clone_flags [641,652]"/>
+  <match src=";: ; [1349,1350]" dest=";: ; [1390,1391]"/>
+  <match src="identifier: ret [1814,1817]" dest="identifier: ret [1855,1858]"/>
+  <match src="expression_statement [1477,1508]" dest="expression_statement [1518,1549]"/>
+  <match src="unary_expression [1377,1384]" dest="unary_expression [1418,1425]"/>
+  <match src="field_identifier: processes [1659,1668]" dest="field_identifier: processes [1700,1709]"/>
+  <match src="): ) [1103,1104]" dest="): ) [1144,1145]"/>
+  <match src="statement_identifier: error_put [683,692]" dest="statement_identifier: error_put [724,733]"/>
+  <match src="): ) [63,64]" dest="): ) [63,64]"/>
+  <match src="=: = [1311,1312]" dest="=: = [1352,1353]"/>
+  <match src="}: } [695,696]" dest="}: } [736,737]"/>
+  <match src="): ) [1335,1336]" dest="): ) [1376,1377]"/>
+  <match src="): ) [1348,1349]" dest="): ) [1389,1390]"/>
+  <match src="pointer_declarator [142,146]" dest="pointer_declarator [142,146]"/>
+  <match src="assignment_expression [1477,1507]" dest="assignment_expression [1518,1548]"/>
+  <match src="field_expression [498,505]" dest="field_expression [539,546]"/>
+  <match src="field_identifier: user_ns [828,835]" dest="field_identifier: user_ns [869,876]"/>
+  <match src="): ) [1597,1598]" dest="): ) [1638,1639]"/>
+  <match src="field_identifier: session_keyring [1558,1573]" dest="field_identifier: session_keyring [1599,1614]"/>
+  <match src="argument_list [1646,1669]" dest="argument_list [1687,1710]"/>
+  <match src="): ) [439,440]" dest="): ) [480,481]"/>
+  <match src="identifier: new [542,545]" dest="identifier: new [583,586]"/>
+  <match src="(: ( [1544,1545]" dest="(: ( [1585,1586]"/>
+  <match src="identifier: new [980,983]" dest="identifier: new [1021,1024]"/>
+  <match src="-&gt;: -&gt; [1548,1550]" dest="-&gt;: -&gt; [1589,1591]"/>
+  <match src="ERROR [538,539]" dest="ERROR [579,580]"/>
+  <match src="preproc_directive: #endif [219,225]" dest="preproc_directive: #endif [260,266]"/>
+  <match src="(: ( [496,497]" dest="(: ( [537,538]"/>
+  <match src="return: return [578,584]" dest="return: return [619,625]"/>
+  <match src="-&gt;: -&gt; [291,293]" dest="-&gt;: -&gt; [332,334]"/>
+  <match src="goto_statement [1389,1404]" dest="goto_statement [1430,1445]"/>
+  <match src="identifier: new [1761,1764]" dest="identifier: new [1802,1805]"/>
+  <match src="NULL: NULL [1026,1030]" dest="NULL: NULL [1067,1071]"/>
+  <match src="): ) [260,261]" dest="): ) [301,302]"/>
+  <match src="NULL: NULL [1503,1507]" dest="NULL: NULL [1544,1548]"/>
+  <match src="{: { [262,263]" dest="{: { [303,304]"/>
+  <match src="field_expression [947,966]" dest="field_expression [988,1007]"/>
+  <match src="if_statement [662,693]" dest="if_statement [703,734]"/>
+  <match src=",: , [36,37]" dest=",: , [36,37]"/>
+  <match src="assignment_expression [633,658]" dest="assignment_expression [674,699]"/>
+  <match src="): ) [318,319]" dest="): ) [359,360]"/>
+  <match src="(: ( [1735,1736]" dest="(: ( [1776,1777]"/>
+  <match src="expression_statement [1672,1711]" dest="expression_statement [1713,1752]"/>
+  <match src="ERROR [260,267]" dest="ERROR [301,308]"/>
+  <match src="-&gt;: -&gt; [1517,1519]" dest="-&gt;: -&gt; [1558,1560]"/>
+  <match src="identifier: ret [1371,1374]" dest="identifier: ret [1412,1415]"/>
+  <match src="{: { [65,66]" dest="{: { [65,66]"/>
+  <match src="-&gt;: -&gt; [347,349]" dest="-&gt;: -&gt; [388,390]"/>
+  <match src=",: , [410,411]" dest=",: , [451,452]"/>
+  <match src="argument_list [979,1000]" dest="argument_list [1020,1041]"/>
+  <match src="identifier: p [290,291]" dest="identifier: p [331,332]"/>
+  <match src="-&gt;: -&gt; [820,822]" dest="-&gt;: -&gt; [861,863]"/>
+  <match src="identifier: kdebug [361,367]" dest="identifier: kdebug [402,408]"/>
+  <match src="type_identifier: thread_group_cred [94,111]" dest="type_identifier: thread_group_cred [94,111]"/>
+  <match src="): ) [1439,1440]" dest="): ) [1480,1481]"/>
+  <match src="parenthesized_expression [1270,1298]" dest="parenthesized_expression [1311,1339]"/>
+  <match src="-&gt;: -&gt; [267,269]" dest="-&gt;: -&gt; [308,310]"/>
+  <match src="expression_statement [1791,1805]" dest="expression_statement [1832,1846]"/>
+  <match src="if_statement [1034,1105]" dest="if_statement [1075,1146]"/>
+  <match src="number_literal: 0 [534,535]" dest="number_literal: 0 [575,576]"/>
+  <match src=",: , [440,441]" dest=",: , [481,482]"/>
+  <match src="expression_statement [361,483]" dest="expression_statement [402,524]"/>
+  <match src="parenthesized_expression [599,628]" dest="parenthesized_expression [640,669]"/>
+  <match src="field_identifier: usage [1431,1436]" dest="field_identifier: usage [1472,1477]"/>
+  <match src="field_identifier: processes [513,522]" dest="field_identifier: processes [554,563]"/>
+  <match src="): ) [1298,1299]" dest="): ) [1339,1340]"/>
+  <match src="-&gt;: -&gt; [1466,1468]" dest="-&gt;: -&gt; [1507,1509]"/>
+  <match src="#endif: #endif [121,127]" dest="#endif: #endif [121,127]"/>
+  <match src="parenthesized_expression [1327,1336]" dest="parenthesized_expression [1368,1377]"/>
+  <match src="call_expression [1791,1804]" dest="call_expression [1832,1845]"/>
+  <match src="identifier: validate_creds [1746,1760]" dest="identifier: validate_creds [1787,1801]"/>
+  <match src="binary_expression [600,627]" dest="binary_expression [641,668]"/>
+  <match src="=: = [1695,1696]" dest="=: = [1736,1737]"/>
+  <match src="null [1503,1507]" dest="null [1544,1548]"/>
+  <match src="-&gt;: -&gt; [505,507]" dest="-&gt;: -&gt; [546,548]"/>
+  <match src="expression_statement [323,358]" dest="expression_statement [364,399]"/>
+  <match src="field_identifier: cred [476,480]" dest="field_identifier: cred [517,521]"/>
+  <match src="if_statement [943,1108]" dest="if_statement [984,1149]"/>
+  <match src=";: ; [1622,1623]" dest=";: ; [1663,1664]"/>
+  <match src="=: = [1680,1681]" dest="=: = [1721,1722]"/>
+  <match src="}: } [1107,1108]" dest="}: } [1148,1149]"/>
+  <match src="field_identifier: session_keyring [1519,1534]" dest="field_identifier: session_keyring [1560,1575]"/>
+  <match src="if: if [596,598]" dest="if: if [637,639]"/>
+  <match src="identifier: atomic_set [1411,1421]" dest="identifier: atomic_set [1452,1462]"/>
+  <match src="if: if [662,664]" dest="if: if [703,705]"/>
+  <match src="identifier: new [1800,1803]" dest="identifier: new [1841,1844]"/>
+  <match src="unary_expression [1357,1364]" dest="unary_expression [1398,1405]"/>
+  <match src="return_statement [1768,1777]" dest="return_statement [1809,1818]"/>
+  <match src="primitive_type: int [0,3]" dest="primitive_type: int [0,3]"/>
+  <match src="field_identifier: process_keyring [1485,1500]" dest="field_identifier: process_keyring [1526,1541]"/>
+  <match src="identifier: create_user_ns [639,653]" dest="identifier: create_user_ns [680,694]"/>
+  <match src="!: ! [1269,1270]" dest="!: ! [1310,1311]"/>
+  <match src="field_expression [1682,1694]" dest="field_expression [1723,1735]"/>
+  <match src="identifier: p [498,499]" dest="identifier: p [539,540]"/>
+  <match src="goto_statement [678,693]" dest="goto_statement [719,734]"/>
+  <match src="identifier: release_tgcred [1579,1593]" dest="identifier: release_tgcred [1620,1634]"/>
+  <match src="field_identifier: thread_keyring [201,215]" dest="field_identifier: thread_keyring [242,256]"/>
+  <match src="): ) [574,575]" dest="): ) [615,616]"/>
+  <match src="identifier: clone_flags [1038,1049]" dest="identifier: clone_flags [1079,1090]"/>
+  <match src="identifier: new [1602,1605]" dest="identifier: new [1643,1646]"/>
+  <match src="): ) [673,674]" dest="): ) [714,715]"/>
+  <match src="argument_list [1799,1804]" dest="argument_list [1840,1845]"/>
+  <match src="call_expression [412,440]" dest="call_expression [453,481]"/>
+  <match src="identifier: tgcred [1423,1429]" dest="identifier: tgcred [1464,1470]"/>
+  <match src="call_expression [1444,1473]" dest="call_expression [1485,1514]"/>
+  <match src="struct: struct [130,136]" dest="struct: struct [130,136]"/>
+  <match src="&amp;: &amp; [1459,1460]" dest="&amp;: &amp; [1500,1501]"/>
+  <match src="identifier: new [1004,1007]" dest="identifier: new [1045,1048]"/>
+  <match src="call_expression [1713,1743]" dest="call_expression [1754,1784]"/>
+  <match src="(: ( [1799,1800]" dest="(: ( [1840,1841]"/>
+  <match src="&amp;: &amp; [497,498]" dest="&amp;: &amp; [538,539]"/>
+  <match src="=: = [1535,1536]" dest="=: = [1576,1577]"/>
+  <match src="expression_statement [191,299]" dest="expression_statement [232,340]"/>
+  <match src="&amp;: &amp; [424,425]" dest="&amp;: &amp; [465,466]"/>
+  <match src=";: ; [835,836]" dest=";: ; [876,877]"/>
+  <match src="field_expression [1545,1573]" dest="field_expression [1586,1614]"/>
+  <match src="(: ( [1356,1357]" dest="(: ( [1397,1398]"/>
+  <match src="-&gt;: -&gt; [826,828]" dest="-&gt;: -&gt; [867,869]"/>
+  <match src="#ifdef: #ifdef [67,73]" dest="#ifdef: #ifdef [67,73]"/>
+  <match src="identifier: new [817,820]" dest="identifier: new [858,861]"/>
+  <match src="expression_statement [1004,1031]" dest="expression_statement [1045,1072]"/>
+  <match src="unary_expression [585,592]" dest="unary_expression [626,633]"/>
+  <match src="(: ( [1458,1459]" dest="(: ( [1499,1500]"/>
+  <match src="call_expression [1697,1710]" dest="call_expression [1738,1751]"/>
+  <match src="field_identifier: thread_keyring [952,966]" dest="field_identifier: thread_keyring [993,1007]"/>
+  <match src="expression_statement [633,659]" dest="expression_statement [674,700]"/>
+  <match src="identifier: kmalloc [1313,1320]" dest="identifier: kmalloc [1354,1361]"/>
+  <match src="field_expression [1545,1556]" dest="field_expression [1586,1597]"/>
+  <match src="number_literal: 2 [1741,1742]" dest="number_literal: 2 [1782,1783]"/>
+  <match src="statement_identifier: error_put [1394,1403]" dest="statement_identifier: error_put [1435,1444]"/>
+  <match src="): ) [1803,1804]" dest="): ) [1844,1845]"/>
+  <match src="=: = [279,280]" dest="=: = [320,321]"/>
+  <match src="}: } [1625,1626]" dest="}: } [1666,1667]"/>
+  <match src="=: = [637,638]" dest="=: = [678,679]"/>
+  <match src="call_expression [281,298]" dest="call_expression [322,339]"/>
+  <match src="expression_statement [972,1001]" dest="expression_statement [1013,1042]"/>
+  <match src="identifier: clone_flags [1271,1282]" dest="identifier: clone_flags [1312,1323]"/>
+  <match src="identifier: alter_cred_subscribers [1713,1735]" dest="identifier: alter_cred_subscribers [1754,1776]"/>
+  <match src="number_literal: 0 [672,673]" dest="number_literal: 0 [713,714]"/>
+  <match src="call_expression [1636,1669]" dest="call_expression [1677,1710]"/>
+  <match src="identifier: get_cred [281,289]" dest="identifier: get_cred [322,330]"/>
+  <match src="preproc_ifdef [67,127]" dest="preproc_ifdef [67,127]"/>
+  <match src="goto: goto [1389,1393]" dest="goto: goto [1430,1434]"/>
+  <match src="struct_specifier [130,141]" dest="struct_specifier [130,141]"/>
+  <match src="function_declarator [4,64]" dest="function_declarator [4,64]"/>
+  <match src="-&gt;: -&gt; [193,195]" dest="-&gt;: -&gt; [234,236]"/>
+  <match src="(: ( [599,600]" dest="(: ( [640,641]"/>
+  <match src="identifier: new [1736,1739]" dest="identifier: new [1777,1780]"/>
+  <match src="identifier: put_cred [1791,1799]" dest="identifier: put_cred [1832,1840]"/>
+  <match src="identifier: copy_creds [4,14]" dest="identifier: copy_creds [4,14]"/>
+  <match src="expression_statement [486,524]" dest="expression_statement [527,565]"/>
+  <match src="type_identifier: task_struct [22,33]" dest="type_identifier: task_struct [22,33]"/>
+  <match src="field_expression [980,999]" dest="field_expression [1021,1040]"/>
+  <match src="if: if [1353,1355]" dest="if: if [1394,1396]"/>
+  <match src="field_identifier: user [822,826]" dest="field_identifier: user [863,867]"/>
+  <match src="field_identifier: tgcred [1550,1556]" dest="field_identifier: tgcred [1591,1597]"/>
+  <match src="): ) [1764,1765]" dest="): ) [1805,1806]"/>
+  <match src="-&gt;: -&gt; [1673,1675]" dest="-&gt;: -&gt; [1714,1716]"/>
+  <match src="binary_expression [666,673]" dest="binary_expression [707,714]"/>
+  <match src="unsigned: unsigned [38,46]" dest="unsigned: unsigned [38,46]"/>
+  <match src="expression_statement [1746,1766]" dest="expression_statement [1787,1807]"/>
+  <match src="(: ( [423,424]" dest="(: ( [464,465]"/>
+  <match src="field_expression [498,511]" dest="field_expression [539,552]"/>
+  <match src="identifier: tgcred [1460,1466]" dest="identifier: tgcred [1501,1507]"/>
+  <match src="assignment_expression [1602,1622]" dest="assignment_expression [1643,1663]"/>
+  <match src="): ) [1573,1574]" dest="): ) [1614,1615]"/>
+  <match src="comment: 	
+	 * a process - this is slightly icky as we violate COW credentials a
+	 * bit */ [1111,1263]" dest="comment: 	
+	 * a process - this is slightly icky as we violate COW credentials a
+	 * bit */ [1152,1304]"/>
+  <match src=";: ; [298,299]" dest=";: ; [339,340]"/>
+  <match src="binary_expression [1038,1064]" dest="binary_expression [1079,1105]"/>
+  <match src="-&gt;: -&gt; [1657,1659]" dest="-&gt;: -&gt; [1698,1700]"/>
+  <match src=";: ; [1574,1575]" dest=";: ; [1615,1616]"/>
+  <match src="&quot;: &quot; [391,392]" dest="&quot;: &quot; [432,433]"/>
+  <match src="statement_identifier: error_put [1779,1788]" dest="statement_identifier: error_put [1820,1829]"/>
+  <match src="identifier: tgcred [1358,1364]" dest="identifier: tgcred [1399,1405]"/>
+  <match src=";: ; [658,659]" dest=";: ; [699,700]"/>
+  <match src="): ) [1297,1298]" dest="): ) [1338,1339]"/>
+  <match src=";: ; [1817,1818]" dest=";: ; [1858,1859]"/>
+  <match src="field_identifier: cred [501,505]" dest="field_identifier: cred [542,546]"/>
+  <match src="field_expression [1423,1436]" dest="field_expression [1464,1477]"/>
+  <match src="parenthesized_expression [1037,1065]" dest="parenthesized_expression [1078,1106]"/>
+  <match src="): ) [1668,1669]" dest="): ) [1709,1710]"/>
+  <match src="identifier: tgcred [1616,1622]" dest="identifier: tgcred [1657,1663]"/>
+  <match src="identifier: p [266,267]" dest="identifier: p [307,308]"/>
+  <match src="parenthesized_expression [946,967]" dest="parenthesized_expression [987,1008]"/>
+  <match src="): ) [480,481]" dest="): ) [521,522]"/>
+  <match src="(: ( [569,570]" dest="(: ( [610,611]"/>
+  <match src="argument_list [1593,1598]" dest="argument_list [1634,1639]"/>
+  <match src=",: , [353,354]" dest=",: , [394,395]"/>
+  <match src="(: ( [1421,1422]" dest="(: ( [1462,1463]"/>
+  <match src="identifier: get_cred [1697,1705]" dest="identifier: get_cred [1738,1746]"/>
+  <match src="field_expression [191,278]" dest="field_expression [232,319]"/>
+  <match src="-&gt;: -&gt; [312,314]" dest="-&gt;: -&gt; [353,355]"/>
+  <match src="preproc_ifdef [169,1818]" dest="preproc_ifdef [210,1859]"/>
+  <match src="identifier: CONFIG_KEYS [176,187]" dest="identifier: CONFIG_KEYS [217,228]"/>
+  <match src="parenthesized_expression [1356,1365]" dest="parenthesized_expression [1397,1406]"/>
+  <match src="struct: struct [15,21]" dest="struct: struct [15,21]"/>
+  <match src="identifier: clone_flags [228,239]" dest="identifier: clone_flags [269,280]"/>
+  <match src=";: ; [523,524]" dest=";: ; [564,565]"/>
+  <match src="parenthesized_expression [665,674]" dest="parenthesized_expression [706,715]"/>
+  <match src="(: ( [1270,1271]" dest="(: ( [1311,1312]"/>
+  <match src="labeled_statement [1779,1805]" dest="labeled_statement [1820,1846]"/>
+  <match src="field_identifier: thread_keyring [1009,1023]" dest="field_identifier: thread_keyring [1050,1064]"/>
+  <match src=":: : [1788,1789]" dest=":: : [1829,1830]"/>
+  <match src="struct: struct [87,93]" dest="struct: struct [87,93]"/>
+  <match src="field_expression [1511,1534]" dest="field_expression [1552,1575]"/>
+  <match src="call_expression [1069,1104]" dest="call_expression [1110,1145]"/>
+  <match src="#endif [1818,1818]" dest="#endif [1859,1859]"/>
+  <match src="field_identifier: tgcred [1607,1613]" dest="field_identifier: tgcred [1648,1654]"/>
+  <match src="): ) [562,563]" dest="): ) [603,604]"/>
+  <match src="if_statement [1265,1626]" dest="if_statement [1306,1667]"/>
+  <match src="field_expression [817,835]" dest="field_expression [858,876]"/>
+  <match src="binary_expression [1271,1297]" dest="binary_expression [1312,1338]"/>
+  <match src="assignment_expression [802,835]" dest="assignment_expression [843,876]"/>
+  <match src="identifier: tgcred [1329,1335]" dest="identifier: tgcred [1370,1376]"/>
+  <match src="(: ( [653,654]" dest="(: ( [694,695]"/>
+  <match src="compound_statement [65,1820]" dest="compound_statement [65,1861]"/>
+  <match src="field_identifier: cred [349,353]" dest="field_identifier: cred [390,394]"/>
+  <match src="identifier: new [1594,1597]" dest="identifier: new [1635,1638]"/>
+  <match src="&quot;: &quot; [368,369]" dest="&quot;: &quot; [409,410]"/>
+  <match src="expression_statement [1579,1599]" dest="expression_statement [1620,1640]"/>
+  <match src="): ) [999,1000]" dest="): ) [1040,1041]"/>
+  <match src="pointer_expression [1459,1472]" dest="pointer_expression [1500,1513]"/>
+  <match src="assignment_expression [1371,1384]" dest="assignment_expression [1412,1425]"/>
+  <match src="field_expression [192,215]" dest="field_expression [233,256]"/>
+  <match src="): ) [522,523]" dest="): ) [563,564]"/>
+  <match src="(: ( [1760,1761]" dest="(: ( [1801,1802]"/>
+  <match src="argument_list [496,523]" dest="argument_list [537,564]"/>
+  <match src="&amp;: &amp; [1050,1051]" dest="&amp;: &amp; [1091,1092]"/>
+  <match src="field_expression [192,199]" dest="field_expression [233,240]"/>
+  <match src="-&gt;: -&gt; [511,513]" dest="-&gt;: -&gt; [552,554]"/>
+  <match src="!: ! [570,571]" dest="!: ! [611,612]"/>
+  <match src="identifier: key_put [972,979]" dest="identifier: key_put [1013,1020]"/>
+  <match src="*: * [34,35]" dest="*: * [34,35]"/>
+  <match src="compound_statement [1300,1626]" dest="compound_statement [1341,1667]"/>
+  <match src="}: } [1819,1820]" dest="}: } [1860,1861]"/>
+  <match src="call_expression [323,357]" dest="call_expression [364,398]"/>
+  <match src="=: = [1024,1025]" dest="=: = [1065,1066]"/>
+  <match src="argument_list [1760,1765]" dest="argument_list [1801,1806]"/>
+  <match src=";: ; [1765,1766]" dest=";: ; [1806,1807]"/>
+  <match src=";: ; [1669,1670]" dest=";: ; [1710,1711]"/>
+  <match src="identifier: CLONE_NEWUSER [614,627]" dest="identifier: CLONE_NEWUSER [655,668]"/>
+  <match src="expression_statement [1602,1623]" dest="expression_statement [1643,1664]"/>
+  <match src="argument_list [423,440]" dest="argument_list [464,481]"/>
+  <match src="): ) [356,357]" dest="): ) [397,398]"/>
+  <match src="}: } [538,539]" dest="}: } [579,580]"/>
+  <match src="=: = [1375,1376]" dest="=: = [1416,1417]"/>
+  <match src="argument_list [367,482]" dest="argument_list [408,523]"/>
+  <match src="identifier: p [473,474]" dest="identifier: p [514,515]"/>
+  <match src="identifier: get_cred [302,310]" dest="identifier: get_cred [343,351]"/>
+  <match src=";: ; [1598,1599]" dest=";: ; [1639,1640]"/>
+  <match src="*: * [1328,1329]" dest="*: * [1369,1370]"/>
+  <match src="field_expression [425,432]" dest="field_expression [466,473]"/>
+  <match src="expression_statement [1713,1744]" dest="expression_statement [1754,1785]"/>
+  <match src="*: * [142,143]" dest="*: * [142,143]"/>
+  <match src="identifier: install_thread_keyring_to_cred [1069,1099]" dest="identifier: install_thread_keyring_to_cred [1110,1140]"/>
+  <match src="-&gt;: -&gt; [1429,1431]" dest="-&gt;: -&gt; [1470,1472]"/>
+  <match src="call_expression [639,658]" dest="call_expression [680,699]"/>
+  <match src=";: ; [1000,1001]" dest=";: ; [1041,1042]"/>
+  <match src="(: ( [310,311]" dest="(: ( [351,352]"/>
+  <match src=";: ; [146,147]" dest=";: ; [146,147]"/>
+  <match src="field_identifier: cred [406,410]" dest="field_identifier: cred [447,451]"/>
+  <match src="call_expression [1746,1765]" dest="call_expression [1787,1806]"/>
+  <match src="parameter_declaration [38,63]" dest="parameter_declaration [38,63]"/>
+  <match src="field_identifier: cred [195,199]" dest="field_identifier: cred [236,240]"/>
+  <match src="(: ( [289,290]" dest="(: ( [330,331]"/>
+  <match src="type_identifier: cred [137,141]" dest="type_identifier: cred [137,141]"/>
+  <match src="call_expression [486,523]" dest="call_expression [527,564]"/>
+  <match src="if_statement [566,593]" dest="if_statement [607,634]"/>
+  <match src="identifier: CONFIG_KEYS [845,856]" dest="identifier: CONFIG_KEYS [886,897]"/>
+  <match src="assignment_expression [1672,1710]" dest="assignment_expression [1713,1751]"/>
+  <match src="sizeof: sizeof [1321,1327]" dest="sizeof: sizeof [1362,1368]"/>
+  <match src="number_literal: 1 [1438,1439]" dest="number_literal: 1 [1479,1480]"/>
+  <match src="): ) [297,298]" dest="): ) [338,339]"/>
+  <match src="#endif: #endif [1627,1633]" dest="#endif: #endif [1668,1674]"/>
+  <match src=";: ; [1384,1385]" dest=";: ; [1425,1426]"/>
+  <match src="-&gt;: -&gt; [1556,1558]" dest="-&gt;: -&gt; [1597,1599]"/>
+  <match src="if: if [1034,1036]" dest="if: if [1075,1077]"/>
+  <match src="identifier: ENOMEM [586,592]" dest="identifier: ENOMEM [627,633]"/>
+  <match src="identifier: tgcred [1477,1483]" dest="identifier: tgcred [1518,1524]"/>
+  <match src=";: ; [1030,1031]" dest=";: ; [1071,1072]"/>
+  <match src=";: ; [1776,1777]" dest=";: ; [1817,1818]"/>
+  <match src="expression_statement [802,836]" dest="expression_statement [843,877]"/>
+  <match src="return_statement [527,536]" dest="return_statement [568,577]"/>
+  <match src=";: ; [1710,1711]" dest=";: ; [1751,1752]"/>
+  <match src="(: ( [1646,1647]" dest="(: ( [1687,1688]"/>
+  <match src="null [1026,1030]" dest="null [1067,1071]"/>
+  <match src="): ) [1364,1365]" dest="): ) [1405,1406]"/>
+  <match src="identifier: ENOMEM [1378,1384]" dest="identifier: ENOMEM [1419,1425]"/>
+  <match src="if: if [1265,1267]" dest="if: if [1306,1308]"/>
+  <match src="identifier: p [1682,1683]" dest="identifier: p [1723,1724]"/>
+  <match src="assignment_expression [542,563]" dest="assignment_expression [583,604]"/>
+  <match src="long: long [47,51]" dest="long: long [47,51]"/>
+  <match src="&lt;: &lt; [670,671]" dest="&lt;: &lt; [711,712]"/>
+  <match src=",: , [1739,1740]" dest=",: , [1780,1781]"/>
+  <match src="return_statement [1807,1818]" dest="return_statement [1848,1859]"/>
+  <match src="call_expression [361,482]" dest="call_expression [402,523]"/>
+  <match src="#ifdef: #ifdef [838,844]" dest="#ifdef: #ifdef [879,885]"/>
+  <match src="-&gt;: -&gt; [1007,1009]" dest="-&gt;: -&gt; [1048,1050]"/>
+  <match src="assignment_expression [1304,1349]" dest="assignment_expression [1345,1390]"/>
+  <match src="declaration [130,147]" dest="declaration [130,147]"/>
+  <match src="call_expression [972,1000]" dest="call_expression [1013,1041]"/>
+  <match src=";: ; [1743,1744]" dest=";: ; [1784,1785]"/>
+  <match src="identifier: CONFIG_KEYS [74,85]" dest="identifier: CONFIG_KEYS [74,85]"/>
+  <match src="field_expression [425,439]" dest="field_expression [466,480]"/>
+  <match src="-&gt;: -&gt; [199,201]" dest="-&gt;: -&gt; [240,242]"/>
+  <match src="field_identifier: user [507,511]" dest="field_identifier: user [548,552]"/>
+  <match src="field_identifier: user_ns [807,814]" dest="field_identifier: user_ns [848,855]"/>
+  <match src="struct_specifier [87,111]" dest="struct_specifier [87,111]"/>
+  <match src=";: ; [357,358]" dest=";: ; [398,399]"/>
+  <match src="number_literal: 2 [355,356]" dest="number_literal: 2 [396,397]"/>
+  <match src="): ) [1064,1065]" dest="): ) [1105,1106]"/>
+  <match src=";: ; [1507,1508]" dest=";: ; [1548,1549]"/>
+  <match src="identifier: new [1545,1548]" dest="identifier: new [1586,1589]"/>
+  <match src="identifier: CLONE_THREAD [1052,1064]" dest="identifier: CLONE_THREAD [1093,1105]"/>
+  <match src="field_expression [1460,1472]" dest="field_expression [1501,1513]"/>
+  <match src="&amp;: &amp; [240,241]" dest="&amp;: &amp; [281,282]"/>
+  <match src="argument_list [289,298]" dest="argument_list [330,339]"/>
+  <match src="-: - [1377,1378]" dest="-: - [1418,1419]"/>
+  <match src="(: ( [946,947]" dest="(: ( [987,988]"/>
+  <match src="argument_list [345,357]" dest="argument_list [386,398]"/>
+  <match src="return: return [1768,1774]" dest="return: return [1809,1815]"/>
+  <match src="return: return [527,533]" dest="return: return [568,574]"/>
+  <match src="identifier: p [1672,1673]" dest="identifier: p [1713,1714]"/>
+  <match src="identifier: atomic_inc [486,496]" dest="identifier: atomic_inc [527,537]"/>
+  <match src="identifier: atomic_inc [1636,1646]" dest="identifier: atomic_inc [1677,1687]"/>
+  <match src="identifier: p [35,36]" dest="identifier: p [35,36]"/>
+  <match src="binary_expression [191,254]" dest="binary_expression [232,295]"/>
+  <match src="-&gt;: -&gt; [499,501]" dest="-&gt;: -&gt; [540,542]"/>
+  <match src="return_statement [578,593]" dest="return_statement [619,634]"/>
+  <match src="argument_list [1099,1104]" dest="argument_list [1140,1145]"/>
+  <match src="field_identifier: user [1653,1657]" dest="field_identifier: user [1694,1698]"/>
+  <match src="parameter_list [14,64]" dest="parameter_list [14,64]"/>
+  <match src="identifier: p [403,404]" dest="identifier: p [444,445]"/>
+  <match src="parameter_declaration [15,36]" dest="parameter_declaration [15,36]"/>
+  <match src="{: { [1300,1301]" dest="{: { [1341,1342]"/>
+  <match src="argument_list [1705,1710]" dest="argument_list [1746,1751]"/>
+  <match src="(: ( [166,167]" dest="(: ( [207,208]"/>
+  <match src="field_identifier: cred [293,297]" dest="field_identifier: cred [334,338]"/>
+  <match src="if_statement [596,696]" dest="if_statement [637,737]"/>
+  <match src="identifier: p [192,193]" dest="identifier: p [233,234]"/>
+  <match src="binary_expression [228,254]" dest="binary_expression [269,295]"/>
+  <match src="ERROR [219,225]" dest="ERROR [260,266]"/>
+  <match src="primitive_type: int [150,153]" dest="primitive_type: int [150,153]"/>
+  <match src=";: ; [319,320]" dest=";: ; [360,361]"/>
+  <match src="struct_specifier [15,33]" dest="struct_specifier [15,33]"/>
+  <match src="pointer_expression [1422,1436]" dest="pointer_expression [1463,1477]"/>
+  <match src="): ) [657,658]" dest="): ) [698,699]"/>
+  <match src="field_identifier: cred [314,318]" dest="field_identifier: cred [355,359]"/>
+  <match src="!: ! [1357,1358]" dest="!: ! [1398,1399]"/>
+  <match src="if: if [163,165]" dest="if: if [204,206]"/>
+  <match src="{: { [968,969]" dest="{: { [1009,1010]"/>
+  <match src="argument_list [561,563]" dest="argument_list [602,604]"/>
+  <match src="-&gt;: -&gt; [1651,1653]" dest="-&gt;: -&gt; [1692,1694]"/>
+  <match src="unary_expression [1269,1298]" dest="unary_expression [1310,1339]"/>
+  <match src="expression_statement [1411,1441]" dest="expression_statement [1452,1482]"/>
+  <match src="): ) [966,967]" dest="): ) [1007,1008]"/>
+  <match src="{: { [1366,1367]" dest="{: { [1407,1408]"/>
+  <match src="field_expression [1648,1668]" dest="field_expression [1689,1709]"/>
+  <match src=";: ; [157,158]" dest=";: ; [157,158]"/>
+  <match src="identifier: ret [666,669]" dest="identifier: ret [707,710]"/>
+  <match src="): ) [1742,1743]" dest="): ) [1783,1784]"/>
+  <match src="call_expression [1411,1440]" dest="call_expression [1452,1481]"/>
+  <match src="-&gt;: -&gt; [1683,1685]" dest="-&gt;: -&gt; [1724,1726]"/>
+  <match src="field_expression [290,297]" dest="field_expression [331,338]"/>
+  <match src="comment: 	
+	 * stay pinned by cred-&gt;user
+	 */ [699,800]" dest="comment: 	
+	 * stay pinned by cred-&gt;user
+	 */ [740,841]"/>
+  <match src="expression_statement [1069,1105]" dest="expression_statement [1110,1146]"/>
+  <match src="(: ( [1327,1328]" dest="(: ( [1368,1369]"/>
+  <match src="identifier: ret [633,636]" dest="identifier: ret [674,677]"/>
+  <match src="field_identifier: real_cred [1685,1694]" dest="field_identifier: real_cred [1726,1735]"/>
+  <match src=";: ; [692,693]" dest=";: ; [733,734]"/>
+  <match src="field_expression [802,814]" dest="field_expression [843,855]"/>
+  <match src="field_expression [1602,1613]" dest="field_expression [1643,1654]"/>
+  <match src="-&gt;: -&gt; [805,807]" dest="-&gt;: -&gt; [846,848]"/>
+  <match src="field_expression [498,522]" dest="field_expression [539,563]"/>
+  <match src="identifier: new [1706,1709]" dest="identifier: new [1747,1750]"/>
+  <match src="string_literal [368,392]" dest="string_literal [409,433]"/>
+  <match src="-&gt;: -&gt; [950,952]" dest="-&gt;: -&gt; [991,993]"/>
+  <match src=";: ; [563,564]" dest=";: ; [604,605]"/>
+  <match src="-&gt;: -&gt; [983,985]" dest="-&gt;: -&gt; [1024,1026]"/>
+  <match src="(: ( [1268,1269]" dest="(: ( [1309,1310]"/>
+  <match src="&amp;&amp;: &amp;&amp; [216,218]" dest="&amp;&amp;: &amp;&amp; [257,259]"/>
+  <match src="field_expression [346,353]" dest="field_expression [387,394]"/>
+  <match src="sizeof_expression [1321,1336]" dest="sizeof_expression [1362,1377]"/>
+  <match src="sized_type_specifier [38,51]" dest="sized_type_specifier [38,51]"/>
+  <match src="identifier: new [947,950]" dest="identifier: new [988,991]"/>
+  <match src=";: ; [535,536]" dest=";: ; [576,577]"/>
+  <match src="field_identifier: lock [1468,1472]" dest="field_identifier: lock [1509,1513]"/>
+  <match src="argument_list [1735,1743]" dest="argument_list [1776,1784]"/>
+  <match src="identifier: read_cred_subscribers [451,472]" dest="identifier: read_cred_subscribers [492,513]"/>
+  <match src="translation_unit [0,1820]" dest="translation_unit [0,1861]"/>
+  <match src="identifier: tgcred [1304,1310]" dest="identifier: tgcred [1345,1351]"/>
+  <match src="identifier: new [802,805]" dest="identifier: new [843,846]"/>
+  <match src="assignment_expression [1682,1710]" dest="assignment_expression [1723,1751]"/>
+  <match src="identifier: clone_flags [52,63]" dest="identifier: clone_flags [52,63]"/>
+  <match src="field_identifier: cred [428,432]" dest="field_identifier: cred [469,473]"/>
+  <match src="{: { [629,630]" dest="{: { [670,671]"/>
+  <match src="(: ( [367,368]" dest="(: ( [408,409]"/>
+  <match src="assignment_expression [1511,1574]" dest="assignment_expression [1552,1615]"/>
+  <match src="identifier: ret [154,157]" dest="identifier: ret [154,157]"/>
+  <match src="ERROR [163,167]" dest="ERROR [204,208]"/>
+  <match src="identifier: CLONE_THREAD [242,254]" dest="identifier: CLONE_THREAD [283,295]"/>
+  <match src="number_literal: 0 [1775,1776]" dest="number_literal: 0 [1816,1817]"/>
+  <match src="-&gt;: -&gt; [1483,1485]" dest="-&gt;: -&gt; [1524,1526]"/>
+  <match src="-&gt;: -&gt; [1605,1607]" dest="-&gt;: -&gt; [1646,1648]"/>
+  <match src="*: * [112,113]" dest="*: * [112,113]"/>
+  <match src="if: if [943,945]" dest="if: if [984,986]"/>
+  <match src="): ) [1709,1710]" dest="): ) [1750,1751]"/>
+  <match src="-&gt;: -&gt; [426,428]" dest="-&gt;: -&gt; [467,469]"/>
+  <match src="argument_list [310,319]" dest="argument_list [351,360]"/>
+  <match src="call_expression [1313,1349]" dest="call_expression [1354,1390]"/>
+  <match src="comment: 	
+	 * had one */ [858,941]" dest="comment: 	
+	 * had one */ [899,982]"/>
+  <match src="if_statement [1353,1408]" dest="if_statement [1394,1449]"/>
+  <match src="(: ( [561,562]" dest="(: ( [602,603]"/>
+  <match src="identifier: spin_lock_init [1444,1458]" dest="identifier: spin_lock_init [1485,1499]"/>
+  <match src="argument_list [1458,1473]" dest="argument_list [1499,1514]"/>
+  <match src="=: = [1501,1502]" dest="=: = [1542,1543]"/>
+  <match src="assignment_expression [191,298]" dest="assignment_expression [232,339]"/>
+  <match src="unary_expression [570,574]" dest="unary_expression [611,615]"/>
+  <match src="(: ( [665,666]" dest="(: ( [706,707]"/>
+  <match src="field_identifier: cred [1675,1679]" dest="field_identifier: cred [1716,1720]"/>
+  <match src="): ) [627,628]" dest="): ) [668,669]"/>
+  <match src="argument_list [472,481]" dest="argument_list [513,522]"/>
+  <match src="-: - [585,586]" dest="-: - [626,627]"/>
+  <match src="(: ( [1705,1706]" dest="(: ( [1746,1747]"/>
+  <match src="field_expression [311,318]" dest="field_expression [352,359]"/>
+  <match src="field_identifier: real_cred [269,278]" dest="field_identifier: real_cred [310,319]"/>
+  <match src="): ) [481,482]" dest="): ) [522,523]"/>
+  <match src="&amp;: &amp; [1283,1284]" dest="&amp;: &amp; [1324,1325]"/>
+  <match src="identifier: new [1100,1103]" dest="identifier: new [1141,1144]"/>
+  <match src="call_expression [1579,1598]" dest="call_expression [1620,1639]"/>
+  <match src="declaration [87,120]" dest="declaration [87,120]"/>
+  <match src="&amp;: &amp; [1422,1423]" dest="&amp;: &amp; [1463,1464]"/>
+  <match src="#ifdef: #ifdef [169,175]" dest="#ifdef: #ifdef [210,216]"/>
+  <match src="argument_list [1544,1574]" dest="argument_list [1585,1615]"/>
+  <match src="=: = [1614,1615]" dest="=: = [1655,1656]"/>
+  <match src=";: ; [1440,1441]" dest=";: ; [1481,1482]"/>
+  <match src="identifier: atomic_read [412,423]" dest="identifier: atomic_read [453,464]"/>
+  <match src="identifier: p [425,426]" dest="identifier: p [466,467]"/>
+  <match src="field_expression [473,480]" dest="field_expression [514,521]"/>
+  <match src="(: ( [1099,1100]" dest="(: ( [1140,1141]"/>
+  <match src="}: } [1407,1408]" dest="}: } [1448,1449]"/>
+  <match src="identifier: GFP_KERNEL [1338,1348]" dest="identifier: GFP_KERNEL [1379,1389]"/>
+  <match src="expression_statement [1371,1385]" dest="expression_statement [1412,1426]"/>
+  <match src="argument_list [653,658]" dest="argument_list [694,699]"/>
+  <match src="identifier: key_get [1537,1544]" dest="identifier: key_get [1578,1585]"/>
+  <match src="identifier: new [571,574]" dest="identifier: new [612,615]"/>
+  <match src="!: ! [191,192]" dest="!: ! [232,233]"/>
+  <match src="pointer_expression [1328,1335]" dest="pointer_expression [1369,1376]"/>
+  <match src="parenthesized_expression [569,575]" dest="parenthesized_expression [610,616]"/>
+  <match src="=: = [815,816]" dest="=: = [856,857]"/>
+  <match src="field_expression [1004,1023]" dest="field_expression [1045,1064]"/>
+  <match src="(: ( [1037,1038]" dest="(: ( [1078,1079]"/>
+  <match src=",: , [1336,1337]" dest=",: , [1377,1378]"/>
+  <match src="field_expression [817,826]" dest="field_expression [858,867]"/>
+  <match src="identifier: new [143,146]" dest="identifier: new [143,146]"/>
+  <match src="argument_list [1320,1349]" dest="argument_list [1361,1390]"/>
+</matches>
+<actions>
+  <insert-tree tree="expression_statement [162,200]" parent="compound_statement [65,1820]" at="4"/>
+</actions>

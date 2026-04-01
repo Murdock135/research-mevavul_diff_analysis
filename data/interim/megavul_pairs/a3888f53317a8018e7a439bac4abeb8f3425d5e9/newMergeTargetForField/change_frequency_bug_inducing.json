@@ -1,0 +1,122 @@
+{
+  "frequency": [
+    {
+      "c": "If",
+      "f": "3"
+    },
+    {
+      "c": "VariableRead",
+      "f": "2"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "2"
+    },
+    {
+      "c": "Invocation",
+      "f": "2"
+    },
+    {
+      "c": "Block",
+      "f": "1"
+    },
+    {
+      "c": "Assignment",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "update-node_Invocation_Assignment",
+      "f": "2"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "2"
+    },
+    {
+      "c": "update-node_VariableRead_Invocation",
+      "f": "2"
+    },
+    {
+      "c": "insert-node_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Block_If",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Assignment_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_BinaryOperator_If",
+      "f": "1"
+    },
+    {
+      "c": "update-node_BinaryOperator_If",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "If",
+      "f": "0.2727272727272727"
+    },
+    {
+      "c": "VariableRead",
+      "f": "0.18181818181818182"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "0.18181818181818182"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.18181818181818182"
+    },
+    {
+      "c": "Block",
+      "f": "0.09090909090909091"
+    },
+    {
+      "c": "Assignment",
+      "f": "0.09090909090909091"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "update-node_Invocation_Assignment",
+      "f": "0.18181818181818182"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "0.18181818181818182"
+    },
+    {
+      "c": "update-node_VariableRead_Invocation",
+      "f": "0.18181818181818182"
+    },
+    {
+      "c": "insert-node_If_Block",
+      "f": "0.09090909090909091"
+    },
+    {
+      "c": "move-tree_Block_If",
+      "f": "0.09090909090909091"
+    },
+    {
+      "c": "move-tree_Assignment_Block",
+      "f": "0.09090909090909091"
+    },
+    {
+      "c": "move-tree_BinaryOperator_If",
+      "f": "0.09090909090909091"
+    },
+    {
+      "c": "update-node_BinaryOperator_If",
+      "f": "0.09090909090909091"
+    }
+  ]
+}

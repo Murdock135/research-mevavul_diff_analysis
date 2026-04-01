@@ -1,0 +1,21 @@
+{
+    "id": "eb08b5ed4c5548f3e941a1f0d0363ae4439fa98c_doPost_0",
+    "func_name": "doPost",
+    "cve_id": "CVE-2021-25929",
+    "cwe_ids": [
+        "CWE-352",
+        "CWE-79"
+    ],
+    "commit_hash": "eb08b5ed4c5548f3e941a1f0d0363ae4439fa98c",
+    "parent_commit_hash": "b6a85570aa7007561277330c26f08739f5bb4daf",
+    "repo_name": "OpenNMS/opennms",
+    "git_url": "https://github.com/OpenNMS/opennms/commit/eb08b5ed4c5548f3e941a1f0d0363ae4439fa98c",
+    "file_path": "opennms-webapp/src/main/java/org/opennms/web/admin/users/AddNewUserServlet.java",
+    "file_name": "AddNewUserServlet.java",
+    "commit_date": 1618892703,
+    "commit_msg": "NMS-13231: Backport Security Issues from Last Month",
+    "cvss_vector": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+    "cvss_base_score": 3.5,
+    "cvss_base_severity": "LOW",
+    "cvss_is_v3": false
+}

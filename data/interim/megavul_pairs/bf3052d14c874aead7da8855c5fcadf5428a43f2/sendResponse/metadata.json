@@ -1,0 +1,20 @@
+{
+    "id": "bf3052d14c874aead7da8855c5fcadf5428a43f2_sendResponse_0",
+    "func_name": "sendResponse",
+    "cve_id": "CVE-2015-5377",
+    "cwe_ids": [
+        "CWE-74"
+    ],
+    "commit_hash": "bf3052d14c874aead7da8855c5fcadf5428a43f2",
+    "parent_commit_hash": "178aa26a4ea6e741a176962d2212fd62a863542f",
+    "repo_name": "elastic/elasticsearch",
+    "git_url": "https://github.com/elastic/elasticsearch/commit/bf3052d14c874aead7da8855c5fcadf5428a43f2",
+    "file_path": "src/main/java/org/elasticsearch/transport/netty/NettyTransportChannel.java",
+    "file_name": "NettyTransportChannel.java",
+    "commit_date": 1436163097,
+    "commit_msg": "Restrict Exception deserialization to Core and JDK classes\n\nwhen 3rd party exceptions are deserialized they might carry\nclasses not present on the deserializing node. This causes hard\nexceptions and looses the exception entirely. This commit restricts\nthe classes we support for deserialization for core and selected JDK\nclasses to guarantee they are present on both source and target nodes",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

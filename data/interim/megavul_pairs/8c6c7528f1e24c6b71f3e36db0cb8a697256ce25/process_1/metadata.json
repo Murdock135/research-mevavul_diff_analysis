@@ -1,0 +1,20 @@
+{
+    "id": "8c6c7528f1e24c6b71f3e36db0cb8a697256ce25_process_1",
+    "func_name": "process",
+    "cve_id": "CVE-2020-7226",
+    "cwe_ids": [
+        "CWE-770"
+    ],
+    "commit_hash": "8c6c7528f1e24c6b71f3e36db0cb8a697256ce25",
+    "parent_commit_hash": "fafccd07ab1214e3588a35afe3c361519129605f",
+    "repo_name": "vt-middleware/cryptacular",
+    "git_url": "https://github.com/vt-middleware/cryptacular/commit/8c6c7528f1e24c6b71f3e36db0cb8a697256ce25",
+    "file_path": "src/main/java/org/cryptacular/bean/AbstractBlockCipherBean.java",
+    "file_name": "AbstractBlockCipherBean.java",
+    "commit_date": 1579615179,
+    "commit_msg": "Define new ciphertext header format.\n\nNew format does not allocate any memory until HMAC check passes, which\nguards against untrusted input. All encryption components have been\nupdated to use the new header, while preserving backward compatibility\nto decrypt messages encrypted with the old format. The decoding process\nfor the old header has been hardened to impose reasonable limits on header\nfields: nonce sizes up to 255 bytes, key names up to 500 bytes.\n\nFixes #52.",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

@@ -1,0 +1,375 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="return_statement [1393,1405]" dest="return_statement [1279,1291]"/>
+  <match src="&lt;=: &lt;= [895,897]" dest="&lt;=: &lt;= [781,783]"/>
+  <match src="field_expression [747,760]" dest="field_expression [633,646]"/>
+  <match src="identifier: ctxt [1433,1437]" dest="identifier: ctxt [1319,1323]"/>
+  <match src="identifier: SHA_DIGEST_LENGTH [876,893]" dest="identifier: SHA_DIGEST_LENGTH [762,779]"/>
+  <match src="parameter_declaration [36,49]" dest="parameter_declaration [37,50]"/>
+  <match src="null [1480,1484]" dest="null [1366,1370]"/>
+  <match src="call_expression [1417,1438]" dest="call_expression [1303,1324]"/>
+  <match src=",: , [760,761]" dest=",: , [646,647]"/>
+  <match src="if: if [224,226]" dest="if: if [214,216]"/>
+  <match src="(: ( [1278,1279]" dest="(: ( [1164,1165]"/>
+  <match src="null [710,714]" dest="null [596,600]"/>
+  <match src=",: , [1309,1310]" dest=",: , [1195,1196]"/>
+  <match src="call_expression [1096,1112]" dest="call_expression [982,998]"/>
+  <match src="): ) [1112,1113]" dest="): ) [998,999]"/>
+  <match src="[: [ [126,127]" dest="[: [ [116,117]"/>
+  <match src="parenthesized_expression [464,486]" dest="parenthesized_expression [350,372]"/>
+  <match src="): ) [1466,1467]" dest="): ) [1352,1353]"/>
+  <match src="pointer_declarator [13,66]" dest="pointer_declarator [13,67]"/>
+  <match src="-&gt;: -&gt; [467,469]" dest="-&gt;: -&gt; [353,355]"/>
+  <match src="argument_list [1278,1309]" dest="argument_list [1164,1195]"/>
+  <match src="expression_statement [721,777]" dest="expression_statement [607,663]"/>
+  <match src="(: ( [786,787]" dest="(: ( [672,673]"/>
+  <match src="(: ( [35,36]" dest="(: ( [36,37]"/>
+  <match src="argument_list [1351,1382]" dest="argument_list [1237,1268]"/>
+  <match src="assignment_expression [659,684]" dest="assignment_expression [545,570]"/>
+  <match src="identifier: EVP_DigestFinal_ex [1119,1137]" dest="identifier: EVP_DigestFinal_ex [1005,1023]"/>
+  <match src="return: return [703,709]" dest="return: return [589,595]"/>
+  <match src="NULL: NULL [1304,1308]" dest="NULL: NULL [1190,1194]"/>
+  <match src="call_expression [1036,1056]" dest="call_expression [922,942]"/>
+  <match src="if_statement [654,715]" dest="if_statement [540,601]"/>
+  <match src="declaration [194,218]" dest="declaration [184,208]"/>
+  <match src="): ) [1383,1384]" dest="): ) [1269,1270]"/>
+  <match src="parenthesized_expression [658,685]" dest="parenthesized_expression [544,571]"/>
+  <match src="goto_statement [909,918]" dest="goto_statement [795,804]"/>
+  <match src="identifier: SRP_user_pwd_set_gN [721,740]" dest="identifier: SRP_user_pwd_set_gN [607,626]"/>
+  <match src="if: if [855,857]" dest="if: if [741,743]"/>
+  <match src=",: , [1142,1143]" dest=",: , [1028,1029]"/>
+  <match src="(: ( [682,683]" dest="(: ( [568,569]"/>
+  <match src="*: * [56,57]" dest="*: * [57,58]"/>
+  <match src="argument_list [808,830]" dest="argument_list [694,716]"/>
+  <match src="(: ( [1351,1352]" dest="(: ( [1237,1238]"/>
+  <match src="]: ] [144,145]" dest="]: ] [134,135]"/>
+  <match src="): ) [238,239]" dest="): ) [228,229]"/>
+  <match src="identifier: SRP_VBASE_get_by_user [14,35]" dest="identifier: SRP_VBASE_get1_by_user [14,36]"/>
+  <match src="identifier: user [1232,1236]" dest="identifier: user [1118,1122]"/>
+  <match src=";: ; [1404,1405]" dest=";: ; [1290,1291]"/>
+  <match src="{: { [67,68]" dest="{: { [68,69]"/>
+  <match src="return_statement [1473,1485]" dest="return_statement [1359,1371]"/>
+  <match src="identifier: user [98,102]" dest="identifier: user [88,92]"/>
+  <match src="parenthesized_expression [498,521]" dest="parenthesized_expression [384,407]"/>
+  <match src="assignment_expression [923,946]" dest="assignment_expression [809,832]"/>
+  <match src="if_statement [783,849]" dest="if_statement [669,735]"/>
+  <match src="field_identifier: seed_key [1026,1034]" dest="field_identifier: seed_key [912,920]"/>
+  <match src="identifier: username [57,65]" dest="identifier: username [58,66]"/>
+  <match src="call_expression [930,946]" dest="call_expression [816,832]"/>
+  <match src="call_expression [1063,1113]" dest="call_expression [949,999]"/>
+  <match src="argument_list [740,776]" dest="argument_list [626,662]"/>
+  <match src="): ) [985,986]" dest="): ) [871,872]"/>
+  <match src="identifier: SRP_user_pwd_free [1444,1461]" dest="identifier: SRP_user_pwd_free [1330,1347]"/>
+  <match src="NULL: NULL [710,714]" dest="NULL: NULL [596,600]"/>
+  <match src="argument_list [1015,1057]" dest="argument_list [901,943]"/>
+  <match src=",: , [874,875]" dest=",: , [760,761]"/>
+  <match src="primitive_type: char [51,55]" dest="primitive_type: char [52,56]"/>
+  <match src="field_expression [499,512]" dest="field_expression [385,398]"/>
+  <match src="identifier: BN_bin2bn [1269,1278]" dest="identifier: BN_bin2bn [1155,1164]"/>
+  <match src="call_expression [1444,1467]" dest="call_expression [1330,1353]"/>
+  <match src="): ) [1055,1056]" dest="): ) [941,942]"/>
+  <match src="compound_statement [67,1487]" dest="compound_statement [68,1373]"/>
+  <match src="): ) [1437,1438]" dest="): ) [1323,1324]"/>
+  <match src="sized_type_specifier [151,164]" dest="sized_type_specifier [141,154]"/>
+  <match src="NULL: NULL [543,547]" dest="NULL: NULL [429,433]"/>
+  <match src="argument_list [944,946]" dest="argument_list [830,832]"/>
+  <match src="NULL: NULL [565,569]" dest="NULL: NULL [451,455]"/>
+  <match src="identifier: vb [1022,1024]" dest="identifier: vb [908,910]"/>
+  <match src="]: ] [187,188]" dest="]: ] [177,178]"/>
+  <match src="identifier: user [1400,1404]" dest="identifier: user [1286,1290]"/>
+  <match src="(: ( [464,465]" dest="(: ( [350,351]"/>
+  <match src="field_expression [1043,1055]" dest="field_expression [929,941]"/>
+  <match src="if: if [783,785]" dest="if: if [669,671]"/>
+  <match src="identifier: vb [228,230]" dest="identifier: vb [218,220]"/>
+  <match src=":: : [1411,1412]" dest=":: : [1297,1298]"/>
+  <match src="identifier: username [815,823]" dest="identifier: username [701,709]"/>
+  <match src="==: == [478,480]" dest="==: == [364,366]"/>
+  <match src="-&gt;: -&gt; [749,751]" dest="-&gt;: -&gt; [635,637]"/>
+  <match src="binary_expression [465,485]" dest="binary_expression [351,371]"/>
+  <match src="argument_list [1176,1182]" dest="argument_list [1062,1068]"/>
+  <match src="identifier: digs [1144,1148]" dest="identifier: digs [1030,1034]"/>
+  <match src="identifier: vb [499,501]" dest="identifier: vb [385,387]"/>
+  <match src=",: , [1283,1284]" dest=",: , [1169,1170]"/>
+  <match src="return_statement [558,570]" dest="return_statement [444,456]"/>
+  <match src=",: , [745,746]" dest=",: , [631,632]"/>
+  <match src="identifier: ctxt [970,974]" dest="identifier: ctxt [856,860]"/>
+  <match src="identifier: SHA_DIGEST_LENGTH [170,187]" dest="identifier: SHA_DIGEST_LENGTH [160,177]"/>
+  <match src="): ) [683,684]" dest="): ) [569,570]"/>
+  <match src=",: , [1020,1021]" dest=",: , [906,907]"/>
+  <match src=";: ; [145,146]" dest=";: ; [135,136]"/>
+  <match src="expression_statement [1063,1114]" dest="expression_statement [949,1000]"/>
+  <match src="argument_list [682,684]" dest="argument_list [568,570]"/>
+  <match src=";: ; [188,189]" dest=";: ; [178,179]"/>
+  <match src="call_expression [1161,1182]" dest="call_expression [1047,1068]"/>
+  <match src="field_expression [526,539]" dest="field_expression [412,425]"/>
+  <match src="): ) [693,694]" dest="): ) [579,580]"/>
+  <match src="NULL: NULL [825,829]" dest="NULL: NULL [711,715]"/>
+  <match src=";: ; [259,260]" dest=";: ; [249,250]"/>
+  <match src="unary_expression [787,830]" dest="unary_expression [673,716]"/>
+  <match src=",: , [974,975]" dest=",: , [860,861]"/>
+  <match src="): ) [1382,1383]" dest="): ) [1268,1269]"/>
+  <match src="field_identifier: seed_key [1047,1055]" dest="field_identifier: seed_key [933,941]"/>
+  <match src="-&gt;: -&gt; [764,766]" dest="-&gt;: -&gt; [650,652]"/>
+  <match src="=: = [211,212]" dest="=: = [201,202]"/>
+  <match src="identifier: EVP_sha1 [976,984]" dest="identifier: EVP_sha1 [862,870]"/>
+  <match src="field_expression [465,477]" dest="field_expression [351,363]"/>
+  <match src="return_statement [248,260]" dest="return_statement [238,250]"/>
+  <match src="==: == [540,542]" dest="==: == [426,428]"/>
+  <match src="argument_list [869,894]" dest="argument_list [755,780]"/>
+  <match src="): ) [1381,1382]" dest="): ) [1267,1268]"/>
+  <match src="binary_expression [464,521]" dest="binary_expression [350,407]"/>
+  <match src="return: return [1473,1479]" dest="return: return [1359,1365]"/>
+  <match src="null [543,547]" dest="null [429,433]"/>
+  <match src="identifier: username [1086,1094]" dest="identifier: username [972,980]"/>
+  <match src=";: ; [1438,1439]" dest=";: ; [1324,1325]"/>
+  <match src="*: * [46,47]" dest="*: * [47,48]"/>
+  <match src=",: , [1375,1376]" dest=",: , [1261,1262]"/>
+  <match src="return: return [1393,1399]" dest="return: return [1279,1285]"/>
+  <match src="identifier: digs [1279,1283]" dest="identifier: digs [1165,1169]"/>
+  <match src=",: , [823,824]" dest=",: , [709,710]"/>
+  <match src="argument_list [1102,1112]" dest="argument_list [988,998]"/>
+  <match src="null [565,569]" dest="null [451,455]"/>
+  <match src="): ) [65,66]" dest="): ) [66,67]"/>
+  <match src="identifier: user [1462,1466]" dest="identifier: user [1348,1352]"/>
+  <match src=";: ; [1467,1468]" dest=";: ; [1353,1354]"/>
+  <match src=",: , [1302,1303]" dest=",: , [1188,1189]"/>
+  <match src="argument_list [1432,1438]" dest="argument_list [1318,1324]"/>
+  <match src="goto_statement [840,849]" dest="goto_statement [726,735]"/>
+  <match src="pointer_declarator [205,210]" dest="pointer_declarator [195,200]"/>
+  <match src="||: || [522,524]" dest="||: || [408,410]"/>
+  <match src="(: ( [1461,1462]" dest="(: ( [1347,1348]"/>
+  <match src="NULL: NULL [1377,1381]" dest="NULL: NULL [1263,1267]"/>
+  <match src=";: ; [1155,1156]" dest=";: ; [1041,1042]"/>
+  <match src="identifier: EVP_MD_CTX_free [1161,1176]" dest="identifier: EVP_MD_CTX_free [1047,1062]"/>
+  <match src="if: if [654,656]" dest="if: if [540,542]"/>
+  <match src="binary_expression [499,520]" dest="binary_expression [385,406]"/>
+  <match src="NULL: NULL [1480,1484]" dest="NULL: NULL [1366,1370]"/>
+  <match src="NULL: NULL [1150,1154]" dest="NULL: NULL [1036,1040]"/>
+  <match src="!: ! [787,788]" dest="!: ! [673,674]"/>
+  <match src="translation_unit [0,1487]" dest="translation_unit [0,1373]"/>
+  <match src="(: ( [984,985]" dest="(: ( [870,871]"/>
+  <match src="): ) [830,831]" dest="): ) [716,717]"/>
+  <match src="-&gt;: -&gt; [1045,1047]" dest="-&gt;: -&gt; [931,933]"/>
+  <match src="parenthesized_expression [463,549]" dest="parenthesized_expression [349,435]"/>
+  <match src="assignment_expression [1188,1199]" dest="assignment_expression [1074,1085]"/>
+  <match src="binary_expression [658,693]" dest="binary_expression [544,579]"/>
+  <match src="goto: goto [840,844]" dest="goto: goto [726,730]"/>
+  <match src="-&gt;: -&gt; [501,503]" dest="-&gt;: -&gt; [387,389]"/>
+  <match src="null [1150,1154]" dest="null [1036,1040]"/>
+  <match src="array_declarator [122,145]" dest="array_declarator [112,135]"/>
+  <match src="identifier: digv [1352,1356]" dest="identifier: digv [1238,1242]"/>
+  <match src=",: , [1148,1149]" dest=",: , [1034,1035]"/>
+  <match src="expression_statement [1161,1183]" dest="expression_statement [1047,1069]"/>
+  <match src="init_declarator [205,217]" dest="init_declarator [195,207]"/>
+  <match src="if_statement [224,260]" dest="if_statement [214,250]"/>
+  <match src="identifier: EVP_MD_CTX_new [930,944]" dest="identifier: EVP_MD_CTX_new [816,830]"/>
+  <match src="call_expression [952,993]" dest="call_expression [838,879]"/>
+  <match src="number_literal: 0 [898,899]" dest="number_literal: 0 [784,785]"/>
+  <match src="binary_expression [859,899]" dest="binary_expression [745,785]"/>
+  <match src="parameter_list [35,66]" dest="parameter_list [36,67]"/>
+  <match src="identifier: strlen [1096,1102]" dest="identifier: strlen [982,988]"/>
+  <match src="expression_statement [952,994]" dest="expression_statement [838,880]"/>
+  <match src="identifier: ctxt [1138,1142]" dest="identifier: ctxt [1024,1028]"/>
+  <match src="NULL: NULL [481,485]" dest="NULL: NULL [367,371]"/>
+  <match src="field_identifier: default_g [503,512]" dest="field_identifier: default_g [389,398]"/>
+  <match src="parenthesized_expression [786,831]" dest="parenthesized_expression [672,717]"/>
+  <match src="identifier: SHA_DIGEST_LENGTH [1358,1375]" dest="identifier: SHA_DIGEST_LENGTH [1244,1261]"/>
+  <match src="field_expression [762,775]" dest="field_expression [648,661]"/>
+  <match src="type_identifier: SRP_user_pwd [84,96]" dest="type_identifier: SRP_user_pwd [74,86]"/>
+  <match src="(: ( [463,464]" dest="(: ( [349,350]"/>
+  <match src="): ) [547,548]" dest="): ) [433,434]"/>
+  <match src="expression_statement [1417,1439]" dest="expression_statement [1303,1325]"/>
+  <match src="null [1195,1199]" dest="null [1081,1085]"/>
+  <match src="statement_identifier: err [1408,1411]" dest="statement_identifier: err [1294,1297]"/>
+  <match src="(: ( [1079,1080]" dest="(: ( [965,966]"/>
+  <match src="argument_list [1231,1383]" dest="argument_list [1117,1269]"/>
+  <match src="call_expression [721,776]" dest="call_expression [607,662]"/>
+  <match src="call_expression [788,830]" dest="call_expression [674,716]"/>
+  <match src="): ) [829,830]" dest="): ) [715,716]"/>
+  <match src=",: , [813,814]" dest=",: , [699,700]"/>
+  <match src="call_expression [999,1057]" dest="call_expression [885,943]"/>
+  <match src="expression_statement [1119,1156]" dest="expression_statement [1005,1042]"/>
+  <match src="=: = [664,665]" dest="=: = [550,551]"/>
+  <match src="): ) [1056,1057]" dest="): ) [942,943]"/>
+  <match src="): ) [992,993]" dest="): ) [878,879]"/>
+  <match src="): ) [1154,1155]" dest="): ) [1040,1041]"/>
+  <match src="binary_expression [526,547]" dest="binary_expression [412,433]"/>
+  <match src="identifier: SHA_DIGEST_LENGTH [1285,1302]" dest="identifier: SHA_DIGEST_LENGTH [1171,1188]"/>
+  <match src="null [234,238]" dest="null [224,228]"/>
+  <match src="identifier: digv [122,126]" dest="identifier: digv [112,116]"/>
+  <match src="==: == [231,233]" dest="==: == [221,223]"/>
+  <match src="primitive_type: char [160,164]" dest="primitive_type: char [150,154]"/>
+  <match src="): ) [1308,1309]" dest="): ) [1194,1195]"/>
+  <match src="-&gt;: -&gt; [1024,1026]" dest="-&gt;: -&gt; [910,912]"/>
+  <match src="parenthesized_expression [657,694]" dest="parenthesized_expression [543,580]"/>
+  <match src="(: ( [1176,1177]" dest="(: ( [1062,1063]"/>
+  <match src=";: ; [1113,1114]" dest=";: ; [999,1000]"/>
+  <match src="): ) [684,685]" dest="): ) [570,571]"/>
+  <match src="(: ( [525,526]" dest="(: ( [411,412]"/>
+  <match src="identifier: vb [1043,1045]" dest="identifier: vb [929,931]"/>
+  <match src="): ) [1181,1182]" dest="): ) [1067,1068]"/>
+  <match src="identifier: vb [747,749]" dest="identifier: vb [633,635]"/>
+  <match src="identifier: digs [165,169]" dest="identifier: digs [155,159]"/>
+  <match src="identifier: ctxt [1188,1192]" dest="identifier: ctxt [1074,1078]"/>
+  <match src="return_statement [703,715]" dest="return_statement [589,601]"/>
+  <match src="return: return [248,254]" dest="return: return [238,244]"/>
+  <match src="if_statement [855,918]" dest="if_statement [741,804]"/>
+  <match src="null [1377,1381]" dest="null [1263,1267]"/>
+  <match src="primitive_type: char [117,121]" dest="primitive_type: char [107,111]"/>
+  <match src="identifier: username [1103,1111]" dest="identifier: username [989,997]"/>
+  <match src="identifier: vb [526,528]" dest="identifier: vb [412,414]"/>
+  <match src="field_identifier: default_g [751,760]" dest="field_identifier: default_g [637,646]"/>
+  <match src="identifier: ctxt [923,927]" dest="identifier: ctxt [809,813]"/>
+  <match src="pointer_declarator [97,102]" dest="pointer_declarator [87,92]"/>
+  <match src="if_statement [1205,1405]" dest="if_statement [1091,1291]"/>
+  <match src=";: ; [1057,1058]" dest=";: ; [943,944]"/>
+  <match src="identifier: vb [465,467]" dest="identifier: vb [351,353]"/>
+  <match src="null [1304,1308]" dest="null [1190,1194]"/>
+  <match src="identifier: SRP_user_pwd_set_sv_BN [1209,1231]" dest="identifier: SRP_user_pwd_set_sv_BN [1095,1117]"/>
+  <match src="): ) [899,900]" dest="): ) [785,786]"/>
+  <match src="): ) [893,894]" dest="): ) [779,780]"/>
+  <match src="sized_type_specifier [108,121]" dest="sized_type_specifier [98,111]"/>
+  <match src="(: ( [869,870]" dest="(: ( [755,756]"/>
+  <match src=";: ; [946,947]" dest=";: ; [832,833]"/>
+  <match src="comment: /* if the user is unknown we set parameters as well if we have a seed_key */ [572,648]" dest="comment: /* if the user is unknown we set parameters as well if we have a seed_key */ [458,534]"/>
+  <match src="identifier: user [809,813]" dest="identifier: user [695,699]"/>
+  <match src="): ) [945,946]" dest="): ) [831,832]"/>
+  <match src="(: ( [969,970]" dest="(: ( [855,856]"/>
+  <match src="function_declarator [14,66]" dest="function_declarator [14,67]"/>
+  <match src="parenthesized_expression [1208,1384]" dest="parenthesized_expression [1094,1270]"/>
+  <match src="if: if [1205,1207]" dest="if: if [1091,1093]"/>
+  <match src="binary_expression [228,238]" dest="binary_expression [218,228]"/>
+  <match src="null [481,485]" dest="null [367,371]"/>
+  <match src="argument_list [969,993]" dest="argument_list [855,879]"/>
+  <match src=",: , [49,50]" dest=",: , [50,51]"/>
+  <match src="identifier: user [659,663]" dest="identifier: user [545,549]"/>
+  <match src="): ) [548,549]" dest="): ) [434,435]"/>
+  <match src=";: ; [917,918]" dest=";: ; [803,804]"/>
+  <match src="unsigned: unsigned [151,159]" dest="unsigned: unsigned [141,149]"/>
+  <match src="(: ( [1137,1138]" dest="(: ( [1023,1024]"/>
+  <match src=",: , [1356,1357]" dest=",: , [1242,1243]"/>
+  <match src="declaration [84,103]" dest="declaration [74,93]"/>
+  <match src="*: * [97,98]" dest="*: * [87,88]"/>
+  <match src="NULL: NULL [516,520]" dest="NULL: NULL [402,406]"/>
+  <match src="argument_list [984,986]" dest="argument_list [870,872]"/>
+  <match src=",: , [1094,1095]" dest=",: , [980,981]"/>
+  <match src="call_expression [1269,1309]" dest="call_expression [1155,1195]"/>
+  <match src="identifier: ctxt [206,210]" dest="identifier: ctxt [196,200]"/>
+  <match src="NULL: NULL [234,238]" dest="NULL: NULL [224,228]"/>
+  <match src=",: , [1236,1237]" dest=",: , [1122,1123]"/>
+  <match src="call_expression [859,894]" dest="call_expression [745,780]"/>
+  <match src="if_statement [460,570]" dest="if_statement [346,456]"/>
+  <match src=",: , [1084,1085]" dest=",: , [970,971]"/>
+  <match src="call_expression [976,986]" dest="call_expression [862,872]"/>
+  <match src="argument_list [1079,1113]" dest="argument_list [965,999]"/>
+  <match src="(: ( [1042,1043]" dest="(: ( [928,929]"/>
+  <match src=",: , [986,987]" dest=",: , [872,873]"/>
+  <match src="call_expression [1119,1155]" dest="call_expression [1005,1041]"/>
+  <match src="function_definition [0,1487]" dest="function_definition [0,1373]"/>
+  <match src="identifier: vb [47,49]" dest="identifier: vb [48,50]"/>
+  <match src="*: * [205,206]" dest="*: * [195,196]"/>
+  <match src="(: ( [657,658]" dest="(: ( [543,544]"/>
+  <match src="parenthesized_expression [525,548]" dest="parenthesized_expression [411,434]"/>
+  <match src="NULL: NULL [988,992]" dest="NULL: NULL [874,878]"/>
+  <match src="expression_statement [999,1058]" dest="expression_statement [885,944]"/>
+  <match src="pointer_declarator [46,49]" dest="pointer_declarator [47,50]"/>
+  <match src="(: ( [858,859]" dest="(: ( [744,745]"/>
+  <match src="labeled_statement [1408,1439]" dest="labeled_statement [1294,1325]"/>
+  <match src="): ) [775,776]" dest="): ) [661,662]"/>
+  <match src="(: ( [1231,1232]" dest="(: ( [1117,1118]"/>
+  <match src="NULL: NULL [689,693]" dest="NULL: NULL [575,579]"/>
+  <match src="call_expression [1342,1382]" dest="call_expression [1228,1268]"/>
+  <match src="(: ( [1432,1433]" dest="(: ( [1318,1319]"/>
+  <match src="(: ( [944,945]" dest="(: ( [830,831]"/>
+  <match src=";: ; [848,849]" dest=";: ; [734,735]"/>
+  <match src="expression_statement [1188,1200]" dest="expression_statement [1074,1086]"/>
+  <match src="argument_list [1461,1467]" dest="argument_list [1347,1353]"/>
+  <match src="==: == [513,515]" dest="==: == [399,401]"/>
+  <match src="identifier: RAND_bytes [859,869]" dest="identifier: RAND_bytes [745,755]"/>
+  <match src="expression_statement [923,947]" dest="expression_statement [809,833]"/>
+  <match src="[: [ [169,170]" dest="[: [ [159,160]"/>
+  <match src=";: ; [714,715]" dest=";: ; [600,601]"/>
+  <match src="(: ( [808,809]" dest="(: ( [694,695]"/>
+  <match src="identifier: ctxt [1177,1181]" dest="identifier: ctxt [1063,1067]"/>
+  <match src="identifier: vb [762,764]" dest="identifier: vb [648,650]"/>
+  <match src="expression_statement [1444,1468]" dest="expression_statement [1330,1354]"/>
+  <match src="binary_expression [464,548]" dest="binary_expression [350,434]"/>
+  <match src="(: ( [740,741]" dest="(: ( [626,627]"/>
+  <match src="identifier: BN_bin2bn [1342,1351]" dest="identifier: BN_bin2bn [1228,1237]"/>
+  <match src="identifier: SRP_user_pwd_set_ids [788,808]" dest="identifier: SRP_user_pwd_set_ids [674,694]"/>
+  <match src="identifier: strlen [1036,1042]" dest="identifier: strlen [922,928]"/>
+  <match src="identifier: EVP_DigestInit_ex [952,969]" dest="identifier: EVP_DigestInit_ex [838,855]"/>
+  <match src="(: ( [658,659]" dest="(: ( [544,545]"/>
+  <match src="null [988,992]" dest="null [874,878]"/>
+  <match src="parameter_declaration [51,65]" dest="parameter_declaration [52,66]"/>
+  <match src="): ) [485,486]" dest="): ) [371,372]"/>
+  <match src="NULL: NULL [1195,1199]" dest="NULL: NULL [1081,1085]"/>
+  <match src="parenthesized_expression [858,900]" dest="parenthesized_expression [744,786]"/>
+  <match src="identifier: SHA_DIGEST_LENGTH [127,144]" dest="identifier: SHA_DIGEST_LENGTH [117,134]"/>
+  <match src="type_identifier: SRP_VBASE [36,45]" dest="type_identifier: SRP_VBASE [37,46]"/>
+  <match src=";: ; [217,218]" dest=";: ; [207,208]"/>
+  <match src=";: ; [1182,1183]" dest=";: ; [1068,1069]"/>
+  <match src="field_identifier: seed_key [469,477]" dest="field_identifier: seed_key [355,363]"/>
+  <match src=";: ; [1484,1485]" dest=";: ; [1370,1371]"/>
+  <match src="type_identifier: SRP_user_pwd [0,12]" dest="type_identifier: SRP_user_pwd [0,12]"/>
+  <match src="call_expression [666,684]" dest="call_expression [552,570]"/>
+  <match src="): ) [1111,1112]" dest="): ) [997,998]"/>
+  <match src="null [213,217]" dest="null [203,207]"/>
+  <match src="declaration [151,189]" dest="declaration [141,179]"/>
+  <match src="call_expression [1209,1383]" dest="call_expression [1095,1269]"/>
+  <match src="identifier: EVP_MD_CTX_free [1417,1432]" dest="identifier: EVP_MD_CTX_free [1303,1318]"/>
+  <match src="if: if [460,462]" dest="if: if [346,348]"/>
+  <match src="NULL: NULL [213,217]" dest="NULL: NULL [203,207]"/>
+  <match src="identifier: ctxt [1080,1084]" dest="identifier: ctxt [966,970]"/>
+  <match src="null [825,829]" dest="null [711,715]"/>
+  <match src="field_identifier: default_N [766,775]" dest="field_identifier: default_N [652,661]"/>
+  <match src="*: * [13,14]" dest="*: * [13,14]"/>
+  <match src="null [689,693]" dest="null [575,579]"/>
+  <match src="(: ( [1015,1016]" dest="(: ( [901,902]"/>
+  <match src="statement_identifier: err [914,917]" dest="statement_identifier: err [800,803]"/>
+  <match src="(: ( [1102,1103]" dest="(: ( [988,989]"/>
+  <match src="pointer_declarator [56,65]" dest="pointer_declarator [57,66]"/>
+  <match src="statement_identifier: err [845,848]" dest="statement_identifier: err [731,734]"/>
+  <match src="unsigned: unsigned [108,116]" dest="unsigned: unsigned [98,106]"/>
+  <match src="-&gt;: -&gt; [528,530]" dest="-&gt;: -&gt; [414,416]"/>
+  <match src="goto: goto [909,913]" dest="goto: goto [795,799]"/>
+  <match src="): ) [520,521]" dest="): ) [406,407]"/>
+  <match src="=: = [1193,1194]" dest="=: = [1079,1080]"/>
+  <match src="identifier: EVP_DigestUpdate [999,1015]" dest="identifier: EVP_DigestUpdate [885,901]"/>
+  <match src="||: || [487,489]" dest="||: || [373,375]"/>
+  <match src="null [516,520]" dest="null [402,406]"/>
+  <match src="field_expression [1022,1034]" dest="field_expression [908,920]"/>
+  <match src="array_declarator [165,188]" dest="array_declarator [155,178]"/>
+  <match src="identifier: user [741,745]" dest="identifier: user [627,631]"/>
+  <match src="identifier: ctxt [1016,1020]" dest="identifier: ctxt [902,906]"/>
+  <match src="==: == [686,688]" dest="==: == [572,574]"/>
+  <match src=";: ; [569,570]" dest=";: ; [455,456]"/>
+  <match src="NULL: NULL [255,259]" dest="NULL: NULL [245,249]"/>
+  <match src=";: ; [1199,1200]" dest=";: ; [1085,1086]"/>
+  <match src="argument_list [1042,1056]" dest="argument_list [928,942]"/>
+  <match src="declaration [108,146]" dest="declaration [98,136]"/>
+  <match src="null [255,259]" dest="null [245,249]"/>
+  <match src="=: = [928,929]" dest="=: = [814,815]"/>
+  <match src="identifier: digv [870,874]" dest="identifier: digv [756,760]"/>
+  <match src=";: ; [102,103]" dest=";: ; [92,93]"/>
+  <match src="field_identifier: default_N [530,539]" dest="field_identifier: default_N [416,425]"/>
+  <match src="return: return [558,564]" dest="return: return [444,450]"/>
+  <match src=",: , [1034,1035]" dest=",: , [920,921]"/>
+  <match src="identifier: SRP_user_pwd_new [666,682]" dest="identifier: SRP_user_pwd_new [552,568]"/>
+  <match src="(: ( [227,228]" dest="(: ( [217,218]"/>
+  <match src="(: ( [498,499]" dest="(: ( [384,385]"/>
+  <match src=";: ; [993,994]" dest=";: ; [879,880]"/>
+  <match src="type_identifier: EVP_MD_CTX [194,204]" dest="type_identifier: EVP_MD_CTX [184,194]"/>
+  <match src="argument_list [1137,1155]" dest="argument_list [1023,1041]"/>
+  <match src="(: ( [1208,1209]" dest="(: ( [1094,1095]"/>
+  <match src="parenthesized_expression [227,239]" dest="parenthesized_expression [217,229]"/>
+  <match src="identifier: EVP_DigestUpdate [1063,1079]" dest="identifier: EVP_DigestUpdate [949,965]"/>
+  <match src="}: } [1486,1487]" dest="}: } [1372,1373]"/>
+  <match src=";: ; [776,777]" dest=";: ; [662,663]"/>
+</matches>
+<actions>
+  <insert-tree tree="if_statement [256,340]" parent="compound_statement [67,1487]" at="7"/>
+  <update-node tree="identifier: SRP_VBASE_get_by_user [14,35]" label="SRP_VBASE_get1_by_user"/>
+  <delete-tree tree="declaration [73,79]"/>
+  <delete-tree tree="for_statement [265,455]"/>
+</actions>

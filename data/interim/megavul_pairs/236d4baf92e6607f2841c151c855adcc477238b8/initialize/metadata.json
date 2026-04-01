@@ -1,0 +1,20 @@
+{
+    "id": "236d4baf92e6607f2841c151c855adcc477238b8_initialize_0",
+    "func_name": "initialize",
+    "cve_id": "CVE-2022-39308",
+    "cwe_ids": [
+        "CWE-697"
+    ],
+    "commit_hash": "236d4baf92e6607f2841c151c855adcc477238b8",
+    "parent_commit_hash": "5e1223e179266cc9f4a04f65280e6903aa5dbf4f",
+    "repo_name": "gocd",
+    "git_url": "https://github.com/gocd/gocd/commit/236d4baf92e6607f2841c151c855adcc477238b8",
+    "file_path": "server/src/test-shared/java/com/thoughtworks/go/server/dao/DatabaseAccessHelper.java",
+    "file_name": "DatabaseAccessHelper.java",
+    "commit_date": 1548972510,
+    "commit_msg": "Access Token APIs  (#5797)\n\n* Define a AuthTokenSqlMapDao to store and retrieve token information from DB\r\n\r\n* Introduce Auth Token API to manage auth tokens\r\n\r\n* Store the hashed token instead of storing the raw value\r\n\r\n* Some tests\r\n\r\n* Store information of the user who has created the auth token\r\n\r\n* Use SHA-256 instead of MD5 for hashing token value\r\n\r\n* Change username data type from VARCHAR to VARCHAR_IGNORECASE\r\n\r\n* Introduce AuthTokenMother to create authToken in tests\r\n\r\n* Fix auth token controller specs\r\n\r\n* Remove unused class variable from test\r\n\r\n* Introduce auth token index endpoint to fetch all the tokens belonging to me\r\n\r\n* Add extra attributes to auth token\r\n* Salt Id\r\n* Salt Value\r\n* Auth Config Id\r\n* Revoked At\r\n\r\n* Add support for revoking access tokens\r\nAdd a method to validate and fetch access token object provided access token\r\n\r\n* Rename controller package and module\r\n\r\n* rename service and dao\r\n\r\n* Rename auth token package\r\n\r\n* Rename rules under url rewrite\r\n\r\n* Renamed few more occurences of auth token to acccess tokens",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "cvss_base_score": 5.9,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

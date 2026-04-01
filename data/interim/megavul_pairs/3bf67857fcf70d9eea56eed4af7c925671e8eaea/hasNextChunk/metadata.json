@@ -1,0 +1,20 @@
+{
+    "id": "3bf67857fcf70d9eea56eed4af7c925671e8eaea_hasNextChunk_0",
+    "func_name": "hasNextChunk",
+    "cve_id": "CVE-2023-34455",
+    "cwe_ids": [
+        "CWE-770"
+    ],
+    "commit_hash": "3bf67857fcf70d9eea56eed4af7c925671e8eaea",
+    "parent_commit_hash": "820e2e074c58748b41dbd547f4edba9e108ad905",
+    "repo_name": "xerial/snappy-java",
+    "git_url": "https://github.com/xerial/snappy-java/commit/3bf67857fcf70d9eea56eed4af7c925671e8eaea",
+    "file_path": "src/main/java/org/xerial/snappy/SnappyInputStream.java",
+    "file_name": "SnappyInputStream.java",
+    "commit_date": 1686736192,
+    "commit_msg": "Merge pull request from GHSA-qcwq-55hx-v3vh\n\n* asserted chunksize should be in the bounds of 0-java.outofmmeoryexception\n\n* asserted chunksize should be in the bounds of 0-java.outofmmeoryexception\n\n* https://github.com/xerial/snappy-java-ghsa-qcwq-55hx-v3vh/pull/2\n\n* advisory-fix-3\n\n* added and changed method name for happy and sad cases in SnappyTest.java\n\n* removed expected error for happy case in unit testing\n\n* added another unit test case in SnappyTest.java and fixed comments in SnappyInputStream.java\n\n* switched SnappyError to INVALID_CHUNK_SIZE\n\n* Updated unit tests\n\n* Resolved conflicts with another PR merge",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

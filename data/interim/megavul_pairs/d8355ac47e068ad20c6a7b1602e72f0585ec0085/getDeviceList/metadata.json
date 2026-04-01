@@ -1,0 +1,20 @@
+{
+    "id": "d8355ac47e068ad20c6a7b1602e72f0585ec0085_getDeviceList_0",
+    "func_name": "getDeviceList",
+    "cve_id": "CVE-2023-35667",
+    "cwe_ids": [
+        "CWE-Other"
+    ],
+    "commit_hash": "d8355ac47e068ad20c6a7b1602e72f0585ec0085",
+    "parent_commit_hash": "185bd5b809d252a866952cec5b97897fd261447b",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/packages/apps/Settings/+/d8355ac47e068ad20c6a7b1602e72f0585ec0085",
+    "file_path": "src/com/android/settings/notification/NotificationBackend.java",
+    "file_name": "NotificationBackend.java",
+    "commit_date": 1685982244,
+    "commit_msg": "Don't hide approved NLSes in Settings\n\nNote that an NLS that shouldn't be approvable (because its name is too long) but was already approved (either before the max length check was introduced, or through other means) will disappear from the list if the user revokes its access. This might be somewhat confusing, but since this is a very-edge case already it's fine.\n\nBug: 282932362\nTest: manual\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:ff255c6eda1528f01a167a9a65b7f8e414d28584)\nMerged-In: I4c9faea68e6d16b1a4ec7f472b5433cac1704c06\nChange-Id: I4c9faea68e6d16b1a4ec7f472b5433cac1704c06\n",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 7.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

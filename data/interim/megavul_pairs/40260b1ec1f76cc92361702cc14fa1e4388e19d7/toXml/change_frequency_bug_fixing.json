@@ -1,0 +1,66 @@
+{
+  "frequency": [
+    {
+      "c": "Return",
+      "f": "2"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "ConstructorCall",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "insert-node_Return_Block",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Return_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_ConstructorCall_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Return",
+      "f": "0.5"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "0.25"
+    },
+    {
+      "c": "ConstructorCall",
+      "f": "0.25"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "insert-node_Return_Block",
+      "f": "0.25"
+    },
+    {
+      "c": "delete-node_Return_Block",
+      "f": "0.25"
+    },
+    {
+      "c": "move-tree_ConstructorCall_LocalVariable",
+      "f": "0.25"
+    },
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "0.25"
+    }
+  ]
+}

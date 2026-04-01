@@ -1,0 +1,20 @@
+{
+    "id": "0b98d304c467184602b4c6bce76fda0b0274bc07_createAppWidgetConfigIntentSender_0",
+    "func_name": "createAppWidgetConfigIntentSender",
+    "cve_id": "CVE-2015-1541",
+    "cwe_ids": [
+        "CWE-284"
+    ],
+    "commit_hash": "0b98d304c467184602b4c6bce76fda0b0274bc07",
+    "parent_commit_hash": "d44e5bde18a41beda39d49189bef7f2ba7c8f3cb",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/0b98d304c467184602b4c6bce76fda0b0274bc07",
+    "file_path": "services/appwidget/java/com/android/server/appwidget/AppWidgetServiceImpl.java",
+    "file_name": "AppWidgetServiceImpl.java",
+    "commit_date": 1429543710,
+    "commit_msg": "DO NOT MERGE Don't take flags when creating app widget config activity.\n\nbug:19618745\n\nChange-Id: I7973ebfc67ebf52f14890dda9eb891a7b8a5a095\n",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

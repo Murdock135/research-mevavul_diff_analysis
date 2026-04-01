@@ -1,0 +1,66 @@
+{
+  "frequency": [
+    {
+      "c": "Invocation",
+      "f": "2"
+    },
+    {
+      "c": "Parameter",
+      "f": "1"
+    },
+    {
+      "c": "If",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "delete-node_Parameter_Method",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Invocation_Block",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Invocation_Block",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Invocation",
+      "f": "0.5"
+    },
+    {
+      "c": "Parameter",
+      "f": "0.25"
+    },
+    {
+      "c": "If",
+      "f": "0.25"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "delete-node_Parameter_Method",
+      "f": "0.25"
+    },
+    {
+      "c": "delete-node_Invocation_Block",
+      "f": "0.25"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "0.25"
+    },
+    {
+      "c": "move-tree_Invocation_Block",
+      "f": "0.25"
+    }
+  ]
+}

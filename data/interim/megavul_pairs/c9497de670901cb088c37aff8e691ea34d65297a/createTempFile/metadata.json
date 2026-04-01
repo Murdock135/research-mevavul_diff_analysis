@@ -1,0 +1,20 @@
+{
+    "id": "c9497de670901cb088c37aff8e691ea34d65297a_createTempFile_0",
+    "func_name": "createTempFile",
+    "cve_id": "CVE-2021-28168",
+    "cwe_ids": [
+        "CWE-668"
+    ],
+    "commit_hash": "c9497de670901cb088c37aff8e691ea34d65297a",
+    "parent_commit_hash": "5794b7a2da9bfc3404cc662b988fbee55f74059d",
+    "repo_name": "eclipse-ee4j/jersey",
+    "git_url": "https://github.com/eclipse-ee4j/jersey/commit/c9497de670901cb088c37aff8e691ea34d65297a",
+    "file_path": "core-common/src/main/java/org/glassfish/jersey/message/internal/Utils.java",
+    "file_name": "Utils.java",
+    "commit_date": 1614820932,
+    "commit_msg": "atomicReference instead of collection\n\nSigned-off-by: Maxim Nesen <maxim.nesen@oracle.com>",
+    "cvss_vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N",
+    "cvss_base_score": 2.1,
+    "cvss_base_severity": "LOW",
+    "cvss_is_v3": false
+}

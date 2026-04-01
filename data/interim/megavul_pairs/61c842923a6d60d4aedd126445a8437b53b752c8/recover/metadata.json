@@ -1,0 +1,20 @@
+{
+    "id": "61c842923a6d60d4aedd126445a8437b53b752c8_recover_0",
+    "func_name": "recover",
+    "cve_id": "CVE-2019-10908",
+    "cwe_ids": [
+        "CWE-335"
+    ],
+    "commit_hash": "61c842923a6d60d4aedd126445a8437b53b752c8",
+    "parent_commit_hash": "e330eeb864e48813636295fd5b8e08d1f04a9236",
+    "repo_name": "airsonic",
+    "git_url": "https://github.com/airsonic/airsonic/commit/61c842923a6d60d4aedd126445a8437b53b752c8",
+    "file_path": "airsonic-main/src/main/java/org/airsonic/player/controller/RecoverController.java",
+    "file_name": "RecoverController.java",
+    "commit_date": 1553777277,
+    "commit_msg": "Generate new passwords in a secure way\n\nPreviously, lost passwords were generated via\norg.apache.commons.lang.RandomStringUtils,\nwhich is using java.util.Random internally.\n\nThis PRNG is has a 48-bit seed, that can easily be bruteforced\nif an attacker is able to get the PRNG's output, for example\nbut resetting their own account multiple times,\nleading to trivial privileges escalation attacks.\n\nThis commit makes use of java.security.SecureRandom\ninstead.",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

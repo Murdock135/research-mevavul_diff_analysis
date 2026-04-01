@@ -1,0 +1,20 @@
+{
+    "id": "2c576483f26f85b3979c6948a131f585c237109a_prepareDownloadFile_0",
+    "func_name": "prepareDownloadFile",
+    "cve_id": "CVE-2021-21430",
+    "cwe_ids": [
+        "CWE-668"
+    ],
+    "commit_hash": "2c576483f26f85b3979c6948a131f585c237109a",
+    "parent_commit_hash": "e6b44349ba18748ca1e66d2da895d7a38f2d2dbd",
+    "repo_name": "OpenAPITools/openapi-generator",
+    "git_url": "https://github.com/OpenAPITools/openapi-generator/commit/2c576483f26f85b3979c6948a131f585c237109a",
+    "file_path": "samples/client/petstore/java/resteasy/src/main/java/org/openapitools/client/ApiClient.java",
+    "file_name": "ApiClient.java",
+    "commit_date": 1613952393,
+    "commit_msg": "use Files.createTempFile",
+    "cvss_vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N",
+    "cvss_base_score": 2.1,
+    "cvss_base_severity": "LOW",
+    "cvss_is_v3": false
+}

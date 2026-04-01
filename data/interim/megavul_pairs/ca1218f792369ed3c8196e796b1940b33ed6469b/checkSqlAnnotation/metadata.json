@@ -1,0 +1,20 @@
+{
+    "id": "ca1218f792369ed3c8196e796b1940b33ed6469b_checkSqlAnnotation_0",
+    "func_name": "checkSqlAnnotation",
+    "cve_id": "CVE-2023-38905",
+    "cwe_ids": [
+        "CWE-89"
+    ],
+    "commit_hash": "ca1218f792369ed3c8196e796b1940b33ed6469b",
+    "parent_commit_hash": "8ed2da601be9c260ea4d567dff9a4693842afb01",
+    "repo_name": "jeecgboot/jeecg-boot",
+    "git_url": "https://github.com/jeecgboot/jeecg-boot/commit/ca1218f792369ed3c8196e796b1940b33ed6469b",
+    "file_path": "jeecg-boot-base-core/src/main/java/org/jeecg/common/util/SqlInjectionUtil.java",
+    "file_name": "SqlInjectionUtil.java",
+    "commit_date": 1681321366,
+    "commit_msg": "sys/duplicate/check SQL\u6ce8\u5165 #4737",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

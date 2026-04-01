@@ -1,0 +1,20 @@
+{
+    "id": "a48db605577d941b5ae3e899a1187303e138ca74_readAttributeValue_0",
+    "func_name": "readAttributeValue",
+    "cve_id": "CVE-2021-3503",
+    "cwe_ids": [
+        "CWE-200"
+    ],
+    "commit_hash": "a48db605577d941b5ae3e899a1187303e138ca74",
+    "parent_commit_hash": "c826284f3e353bbb9818eea198d293acc4a688e4",
+    "repo_name": "wildfly",
+    "git_url": "https://github.com/wildfly/wildfly/commit/a48db605577d941b5ae3e899a1187303e138ca74",
+    "file_path": "metrics/src/main/java/org/wildfly/extension/metrics/WildFlyMetric.java",
+    "file_name": "WildFlyMetric.java",
+    "commit_date": 1616133500,
+    "commit_msg": "[WFLY-11933] Return properly configured ModelNode when RBAC is enabled\n\nReturn empty ModelNode for attributes restricted by RBAC so that isDefined() answers correctly\n(h/t jmesnil)",
+    "cvss_vector": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+    "cvss_base_score": 4.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

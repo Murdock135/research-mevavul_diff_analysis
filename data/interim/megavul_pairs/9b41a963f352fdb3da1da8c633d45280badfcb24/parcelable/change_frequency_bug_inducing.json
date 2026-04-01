@@ -1,0 +1,66 @@
+{
+  "frequency": [
+    {
+      "c": "Return",
+      "f": "2"
+    },
+    {
+      "c": "Assignment",
+      "f": "1"
+    },
+    {
+      "c": "ConstructorCall",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "insert-node_Return_Block",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Return_Block",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Assignment_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_ConstructorCall_Assignment",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Return",
+      "f": "0.5"
+    },
+    {
+      "c": "Assignment",
+      "f": "0.25"
+    },
+    {
+      "c": "ConstructorCall",
+      "f": "0.25"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "insert-node_Return_Block",
+      "f": "0.25"
+    },
+    {
+      "c": "delete-node_Return_Block",
+      "f": "0.25"
+    },
+    {
+      "c": "delete-node_Assignment_Block",
+      "f": "0.25"
+    },
+    {
+      "c": "move-tree_ConstructorCall_Assignment",
+      "f": "0.25"
+    }
+  ]
+}

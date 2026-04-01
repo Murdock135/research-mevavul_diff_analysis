@@ -1,0 +1,154 @@
+{
+  "frequency": [
+    {
+      "c": "TypeAccess",
+      "f": "5"
+    },
+    {
+      "c": "Invocation",
+      "f": "5"
+    },
+    {
+      "c": "VariableRead",
+      "f": "4"
+    },
+    {
+      "c": "Parameter",
+      "f": "1"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "TypeReference",
+      "f": "1"
+    },
+    {
+      "c": "If",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "update-node_TypeAccess_Invocation",
+      "f": "3"
+    },
+    {
+      "c": "delete-node_VariableRead_Invocation",
+      "f": "2"
+    },
+    {
+      "c": "insert-node_TypeAccess_Invocation",
+      "f": "2"
+    },
+    {
+      "c": "update-node_Invocation_Block",
+      "f": "2"
+    },
+    {
+      "c": "update-node_VariableRead_Invocation",
+      "f": "2"
+    },
+    {
+      "c": "move-tree_Invocation_Block",
+      "f": "2"
+    },
+    {
+      "c": "delete-node_Invocation_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_TypeReference_Parameter",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_Parameter_Method",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "TypeAccess",
+      "f": "0.2777777777777778"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.2777777777777778"
+    },
+    {
+      "c": "VariableRead",
+      "f": "0.2222222222222222"
+    },
+    {
+      "c": "Parameter",
+      "f": "0.05555555555555555"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "0.05555555555555555"
+    },
+    {
+      "c": "TypeReference",
+      "f": "0.05555555555555555"
+    },
+    {
+      "c": "If",
+      "f": "0.05555555555555555"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "update-node_TypeAccess_Invocation",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "delete-node_VariableRead_Invocation",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "insert-node_TypeAccess_Invocation",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "update-node_Invocation_Block",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "update-node_VariableRead_Invocation",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "move-tree_Invocation_Block",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "delete-node_Invocation_Block",
+      "f": "0.05555555555555555"
+    },
+    {
+      "c": "update-node_TypeReference_Parameter",
+      "f": "0.05555555555555555"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "0.05555555555555555"
+    },
+    {
+      "c": "update-node_Parameter_Method",
+      "f": "0.05555555555555555"
+    },
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "0.05555555555555555"
+    }
+  ]
+}

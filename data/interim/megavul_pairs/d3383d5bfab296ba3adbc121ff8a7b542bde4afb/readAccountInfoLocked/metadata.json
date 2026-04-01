@@ -1,0 +1,20 @@
+{
+    "id": "d3383d5bfab296ba3adbc121ff8a7b542bde4afb_readAccountInfoLocked_0",
+    "func_name": "readAccountInfoLocked",
+    "cve_id": "CVE-2016-2424",
+    "cwe_ids": [
+        "CWE-20"
+    ],
+    "commit_hash": "d3383d5bfab296ba3adbc121ff8a7b542bde4afb",
+    "parent_commit_hash": "63363af721650e426db5b0bdfb8b2d4fe36abdb0",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/d3383d5bfab296ba3adbc121ff8a7b542bde4afb",
+    "file_path": "services/core/java/com/android/server/content/SyncStorageEngine.java",
+    "file_name": "SyncStorageEngine.java",
+    "commit_date": 1455930070,
+    "commit_msg": "NPE fix for SyncStorageEngine read authority am: a962d9eba7 am: 339c4f2b05\nam: 58048c1f17\n\n* commit '58048c1f17d54166c6a048af2365d17dd32f4d57':\n  NPE fix for SyncStorageEngine read authority\n",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:N/I:N/A:C",
+    "cvss_base_score": 7.1,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

@@ -1,0 +1,90 @@
+{
+  "frequency": [
+    {
+      "c": "Invocation",
+      "f": "3"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "UnaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "If",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "delete-node_Invocation_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_UnaryOperator_BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_BinaryOperator_If",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Invocation_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_Invocation_Invocation",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Invocation",
+      "f": "0.5"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "UnaryOperator",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "If",
+      "f": "0.16666666666666666"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "delete-node_Invocation_Invocation",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "move-tree_UnaryOperator_BinaryOperator",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "delete-node_BinaryOperator_If",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "move-tree_Invocation_Block",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "update-node_Invocation_Invocation",
+      "f": "0.16666666666666666"
+    }
+  ]
+}

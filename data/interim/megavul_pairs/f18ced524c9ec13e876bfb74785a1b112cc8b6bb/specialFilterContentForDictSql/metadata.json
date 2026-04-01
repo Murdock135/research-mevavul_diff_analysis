@@ -1,0 +1,20 @@
+{
+    "id": "f18ced524c9ec13e876bfb74785a1b112cc8b6bb_specialFilterContentForDictSql_3",
+    "func_name": "specialFilterContentForDictSql",
+    "cve_id": "CVE-2022-45206",
+    "cwe_ids": [
+        "CWE-89"
+    ],
+    "commit_hash": "f18ced524c9ec13e876bfb74785a1b112cc8b6bb",
+    "parent_commit_hash": "d34614c4224ec1af69d0d81329d84fe98e11f694",
+    "repo_name": "jeecgboot/jeecg-boot",
+    "git_url": "https://github.com/jeecgboot/jeecg-boot/commit/f18ced524c9ec13e876bfb74785a1b112cc8b6bb",
+    "file_path": "jeecg-boot-base-core/src/main/java/org/jeecg/common/util/SqlInjectionUtil.java",
+    "file_name": "SqlInjectionUtil.java",
+    "commit_date": 1667325218,
+    "commit_msg": "sql\u6ce8\u5165\u68c0\u67e5\u66f4\u52a0\u4e25\u683c\uff0c\u4fee\u590d/sys/duplicate/check\u5b58\u5728sql\u6ce8\u5165\u6f0f\u6d1e #4129",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_is_v3": true
+}

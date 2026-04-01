@@ -1,0 +1,20 @@
+{
+    "id": "6c9a41117d5a9365cf34e770bbb00138f6bf997e_hasPermissionForActivity_0",
+    "func_name": "hasPermissionForActivity",
+    "cve_id": "CVE-2023-40097",
+    "cwe_ids": [
+        "CWE-20"
+    ],
+    "commit_hash": "6c9a41117d5a9365cf34e770bbb00138f6bf997e",
+    "parent_commit_hash": "0e3f63d375831a98606ef25393edf04d9f585467",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/packages/apps/Launcher3/+/6c9a41117d5a9365cf34e770bbb00138f6bf997e",
+    "file_path": "src/com/android/launcher3/util/PackageManagerHelper.java",
+    "file_name": "PackageManagerHelper.java",
+    "commit_date": 1694558236,
+    "commit_msg": "Fix permission bypass in legacy shortcut\n\nIntent created for Chooser should not be allowed in legacy shortcuts\nsince it doesn't make sense for user to tap on a shortcut in homescreen\nto share, the expected share flow started from ShareSheet.\n\nBug: 295334906, 295045199\nTest: manual\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:b7b192bd7f24a2aa7d6881ee949657c9760c0305)\nMerged-In: I8d0cbccdc31bd4cb927830e5ecf841147400fdfa\nChange-Id: I8d0cbccdc31bd4cb927830e5ecf841147400fdfa\n",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 7.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

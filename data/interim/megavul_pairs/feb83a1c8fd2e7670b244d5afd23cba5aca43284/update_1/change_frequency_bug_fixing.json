@@ -1,0 +1,58 @@
+{
+  "frequency": [
+    {
+      "c": "FieldRead",
+      "f": "1"
+    },
+    {
+      "c": "TypeAccess",
+      "f": "1"
+    },
+    {
+      "c": "Literal",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "delete-node_FieldRead_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "update-node_TypeAccess_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Literal_Invocation",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "FieldRead",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "TypeAccess",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "Literal",
+      "f": "0.3333333333333333"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "delete-node_FieldRead_Invocation",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "update-node_TypeAccess_Invocation",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "delete-node_Literal_Invocation",
+      "f": "0.3333333333333333"
+    }
+  ]
+}

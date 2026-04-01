@@ -1,0 +1,20 @@
+{
+    "id": "a5456633ff75e8f13705974c7ed1ce77f3f142d5_execute_0",
+    "func_name": "execute",
+    "cve_id": "CVE-2013-10013",
+    "cwe_ids": [
+        "CWE-89"
+    ],
+    "commit_hash": "a5456633ff75e8f13705974c7ed1ce77f3f142d5",
+    "parent_commit_hash": "18d246b6642ed7ce282f093dd3a1da0b485dff3b",
+    "repo_name": "Bricco/authenticator-plugin",
+    "git_url": "https://github.com/Bricco/authenticator-plugin/commit/a5456633ff75e8f13705974c7ed1ce77f3f142d5",
+    "file_path": "src/java/talentum/escenic/plugins/authenticator/authenticators/DBAuthenticator.java",
+    "file_name": "DBAuthenticator.java",
+    "commit_date": 1378242570,
+    "commit_msg": "Prevent SQL-injection",
+    "cvss_vector": "AV:A/AC:L/Au:S/C:P/I:P/A:P",
+    "cvss_base_score": 5.2,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

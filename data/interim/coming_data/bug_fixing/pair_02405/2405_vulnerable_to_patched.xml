@@ -1,0 +1,663 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="||: || [1325,1327]" dest="||: || [1358,1360]"/>
+  <match src="identifier: SMTP_EOB_LEN [1328,1340]" dest="identifier: SMTP_EOB_LEN [1361,1373]"/>
+  <match src="identifier: nread [70,75]" dest="identifier: nread [70,75]"/>
+  <match src="field_expression [2013,2022]" dest="field_expression [2046,2055]"/>
+  <match src="-&gt;: -&gt; [700,702]" dest="-&gt;: -&gt; [700,702]"/>
+  <match src="field_expression [1702,1727]" dest="field_expression [1735,1760]"/>
+  <match src="identifier: scratch [2466,2473]" dest="identifier: scratch [2499,2506]"/>
+  <match src=";: ; [1908,1909]" dest=";: ; [1941,1942]"/>
+  <match src="(: ( [1991,1992]" dest="(: ( [2024,2025]"/>
+  <match src="-&gt;: -&gt; [2234,2236]" dest="-&gt;: -&gt; [2267,2269]"/>
+  <match src="identifier: data [2697,2701]" dest="identifier: data [2730,2734]"/>
+  <match src="[: [ [1568,1569]" dest="[: [ [1601,1602]"/>
+  <match src="compound_statement [712,931]" dest="compound_statement [712,924]"/>
+  <match src="number_literal: 0 [1133,1134]" dest="number_literal: 0 [1166,1167]"/>
+  <match src="field_identifier: eob [1321,1324]" dest="field_identifier: eob [1354,1357]"/>
+  <match src="return_statement [892,919]" dest="return_statement [885,912]"/>
+  <match src=".: . [705,706]" dest=".: . [705,706]"/>
+  <match src="identifier: eob_sent [1796,1804]" dest="identifier: eob_sent [1829,1837]"/>
+  <match src="}: } [930,931]" dest="}: } [923,924]"/>
+  <match src="expression_statement [1410,1438]" dest="expression_statement [1443,1471]"/>
+  <match src="field_identifier: req [2703,2706]" dest="field_identifier: req [2736,2739]"/>
+  <match src="type_identifier: connectdata [37,48]" dest="type_identifier: connectdata [37,48]"/>
+  <match src="declaration [412,422]" dest="declaration [412,422]"/>
+  <match src="identifier: SMTP_EOB [2480,2488]" dest="identifier: SMTP_EOB [2513,2521]"/>
+  <match src="number_literal: 2 [777,778]" dest="number_literal: 2 [777,778]"/>
+  <match src="identifier: newscratch [563,573]" dest="identifier: newscratch [563,573]"/>
+  <match src="&quot;: &quot; [847,848]" dest="&quot;: &quot; [840,841]"/>
+  <match src="{: { [826,827]" dest="{: { [819,820]"/>
+  <match src="primitive_type: ssize_t [62,69]" dest="primitive_type: ssize_t [62,69]"/>
+  <match src=";: ; [607,608]" dest=";: ; [607,608]"/>
+  <match src="): ) [2022,2023]" dest="): ) [2055,2056]"/>
+  <match src=";: ; [2345,2346]" dest=";: ; [2378,2379]"/>
+  <match src="true: TRUE [1385,1389]" dest="true: TRUE [1418,1422]"/>
+  <match src="identifier: eob_sent [2251,2259]" dest="identifier: eob_sent [2284,2292]"/>
+  <match src="declaration [439,475]" dest="declaration [439,475]"/>
+  <match src="subscript_expression [1560,1578]" dest="subscript_expression [1593,1611]"/>
+  <match src="parenthesized_expression [1686,1731]" dest="parenthesized_expression [1719,1764]"/>
+  <match src="*: * [49,50]" dest="*: * [49,50]"/>
+  <match src="else_clause [1449,1915]" dest="else_clause [1482,1948]"/>
+  <match src="call_expression [835,881]" dest="call_expression [828,874]"/>
+  <match src="expression_statement [1230,1242]" dest="expression_statement [1263,1275]"/>
+  <match src=";: ; [739,740]" dest=";: ; [739,740]"/>
+  <match src="field_expression [2790,2801]" dest="field_expression [2823,2834]"/>
+  <match src="-&gt;: -&gt; [1234,1236]" dest="-&gt;: -&gt; [1267,1269]"/>
+  <match src="identifier: scratch [524,531]" dest="identifier: scratch [524,531]"/>
+  <match src="field_expression [1192,1201]" dest="field_expression [1225,1234]"/>
+  <match src="field_identifier: eob [2363,2366]" dest="field_identifier: eob [2396,2399]"/>
+  <match src="identifier: smtp [2500,2504]" dest="identifier: smtp [2533,2537]"/>
+  <match src="binary_expression [2151,2179]" dest="binary_expression [2184,2212]"/>
+  <match src="identifier: SMTP_EOB [1560,1568]" dest="identifier: SMTP_EOB [1593,1601]"/>
+  <match src="field_expression [498,507]" dest="field_expression [498,507]"/>
+  <match src=";: ; [553,554]" dest=";: ; [553,554]"/>
+  <match src="{: { [2635,2636]" dest="{: { [2668,2669]"/>
+  <match src="comment: /* Then compare the first byte */ [1644,1677]" dest="comment: /* Then compare the first byte */ [1677,1710]"/>
+  <match src="pointer_declarator [523,531]" dest="pointer_declarator [523,531]"/>
+  <match src=";: ; [1389,1390]" dest=";: ; [1422,1423]"/>
+  <match src="if: if [681,683]" dest="if: if [681,683]"/>
+  <match src="field_expression [1230,1239]" dest="field_expression [1263,1272]"/>
+  <match src="declaration [557,581]" dest="declaration [557,581]"/>
+  <match src=";: ; [2180,2181]" dest=";: ; [2213,2214]"/>
+  <match src="function_definition [0,3005]" dest="function_definition [0,3038]"/>
+  <match src="binary_expression [684,710]" dest="binary_expression [684,710]"/>
+  <match src="pointer_expression [2465,2477]" dest="pointer_expression [2498,2510]"/>
+  <match src="identifier: conn [50,54]" dest="identifier: conn [50,54]"/>
+  <match src="field_identifier: upload_fromhere [1202,1217]" dest="field_identifier: upload_fromhere [1235,1250]"/>
+  <match src="binary_expression [2357,2377]" dest="binary_expression [2390,2410]"/>
+  <match src="field_expression [2697,2706]" dest="field_expression [2730,2739]"/>
+  <match src="identifier: eob_sent [2545,2553]" dest="identifier: eob_sent [2578,2586]"/>
+  <match src=".: . [2326,2327]" dest=".: . [2359,2360]"/>
+  <match src=".: . [2706,2707]" dest=".: . [2739,2740]"/>
+  <match src=",: , [1557,1558]" dest=",: , [1590,1591]"/>
+  <match src="identifier: smtp [1315,1319]" dest="identifier: smtp [1348,1352]"/>
+  <match src="field_expression [1192,1217]" dest="field_expression [1225,1250]"/>
+  <match src="identifier: smtp [1580,1584]" dest="identifier: smtp [1613,1617]"/>
+  <match src="primitive_type: char [557,561]" dest="primitive_type: char [557,561]"/>
+  <match src="=: = [1430,1431]" dest="=: = [1463,1464]"/>
+  <match src="identifier: smtp [1410,1414]" dest="identifier: smtp [1443,1447]"/>
+  <match src="field_expression [1457,1466]" dest="field_expression [1490,1499]"/>
+  <match src=";: ; [2222,2223]" dest=";: ; [2255,2256]"/>
+  <match src="identifier: scratch [2301,2308]" dest="identifier: scratch [2334,2341]"/>
+  <match src="field_expression [1740,1749]" dest="field_expression [1773,1782]"/>
+  <match src="(: ( [2464,2465]" dest="(: ( [2497,2498]"/>
+  <match src="init_declarator [523,553]" dest="init_declarator [523,553]"/>
+  <match src="expression_statement [1363,1390]" dest="expression_statement [1396,1423]"/>
+  <match src="field_expression [1615,1624]" dest="field_expression [1648,1657]"/>
+  <match src="]: ] [2497,2498]" dest="]: ] [2530,2531]"/>
+  <match src=";: ; [1635,1636]" dest=";: ; [1668,1669]"/>
+  <match src="!: ! [2283,2284]" dest="!: ! [2316,2317]"/>
+  <match src="identifier: failf [835,840]" dest="identifier: failf [828,833]"/>
+  <match src="&amp;: &amp; [2465,2466]" dest="&amp;: &amp; [2498,2499]"/>
+  <match src="=: = [2315,2316]" dest="=: = [2348,2349]"/>
+  <match src=";: ; [2732,2733]" dest=";: ; [2765,2766]"/>
+  <match src="=: = [768,769]" dest="=: = [768,769]"/>
+  <match src=",: , [2136,2137]" dest=",: , [2169,2170]"/>
+  <match src="identifier: smtp [1740,1744]" dest="identifier: smtp [1773,1777]"/>
+  <match src="number_literal: 0 [2242,2243]" dest="number_literal: 0 [2275,2276]"/>
+  <match src="field_identifier: eob [1746,1749]" dest="field_identifier: eob [1779,1782]"/>
+  <match src="if: if [2280,2282]" dest="if: if [2313,2315]"/>
+  <match src="unary_expression [2283,2293]" dest="unary_expression [2316,2326]"/>
+  <match src="subscript_expression [2466,2477]" dest="subscript_expression [2499,2510]"/>
+  <match src="): ) [1466,1467]" dest="): ) [1499,1500]"/>
+  <match src="expression_statement [1796,1809]" dest="expression_statement [1829,1842]"/>
+  <match src="pointer_declarator [562,573]" dest="pointer_declarator [562,573]"/>
+  <match src="identifier: data [534,538]" dest="identifier: data [534,538]"/>
+  <match src="}: } [2557,2558]" dest="}: } [2590,2591]"/>
+  <match src="+=: += [2530,2532]" dest="+=: += [2563,2565]"/>
+  <match src="identifier: data [696,700]" dest="identifier: data [696,700]"/>
+  <match src="assignment_expression [2697,2732]" dest="assignment_expression [2730,2765]"/>
+  <match src="else_clause [1397,1438]" dest="else_clause [1430,1471]"/>
+  <match src="&amp;: &amp; [1559,1560]" dest="&amp;: &amp; [1592,1593]"/>
+  <match src="-: - [2510,2511]" dest="-: - [2543,2544]"/>
+  <match src="identifier: SMTP_EOB_FIND_LEN [1992,2009]" dest="identifier: SMTP_EOB_FIND_LEN [2025,2042]"/>
+  <match src="expression_statement [2527,2554]" dest="expression_statement [2560,2587]"/>
+  <match src="identifier: si [1554,1556]" dest="identifier: si [1587,1589]"/>
+  <match src="struct_specifier [439,455]" dest="struct_specifier [439,455]"/>
+  <match src="assignment_expression [747,803]" dest="assignment_expression [747,796]"/>
+  <match src="primitive_type: char [518,522]" dest="primitive_type: char [518,522]"/>
+  <match src=";: ; [1153,1154]" dest=";: ; [1186,1187]"/>
+  <match src="(: ( [1456,1457]" dest="(: ( [1489,1490]"/>
+  <match src="assignment_expression [1609,1635]" dest="assignment_expression [1642,1668]"/>
+  <match src="identifier: si [433,435]" dest="identifier: si [433,435]"/>
+  <match src="type_identifier: CURLcode [0,8]" dest="type_identifier: CURLcode [0,8]"/>
+  <match src="field_identifier: eob [1184,1187]" dest="field_identifier: eob [1217,1220]"/>
+  <match src="identifier: eob_sent [618,626]" dest="identifier: eob_sent [618,626]"/>
+  <match src="identifier: data [2317,2321]" dest="identifier: data [2350,2354]"/>
+  <match src="else: else [2957,2961]" dest="else: else [2990,2994]"/>
+  <match src="{: { [712,713]" dest="{: { [712,713]"/>
+  <match src="argument_list [2097,2180]" dest="argument_list [2130,2213]"/>
+  <match src="{: { [1160,1161]" dest="{: { [1193,1194]"/>
+  <match src="&amp;: &amp; [2479,2480]" dest="&amp;: &amp; [2512,2513]"/>
+  <match src="if_statement [1166,1915]" dest="if_statement [1199,1948]"/>
+  <match src="identifier: smtp [1881,1885]" dest="identifier: smtp [1914,1918]"/>
+  <match src="{: { [77,78]" dest="{: { [77,78]"/>
+  <match src="-&gt;: -&gt; [1706,1708]" dest="-&gt;: -&gt; [1739,1741]"/>
+  <match src=";: ; [918,919]" dest=";: ; [911,912]"/>
+  <match src="binary_expression [777,802]" dest="binary_expression [777,795]"/>
+  <match src="subscript_expression [1687,1698]" dest="subscript_expression [1720,1731]"/>
+  <match src="]: ] [1219,1220]" dest="]: ] [1252,1253]"/>
+  <match src="field_expression [2920,2929]" dest="field_expression [2953,2962]"/>
+  <match src="assignment_expression [2790,2819]" dest="assignment_expression [2823,2852]"/>
+  <match src="compound_statement [1160,2350]" dest="compound_statement [1193,2383]"/>
+  <match src=",: , [2498,2499]" dest=",: , [2531,2532]"/>
+  <match src="++: ++ [2311,2313]" dest="++: ++ [2344,2346]"/>
+  <match src="struct: struct [478,484]" dest="struct: struct [478,484]"/>
+  <match src="identifier: malloc [770,776]" dest="identifier: malloc [770,776]"/>
+  <match src="field_identifier: eob [1236,1239]" dest="field_identifier: eob [1269,1272]"/>
+  <match src="field_expression [1344,1353]" dest="field_expression [1377,1386]"/>
+  <match src="parenthesized_expression [1991,2023]" dest="parenthesized_expression [2024,2056]"/>
+  <match src="identifier: oldscratch [719,729]" dest="identifier: oldscratch [719,729]"/>
+  <match src="-&gt;: -&gt; [1182,1184]" dest="-&gt;: -&gt; [1215,1217]"/>
+  <match src="=: = [1784,1785]" dest="=: = [1817,1818]"/>
+  <match src="binary_expression [1310,1353]" dest="binary_expression [1343,1386]"/>
+  <match src="struct: struct [30,36]" dest="struct: struct [30,36]"/>
+  <match src="identifier: smtp [2357,2361]" dest="identifier: smtp [2390,2394]"/>
+  <match src="+=: += [2191,2193]" dest="+=: += [2224,2226]"/>
+  <match src=";: ; [3002,3003]" dest=";: ; [3035,3036]"/>
+  <match src="parenthesized_expression [1168,1221]" dest="parenthesized_expression [1201,1254]"/>
+  <match src="parenthesized_expression [812,825]" dest="parenthesized_expression [805,818]"/>
+  <match src="field_identifier: set [702,705]" dest="field_identifier: set [702,705]"/>
+  <match src="pointer_expression [2098,2110]" dest="pointer_expression [2131,2143]"/>
+  <match src="identifier: scratch [1546,1553]" dest="identifier: scratch [1579,1586]"/>
+  <match src="else: else [1397,1401]" dest="else: else [1430,1434]"/>
+  <match src="pointer_declarator [456,461]" dest="pointer_declarator [456,461]"/>
+  <match src="parenthesized_expression [1309,1354]" dest="parenthesized_expression [1342,1387]"/>
+  <match src="field_identifier: eob [1621,1624]" dest="field_identifier: eob [1654,1657]"/>
+  <match src="(: ( [2356,2357]" dest="(: ( [2389,2390]"/>
+  <match src="*: * [779,780]" dest="*: * [779,780]"/>
+  <match src="argument_list [1544,1601]" dest="argument_list [1577,1634]"/>
+  <match src="assignment_expression [2230,2243]" dest="assignment_expression [2263,2276]"/>
+  <match src="identifier: memcpy [2458,2464]" dest="identifier: memcpy [2491,2497]"/>
+  <match src=",: , [54,55]" dest=",: , [54,55]"/>
+  <match src=";: ; [2263,2264]" dest=";: ; [2296,2297]"/>
+  <match src="(: ( [812,813]" dest="(: ( [805,806]"/>
+  <match src="expression_statement [984,1005]" dest="expression_statement [1017,1038]"/>
+  <match src=";: ; [2949,2950]" dest=";: ; [2982,2983]"/>
+  <match src="identifier: eob_sent [1627,1635]" dest="identifier: eob_sent [1660,1668]"/>
+  <match src="expression_statement [2864,2881]" dest="expression_statement [2897,2914]"/>
+  <match src="unary_expression [684,692]" dest="unary_expression [684,692]"/>
+  <match src="pointer_expression [2479,2498]" dest="pointer_expression [2512,2531]"/>
+  <match src="expression_statement [1538,1602]" dest="expression_statement [1571,1635]"/>
+  <match src="!: ! [684,685]" dest="!: ! [684,685]"/>
+  <match src="compound_statement [1222,1444]" dest="compound_statement [1255,1477]"/>
+  <match src="=: = [993,994]" dest="=: = [1026,1027]"/>
+  <match src="false: FALSE [1432,1437]" dest="false: FALSE [1465,1470]"/>
+  <match src="comment: /* Reset the trailing CRLF flag as there was more data */ [1817,1874]" dest="comment: /* Reset the trailing CRLF flag as there was more data */ [1850,1907]"/>
+  <match src="identifier: nread [2628,2633]" dest="identifier: nread [2661,2666]"/>
+  <match src="): ) [710,711]" dest="): ) [710,711]"/>
+  <match src=".: . [2801,2802]" dest=".: . [2834,2835]"/>
+  <match src="field_expression [498,514]" dest="field_expression [498,514]"/>
+  <match src="identifier: SMTP_EOB_REPL_LEN [2151,2168]" dest="identifier: SMTP_EOB_REPL_LEN [2184,2201]"/>
+  <match src="=: = [601,602]" dest="=: = [601,602]"/>
+  <match src="primitive_type: size_t [611,617]" dest="primitive_type: size_t [611,617]"/>
+  <match src="binary_expression [2500,2520]" dest="binary_expression [2533,2553]"/>
+  <match src="-&gt;: -&gt; [1619,1621]" dest="-&gt;: -&gt; [1652,1654]"/>
+  <match src="]: ] [2344,2345]" dest="]: ] [2377,2378]"/>
+  <match src="field_identifier: req [1708,1711]" dest="field_identifier: req [1741,1744]"/>
+  <match src="): ) [824,825]" dest="): ) [817,818]"/>
+  <match src="): ) [2293,2294]" dest="): ) [2326,2327]"/>
+  <match src="identifier: free [2966,2970]" dest="identifier: free [2999,3003]"/>
+  <match src=";: ; [803,804]" dest=";: ; [796,797]"/>
+  <match src="]: ] [2476,2477]" dest="]: ] [2509,2510]"/>
+  <match src="type_identifier: SMTP [485,489]" dest="type_identifier: SMTP [485,489]"/>
+  <match src="]: ] [1697,1698]" dest="]: ] [1730,1731]"/>
+  <match src="identifier: si [2188,2190]" dest="identifier: si [2221,2223]"/>
+  <match src="=: = [2810,2811]" dest="=: = [2843,2844]"/>
+  <match src="): ) [75,76]" dest="): ) [75,76]"/>
+  <match src="compound_statement [1468,1915]" dest="compound_statement [1501,1948]"/>
+  <match src="assignment_expression [1740,1753]" dest="assignment_expression [1773,1786]"/>
+  <match src="field_identifier: eob [2539,2542]" dest="field_identifier: eob [2572,2575]"/>
+  <match src="identifier: i [1144,1145]" dest="identifier: i [1177,1178]"/>
+  <match src=";: ; [1601,1602]" dest=";: ; [1634,1635]"/>
+  <match src="identifier: si [2107,2109]" dest="identifier: si [2140,2142]"/>
+  <match src="parenthesized_expression [2621,2634]" dest="parenthesized_expression [2654,2667]"/>
+  <match src="=: = [496,497]" dest="=: = [496,497]"/>
+  <match src="expression_statement [1740,1754]" dest="expression_statement [1773,1787]"/>
+  <match src="!: ! [813,814]" dest="!: ! [806,807]"/>
+  <match src="identifier: smtp [1344,1348]" dest="identifier: smtp [1377,1381]"/>
+  <match src="if: if [2354,2356]" dest="if: if [2387,2389]"/>
+  <match src="-: - [2367,2368]" dest="-: - [2400,2401]"/>
+  <match src="comment: /* A substring matched before processing ended so output that now */ [2385,2453]" dest="comment: /* A substring matched before processing ended so output that now */ [2418,2486]"/>
+  <match src="{: { [2024,2025]" dest="{: { [2057,2058]"/>
+  <match src="expression_statement [2920,2950]" dest="expression_statement [2953,2983]"/>
+  <match src="identifier: newscratch [814,824]" dest="identifier: newscratch [807,817]"/>
+  <match src="-&gt;: -&gt; [999,1001]" dest="-&gt;: -&gt; [1032,1034]"/>
+  <match src="identifier: smtp [1457,1461]" dest="identifier: smtp [1490,1494]"/>
+  <match src="field_expression [2500,2509]" dest="field_expression [2533,2542]"/>
+  <match src="comma_expression [1129,1142]" dest="comma_expression [1162,1175]"/>
+  <match src="assignment_expression [1363,1389]" dest="assignment_expression [1396,1422]"/>
+  <match src="assignment_expression [1796,1808]" dest="assignment_expression [1829,1841]"/>
+  <match src=";: ; [421,422]" dest=";: ; [421,422]"/>
+  <match src="identifier: eob_sent [2512,2520]" dest="identifier: eob_sent [2545,2553]"/>
+  <match src="field_identifier: eob [2290,2293]" dest="field_identifier: eob [2323,2326]"/>
+  <match src=";: ; [1787,1788]" dest=";: ; [1820,1821]"/>
+  <match src="identifier: Curl_smtp_escape_eob [9,29]" dest="identifier: Curl_smtp_escape_eob [9,29]"/>
+  <match src="field_identifier: eob [1780,1783]" dest="field_identifier: eob [1813,1816]"/>
+  <match src="field_identifier: eob [2019,2022]" dest="field_identifier: eob [2052,2055]"/>
+  <match src="identifier: si [1609,1611]" dest="identifier: si [1642,1644]"/>
+  <match src="compound_statement [2379,2558]" dest="compound_statement [2412,2591]"/>
+  <match src="call_expression [2864,2880]" dest="call_expression [2897,2913]"/>
+  <match src="=: = [1901,1902]" dest="=: = [1934,1935]"/>
+  <match src="binary_expression [1687,1730]" dest="binary_expression [1720,1763]"/>
+  <match src="expression_statement [2251,2264]" dest="expression_statement [2284,2297]"/>
+  <match src="*: * [562,563]" dest="*: * [562,563]"/>
+  <match src="field_expression [995,1004]" dest="field_expression [1028,1037]"/>
+  <match src="): ) [2520,2521]" dest="): ) [2553,2554]"/>
+  <match src="field_identifier: req [2926,2929]" dest="field_identifier: req [2959,2962]"/>
+  <match src="assignment_expression [719,739]" dest="assignment_expression [719,739]"/>
+  <match src="field_identifier: req [2323,2326]" dest="field_identifier: req [2356,2359]"/>
+  <match src="compound_statement [826,926]" dest="compound_statement [819,919]"/>
+  <match src="binary_expression [1169,1220]" dest="binary_expression [1202,1253]"/>
+  <match src="): ) [2633,2634]" dest="): ) [2666,2667]"/>
+  <match src="[: [ [1695,1696]" dest="[: [ [1728,1729]"/>
+  <match src="subscript_expression [1169,1188]" dest="subscript_expression [1202,1221]"/>
+  <match src="comment: /* Do we have a match for CRLF. as per RFC-5321, sect. 4.5.2 */ [1921,1984]" dest="comment: /* Do we have a match for CRLF. as per RFC-5321, sect. 4.5.2 */ [1954,2017]"/>
+  <match src="field_identifier: req [504,507]" dest="field_identifier: req [504,507]"/>
+  <match src="-: - [2212,2213]" dest="-: - [2245,2246]"/>
+  <match src=".: . [545,546]" dest=".: . [545,546]"/>
+  <match src="assignment_expression [2920,2949]" dest="assignment_expression [2953,2982]"/>
+  <match src="): ) [1730,1731]" dest="): ) [1763,1764]"/>
+  <match src="field_identifier: eob [1001,1004]" dest="field_identifier: eob [1034,1037]"/>
+  <match src="comment: /* Upload from the new (replaced) buffer instead */ [2641,2692]" dest="comment: /* Upload from the new (replaced) buffer instead */ [2674,2725]"/>
+  <match src="identifier: SMTP_EOB [1169,1177]" dest="identifier: SMTP_EOB [1202,1210]"/>
+  <match src="type_identifier: Curl_easy [446,455]" dest="type_identifier: Curl_easy [446,455]"/>
+  <match src="-&gt;: -&gt; [2321,2323]" dest="-&gt;: -&gt; [2354,2356]"/>
+  <match src="identifier: scratch [732,739]" dest="identifier: scratch [732,739]"/>
+  <match src="identifier: scratch [685,692]" dest="identifier: scratch [685,692]"/>
+  <match src="identifier: data [841,845]" dest="identifier: data [834,838]"/>
+  <match src="identifier: smtp [491,495]" dest="identifier: smtp [491,495]"/>
+  <match src="number_literal: 0 [1141,1142]" dest="number_literal: 0 [1174,1175]"/>
+  <match src="field_expression [534,553]" dest="field_expression [534,553]"/>
+  <match src="-: - [1625,1626]" dest="-: - [1658,1659]"/>
+  <match src="identifier: data [2920,2924]" dest="identifier: data [2953,2957]"/>
+  <match src="unary_expression [813,824]" dest="unary_expression [806,817]"/>
+  <match src=",: , [845,846]" dest=",: , [838,839]"/>
+  <match src="||: || [693,695]" dest="||: || [693,695]"/>
+  <match src="else: else [1449,1453]" dest="else: else [1482,1486]"/>
+  <match src=";: ; [881,882]" dest=";: ; [874,875]"/>
+  <match src="binary_expression [1992,2022]" dest="binary_expression [2025,2055]"/>
+  <match src="identifier: smtp [2284,2288]" dest="identifier: smtp [2317,2321]"/>
+  <match src="number_literal: 0 [1786,1787]" dest="number_literal: 0 [1819,1820]"/>
+  <match src="assignment_expression [2527,2553]" dest="assignment_expression [2560,2586]"/>
+  <match src="expression_statement [2966,2983]" dest="expression_statement [2999,3016]"/>
+  <match src="-&gt;: -&gt; [2794,2796]" dest="-&gt;: -&gt; [2827,2829]"/>
+  <match src="pointer_declarator [490,495]" dest="pointer_declarator [490,495]"/>
+  <match src="[: [ [1727,1728]" dest="[: [ [1760,1761]"/>
+  <match src="-&gt;: -&gt; [468,470]" dest="-&gt;: -&gt; [468,470]"/>
+  <match src="field_expression [696,705]" dest="field_expression [696,705]"/>
+  <match src="function_declarator [9,76]" dest="function_declarator [9,76]"/>
+  <match src="=: = [2945,2946]" dest="=: = [2978,2979]"/>
+  <match src="init_declarator [490,514]" dest="init_declarator [490,514]"/>
+  <match src="): ) [1353,1354]" dest="): ) [1386,1387]"/>
+  <match src="field_identifier: eob [1463,1466]" dest="field_identifier: eob [1496,1499]"/>
+  <match src="field_identifier: protop [508,514]" dest="field_identifier: protop [508,514]"/>
+  <match src="primitive_type: char [584,588]" dest="primitive_type: char [584,588]"/>
+  <match src="call_expression [2458,2521]" dest="call_expression [2491,2554]"/>
+  <match src="=: = [532,533]" dest="=: = [532,533]"/>
+  <match src="init_declarator [589,607]" dest="init_declarator [589,607]"/>
+  <match src="binary_expression [2533,2553]" dest="binary_expression [2566,2586]"/>
+  <match src="identifier: eob_sent [984,992]" dest="identifier: eob_sent [1017,1025]"/>
+  <match src="comment: /* Do we need to allocate a scratch buffer? */ [631,677]" dest="comment: /* Do we need to allocate a scratch buffer? */ [631,677]"/>
+  <match src="-: - [2169,2170]" dest="-: - [2202,2203]"/>
+  <match src="if_statement [681,931]" dest="if_statement [681,924]"/>
+  <match src="subscript_expression [1192,1220]" dest="subscript_expression [1225,1253]"/>
+  <match src="struct_specifier [478,489]" dest="struct_specifier [478,489]"/>
+  <match src="[: [ [2106,2107]" dest="[: [ [2139,2140]"/>
+  <match src="identifier: scratch [2725,2732]" dest="identifier: scratch [2758,2765]"/>
+  <match src="field_expression [2533,2542]" dest="field_expression [2566,2575]"/>
+  <match src="-&gt;: -&gt; [1319,1321]" dest="-&gt;: -&gt; [1352,1354]"/>
+  <match src=";: ; [2982,2983]" dest=";: ; [3015,3016]"/>
+  <match src="assignment_expression [2301,2345]" dest="assignment_expression [2334,2378]"/>
+  <match src="identifier: data [1702,1706]" dest="identifier: data [1735,1739]"/>
+  <match src="expression_statement [2230,2244]" dest="expression_statement [2263,2277]"/>
+  <match src="argument_list [840,881]" dest="argument_list [833,874]"/>
+  <match src="comment: /* A previous substring matched so output that first */ [1476,1531]" dest="comment: /* A previous substring matched so output that first */ [1509,1564]"/>
+  <match src="subscript_expression [2099,2110]" dest="subscript_expression [2132,2143]"/>
+  <match src="comment: /* Save the buffer so it can be freed later */ [2739,2785]" dest="comment: /* Save the buffer so it can be freed later */ [2772,2818]"/>
+  <match src="!=: != [2625,2627]" dest="!=: != [2658,2660]"/>
+  <match src="if: if [1166,1168]" dest="if: if [1199,1201]"/>
+  <match src="assignment_expression [1881,1908]" dest="assignment_expression [1914,1941]"/>
+  <match src="null [576,580]" dest="null [576,580]"/>
+  <match src=";: ; [1437,1438]" dest=";: ; [1470,1471]"/>
+  <match src="field_identifier: eob [1586,1589]" dest="field_identifier: eob [1619,1622]"/>
+  <match src="-: - [2543,2544]" dest="-: - [2576,2577]"/>
+  <match src=";: ; [1241,1242]" dest=";: ; [1274,1275]"/>
+  <match src="*: * [456,457]" dest="*: * [456,457]"/>
+  <match src="}: } [2349,2350]" dest="}: } [2382,2383]"/>
+  <match src="assignment_expression [984,1004]" dest="assignment_expression [1017,1037]"/>
+  <match src="identifier: free [2864,2868]" dest="identifier: free [2897,2901]"/>
+  <match src="identifier: i [1129,1130]" dest="identifier: i [1162,1163]"/>
+  <match src="[: [ [1217,1218]" dest="[: [ [1250,1251]"/>
+  <match src="for_statement [1125,2350]" dest="for_statement [1158,2383]"/>
+  <match src="(: ( [1128,1129]" dest="(: ( [1161,1162]"/>
+  <match src="-&gt;: -&gt; [2288,2290]" dest="-&gt;: -&gt; [2321,2323]"/>
+  <match src="): ) [880,881]" dest="): ) [873,874]"/>
+  <match src="identifier: i [1155,1156]" dest="identifier: i [1188,1189]"/>
+  <match src="pointer_expression [1545,1557]" dest="pointer_expression [1578,1590]"/>
+  <match src=".: . [1711,1712]" dest=".: . [1744,1745]"/>
+  <match src="binary_expression [2194,2222]" dest="binary_expression [2227,2255]"/>
+  <match src="): ) [2981,2982]" dest="): ) [3014,3015]"/>
+  <match src="expression_statement [2091,2181]" dest="expression_statement [2124,2214]"/>
+  <match src="if: if [810,812]" dest="if: if [803,805]"/>
+  <match src="struct_specifier [30,48]" dest="struct_specifier [30,48]"/>
+  <match src="=: = [755,756]" dest="=: = [755,756]"/>
+  <match src="identifier: eob_sent [2489,2497]" dest="identifier: eob_sent [2522,2530]"/>
+  <match src="field_identifier: crlf [706,710]" dest="field_identifier: crlf [706,710]"/>
+  <match src="subscript_expression [2113,2136]" dest="subscript_expression [2146,2169]"/>
+  <match src="(: ( [840,841]" dest="(: ( [833,834]"/>
+  <match src="binary_expression [2622,2633]" dest="binary_expression [2655,2666]"/>
+  <match src="=: = [730,731]" dest="=: = [730,731]"/>
+  <match src=",: , [1578,1579]" dest=",: , [1611,1612]"/>
+  <match src="identifier: i [420,421]" dest="identifier: i [420,421]"/>
+  <match src="identifier: eob_sent [2171,2179]" dest="identifier: eob_sent [2204,2212]"/>
+  <match src="identifier: smtp [1774,1778]" dest="identifier: smtp [1807,1811]"/>
+  <match src="identifier: SMTP_EOB_REPL_LEN [2194,2211]" dest="identifier: SMTP_EOB_REPL_LEN [2227,2244]"/>
+  <match src=";: ; [1753,1754]" dest=";: ; [1786,1787]"/>
+  <match src="if_statement [2280,2346]" dest="if_statement [2313,2379]"/>
+  <match src="subscript_expression [1702,1730]" dest="subscript_expression [1735,1763]"/>
+  <match src="compound_statement [77,3005]" dest="compound_statement [77,3038]"/>
+  <match src="++: ++ [1239,1241]" dest="++: ++ [1272,1274]"/>
+  <match src=";: ; [2553,2554]" dest=";: ; [2586,2587]"/>
+  <match src="field_expression [1315,1324]" dest="field_expression [1348,1357]"/>
+  <match src="parenthesized_expression [683,711]" dest="parenthesized_expression [683,711]"/>
+  <match src="field_expression [696,710]" dest="field_expression [696,710]"/>
+  <match src="identifier: smtp [2533,2537]" dest="identifier: smtp [2566,2570]"/>
+  <match src="identifier: smtp [2013,2017]" dest="identifier: smtp [2046,2050]"/>
+  <match src="{: { [2379,2380]" dest="{: { [2412,2413]"/>
+  <match src="identifier: si [2309,2311]" dest="identifier: si [2342,2344]"/>
+  <match src="assignment_expression [1136,1142]" dest="assignment_expression [1169,1175]"/>
+  <match src="(: ( [1544,1545]" dest="(: ( [1577,1578]"/>
+  <match src="*: * [490,491]" dest="*: * [490,491]"/>
+  <match src="else_clause [2957,2983]" dest="else_clause [2990,3016]"/>
+  <match src="parenthesized_expression [1456,1467]" dest="parenthesized_expression [1489,1500]"/>
+  <match src="]: ] [2109,2110]" dest="]: ] [2142,2143]"/>
+  <match src="identifier: si [1136,1138]" dest="identifier: si [1169,1171]"/>
+  <match src="identifier: memcpy [1538,1544]" dest="identifier: memcpy [1571,1577]"/>
+  <match src="identifier: eob_sent [1592,1600]" dest="identifier: eob_sent [1625,1633]"/>
+  <match src="identifier: newscratch [757,767]" dest="identifier: newscratch [757,767]"/>
+  <match src="if: if [1989,1991]" dest="if: if [2022,2024]"/>
+  <match src="return: return [892,898]" dest="return: return [885,891]"/>
+  <match src="field_expression [2230,2239]" dest="field_expression [2263,2272]"/>
+  <match src="{: { [1222,1223]" dest="{: { [1255,1256]"/>
+  <match src="call_expression [2091,2180]" dest="call_expression [2124,2213]"/>
+  <match src="}: } [2953,2954]" dest="}: } [2986,2987]"/>
+  <match src="*: * [589,590]" dest="*: * [589,590]"/>
+  <match src="comment: /* Have we already sent part of the EOB? */ [937,980]" dest="comment: /* Have we already sent part of the EOB? */ [970,1013]"/>
+  <match src="call_expression [2966,2982]" dest="call_expression [2999,3015]"/>
+  <match src="expression_statement [2790,2820]" dest="expression_statement [2823,2853]"/>
+  <match src="if_statement [1684,1788]" dest="if_statement [1717,1821]"/>
+  <match src="assignment_expression [757,803]" dest="assignment_expression [757,796]"/>
+  <match src="field_identifier: eob [1350,1353]" dest="field_identifier: eob [1383,1386]"/>
+  <match src="if_statement [1307,1438]" dest="if_statement [1340,1471]"/>
+  <match src="]: ] [1556,1557]" dest="]: ] [1589,1590]"/>
+  <match src="]: ] [2313,2314]" dest="]: ] [2346,2347]"/>
+  <match src="NULL: NULL [603,607]" dest="NULL: NULL [603,607]"/>
+  <match src="binary_expression [1310,1324]" dest="binary_expression [1343,1357]"/>
+  <match src="field_identifier: trailing_crlf [1416,1429]" dest="field_identifier: trailing_crlf [1449,1462]"/>
+  <match src="identifier: data [1192,1196]" dest="identifier: data [1225,1229]"/>
+  <match src="if_statement [2619,2983]" dest="if_statement [2652,3016]"/>
+  <match src="): ) [802,803]" dest="): ) [795,796]"/>
+  <match src="else: else [2275,2279]" dest="else: else [2308,2312]"/>
+  <match src="identifier: smtp [1363,1367]" dest="identifier: smtp [1396,1400]"/>
+  <match src=";: ; [435,436]" dest=";: ; [435,436]"/>
+  <match src="comment: /* Set the new amount too */ [2887,2915]" dest="comment: /* Set the new amount too */ [2920,2948]"/>
+  <match src="identifier: SMTP_EOB_REPL [2113,2126]" dest="identifier: SMTP_EOB_REPL [2146,2159]"/>
+  <match src="parenthesized_expression [2356,2378]" dest="parenthesized_expression [2389,2411]"/>
+  <match src="number_literal: 0 [1696,1697]" dest="number_literal: 0 [1729,1730]"/>
+  <match src="-&gt;: -&gt; [2017,2019]" dest="-&gt;: -&gt; [2050,2052]"/>
+  <match src="field_identifier: req [1198,1201]" dest="field_identifier: req [1231,1234]"/>
+  <match src="==: == [1341,1343]" dest="==: == [1374,1376]"/>
+  <match src="identifier: si [2947,2949]" dest="identifier: si [2980,2982]"/>
+  <match src="}: } [925,926]" dest="}: } [918,919]"/>
+  <match src=";: ; [1142,1143]" dest=";: ; [1175,1176]"/>
+  <match src="field_expression [1178,1187]" dest="field_expression [1211,1220]"/>
+  <match src="identifier: scratch [747,754]" dest="identifier: scratch [747,754]"/>
+  <match src="if_statement [1454,1915]" dest="if_statement [1487,1948]"/>
+  <match src="field_expression [1580,1589]" dest="field_expression [1613,1622]"/>
+  <match src="number_literal: 0 [1807,1808]" dest="number_literal: 0 [1840,1841]"/>
+  <match src="field_expression [2790,2809]" dest="field_expression [2823,2842]"/>
+  <match src="declaration [478,515]" dest="declaration [478,515]"/>
+  <match src="number_literal: 0 [2262,2263]" dest="number_literal: 0 [2295,2296]"/>
+  <match src="field_expression [2357,2366]" dest="field_expression [2390,2399]"/>
+  <match src="==: == [1189,1191]" dest="==: == [1222,1224]"/>
+  <match src="compound_statement [2635,2954]" dest="compound_statement [2668,2987]"/>
+  <match src="primitive_type: ssize_t [412,419]" dest="primitive_type: ssize_t [412,419]"/>
+  <match src="field_expression [2317,2326]" dest="field_expression [2350,2359]"/>
+  <match src="identifier: si [2527,2529]" dest="identifier: si [2560,2562]"/>
+  <match src="&amp;: &amp; [2098,2099]" dest="&amp;: &amp; [2131,2132]"/>
+  <match src="binary_expression [1615,1635]" dest="binary_expression [1648,1668]"/>
+  <match src="[: [ [2473,2474]" dest="[: [ [2506,2507]"/>
+  <match src="(: ( [2097,2098]" dest="(: ( [2130,2131]"/>
+  <match src="identifier: newscratch [2971,2981]" dest="identifier: newscratch [3004,3014]"/>
+  <match src="field_identifier: scratch [546,553]" dest="field_identifier: scratch [546,553]"/>
+  <match src="number_literal: 1 [1752,1753]" dest="number_literal: 1 [1785,1786]"/>
+  <match src="&amp;: &amp; [1545,1546]" dest="&amp;: &amp; [1578,1579]"/>
+  <match src=";: ; [2880,2881]" dest=";: ; [2913,2914]"/>
+  <match src="(: ( [683,684]" dest="(: ( [683,684]"/>
+  <match src="field_expression [2697,2722]" dest="field_expression [2730,2755]"/>
+  <match src="identifier: data [498,502]" dest="identifier: data [498,502]"/>
+  <match src="identifier: memcpy [2091,2097]" dest="identifier: memcpy [2124,2130]"/>
+  <match src="(: ( [776,777]" dest="(: ( [776,777]"/>
+  <match src="subscript_expression [2301,2314]" dest="subscript_expression [2334,2347]"/>
+  <match src="NULL: NULL [576,580]" dest="NULL: NULL [576,580]"/>
+  <match src="field_expression [2317,2342]" dest="field_expression [2350,2375]"/>
+  <match src="): ) [2179,2180]" dest="): ) [2212,2213]"/>
+  <match src="identifier: scratch [2812,2819]" dest="identifier: scratch [2845,2852]"/>
+  <match src="pointer_expression [1559,1578]" dest="pointer_expression [1592,1611]"/>
+  <match src="declaration [518,554]" dest="declaration [518,554]"/>
+  <match src="]: ] [1729,1730]" dest="]: ] [1762,1763]"/>
+  <match src="-&gt;: -&gt; [2924,2926]" dest="-&gt;: -&gt; [2957,2959]"/>
+  <match src="expression_statement [835,882]" dest="expression_statement [828,875]"/>
+  <match src="(: ( [1309,1310]" dest="(: ( [1342,1343]"/>
+  <match src="=: = [1805,1806]" dest="=: = [1838,1839]"/>
+  <match src="comment: /* Copy the replacement data to the target buffer */ [2032,2084]" dest="comment: /* Copy the replacement data to the target buffer */ [2065,2117]"/>
+  <match src="=: = [462,463]" dest="=: = [462,463]"/>
+  <match src="field_identifier: eob [2236,2239]" dest="field_identifier: eob [2269,2272]"/>
+  <match src="parameter_declaration [56,75]" dest="parameter_declaration [56,75]"/>
+  <match src="identifier: data [457,461]" dest="identifier: data [457,461]"/>
+  <match src=";: ; [514,515]" dest=";: ; [514,515]"/>
+  <match src="if_statement [1989,2346]" dest="if_statement [2022,2379]"/>
+  <match src="field_identifier: upload_present [2930,2944]" dest="field_identifier: upload_present [2963,2977]"/>
+  <match src="parameter_list [29,76]" dest="parameter_list [29,76]"/>
+  <match src="field_expression [1363,1382]" dest="field_expression [1396,1415]"/>
+  <match src="binary_expression [1144,1153]" dest="binary_expression [1177,1186]"/>
+  <match src="call_expression [1538,1601]" dest="call_expression [1571,1634]"/>
+  <match src="assignment_expression [1774,1787]" dest="assignment_expression [1807,1820]"/>
+  <match src="parameter_declaration [30,54]" dest="parameter_declaration [30,54]"/>
+  <match src="if: if [1307,1309]" dest="if: if [1340,1342]"/>
+  <match src="comment: /* Only use the new buffer if we replaced something */ [2562,2616]" dest="comment: /* Only use the new buffer if we replaced something */ [2595,2649]"/>
+  <match src="comment: /* Is the EOB potentially the terminating CRLF? */ [1250,1300]" dest="comment: /* Is the EOB potentially the terminating CRLF? */ [1283,1333]"/>
+  <match src="pointer_expression [2112,2136]" dest="pointer_expression [2145,2169]"/>
+  <match src="subscript_expression [2480,2498]" dest="subscript_expression [2513,2531]"/>
+  <match src=";: ; [2521,2522]" dest=";: ; [2554,2555]"/>
+  <match src=",: , [2110,2111]" dest=",: , [2143,2144]"/>
+  <match src="expression_statement [2458,2522]" dest="expression_statement [2491,2555]"/>
+  <match src="++: ++ [1156,1158]" dest="++: ++ [1189,1191]"/>
+  <match src="[: [ [1177,1178]" dest="[: [ [1210,1211]"/>
+  <match src="subscript_expression [2317,2345]" dest="subscript_expression [2350,2378]"/>
+  <match src="field_expression [1881,1900]" dest="field_expression [1914,1933]"/>
+  <match src="update_expression [1230,1241]" dest="update_expression [1263,1274]"/>
+  <match src="argument_list [2970,2982]" dest="argument_list [3003,3015]"/>
+  <match src="subscript_expression [1546,1557]" dest="subscript_expression [1579,1590]"/>
+  <match src="identifier: data [2790,2794]" dest="identifier: data [2823,2827]"/>
+  <match src="if: if [1454,1456]" dest="if: if [1487,1489]"/>
+  <match src="expression_statement [2697,2733]" dest="expression_statement [2730,2766]"/>
+  <match src="identifier: CURLE_OUT_OF_MEMORY [899,918]" dest="identifier: CURLE_OUT_OF_MEMORY [892,911]"/>
+  <match src=";: ; [580,581]" dest=";: ; [580,581]"/>
+  <match src="=: = [1131,1132]" dest="=: = [1164,1165]"/>
+  <match src="{: { [1468,1469]" dest="{: { [1501,1502]"/>
+  <match src="pointer_declarator [589,600]" dest="pointer_declarator [589,600]"/>
+  <match src="expression_statement [1609,1636]" dest="expression_statement [1642,1669]"/>
+  <match src="[: [ [2126,2127]" dest="[: [ [2159,2160]"/>
+  <match src="=: = [2723,2724]" dest="=: = [2756,2757]"/>
+  <match src="string_literal [847,880]" dest="string_literal [840,873]"/>
+  <match src="binary_expression [1328,1353]" dest="binary_expression [1361,1386]"/>
+  <match src="string_content: Failed to alloc scratch buffer! [848,879]" dest="string_content: Failed to alloc scratch buffer! [841,872]"/>
+  <match src="comment:   
+     they are sent as CRLF.. instead, as a . on the beginning of a line will
+     be deleted by the server when not part of an EOB terminator and a
+     genuine CRLF.CRLF which isn't escaped will wrongly be detected as end of
+     data by the server
+  */ [81,409]" dest="comment:   
+     they are sent as CRLF.. instead, as a . on the beginning of a line will
+     be deleted by the server when not part of an EOB terminator and a
+     genuine CRLF.CRLF which isn't escaped will wrongly be detected as end of
+     data by the server
+  */ [81,409]"/>
+  <match src="init_declarator [562,580]" dest="init_declarator [562,580]"/>
+  <match src="declaration [584,608]" dest="declaration [584,608]"/>
+  <match src="identifier: smtp [2230,2234]" dest="identifier: smtp [2263,2267]"/>
+  <match src="argument_list [2868,2880]" dest="argument_list [2901,2913]"/>
+  <match src="]: ] [1187,1188]" dest="]: ] [1220,1221]"/>
+  <match src="identifier: smtp [1615,1619]" dest="identifier: smtp [1648,1652]"/>
+  <match src="=: = [1139,1140]" dest="=: = [1172,1173]"/>
+  <match src="update_expression [1155,1158]" dest="update_expression [1188,1191]"/>
+  <match src="}: } [3004,3005]" dest="}: } [3037,3038]"/>
+  <match src="type_qualifier [56,61]" dest="type_qualifier [56,61]"/>
+  <match src="identifier: nread [1148,1153]" dest="identifier: nread [1181,1186]"/>
+  <match src="): ) [1220,1221]" dest="): ) [1253,1254]"/>
+  <match src="&quot;: &quot; [879,880]" dest="&quot;: &quot; [872,873]"/>
+  <match src="expression_statement [747,804]" dest="expression_statement [747,797]"/>
+  <match src=".: . [507,508]" dest=".: . [507,508]"/>
+  <match src="field_expression [1702,1711]" dest="field_expression [1735,1744]"/>
+  <match src="identifier: i [1218,1219]" dest="identifier: i [1251,1252]"/>
+  <match src="expression_statement [2301,2346]" dest="expression_statement [2334,2379]"/>
+  <match src="init_declarator [456,474]" dest="init_declarator [456,474]"/>
+  <match src="=: = [574,575]" dest="=: = [574,575]"/>
+  <match src="}: } [1914,1915]" dest="}: } [1947,1948]"/>
+  <match src="identifier: eob_sent [1569,1577]" dest="identifier: eob_sent [1602,1610]"/>
+  <match src="field_identifier: upload_fromhere [2707,2722]" dest="field_identifier: upload_fromhere [2740,2755]"/>
+  <match src="assignment_expression [2188,2222]" dest="assignment_expression [2221,2255]"/>
+  <match src="[: [ [2342,2343]" dest="[: [ [2375,2376]"/>
+  <match src="struct: struct [439,445]" dest="struct: struct [439,445]"/>
+  <match src="false: FALSE [1903,1908]" dest="false: FALSE [1936,1941]"/>
+  <match src="declaration [611,627]" dest="declaration [611,627]"/>
+  <match src="[: [ [2308,2309]" dest="[: [ [2341,2342]"/>
+  <match src="-&gt;: -&gt; [2701,2703]" dest="-&gt;: -&gt; [2734,2736]"/>
+  <match src="identifier: i [1728,1729]" dest="identifier: i [1761,1762]"/>
+  <match src=".: . [2929,2930]" dest=".: . [2962,2963]"/>
+  <match src="identifier: i [2343,2344]" dest="identifier: i [2376,2377]"/>
+  <match src=";: ; [2819,2820]" dest=";: ; [2852,2853]"/>
+  <match src="identifier: oldscratch [590,600]" dest="identifier: oldscratch [590,600]"/>
+  <match src="identifier: smtp [1178,1182]" dest="identifier: smtp [1211,1215]"/>
+  <match src="identifier: CURLE_OK [2994,3002]" dest="identifier: CURLE_OK [3027,3035]"/>
+  <match src="=: = [1750,1751]" dest="=: = [1783,1784]"/>
+  <match src="&amp;: &amp; [2112,2113]" dest="&amp;: &amp; [2145,2146]"/>
+  <match src="}: } [2269,2270]" dest="}: } [2302,2303]"/>
+  <match src="identifier: SMTP_EOB [1687,1695]" dest="identifier: SMTP_EOB [1720,1728]"/>
+  <match src="comment: /* Free the old scratch buffer */ [2826,2859]" dest="comment: /* Free the old scratch buffer */ [2859,2892]"/>
+  <match src="-&gt;: -&gt; [1744,1746]" dest="-&gt;: -&gt; [1777,1779]"/>
+  <match src="field_identifier: data [470,474]" dest="field_identifier: data [470,474]"/>
+  <match src="else_clause [1761,1788]" dest="else_clause [1794,1821]"/>
+  <match src="if: if [2619,2621]" dest="if: if [2652,2654]"/>
+  <match src="identifier: conn [464,468]" dest="identifier: conn [464,468]"/>
+  <match src="expression_statement [1774,1788]" dest="expression_statement [1807,1821]"/>
+  <match src="-&gt;: -&gt; [1461,1463]" dest="-&gt;: -&gt; [1494,1496]"/>
+  <match src="identifier: oldscratch [2869,2879]" dest="identifier: oldscratch [2902,2912]"/>
+  <match src="==: == [1312,1314]" dest="==: == [1345,1347]"/>
+  <match src="field_identifier: trailing_crlf [1887,1900]" dest="field_identifier: trailing_crlf [1920,1933]"/>
+  <match src="const: const [56,61]" dest="const: const [56,61]"/>
+  <match src="binary_expression [1580,1600]" dest="binary_expression [1613,1633]"/>
+  <match src="==: == [2010,2012]" dest="==: == [2043,2045]"/>
+  <match src="expression_statement [2188,2223]" dest="expression_statement [2221,2256]"/>
+  <match src="&lt;: &lt; [1146,1147]" dest="&lt;: &lt; [1179,1180]"/>
+  <match src="identifier: smtp [1230,1234]" dest="identifier: smtp [1263,1267]"/>
+  <match src="=: = [2260,2261]" dest="=: = [2293,2294]"/>
+  <match src="call_expression [770,803]" dest="call_expression [770,796]"/>
+  <match src="-&gt;: -&gt; [1885,1887]" dest="-&gt;: -&gt; [1918,1920]"/>
+  <match src="[: [ [1553,1554]" dest="[: [ [1586,1587]"/>
+  <match src="argument_list [2464,2521]" dest="argument_list [2497,2554]"/>
+  <match src="field_expression [2920,2944]" dest="field_expression [2953,2977]"/>
+  <match src="-&gt;: -&gt; [538,540]" dest="-&gt;: -&gt; [538,540]"/>
+  <match src="assignment_expression [1410,1437]" dest="assignment_expression [1443,1470]"/>
+  <match src="translation_unit [0,3005]" dest="translation_unit [0,3038]"/>
+  <match src="=: = [2240,2241]" dest="=: = [2273,2274]"/>
+  <match src="else: else [1761,1765]" dest="else: else [1794,1798]"/>
+  <match src="if_statement [810,926]" dest="if_statement [803,919]"/>
+  <match src="field_identifier: scratch [2802,2809]" dest="field_identifier: scratch [2835,2842]"/>
+  <match src="argument_list [776,803]" dest="argument_list [776,796]"/>
+  <match src="=: = [1383,1384]" dest="=: = [1416,1417]"/>
+  <match src="return_statement [2987,3003]" dest="return_statement [3020,3036]"/>
+  <match src="(: ( [1686,1687]" dest="(: ( [1719,1720]"/>
+  <match src="number_literal: 2 [1310,1311]" dest="number_literal: 2 [1343,1344]"/>
+  <match src="[: [ [2488,2489]" dest="[: [ [2521,2522]"/>
+  <match src="*: * [523,524]" dest="*: * [523,524]"/>
+  <match src="): ) [1158,1159]" dest="): ) [1191,1192]"/>
+  <match src="(: ( [2970,2971]" dest="(: ( [3003,3004]"/>
+  <match src=";: ; [474,475]" dest=";: ; [474,475]"/>
+  <match src="identifier: si [2474,2476]" dest="identifier: si [2507,2509]"/>
+  <match src="(: ( [2621,2622]" dest="(: ( [2654,2655]"/>
+  <match src="pointer_declarator [49,54]" dest="pointer_declarator [49,54]"/>
+  <match src="expression_statement [1881,1909]" dest="expression_statement [1914,1942]"/>
+  <match src="): ) [2879,2880]" dest="): ) [2912,2913]"/>
+  <match src="null [603,607]" dest="null [603,607]"/>
+  <match src="field_identifier: trailing_crlf [1369,1382]" dest="field_identifier: trailing_crlf [1402,1415]"/>
+  <match src="-&gt;: -&gt; [1196,1198]" dest="-&gt;: -&gt; [1229,1231]"/>
+  <match src=";: ; [2243,2244]" dest=";: ; [2276,2277]"/>
+  <match src=";: ; [1808,1809]" dest=";: ; [1841,1842]"/>
+  <match src="declaration [425,436]" dest="declaration [425,436]"/>
+  <match src="field_expression [2284,2293]" dest="field_expression [2317,2326]"/>
+  <match src="]: ] [1577,1578]" dest="]: ] [1610,1611]"/>
+  <match src="identifier: eob_sent [2369,2377]" dest="identifier: eob_sent [2402,2410]"/>
+  <match src="): ) [2377,2378]" dest="): ) [2410,2411]"/>
+  <match src=",: , [2477,2478]" dest=",: , [2510,2511]"/>
+  <match src="assignment_expression [1129,1134]" dest="assignment_expression [1162,1167]"/>
+  <match src="-: - [1590,1591]" dest="-: - [1623,1624]"/>
+  <match src="field_identifier: upload_fromhere [1712,1727]" dest="field_identifier: upload_fromhere [1745,1760]"/>
+  <match src="field_identifier: state [2796,2801]" dest="field_identifier: state [2829,2834]"/>
+  <match src="if: if [1684,1686]" dest="if: if [1717,1719]"/>
+  <match src="field_expression [1410,1429]" dest="field_expression [1443,1462]"/>
+  <match src="+=: += [1612,1614]" dest="+=: += [1645,1647]"/>
+  <match src="(: ( [2868,2869]" dest="(: ( [2901,2902]"/>
+  <match src="field_identifier: state [540,545]" dest="field_identifier: state [540,545]"/>
+  <match src="-&gt;: -&gt; [502,504]" dest="-&gt;: -&gt; [502,504]"/>
+  <match src=".: . [1201,1202]" dest=".: . [1234,1235]"/>
+  <match src="(: ( [1168,1169]" dest="(: ( [1201,1202]"/>
+  <match src="}: } [1443,1444]" dest="}: } [1476,1477]"/>
+  <match src="identifier: eob_sent [2214,2222]" dest="identifier: eob_sent [2247,2255]"/>
+  <match src="]: ] [2135,2136]" dest="]: ] [2168,2169]"/>
+  <match src="-&gt;: -&gt; [2537,2539]" dest="-&gt;: -&gt; [2570,2572]"/>
+  <match src="(: ( [29,30]" dest="(: ( [29,30]"/>
+  <match src="field_expression [534,545]" dest="field_expression [534,545]"/>
+  <match src="if_statement [2354,2558]" dest="if_statement [2387,2591]"/>
+  <match src="for: for [1125,1128]" dest="for: for [1158,1161]"/>
+  <match src="field_identifier: eob [2506,2509]" dest="field_identifier: eob [2539,2542]"/>
+  <match src="identifier: si [2622,2624]" dest="identifier: si [2655,2657]"/>
+  <match src="-&gt;: -&gt; [2361,2363]" dest="-&gt;: -&gt; [2394,2396]"/>
+  <match src="return: return [2987,2993]" dest="return: return [3020,3026]"/>
+  <match src="primitive_type: ssize_t [425,432]" dest="primitive_type: ssize_t [425,432]"/>
+  <match src="-&gt;: -&gt; [1348,1350]" dest="-&gt;: -&gt; [1381,1383]"/>
+  <match src="-&gt;: -&gt; [1367,1369]" dest="-&gt;: -&gt; [1400,1402]"/>
+  <match src="-&gt;: -&gt; [1414,1416]" dest="-&gt;: -&gt; [1447,1449]"/>
+  <match src="identifier: eob_sent [2127,2135]" dest="identifier: eob_sent [2160,2168]"/>
+  <match src="field_identifier: upload_fromhere [2327,2342]" dest="field_identifier: upload_fromhere [2360,2375]"/>
+  <match src="(: ( [2282,2283]" dest="(: ( [2315,2316]"/>
+  <match src="update_expression [2309,2313]" dest="update_expression [2342,2346]"/>
+  <match src="==: == [1699,1701]" dest="==: == [1732,1734]"/>
+  <match src="-&gt;: -&gt; [2504,2506]" dest="-&gt;: -&gt; [2537,2539]"/>
+  <match src="): ) [1600,1601]" dest="): ) [1633,1634]"/>
+  <match src=",: , [1134,1135]" dest=",: , [1167,1168]"/>
+  <match src="else_clause [2275,2346]" dest="else_clause [2308,2379]"/>
+  <match src="-&gt;: -&gt; [1584,1586]" dest="-&gt;: -&gt; [1617,1619]"/>
+  <match src="field_expression [1774,1783]" dest="field_expression [1807,1816]"/>
+  <match src="compound_statement [2024,2270]" dest="compound_statement [2057,2303]"/>
+  <match src=";: ; [1004,1005]" dest=";: ; [1037,1038]"/>
+  <match src=";: ; [626,627]" dest=";: ; [626,627]"/>
+  <match src="identifier: scratch [2099,2106]" dest="identifier: scratch [2132,2139]"/>
+  <match src="field_expression [464,474]" dest="field_expression [464,474]"/>
+  <match src="parenthesized_expression [2282,2294]" dest="parenthesized_expression [2315,2327]"/>
+  <match src="expression_statement [719,740]" dest="expression_statement [719,740]"/>
+  <match src="comment:   
+     approach but that is saved for later... */ [1009,1122]" dest="comment:   
+     approach but that is saved for later... */ [1042,1155]"/>
+  <match src="-&gt;: -&gt; [1778,1780]" dest="-&gt;: -&gt; [1811,1813]"/>
+  <match src="identifier: smtp [995,999]" dest="identifier: smtp [1028,1032]"/>
+  <match src="assignment_expression [2251,2263]" dest="assignment_expression [2284,2296]"/>
+</matches>
+<actions>
+  <insert-tree tree="expression_statement [927,964]" parent="compound_statement [77,3005]" at="12"/>
+  <insert-node tree="identifier: UPLOAD_BUFSIZE [781,795]" parent="binary_expression [777,802]" at="2"/>
+  <delete-tree tree="field_expression [781,802]"/>
+</actions>

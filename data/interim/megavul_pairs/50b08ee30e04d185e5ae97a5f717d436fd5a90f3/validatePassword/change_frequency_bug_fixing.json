@@ -1,0 +1,50 @@
+{
+  "frequency": [
+    {
+      "c": "Block",
+      "f": "2"
+    },
+    {
+      "c": "Parameter",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "move-tree_Block_If",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_Parameter_Method",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_Block_If",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Block",
+      "f": "0.6666666666666666"
+    },
+    {
+      "c": "Parameter",
+      "f": "0.3333333333333333"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "move-tree_Block_If",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "insert-node_Parameter_Method",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "insert-node_Block_If",
+      "f": "0.3333333333333333"
+    }
+  ]
+}

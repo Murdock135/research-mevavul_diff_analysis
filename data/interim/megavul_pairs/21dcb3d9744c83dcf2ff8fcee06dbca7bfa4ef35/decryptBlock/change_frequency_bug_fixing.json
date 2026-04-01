@@ -1,0 +1,106 @@
+{
+  "frequency": [
+    {
+      "c": "Literal",
+      "f": "6"
+    },
+    {
+      "c": "Return",
+      "f": "1"
+    },
+    {
+      "c": "Assignment",
+      "f": "1"
+    },
+    {
+      "c": "OperatorAssignment",
+      "f": "1"
+    },
+    {
+      "c": "If",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "delete-node_Literal_LocalVariable",
+      "f": "4"
+    },
+    {
+      "c": "insert-node_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_OperatorAssignment_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_Literal_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Return_Block",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Assignment_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_Literal_ConstructorCall",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Literal",
+      "f": "0.6"
+    },
+    {
+      "c": "Return",
+      "f": "0.1"
+    },
+    {
+      "c": "Assignment",
+      "f": "0.1"
+    },
+    {
+      "c": "OperatorAssignment",
+      "f": "0.1"
+    },
+    {
+      "c": "If",
+      "f": "0.1"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "delete-node_Literal_LocalVariable",
+      "f": "0.4"
+    },
+    {
+      "c": "insert-node_If_Block",
+      "f": "0.1"
+    },
+    {
+      "c": "move-tree_OperatorAssignment_Block",
+      "f": "0.1"
+    },
+    {
+      "c": "insert-node_Literal_LocalVariable",
+      "f": "0.1"
+    },
+    {
+      "c": "move-tree_Return_Block",
+      "f": "0.1"
+    },
+    {
+      "c": "delete-node_Assignment_Block",
+      "f": "0.1"
+    },
+    {
+      "c": "update-node_Literal_ConstructorCall",
+      "f": "0.1"
+    }
+  ]
+}

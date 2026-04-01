@@ -1,0 +1,20 @@
+{
+    "id": "3c73c59e39b6436b1074d8834cf276916010014d_uploadTemporaryAttachment_0",
+    "func_name": "uploadTemporaryAttachment",
+    "cve_id": "CVE-2023-26478",
+    "cwe_ids": [
+        "CWE-749"
+    ],
+    "commit_hash": "3c73c59e39b6436b1074d8834cf276916010014d",
+    "parent_commit_hash": "8ec50e93515ba98d7876bdc7f4e43de546b17f4c",
+    "repo_name": "xwiki/xwiki-platform",
+    "git_url": "https://github.com/xwiki/xwiki-platform/commit/3c73c59e39b6436b1074d8834cf276916010014d",
+    "file_path": "xwiki-platform-core/xwiki-platform-store/xwiki-platform-store-filesystem-oldcore/src/main/java/org/xwiki/store/script/TemporaryAttachmentsScriptService.java",
+    "file_name": "TemporaryAttachmentsScriptService.java",
+    "commit_date": 1665038064,
+    "commit_msg": "XWIKI-20180: TemporaryAttachmentsScriptService#uploadTemporaryAttachment return an XWikiAttachment instance",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+    "cvss_base_score": 8.1,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

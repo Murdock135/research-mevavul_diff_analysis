@@ -1,0 +1,20 @@
+{
+    "id": "b38a1b3a4352303e4312b2bb601a0d7ec6e28f41_getExecutionPreamble_0",
+    "func_name": "getExecutionPreamble",
+    "cve_id": "CVE-2017-1000487",
+    "cwe_ids": [
+        "CWE-78"
+    ],
+    "commit_hash": "b38a1b3a4352303e4312b2bb601a0d7ec6e28f41",
+    "parent_commit_hash": "86c37983bb2bd92b1df43fe73f321ffbfa155070",
+    "repo_name": "codehaus-plexus/plexus-utils",
+    "git_url": "https://github.com/codehaus-plexus/plexus-utils/commit/b38a1b3a4352303e4312b2bb601a0d7ec6e28f41",
+    "file_path": "src/main/java/org/codehaus/plexus/util/cli/shell/BourneShell.java",
+    "file_name": "BourneShell.java",
+    "commit_date": 1381220464,
+    "commit_msg": "[PLXUTILS-161] Commandline shell injection problems\n\nPatch by Charles Duffy, applied unmodified",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

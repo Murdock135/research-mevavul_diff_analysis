@@ -1,0 +1,15 @@
+class getPosition {
+public int getPosition()
+        {
+            if ( realPos == -1 )
+            {
+                realPos = ( getLiteralExecutable() == null ? 0 : 1 );
+                for ( int i = 0; i < position; i++ )
+                {
+                    Arg arg = (Arg) arguments.elementAt( i );
+                    realPos += arg.getParts().length;
+                }
+            }
+            return realPos;
+        }
+}

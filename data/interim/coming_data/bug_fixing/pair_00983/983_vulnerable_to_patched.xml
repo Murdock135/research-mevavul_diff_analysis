@@ -1,0 +1,283 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="unsigned: unsigned [89,97]" dest="unsigned: unsigned [89,97]"/>
+  <match src="{: { [63,64]" dest="{: { [63,64]"/>
+  <match src="identifier: flags [925,930]" dest="identifier: flags [1022,1027]"/>
+  <match src="): ) [519,520]" dest="): ) [477,478]"/>
+  <match src="argument_list [306,364]" dest="argument_list [295,325]"/>
+  <match src="-&gt;: -&gt; [705,707]" dest="-&gt;: -&gt; [545,547]"/>
+  <match src="binary_expression [153,162]" dest="binary_expression [153,162]"/>
+  <match src="field_identifier: hb_spinlock [317,328]" dest="field_identifier: hb_spinlock [306,317]"/>
+  <match src="identifier: hashbin [698,705]" dest="identifier: hashbin [538,545]"/>
+  <match src="expression_statement [789,816]" dest="expression_statement [889,916]"/>
+  <match src="identifier: i [716,717]" dest="identifier: i [556,557]"/>
+  <match src="parameter_declaration [21,39]" dest="parameter_declaration [21,39]"/>
+  <match src="comment:  	
+ 	 *  Free the entries in the hashbin, TODO: use hashbin_clear when
+ 	 *  it has been shown to work
+ 	 */ [373,481]" dest="comment:  	
+ 	 *  Free the entries in the hashbin, TODO: use hashbin_clear when
+ 	 *  it has been shown to work
+ 	 */ [331,439]"/>
+  <match src="identifier: spin_unlock_irqrestore [879,901]" dest="identifier: spin_unlock_irqrestore [976,998]"/>
+  <match src="primitive_type: int [115,118]" dest="primitive_type: int [115,118]"/>
+  <match src="identifier: return [208,214]" dest="identifier: return [208,214]"/>
+  <match src="field_identifier: hb_type [258,265]" dest="field_identifier: hb_type [257,264]"/>
+  <match src="while_statement [590,725]" dest="while_statement [483,825]"/>
+  <match src="for_statement [484,729]" dest="for_statement [442,829]"/>
+  <match src="binary_expression [136,151]" dest="binary_expression [136,151]"/>
+  <match src=";: ; [112,113]" dest=";: ; [112,113]"/>
+  <match src=";: ; [219,220]" dest=";: ; [219,220]"/>
+  <match src="field_identifier: hb_spinlock [912,923]" dest="field_identifier: hb_spinlock [1009,1020]"/>
+  <match src="identifier: hashbin_delete [5,19]" dest="identifier: hashbin_delete [5,19]"/>
+  <match src="-&gt;: -&gt; [187,189]" dest="-&gt;: -&gt; [187,189]"/>
+  <match src="expression_statement [124,165]" dest="expression_statement [124,165]"/>
+  <match src="-&gt;: -&gt; [796,798]" dest="-&gt;: -&gt; [896,898]"/>
+  <match src="argument_list [901,931]" dest="argument_list [998,1028]"/>
+  <match src="identifier: free_func [614,623]" dest="identifier: free_func [596,605]"/>
+  <match src="-&gt;: -&gt; [910,912]" dest="-&gt;: -&gt; [1007,1009]"/>
+  <match src="argument_list [674,719]" dest="argument_list [519,559]"/>
+  <match src="{: { [605,606]" dest="{: { [493,494]"/>
+  <match src="): ) [603,604]" dest="): ) [491,492]"/>
+  <match src="(: ( [641,642]" dest="(: ( [717,718]"/>
+  <match src="unary_expression [806,815]" dest="unary_expression [906,915]"/>
+  <match src="compound_statement [63,1064]" dest="compound_statement [63,1105]"/>
+  <match src="(: ( [19,20]" dest="(: ( [19,20]"/>
+  <match src="field_identifier: hb_queue [707,715]" dest="field_identifier: hb_queue [547,555]"/>
+  <match src="expression_statement [759,786]" dest="expression_statement [859,886]"/>
+  <match src="(: ( [596,597]" dest="(: ( [489,490]"/>
+  <match src="=: = [659,660]" dest="=: = [504,505]"/>
+  <match src="expression_statement [629,649]" dest="expression_statement [708,725]"/>
+  <match src="): ) [1048,1049]" dest="): ) [1089,1090]"/>
+  <match src="): ) [930,931]" dest="): ) [1027,1028]"/>
+  <match src="function_definition [1,1064]" dest="function_definition [1,1105]"/>
+  <match src="number_literal: 0 [111,112]" dest="number_literal: 0 [111,112]"/>
+  <match src="identifier: HASHBIN_SIZE [500,512]" dest="identifier: HASHBIN_SIZE [458,470]"/>
+  <match src="(: ( [680,681]" dest="(: ( [520,521]"/>
+  <match src="comment:  	
+ 	 *  Free the hashbin structure
+	 */ [993,1033]" dest="comment:  	
+ 	 *  Free the hashbin structure
+	 */ [1034,1074]"/>
+  <match src="*: * [693,694]" dest="*: * [533,534]"/>
+  <match src="++: ++ [516,518]" dest="++: ++ [474,476]"/>
+  <match src="parenthesized_expression [247,277]" dest="parenthesized_expression [247,275]"/>
+  <match src="binary_expression [208,217]" dest="binary_expression [208,217]"/>
+  <match src="identifier: flags [103,108]" dest="identifier: flags [103,108]"/>
+  <match src="field_expression [846,862]" dest="field_expression [945,961]"/>
+  <match src="binary_expression [496,512]" dest="binary_expression [454,470]"/>
+  <match src="): ) [218,219]" dest="): ) [218,219]"/>
+  <match src="expression_statement [1035,1050]" dest="expression_statement [1076,1091]"/>
+  <match src="identifier: hashbin [180,187]" dest="identifier: hashbin [180,187]"/>
+  <match src="~: ~ [806,807]" dest="~: ~ [906,907]"/>
+  <match src="pointer_expression [307,328]" dest="pointer_expression [296,317]"/>
+  <match src="pointer_declarator [30,39]" dest="pointer_declarator [30,39]"/>
+  <match src="identifier: i [496,497]" dest="identifier: i [454,455]"/>
+  <match src="call_expression [282,364]" dest="call_expression [278,325]"/>
+  <match src="type_identifier: FREE_FUNC [41,50]" dest="type_identifier: FREE_FUNC [41,50]"/>
+  <match src="for: for [484,487]" dest="for: for [442,445]"/>
+  <match src=";: ; [785,786]" dest=";: ; [885,886]"/>
+  <match src="field_identifier: magic [189,194]" dest="field_identifier: magic [189,194]"/>
+  <match src="(: ( [247,248]" dest="(: ( [247,248]"/>
+  <match src="-&gt;: -&gt; [256,258]" dest="-&gt;: -&gt; [255,257]"/>
+  <match src="{: { [521,522]" dest="{: { [479,480]"/>
+  <match src="call_expression [879,931]" dest="call_expression [976,1028]"/>
+  <match src=",: , [328,329]" dest=",: , [317,318]"/>
+  <match src="identifier: hashbin [903,910]" dest="identifier: hashbin [1000,1007]"/>
+  <match src="number_literal: 0 [493,494]" dest="number_literal: 0 [451,452]"/>
+  <match src="if: if [841,843]" dest="if: if [941,943]"/>
+  <match src="call_expression [629,648]" dest="call_expression [708,724]"/>
+  <match src="(: ( [1040,1041]" dest="(: ( [1081,1082]"/>
+  <match src=";: ; [494,495]" dest=";: ; [452,453]"/>
+  <match src="identifier: hashbin [1041,1048]" dest="identifier: hashbin [1082,1089]"/>
+  <match src="identifier: queue [81,86]" dest="identifier: queue [81,86]"/>
+  <match src="&amp;: &amp; [697,698]" dest="&amp;: &amp; [537,538]"/>
+  <match src="identifier: HB_MAGIC [198,206]" dest="identifier: HB_MAGIC [198,206]"/>
+  <match src="identifier: flags [330,335]" dest="identifier: flags [319,324]"/>
+  <match src=";: ; [164,165]" dest=";: ; [164,165]"/>
+  <match src="(: ( [901,902]" dest="(: ( [998,999]"/>
+  <match src="parenthesized_expression [596,604]" dest="parenthesized_expression [489,492]"/>
+  <match src="declaration [89,113]" dest="declaration [89,113]"/>
+  <match src="]: ] [717,718]" dest="]: ] [557,558]"/>
+  <match src="-&gt;: -&gt; [853,855]" dest="-&gt;: -&gt; [952,954]"/>
+  <match src="comment: /* Cleanup local data */ [733,757]" dest="comment: /* Cleanup local data */ [833,857]"/>
+  <match src="binary_expression [180,206]" dest="binary_expression [180,206]"/>
+  <match src="argument_list [641,648]" dest="argument_list [717,724]"/>
+  <match src="field_identifier: hb_current [768,778]" dest="field_identifier: hb_current [868,878]"/>
+  <match src="): ) [363,364]" dest="): ) [324,325]"/>
+  <match src="=: = [804,805]" dest="=: = [904,905]"/>
+  <match src="comment: /* Release lock */ [821,839]" dest="comment: /* Release lock */ [921,939]"/>
+  <match src="argument_list [135,164]" dest="argument_list [135,164]"/>
+  <match src="declaration [115,121]" dest="declaration [115,121]"/>
+  <match src="=: = [491,492]" dest="=: = [449,450]"/>
+  <match src="argument_list [179,219]" dest="argument_list [179,219]"/>
+  <match src="}: } [724,725]" dest="}: } [824,825]"/>
+  <match src="identifier: HB_MAGIC [807,815]" dest="identifier: HB_MAGIC [907,915]"/>
+  <match src="NULL: NULL [147,151]" dest="NULL: NULL [147,151]"/>
+  <match src="&amp;: &amp; [266,267]" dest="&amp;: &amp; [265,266]"/>
+  <match src="type_identifier: irda_queue_t [681,693]" dest="type_identifier: irda_queue_t [521,533]"/>
+  <match src="assignment_expression [653,719]" dest="assignment_expression [498,559]"/>
+  <match src=",: , [151,152]" dest=",: , [151,152]"/>
+  <match src=",: , [923,924]" dest=",: , [1020,1021]"/>
+  <match src="&amp;: &amp; [902,903]" dest="&amp;: &amp; [999,1000]"/>
+  <match src="&amp;: &amp; [307,308]" dest="&amp;: &amp; [296,297]"/>
+  <match src="identifier: spin_lock_irqsave_nested [282,306]" dest="identifier: spin_lock_irqsave [278,295]"/>
+  <match src=",: , [39,40]" dest=",: , [39,40]"/>
+  <match src="[: [ [715,716]" dest="[: [ [555,556]"/>
+  <match src="number_literal: 1 [216,217]" dest="number_literal: 1 [216,217]"/>
+  <match src="assignment_expression [789,815]" dest="assignment_expression [889,915]"/>
+  <match src=";: ; [815,816]" dest=";: ; [915,916]"/>
+  <match src="null [147,151]" dest="null [147,151]"/>
+  <match src="parameter_list [19,61]" dest="parameter_list [19,61]"/>
+  <match src=";: ; [1049,1050]" dest=";: ; [1090,1091]"/>
+  <match src="identifier: IRDA_ASSERT [168,179]" dest="identifier: IRDA_ASSERT [168,179]"/>
+  <match src="abstract_pointer_declarator [693,695]" dest="abstract_pointer_declarator [533,535]"/>
+  <match src="parameter_declaration [41,60]" dest="parameter_declaration [41,60]"/>
+  <match src="&amp;: &amp; [863,864]" dest="&amp;: &amp; [962,963]"/>
+  <match src="identifier: return [153,159]" dest="identifier: return [153,159]"/>
+  <match src="init_declarator [103,112]" dest="init_declarator [103,112]"/>
+  <match src="return_statement [1053,1062]" dest="return_statement [1094,1103]"/>
+  <match src="number_literal: 0 [1060,1061]" dest="number_literal: 0 [1101,1102]"/>
+  <match src="identifier: queue [653,658]" dest="identifier: queue [498,503]"/>
+  <match src="*: * [30,31]" dest="*: * [30,31]"/>
+  <match src="update_expression [514,518]" dest="update_expression [472,476]"/>
+  <match src="NULL: NULL [781,785]" dest="NULL: NULL [881,885]"/>
+  <match src="type_identifier: hashbin_t [21,30]" dest="type_identifier: hashbin_t [21,30]"/>
+  <match src="identifier: hashbin [32,39]" dest="identifier: hashbin [32,39]"/>
+  <match src="identifier: hashbin [136,143]" dest="identifier: hashbin [136,143]"/>
+  <match src="(: ( [613,614]" dest="(: ( [595,596]"/>
+  <match src="): ) [163,164]" dest="): ) [163,164]"/>
+  <match src="(: ( [844,845]" dest="(: ( [944,945]"/>
+  <match src="function_declarator [5,61]" dest="function_declarator [5,61]"/>
+  <match src="null [781,785]" dest="null [881,885]"/>
+  <match src="identifier: i [489,490]" dest="identifier: i [447,448]"/>
+  <match src="assignment_expression [489,494]" dest="assignment_expression [447,452]"/>
+  <match src="=: = [109,110]" dest="=: = [109,110]"/>
+  <match src="if_statement [244,368]" dest="if_statement [244,326]"/>
+  <match src="sized_type_specifier [89,102]" dest="sized_type_specifier [89,102]"/>
+  <match src="(: ( [306,307]" dest="(: ( [295,296]"/>
+  <match src="long: long [98,102]" dest="long: long [98,102]"/>
+  <match src=";: ; [217,218]" dest=";: ; [217,218]"/>
+  <match src="}: } [728,729]" dest="}: } [828,829]"/>
+  <match src="call_expression [1035,1049]" dest="call_expression [1076,1090]"/>
+  <match src="field_expression [249,265]" dest="field_expression [248,264]"/>
+  <match src="): ) [718,719]" dest="): ) [558,559]"/>
+  <match src="pointer_expression [902,923]" dest="pointer_expression [999,1020]"/>
+  <match src="(: ( [179,180]" dest="(: ( [179,180]"/>
+  <match src="(: ( [135,136]" dest="(: ( [135,136]"/>
+  <match src="expression_statement [168,220]" dest="expression_statement [168,220]"/>
+  <match src="identifier: IRDA_ASSERT [124,135]" dest="identifier: IRDA_ASSERT [124,135]"/>
+  <match src="ERROR [217,218]" dest="ERROR [217,218]"/>
+  <match src="-: - [215,216]" dest="-: - [215,216]"/>
+  <match src=";: ; [931,932]" dest=";: ; [1028,1029]"/>
+  <match src=";: ; [86,87]" dest=";: ; [86,87]"/>
+  <match src="(: ( [488,489]" dest="(: ( [446,447]"/>
+  <match src="expression_statement [653,720]" dest="expression_statement [498,560]"/>
+  <match src="declaration [67,87]" dest="declaration [67,87]"/>
+  <match src="identifier: HB_LOCK [865,872]" dest="identifier: HB_LOCK [964,971]"/>
+  <match src="call_expression [168,219]" dest="call_expression [168,219]"/>
+  <match src="type_identifier: irda_queue_t [67,79]" dest="type_identifier: irda_queue_t [67,79]"/>
+  <match src="identifier: hashbin [759,766]" dest="identifier: hashbin [859,866]"/>
+  <match src="field_expression [698,715]" dest="field_expression [538,555]"/>
+  <match src="compound_statement [605,725]" dest="compound_statement [493,825]"/>
+  <match src="while: while [590,595]" dest="while: while [483,488]"/>
+  <match src="expression_statement [879,932]" dest="expression_statement [976,1029]"/>
+  <match src="field_expression [308,328]" dest="field_expression [297,317]"/>
+  <match src="): ) [695,696]" dest="): ) [535,536]"/>
+  <match src="type_descriptor [681,695]" dest="type_descriptor [521,535]"/>
+  <match src="identifier: i [514,515]" dest="identifier: i [472,473]"/>
+  <match src="=: = [779,780]" dest="=: = [879,880]"/>
+  <match src=";: ; [648,649]" dest=";: ; [724,725]"/>
+  <match src="pointer_declarator [79,86]" dest="pointer_declarator [79,86]"/>
+  <match src="): ) [60,61]" dest="): ) [60,61]"/>
+  <match src="binary_expression [249,275]" dest="binary_expression [248,274]"/>
+  <match src="identifier: dequeue_first [661,674]" dest="identifier: dequeue_first [506,519]"/>
+  <match src="call_expression [124,164]" dest="call_expression [124,164]"/>
+  <match src="return: return [1053,1059]" dest="return: return [1094,1100]"/>
+  <match src="identifier: HB_LOCK [268,275]" dest="identifier: HB_LOCK [267,274]"/>
+  <match src="number_literal: 1 [161,162]" dest="number_literal: 1 [161,162]"/>
+  <match src="assignment_expression [759,785]" dest="assignment_expression [859,885]"/>
+  <match src="*: * [694,695]" dest="*: * [534,535]"/>
+  <match src="parenthesized_expression [613,624]" dest="parenthesized_expression [595,606]"/>
+  <match src="ERROR [162,163]" dest="ERROR [162,163]"/>
+  <match src="translation_unit [1,1064]" dest="translation_unit [1,1105]"/>
+  <match src="): ) [276,277]" dest="): ) [274,275]"/>
+  <match src="identifier: hashbin [308,315]" dest="identifier: hashbin [297,304]"/>
+  <match src="identifier: i [119,120]" dest="identifier: i [119,120]"/>
+  <match src="(: ( [674,675]" dest="(: ( [519,520]"/>
+  <match src=";: ; [162,163]" dest=";: ; [162,163]"/>
+  <match src="field_expression [789,803]" dest="field_expression [889,903]"/>
+  <match src="identifier: free_func [51,60]" dest="identifier: free_func [51,60]"/>
+  <match src="field_identifier: hb_type [855,862]" dest="field_identifier: hb_type [954,961]"/>
+  <match src="expression_statement [282,365]" dest="expression_statement [278,326]"/>
+  <match src="!=: != [144,146]" dest="!=: != [144,146]"/>
+  <match src="}: } [1063,1064]" dest="}: } [1104,1105]"/>
+  <match src="binary_expression [846,872]" dest="binary_expression [945,971]"/>
+  <match src="if_statement [841,988]" dest="if_statement [941,1029]"/>
+  <match src="identifier: hashbin [846,853]" dest="identifier: hashbin [945,952]"/>
+  <match src="abstract_pointer_declarator [694,695]" dest="abstract_pointer_declarator [534,535]"/>
+  <match src="==: == [195,197]" dest="==: == [195,197]"/>
+  <match src="if: if [244,246]" dest="if: if [244,246]"/>
+  <match src="identifier: queue [642,647]" dest="identifier: queue [718,723]"/>
+  <match src=";: ; [719,720]" dest=";: ; [559,560]"/>
+  <match src="primitive_type: int [1,4]" dest="primitive_type: int [1,4]"/>
+  <match src="comment: /* Synchronize */ [225,242]" dest="comment: /* Synchronize */ [225,242]"/>
+  <match src="identifier: kfree [1035,1040]" dest="identifier: kfree [1076,1081]"/>
+  <match src=";: ; [512,513]" dest=";: ; [470,471]"/>
+  <match src="*: * [79,80]" dest="*: * [79,80]"/>
+  <match src="-&gt;: -&gt; [766,768]" dest="-&gt;: -&gt; [866,868]"/>
+  <match src=";: ; [1061,1062]" dest=";: ; [1102,1103]"/>
+  <match src="identifier: hashbin [789,796]" dest="identifier: hashbin [889,896]"/>
+  <match src="field_expression [759,778]" dest="field_expression [859,878]"/>
+  <match src="&lt;: &lt; [498,499]" dest="&lt;: &lt; [456,457]"/>
+  <match src="pointer_expression [697,718]" dest="pointer_expression [537,558]"/>
+  <match src=",: , [206,207]" dest=",: , [206,207]"/>
+  <match src="-: - [160,161]" dest="-: - [160,161]"/>
+  <match src="): ) [647,648]" dest="): ) [723,724]"/>
+  <match src="compound_statement [521,729]" dest="compound_statement [479,829]"/>
+  <match src=";: ; [120,121]" dest=";: ; [120,121]"/>
+  <match src="): ) [872,873]" dest="): ) [971,972]"/>
+  <match src="subscript_expression [698,718]" dest="subscript_expression [538,558]"/>
+  <match src="field_expression [903,923]" dest="field_expression [1000,1020]"/>
+  <match src="field_expression [180,194]" dest="field_expression [180,194]"/>
+  <match src="argument_list [1040,1049]" dest="argument_list [1081,1090]"/>
+  <match src="): ) [623,624]" dest="): ) [605,606]"/>
+  <match src="-&gt;: -&gt; [315,317]" dest="-&gt;: -&gt; [304,306]"/>
+  <match src="field_identifier: magic [798,803]" dest="field_identifier: magic [898,903]"/>
+  <match src="call_expression [661,719]" dest="call_expression [506,559]"/>
+  <match src=";: ; [364,365]" dest=";: ; [325,326]"/>
+  <match src="cast_expression [680,718]" dest="cast_expression [520,558]"/>
+  <match src="parenthesized_expression [844,873]" dest="parenthesized_expression [944,972]"/>
+  <match src="identifier: hashbin [249,256]" dest="identifier: hashbin [248,255]"/>
+</matches>
+<actions>
+  <move-tree tree="expression_statement [282,365]" parent="if_statement [244,368]" at="2"/>
+  <move-tree tree="expression_statement [879,932]" parent="if_statement [841,988]" at="2"/>
+  <update-node tree="identifier: spin_lock_irqsave_nested [282,306]" label="spin_lock_irqsave"/>
+  <insert-node tree="number_literal: 1 [490,491]" parent="parenthesized_expression [596,604]" at="1"/>
+  <insert-tree tree="if_statement [565,587]" parent="compound_statement [605,725]" at="3"/>
+  <insert-node tree="if_statement [592,820]" parent="compound_statement [605,725]" at="4"/>
+  <insert-node tree="if: if [592,594]" parent="if_statement [592,820]" at="0"/>
+  <move-tree tree="parenthesized_expression [613,624]" parent="if_statement [592,820]" at="1"/>
+  <insert-node tree="compound_statement [607,820]" parent="if_statement [592,820]" at="2"/>
+  <insert-node tree="{: { [607,608]" parent="compound_statement [607,820]" at="0"/>
+  <insert-tree tree="if_statement [613,703]" parent="compound_statement [607,820]" at="1"/>
+  <move-tree tree="expression_statement [629,649]" parent="compound_statement [607,820]" at="2"/>
+  <insert-tree tree="if_statement [730,815]" parent="compound_statement [607,820]" at="3"/>
+  <insert-node tree="}: } [819,820]" parent="compound_statement [607,820]" at="4"/>
+  <insert-node tree="identifier: free_func [708,717]" parent="call_expression [629,648]" at="0"/>
+  <delete-node tree=",: , [335,336]"/>
+  <delete-tree tree="update_expression [343,363]"/>
+  <delete-node tree="{: { [278,279]"/>
+  <delete-node tree="}: } [367,368]"/>
+  <delete-node tree="compound_statement [278,368]"/>
+  <delete-tree tree="expression_statement [525,587]"/>
+  <delete-node tree="identifier: queue [597,602]"/>
+  <delete-node tree="if: if [610,612]"/>
+  <delete-node tree="if_statement [610,649]"/>
+  <delete-tree tree="parenthesized_expression [629,641]"/>
+  <delete-node tree="{: { [874,875]"/>
+  <delete-tree tree="preproc_ifdef [933,985]"/>
+  <delete-node tree="}: } [987,988]"/>
+  <delete-node tree="compound_statement [874,988]"/>
+</actions>

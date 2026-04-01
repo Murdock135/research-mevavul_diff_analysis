@@ -1,0 +1,20 @@
+{
+    "id": "4b20528808d0c311290b0d9ab2cfc44063380ef7_getRedirectParameters_1",
+    "func_name": "getRedirectParameters",
+    "cve_id": "CVE-2023-40572",
+    "cwe_ids": [
+        "CWE-352"
+    ],
+    "commit_hash": "4b20528808d0c311290b0d9ab2cfc44063380ef7",
+    "parent_commit_hash": "b8b641b70123fe8945ad7d60b566f730dc92fe1f",
+    "repo_name": "xwiki/xwiki-platform",
+    "git_url": "https://github.com/xwiki/xwiki-platform/commit/4b20528808d0c311290b0d9ab2cfc44063380ef7",
+    "file_path": "xwiki-platform-core/xwiki-platform-oldcore/src/main/java/com/xpn/xwiki/web/CreateAction.java",
+    "file_name": "CreateAction.java",
+    "commit_date": 1681794591,
+    "commit_msg": "XWIKI-20849: Require a CSRF token in the create action",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 8.0,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

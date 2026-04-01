@@ -1,0 +1,42 @@
+{
+  "frequency": [
+    {
+      "c": "TypeAccess",
+      "f": "3"
+    },
+    {
+      "c": "TypeReference",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "update-node_TypeAccess_FieldRead",
+      "f": "3"
+    },
+    {
+      "c": "update-node_TypeReference_Parameter",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "TypeAccess",
+      "f": "0.75"
+    },
+    {
+      "c": "TypeReference",
+      "f": "0.25"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "update-node_TypeAccess_FieldRead",
+      "f": "0.75"
+    },
+    {
+      "c": "update-node_TypeReference_Parameter",
+      "f": "0.25"
+    }
+  ]
+}

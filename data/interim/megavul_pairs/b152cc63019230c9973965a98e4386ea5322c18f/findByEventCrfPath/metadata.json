@@ -1,0 +1,20 @@
+{
+    "id": "b152cc63019230c9973965a98e4386ea5322c18f_findByEventCrfPath_0",
+    "func_name": "findByEventCrfPath",
+    "cve_id": "CVE-2022-24831",
+    "cwe_ids": [
+        "CWE-89"
+    ],
+    "commit_hash": "b152cc63019230c9973965a98e4386ea5322c18f",
+    "parent_commit_hash": "a1c607087a58ea00d1cf91f7f4b0ec404d8af80e",
+    "repo_name": "OpenClinica",
+    "git_url": "https://github.com/OpenClinica/OpenClinica/commit/b152cc63019230c9973965a98e4386ea5322c18f",
+    "file_path": "core/src/main/java/org/akaza/openclinica/dao/hibernate/EventCrfFlagDao.java",
+    "file_name": "EventCrfFlagDao.java",
+    "commit_date": 1643181071,
+    "commit_msg": "OC-17141: fix reported SQL injection issues",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

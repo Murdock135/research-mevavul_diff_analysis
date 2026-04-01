@@ -1,0 +1,20 @@
+{
+    "id": "5c5fd5102bceb05eb233c1d3c249edcfc665b8c2_loadBaseFilterChain_0",
+    "func_name": "loadBaseFilterChain",
+    "cve_id": "CVE-2021-45790",
+    "cwe_ids": [
+        "CWE-434"
+    ],
+    "commit_hash": "5c5fd5102bceb05eb233c1d3c249edcfc665b8c2",
+    "parent_commit_hash": "2195752fbb59ea84ed43b0da1f656944bd5b8849",
+    "repo_name": "metersphere",
+    "git_url": "https://github.com/metersphere/metersphere/commit/5c5fd5102bceb05eb233c1d3c249edcfc665b8c2",
+    "file_path": "backend/src/main/java/io/metersphere/commons/utils/ShiroUtils.java",
+    "file_name": "ShiroUtils.java",
+    "commit_date": 1640027489,
+    "commit_msg": "fix: markdown\u56fe\u7247\u4e0a\u4f20\u63a5\u53e3\u53ef\u533f\u540d\u8bbf\u95ee (#8653)",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_is_v3": true
+}

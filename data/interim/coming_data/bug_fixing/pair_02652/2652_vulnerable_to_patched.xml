@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="comment: 	
+	 * Invalidate the I/O bitmap by moving io_bitmap_base outside the
+	 * TSS limit so any subsequent I/O access from user space will
+	 * trigger a #GP.
+	 *
+	 * This is correct even when VMEXIT rewrites the TSS limit
+	 * to 0x67 as the only requirement is that the base points
+	 * outside the limit.
+	 */ [71,375]" dest="comment: 	
+	 * Invalidate the I/O bitmap by moving io_bitmap_base outside the
+	 * TSS limit so any subsequent I/O access from user space will
+	 * trigger a #GP.
+	 *
+	 * This is correct even when VMEXIT rewrites the TSS limit
+	 * to 0x67 as the only requirement is that the base points
+	 * outside the limit.
+	 */ [60,364]"/>
+  <match src="function_definition [0,434]" dest="function_definition [0,453]"/>
+  <match src="translation_unit [0,434]" dest="translation_unit [0,453]"/>
+  <match src="primitive_type: void [14,18]" dest="primitive_type: void [14,18]"/>
+  <match src="parameter_list [43,67]" dest="parameter_list [50,56]"/>
+  <match src=";: ; [431,432]" dest=";: ; [450,451]"/>
+  <match src="}: } [433,434]" dest="}: } [452,453]"/>
+  <match src="identifier: tss_invalidate_io_bitmap [19,43]" dest="identifier: native_tss_invalidate_io_bitmap [19,50]"/>
+  <match src="static: static [0,6]" dest="static: static [0,6]"/>
+  <match src="inline: inline [7,13]" dest="inline: inline [7,13]"/>
+  <match src="expression_statement [377,432]" dest="expression_statement [366,451]"/>
+  <match src="function_declarator [19,67]" dest="function_declarator [19,56]"/>
+  <match src="parameter_declaration [44,66]" dest="parameter_declaration [51,55]"/>
+  <match src="compound_statement [68,434]" dest="compound_statement [57,453]"/>
+  <match src="(: ( [43,44]" dest="(: ( [50,51]"/>
+  <match src="storage_class_specifier [7,13]" dest="storage_class_specifier [7,13]"/>
+  <match src="storage_class_specifier [0,6]" dest="storage_class_specifier [0,6]"/>
+  <match src="{: { [68,69]" dest="{: { [57,58]"/>
+  <match src="): ) [66,67]" dest="): ) [55,56]"/>
+</matches>
+<actions>
+  <update-node tree="identifier: tss_invalidate_io_bitmap [19,43]" label="native_tss_invalidate_io_bitmap"/>
+  <insert-tree tree="call_expression [366,450]" parent="expression_statement [377,432]" at="0"/>
+  <insert-node tree="primitive_type: void [51,55]" parent="parameter_declaration [44,66]" at="0"/>
+  <delete-tree tree="struct_specifier [44,61]"/>
+  <delete-tree tree="pointer_declarator [62,66]"/>
+  <delete-tree tree="assignment_expression [377,431]"/>
+</actions>

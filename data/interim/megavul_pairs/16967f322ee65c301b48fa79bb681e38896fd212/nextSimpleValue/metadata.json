@@ -1,0 +1,20 @@
+{
+    "id": "16967f322ee65c301b48fa79bb681e38896fd212_nextSimpleValue_0",
+    "func_name": "nextSimpleValue",
+    "cve_id": "CVE-2023-5072",
+    "cwe_ids": [
+        "CWE-770"
+    ],
+    "commit_hash": "16967f322ee65c301b48fa79bb681e38896fd212",
+    "parent_commit_hash": "661114c50dcfd53bb041aab66f14bb91e0a87c8a",
+    "repo_name": "stleary/JSON-java",
+    "git_url": "https://github.com/stleary/JSON-java/commit/16967f322ee65c301b48fa79bb681e38896fd212",
+    "file_path": "src/main/java/org/json/JSONTokener.java",
+    "file_name": "JSONTokener.java",
+    "commit_date": 1695814924,
+    "commit_msg": "Simplify the check for object keys that are themselves objects.\n\nFor object keys, we can just skip the part of `nextValue()` that parses values\nthat are objects or arrays. Then the existing logic for unquoted values will\nalready stop at `{` or `[`, and that will produce a `Missing value` exception.",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

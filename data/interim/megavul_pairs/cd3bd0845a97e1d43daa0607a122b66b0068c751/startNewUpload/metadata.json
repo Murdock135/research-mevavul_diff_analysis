@@ -1,0 +1,20 @@
+{
+    "id": "cd3bd0845a97e1d43daa0607a122b66b0068c751_startNewUpload_0",
+    "func_name": "startNewUpload",
+    "cve_id": "CVE-2022-39210",
+    "cwe_ids": [
+        "CWE-22"
+    ],
+    "commit_hash": "cd3bd0845a97e1d43daa0607a122b66b0068c751",
+    "parent_commit_hash": "61f891201b7f055cd4ab0bdfc172e454abf39c00",
+    "repo_name": "nextcloud/android",
+    "git_url": "https://github.com/nextcloud/android/commit/cd3bd0845a97e1d43daa0607a122b66b0068c751",
+    "file_path": "app/src/main/java/com/owncloud/android/files/services/FileUploader.java",
+    "file_name": "FileUploader.java",
+    "commit_date": 1658295502,
+    "commit_msg": "Don't accept uris to upload from external apps if they contain this app's package name\n\nPrevent leaks of files in this app's storage\n\nCo-authored-by: Tobias Kaminsky <tobias@kaminsky.me>\nSigned-off-by: \u00c1lvaro Brey <alvaro.brey@nextcloud.com>",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

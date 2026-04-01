@@ -1,0 +1,66 @@
+{
+  "frequency": [
+    {
+      "c": "Literal",
+      "f": "4"
+    },
+    {
+      "c": "VariableRead",
+      "f": "3"
+    },
+    {
+      "c": "TypeReference",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "delete-node_Literal_Return",
+      "f": "3"
+    },
+    {
+      "c": "insert-node_VariableRead_Return",
+      "f": "3"
+    },
+    {
+      "c": "update-node_TypeReference_Method",
+      "f": "1"
+    },
+    {
+      "c": "update-node_Literal_Return",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Literal",
+      "f": "0.5"
+    },
+    {
+      "c": "VariableRead",
+      "f": "0.375"
+    },
+    {
+      "c": "TypeReference",
+      "f": "0.125"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "delete-node_Literal_Return",
+      "f": "0.375"
+    },
+    {
+      "c": "insert-node_VariableRead_Return",
+      "f": "0.375"
+    },
+    {
+      "c": "update-node_TypeReference_Method",
+      "f": "0.125"
+    },
+    {
+      "c": "update-node_Literal_Return",
+      "f": "0.125"
+    }
+  ]
+}

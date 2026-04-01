@@ -1,0 +1,194 @@
+{
+  "frequency": [
+    {
+      "c": "VariableRead",
+      "f": "4"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "2"
+    },
+    {
+      "c": "Block",
+      "f": "2"
+    },
+    {
+      "c": "Invocation",
+      "f": "2"
+    },
+    {
+      "c": "If",
+      "f": "2"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "ArrayTypeReference",
+      "f": "1"
+    },
+    {
+      "c": "NewArray",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "move-tree_LocalVariable_Block",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Invocation_Assignment",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_VariableRead_FieldRead",
+      "f": "1"
+    },
+    {
+      "c": "update-node_VariableRead_FieldRead",
+      "f": "1"
+    },
+    {
+      "c": "update-node_VariableRead_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_VariableRead_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_NewArray_Assignment",
+      "f": "1"
+    },
+    {
+      "c": "update-node_ArrayTypeReference_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Block_If",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_LocalVariable_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_Block_If",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Invocation_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "update-node_BinaryOperator_If",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "VariableRead",
+      "f": "0.26666666666666666"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "0.13333333333333333"
+    },
+    {
+      "c": "Block",
+      "f": "0.13333333333333333"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.13333333333333333"
+    },
+    {
+      "c": "If",
+      "f": "0.13333333333333333"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "0.06666666666666667"
+    },
+    {
+      "c": "ArrayTypeReference",
+      "f": "0.06666666666666667"
+    },
+    {
+      "c": "NewArray",
+      "f": "0.06666666666666667"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "move-tree_LocalVariable_Block",
+      "f": "0.06666666666666667"
+    },
+    {
+      "c": "delete-node_Invocation_Assignment",
+      "f": "0.06666666666666667"
+    },
+    {
+      "c": "move-tree_VariableRead_FieldRead",
+      "f": "0.06666666666666667"
+    },
+    {
+      "c": "update-node_VariableRead_FieldRead",
+      "f": "0.06666666666666667"
+    },
+    {
+      "c": "update-node_VariableRead_Invocation",
+      "f": "0.06666666666666667"
+    },
+    {
+      "c": "move-tree_VariableRead_Invocation",
+      "f": "0.06666666666666667"
+    },
+    {
+      "c": "insert-node_If_Block",
+      "f": "0.06666666666666667"
+    },
+    {
+      "c": "insert-node_NewArray_Assignment",
+      "f": "0.06666666666666667"
+    },
+    {
+      "c": "update-node_ArrayTypeReference_LocalVariable",
+      "f": "0.06666666666666667"
+    },
+    {
+      "c": "move-tree_Block_If",
+      "f": "0.06666666666666667"
+    },
+    {
+      "c": "move-tree_If_Block",
+      "f": "0.06666666666666667"
+    },
+    {
+      "c": "update-node_LocalVariable_Block",
+      "f": "0.06666666666666667"
+    },
+    {
+      "c": "insert-node_Block_If",
+      "f": "0.06666666666666667"
+    },
+    {
+      "c": "move-tree_Invocation_LocalVariable",
+      "f": "0.06666666666666667"
+    },
+    {
+      "c": "update-node_BinaryOperator_If",
+      "f": "0.06666666666666667"
+    }
+  ]
+}

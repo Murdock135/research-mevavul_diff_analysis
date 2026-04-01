@@ -1,0 +1,20 @@
+{
+    "id": "ed5ad3b824ba388259e0d1ea137d7fca5f0c288e_readFrom_1",
+    "func_name": "readFrom",
+    "cve_id": "CVE-2023-46302",
+    "cwe_ids": [
+        "CWE-502"
+    ],
+    "commit_hash": "ed5ad3b824ba388259e0d1ea137d7fca5f0c288e",
+    "parent_commit_hash": "88e59027e644e81014ca5b5ae5a21de12ae8ca37",
+    "repo_name": "apache/submarine",
+    "git_url": "https://github.com/apache/submarine/commit/ed5ad3b824ba388259e0d1ea137d7fca5f0c288e",
+    "file_path": "submarine-server/server-core/src/main/java/org/apache/submarine/server/rest/provider/YamlEntityProvider.java",
+    "file_name": "YamlEntityProvider.java",
+    "commit_date": 1677988414,
+    "commit_msg": "Replace snakyaml to jackson yaml",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_is_v3": true
+}

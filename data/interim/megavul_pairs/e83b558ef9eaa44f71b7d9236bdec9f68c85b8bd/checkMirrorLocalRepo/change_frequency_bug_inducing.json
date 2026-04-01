@@ -1,0 +1,130 @@
+{
+  "frequency": [
+    {
+      "c": "VariableRead",
+      "f": "2"
+    },
+    {
+      "c": "Wrapper",
+      "f": "2"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "2"
+    },
+    {
+      "c": "Parameter",
+      "f": "1"
+    },
+    {
+      "c": "TypeReference",
+      "f": "1"
+    },
+    {
+      "c": "Invocation",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "update-node_Wrapper_Method",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_VariableRead_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_Invocation_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Wrapper_Method",
+      "f": "1"
+    },
+    {
+      "c": "update-node_TypeReference_Parameter",
+      "f": "1"
+    },
+    {
+      "c": "update-node_Parameter_Method",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_BinaryOperator_If",
+      "f": "1"
+    },
+    {
+      "c": "update-node_VariableRead_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_BinaryOperator_If",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "VariableRead",
+      "f": "0.2222222222222222"
+    },
+    {
+      "c": "Wrapper",
+      "f": "0.2222222222222222"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "0.2222222222222222"
+    },
+    {
+      "c": "Parameter",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "TypeReference",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.1111111111111111"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "update-node_Wrapper_Method",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "move-tree_VariableRead_Invocation",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "insert-node_Invocation_Invocation",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "delete-node_Wrapper_Method",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "update-node_TypeReference_Parameter",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "update-node_Parameter_Method",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "move-tree_BinaryOperator_If",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "update-node_VariableRead_Invocation",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "insert-node_BinaryOperator_If",
+      "f": "0.1111111111111111"
+    }
+  ]
+}

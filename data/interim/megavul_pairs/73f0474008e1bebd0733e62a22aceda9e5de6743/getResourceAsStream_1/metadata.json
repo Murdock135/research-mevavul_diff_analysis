@@ -1,0 +1,20 @@
+{
+    "id": "73f0474008e1bebd0733e62a22aceda9e5de6743_getResourceAsStream_0",
+    "func_name": "getResourceAsStream",
+    "cve_id": "CVE-2021-3856",
+    "cwe_ids": [
+        "CWE-22"
+    ],
+    "commit_hash": "73f0474008e1bebd0733e62a22aceda9e5de6743",
+    "parent_commit_hash": "7d0af8519b0c4c90badd420bba75005ae4cdfa8a",
+    "repo_name": "keycloak",
+    "git_url": "https://github.com/keycloak/keycloak/commit/73f0474008e1bebd0733e62a22aceda9e5de6743",
+    "file_path": "services/src/main/java/org/keycloak/theme/ClassLoaderTheme.java",
+    "file_name": "ClassLoaderTheme.java",
+    "commit_date": 1634222877,
+    "commit_msg": "[KEYCLOAK-19422] ClassLoaderTheme and ClasspathThemeResourceProviderFactory allows reading any file available as a resource to the classloader",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

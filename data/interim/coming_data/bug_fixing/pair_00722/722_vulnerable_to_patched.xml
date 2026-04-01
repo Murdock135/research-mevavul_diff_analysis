@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="macro_type_specifier [0,22]" dest="macro_type_specifier [0,22]"/>
+  <match src="type_descriptor [10,22]" dest="type_descriptor [10,22]"/>
+  <match src="(: ( [222,223]" dest="(: ( [278,279]"/>
+  <match src="identifier: kvm [223,226]" dest="identifier: kvm [279,282]"/>
+  <match src="return_statement [131,146]" dest="return_statement [131,146]"/>
+  <match src="argument_list [222,233]" dest="argument_list [278,289]"/>
+  <match src=";: ; [233,234]" dest=";: ; [289,290]"/>
+  <match src="{: { [52,53]" dest="{: { [52,53]"/>
+  <match src=",: , [226,227]" dest=",: , [282,283]"/>
+  <match src="identifier: EINVAL [139,145]" dest="identifier: EINVAL [139,145]"/>
+  <match src="pointer_declarator [44,49]" dest="pointer_declarator [44,49]"/>
+  <match src="struct: struct [10,16]" dest="struct: struct [10,16]"/>
+  <match src="identifier: KVM_IRQFD_FLAG_RESAMPLE [102,125]" dest="identifier: KVM_IRQFD_FLAG_RESAMPLE [102,125]"/>
+  <match src=";: ; [145,146]" dest=";: ; [145,146]"/>
+  <match src="struct_specifier [10,20]" dest="struct_specifier [10,20]"/>
+  <match src="&amp;: &amp; [167,168]" dest="&amp;: &amp; [223,224]"/>
+  <match src="return_statement [237,272]" dest="return_statement [293,328]"/>
+  <match src="call_expression [244,271]" dest="call_expression [300,327]"/>
+  <match src="(: ( [260,261]" dest="(: ( [316,317]"/>
+  <match src=",: , [264,265]" dest=",: , [320,321]"/>
+  <match src="identifier: args [266,270]" dest="identifier: args [322,326]"/>
+  <match src="|: | [100,101]" dest="|: | [100,101]"/>
+  <match src="return: return [237,243]" dest="return: return [293,299]"/>
+  <match src="identifier: args [155,159]" dest="identifier: args [211,215]"/>
+  <match src="identifier: kvm_irqfd_deassign [204,222]" dest="identifier: kvm_irqfd_deassign [260,278]"/>
+  <match src="identifier: args [45,49]" dest="identifier: args [45,49]"/>
+  <match src="-: - [138,139]" dest="-: - [138,139]"/>
+  <match src="): ) [125,126]" dest="): ) [125,126]"/>
+  <match src="type_identifier: kvm [17,20]" dest="type_identifier: kvm [17,20]"/>
+  <match src="field_identifier: flags [66,71]" dest="field_identifier: flags [66,71]"/>
+  <match src="identifier: kvm [22,25]" dest="identifier: kvm [22,25]"/>
+  <match src="parenthesized_expression [154,193]" dest="parenthesized_expression [210,249]"/>
+  <match src="parenthesized_expression [59,127]" dest="parenthesized_expression [59,127]"/>
+  <match src="*: * [44,45]" dest="*: * [44,45]"/>
+  <match src="identifier: kvm [261,264]" dest="identifier: kvm [317,320]"/>
+  <match src="field_expression [155,166]" dest="field_expression [211,222]"/>
+  <match src="unary_expression [138,145]" dest="unary_expression [138,145]"/>
+  <match src="&amp;: &amp; [72,73]" dest="&amp;: &amp; [72,73]"/>
+  <match src="field_identifier: flags [161,166]" dest="field_identifier: flags [217,222]"/>
+  <match src="(: ( [154,155]" dest="(: ( [210,211]"/>
+  <match src="return: return [131,137]" dest="return: return [131,137]"/>
+  <match src=",: , [25,26]" dest=",: , [25,26]"/>
+  <match src="return_statement [197,234]" dest="return_statement [253,290]"/>
+  <match src="identifier: kvm_irqfd [34,43]" dest="identifier: kvm_irqfd [34,43]"/>
+  <match src="parenthesized_expression [75,126]" dest="parenthesized_expression [75,126]"/>
+  <match src="(: ( [59,60]" dest="(: ( [59,60]"/>
+  <match src=") [22,22]" dest=") [22,22]"/>
+  <match src="identifier: args [60,64]" dest="identifier: args [60,64]"/>
+  <match src="field_expression [60,71]" dest="field_expression [60,71]"/>
+  <match src="): ) [49,50]" dest="): ) [49,50]"/>
+  <match src="identifier: kvm_irqfd [0,9]" dest="identifier: kvm_irqfd [0,9]"/>
+  <match src=";: ; [271,272]" dest=";: ; [327,328]"/>
+  <match src="call_expression [204,233]" dest="call_expression [260,289]"/>
+  <match src="identifier: KVM_IRQFD_FLAG_DEASSIGN [76,99]" dest="identifier: KVM_IRQFD_FLAG_DEASSIGN [76,99]"/>
+  <match src="if_statement [151,234]" dest="if_statement [207,290]"/>
+  <match src="abstract_pointer_declarator [21,22]" dest="abstract_pointer_declarator [21,22]"/>
+  <match src="compound_statement [52,274]" dest="compound_statement [52,330]"/>
+  <match src="binary_expression [76,125]" dest="binary_expression [76,125]"/>
+  <match src="identifier: KVM_IRQFD_FLAG_DEASSIGN [169,192]" dest="identifier: KVM_IRQFD_FLAG_DEASSIGN [225,248]"/>
+  <match src="identifier: args [228,232]" dest="identifier: args [284,288]"/>
+  <match src="binary_expression [155,192]" dest="binary_expression [211,248]"/>
+  <match src="(: ( [75,76]" dest="(: ( [75,76]"/>
+  <match src="if: if [56,58]" dest="if: if [56,58]"/>
+  <match src="}: } [273,274]" dest="}: } [329,330]"/>
+  <match src="ERROR [27,43]" dest="ERROR [27,43]"/>
+  <match src="identifier: kvm_irqfd_assign [244,260]" dest="identifier: kvm_irqfd_assign [300,316]"/>
+  <match src="if: if [151,153]" dest="if: if [207,209]"/>
+  <match src="translation_unit [0,274]" dest="translation_unit [0,330]"/>
+  <match src="return: return [197,203]" dest="return: return [253,259]"/>
+  <match src="): ) [270,271]" dest="): ) [326,327]"/>
+  <match src="if_statement [56,146]" dest="if_statement [56,146]"/>
+  <match src="*: * [21,22]" dest="*: * [21,22]"/>
+  <match src="-&gt;: -&gt; [159,161]" dest="-&gt;: -&gt; [215,217]"/>
+  <match src="argument_list [260,271]" dest="argument_list [316,327]"/>
+  <match src="-&gt;: -&gt; [64,66]" dest="-&gt;: -&gt; [64,66]"/>
+  <match src="~: ~ [74,75]" dest="~: ~ [74,75]"/>
+  <match src="binary_expression [60,126]" dest="binary_expression [60,126]"/>
+  <match src="identifier: struct [27,33]" dest="identifier: struct [27,33]"/>
+  <match src="): ) [232,233]" dest="): ) [288,289]"/>
+  <match src="unary_expression [74,126]" dest="unary_expression [74,126]"/>
+  <match src="ERROR [0,50]" dest="ERROR [0,50]"/>
+  <match src="): ) [192,193]" dest="): ) [248,249]"/>
+  <match src="): ) [126,127]" dest="): ) [126,127]"/>
+  <match src="(: ( [9,10]" dest="(: ( [9,10]"/>
+</matches>
+<actions>
+  <insert-tree tree="if_statement [148,202]" parent="compound_statement [52,274]" at="2"/>
+</actions>

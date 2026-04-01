@@ -1,0 +1,20 @@
+{
+    "id": "5dfa5b87318744a4d020b66d5f7747acc36b213b_checkRestrictedClass_0",
+    "func_name": "checkRestrictedClass",
+    "cve_id": "CVE-2020-12668",
+    "cwe_ids": [
+        "CWE-863"
+    ],
+    "commit_hash": "5dfa5b87318744a4d020b66d5f7747acc36b213b",
+    "parent_commit_hash": "43f9b6572bbc37a6d6f60b11280237f03f770127",
+    "repo_name": "HubSpot/jinjava",
+    "git_url": "https://github.com/HubSpot/jinjava/commit/5dfa5b87318744a4d020b66d5f7747acc36b213b",
+    "file_path": "src/main/java/com/hubspot/jinjava/el/ext/JinjavaBeanELResolver.java",
+    "file_name": "JinjavaBeanELResolver.java",
+    "commit_date": 1586771348,
+    "commit_msg": "add method to blacklist",
+    "cvss_vector": "AV:N/AC:L/Au:S/C:C/I:N/A:N",
+    "cvss_base_score": 6.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

@@ -1,0 +1,20 @@
+{
+    "id": "c1c31359a1df953e79a9ca9b6c54b3cdbfef11e9_handleSerialization_0",
+    "func_name": "handleSerialization",
+    "cve_id": "CVE-2016-10750",
+    "cwe_ids": [
+        "CWE-502"
+    ],
+    "commit_hash": "c1c31359a1df953e79a9ca9b6c54b3cdbfef11e9",
+    "parent_commit_hash": "6c521085bce107c1b31e38cf86f2a4dddf04c841",
+    "repo_name": "hazelcast",
+    "git_url": "https://github.com/hazelcast/hazelcast/commit/c1c31359a1df953e79a9ca9b6c54b3cdbfef11e9",
+    "file_path": "hazelcast-spring/src/main/java/com/hazelcast/spring/AbstractHazelcastBeanDefinitionParser.java",
+    "file_name": "AbstractHazelcastBeanDefinitionParser.java",
+    "commit_date": 1461665384,
+    "commit_msg": "Add basic protection against untrusted deserialization.",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 6.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

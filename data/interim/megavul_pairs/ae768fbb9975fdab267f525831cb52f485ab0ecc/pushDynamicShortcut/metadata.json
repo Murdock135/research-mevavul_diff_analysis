@@ -1,0 +1,20 @@
+{
+    "id": "ae768fbb9975fdab267f525831cb52f485ab0ecc_pushDynamicShortcut_0",
+    "func_name": "pushDynamicShortcut",
+    "cve_id": "CVE-2023-40075",
+    "cwe_ids": [
+        "CWE-Other"
+    ],
+    "commit_hash": "ae768fbb9975fdab267f525831cb52f485ab0ecc",
+    "parent_commit_hash": "1120bc7e511710b1b774adf29ba47106292365e7",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/ae768fbb9975fdab267f525831cb52f485ab0ecc",
+    "file_path": "services/core/java/com/android/server/pm/ShortcutPackage.java",
+    "file_name": "ShortcutPackage.java",
+    "commit_date": 1686260299,
+    "commit_msg": "Restrict number of shortcuts can be added through addDynamicShortcuts\n\nThis CL fixes the issue where, when an app have multiple main\nactivities, the total number of shortcuts can grow indefinitely if they\nwere published through addDynamicShortcuts.\n\nBug: 281061287\nTest: manual\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:3215e73e36aa0463429226b5743ce24badf31227)\nMerged-In: Ib3eecefee34517b670c59dd5b8526fe9eb24f463\nChange-Id: Ib3eecefee34517b670c59dd5b8526fe9eb24f463\n",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

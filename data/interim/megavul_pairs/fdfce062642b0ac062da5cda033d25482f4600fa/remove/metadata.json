@@ -1,0 +1,20 @@
+{
+    "id": "fdfce062642b0ac062da5cda033d25482f4600fa_remove_1",
+    "func_name": "remove",
+    "cve_id": "CVE-2023-26470",
+    "cwe_ids": [
+        "CWE-787"
+    ],
+    "commit_hash": "fdfce062642b0ac062da5cda033d25482f4600fa",
+    "parent_commit_hash": "6b10ebe00aabd50d6500474682c7aec659eddf99",
+    "repo_name": "xwiki/xwiki-platform",
+    "git_url": "https://github.com/xwiki/xwiki-platform/commit/fdfce062642b0ac062da5cda033d25482f4600fa",
+    "file_path": "xwiki-platform-core/xwiki-platform-oldcore/src/main/java/com/xpn/xwiki/internal/doc/BaseObjects.java",
+    "file_name": "BaseObjects.java",
+    "commit_date": 1641867835,
+    "commit_msg": "XWIKI-19223: Improve xobject memory storage in XWikidocument\n* fix List#remove implementation\n* override List#clear implementation for performances",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

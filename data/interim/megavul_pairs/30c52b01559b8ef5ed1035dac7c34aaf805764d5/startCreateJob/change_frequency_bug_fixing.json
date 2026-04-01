@@ -1,0 +1,130 @@
+{
+  "frequency": [
+    {
+      "c": "LocalVariable",
+      "f": "2"
+    },
+    {
+      "c": "TypeAccess",
+      "f": "2"
+    },
+    {
+      "c": "If",
+      "f": "2"
+    },
+    {
+      "c": "Block",
+      "f": "1"
+    },
+    {
+      "c": "TypeReference",
+      "f": "1"
+    },
+    {
+      "c": "Invocation",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "update-node_Invocation_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_LocalVariable_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Block_If",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_TypeAccess_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_TypeAccess_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "update-node_TypeReference_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "LocalVariable",
+      "f": "0.2222222222222222"
+    },
+    {
+      "c": "TypeAccess",
+      "f": "0.2222222222222222"
+    },
+    {
+      "c": "If",
+      "f": "0.2222222222222222"
+    },
+    {
+      "c": "Block",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "TypeReference",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.1111111111111111"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "update-node_Invocation_LocalVariable",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "insert-node_If_Block",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "move-tree_LocalVariable_Block",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "move-tree_Block_If",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "update-node_TypeAccess_Invocation",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "move-tree_TypeAccess_Invocation",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "update-node_TypeReference_LocalVariable",
+      "f": "0.1111111111111111"
+    },
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "0.1111111111111111"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+class verifyShellState {
+private void verifyShellState()
+    {
+        if ( shell.getWorkingDirectory() == null )
+        {
+            shell.setWorkingDirectory( workingDir );
+        }
+
+        if ( shell.getOriginalExecutable() == null )
+        {
+            shell.setExecutable( executable );
+        }
+    }
+}

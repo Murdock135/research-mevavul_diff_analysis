@@ -1,0 +1,20 @@
+{
+    "id": "2f5b8d33e32c4d9a48243cf9e503236acd5aec5c_userLogin_0",
+    "func_name": "userLogin",
+    "cve_id": "CVE-2021-25958",
+    "cwe_ids": [
+        "CWE-209"
+    ],
+    "commit_hash": "2f5b8d33e32c4d9a48243cf9e503236acd5aec5c",
+    "parent_commit_hash": "326e0f12a48736f5c101724c7947c7ce4b907ca1",
+    "repo_name": "apache/ofbiz-framework",
+    "git_url": "https://github.com/apache/ofbiz-framework/commit/2f5b8d33e32c4d9a48243cf9e503236acd5aec5c",
+    "file_path": "framework/common/src/main/java/org/apache/ofbiz/common/login/LoginServices.java",
+    "file_name": "LoginServices.java",
+    "commit_date": 1627447329,
+    "commit_msg": "Fixed: UserLoginHistory failed the store operation with large password (OFBIZ-12287)\n\nBackport 2aa68dc4de8892e8a7cbb38c10a3a3dd65d233e5 from trunk\n\nWhen you have a user with long password (greater than 256 characters) present in OFBiz and you try to log with, OFBiz return a long error message with sensitive information due to exceeding value size to store on the field UserLoginHistory.passwordUsed.\n\nTo solve this we don't return any information on the genericValue that failed and analyze the field passwordUsed to escape the case where the password set to login is create than the database field capacity.\n\nThanks to Daniel Elkabes <daniel.elkabes@whitesourcesoftware.com> and Hagai Wechsler <hagai.wechsler@whitesourcesoftware.com> from white source software to raise the problem.",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

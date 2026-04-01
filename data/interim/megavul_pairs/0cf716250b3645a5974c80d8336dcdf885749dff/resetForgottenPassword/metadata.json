@@ -1,0 +1,20 @@
+{
+    "id": "0cf716250b3645a5974c80d8336dcdf885749dff_resetForgottenPassword_0",
+    "func_name": "resetForgottenPassword",
+    "cve_id": "CVE-2021-32731",
+    "cwe_ids": [
+        "CWE-200"
+    ],
+    "commit_hash": "0cf716250b3645a5974c80d8336dcdf885749dff",
+    "parent_commit_hash": "0a36dbcc5421d450366580217a47cc44d32f7257",
+    "repo_name": "xwiki/xwiki-platform",
+    "git_url": "https://github.com/xwiki/xwiki-platform/commit/0cf716250b3645a5974c80d8336dcdf885749dff",
+    "file_path": "xwiki-platform-core/xwiki-platform-administration/xwiki-platform-administration-test/xwiki-platform-administration-test-docker/src/test/it/org/xwiki/administration/test/ui/ResetPasswordIT.java",
+    "file_name": "ResetPasswordIT.java",
+    "commit_date": 1614763763,
+    "commit_msg": "XWIKI-18400: Wrong message after reset password",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

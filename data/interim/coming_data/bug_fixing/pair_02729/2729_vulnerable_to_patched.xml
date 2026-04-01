@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="(: ( [27,28]" dest="(: ( [27,28]"/>
+  <match src="struct: struct [28,34]" dest="struct: struct [28,34]"/>
+  <match src="static: static [0,6]" dest="static: static [0,6]"/>
+  <match src="type_identifier: __be32 [91,97]" dest="type_identifier: __be32 [91,97]"/>
+  <match src="-&gt;: -&gt; [159,161]" dest="-&gt;: -&gt; [159,161]"/>
+  <match src="}: } [203,204]" dest="}: } [213,214]"/>
+  <match src="identifier: spi [98,101]" dest="identifier: spi [98,101]"/>
+  <match src="function_declarator [11,48]" dest="function_declarator [11,48]"/>
+  <match src="identifier: iph [68,71]" dest="identifier: iph [68,71]"/>
+  <match src="pointer_declarator [43,47]" dest="pointer_declarator [43,47]"/>
+  <match src="&amp;: &amp; [155,156]" dest="&amp;: &amp; [155,156]"/>
+  <match src="type_identifier: sk_buff [35,42]" dest="type_identifier: sk_buff [35,42]"/>
+  <match src="argument_list [190,200]" dest="argument_list [190,200]"/>
+  <match src="parameter_list [27,48]" dest="parameter_list [27,48]"/>
+  <match src="declaration [91,102]" dest="declaration [91,102]"/>
+  <match src="pointer_expression [155,166]" dest="pointer_expression [155,166]"/>
+  <match src="storage_class_specifier [0,6]" dest="storage_class_specifier [0,6]"/>
+  <match src="return_statement [170,201]" dest="return_statement [170,211]"/>
+  <match src="call_expression [74,87]" dest="call_expression [74,87]"/>
+  <match src=";: ; [167,168]" dest=";: ; [167,168]"/>
+  <match src="field_expression [156,166]" dest="field_expression [156,166]"/>
+  <match src="*: * [43,44]" dest="*: * [43,44]"/>
+  <match src="(: ( [136,137]" dest="(: ( [136,137]"/>
+  <match src="struct: struct [52,58]" dest="struct: struct [52,58]"/>
+  <match src="(: ( [82,83]" dest="(: ( [82,83]"/>
+  <match src="assignment_expression [107,167]" dest="assignment_expression [107,167]"/>
+  <match src="=: = [72,73]" dest="=: = [72,73]"/>
+  <match src=";: ; [87,88]" dest=";: ; [87,88]"/>
+  <match src="): ) [166,167]" dest="): ) [166,167]"/>
+  <match src="cast_expression [137,166]" dest="cast_expression [137,166]"/>
+  <match src="identifier: xfrm6_rcv_spi [177,190]" dest="identifier: xfrm6_rcv_spi [177,190]"/>
+  <match src="identifier: skb [83,86]" dest="identifier: skb [83,86]"/>
+  <match src="field_identifier: saddr [161,166]" dest="field_identifier: saddr [161,166]"/>
+  <match src="type_identifier: ipv6hdr [59,66]" dest="type_identifier: ipv6hdr [59,66]"/>
+  <match src=",: , [194,195]" dest=",: , [194,195]"/>
+  <match src="{: { [49,50]" dest="{: { [49,50]"/>
+  <match src="*: * [67,68]" dest="*: * [67,68]"/>
+  <match src="type_identifier: xfrm_address_t [138,152]" dest="type_identifier: xfrm_address_t [138,152]"/>
+  <match src="identifier: spi [107,110]" dest="identifier: spi [107,110]"/>
+  <match src="struct_specifier [52,66]" dest="struct_specifier [52,66]"/>
+  <match src="identifier: xfrm6_tunnel_spi_lookup [113,136]" dest="identifier: xfrm6_tunnel_spi_lookup [113,136]"/>
+  <match src="call_expression [113,167]" dest="call_expression [113,167]"/>
+  <match src="identifier: ipv6_hdr [74,82]" dest="identifier: ipv6_hdr [74,82]"/>
+  <match src="parameter_declaration [28,47]" dest="parameter_declaration [28,47]"/>
+  <match src=";: ; [200,201]" dest=";: ; [210,211]"/>
+  <match src="): ) [199,200]" dest="): ) [199,200]"/>
+  <match src="): ) [154,155]" dest="): ) [154,155]"/>
+  <match src="identifier: xfrm6_tunnel_rcv [11,27]" dest="identifier: xfrm6_tunnel_rcv [11,27]"/>
+  <match src="identifier: skb [44,47]" dest="identifier: skb [44,47]"/>
+  <match src="function_definition [0,204]" dest="function_definition [0,214]"/>
+  <match src="primitive_type: int [7,10]" dest="primitive_type: int [7,10]"/>
+  <match src="*: * [153,154]" dest="*: * [153,154]"/>
+  <match src="(: ( [190,191]" dest="(: ( [190,191]"/>
+  <match src=";: ; [101,102]" dest=";: ; [101,102]"/>
+  <match src="): ) [86,87]" dest="): ) [86,87]"/>
+  <match src="abstract_pointer_declarator [153,154]" dest="abstract_pointer_declarator [153,154]"/>
+  <match src="expression_statement [107,168]" dest="expression_statement [107,168]"/>
+  <match src="init_declarator [67,87]" dest="init_declarator [67,87]"/>
+  <match src="declaration [52,88]" dest="declaration [52,88]"/>
+  <match src="argument_list [82,87]" dest="argument_list [82,87]"/>
+  <match src="translation_unit [0,204]" dest="translation_unit [0,214]"/>
+  <match src="identifier: spi [196,199]" dest="identifier: spi [196,199]"/>
+  <match src="): ) [47,48]" dest="): ) [47,48]"/>
+  <match src="call_expression [177,200]" dest="call_expression [177,200]"/>
+  <match src="compound_statement [49,204]" dest="compound_statement [49,214]"/>
+  <match src="argument_list [136,167]" dest="argument_list [136,167]"/>
+  <match src="type_descriptor [138,154]" dest="type_descriptor [138,154]"/>
+  <match src="=: = [111,112]" dest="=: = [111,112]"/>
+  <match src="pointer_declarator [67,71]" dest="pointer_declarator [67,71]"/>
+  <match src="(: ( [137,138]" dest="(: ( [137,138]"/>
+  <match src="identifier: skb [191,194]" dest="identifier: skb [191,194]"/>
+  <match src="identifier: iph [156,159]" dest="identifier: iph [156,159]"/>
+  <match src="struct_specifier [28,42]" dest="struct_specifier [28,42]"/>
+  <match src="return: return [170,176]" dest="return: return [170,176]"/>
+</matches>
+<actions>
+  <insert-node tree="conditional_expression [177,210]" parent="return_statement [170,201]" at="1"/>
+  <insert-node tree="binary_expression [177,204]" parent="conditional_expression [177,210]" at="0"/>
+  <insert-node tree="?: ? [205,206]" parent="conditional_expression [177,210]" at="1"/>
+  <insert-node tree=":: : [207,208]" parent="conditional_expression [177,210]" at="2"/>
+  <insert-node tree="number_literal: 0 [209,210]" parent="conditional_expression [177,210]" at="3"/>
+  <move-tree tree="call_expression [177,200]" parent="binary_expression [177,204]" at="0"/>
+  <insert-node tree="&gt;: &gt; [201,202]" parent="binary_expression [177,204]" at="1"/>
+  <insert-node tree="number_literal: 0 [203,204]" parent="binary_expression [177,204]" at="2"/>
+</actions>

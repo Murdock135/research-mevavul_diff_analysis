@@ -1,0 +1,42 @@
+{
+  "frequency": [
+    {
+      "c": "Break",
+      "f": "1"
+    },
+    {
+      "c": "Throw",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "insert-node_Break_Case",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Throw_Block",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Break",
+      "f": "0.5"
+    },
+    {
+      "c": "Throw",
+      "f": "0.5"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "insert-node_Break_Case",
+      "f": "0.5"
+    },
+    {
+      "c": "delete-node_Throw_Block",
+      "f": "0.5"
+    }
+  ]
+}

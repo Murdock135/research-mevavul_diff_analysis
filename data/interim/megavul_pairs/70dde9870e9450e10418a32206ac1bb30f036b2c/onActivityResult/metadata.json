@@ -1,0 +1,20 @@
+{
+    "id": "70dde9870e9450e10418a32206ac1bb30f036b2c_onActivityResult_0",
+    "func_name": "onActivityResult",
+    "cve_id": "CVE-2016-2422",
+    "cwe_ids": [
+        "CWE-264"
+    ],
+    "commit_hash": "70dde9870e9450e10418a32206ac1bb30f036b2c",
+    "parent_commit_hash": "33c0a544f35937a5175e45dea1c71d37595c4d3f",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/packages/apps/CertInstaller/+/70dde9870e9450e10418a32206ac1bb30f036b2c",
+    "file_path": "src/com/android/certinstaller/CertInstaller.java",
+    "file_name": "CertInstaller.java",
+    "commit_date": 1456149137,
+    "commit_msg": "Trust CA certificates added for the whole OS only\n\nExcludes any CA certificates installed for wifi-only from being used for\nanything else. Does not take effect retroactively against certs which\nwere already installed.\n\nThe CAs will continue to be saved to a part of the keystore accessible\nby services running under WIFI_UID.\n\nBug: 26324357\nBug: 25780055\nChange-Id: Ifeb9daf24c9f9a22b2b2daf247d5622c707c9885\n",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C",
+    "cvss_base_score": 9.3,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

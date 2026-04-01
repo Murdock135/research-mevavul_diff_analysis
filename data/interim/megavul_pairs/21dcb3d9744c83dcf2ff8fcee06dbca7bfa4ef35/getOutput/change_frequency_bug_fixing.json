@@ -1,0 +1,90 @@
+{
+  "frequency": [
+    {
+      "c": "VariableRead",
+      "f": "1"
+    },
+    {
+      "c": "Literal",
+      "f": "1"
+    },
+    {
+      "c": "NewClass",
+      "f": "1"
+    },
+    {
+      "c": "ConstructorCall",
+      "f": "1"
+    },
+    {
+      "c": "VirtualElement",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "insert-node_ConstructorCall_Throw",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_NewClass_Throw",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Literal_NewClass",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_VariableRead_Return",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_VirtualElement_CatchVariable",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "VariableRead",
+      "f": "0.2"
+    },
+    {
+      "c": "Literal",
+      "f": "0.2"
+    },
+    {
+      "c": "NewClass",
+      "f": "0.2"
+    },
+    {
+      "c": "ConstructorCall",
+      "f": "0.2"
+    },
+    {
+      "c": "VirtualElement",
+      "f": "0.2"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "insert-node_ConstructorCall_Throw",
+      "f": "0.2"
+    },
+    {
+      "c": "delete-node_NewClass_Throw",
+      "f": "0.2"
+    },
+    {
+      "c": "move-tree_Literal_NewClass",
+      "f": "0.2"
+    },
+    {
+      "c": "move-tree_VariableRead_Return",
+      "f": "0.2"
+    },
+    {
+      "c": "delete-node_VirtualElement_CatchVariable",
+      "f": "0.2"
+    }
+  ]
+}

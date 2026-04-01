@@ -1,0 +1,20 @@
+{
+    "id": "13667036f7a30c5e7aca796ef6e2a3b0926c679a_unmarshal_0",
+    "func_name": "unmarshal",
+    "cve_id": "CVE-2023-52096",
+    "cwe_ids": [
+        "CWE-89"
+    ],
+    "commit_hash": "13667036f7a30c5e7aca796ef6e2a3b0926c679a",
+    "parent_commit_hash": "0db21a29498368a58edf81fa02d8966a3eda2637",
+    "repo_name": "steve-community/ocpp-jaxb",
+    "git_url": "https://github.com/steve-community/ocpp-jaxb/commit/13667036f7a30c5e7aca796ef6e2a3b0926c679a",
+    "file_path": "src/main/java/de/rwth/idsg/ocpp/jaxb/JodaDateTimeConverter.java",
+    "file_name": "JodaDateTimeConverter.java",
+    "commit_date": 1701574081,
+    "commit_msg": "change DateTimeFormatter (closes #13)",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

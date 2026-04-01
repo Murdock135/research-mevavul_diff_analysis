@@ -1,0 +1,20 @@
+{
+    "id": "dad49c9ef26a598619fc48d2697151a02987d478_createBackgroundPendingIntent_0",
+    "func_name": "createBackgroundPendingIntent",
+    "cve_id": "CVE-2022-4903",
+    "cwe_ids": [
+        "CWE-668"
+    ],
+    "commit_hash": "dad49c9ef26a598619fc48d2697151a02987d478",
+    "parent_commit_hash": "79a8e37adb7dd48093779bd3657142e607bdd2d9",
+    "repo_name": "codenameone/CodenameOne",
+    "git_url": "https://github.com/codenameone/CodenameOne/commit/dad49c9ef26a598619fc48d2697151a02987d478",
+    "file_path": "Ports/Android/src/com/codename1/location/AndroidLocationPlayServiceManager.java",
+    "file_name": "AndroidLocationPlayServiceManager.java",
+    "commit_date": 1650660621,
+    "commit_msg": "Fixed #3583 Pending Intent vulnerability",
+    "cvss_vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 5.1,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

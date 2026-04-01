@@ -1,0 +1,20 @@
+{
+    "id": "cf8eb861998ea423c3645d2e5e974420b0e882be_prepareEditedDocument_0",
+    "func_name": "prepareEditedDocument",
+    "cve_id": "CVE-2023-46242",
+    "cwe_ids": [
+        "CWE-352"
+    ],
+    "commit_hash": "cf8eb861998ea423c3645d2e5e974420b0e882be",
+    "parent_commit_hash": "e62a4b1cb1f2676b69f99552bf5f3324d77a0cc2",
+    "repo_name": "xwiki/xwiki-platform",
+    "git_url": "https://github.com/xwiki/xwiki-platform/commit/cf8eb861998ea423c3645d2e5e974420b0e882be",
+    "file_path": "xwiki-platform-core/xwiki-platform-oldcore/src/main/java/com/xpn/xwiki/web/EditAction.java",
+    "file_name": "EditAction.java",
+    "commit_date": 1678953199,
+    "commit_msg": "XWIKI-20386: CSRF privilege escalation/RCE via the edit action",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 8.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

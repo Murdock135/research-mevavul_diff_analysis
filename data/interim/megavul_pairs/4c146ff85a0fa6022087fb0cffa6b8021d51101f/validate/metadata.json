@@ -1,0 +1,21 @@
+{
+    "id": "4c146ff85a0fa6022087fb0cffa6b8021d51101f_validate_0",
+    "func_name": "validate",
+    "cve_id": "CVE-2024-23682",
+    "cwe_ids": [
+        "CWE-501",
+        "CWE-653"
+    ],
+    "commit_hash": "4c146ff85a0fa6022087fb0cffa6b8021d51101f",
+    "parent_commit_hash": "2349cf950afd08e9072623c28f26dadc7a7d6ff1",
+    "repo_name": "ls1intum/Ares",
+    "git_url": "https://github.com/ls1intum/Ares/commit/4c146ff85a0fa6022087fb0cffa6b8021d51101f",
+    "file_path": "src/main/java/de/tum/in/test/api/security/ArtemisSecurityConfigurationBuilder.java",
+    "file_name": "ArtemisSecurityConfigurationBuilder.java",
+    "commit_date": 1644399109,
+    "commit_msg": "Validate maven pom.xml if available for trusted package enforcer rules\n\nThis resolves #15 as good as possible.",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H",
+    "cvss_base_score": 8.2,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

@@ -1,0 +1,9 @@
+class parse_1 {
+public static NSObject parse(File f) throws ParserConfigurationException, IOException, SAXException, PropertyListFormatException, ParseException {
+        DocumentBuilder docBuilder = getDocBuilder();
+
+        Document doc = docBuilder.parse(f);
+
+        return parse(doc);
+    }
+}

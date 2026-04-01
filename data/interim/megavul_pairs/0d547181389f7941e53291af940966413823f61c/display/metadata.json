@@ -1,0 +1,20 @@
+{
+    "id": "0d547181389f7941e53291af940966413823f61c_display_0",
+    "func_name": "display",
+    "cve_id": "CVE-2023-29523",
+    "cwe_ids": [
+        "CWE-74"
+    ],
+    "commit_hash": "0d547181389f7941e53291af940966413823f61c",
+    "parent_commit_hash": "7884d7668b4954bdf08362751ca077353bf413f0",
+    "repo_name": "xwiki/xwiki-platform",
+    "git_url": "https://github.com/xwiki/xwiki-platform/commit/0d547181389f7941e53291af940966413823f61c",
+    "file_path": "xwiki-platform-core/xwiki-platform-oldcore/src/main/java/com/xpn/xwiki/doc/XWikiDocument.java",
+    "file_name": "XWikiDocument.java",
+    "commit_date": 1669885616,
+    "commit_msg": "XWIKI-20327: Escape closing HTML macro in XWikiDocument#display",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 8.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

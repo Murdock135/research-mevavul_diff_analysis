@@ -1,0 +1,20 @@
+{
+    "id": "51051de4eb40bb502db448084a83fd6cbfb7d3cf_getPendingIntentLaunchFlags_0",
+    "func_name": "getPendingIntentLaunchFlags",
+    "cve_id": "CVE-2023-20918",
+    "cwe_ids": [
+        "CWE-Other"
+    ],
+    "commit_hash": "51051de4eb40bb502db448084a83fd6cbfb7d3cf",
+    "parent_commit_hash": "c451aa5710e1da19139eb3716e39a5d6f04de5c2",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/51051de4eb40bb502db448084a83fd6cbfb7d3cf",
+    "file_path": "core/java/android/app/ActivityOptions.java",
+    "file_name": "ActivityOptions.java",
+    "commit_date": 1675818286,
+    "commit_msg": "Only allow NEW_TASK flag when adjusting pending intents\n\nBug: 243794108\nTest: atest CtsSecurityBulletinHostTestCases:android.security.cts.CVE_2023_20918\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:c62d2e1021a030f4f0ae5fcfc8fe8e0875fa669f)\nMerged-In: I5d329beecef1902c36704e93d0bc5cb60d0e2f5b\nChange-Id: I5d329beecef1902c36704e93d0bc5cb60d0e2f5b\n",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 9.8,
+    "cvss_base_severity": "CRITICAL",
+    "cvss_is_v3": true
+}

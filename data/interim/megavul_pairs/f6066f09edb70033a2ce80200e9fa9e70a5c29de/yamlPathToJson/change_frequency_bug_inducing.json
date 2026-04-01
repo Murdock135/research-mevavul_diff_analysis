@@ -1,0 +1,42 @@
+{
+  "frequency": [
+    {
+      "c": "LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "ConstructorCall",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "delete-node_ConstructorCall_ConstructorCall",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "LocalVariable",
+      "f": "0.5"
+    },
+    {
+      "c": "ConstructorCall",
+      "f": "0.5"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "delete-node_ConstructorCall_ConstructorCall",
+      "f": "0.5"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "0.5"
+    }
+  ]
+}

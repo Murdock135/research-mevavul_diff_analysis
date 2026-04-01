@@ -1,0 +1,20 @@
+{
+    "id": "8e413202fa1af08c09c580f444e4fd16874f9c65_unableToDissociateContext_0",
+    "func_name": "unableToDissociateContext",
+    "cve_id": "CVE-2014-8122",
+    "cwe_ids": [
+        "CWE-362"
+    ],
+    "commit_hash": "8e413202fa1af08c09c580f444e4fd16874f9c65",
+    "parent_commit_hash": "6808b11cd6d97c71a2eed754ed4f955acd789086",
+    "repo_name": "weld/core",
+    "git_url": "https://github.com/weld/core/commit/8e413202fa1af08c09c580f444e4fd16874f9c65",
+    "file_path": "impl/src/main/java/org/jboss/weld/logging/ServletLogger.java",
+    "file_name": "ServletLogger.java",
+    "commit_date": 1417584099,
+    "commit_msg": "WELD-1802 An exception during context deactivation/dissociation should\nnot abort further procesing",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

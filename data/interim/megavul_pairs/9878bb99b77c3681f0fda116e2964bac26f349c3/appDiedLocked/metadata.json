@@ -1,0 +1,20 @@
+{
+    "id": "9878bb99b77c3681f0fda116e2964bac26f349c3_appDiedLocked_2",
+    "func_name": "appDiedLocked",
+    "cve_id": "CVE-2016-2500",
+    "cwe_ids": [
+        "CWE-200"
+    ],
+    "commit_hash": "9878bb99b77c3681f0fda116e2964bac26f349c3",
+    "parent_commit_hash": "613f63b938145bb86cd64fe0752eaf5e99b5f628",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/9878bb99b77c3681f0fda116e2964bac26f349c3",
+    "file_path": "services/core/java/com/android/server/am/ActivityManagerService.java",
+    "file_name": "ActivityManagerService.java",
+    "commit_date": 1461017791,
+    "commit_msg": "Kill the real/isolated uid group, not the ApplicationInfo uid\n\nThis is a direct reimplementation in L of fixes applied to N in\nthese two commits:\n\n8dc8d37c1d7d694016f1ec2b3cea5fb723567be8\ne8741d23d2dd05c4cb3fed5ee6a4040ee96a60e3\n\nBug 19285814\n\nChange-Id: I59bcc8f1d41c426e9da635bea9ad1d7c6756d5aa\n\nResolve merge conflict when cp'ing ag/941553 to mnc-mr1-release branch\n",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

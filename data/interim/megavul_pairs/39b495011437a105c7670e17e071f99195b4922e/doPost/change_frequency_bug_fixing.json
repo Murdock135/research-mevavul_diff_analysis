@@ -1,0 +1,202 @@
+{
+  "frequency": [
+    {
+      "c": "Literal",
+      "f": "6"
+    },
+    {
+      "c": "Invocation",
+      "f": "6"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "4"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "3"
+    },
+    {
+      "c": "ConstructorCall",
+      "f": "3"
+    },
+    {
+      "c": "VariableRead",
+      "f": "2"
+    },
+    {
+      "c": "TypeReference",
+      "f": "1"
+    },
+    {
+      "c": "Assignment",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "update-node_Literal_BinaryOperator",
+      "f": "4"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "3"
+    },
+    {
+      "c": "delete-node_Invocation_Block",
+      "f": "3"
+    },
+    {
+      "c": "update-node_ConstructorCall_LocalVariable",
+      "f": "2"
+    },
+    {
+      "c": "insert-node_Invocation_Block",
+      "f": "2"
+    },
+    {
+      "c": "move-tree_Literal_BinaryOperator",
+      "f": "2"
+    },
+    {
+      "c": "insert-node_Assignment_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_VariableRead_BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_BinaryOperator_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "update-node_ConstructorCall_Assignment",
+      "f": "1"
+    },
+    {
+      "c": "update-node_Invocation_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_VariableRead_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_BinaryOperator_BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_TypeReference_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_BinaryOperator_BinaryOperator",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Literal",
+      "f": "0.23076923076923078"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.23076923076923078"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "0.15384615384615385"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "0.11538461538461539"
+    },
+    {
+      "c": "ConstructorCall",
+      "f": "0.11538461538461539"
+    },
+    {
+      "c": "VariableRead",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "TypeReference",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "Assignment",
+      "f": "0.038461538461538464"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "update-node_Literal_BinaryOperator",
+      "f": "0.15384615384615385"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "0.11538461538461539"
+    },
+    {
+      "c": "delete-node_Invocation_Block",
+      "f": "0.11538461538461539"
+    },
+    {
+      "c": "update-node_ConstructorCall_LocalVariable",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "insert-node_Invocation_Block",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "move-tree_Literal_BinaryOperator",
+      "f": "0.07692307692307693"
+    },
+    {
+      "c": "insert-node_Assignment_Block",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "move-tree_VariableRead_BinaryOperator",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "delete-node_BinaryOperator_LocalVariable",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "update-node_ConstructorCall_Assignment",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "update-node_Invocation_Block",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "update-node_VariableRead_Invocation",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "delete-node_BinaryOperator_BinaryOperator",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "move-tree_TypeReference_LocalVariable",
+      "f": "0.038461538461538464"
+    },
+    {
+      "c": "move-tree_BinaryOperator_BinaryOperator",
+      "f": "0.038461538461538464"
+    }
+  ]
+}

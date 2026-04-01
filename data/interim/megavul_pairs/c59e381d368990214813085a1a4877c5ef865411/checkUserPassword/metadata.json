@@ -1,0 +1,20 @@
+{
+    "id": "c59e381d368990214813085a1a4877c5ef865411_checkUserPassword_0",
+    "func_name": "checkUserPassword",
+    "cve_id": "CVE-2023-32699",
+    "cwe_ids": [
+        "CWE-770"
+    ],
+    "commit_hash": "c59e381d368990214813085a1a4877c5ef865411",
+    "parent_commit_hash": "26a4cc505f9f398bc2793138aebb6b5d1775bca8",
+    "repo_name": "metersphere",
+    "git_url": "https://github.com/metersphere/metersphere/commit/c59e381d368990214813085a1a4877c5ef865411",
+    "file_path": "framework/gateway/src/main/java/io/metersphere/gateway/service/UserLoginService.java",
+    "file_name": "UserLoginService.java",
+    "commit_date": 1684206493,
+    "commit_msg": "refactor(\u7cfb\u7edf\u8bbe\u7f6e): \u767b\u5f55\u8ba4\u8bc1\u4fe1\u606f\u957f\u5ea6\u9a8c\u8bc1\n\nSigned-off-by: fit2-zhao <yong.zhao@fit2cloud.com>",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+    "cvss_base_score": 6.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

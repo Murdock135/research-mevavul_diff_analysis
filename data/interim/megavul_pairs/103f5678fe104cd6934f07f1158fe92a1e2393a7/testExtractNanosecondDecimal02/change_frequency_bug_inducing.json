@@ -1,0 +1,82 @@
+{
+  "frequency": [
+    {
+      "c": "LocalVariable",
+      "f": "2"
+    },
+    {
+      "c": "Invocation",
+      "f": "2"
+    },
+    {
+      "c": "VariableRead",
+      "f": "1"
+    },
+    {
+      "c": "Literal",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "2"
+    },
+    {
+      "c": "update-node_Literal_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_Invocation_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_Invocation_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_VariableRead_Invocation",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "LocalVariable",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "VariableRead",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "Literal",
+      "f": "0.16666666666666666"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "update-node_Literal_Invocation",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "insert-node_Invocation_Block",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "update-node_Invocation_Block",
+      "f": "0.16666666666666666"
+    },
+    {
+      "c": "update-node_VariableRead_Invocation",
+      "f": "0.16666666666666666"
+    }
+  ]
+}

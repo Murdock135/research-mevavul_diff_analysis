@@ -1,0 +1,20 @@
+{
+    "id": "859eae2b2acf751ae7db3c9ffefe275aa5da0d5d_getFile_0",
+    "func_name": "getFile",
+    "cve_id": "CVE-2023-35946",
+    "cwe_ids": [
+        "CWE-22"
+    ],
+    "commit_hash": "859eae2b2acf751ae7db3c9ffefe275aa5da0d5d",
+    "parent_commit_hash": "dae4117e546138f3033b9557bda29dbf0e1f0e4d",
+    "repo_name": "gradle",
+    "git_url": "https://github.com/gradle/gradle/commit/859eae2b2acf751ae7db3c9ffefe275aa5da0d5d",
+    "file_path": "subprojects/core/src/main/java/org/gradle/internal/resource/local/DefaultPathKeyFileStore.java",
+    "file_name": "DefaultPathKeyFileStore.java",
+    "commit_date": 1686813018,
+    "commit_msg": "Fix dependency cache path traversal vulnerability\n\nGradle leverages the protection added to prevent ZipSlip for any path\ncomputation inside a Gradle cache.\n\nSee https://github.com/gradle/gradle/security/advisories/GHSA-2h6c-rv6q-494v",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

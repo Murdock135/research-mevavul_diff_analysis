@@ -1,0 +1,42 @@
+{
+  "frequency": [
+    {
+      "c": "VariableRead",
+      "f": "1"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "move-tree_LocalVariable_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_VariableRead_ConstructorCall",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "VariableRead",
+      "f": "0.5"
+    },
+    {
+      "c": "LocalVariable",
+      "f": "0.5"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "move-tree_LocalVariable_Block",
+      "f": "0.5"
+    },
+    {
+      "c": "insert-node_VariableRead_ConstructorCall",
+      "f": "0.5"
+    }
+  ]
+}

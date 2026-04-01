@@ -1,0 +1,21 @@
+{
+    "id": "c735357bf29d07856ad171c6611a2e1a0e0000ec_newSelfSignedCertificate_0",
+    "func_name": "newSelfSignedCertificate",
+    "cve_id": "CVE-2021-21290",
+    "cwe_ids": [
+        "CWE-378",
+        "CWE-379"
+    ],
+    "commit_hash": "c735357bf29d07856ad171c6611a2e1a0e0000ec",
+    "parent_commit_hash": "8f397e29e3ee0b8a04aa8ccb99bf5f092dd3dd1b",
+    "repo_name": "netty",
+    "git_url": "https://github.com/netty/netty/commit/c735357bf29d07856ad171c6611a2e1a0e0000ec",
+    "file_path": "handler/src/main/java/io/netty/handler/ssl/util/SelfSignedCertificate.java",
+    "file_name": "SelfSignedCertificate.java",
+    "commit_date": 1612752245,
+    "commit_msg": "Use Files.createTempFile(...) to ensure the file is created with proper permissions\n\nMotivation:\n\nFile.createTempFile(String, String)` will create a temporary file in the system temporary directory if the 'java.io.tmpdir'. The permissions on that file utilize the umask. In a majority of cases, this means that the file that java creates has the permissions: `-rw-r--r--`, thus, any other local user on that system can read the contents of that file.\nThis can be a security concern if any sensitive data is stored in this file.\n\nThis was reported by Jonathan Leitschuh <jonathan.leitschuh@gmail.com> as a security problem.\n\nModifications:\n\nUse Files.createTempFile(...) which will use safe-defaults when running on java 7 and later. If running on java 6 there isnt much we can do, which is fair enough as java 6 shouldnt be considered \"safe\" anyway.\n\nResult:\n\nCreate temporary files with sane permissions by default.",
+    "cvss_vector": "AV:L/AC:M/Au:N/C:P/I:N/A:N",
+    "cvss_base_score": 1.9,
+    "cvss_base_severity": "LOW",
+    "cvss_is_v3": false
+}

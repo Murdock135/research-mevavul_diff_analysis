@@ -1,0 +1,98 @@
+{
+  "frequency": [
+    {
+      "c": "Invocation",
+      "f": "4"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "UnaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "If",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "insert-node_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_Invocation_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_UnaryOperator_If",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Invocation_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_BinaryOperator_If",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Invocation_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_Invocation_Invocation",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "Invocation",
+      "f": "0.5714285714285714"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "0.14285714285714285"
+    },
+    {
+      "c": "UnaryOperator",
+      "f": "0.14285714285714285"
+    },
+    {
+      "c": "If",
+      "f": "0.14285714285714285"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "insert-node_If_Block",
+      "f": "0.14285714285714285"
+    },
+    {
+      "c": "insert-node_Invocation_Invocation",
+      "f": "0.14285714285714285"
+    },
+    {
+      "c": "move-tree_UnaryOperator_If",
+      "f": "0.14285714285714285"
+    },
+    {
+      "c": "move-tree_Invocation_Invocation",
+      "f": "0.14285714285714285"
+    },
+    {
+      "c": "insert-node_BinaryOperator_If",
+      "f": "0.14285714285714285"
+    },
+    {
+      "c": "move-tree_Invocation_Block",
+      "f": "0.14285714285714285"
+    },
+    {
+      "c": "update-node_Invocation_Invocation",
+      "f": "0.14285714285714285"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+    "id": "a9d5cd4a611f47123f9561bc5a81a4555fe7cb04_afterFeaturesReceived_0",
+    "func_name": "afterFeaturesReceived",
+    "cve_id": "CVE-2016-10027",
+    "cwe_ids": [
+        "CWE-362"
+    ],
+    "commit_hash": "a9d5cd4a611f47123f9561bc5a81a4555fe7cb04",
+    "parent_commit_hash": "013f4d630a680633bd3a3f06fc70bab5439ec5d9",
+    "repo_name": "igniterealtime/Smack",
+    "git_url": "https://github.com/igniterealtime/Smack/commit/a9d5cd4a611f47123f9561bc5a81a4555fe7cb04",
+    "file_path": "smack-tcp/src/main/java/org/jivesoftware/smack/tcp/XMPPTCPConnection.java",
+    "file_name": "XMPPTCPConnection.java",
+    "commit_date": 1478916770,
+    "commit_msg": "Move TLS Required check at the end of connect()\n\nIt was a *very* bad idea to perform the SecurityMode.Required check in\nthe connection's reader thread and not at the end of\nAbstractXMPPConnectin's connect(). :/\n\nThis behavior dates back to 8e750912a765f77a4f178a4f307a8b42c2afb5ae\n\nFixes SMACK-739",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

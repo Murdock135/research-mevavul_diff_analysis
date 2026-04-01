@@ -1,0 +1,106 @@
+{
+  "frequency": [
+    {
+      "c": "If",
+      "f": "3"
+    },
+    {
+      "c": "Assignment",
+      "f": "2"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "Block",
+      "f": "1"
+    },
+    {
+      "c": "Throw",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "delete-node_If_Block",
+      "f": "2"
+    },
+    {
+      "c": "insert-node_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_Assignment_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Block_If",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Assignment_Block",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_BinaryOperator_BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_Throw_Block",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "If",
+      "f": "0.375"
+    },
+    {
+      "c": "Assignment",
+      "f": "0.25"
+    },
+    {
+      "c": "BinaryOperator",
+      "f": "0.125"
+    },
+    {
+      "c": "Block",
+      "f": "0.125"
+    },
+    {
+      "c": "Throw",
+      "f": "0.125"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "delete-node_If_Block",
+      "f": "0.25"
+    },
+    {
+      "c": "insert-node_If_Block",
+      "f": "0.125"
+    },
+    {
+      "c": "insert-node_Assignment_Block",
+      "f": "0.125"
+    },
+    {
+      "c": "move-tree_Block_If",
+      "f": "0.125"
+    },
+    {
+      "c": "move-tree_Assignment_Block",
+      "f": "0.125"
+    },
+    {
+      "c": "move-tree_BinaryOperator_BinaryOperator",
+      "f": "0.125"
+    },
+    {
+      "c": "delete-node_Throw_Block",
+      "f": "0.125"
+    }
+  ]
+}

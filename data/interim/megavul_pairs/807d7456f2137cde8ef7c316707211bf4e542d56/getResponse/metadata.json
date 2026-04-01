@@ -1,0 +1,20 @@
+{
+    "id": "807d7456f2137cde8ef7c316707211bf4e542d56_getResponse_0",
+    "func_name": "getResponse",
+    "cve_id": "CVE-2023-0482",
+    "cwe_ids": [
+        "CWE-378"
+    ],
+    "commit_hash": "807d7456f2137cde8ef7c316707211bf4e542d56",
+    "parent_commit_hash": "f1e11ec66aea768b59b00c84a1bbf06f466f4651",
+    "repo_name": "resteasy",
+    "git_url": "https://github.com/resteasy/resteasy/commit/807d7456f2137cde8ef7c316707211bf4e542d56",
+    "file_path": "testsuite/integration-tests/src/test/java/org/jboss/resteasy/test/providers/multipart/resource/XOPMultipartProxyResource.java",
+    "file_name": "XOPMultipartProxyResource.java",
+    "commit_date": 1675328732,
+    "commit_msg": "[RESTEASY-3286] Use the new file utilities to create temporary files in tests.\n\nhttps://issues.redhat.com/browse/RESTEASY-3286\nSigned-off-by: James R. Perkins <jperkins@redhat.com>",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

@@ -1,0 +1,20 @@
+{
+    "id": "4440f0c57e440488d7e653417b2547eaae8ad19c_authenticate_0",
+    "func_name": "authenticate",
+    "cve_id": "CVE-2021-32651",
+    "cwe_ids": [
+        "CWE-90"
+    ],
+    "commit_hash": "4440f0c57e440488d7e653417b2547eaae8ad19c",
+    "parent_commit_hash": "a61e1a016c20f4f3eafb257640883edb19771578",
+    "repo_name": "theonedev/onedev",
+    "git_url": "https://github.com/theonedev/onedev/commit/4440f0c57e440488d7e653417b2547eaae8ad19c",
+    "file_path": "server-plugin/server-plugin-authenticator-ldap/src/main/java/io/onedev/server/plugin/authenticator/ldap/LdapAuthenticator.java",
+    "file_name": "LdapAuthenticator.java",
+    "commit_date": 1622227312,
+    "commit_msg": "Fix issue #304 - Potential information leak via Ldap injection when ldap\nauthenticator is enabled",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

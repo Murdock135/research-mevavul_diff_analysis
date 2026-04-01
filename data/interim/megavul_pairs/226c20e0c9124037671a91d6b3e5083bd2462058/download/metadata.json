@@ -1,0 +1,20 @@
+{
+    "id": "226c20e0c9124037671a91d6b3e5083bd2462058_download_0",
+    "func_name": "download",
+    "cve_id": "CVE-2022-31196",
+    "cwe_ids": [
+        "CWE-918"
+    ],
+    "commit_hash": "226c20e0c9124037671a91d6b3e5083bd2462058",
+    "parent_commit_hash": "4df8f9b93e35d81927a41bc793dbc0cfbb3c2ba6",
+    "repo_name": "vran-dev/databasir",
+    "git_url": "https://github.com/vran-dev/databasir/commit/226c20e0c9124037671a91d6b3e5083bd2462058",
+    "file_path": "core/src/main/java/com/databasir/core/infrastructure/driver/DriverResources.java",
+    "file_name": "DriverResources.java",
+    "commit_date": 1659035931,
+    "commit_msg": "fix: security vulnerability SSRF (#256)",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

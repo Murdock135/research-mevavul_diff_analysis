@@ -1,0 +1,20 @@
+{
+    "id": "37d35115db2ada2190173f9413cfe1bc6c295ecb_clone_1",
+    "func_name": "clone",
+    "cve_id": "CVE-2022-29184",
+    "cwe_ids": [
+        "CWE-77"
+    ],
+    "commit_hash": "37d35115db2ada2190173f9413cfe1bc6c295ecb",
+    "parent_commit_hash": "ce02934b9d94f7d34634f4221e035938643e44e7",
+    "repo_name": "gocd",
+    "git_url": "https://github.com/gocd/gocd/commit/37d35115db2ada2190173f9413cfe1bc6c295ecb",
+    "file_path": "domain/src/main/java/com/thoughtworks/go/domain/materials/mercurial/HgCommand.java",
+    "file_name": "HgCommand.java",
+    "commit_date": 1646360463,
+    "commit_msg": "Improve escaping of arguments when constructing Hg command calls",
+    "cvss_vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+    "cvss_base_score": 6.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

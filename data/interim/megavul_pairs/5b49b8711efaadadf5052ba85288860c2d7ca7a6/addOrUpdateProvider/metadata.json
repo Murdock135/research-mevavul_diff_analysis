@@ -1,0 +1,20 @@
+{
+    "id": "5b49b8711efaadadf5052ba85288860c2d7ca7a6_addOrUpdateProvider_0",
+    "func_name": "addOrUpdateProvider",
+    "cve_id": "CVE-2023-21243",
+    "cwe_ids": [
+        "CWE-120"
+    ],
+    "commit_hash": "5b49b8711efaadadf5052ba85288860c2d7ca7a6",
+    "parent_commit_hash": "044ab0684153c4effb9f4fda47df43ccdc77bda8",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/packages/modules/Wifi/+/5b49b8711efaadadf5052ba85288860c2d7ca7a6",
+    "file_path": "service/java/com/android/server/wifi/hotspot2/PasspointManager.java",
+    "file_name": "PasspointManager.java",
+    "commit_date": 1680208377,
+    "commit_msg": "Limit the ServiceFriendlyNames and limit the number of Passpoint per App\n\nReject the suggestion passpoint with ServiceFriendlyNames\n\nBug: 274445194\nTest: atest com.android.server.wifi\n(cherry picked from commit ac5284c457b3113f5a50e8ee79a7290ceca29143)\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:f83296b5fbede5fdf9ea185cc50215f2a16cdf48)\nMerged-In: I8c1b858c8990c60cea48a59fc390f57a40ed86ba\nChange-Id: I8c1b858c8990c60cea48a59fc390f57a40ed86ba\n",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

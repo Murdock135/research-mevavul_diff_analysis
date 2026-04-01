@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src=":: : [16,17]" dest=":: : [16,17]"/>
+  <match src=":: : [17,18]" dest=":: : [17,18]"/>
+  <match src="(: ( [30,31]" dest="(: ( [30,31]"/>
+  <match src="type_qualifier [33,38]" dest="type_qualifier [33,38]"/>
+  <match src="translation_unit [1,137]" dest="translation_unit [1,147]"/>
+  <match src="identifier: HasSVGParent [18,30]" dest="identifier: HasSVGParent [18,30]"/>
+  <match src="ERROR [6,18]" dest="ERROR [6,18]"/>
+  <match src="): ) [31,32]" dest="): ) [31,32]"/>
+  <match src="parameter_list [30,32]" dest="parameter_list [30,32]"/>
+  <match src="identifier: SVGElement [6,16]" dest="identifier: SVGElement [6,16]"/>
+  <match src="function_declarator [18,32]" dest="function_declarator [18,32]"/>
+  <match src="const: const [33,38]" dest="const: const [33,38]"/>
+</matches>
+<actions>
+  <insert-node tree="ERROR [1,147]" parent="translation_unit [1,137]" at="0"/>
+  <insert-node tree="primitive_type: bool [1,5]" parent="ERROR [1,147]" at="0"/>
+  <move-tree tree="ERROR [6,18]" parent="ERROR [1,147]" at="1"/>
+  <move-tree tree="function_declarator [18,32]" parent="ERROR [1,147]" at="2"/>
+  <insert-node tree="declaration [33,101]" parent="ERROR [1,147]" at="3"/>
+  <insert-tree tree="declaration [104,144]" parent="ERROR [1,147]" at="4"/>
+  <insert-node tree="}: } [146,147]" parent="ERROR [1,147]" at="5"/>
+  <move-tree tree="type_qualifier [33,38]" parent="declaration [33,101]" at="0"/>
+  <insert-tree tree="ERROR [39,40]" parent="declaration [33,101]" at="1"/>
+  <insert-node tree="type_identifier: Element [43,50]" parent="declaration [33,101]" at="2"/>
+  <insert-tree tree="init_declarator [50,100]" parent="declaration [33,101]" at="3"/>
+  <insert-node tree=";: ; [100,101]" parent="declaration [33,101]" at="4"/>
+  <delete-node tree="primitive_type: bool [1,5]"/>
+  <delete-node tree="ERROR [33,38]"/>
+  <delete-tree tree="compound_statement [39,137]"/>
+  <delete-node tree="function_definition [1,137]"/>
+</actions>

@@ -1,0 +1,20 @@
+{
+    "id": "0d9dfd649bae9c181e3afc5d571903f1eb5dc46f_handleAttachmentUrisFromIntent_1",
+    "func_name": "handleAttachmentUrisFromIntent",
+    "cve_id": "CVE-2016-2425",
+    "cwe_ids": [
+        "CWE-200"
+    ],
+    "commit_hash": "0d9dfd649bae9c181e3afc5d571903f1eb5dc46f",
+    "parent_commit_hash": "d7917089078210e30e5136822e63f530c9e66268",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/packages/apps/UnifiedEmail/+/0d9dfd649bae9c181e3afc5d571903f1eb5dc46f",
+    "file_path": "src/com/android/mail/compose/ComposeActivity.java",
+    "file_name": "ComposeActivity.java",
+    "commit_date": 1456240614,
+    "commit_msg": "Don't allow file attachment from file:///data.\n\nCommit 24ed2941ab132e4156bd38f0ab734c81dae8fc2e allows file://\nattachment on the /data directory if they are from the same process.\n\nThis was done to work around applications that shared their internal\ndata file. However, this is bad practice, and other apps should share\ncontent:// Uri instead.\n\nWith this change, Email doesn't allow this anymore. This fixes\nsecurity issue 199888.\n\nAlso, add Analytics for these errors\ncompose_errors > send_intent_attachment > data_dir\n\nhttps://code.google.com/p/android/issues/detail?id=199888\nb/26989185\nChange-Id: I7cae3389f4f7cf5f86600a58c6ccdffaf889d1c3\n",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

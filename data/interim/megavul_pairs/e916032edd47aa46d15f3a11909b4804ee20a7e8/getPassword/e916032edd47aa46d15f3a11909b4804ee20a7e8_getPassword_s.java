@@ -1,0 +1,5 @@
+class getPassword {
+protected String getPassword() {
+        return System.getProperty(KieServerConstants.CFG_KIE_PASSWORD, "kieserver1!");
+    }
+}

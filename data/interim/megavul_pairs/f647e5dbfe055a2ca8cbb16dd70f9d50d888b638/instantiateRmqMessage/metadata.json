@@ -1,0 +1,20 @@
+{
+    "id": "f647e5dbfe055a2ca8cbb16dd70f9d50d888b638_instantiateRmqMessage_0",
+    "func_name": "instantiateRmqMessage",
+    "cve_id": "CVE-2020-36282",
+    "cwe_ids": [
+        "CWE-502"
+    ],
+    "commit_hash": "f647e5dbfe055a2ca8cbb16dd70f9d50d888b638",
+    "parent_commit_hash": "4497022902142220fc3b4a0ad89442b9a7eedbf8",
+    "repo_name": "rabbitmq/rabbitmq-jms-client",
+    "git_url": "https://github.com/rabbitmq/rabbitmq-jms-client/commit/f647e5dbfe055a2ca8cbb16dd70f9d50d888b638",
+    "file_path": "src/main/java/com/rabbitmq/jms/client/RMQMessage.java",
+    "file_name": "RMQMessage.java",
+    "commit_date": 1604284764,
+    "commit_msg": "Use trusted packages in StreamMessage\n\nStreamMessage now uses the same \"white list\" mechanism as\nObjectMessage to avoid some arbitrary code execution on deserialization.\n\nEven though StreamMessage is supposed to handle only primitive types,\nit is still to possible to send a message that contains an arbitrary\nserializable instance. The consuming application application may\nthen execute code from this class on deserialization.\n\nThe fix consists in using the list of trusted packages that can be\nset at the connection factory level.\n\nFixes #135",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

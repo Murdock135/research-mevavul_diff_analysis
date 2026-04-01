@@ -1,0 +1,122 @@
+{
+  "frequency": [
+    {
+      "c": "LocalVariable",
+      "f": "4"
+    },
+    {
+      "c": "VariableRead",
+      "f": "3"
+    },
+    {
+      "c": "TypeReference",
+      "f": "2"
+    },
+    {
+      "c": "Invocation",
+      "f": "1"
+    },
+    {
+      "c": "If",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "move-tree_VariableRead_Invocation",
+      "f": "2"
+    },
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "2"
+    },
+    {
+      "c": "move-tree_TypeReference_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "update-node_LocalVariable_Block",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "1"
+    },
+    {
+      "c": "update-node_VariableRead_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Invocation_ConstructorCall",
+      "f": "1"
+    },
+    {
+      "c": "update-node_TypeReference_LocalVariable",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "LocalVariable",
+      "f": "0.36363636363636365"
+    },
+    {
+      "c": "VariableRead",
+      "f": "0.2727272727272727"
+    },
+    {
+      "c": "TypeReference",
+      "f": "0.18181818181818182"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.09090909090909091"
+    },
+    {
+      "c": "If",
+      "f": "0.09090909090909091"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "move-tree_VariableRead_Invocation",
+      "f": "0.18181818181818182"
+    },
+    {
+      "c": "delete-node_LocalVariable_Block",
+      "f": "0.18181818181818182"
+    },
+    {
+      "c": "move-tree_TypeReference_LocalVariable",
+      "f": "0.09090909090909091"
+    },
+    {
+      "c": "update-node_LocalVariable_Block",
+      "f": "0.09090909090909091"
+    },
+    {
+      "c": "delete-node_If_Block",
+      "f": "0.09090909090909091"
+    },
+    {
+      "c": "insert-node_LocalVariable_Block",
+      "f": "0.09090909090909091"
+    },
+    {
+      "c": "update-node_VariableRead_Invocation",
+      "f": "0.09090909090909091"
+    },
+    {
+      "c": "move-tree_Invocation_ConstructorCall",
+      "f": "0.09090909090909091"
+    },
+    {
+      "c": "update-node_TypeReference_LocalVariable",
+      "f": "0.09090909090909091"
+    }
+  ]
+}

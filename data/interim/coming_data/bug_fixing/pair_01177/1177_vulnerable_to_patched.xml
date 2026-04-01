@@ -1,0 +1,857 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="argument_list [2261,2267]" dest="argument_list [2447,2453]"/>
+  <match src="number_literal: 0 [2244,2245]" dest="number_literal: 0 [2430,2431]"/>
+  <match src="identifier: VCPU_SREG_TR [2098,2110]" dest="identifier: VCPU_SREG_TR [2284,2296]"/>
+  <match src="=: = [112,113]" dest="=: = [112,113]"/>
+  <match src="): ) [1036,1037]" dest="): ) [1222,1223]"/>
+  <match src="field_expression [1117,1127]" dest="field_expression [1303,1313]"/>
+  <match src="identifier: vcpu [2389,2393]" dest="identifier: vcpu [2575,2579]"/>
+  <match src="field_expression [882,892]" dest="field_expression [1068,1078]"/>
+  <match src="field_expression [1836,1845]" dest="field_expression [2022,2031]"/>
+  <match src="field_expression [588,609]" dest="field_expression [774,795]"/>
+  <match src="field_expression [228,235]" dest="field_expression [228,235]"/>
+  <match src="identifier: vcpu [51,55]" dest="identifier: vcpu [51,55]"/>
+  <match src="argument_list [792,810]" dest="argument_list [978,996]"/>
+  <match src="!=: != [756,758]" dest="!=: != [942,944]"/>
+  <match src="-&gt;: -&gt; [804,806]" dest="-&gt;: -&gt; [990,992]"/>
+  <match src="field_identifier: arch [1123,1127]" dest="field_identifier: arch [1309,1313]"/>
+  <match src="(: ( [276,277]" dest="(: ( [276,277]"/>
+  <match src="argument_list [990,1012]" dest="argument_list [1176,1198]"/>
+  <match src="expression_statement [631,673]" dest="expression_statement [817,859]"/>
+  <match src="sizeof: sizeof [1175,1181]" dest="sizeof: sizeof [1361,1367]"/>
+  <match src=";: ; [2450,2451]" dest=";: ; [2636,2637]"/>
+  <match src="argument_list [2444,2450]" dest="argument_list [2630,2636]"/>
+  <match src="identifier: vcpu_put [2436,2444]" dest="identifier: vcpu_put [2622,2630]"/>
+  <match src="-&gt;: -&gt; [1186,1188]" dest="-&gt;: -&gt; [1372,1374]"/>
+  <match src=";: ; [1012,1013]" dest=";: ; [1198,1199]"/>
+  <match src="update_expression [1291,1294]" dest="update_expression [1477,1480]"/>
+  <match src="field_expression [895,915]" dest="field_expression [1081,1101]"/>
+  <match src=";: ; [1810,1811]" dest=";: ; [1996,1997]"/>
+  <match src="=: = [1246,1247]" dest="=: = [1432,1433]"/>
+  <match src="}: } [2464,2465]" dest="}: } [2650,2651]"/>
+  <match src="assignment_expression [813,840]" dest="assignment_expression [999,1026]"/>
+  <match src="const: const [1471,1476]" dest="const: const [1657,1662]"/>
+  <match src="*: * [50,51]" dest="*: * [50,51]"/>
+  <match src="identifier: vcpu [2357,2361]" dest="identifier: vcpu [2543,2547]"/>
+  <match src="expression_statement [772,811]" dest="expression_statement [958,997]"/>
+  <match src="expression_statement [1437,1531]" dest="expression_statement [1623,1717]"/>
+  <match src="string_literal [1670,1697]" dest="string_literal [1856,1883]"/>
+  <match src="*: * [1491,1492]" dest="*: * [1677,1678]"/>
+  <match src="field_identifier: gdt [337,340]" dest="field_identifier: gdt [337,340]"/>
+  <match src="identifier: dt [198,200]" dest="identifier: dt [198,200]"/>
+  <match src="if_statement [1299,1372]" dest="if_statement [1485,1558]"/>
+  <match src="call_expression [1724,1756]" dest="call_expression [1910,1942]"/>
+  <match src="field_identifier: ds [1843,1845]" dest="field_identifier: ds [2029,2031]"/>
+  <match src="field_expression [741,751]" dest="field_expression [927,937]"/>
+  <match src="field_identifier: selector [2296,2304]" dest="field_identifier: selector [2482,2490]"/>
+  <match src="field_expression [1617,1637]" dest="field_expression [1803,1823]"/>
+  <match src="-&gt;: -&gt; [387,389]" dest="-&gt;: -&gt; [387,389]"/>
+  <match src="binary_expression [1588,1610]" dest="binary_expression [1774,1796]"/>
+  <match src="field_identifier: cr4 [889,892]" dest="field_identifier: cr4 [1075,1078]"/>
+  <match src="identifier: kvm_x86_ops [895,906]" dest="identifier: kvm_x86_ops [1081,1092]"/>
+  <match src="for: for [1239,1242]" dest="for: for [1425,1428]"/>
+  <match src="): ) [2384,2385]" dest="): ) [2570,2571]"/>
+  <match src=",: , [2147,2148]" dest=",: , [2333,2334]"/>
+  <match src="field_expression [2087,2096]" dest="field_expression [2273,2282]"/>
+  <match src="expression_statement [290,318]" dest="expression_statement [290,318]"/>
+  <match src="-&gt;: -&gt; [2041,2043]" dest="-&gt;: -&gt; [2227,2229]"/>
+  <match src="expression_statement [1813,1861]" dest="expression_statement [1999,2047]"/>
+  <match src="expression_statement [1334,1372]" dest="expression_statement [1520,1558]"/>
+  <match src="field_expression [1182,1192]" dest="field_expression [1368,1378]"/>
+  <match src="field_identifier: base [2328,2332]" dest="field_identifier: base [2514,2518]"/>
+  <match src="identifier: mmu_reset_needed [95,111]" dest="identifier: mmu_reset_needed [95,111]"/>
+  <match src="-&gt;: -&gt; [2393,2395]" dest="-&gt;: -&gt; [2579,2581]"/>
+  <match src="argument_list [1778,1810]" dest="argument_list [1964,1996]"/>
+  <match src="identifier: sregs [1886,1891]" dest="identifier: sregs [2072,2077]"/>
+  <match src="identifier: sregs [882,887]" dest="identifier: sregs [1068,1073]"/>
+  <match src="assignment_expression [1385,1433]" dest="assignment_expression [1571,1619]"/>
+  <match src="argument_list [2129,2164]" dest="argument_list [2315,2350]"/>
+  <match src="field_identifier: efer [623,627]" dest="field_identifier: efer [809,813]"/>
+  <match src=",: , [281,282]" dest=",: , [281,282]"/>
+  <match src=",: , [1345,1346]" dest=",: , [1531,1532]"/>
+  <match src="field_identifier: set_cr4 [908,915]" dest="field_identifier: set_cr4 [1094,1101]"/>
+  <match src="argument_list [1878,1910]" dest="argument_list [2064,2096]"/>
+  <match src="field_identifier: cr2 [394,397]" dest="field_identifier: cr2 [394,397]"/>
+  <match src="argument_list [648,672]" dest="argument_list [834,858]"/>
+  <match src=",: , [511,512]" dest=",: , [697,698]"/>
+  <match src="identifier: dt [284,286]" dest="identifier: dt [284,286]"/>
+  <match src=".: . [2399,2400]" dest=".: . [2585,2586]"/>
+  <match src="identifier: i [1293,1294]" dest="identifier: i [1479,1480]"/>
+  <match src="identifier: sregs [1493,1498]" dest="identifier: sregs [1679,1684]"/>
+  <match src="): ) [1066,1067]" dest="): ) [1252,1253]"/>
+  <match src="parenthesized_expression [1074,1105]" dest="parenthesized_expression [1260,1291]"/>
+  <match src="): ) [1655,1656]" dest="): ) [1841,1842]"/>
+  <match src="pointer_expression [375,378]" dest="pointer_expression [375,378]"/>
+  <match src="sizeof_expression [1397,1427]" dest="sizeof_expression [1583,1613]"/>
+  <match src="pointer_expression [1835,1845]" dest="pointer_expression [2021,2031]"/>
+  <match src="call_expression [1661,1716]" dest="call_expression [1847,1902]"/>
+  <match src="(: ( [1019,1020]" dest="(: ( [1205,1206]"/>
+  <match src="if_statement [1016,1068]" dest="if_statement [1202,1254]"/>
+  <match src="field_identifier: base [249,253]" dest="field_identifier: base [249,253]"/>
+  <match src="field_identifier: irq_pending [1277,1288]" dest="field_identifier: irq_pending [1463,1474]"/>
+  <match src="field_identifier: set_cr0 [785,792]" dest="field_identifier: set_cr0 [971,978]"/>
+  <match src=";: ; [287,288]" dest=";: ; [287,288]"/>
+  <match src="pointer_expression [1935,1945]" dest="pointer_expression [2121,2131]"/>
+  <match src="expression_statement [464,492]" dest="expression_statement [560,588]"/>
+  <match src="field_identifier: vcpu_id [2233,2240]" dest="field_identifier: vcpu_id [2419,2426]"/>
+  <match src="(: ( [953,954]" dest="(: ( [1139,1140]"/>
+  <match src="call_expression [588,628]" dest="call_expression [774,814]"/>
+  <match src="field_identifier: cs [2293,2295]" dest="field_identifier: cs [2479,2481]"/>
+  <match src="identifier: i [1251,1252]" dest="identifier: i [1437,1438]"/>
+  <match src="identifier: __set_bit [1334,1343]" dest="identifier: __set_bit [1520,1529]"/>
+  <match src="!=: != [571,573]" dest="!=: != [757,759]"/>
+  <match src="(: ( [1074,1075]" dest="(: ( [1260,1261]"/>
+  <match src=",: , [653,654]" dest=",: , [839,840]"/>
+  <match src="identifier: kvm_x86_ops [256,267]" dest="identifier: kvm_x86_ops [256,267]"/>
+  <match src="field_identifier: cr3 [1008,1011]" dest="field_identifier: cr3 [1194,1197]"/>
+  <match src=";: ; [1371,1372]" dest=";: ; [1557,1558]"/>
+  <match src=".: . [823,824]" dest=".: . [1009,1010]"/>
+  <match src="field_expression [1209,1219]" dest="field_expression [1395,1405]"/>
+  <match src="field_identifier: cr0 [806,809]" dest="field_identifier: cr0 [992,995]"/>
+  <match src="&amp;&amp;: &amp;&amp; [2347,2349]" dest="&amp;&amp;: &amp;&amp; [2533,2535]"/>
+  <match src=".: . [874,875]" dest=".: . [1060,1061]"/>
+  <match src="-&gt;: -&gt; [1001,1003]" dest="-&gt;: -&gt; [1187,1189]"/>
+  <match src="field_identifier: arch [1309,1313]" dest="field_identifier: arch [1495,1499]"/>
+  <match src=";: ; [2432,2433]" dest=";: ; [2618,2619]"/>
+  <match src="identifier: vcpu_load [179,188]" dest="identifier: vcpu_load [179,188]"/>
+  <match src="identifier: vcpu [1348,1352]" dest="identifier: vcpu [1534,1538]"/>
+  <match src="(: ( [1243,1244]" dest="(: ( [1429,1430]"/>
+  <match src=",: , [1995,1996]" dest=",: , [2181,2182]"/>
+  <match src="): ) [1959,1960]" dest="): ) [2145,2146]"/>
+  <match src="!=: != [448,450]" dest="!=: != [448,450]"/>
+  <match src="-&gt;: -&gt; [1146,1148]" dest="-&gt;: -&gt; [1332,1334]"/>
+  <match src="identifier: sregs [238,243]" dest="identifier: sregs [238,243]"/>
+  <match src=",: , [1795,1796]" dest=",: , [1981,1982]"/>
+  <match src="field_expression [548,570]" dest="field_expression [734,756]"/>
+  <match src="identifier: vcpu [1638,1642]" dest="identifier: vcpu [1824,1828]"/>
+  <match src="struct: struct [34,40]" dest="struct: struct [34,40]"/>
+  <match src="identifier: X86_CR0_PE [2374,2384]" dest="identifier: X86_CR0_PE [2560,2570]"/>
+  <match src="field_identifier: cr2 [407,410]" dest="field_identifier: cr2 [407,410]"/>
+  <match src=",: , [797,798]" dest=",: , [983,984]"/>
+  <match src=";: ; [1656,1657]" dest=";: ; [1842,1843]"/>
+  <match src="==: == [2268,2270]" dest="==: == [2454,2456]"/>
+  <match src="argument_list [1116,1205]" dest="argument_list [1302,1391]"/>
+  <match src="argument_list [1093,1104]" dest="argument_list [1279,1290]"/>
+  <match src="assignment_expression [721,769]" dest="assignment_expression [907,955]"/>
+  <match src="parenthesized_expression [939,976]" dest="parenthesized_expression [1125,1162]"/>
+  <match src="identifier: vcpu [813,817]" dest="identifier: vcpu [999,1003]"/>
+  <match src="==: == [2305,2307]" dest="==: == [2491,2493]"/>
+  <match src="field_identifier: cs [2325,2327]" dest="field_identifier: cs [2511,2513]"/>
+  <match src="-&gt;: -&gt; [437,439]" dest="-&gt;: -&gt; [437,439]"/>
+  <match src="compound_statement [1381,1760]" dest="compound_statement [1567,1946]"/>
+  <match src="): ) [1909,1910]" dest="): ) [2095,2096]"/>
+  <match src="&amp;: &amp; [1785,1786]" dest="&amp;: &amp; [1971,1972]"/>
+  <match src=".: . [1276,1277]" dest=".: . [1462,1463]"/>
+  <match src="&amp;&amp;: &amp;&amp; [2278,2280]" dest="&amp;&amp;: &amp;&amp; [2464,2466]"/>
+  <match src="field_expression [997,1007]" dest="field_expression [1183,1193]"/>
+  <match src="argument_list [1343,1371]" dest="argument_list [1529,1557]"/>
+  <match src=";: ; [2010,2011]" dest=";: ; [2196,2197]"/>
+  <match src="argument_list [506,524]" dest="argument_list [692,710]"/>
+  <match src="field_identifier: gdt [308,311]" dest="field_identifier: gdt [308,311]"/>
+  <match src="): ) [1610,1611]" dest="): ) [1796,1797]"/>
+  <match src="): ) [1859,1860]" dest="): ) [2045,2046]"/>
+  <match src="-&gt;: -&gt; [1098,1100]" dest="-&gt;: -&gt; [1284,1286]"/>
+  <match src="translation_unit [0,2465]" dest="translation_unit [0,2651]"/>
+  <match src="-&gt;: -&gt; [1307,1309]" dest="-&gt;: -&gt; [1493,1495]"/>
+  <match src="identifier: max_bits [138,146]" dest="identifier: max_bits [138,146]"/>
+  <match src="expression_statement [1863,1911]" dest="expression_statement [2049,2097]"/>
+  <match src="-&gt;: -&gt; [599,601]" dest="-&gt;: -&gt; [785,787]"/>
+  <match src="expression_statement [1913,1961]" dest="expression_statement [2099,2147]"/>
+  <match src="identifier: sregs [799,804]" dest="identifier: sregs [985,990]"/>
+  <match src="call_expression [495,524]" dest="call_expression [681,710]"/>
+  <match src="field_identifier: base [341,345]" dest="field_identifier: base [341,345]"/>
+  <match src="identifier: vcpu [970,974]" dest="identifier: vcpu [1156,1160]"/>
+  <match src="call_expression [631,672]" dest="call_expression [817,858]"/>
+  <match src="identifier: mmu_reset_needed [721,737]" dest="identifier: mmu_reset_needed [907,923]"/>
+  <match src="-&gt;: -&gt; [687,689]" dest="-&gt;: -&gt; [873,875]"/>
+  <match src="identifier: kvm_set_apic_base [631,648]" dest="identifier: kvm_set_apic_base [817,834]"/>
+  <match src="identifier: vcpu [277,281]" dest="identifier: vcpu [277,281]"/>
+  <match src="number_literal: 0 [1248,1249]" dest="number_literal: 0 [1434,1435]"/>
+  <match src="else: else [1376,1380]" dest="else: else [1562,1566]"/>
+  <match src="expression_statement [256,288]" dest="expression_statement [256,288]"/>
+  <match src="expression_statement [2389,2433]" dest="expression_statement [2575,2619]"/>
+  <match src="comment: /* Only pending external irq is handled here */ [1534,1581]" dest="comment: /* Only pending external irq is handled here */ [1720,1767]"/>
+  <match src="-&gt;: -&gt; [1121,1123]" dest="-&gt;: -&gt; [1307,1309]"/>
+  <match src="identifier: vcpu [1929,1933]" dest="identifier: vcpu [2115,2119]"/>
+  <match src=".: . [2327,2328]" dest=".: . [2513,2514]"/>
+  <match src="call_expression [2114,2164]" dest="call_expression [2300,2350]"/>
+  <match src="field_identifier: arch [747,751]" dest="field_identifier: arch [933,937]"/>
+  <match src="field_expression [574,585]" dest="field_expression [760,771]"/>
+  <match src="&amp;: &amp; [1935,1936]" dest="&amp;: &amp; [2121,2122]"/>
+  <match src="identifier: VCPU_SREG_GS [1997,2009]" dest="identifier: VCPU_SREG_GS [2183,2195]"/>
+  <match src=".: . [751,752]" dest=".: . [937,938]"/>
+  <match src="field_identifier: cr0 [766,769]" dest="field_identifier: cr0 [952,955]"/>
+  <match src="pointer_expression [283,286]" dest="pointer_expression [283,286]"/>
+  <match src="&amp;: &amp; [1885,1886]" dest="&amp;: &amp; [2071,2072]"/>
+  <match src="binary_expression [433,461]" dest="binary_expression [433,461]"/>
+  <match src="parameter_declaration [34,55]" dest="parameter_declaration [34,55]"/>
+  <match src="field_identifier: limit [312,317]" dest="field_identifier: limit [312,317]"/>
+  <match src="identifier: vcpu [383,387]" dest="identifier: vcpu [383,387]"/>
+  <match src=",: , [2084,2085]" dest=",: , [2270,2271]"/>
+  <match src="): ) [2266,2267]" dest="): ) [2452,2453]"/>
+  <match src=",: , [1945,1946]" dest=",: , [2131,2132]"/>
+  <match src="expression_statement [588,629]" dest="expression_statement [774,815]"/>
+  <match src="number_literal: 0 [1234,1235]" dest="number_literal: 0 [1420,1421]"/>
+  <match src="parenthesized_expression [2226,2386]" dest="parenthesized_expression [2412,2572]"/>
+  <match src="binary_expression [2357,2384]" dest="binary_expression [2543,2570]"/>
+  <match src="field_identifier: limit [220,225]" dest="field_identifier: limit [220,225]"/>
+  <match src="): ) [627,628]" dest="): ) [813,814]"/>
+  <match src=",: , [1697,1698]" dest=",: , [1883,1884]"/>
+  <match src="field_identifier: base [231,235]" dest="field_identifier: base [231,235]"/>
+  <match src="]: ] [1327,1328]" dest="]: ] [1513,1514]"/>
+  <match src="=: = [1449,1450]" dest="=: = [1635,1636]"/>
+  <match src="field_identifier: ldt [2144,2147]" dest="field_identifier: ldt [2330,2333]"/>
+  <match src="field_identifier: es [1893,1895]" dest="field_identifier: es [2079,2081]"/>
+  <match src=".: . [230,231]" dest=".: . [230,231]"/>
+  <match src="field_expression [1182,1204]" dest="field_expression [1368,1390]"/>
+  <match src=";: ; [1756,1757]" dest=";: ; [1942,1943]"/>
+  <match src="binary_expression [940,975]" dest="binary_expression [1126,1161]"/>
+  <match src="identifier: vcpu [741,745]" dest="identifier: vcpu [927,931]"/>
+  <match src="expression_statement [2013,2061]" dest="expression_statement [2199,2247]"/>
+  <match src="expression_statement [844,893]" dest="expression_statement [1030,1079]"/>
+  <match src="-&gt;: -&gt; [2323,2325]" dest="-&gt;: -&gt; [2509,2511]"/>
+  <match src="call_expression [179,194]" dest="call_expression [179,194]"/>
+  <match src="(: ( [33,34]" dest="(: ( [33,34]"/>
+  <match src="field_identifier: cs [1793,1795]" dest="field_identifier: cs [1979,1981]"/>
+  <match src=";: ; [810,811]" dest=";: ; [996,997]"/>
+  <match src="identifier: pending_vec [1704,1715]" dest="identifier: pending_vec [1890,1901]"/>
+  <match src="call_expression [1040,1067]" dest="call_expression [1226,1253]"/>
+  <match src="assignment_expression [320,345]" dest="assignment_expression [320,345]"/>
+  <match src="long: long [1486,1490]" dest="long: long [1672,1676]"/>
+  <match src=".: . [2295,2296]" dest=".: . [2481,2482]"/>
+  <match src="): ) [809,810]" dest="): ) [995,996]"/>
+  <match src=";: ; [1716,1717]" dest=";: ; [1902,1903]"/>
+  <match src="): ) [1104,1105]" dest="): ) [1290,1291]"/>
+  <match src=".: . [1358,1359]" dest=".: . [1544,1545]"/>
+  <match src=";: ; [1910,1911]" dest=";: ; [2096,2097]"/>
+  <match src=".: . [219,220]" dest=".: . [219,220]"/>
+  <match src="assignment_expression [1244,1249]" dest="assignment_expression [1430,1435]"/>
+  <match src="(: ( [1116,1117]" dest="(: ( [1302,1303]"/>
+  <match src=";: ; [1205,1206]" dest=";: ; [1391,1392]"/>
+  <match src="-&gt;: -&gt; [764,766]" dest="-&gt;: -&gt; [950,952]"/>
+  <match src="struct_specifier [149,172]" dest="struct_specifier [149,172]"/>
+  <match src="-&gt;: -&gt; [1991,1993]" dest="-&gt;: -&gt; [2177,2179]"/>
+  <match src=".: . [1219,1220]" dest=".: . [1405,1406]"/>
+  <match src="expression_statement [1617,1657]" dest="expression_statement [1803,1843]"/>
+  <match src="-&gt;: -&gt; [1841,1843]" dest="-&gt;: -&gt; [2027,2029]"/>
+  <match src="field_identifier: arch [389,393]" dest="field_identifier: arch [389,393]"/>
+  <match src="identifier: vcpu [1094,1098]" dest="identifier: vcpu [1280,1284]"/>
+  <match src="field_expression [1348,1370]" dest="field_expression [1534,1556]"/>
+  <match src="identifier: pending_vec [1437,1448]" dest="identifier: pending_vec [1623,1634]"/>
+  <match src="expression_statement [348,380]" dest="expression_statement [348,380]"/>
+  <match src="field_expression [383,397]" dest="field_expression [383,397]"/>
+  <match src="identifier: pending_vec [1644,1655]" dest="identifier: pending_vec [1830,1841]"/>
+  <match src="field_identifier: interrupt_bitmap [1411,1427]" dest="field_identifier: interrupt_bitmap [1597,1613]"/>
+  <match src="): ) [1294,1295]" dest="): ) [1480,1481]"/>
+  <match src="identifier: kvm_set_segment [1763,1778]" dest="identifier: kvm_set_segment [1949,1964]"/>
+  <match src="expression_statement [528,586]" dest="expression_statement [714,772]"/>
+  <match src="): ) [1103,1104]" dest="): ) [1289,1290]"/>
+  <match src="identifier: pr_debug [1661,1669]" dest="identifier: pr_debug [1847,1855]"/>
+  <match src=",: , [1895,1896]" dest=",: , [2081,2082]"/>
+  <match src="function_definition [0,2465]" dest="function_definition [0,2651]"/>
+  <match src="type_identifier: kvm_sregs [70,79]" dest="type_identifier: kvm_sregs [70,79]"/>
+  <match src="identifier: vcpu [712,716]" dest="identifier: vcpu [898,902]"/>
+  <match src="(: ( [2261,2262]" dest="(: ( [2447,2448]"/>
+  <match src="field_identifier: arch [470,474]" dest="field_identifier: arch [566,570]"/>
+  <match src="field_expression [830,840]" dest="field_expression [1016,1026]"/>
+  <match src="identifier: vcpu [1182,1186]" dest="identifier: vcpu [1368,1372]"/>
+  <match src="call_expression [1963,2010]" dest="call_expression [2149,2196]"/>
+  <match src="-&gt;: -&gt; [1352,1354]" dest="-&gt;: -&gt; [1538,1540]"/>
+  <match src=";: ; [491,492]" dest=";: ; [587,588]"/>
+  <match src=";: ; [2060,2061]" dest=";: ; [2246,2247]"/>
+  <match src="(: ( [2444,2445]" dest="(: ( [2630,2631]"/>
+  <match src="compound_statement [1612,1721]" dest="compound_statement [1798,1907]"/>
+  <match src="call_expression [2064,2111]" dest="call_expression [2250,2297]"/>
+  <match src="field_identifier: arch [1272,1276]" dest="field_identifier: arch [1458,1462]"/>
+  <match src="field_identifier: arch [554,558]" dest="field_identifier: arch [740,744]"/>
+  <match src="field_identifier: mp_state [2400,2408]" dest="field_identifier: mp_state [2586,2594]"/>
+  <match src=";: ; [1960,1961]" dest=";: ; [2146,2147]"/>
+  <match src="field_identifier: cr3 [488,491]" dest="field_identifier: cr3 [584,587]"/>
+  <match src="(: ( [1978,1979]" dest="(: ( [2164,2165]"/>
+  <match src="expression_statement [1110,1206]" dest="expression_statement [1296,1392]"/>
+  <match src="field_identifier: irq_summary [1220,1231]" dest="field_identifier: irq_summary [1406,1417]"/>
+  <match src="call_expression [895,933]" dest="call_expression [1081,1119]"/>
+  <match src=";: ; [175,176]" dest=";: ; [175,176]"/>
+  <match src="field_identifier: arch [2395,2399]" dest="field_identifier: arch [2581,2585]"/>
+  <match src="field_identifier: cr4 [929,932]" dest="field_identifier: cr4 [1115,1118]"/>
+  <match src="identifier: pending_vec [1588,1599]" dest="identifier: pending_vec [1774,1785]"/>
+  <match src="call_expression [676,717]" dest="call_expression [862,903]"/>
+  <match src="field_identifier: irq_summary [1359,1370]" dest="field_identifier: irq_summary [1545,1556]"/>
+  <match src="field_expression [2318,2327]" dest="field_expression [2504,2513]"/>
+  <match src="identifier: vcpu [369,373]" dest="identifier: vcpu [369,373]"/>
+  <match src="field_identifier: ss [2043,2045]" dest="field_identifier: ss [2229,2231]"/>
+  <match src="field_expression [1266,1288]" dest="field_expression [1452,1474]"/>
+  <match src="(: ( [2079,2080]" dest="(: ( [2265,2266]"/>
+  <match src="): ) [671,672]" dest="): ) [857,858]"/>
+  <match src="field_expression [813,827]" dest="field_expression [999,1013]"/>
+  <match src="(: ( [1396,1397]" dest="(: ( [1582,1583]"/>
+  <match src="assignment_expression [383,410]" dest="assignment_expression [383,410]"/>
+  <match src="field_expression [772,792]" dest="field_expression [958,978]"/>
+  <match src="field_expression [1886,1895]" dest="field_expression [2072,2081]"/>
+  <match src="identifier: kvm_set_segment [1813,1828]" dest="identifier: kvm_set_segment [1999,2014]"/>
+  <match src="&amp;: &amp; [1985,1986]" dest="&amp;: &amp; [2171,2172]"/>
+  <match src=";: ; [317,318]" dest=";: ; [317,318]"/>
+  <match src="type_descriptor [1471,1492]" dest="type_descriptor [1657,1678]"/>
+  <match src="identifier: kvm_set_segment [1913,1928]" dest="identifier: kvm_set_segment [2099,2114]"/>
+  <match src="(: ( [2129,2130]" dest="(: ( [2315,2316]"/>
+  <match src=";: ; [194,195]" dest=";: ; [194,195]"/>
+  <match src="): ) [1204,1205]" dest="): ) [1390,1391]"/>
+  <match src="if: if [1299,1301]" dest="if: if [1485,1487]"/>
+  <match src="struct: struct [149,155]" dest="struct: struct [149,155]"/>
+  <match src="): ) [2385,2386]" dest="): ) [2571,2572]"/>
+  <match src="&quot;: &quot; [1670,1671]" dest="&quot;: &quot; [1856,1857]"/>
+  <match src="argument_list [1061,1067]" dest="argument_list [1247,1253]"/>
+  <match src="-&gt;: -&gt; [214,216]" dest="-&gt;: -&gt; [214,216]"/>
+  <match src="field_identifier: arch [439,443]" dest="field_identifier: arch [439,443]"/>
+  <match src="field_expression [1936,1945]" dest="field_expression [2122,2131]"/>
+  <match src="abstract_pointer_declarator [1491,1492]" dest="abstract_pointer_declarator [1677,1678]"/>
+  <match src="field_identifier: set_idt [269,276]" dest="field_identifier: set_idt [269,276]"/>
+  <match src="parenthesized_expression [1302,1329]" dest="parenthesized_expression [1488,1515]"/>
+  <match src="assignment_expression [290,317]" dest="assignment_expression [290,317]"/>
+  <match src=",: , [136,137]" dest=",: , [136,137]"/>
+  <match src=";: ; [524,525]" dest=";: ; [710,711]"/>
+  <match src="expression_statement [495,525]" dest="expression_statement [681,711]"/>
+  <match src="-&gt;: -&gt; [486,488]" dest="-&gt;: -&gt; [582,584]"/>
+  <match src="(: ( [1637,1638]" dest="(: ( [1823,1824]"/>
+  <match src=";: ; [933,934]" dest=";: ; [1119,1120]"/>
+  <match src=".: . [248,249]" dest=".: . [248,249]"/>
+  <match src="binary_expression [1396,1433]" dest="binary_expression [1582,1619]"/>
+  <match src="field_expression [464,478]" dest="field_expression [560,574]"/>
+  <match src="if: if [1584,1586]" dest="if: if [1770,1772]"/>
+  <match src="parenthesized_expression [1019,1037]" dest="parenthesized_expression [1205,1223]"/>
+  <match src="=: = [2409,2410]" dest="=: = [2595,2596]"/>
+  <match src="(: ( [1470,1471]" dest="(: ( [1656,1657]"/>
+  <match src=",: , [1983,1984]" dest=",: , [2169,2170]"/>
+  <match src="|=: |= [430,432]" dest="|=: |= [430,432]"/>
+  <match src="assignment_expression [528,585]" dest="assignment_expression [714,771]"/>
+  <match src="field_expression [759,769]" dest="field_expression [945,955]"/>
+  <match src="struct_specifier [63,79]" dest="struct_specifier [63,79]"/>
+  <match src="==: == [2241,2243]" dest="==: == [2427,2429]"/>
+  <match src="type_identifier: descriptor_table [156,172]" dest="type_identifier: descriptor_table [156,172]"/>
+  <match src="}: } [1720,1721]" dest="}: } [1906,1907]"/>
+  <match src="identifier: kvm_x86_ops [348,359]" dest="identifier: kvm_x86_ops [348,359]"/>
+  <match src="field_expression [864,874]" dest="field_expression [1050,1060]"/>
+  <match src="if: if [1071,1073]" dest="if: if [1257,1259]"/>
+  <match src="unsigned: unsigned [1477,1485]" dest="unsigned: unsigned [1663,1671]"/>
+  <match src="identifier: mmu_reset_needed [844,860]" dest="identifier: mmu_reset_needed [1030,1046]"/>
+  <match src="identifier: vcpu [991,995]" dest="identifier: vcpu [1177,1181]"/>
+  <match src="identifier: vcpu [189,193]" dest="identifier: vcpu [189,193]"/>
+  <match src="expression_statement [320,346]" dest="expression_statement [320,346]"/>
+  <match src="expression_statement [2114,2165]" dest="expression_statement [2300,2351]"/>
+  <match src="(: ( [939,940]" dest="(: ( [1125,1126]"/>
+  <match src="field_expression [864,878]" dest="field_expression [1050,1064]"/>
+  <match src="-&gt;: -&gt; [518,520]" dest="-&gt;: -&gt; [704,706]"/>
+  <match src=".: . [474,475]" dest=".: . [570,571]"/>
+  <match src="field_expression [513,523]" dest="field_expression [699,709]"/>
+  <match src="(: ( [1061,1062]" dest="(: ( [1247,1248]"/>
+  <match src="field_expression [922,932]" dest="field_expression [1108,1118]"/>
+  <match src="field_expression [1209,1231]" dest="field_expression [1395,1417]"/>
+  <match src="-&gt;: -&gt; [1750,1752]" dest="-&gt;: -&gt; [1936,1938]"/>
+  <match src="-&gt;: -&gt; [468,470]" dest="-&gt;: -&gt; [564,566]"/>
+  <match src="(: ( [648,649]" dest="(: ( [834,835]"/>
+  <match src="field_identifier: limit [293,298]" dest="field_identifier: limit [293,298]"/>
+  <match src="): ) [2110,2111]" dest="): ) [2296,2297]"/>
+  <match src="identifier: dt [290,292]" dest="identifier: dt [290,292]"/>
+  <match src="identifier: kvm_x86_ops [772,783]" dest="identifier: kvm_x86_ops [958,969]"/>
+  <match src="number_literal: 0xfff0 [2271,2277]" dest="number_literal: 0xfff0 [2457,2463]"/>
+  <match src="(: ( [711,712]" dest="(: ( [897,898]"/>
+  <match src="field_identifier: set_efer [601,609]" dest="field_identifier: set_efer [787,795]"/>
+  <match src="field_expression [1094,1103]" dest="field_expression [1280,1289]"/>
+  <match src="for_statement [1239,1372]" dest="for_statement [1425,1558]"/>
+  <match src="field_expression [330,345]" dest="field_expression [330,345]"/>
+  <match src="if_statement [2223,2433]" dest="if_statement [2409,2619]"/>
+  <match src="identifier: vcpu [2080,2084]" dest="identifier: vcpu [2266,2270]"/>
+  <match src="(: ( [1302,1303]" dest="(: ( [1488,1489]"/>
+  <match src=",: , [1933,1934]" dest=",: , [2119,2120]"/>
+  <match src="identifier: KVM_MP_STATE_RUNNABLE [2411,2432]" dest="identifier: KVM_MP_STATE_RUNNABLE [2597,2618]"/>
+  <match src="binary_expression [548,585]" dest="binary_expression [734,771]"/>
+  <match src="}: } [1374,1375]" dest="}: } [1560,1561]"/>
+  <match src="expression_statement [1209,1236]" dest="expression_statement [1395,1422]"/>
+  <match src="identifier: vcpu [433,437]" dest="identifier: vcpu [433,437]"/>
+  <match src="&amp;: &amp; [2086,2087]" dest="&amp;: &amp; [2272,2273]"/>
+  <match src="call_expression [2436,2450]" dest="call_expression [2622,2636]"/>
+  <match src="-&gt;: -&gt; [1270,1272]" dest="-&gt;: -&gt; [1456,1458]"/>
+  <match src="field_identifier: cr0 [824,827]" dest="field_identifier: cr0 [1010,1013]"/>
+  <match src="identifier: mmu_reset_needed [1020,1036]" dest="identifier: mmu_reset_needed [1206,1222]"/>
+  <match src="field_expression [1786,1795]" dest="field_expression [1972,1981]"/>
+  <match src="): ) [193,194]" dest="): ) [193,194]"/>
+  <match src="{: { [88,89]" dest="{: { [88,89]"/>
+  <match src="binary_expression [2227,2385]" dest="binary_expression [2413,2571]"/>
+  <match src=",: , [920,921]" dest=",: , [1106,1107]"/>
+  <match src=";: ; [345,346]" dest=";: ; [345,346]"/>
+  <match src="identifier: max_bits [1385,1393]" dest="identifier: max_bits [1571,1579]"/>
+  <match src="call_expression [772,810]" dest="call_expression [958,996]"/>
+  <match src="parameter_list [33,87]" dest="parameter_list [33,87]"/>
+  <match src="identifier: kvm_mmu_reset_context [1040,1061]" dest="identifier: kvm_mmu_reset_context [1226,1247]"/>
+  <match src="expression_statement [721,770]" dest="expression_statement [907,956]"/>
+  <match src="expression_statement [1763,1811]" dest="expression_statement [1949,1997]"/>
+  <match src="identifier: i [1326,1327]" dest="identifier: i [1512,1513]"/>
+  <match src=";: ; [1067,1068]" dest=";: ; [1253,1254]"/>
+  <match src="&quot;: &quot; [1696,1697]" dest="&quot;: &quot; [1882,1883]"/>
+  <match src="field_expression [676,711]" dest="field_expression [862,897]"/>
+  <match src="field_identifier: cr3 [458,461]" dest="field_identifier: cr3 [458,461]"/>
+  <match src="identifier: VCPU_SREG_ES [1897,1909]" dest="identifier: VCPU_SREG_ES [2083,2095]"/>
+  <match src=",: , [995,996]" dest=",: , [1181,1182]"/>
+  <match src="*: * [80,81]" dest="*: * [80,81]"/>
+  <match src="identifier: kvm_set_segment [1863,1878]" dest="identifier: kvm_set_segment [2049,2064]"/>
+  <match src=".: . [340,341]" dest=".: . [340,341]"/>
+  <match src="-&gt;: -&gt; [1791,1793]" dest="-&gt;: -&gt; [1977,1979]"/>
+  <match src="): ) [1011,1012]" dest="): ) [1197,1198]"/>
+  <match src="): ) [975,976]" dest="): ) [1161,1162]"/>
+  <match src="identifier: is_long_mode [941,953]" dest="identifier: is_long_mode [1127,1139]"/>
+  <match src="-&gt;: -&gt; [1213,1215]" dest="-&gt;: -&gt; [1399,1401]"/>
+  <match src="): ) [2449,2450]" dest="): ) [2635,2636]"/>
+  <match src="binary_expression [2227,2314]" dest="binary_expression [2413,2500]"/>
+  <match src="(: ( [188,189]" dest="(: ( [188,189]"/>
+  <match src="field_expression [290,298]" dest="field_expression [290,298]"/>
+  <match src=",: , [1516,1517]" dest=",: , [1702,1703]"/>
+  <match src="field_identifier: efer [581,585]" dest="field_identifier: efer [767,771]"/>
+  <match src="identifier: kvm_set_cr8 [495,506]" dest="identifier: kvm_set_cr8 [681,692]"/>
+  <match src=",: , [2045,2046]" dest=",: , [2231,2232]"/>
+  <match src="argument_list [915,933]" dest="argument_list [1101,1119]"/>
+  <match src="call_expression [1813,1860]" dest="call_expression [1999,2046]"/>
+  <match src=",: , [2134,2135]" dest=",: , [2320,2321]"/>
+  <match src="(: ( [609,610]" dest="(: ( [795,796]"/>
+  <match src="primitive_type: int [118,121]" dest="primitive_type: int [118,121]"/>
+  <match src=";: ; [769,770]" dest=";: ; [955,956]"/>
+  <match src="&amp;: &amp; [2136,2137]" dest="&amp;: &amp; [2322,2323]"/>
+  <match src="identifier: sregs [830,835]" dest="identifier: sregs [1016,1021]"/>
+  <match src="identifier: ARRAY_SIZE [1255,1265]" dest="identifier: ARRAY_SIZE [1441,1451]"/>
+  <match src="field_expression [209,225]" dest="field_expression [209,225]"/>
+  <match src="field_expression [1746,1755]" dest="field_expression [1932,1941]"/>
+  <match src="|=: |= [738,740]" dest="|=: |= [924,926]"/>
+  <match src="field_expression [198,206]" dest="field_expression [198,206]"/>
+  <match src="): ) [2059,2060]" dest="): ) [2245,2246]"/>
+  <match src="assignment_expression [1209,1235]" dest="assignment_expression [1395,1421]"/>
+  <match src="field_expression [256,276]" dest="field_expression [256,276]"/>
+  <match src="function_declarator [4,87]" dest="function_declarator [4,87]"/>
+  <match src="field_expression [741,755]" dest="field_expression [927,941]"/>
+  <match src="argument_list [1637,1656]" dest="argument_list [1823,1842]"/>
+  <match src="pointer_declarator [80,86]" dest="pointer_declarator [80,86]"/>
+  <match src="(: ( [1745,1746]" dest="(: ( [1931,1932]"/>
+  <match src="-&gt;: -&gt; [621,623]" dest="-&gt;: -&gt; [807,809]"/>
+  <match src="-&gt;: -&gt; [335,337]" dest="-&gt;: -&gt; [335,337]"/>
+  <match src="identifier: mmu_reset_needed [413,429]" dest="identifier: mmu_reset_needed [413,429]"/>
+  <match src="assignment_expression [844,892]" dest="assignment_expression [1030,1078]"/>
+  <match src=";: ; [1860,1861]" dest=";: ; [2046,2047]"/>
+  <match src="): ) [1492,1493]" dest="): ) [1678,1679]"/>
+  <match src=",: , [55,56]" dest=",: , [55,56]"/>
+  <match src="-&gt;: -&gt; [359,361]" dest="-&gt;: -&gt; [359,361]"/>
+  <match src="field_expression [320,327]" dest="field_expression [320,327]"/>
+  <match src="): ) [1715,1716]" dest="): ) [1901,1902]"/>
+  <match src="=: = [236,237]" dest="=: = [236,237]"/>
+  <match src="field_identifier: set_gdt [361,368]" dest="field_identifier: set_gdt [361,368]"/>
+  <match src=";: ; [2111,2112]" dest=";: ; [2297,2298]"/>
+  <match src="field_identifier: apic_base [662,671]" dest="field_identifier: apic_base [848,857]"/>
+  <match src="-&gt;: -&gt; [2092,2094]" dest="-&gt;: -&gt; [2278,2280]"/>
+  <match src="pointer_expression [1347,1370]" dest="pointer_expression [1533,1556]"/>
+  <match src="identifier: vcpu [464,468]" dest="identifier: vcpu [560,564]"/>
+  <match src="binary_expression [2249,2277]" dest="binary_expression [2435,2463]"/>
+  <match src="cast_expression [1470,1516]" dest="cast_expression [1656,1702]"/>
+  <match src="field_identifier: arch [1003,1007]" dest="field_identifier: arch [1189,1193]"/>
+  <match src="identifier: vcpu [2130,2134]" dest="identifier: vcpu [2316,2320]"/>
+  <match src="call_expression [1763,1810]" dest="call_expression [1949,1996]"/>
+  <match src="): ) [974,975]" dest="): ) [1160,1161]"/>
+  <match src="field_expression [2137,2147]" dest="field_expression [2323,2333]"/>
+  <match src="pointer_declarator [50,55]" dest="pointer_declarator [50,55]"/>
+  <match src="!: ! [940,941]" dest="!: ! [1126,1127]"/>
+  <match src="number_literal: 3 [1432,1433]" dest="number_literal: 3 [1618,1619]"/>
+  <match src="field_expression [301,311]" dest="field_expression [301,311]"/>
+  <match src="): ) [716,717]" dest="): ) [902,903]"/>
+  <match src="identifier: sregs [922,927]" dest="identifier: sregs [1108,1113]"/>
+  <match src="field_identifier: arch [1215,1219]" dest="field_identifier: arch [1401,1405]"/>
+  <match src="field_identifier: irq_pending [1314,1325]" dest="field_identifier: irq_pending [1500,1511]"/>
+  <match src="&amp;: &amp; [2372,2373]" dest="&amp;: &amp; [2558,2559]"/>
+  <match src="): ) [958,959]" dest="): ) [1144,1145]"/>
+  <match src="=: = [1394,1395]" dest="=: = [1580,1581]"/>
+  <match src="expression_statement [1661,1717]" dest="expression_statement [1847,1903]"/>
+  <match src=",: , [1164,1165]" dest=",: , [1350,1351]"/>
+  <match src="call_expression [1255,1289]" dest="call_expression [1441,1475]"/>
+  <match src="field_identifier: limit [201,206]" dest="field_identifier: limit [201,206]"/>
+  <match src="binary_expression [2286,2314]" dest="binary_expression [2472,2500]"/>
+  <match src="identifier: dt [173,175]" dest="identifier: dt [173,175]"/>
+  <match src="identifier: sregs [1141,1146]" dest="identifier: sregs [1327,1332]"/>
+  <match src="identifier: mmu_reset_needed [528,544]" dest="identifier: mmu_reset_needed [714,730]"/>
+  <match src="{: { [1106,1107]" dest="{: { [1292,1293]"/>
+  <match src="binary_expression [2318,2346]" dest="binary_expression [2504,2532]"/>
+  <match src="identifier: memcpy [1110,1116]" dest="identifier: memcpy [1296,1302]"/>
+  <match src="pointer_expression [1885,1895]" dest="pointer_expression [2071,2081]"/>
+  <match src="identifier: vcpu [1303,1307]" dest="identifier: vcpu [1489,1493]"/>
+  <match src="-&gt;: -&gt; [2361,2363]" dest="-&gt;: -&gt; [2547,2549]"/>
+  <match src=".: . [322,323]" dest=".: . [322,323]"/>
+  <match src="field_identifier: arch [1188,1192]" dest="field_identifier: arch [1374,1378]"/>
+  <match src="): ) [1370,1371]" dest="): ) [1556,1557]"/>
+  <match src="parenthesized_expression [1396,1428]" dest="parenthesized_expression [1582,1614]"/>
+  <match src="(: ( [368,369]" dest="(: ( [368,369]"/>
+  <match src="identifier: sregs [655,660]" dest="identifier: sregs [841,846]"/>
+  <match src="field_expression [616,627]" dest="field_expression [802,813]"/>
+  <match src="&amp;&amp;: &amp;&amp; [2246,2248]" dest="&amp;&amp;: &amp;&amp; [2432,2434]"/>
+  <match src="argument_list [969,975]" dest="argument_list [1155,1161]"/>
+  <match src="identifier: kvm_set_segment [1963,1978]" dest="identifier: kvm_set_segment [2149,2164]"/>
+  <match src="expression_statement [1724,1757]" dest="expression_statement [1910,1943]"/>
+  <match src="field_expression [238,253]" dest="field_expression [238,253]"/>
+  <match src="call_expression [2013,2060]" dest="call_expression [2199,2246]"/>
+  <match src="identifier: sregs [330,335]" dest="identifier: sregs [330,335]"/>
+  <match src="field_expression [2318,2332]" dest="field_expression [2504,2518]"/>
+  <match src="field_expression [2389,2408]" dest="field_expression [2575,2594]"/>
+  <match src="argument_list [2079,2111]" dest="argument_list [2265,2297]"/>
+  <match src="(: ( [2226,2227]" dest="(: ( [2412,2413]"/>
+  <match src="!: ! [2355,2356]" dest="!: ! [2541,2542]"/>
+  <match src="expression_statement [2436,2451]" dest="expression_statement [2622,2637]"/>
+  <match src=";: ; [2164,2165]" dest=";: ; [2350,2351]"/>
+  <match src=",: , [1845,1846]" dest=",: , [2031,2032]"/>
+  <match src="identifier: vcpu [864,868]" dest="identifier: vcpu [1050,1054]"/>
+  <match src="field_identifier: arch [819,823]" dest="field_identifier: arch [1005,1009]"/>
+  <match src="declaration [149,176]" dest="declaration [149,176]"/>
+  <match src="field_identifier: interrupt_bitmap [1500,1516]" dest="field_identifier: interrupt_bitmap [1686,1702]"/>
+  <match src=";: ; [379,380]" dest=";: ; [379,380]"/>
+  <match src="identifier: sregs [1404,1409]" dest="identifier: sregs [1590,1595]"/>
+  <match src="field_identifier: gs [1993,1995]" dest="field_identifier: gs [2179,2181]"/>
+  <match src=".: . [1313,1314]" dest=".: . [1499,1500]"/>
+  <match src="field_identifier: cr8 [520,523]" dest="field_identifier: cr8 [706,709]"/>
+  <match src="number_literal: 0xffff0000 [2336,2346]" dest="number_literal: 0xffff0000 [2522,2532]"/>
+  <match src="=: = [1232,1233]" dest="=: = [1418,1419]"/>
+  <match src="field_expression [2357,2367]" dest="field_expression [2543,2553]"/>
+  <match src="expression_statement [895,934]" dest="expression_statement [1081,1120]"/>
+  <match src=",: , [1833,1834]" dest=",: , [2019,2020]"/>
+  <match src="identifier: kvm_x86_ops [676,687]" dest="identifier: kvm_x86_ops [862,873]"/>
+  <match src=";: ; [225,226]" dest=";: ; [225,226]"/>
+  <match src="[: [ [1325,1326]" dest="[: [ [1511,1512]"/>
+  <match src="field_expression [433,443]" dest="field_expression [433,443]"/>
+  <match src=",: , [373,374]" dest=",: , [373,374]"/>
+  <match src="identifier: VCPU_SREG_DS [1847,1859]" dest="identifier: VCPU_SREG_DS [2033,2045]"/>
+  <match src="if_statement [1584,1721]" dest="if_statement [1770,1907]"/>
+  <match src="identifier: load_pdptrs [979,990]" dest="identifier: load_pdptrs [1165,1176]"/>
+  <match src="number_literal: 0 [2461,2462]" dest="number_literal: 0 [2647,2648]"/>
+  <match src="binary_expression [2227,2277]" dest="binary_expression [2413,2463]"/>
+  <match src="!=: != [879,881]" dest="!=: != [1065,1067]"/>
+  <match src="unary_expression [2355,2385]" dest="unary_expression [2541,2571]"/>
+  <match src="identifier: vcpu [1979,1983]" dest="identifier: vcpu [2165,2169]"/>
+  <match src="-&gt;: -&gt; [552,554]" dest="-&gt;: -&gt; [738,740]"/>
+  <match src="argument_list [609,628]" dest="argument_list [795,814]"/>
+  <match src="field_identifier: kvm [1752,1755]" dest="field_identifier: kvm [1938,1941]"/>
+  <match src="(: ( [1828,1829]" dest="(: ( [2014,2015]"/>
+  <match src="parenthesized_expression [1587,1611]" dest="parenthesized_expression [1773,1797]"/>
+  <match src="!: ! [1075,1076]" dest="!: ! [1261,1262]"/>
+  <match src="call_expression [2249,2267]" dest="call_expression [2435,2453]"/>
+  <match src="): ) [2009,2010]" dest="): ) [2195,2196]"/>
+  <match src="field_expression [238,248]" dest="field_expression [238,248]"/>
+  <match src="}: } [1759,1760]" dest="}: } [1945,1946]"/>
+  <match src="expression_statement [413,462]" dest="expression_statement [413,462]"/>
+  <match src="field_expression [2036,2045]" dest="field_expression [2222,2231]"/>
+  <match src="expression_statement [2064,2112]" dest="expression_statement [2250,2298]"/>
+  <match src="(: ( [1928,1929]" dest="(: ( [2114,2115]"/>
+  <match src="identifier: vcpu [610,614]" dest="identifier: vcpu [796,800]"/>
+  <match src="field_expression [383,393]" dest="field_expression [383,393]"/>
+  <match src="(: ( [1878,1879]" dest="(: ( [2064,2065]"/>
+  <match src="if: if [936,938]" dest="if: if [1122,1124]"/>
+  <match src="field_expression [481,491]" dest="field_expression [577,587]"/>
+  <match src=".: . [311,312]" dest=".: . [311,312]"/>
+  <match src="identifier: vcpu [2445,2449]" dest="identifier: vcpu [2631,2635]"/>
+  <match src="field_expression [451,461]" dest="field_expression [451,461]"/>
+  <match src="field_identifier: cr0 [837,840]" dest="field_identifier: cr0 [1023,1026]"/>
+  <match src="): ) [1755,1756]" dest="): ) [1941,1942]"/>
+  <match src="-&gt;: -&gt; [1498,1500]" dest="-&gt;: -&gt; [1684,1686]"/>
+  <match src="): ) [86,87]" dest="): ) [86,87]"/>
+  <match src="=: = [207,208]" dest="=: = [207,208]"/>
+  <match src="identifier: vcpu [1879,1883]" dest="identifier: vcpu [2065,2069]"/>
+  <match src="identifier: sregs [1936,1941]" dest="identifier: sregs [2122,2127]"/>
+  <match src="field_expression [1404,1427]" dest="field_expression [1590,1613]"/>
+  <match src="identifier: VCPU_SREG_CS [1797,1809]" dest="identifier: VCPU_SREG_CS [1983,1995]"/>
+  <match src="escape_sequence: \n [1694,1696]" dest="escape_sequence: \n [1880,1882]"/>
+  <match src="assignment_expression [228,253]" dest="assignment_expression [228,253]"/>
+  <match src=";: ; [115,116]" dest=";: ; [115,116]"/>
+  <match src="field_identifier: set_irq [1630,1637]" dest="field_identifier: set_irq [1816,1823]"/>
+  <match src="field_expression [2389,2399]" dest="field_expression [2575,2585]"/>
+  <match src="identifier: find_first_bit [1451,1465]" dest="identifier: find_first_bit [1637,1651]"/>
+  <match src="field_expression [2286,2295]" dest="field_expression [2472,2481]"/>
+  <match src="(: ( [1669,1670]" dest="(: ( [1855,1856]"/>
+  <match src="(: ( [506,507]" dest="(: ( [692,693]"/>
+  <match src="identifier: vcpu [1062,1066]" dest="identifier: vcpu [1248,1252]"/>
+  <match src="argument_list [276,287]" dest="argument_list [276,287]"/>
+  <match src="identifier: sregs [2087,2092]" dest="identifier: sregs [2273,2278]"/>
+  <match src="identifier: sregs [513,518]" dest="identifier: sregs [699,704]"/>
+  <match src="(: ( [969,970]" dest="(: ( [1155,1156]"/>
+  <match src="identifier: sregs [616,621]" dest="identifier: sregs [802,807]"/>
+  <match src="&amp;: &amp; [2035,2036]" dest="&amp;: &amp; [2221,2222]"/>
+  <match src=";: ; [840,841]" dest=";: ; [1026,1027]"/>
+  <match src="argument_list [711,717]" dest="argument_list [897,903]"/>
+  <match src="if_statement [936,1013]" dest="if_statement [1122,1199]"/>
+  <match src="-&gt;: -&gt; [2291,2293]" dest="-&gt;: -&gt; [2477,2479]"/>
+  <match src="field_identifier: base [323,327]" dest="field_identifier: base [323,327]"/>
+  <match src="&amp;: &amp; [283,284]" dest="&amp;: &amp; [283,284]"/>
+  <match src="pointer_expression [2035,2045]" dest="pointer_expression [2221,2231]"/>
+  <match src="field_identifier: cr3 [475,478]" dest="field_identifier: cr3 [571,574]"/>
+  <match src="field_expression [813,823]" dest="field_expression [999,1009]"/>
+  <match src="argument_list [1978,2010]" dest="argument_list [2164,2196]"/>
+  <match src=";: ; [1235,1236]" dest=";: ; [1421,1422]"/>
+  <match src="): ) [1427,1428]" dest="): ) [1613,1614]"/>
+  <match src=".: . [292,293]" dest=".: . [292,293]"/>
+  <match src="number_literal: 0 [114,115]" dest="number_literal: 0 [114,115]"/>
+  <match src="declaration [91,116]" dest="declaration [91,116]"/>
+  <match src="field_expression [1303,1313]" dest="field_expression [1489,1499]"/>
+  <match src="struct_specifier [34,49]" dest="struct_specifier [34,49]"/>
+  <match src="-&gt;: -&gt; [405,407]" dest="-&gt;: -&gt; [405,407]"/>
+  <match src="subscript_expression [1303,1328]" dest="subscript_expression [1489,1514]"/>
+  <match src="expression_statement [383,411]" dest="expression_statement [383,411]"/>
+  <match src=";: ; [1433,1434]" dest=";: ; [1619,1620]"/>
+  <match src=",: , [2096,2097]" dest=",: , [2282,2283]"/>
+  <match src="): ) [932,933]" dest="): ) [1118,1119]"/>
+  <match src="field_expression [464,474]" dest="field_expression [560,570]"/>
+  <match src="identifier: sregs [2286,2291]" dest="identifier: sregs [2472,2477]"/>
+  <match src=",: , [1783,1784]" dest=",: , [1969,1970]"/>
+  <match src="&amp;: &amp; [1347,1348]" dest="&amp;: &amp; [1533,1534]"/>
+  <match src="-&gt;: -&gt; [1891,1893]" dest="-&gt;: -&gt; [2077,2079]"/>
+  <match src="identifier: i [1344,1345]" dest="identifier: i [1530,1531]"/>
+  <match src="expression_statement [1040,1068]" dest="expression_statement [1226,1254]"/>
+  <match src="field_expression [655,671]" dest="field_expression [841,857]"/>
+  <match src="call_expression [1076,1104]" dest="call_expression [1262,1290]"/>
+  <match src="identifier: vcpu [2029,2033]" dest="identifier: vcpu [2215,2219]"/>
+  <match src="=: = [398,399]" dest="=: = [398,399]"/>
+  <match src="identifier: sregs [1986,1991]" dest="identifier: sregs [2172,2177]"/>
+  <match src="field_expression [997,1011]" dest="field_expression [1183,1197]"/>
+  <match src="field_expression [548,558]" dest="field_expression [734,744]"/>
+  <match src="compound_statement [1106,1375]" dest="compound_statement [1292,1561]"/>
+  <match src="identifier: i [1244,1245]" dest="identifier: i [1430,1431]"/>
+  <match src="identifier: max_bits [1521,1529]" dest="identifier: max_bits [1707,1715]"/>
+  <match src=".: . [558,559]" dest=".: . [744,745]"/>
+  <match src="identifier: VCPU_SREG_LDTR [2149,2163]" dest="identifier: VCPU_SREG_LDTR [2335,2349]"/>
+  <match src="identifier: sregs [209,214]" dest="identifier: sregs [209,214]"/>
+  <match src="identifier: vcpu [1266,1270]" dest="identifier: vcpu [1452,1456]"/>
+  <match src="identifier: kvm_pic_clear_isr_ack [1724,1745]" dest="identifier: kvm_pic_clear_isr_ack [1910,1931]"/>
+  <match src="): ) [523,524]" dest="): ) [709,710]"/>
+  <match src="field_identifier: cr4 [875,878]" dest="field_identifier: cr4 [1061,1064]"/>
+  <match src="if: if [2223,2225]" dest="if: if [2409,2411]"/>
+  <match src="(: ( [990,991]" dest="(: ( [1176,1177]"/>
+  <match src="assignment_expression [464,491]" dest="assignment_expression [560,587]"/>
+  <match src="identifier: sregs [451,456]" dest="identifier: sregs [451,456]"/>
+  <match src="&amp;&amp;: &amp;&amp; [2315,2317]" dest="&amp;&amp;: &amp;&amp; [2501,2503]"/>
+  <match src="call_expression [1451,1530]" dest="call_expression [1637,1716]"/>
+  <match src="field_expression [1986,1995]" dest="field_expression [2172,2181]"/>
+  <match src="field_expression [1348,1358]" dest="field_expression [1534,1544]"/>
+  <match src="else_clause [1376,1760]" dest="else_clause [1562,1946]"/>
+  <match src=".: . [1127,1128]" dest=".: . [1313,1314]"/>
+  <match src="identifier: sregs [2318,2323]" dest="identifier: sregs [2504,2509]"/>
+  <match src="=: = [479,480]" dest="=: = [575,576]"/>
+  <match src="field_expression [330,340]" dest="field_expression [330,340]"/>
+  <match src="call_expression [256,287]" dest="call_expression [256,287]"/>
+  <match src="-&gt;: -&gt; [745,747]" dest="-&gt;: -&gt; [931,933]"/>
+  <match src="identifier: kvm_set_segment [2013,2028]" dest="identifier: kvm_set_segment [2199,2214]"/>
+  <match src="identifier: sregs [1786,1791]" dest="identifier: sregs [1972,1977]"/>
+  <match src="{: { [1612,1613]" dest="{: { [1798,1799]"/>
+  <match src="(: ( [915,916]" dest="(: ( [1101,1102]"/>
+  <match src="identifier: vcpu [2262,2266]" dest="identifier: vcpu [2448,2452]"/>
+  <match src=",: , [1642,1643]" dest=",: , [1828,1829]"/>
+  <match src="==: == [2333,2335]" dest="==: == [2519,2521]"/>
+  <match src=";: ; [585,586]" dest=";: ; [771,772]"/>
+  <match src=";: ; [410,411]" dest=";: ; [410,411]"/>
+  <match src="field_expression [2357,2371]" dest="field_expression [2543,2557]"/>
+  <match src="expression_statement [1963,2011]" dest="expression_statement [2149,2197]"/>
+  <match src="argument_list [953,959]" dest="argument_list [1139,1145]"/>
+  <match src="call_expression [1334,1371]" dest="call_expression [1520,1557]"/>
+  <match src="identifier: vcpu [916,920]" dest="identifier: vcpu [1102,1106]"/>
+  <match src="identifier: vcpu [548,552]" dest="identifier: vcpu [734,738]"/>
+  <match src="string_content: Set back pending irq %d [1671,1694]" dest="string_content: Set back pending irq %d [1857,1880]"/>
+  <match src="argument_list [1265,1289]" dest="argument_list [1451,1475]"/>
+  <match src="(: ( [2356,2357]" dest="(: ( [2542,2543]"/>
+  <match src="identifier: kvm_rip_read [2249,2261]" dest="identifier: kvm_rip_read [2435,2447]"/>
+  <match src="identifier: dt [228,230]" dest="identifier: dt [228,230]"/>
+  <match src=";: ; [672,673]" dest=";: ; [858,859]"/>
+  <match src="type_identifier: kvm_vcpu [41,49]" dest="type_identifier: kvm_vcpu [41,49]"/>
+  <match src="-&gt;: -&gt; [906,908]" dest="-&gt;: -&gt; [1092,1094]"/>
+  <match src="expression_statement [1385,1434]" dest="expression_statement [1571,1620]"/>
+  <match src="-&gt;: -&gt; [927,929]" dest="-&gt;: -&gt; [1113,1115]"/>
+  <match src="(: ( [1265,1266]" dest="(: ( [1451,1452]"/>
+  <match src="-&gt;: -&gt; [2231,2233]" dest="-&gt;: -&gt; [2417,2419]"/>
+  <match src="compound_statement [88,2465]" dest="compound_statement [88,2651]"/>
+  <match src="): ) [286,287]" dest="): ) [286,287]"/>
+  <match src="identifier: kvm_x86_ops [1617,1628]" dest="identifier: kvm_x86_ops [1803,1814]"/>
+  <match src="struct: struct [63,69]" dest="struct: struct [63,69]"/>
+  <match src="-&gt;: -&gt; [243,245]" dest="-&gt;: -&gt; [243,245]"/>
+  <match src="(: ( [1343,1344]" dest="(: ( [1529,1530]"/>
+  <match src="): ) [2163,2164]" dest="): ) [2349,2350]"/>
+  <match src="-&gt;: -&gt; [868,870]" dest="-&gt;: -&gt; [1054,1056]"/>
+  <match src="field_identifier: tr [2094,2096]" dest="field_identifier: tr [2280,2282]"/>
+  <match src="identifier: vcpu [1779,1783]" dest="identifier: vcpu [1965,1969]"/>
+  <match src="identifier: vcpu [954,958]" dest="identifier: vcpu [1140,1144]"/>
+  <match src="assignment_expression [198,225]" dest="assignment_expression [198,225]"/>
+  <match src="-&gt;: -&gt; [579,581]" dest="-&gt;: -&gt; [765,767]"/>
+  <match src="-&gt;: -&gt; [817,819]" dest="-&gt;: -&gt; [1003,1005]"/>
+  <match src="(: ( [1778,1779]" dest="(: ( [1964,1965]"/>
+  <match src="sizeof_expression [1175,1204]" dest="sizeof_expression [1361,1390]"/>
+  <match src="type_qualifier [1471,1476]" dest="type_qualifier [1657,1662]"/>
+  <match src="argument_list [1928,1960]" dest="argument_list [2114,2146]"/>
+  <match src="identifier: vcpu [997,1001]" dest="identifier: vcpu [1183,1187]"/>
+  <match src="): ) [1328,1329]" dest="): ) [1514,1515]"/>
+  <match src="identifier: vcpu [793,797]" dest="identifier: vcpu [979,983]"/>
+  <match src="identifier: VCPU_SREG_SS [2047,2059]" dest="identifier: VCPU_SREG_SS [2233,2245]"/>
+  <match src="identifier: VCPU_SREG_FS [1947,1959]" dest="identifier: VCPU_SREG_FS [2133,2145]"/>
+  <match src="expression_statement [179,195]" dest="expression_statement [179,195]"/>
+  <match src="identifier: sregs [2036,2041]" dest="identifier: sregs [2222,2227]"/>
+  <match src="assignment_expression [413,461]" dest="assignment_expression [413,461]"/>
+  <match src="identifier: sregs [574,579]" dest="identifier: sregs [760,765]"/>
+  <match src="identifier: sregs [81,86]" dest="identifier: sregs [81,86]"/>
+  <match src=".: . [1007,1008]" dest=".: . [1193,1194]"/>
+  <match src="|=: |= [545,547]" dest="|=: |= [731,733]"/>
+  <match src="): ) [1809,1810]" dest="): ) [1995,1996]"/>
+  <match src="identifier: is_pae [963,969]" dest="identifier: is_pae [1149,1155]"/>
+  <match src="field_identifier: interrupt_bitmap [1148,1164]" dest="field_identifier: interrupt_bitmap [1334,1350]"/>
+  <match src="primitive_type: int [91,94]" dest="primitive_type: int [91,94]"/>
+  <match src="return_statement [2454,2463]" dest="return_statement [2640,2649]"/>
+  <match src="field_identifier: shadow_efer [559,570]" dest="field_identifier: shadow_efer [745,756]"/>
+  <match src="binary_expression [1251,1289]" dest="binary_expression [1437,1475]"/>
+  <match src="field_identifier: irq_pending [1128,1139]" dest="field_identifier: irq_pending [1314,1325]"/>
+  <match src="if: if [1016,1018]" dest="if: if [1202,1204]"/>
+  <match src="unary_expression [940,959]" dest="unary_expression [1126,1145]"/>
+  <match src="call_expression [963,975]" dest="call_expression [1149,1161]"/>
+  <match src="pointer_expression [2086,2096]" dest="pointer_expression [2272,2282]"/>
+  <match src="identifier: i [122,123]" dest="identifier: i [122,123]"/>
+  <match src="binary_expression [741,769]" dest="binary_expression [927,955]"/>
+  <match src="assignment_expression [2389,2432]" dest="assignment_expression [2575,2618]"/>
+  <match src=".: . [393,394]" dest=".: . [393,394]"/>
+  <match src="identifier: kvm_arch_vcpu_ioctl_set_sregs [4,33]" dest="identifier: kvm_arch_vcpu_ioctl_set_sregs [4,33]"/>
+  <match src="field_identifier: arch [1354,1358]" dest="field_identifier: arch [1540,1544]"/>
+  <match src="binary_expression [2227,2245]" dest="binary_expression [2413,2431]"/>
+  <match src="init_declarator [95,115]" dest="init_declarator [95,115]"/>
+  <match src="field_expression [1141,1164]" dest="field_expression [1327,1350]"/>
+  <match src="&lt;: &lt; [1600,1601]" dest="&lt;: &lt; [1786,1787]"/>
+  <match src=";: ; [717,718]" dest=";: ; [903,904]"/>
+  <match src="field_expression [400,410]" dest="field_expression [400,410]"/>
+  <match src="(: ( [2028,2029]" dest="(: ( [2214,2215]"/>
+  <match src=";: ; [628,629]" dest=";: ; [814,815]"/>
+  <match src="field_identifier: fs [1943,1945]" dest="field_identifier: fs [2129,2131]"/>
+  <match src="(: ( [1093,1094]" dest="(: ( [1279,1280]"/>
+  <match src="expression_statement [676,718]" dest="expression_statement [862,904]"/>
+  <match src="{: { [1381,1382]" dest="{: { [1567,1568]"/>
+  <match src="identifier: vcpu [1746,1750]" dest="identifier: vcpu [1932,1936]"/>
+  <match src="sized_type_specifier [1477,1490]" dest="sized_type_specifier [1663,1676]"/>
+  <match src="return: return [2454,2460]" dest="return: return [2640,2646]"/>
+  <match src="-&gt;: -&gt; [306,308]" dest="-&gt;: -&gt; [306,308]"/>
+  <match src="field_identifier: idt [245,248]" dest="field_identifier: idt [245,248]"/>
+  <match src="call_expression [1110,1205]" dest="call_expression [1296,1391]"/>
+  <match src="comment: /* Older userspace won't unhalt the vcpu on reset. */ [2168,2221]" dest="comment: /* Older userspace won't unhalt the vcpu on reset. */ [2354,2407]"/>
+  <match src="field_expression [2286,2304]" dest="field_expression [2472,2490]"/>
+  <match src="&amp;: &amp; [1835,1836]" dest="&amp;: &amp; [2021,2022]"/>
+  <match src=",: , [1883,1884]" dest=",: , [2069,2070]"/>
+  <match src="-&gt;: -&gt; [267,269]" dest="-&gt;: -&gt; [267,269]"/>
+  <match src="field_expression [1493,1516]" dest="field_expression [1679,1702]"/>
+  <match src="field_expression [1117,1139]" dest="field_expression [1303,1325]"/>
+  <match src="assignment_expression [1437,1530]" dest="assignment_expression [1623,1716]"/>
+  <match src=";: ; [253,254]" dest=";: ; [253,254]"/>
+  <match src="field_expression [799,809]" dest="field_expression [985,995]"/>
+  <match src=".: . [1192,1193]" dest=".: . [1378,1379]"/>
+  <match src="call_expression [1617,1656]" dest="call_expression [1803,1842]"/>
+  <match src="&amp;&amp;: &amp;&amp; [960,962]" dest="&amp;&amp;: &amp;&amp; [1146,1148]"/>
+  <match src="identifier: kvm_set_segment [2114,2129]" dest="identifier: kvm_set_segment [2300,2315]"/>
+  <match src="identifier: kvm_set_segment [2064,2079]" dest="identifier: kvm_set_segment [2250,2265]"/>
+  <match src="field_identifier: idt [216,219]" dest="field_identifier: idt [216,219]"/>
+  <match src="identifier: sregs [400,405]" dest="identifier: sregs [400,405]"/>
+  <match src="-&gt;: -&gt; [2142,2144]" dest="-&gt;: -&gt; [2328,2330]"/>
+  <match src="identifier: vcpu [649,653]" dest="identifier: vcpu [835,839]"/>
+  <match src="field_identifier: cr0 [752,755]" dest="field_identifier: cr0 [938,941]"/>
+  <match src="-&gt;: -&gt; [660,662]" dest="-&gt;: -&gt; [846,848]"/>
+  <match src=".: . [200,201]" dest=".: . [200,201]"/>
+  <match src="identifier: pending_vec [125,136]" dest="identifier: pending_vec [125,136]"/>
+  <match src="-&gt;: -&gt; [783,785]" dest="-&gt;: -&gt; [969,971]"/>
+  <match src="expression_statement [813,841]" dest="expression_statement [999,1027]"/>
+  <match src="-&gt;: -&gt; [456,458]" dest="-&gt;: -&gt; [456,458]"/>
+  <match src="=: = [328,329]" dest="=: = [328,329]"/>
+  <match src="field_expression [1266,1276]" dest="field_expression [1452,1462]"/>
+  <match src="identifier: dt [320,322]" dest="identifier: dt [320,322]"/>
+  <match src="identifier: sregs [759,764]" dest="identifier: sregs [945,950]"/>
+  <match src="-&gt;: -&gt; [1628,1630]" dest="-&gt;: -&gt; [1814,1816]"/>
+  <match src="argument_list [1745,1756]" dest="argument_list [1931,1942]"/>
+  <match src="field_expression [209,219]" dest="field_expression [209,219]"/>
+  <match src="parenthesized_expression [2356,2385]" dest="parenthesized_expression [2542,2571]"/>
+  <match src=",: , [2033,2034]" dest=",: , [2219,2220]"/>
+  <match src=".: . [2367,2368]" dest=".: . [2553,2554]"/>
+  <match src="argument_list [188,194]" dest="argument_list [188,194]"/>
+  <match src="identifier: sregs [481,486]" dest="identifier: sregs [577,582]"/>
+  <match src="identifier: sregs [2137,2142]" dest="identifier: sregs [2323,2328]"/>
+  <match src="-&gt;: -&gt; [835,837]" dest="-&gt;: -&gt; [1021,1023]"/>
+  <match src="-&gt;: -&gt; [887,889]" dest="-&gt;: -&gt; [1073,1075]"/>
+  <match src="expression_statement [979,1013]" dest="expression_statement [1165,1199]"/>
+  <match src="expression_statement [228,254]" dest="expression_statement [228,254]"/>
+  <match src="call_expression [941,959]" dest="call_expression [1127,1145]"/>
+  <match src=",: , [614,615]" dest=",: , [800,801]"/>
+  <match src="unary_expression [1075,1104]" dest="unary_expression [1261,1290]"/>
+  <match src="pointer_expression [2136,2147]" dest="pointer_expression [2322,2333]"/>
+  <match src="binary_expression [864,892]" dest="binary_expression [1050,1078]"/>
+  <match src="-&gt;: -&gt; [1941,1943]" dest="-&gt;: -&gt; [2127,2129]"/>
+  <match src="call_expression [979,1012]" dest="call_expression [1165,1198]"/>
+  <match src=".: . [443,444]" dest=".: . [443,444]"/>
+  <match src="field_identifier: arch [870,874]" dest="field_identifier: arch [1056,1060]"/>
+  <match src="identifier: kvm_x86_ops [588,599]" dest="identifier: kvm_x86_ops [774,785]"/>
+  <match src=",: , [1139,1140]" dest=",: , [1325,1326]"/>
+  <match src="): ) [378,379]" dest="): ) [378,379]"/>
+  <match src="field_expression [1303,1325]" dest="field_expression [1489,1511]"/>
+  <match src="field_identifier: kvm [1100,1103]" dest="field_identifier: kvm [1286,1289]"/>
+  <match src="if_statement [1071,1760]" dest="if_statement [1257,1946]"/>
+  <match src="field_identifier: cr3 [444,447]" dest="field_identifier: cr3 [444,447]"/>
+  <match src="binary_expression [2227,2346]" dest="binary_expression [2413,2532]"/>
+  <match src="(: ( [1465,1466]" dest="(: ( [1651,1652]"/>
+  <match src="pointer_expression [1785,1795]" dest="pointer_expression [1971,1981]"/>
+  <match src="): ) [1529,1530]" dest="): ) [1715,1716]"/>
+  <match src="field_identifier: irq_pending [1193,1204]" dest="field_identifier: irq_pending [1379,1390]"/>
+  <match src=";: ; [461,462]" dest=";: ; [461,462]"/>
+  <match src="identifier: vcpu [1117,1121]" dest="identifier: vcpu [1303,1307]"/>
+  <match src="argument_list [1669,1716]" dest="argument_list [1855,1902]"/>
+  <match src="field_identifier: decache_cr4_guest_bits [689,711]" dest="field_identifier: decache_cr4_guest_bits [875,897]"/>
+  <match src="&lt;: &lt; [1253,1254]" dest="&lt;: &lt; [1439,1440]"/>
+  <match src="): ) [1288,1289]" dest="): ) [1474,1475]"/>
+  <match src="field_expression [348,368]" dest="field_expression [348,368]"/>
+  <match src="parameter_declaration [63,86]" dest="parameter_declaration [63,86]"/>
+  <match src="identifier: sregs [1836,1841]" dest="identifier: sregs [2022,2027]"/>
+  <match src="|=: |= [861,863]" dest="|=: |= [1047,1049]"/>
+  <match src="pointer_expression [1985,1995]" dest="pointer_expression [2171,2181]"/>
+  <match src="=: = [299,300]" dest="=: = [299,300]"/>
+  <match src="argument_list [1828,1860]" dest="argument_list [2014,2046]"/>
+  <match src="identifier: vcpu [1209,1213]" dest="identifier: vcpu [1395,1399]"/>
+  <match src="call_expression [1913,1960]" dest="call_expression [2099,2146]"/>
+  <match src="declaration [118,147]" dest="declaration [118,147]"/>
+  <match src="identifier: irqchip_in_kernel [1076,1093]" dest="identifier: irqchip_in_kernel [1262,1279]"/>
+  <match src=";: ; [1249,1250]" dest=";: ; [1435,1436]"/>
+  <match src="sizeof: sizeof [1397,1403]" dest="sizeof: sizeof [1583,1589]"/>
+  <match src="call_expression [348,379]" dest="call_expression [348,379]"/>
+  <match src="argument_list [2028,2060]" dest="argument_list [2214,2246]"/>
+  <match src="(: ( [792,793]" dest="(: ( [978,979]"/>
+  <match src="identifier: vcpu [1829,1833]" dest="identifier: vcpu [2015,2019]"/>
+  <match src="identifier: sregs [301,306]" dest="identifier: sregs [301,306]"/>
+  <match src="primitive_type: int [0,3]" dest="primitive_type: int [0,3]"/>
+  <match src="field_expression [433,447]" dest="field_expression [433,447]"/>
+  <match src="identifier: vcpu [2227,2231]" dest="identifier: vcpu [2413,2417]"/>
+  <match src="-&gt;: -&gt; [1409,1411]" dest="-&gt;: -&gt; [1595,1597]"/>
+  <match src=";: ; [1289,1290]" dest=";: ; [1475,1476]"/>
+  <match src=";: ; [1530,1531]" dest=";: ; [1716,1717]"/>
+  <match src="expression_statement [198,226]" dest="expression_statement [198,226]"/>
+  <match src="field_identifier: arch [2363,2367]" dest="field_identifier: arch [2549,2553]"/>
+  <match src="&lt;&lt;: &lt;&lt; [1429,1431]" dest="&lt;&lt;: &lt;&lt; [1615,1617]"/>
+  <match src=";: ; [2462,2463]" dest=";: ; [2648,2649]"/>
+  <match src=";: ; [892,893]" dest=";: ; [1078,1079]"/>
+  <match src="argument_list [1465,1530]" dest="argument_list [1651,1716]"/>
+  <match src="=: = [828,829]" dest="=: = [1014,1015]"/>
+  <match src="identifier: dt [376,378]" dest="identifier: dt [376,378]"/>
+  <match src="argument_list [368,379]" dest="argument_list [368,379]"/>
+  <match src="number_literal: 0xf000 [2308,2314]" dest="number_literal: 0xf000 [2494,2500]"/>
+  <match src="call_expression [1863,1910]" dest="call_expression [2049,2096]"/>
+  <match src="(: ( [1587,1588]" dest="(: ( [1773,1774]"/>
+  <match src=";: ; [146,147]" dest=";: ; [146,147]"/>
+  <match src="++: ++ [1291,1293]" dest="++: ++ [1477,1479]"/>
+  <match src="identifier: vcpu [507,511]" dest="identifier: vcpu [693,697]"/>
+  <match src="&amp;: &amp; [375,376]" dest="&amp;: &amp; [375,376]"/>
+  <match src=",: , [123,124]" dest=",: , [123,124]"/>
+  <match src="field_identifier: cr0 [2368,2371]" dest="field_identifier: cr0 [2554,2557]"/>
+  <match src="identifier: max_bits [1602,1610]" dest="identifier: max_bits [1788,1796]"/>
+  <match src="field_expression [301,317]" dest="field_expression [301,317]"/>
+  <match src="field_expression [2227,2240]" dest="field_expression [2413,2426]"/>
+</matches>
+<actions>
+  <insert-tree tree="expression_statement [465,499]" parent="compound_statement [88,2465]" at="13"/>
+  <insert-node tree="if_statement [501,644]" parent="compound_statement [88,2465]" at="14"/>
+  <insert-tree tree="expression_statement [646,678]" parent="compound_statement [88,2465]" at="15"/>
+  <insert-node tree="if: if [501,503]" parent="if_statement [501,644]" at="0"/>
+  <insert-tree tree="parenthesized_expression [504,557]" parent="if_statement [501,644]" at="1"/>
+  <move-tree tree="expression_statement [464,492]" parent="if_statement [501,644]" at="2"/>
+  <insert-tree tree="else_clause [590,644]" parent="if_statement [501,644]" at="3"/>
+</actions>

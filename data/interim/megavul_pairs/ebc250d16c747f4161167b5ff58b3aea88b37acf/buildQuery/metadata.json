@@ -1,0 +1,20 @@
+{
+    "id": "ebc250d16c747f4161167b5ff58b3aea88b37acf_buildQuery_3",
+    "func_name": "buildQuery",
+    "cve_id": "CVE-2018-9493",
+    "cwe_ids": [
+        "CWE-89"
+    ],
+    "commit_hash": "ebc250d16c747f4161167b5ff58b3aea88b37acf",
+    "parent_commit_hash": "462aaeaa616e0bb1342e8ef7b472acc0cbc93deb",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/ebc250d16c747f4161167b5ff58b3aea88b37acf",
+    "file_path": "core/java/android/database/sqlite/SQLiteQueryBuilder.java",
+    "file_name": "SQLiteQueryBuilder.java",
+    "commit_date": 1532551934,
+    "commit_msg": "DO NOT MERGE. Extend SQLiteQueryBuilder for update and delete.\n\nDevelopers often accept selection clauses from untrusted code, and\nSQLiteQueryBuilder already supports a \"strict\" mode to help catch\nSQL injection attacks.  This change extends the builder to support\nupdate() and delete() calls, so that we can help secure those\nselection clauses too.\n\nBug: 111085900\nTest: atest packages/providers/DownloadProvider/tests/\nTest: atest cts/tests/app/src/android/app/cts/DownloadManagerTest.java\nTest: atest cts/tests/tests/database/src/android/database/sqlite/cts/SQLiteQueryBuilderTest.java\nChange-Id: Ib4fc8400f184755ee7e971ab5f2095186341730c\nMerged-In: Ib4fc8400f184755ee7e971ab5f2095186341730c\n(cherry picked from commit 506994268bc4fa07d8798b7737a2952f74b8fd04)\n",
+    "cvss_vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N",
+    "cvss_base_score": 2.1,
+    "cvss_base_severity": "LOW",
+    "cvss_is_v3": false
+}

@@ -1,0 +1,42 @@
+{
+  "frequency": [
+    {
+      "c": "BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "Invocation",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "delete-node_BinaryOperator_ConstructorCall",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Invocation_BinaryOperator",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "BinaryOperator",
+      "f": "0.5"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.5"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "delete-node_BinaryOperator_ConstructorCall",
+      "f": "0.5"
+    },
+    {
+      "c": "move-tree_Invocation_BinaryOperator",
+      "f": "0.5"
+    }
+  ]
+}

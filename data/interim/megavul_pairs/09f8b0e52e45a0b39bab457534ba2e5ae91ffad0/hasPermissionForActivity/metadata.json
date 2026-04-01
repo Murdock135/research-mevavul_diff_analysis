@@ -1,0 +1,20 @@
+{
+    "id": "09f8b0e52e45a0b39bab457534ba2e5ae91ffad0_hasPermissionForActivity_0",
+    "func_name": "hasPermissionForActivity",
+    "cve_id": "CVE-2023-35682",
+    "cwe_ids": [
+        "CWE-Other"
+    ],
+    "commit_hash": "09f8b0e52e45a0b39bab457534ba2e5ae91ffad0",
+    "parent_commit_hash": "4d098abb45aa38004cc5057b6dc382a148b56f01",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/packages/apps/Launcher3/+/09f8b0e52e45a0b39bab457534ba2e5ae91ffad0",
+    "file_path": "src/com/android/launcher3/util/PackageManagerHelper.java",
+    "file_name": "PackageManagerHelper.java",
+    "commit_date": 1685668364,
+    "commit_msg": "Fix permission issue in legacy shortcut\n\nWhen building legacy shortcut, Launcher calls\nPackageManager#resolveActivity to retrieve necessary permission to\nlaunch the intent.\n\nHowever, when the source app wraps an arbitrary intent within\nIntent#createChooser, the existing logic will fail because launching\nChooser doesn't require additional permission.\n\nThis CL fixes the security vulnerability by performing the permission\ncheck against the intent that is wrapped within.\n\nBug: 270152142\nTest: manual\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:c53818a16b4322a823497726ac7e7a44501b4442)\nMerged-In: If35344c08975e35085c7c2b9b814a3c457a144b0\nChange-Id: If35344c08975e35085c7c2b9b814a3c457a144b0\n",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 7.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

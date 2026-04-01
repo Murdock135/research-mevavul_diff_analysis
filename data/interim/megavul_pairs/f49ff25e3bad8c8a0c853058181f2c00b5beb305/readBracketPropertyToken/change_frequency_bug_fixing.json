@@ -1,0 +1,90 @@
+{
+  "frequency": [
+    {
+      "c": "BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "UnaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "Literal",
+      "f": "1"
+    },
+    {
+      "c": "Invocation",
+      "f": "1"
+    },
+    {
+      "c": "If",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "insert-node_If_Block",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_UnaryOperator_Block",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_BinaryOperator_LocalVariable",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Literal_BinaryOperator",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_Invocation_BinaryOperator",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "BinaryOperator",
+      "f": "0.2"
+    },
+    {
+      "c": "UnaryOperator",
+      "f": "0.2"
+    },
+    {
+      "c": "Literal",
+      "f": "0.2"
+    },
+    {
+      "c": "Invocation",
+      "f": "0.2"
+    },
+    {
+      "c": "If",
+      "f": "0.2"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "insert-node_If_Block",
+      "f": "0.2"
+    },
+    {
+      "c": "insert-node_UnaryOperator_Block",
+      "f": "0.2"
+    },
+    {
+      "c": "delete-node_BinaryOperator_LocalVariable",
+      "f": "0.2"
+    },
+    {
+      "c": "move-tree_Literal_BinaryOperator",
+      "f": "0.2"
+    },
+    {
+      "c": "move-tree_Invocation_BinaryOperator",
+      "f": "0.2"
+    }
+  ]
+}

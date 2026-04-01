@@ -1,0 +1,475 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="string_content: :%s SASL %s %s S %s %s [891,913]" dest="string_content: :%s SASL %s %s S %s %s [1061,1083]"/>
+  <match src=",: , [885,886]" dest=",: , [1055,1056]"/>
+  <match src="identifier: parv [1213,1217]" dest="identifier: parv [1383,1387]"/>
+  <match src="call_expression [159,174]" dest="call_expression [159,174]"/>
+  <match src="pointer_expression [520,544]" dest="pointer_expression [690,714]"/>
+  <match src="identifier: err_str [277,284]" dest="identifier: err_str [277,284]"/>
+  <match src=",: , [1055,1056]" dest=",: , [1225,1226]"/>
+  <match src="field_expression [521,544]" dest="field_expression [691,714]"/>
+  <match src="identifier: parv [384,388]" dest="identifier: parv [554,558]"/>
+  <match src="&quot;: &quot; [1136,1137]" dest="&quot;: &quot; [1306,1307]"/>
+  <match src=",: , [831,832]" dest=",: , [1001,1002]"/>
+  <match src="call_expression [140,155]" dest="call_expression [140,155]"/>
+  <match src="identifier: ERR_SASLALREADY [285,300]" dest="identifier: ERR_SASLALREADY [285,300]"/>
+  <match src="string_content: * [334,335]" dest="string_content: * [334,335]"/>
+  <match src="type_identifier: aClient [28,35]" dest="type_identifier: aClient [28,35]"/>
+  <match src="[: [ [1217,1218]" dest="[: [ [1387,1388]"/>
+  <match src="argument_list [189,207]" dest="argument_list [189,207]"/>
+  <match src="identifier: BadPtr [312,318]" dest="identifier: BadPtr [312,318]"/>
+  <match src="argument_list [747,844]" dest="argument_list [917,1014]"/>
+  <match src="): ) [830,831]" dest="): ) [1000,1001]"/>
+  <match src="identifier: agent_p [548,555]" dest="identifier: agent_p [718,725]"/>
+  <match src="||: || [175,177]" dest="||: || [175,177]"/>
+  <match src="identifier: sptr [319,323]" dest="identifier: sptr [319,323]"/>
+  <match src="identifier: sendto_one [407,417]" dest="identifier: sendto_one [577,587]"/>
+  <match src="field_expression [668,676]" dest="field_expression [838,846]"/>
+  <match src="expression_statement [1110,1222]" dest="expression_statement [1280,1392]"/>
+  <match src="): ) [1210,1211]" dest="): ) [1380,1381]"/>
+  <match src=",: , [1131,1132]" dest=",: , [1301,1302]"/>
+  <match src="(: ( [376,377]" dest="(: ( [546,547]"/>
+  <match src="identifier: SASL_SERVER [801,812]" dest="identifier: SASL_SERVER [971,982]"/>
+  <match src="number_literal: 0 [1130,1131]" dest="number_literal: 0 [1300,1301]"/>
+  <match src="?: ? [660,661]" dest="?: ? [830,831]"/>
+  <match src="number_literal: 0 [1012,1013]" dest="number_literal: 0 [1182,1183]"/>
+  <match src="?: ? [478,479]" dest="?: ? [648,649]"/>
+  <match src="identifier: addr [636,640]" dest="identifier: addr [806,810]"/>
+  <match src="&quot;: &quot; [783,784]" dest="&quot;: &quot; [953,954]"/>
+  <match src=",: , [888,889]" dest=",: , [1058,1059]"/>
+  <match src="identifier: sptr [650,654]" dest="identifier: sptr [820,824]"/>
+  <match src=":: : [666,667]" dest=":: : [836,837]"/>
+  <match src="(: ( [519,520]" dest="(: ( [689,690]"/>
+  <match src="field_expression [521,532]" dest="field_expression [691,702]"/>
+  <match src="]: ] [172,173]" dest="]: ] [172,173]"/>
+  <match src=",: , [422,423]" dest=",: , [592,593]"/>
+  <match src="argument_list [825,831]" dest="argument_list [995,1001]"/>
+  <match src="pointer_declarator [635,640]" dest="pointer_declarator [805,810]"/>
+  <match src="-&gt;: -&gt; [343,345]" dest="-&gt;: -&gt; [343,345]"/>
+  <match src="identifier: sptr [957,961]" dest="identifier: sptr [1127,1131]"/>
+  <match src="field_identifier: name [453,457]" dest="field_identifier: name [623,627]"/>
+  <match src=";: ; [729,730]" dest=";: ; [899,900]"/>
+  <match src="&quot;: &quot; [1018,1019]" dest="&quot;: &quot; [1188,1189]"/>
+  <match src="argument_list [713,729]" dest="argument_list [883,899]"/>
+  <match src=";: ; [363,364]" dest=";: ; [363,364]"/>
+  <match src="&quot;: &quot; [1038,1039]" dest="&quot;: &quot; [1208,1209]"/>
+  <match src="-&gt;: -&gt; [532,534]" dest="-&gt;: -&gt; [702,704]"/>
+  <match src="(: ( [607,608]" dest="(: ( [777,778]"/>
+  <match src="identifier: BadPtr [159,165]" dest="identifier: BadPtr [159,165]"/>
+  <match src="number_literal: 0 [757,758]" dest="number_literal: 0 [927,928]"/>
+  <match src="call_expression [1194,1211]" dest="call_expression [1364,1381]"/>
+  <match src="conditional_expression [312,349]" dest="conditional_expression [312,349]"/>
+  <match src="subscript_expression [384,391]" dest="subscript_expression [554,561]"/>
+  <match src="argument_list [465,477]" dest="argument_list [635,647]"/>
+  <match src="number_literal: 1 [1094,1095]" dest="number_literal: 1 [1264,1265]"/>
+  <match src=",: , [930,931]" dest=",: , [1100,1101]"/>
+  <match src=".: . [305,306]" dest=".: . [305,306]"/>
+  <match src="(: ( [318,319]" dest="(: ( [318,319]"/>
+  <match src=";: ; [980,981]" dest=";: ; [1150,1151]"/>
+  <match src="identifier: SASL_SERVER [1057,1068]" dest="identifier: SASL_SERVER [1227,1238]"/>
+  <match src="call_expression [260,350]" dest="call_expression [260,350]"/>
+  <match src="identifier: parv [964,968]" dest="identifier: parv [1134,1138]"/>
+  <match src="if: if [604,606]" dest="if: if [774,776]"/>
+  <match src="if: if [516,518]" dest="if: if [686,688]"/>
+  <match src="): ) [476,477]" dest="): ) [646,647]"/>
+  <match src="call_expression [1110,1221]" dest="call_expression [1280,1391]"/>
+  <match src="string_literal [1136,1157]" dest="string_literal [1306,1327]"/>
+  <match src="string_content: :%s SASL %s %s C %s [1137,1156]" dest="string_content: :%s SASL %s %s C %s [1307,1326]"/>
+  <match src="): ) [1220,1221]" dest="): ) [1390,1391]"/>
+  <match src="(: ( [270,271]" dest="(: ( [270,271]"/>
+  <match src="field_expression [1165,1172]" dest="field_expression [1335,1342]"/>
+  <match src="identifier: agent_p [1184,1191]" dest="identifier: agent_p [1354,1361]"/>
+  <match src=",: , [448,449]" dest=",: , [618,619]"/>
+  <match src=",: , [1013,1014]" dest=",: , [1183,1184]"/>
+  <match src="call_expression [1070,1087]" dest="call_expression [1240,1257]"/>
+  <match src="number_literal: 0 [218,219]" dest="number_literal: 0 [218,219]"/>
+  <match src="-&gt;: -&gt; [323,325]" dest="-&gt;: -&gt; [323,325]"/>
+  <match src="(: ( [417,418]" dest="(: ( [587,588]"/>
+  <match src="-&gt;: -&gt; [672,674]" dest="-&gt;: -&gt; [842,844]"/>
+  <match src="field_identifier: name [492,496]" dest="field_identifier: name [662,666]"/>
+  <match src="number_literal: 0 [754,755]" dest="number_literal: 0 [924,925]"/>
+  <match src="identifier: agent_p [608,615]" dest="identifier: agent_p [778,785]"/>
+  <match src="number_literal: 0 [887,888]" dest="number_literal: 0 [1057,1058]"/>
+  <match src="null [619,623]" dest="null [789,793]"/>
+  <match src="identifier: encode_puid [814,825]" dest="identifier: encode_puid [984,995]"/>
+  <match src=",: , [758,759]" dest=",: , [928,929]"/>
+  <match src=",: , [1157,1158]" dest=",: , [1327,1328]"/>
+  <match src="[: [ [968,969]" dest="[: [ [1138,1139]"/>
+  <match src=".: . [1050,1051]" dest=".: . [1220,1221]"/>
+  <match src="identifier: certfp [853,859]" dest="identifier: certfp [1023,1029]"/>
+  <match src="identifier: sendto_server [992,1005]" dest="identifier: sendto_server [1162,1175]"/>
+  <match src="{: { [402,403]" dest="{: { [572,573]"/>
+  <match src="field_expression [1225,1236]" dest="field_expression [1395,1406]"/>
+  <match src=",: , [882,883]" dest=",: , [1052,1053]"/>
+  <match src="expression_statement [548,601]" dest="expression_statement [718,771]"/>
+  <match src="unary_expression [123,135]" dest="unary_expression [123,135]"/>
+  <match src="argument_list [956,962]" dest="argument_list [1126,1132]"/>
+  <match src="argument_list [383,392]" dest="argument_list [553,562]"/>
+  <match src="field_expression [466,476]" dest="field_expression [636,646]"/>
+  <match src="(: ( [122,123]" dest="(: ( [122,123]"/>
+  <match src="if: if [223,225]" dest="if: if [223,225]"/>
+  <match src=";: ; [676,677]" dest=";: ; [846,847]"/>
+  <match src="): ) [496,497]" dest="): ) [666,667]"/>
+  <match src="compound_statement [626,1101]" dest="compound_statement [796,1271]"/>
+  <match src=":: : [337,338]" dest=":: : [337,338]"/>
+  <match src="(: ( [149,150]" dest="(: ( [149,150]"/>
+  <match src=".: . [452,453]" dest=".: . [622,623]"/>
+  <match src="expression_statement [992,1098]" dest="expression_statement [1162,1268]"/>
+  <match src="else: else [984,988]" dest="else: else [1154,1158]"/>
+  <match src=";: ; [350,351]" dest=";: ; [350,351]"/>
+  <match src="identifier: me [450,452]" dest="identifier: me [620,622]"/>
+  <match src="identifier: sptr [1082,1086]" dest="identifier: sptr [1252,1256]"/>
+  <match src="identifier: m_authenticate [9,23]" dest="identifier: m_authenticate [9,23]"/>
+  <match src="&quot;: &quot; [482,483]" dest="&quot;: &quot; [652,653]"/>
+  <match src=",: , [1010,1011]" dest=",: , [1180,1181]"/>
+  <match src="argument_list [1123,1221]" dest="argument_list [1293,1391]"/>
+  <match src=",: , [1211,1212]" dest=",: , [1381,1382]"/>
+  <match src="}: } [367,368]" dest="}: } [367,368]"/>
+  <match src="declaration [28,52]" dest="declaration [28,52]"/>
+  <match src="field_identifier: local [576,581]" dest="field_identifier: local [746,751]"/>
+  <match src="field_identifier: name [306,310]" dest="field_identifier: name [306,310]"/>
+  <match src="): ) [23,24]" dest="): ) [23,24]"/>
+  <match src="null [748,752]" dest="null [918,922]"/>
+  <match src=",: , [457,458]" dest=",: , [627,628]"/>
+  <match src="string_content: :%s SASL %s %s S %s [1019,1038]" dest="string_content: :%s SASL %s %s S %s [1189,1208]"/>
+  <match src="argument_list [569,600]" dest="argument_list [739,770]"/>
+  <match src=",: , [755,756]" dest=",: , [925,926]"/>
+  <match src="identifier: certfp [686,692]" dest="identifier: certfp [856,862]"/>
+  <match src="identifier: me [923,925]" dest="identifier: me [1093,1095]"/>
+  <match src="identifier: sendto_server [864,877]" dest="identifier: sendto_server [1034,1047]"/>
+  <match src="identifier: sptr [271,275]" dest="identifier: sptr [271,275]"/>
+  <match src="identifier: sptr [227,231]" dest="identifier: sptr [227,231]"/>
+  <match src="call_expression [992,1097]" dest="call_expression [1162,1267]"/>
+  <match src="): ) [173,174]" dest="): ) [173,174]"/>
+  <match src="): ) [961,962]" dest="): ) [1131,1132]"/>
+  <match src="identifier: addr [839,843]" dest="identifier: addr [1009,1013]"/>
+  <match src="identifier: certfp [973,979]" dest="identifier: certfp [1143,1149]"/>
+  <match src="field_expression [570,593]" dest="field_expression [740,763]"/>
+  <match src="number_literal: 0 [508,509]" dest="number_literal: 0 [678,679]"/>
+  <match src="call_expression [695,729]" dest="call_expression [865,899]"/>
+  <match src="number_literal: 1 [1218,1219]" dest="number_literal: 1 [1388,1389]"/>
+  <match src="(: ( [226,227]" dest="(: ( [226,227]"/>
+  <match src="string_literal [890,914]" dest="string_literal [1060,1084]"/>
+  <match src="compound_statement [402,513]" dest="compound_statement [572,683]"/>
+  <match src="NULL: NULL [47,51]" dest="NULL: NULL [47,51]"/>
+  <match src="if_statement [849,1098]" dest="if_statement [1019,1268]"/>
+  <match src="field_identifier: name [926,930]" dest="field_identifier: name [1096,1100]"/>
+  <match src="identifier: sptr [466,470]" dest="identifier: sptr [636,640]"/>
+  <match src="argument_list [1183,1192]" dest="argument_list [1353,1362]"/>
+  <match src="string_literal [720,728]" dest="string_literal [890,898]"/>
+  <match src=".: . [1167,1168]" dest=".: . [1337,1338]"/>
+  <match src="field_identifier: sasl_complete [240,253]" dest="field_identifier: sasl_complete [240,253]"/>
+  <match src="translation_unit [0,1263]" dest="translation_unit [0,1433]"/>
+  <match src="identifier: me [1165,1167]" dest="identifier: me [1335,1337]"/>
+  <match src="field_expression [450,457]" dest="field_expression [620,627]"/>
+  <match src="-&gt;: -&gt; [581,583]" dest="-&gt;: -&gt; [751,753]"/>
+  <match src="): ) [843,844]" dest="): ) [1013,1014]"/>
+  <match src="unary_expression [139,155]" dest="unary_expression [139,155]"/>
+  <match src="field_identifier: ip [674,676]" dest="field_identifier: ip [844,846]"/>
+  <match src="[: [ [1093,1094]" dest="[: [ [1263,1264]"/>
+  <match src="identifier: encode_puid [1194,1205]" dest="identifier: encode_puid [1364,1375]"/>
+  <match src="field_identifier: local [1231,1236]" dest="field_identifier: local [1401,1406]"/>
+  <match src="): ) [623,624]" dest="): ) [793,794]"/>
+  <match src="number_literal: 0 [1133,1134]" dest="number_literal: 0 [1303,1304]"/>
+  <match src="subscript_expression [1213,1220]" dest="subscript_expression [1383,1390]"/>
+  <match src="identifier: me [792,794]" dest="identifier: me [962,964]"/>
+  <match src="binary_expression [377,398]" dest="binary_expression [547,568]"/>
+  <match src="return: return [501,507]" dest="return: return [671,677]"/>
+  <match src="identifier: sendto_server [734,747]" dest="identifier: sendto_server [904,917]"/>
+  <match src="field_expression [1048,1055]" dest="field_expression [1218,1225]"/>
+  <match src="field_identifier: name [1051,1055]" dest="field_identifier: name [1221,1225]"/>
+  <match src="*: * [685,686]" dest="*: * [855,856]"/>
+  <match src="||: || [136,138]" dest="||: || [136,138]"/>
+  <match src="(: ( [284,285]" dest="(: ( [284,285]"/>
+  <match src="update_expression [1225,1248]" dest="update_expression [1395,1418]"/>
+  <match src="): ) [979,980]" dest="): ) [1149,1150]"/>
+  <match src="argument_list [649,659]" dest="argument_list [819,829]"/>
+  <match src=",: , [943,944]" dest=",: , [1113,1114]"/>
+  <match src="string_content: :%s SASL %s %s H %s %s [761,783]" dest="string_content: :%s SASL %s %s H %s %s [931,953]"/>
+  <match src="NULL: NULL [1124,1128]" dest="NULL: NULL [1294,1298]"/>
+  <match src="argument_list [149,155]" dest="argument_list [149,155]"/>
+  <match src="identifier: AGENT_SID [1174,1183]" dest="identifier: AGENT_SID [1344,1353]"/>
+  <match src="): ) [1086,1087]" dest="): ) [1256,1257]"/>
+  <match src="init_declarator [36,51]" dest="init_declarator [36,51]"/>
+  <match src="identifier: encode_puid [945,956]" dest="identifier: encode_puid [1115,1126]"/>
+  <match src="identifier: sptr [1225,1229]" dest="identifier: sptr [1395,1399]"/>
+  <match src=",: , [1172,1173]" dest=",: , [1342,1343]"/>
+  <match src="call_expression [1174,1192]" dest="call_expression [1344,1362]"/>
+  <match src="call_expression [558,600]" dest="call_expression [728,770]"/>
+  <match src="*: * [36,37]" dest="*: * [36,37]"/>
+  <match src="return: return [355,361]" dest="return: return [355,361]"/>
+  <match src="primitive_type: char [630,634]" dest="primitive_type: char [800,804]"/>
+  <match src="number_literal: 0 [1259,1260]" dest="number_literal: 0 [1429,1430]"/>
+  <match src="field_expression [923,930]" dest="field_expression [1093,1100]"/>
+  <match src=";: ; [219,220]" dest=";: ; [219,220]"/>
+  <match src="++: ++ [1246,1248]" dest="++: ++ [1416,1418]"/>
+  <match src="]: ] [1219,1220]" dest="]: ] [1389,1390]"/>
+  <match src="): ) [447,448]" dest="): ) [617,618]"/>
+  <match src="(: ( [1123,1124]" dest="(: ( [1293,1294]"/>
+  <match src="(: ( [431,432]" dest="(: ( [601,602]"/>
+  <match src="*: * [635,636]" dest="*: * [805,806]"/>
+  <match src="if_statement [516,601]" dest="if_statement [686,771]"/>
+  <match src="identifier: sptr [190,194]" dest="identifier: sptr [190,194]"/>
+  <match src="call_expression [945,962]" dest="call_expression [1115,1132]"/>
+  <match src="return_statement [355,364]" dest="return_statement [355,364]"/>
+  <match src="string_literal [480,483]" dest="string_literal [650,653]"/>
+  <match src="(: ( [852,853]" dest="(: ( [1022,1023]"/>
+  <match src="null [1006,1010]" dest="null [1176,1180]"/>
+  <match src=",: , [1128,1129]" dest=",: , [1298,1299]"/>
+  <match src="field_identifier: name [795,799]" dest="field_identifier: name [965,969]"/>
+  <match src="call_expression [459,477]" dest="call_expression [629,647]"/>
+  <match src="field_identifier: name [472,476]" dest="field_identifier: name [642,646]"/>
+  <match src="call_expression [643,659]" dest="call_expression [813,829]"/>
+  <match src="field_identifier: local [527,532]" dest="field_identifier: local [697,702]"/>
+  <match src="&quot;: &quot; [1156,1157]" dest="&quot;: &quot; [1326,1327]"/>
+  <match src="!: ! [139,140]" dest="!: ! [139,140]"/>
+  <match src="identifier: parv [166,170]" dest="identifier: parv [166,170]"/>
+  <match src="field_expression [227,253]" dest="field_expression [227,253]"/>
+  <match src="identifier: SASL_SERVER [124,135]" dest="identifier: SASL_SERVER [124,135]"/>
+  <match src="argument_list [318,330]" dest="argument_list [318,330]"/>
+  <match src=";: ; [844,845]" dest=";: ; [1014,1015]"/>
+  <match src="if_statement [119,220]" dest="if_statement [119,220]"/>
+  <match src="argument_list [1205,1211]" dest="argument_list [1375,1381]"/>
+  <match src="subscript_expression [1089,1096]" dest="subscript_expression [1259,1266]"/>
+  <match src=",: , [1192,1193]" dest=",: , [1362,1363]"/>
+  <match src=",: , [971,972]" dest=",: , [1141,1142]"/>
+  <match src="identifier: CHECKPROTO [179,189]" dest="identifier: CHECKPROTO [179,189]"/>
+  <match src="expression_statement [260,351]" dest="expression_statement [260,351]"/>
+  <match src="parenthesized_expression [376,399]" dest="parenthesized_expression [546,569]"/>
+  <match src="primitive_type: char [680,684]" dest="primitive_type: char [850,854]"/>
+  <match src="field_identifier: sasl_agent [534,544]" dest="field_identifier: sasl_agent [704,714]"/>
+  <match src=",: , [799,800]" dest=",: , [969,970]"/>
+  <match src="string_content: 0 [663,664]" dest="string_content: 0 [833,834]"/>
+  <match src="&gt;: &gt; [393,394]" dest="&gt;: &gt; [563,564]"/>
+  <match src="(: ( [956,957]" dest="(: ( [1126,1127]"/>
+  <match src="(: ( [825,826]" dest="(: ( [995,996]"/>
+  <match src="pointer_declarator [36,44]" dest="pointer_declarator [36,44]"/>
+  <match src=",: , [812,813]" dest=",: , [982,983]"/>
+  <match src="{: { [256,257]" dest="{: { [256,257]"/>
+  <match src="identifier: sptr [486,490]" dest="identifier: sptr [656,660]"/>
+  <match src=",: , [1087,1088]" dest=",: , [1257,1258]"/>
+  <match src="parenthesized_expression [852,860]" dest="parenthesized_expression [1022,1030]"/>
+  <match src="if: if [373,375]" dest="if: if [543,545]"/>
+  <match src="field_identifier: sasl_agent [583,593]" dest="field_identifier: sasl_agent [753,763]"/>
+  <match src="subscript_expression [964,971]" dest="subscript_expression [1134,1141]"/>
+  <match src=",: , [275,276]" dest=",: , [275,276]"/>
+  <match src="identifier: BadPtr [643,649]" dest="identifier: BadPtr [813,819]"/>
+  <match src="if_statement [373,513]" dest="if_statement [543,683]"/>
+  <match src="): ) [154,155]" dest="): ) [154,155]"/>
+  <match src="identifier: MyConnect [140,149]" dest="identifier: MyConnect [140,149]"/>
+  <match src="string_literal [333,336]" dest="string_literal [333,336]"/>
+  <match src="return_statement [1252,1261]" dest="return_statement [1422,1431]"/>
+  <match src="field_identifier: name [345,349]" dest="field_identifier: name [345,349]"/>
+  <match src="string_content: * [481,482]" dest="string_content: * [651,652]"/>
+  <match src="else: else [1103,1107]" dest="else: else [1273,1277]"/>
+  <match src="return_statement [501,510]" dest="return_statement [671,680]"/>
+  <match src="identifier: sptr [1206,1210]" dest="identifier: sptr [1376,1380]"/>
+  <match src="): ) [300,301]" dest="): ) [300,301]"/>
+  <match src="]: ] [970,971]" dest="]: ] [1140,1141]"/>
+  <match src="&quot;: &quot; [727,728]" dest="&quot;: &quot; [897,898]"/>
+  <match src="[: [ [170,171]" dest="[: [ [170,171]"/>
+  <match src="-&gt;: -&gt; [238,240]" dest="-&gt;: -&gt; [238,240]"/>
+  <match src="return: return [211,217]" dest="return: return [211,217]"/>
+  <match src="&quot;: &quot; [480,481]" dest="&quot;: &quot; [650,651]"/>
+  <match src="conditional_expression [643,676]" dest="conditional_expression [813,846]"/>
+  <match src="string_content: certfp [721,727]" dest="string_content: certfp [891,897]"/>
+  <match src=",: , [752,753]" dest=",: , [922,923]"/>
+  <match src="declaration [630,677]" dest="declaration [800,847]"/>
+  <match src="}: } [1100,1101]" dest="}: } [1270,1271]"/>
+  <match src="identifier: sptr [418,422]" dest="identifier: sptr [588,592]"/>
+  <match src="): ) [1191,1192]" dest="): ) [1361,1362]"/>
+  <match src="binary_expression [123,155]" dest="binary_expression [123,155]"/>
+  <match src="compound_statement [256,368]" dest="compound_statement [256,368]"/>
+  <match src=",: , [914,915]" dest=",: , [1084,1085]"/>
+  <match src="argument_list [165,174]" dest="argument_list [165,174]"/>
+  <match src="NULL: NULL [748,752]" dest="NULL: NULL [918,922]"/>
+  <match src="else_clause [984,1098]" dest="else_clause [1154,1268]"/>
+  <match src="type_identifier: CMD_FUNC [0,8]" dest="type_identifier: CMD_FUNC [0,8]"/>
+  <match src="string_literal [760,784]" dest="string_literal [930,954]"/>
+  <match src="function_definition [0,1263]" dest="function_definition [0,1433]"/>
+  <match src="NULL: NULL [1006,1010]" dest="NULL: NULL [1176,1180]"/>
+  <match src="(: ( [465,466]" dest="(: ( [635,636]"/>
+  <match src="): ) [207,208]" dest="): ) [207,208]"/>
+  <match src="(: ( [8,9]" dest="(: ( [8,9]"/>
+  <match src="&quot;: &quot; [913,914]" dest="&quot;: &quot; [1083,1084]"/>
+  <match src=";: ; [1221,1222]" dest=";: ; [1391,1392]"/>
+  <match src="field_expression [319,329]" dest="field_expression [319,329]"/>
+  <match src="field_expression [792,799]" dest="field_expression [962,969]"/>
+  <match src="identifier: sptr [150,154]" dest="identifier: sptr [150,154]"/>
+  <match src="[: [ [388,389]" dest="[: [ [558,559]"/>
+  <match src=":: : [484,485]" dest=":: : [654,655]"/>
+  <match src="(: ( [1005,1006]" dest="(: ( [1175,1176]"/>
+  <match src="&quot;: &quot; [890,891]" dest="&quot;: &quot; [1060,1061]"/>
+  <match src="&quot;: &quot; [720,721]" dest="&quot;: &quot; [890,891]"/>
+  <match src="{: { [25,26]" dest="{: { [25,26]"/>
+  <match src="(: ( [189,190]" dest="(: ( [189,190]"/>
+  <match src="}: } [512,513]" dest="}: } [682,683]"/>
+  <match src="): ) [398,399]" dest="): ) [568,569]"/>
+  <match src="number_literal: 1 [389,390]" dest="number_literal: 1 [559,560]"/>
+  <match src="NULL: NULL [878,882]" dest="NULL: NULL [1048,1052]"/>
+  <match src="compound_statement [25,1263]" dest="compound_statement [25,1433]"/>
+  <match src="expression_statement [734,845]" dest="expression_statement [904,1015]"/>
+  <match src="identifier: encode_puid [1070,1081]" dest="identifier: encode_puid [1240,1251]"/>
+  <match src="number_literal: 1 [171,172]" dest="number_literal: 1 [171,172]"/>
+  <match src="identifier: sendto_one [260,270]" dest="identifier: sendto_one [260,270]"/>
+  <match src="-&gt;: -&gt; [470,472]" dest="-&gt;: -&gt; [640,642]"/>
+  <match src="): ) [544,545]" dest="): ) [714,715]"/>
+  <match src="): ) [349,350]" dest="): ) [349,350]"/>
+  <match src=",: , [1068,1069]" dest=",: , [1238,1239]"/>
+  <match src="(: ( [713,714]" dest="(: ( [883,884]"/>
+  <match src="-&gt;: -&gt; [490,492]" dest="-&gt;: -&gt; [660,662]"/>
+  <match src="call_expression [312,330]" dest="call_expression [312,330]"/>
+  <match src="number_literal: 1 [969,970]" dest="number_literal: 1 [1139,1140]"/>
+  <match src="binary_expression [123,174]" dest="binary_expression [123,174]"/>
+  <match src="): ) [658,659]" dest="): ) [828,829]"/>
+  <match src="field_identifier: name [1168,1172]" dest="field_identifier: name [1338,1342]"/>
+  <match src="expression_statement [1225,1249]" dest="expression_statement [1395,1419]"/>
+  <match src="]: ] [390,391]" dest="]: ] [560,561]"/>
+  <match src="identifier: BadPtr [459,465]" dest="identifier: BadPtr [629,635]"/>
+  <match src="identifier: PROTO_SASL [196,206]" dest="identifier: PROTO_SASL [196,206]"/>
+  <match src=";: ; [1248,1249]" dest=";: ; [1418,1419]"/>
+  <match src="assignment_expression [548,600]" dest="assignment_expression [718,770]"/>
+  <match src=";: ; [1260,1261]" dest=";: ; [1430,1431]"/>
+  <match src="==: == [616,618]" dest="==: == [786,788]"/>
+  <match src=",: , [1134,1135]" dest=",: , [1304,1305]"/>
+  <match src=",: , [310,311]" dest=",: , [310,311]"/>
+  <match src="field_identifier: ip [656,658]" dest="field_identifier: ip [826,828]"/>
+  <match src=";: ; [600,601]" dest=";: ; [770,771]"/>
+  <match src="identifier: strlen [377,383]" dest="identifier: strlen [547,553]"/>
+  <match src="parenthesized_expression [519,545]" dest="parenthesized_expression [689,715]"/>
+  <match src="identifier: sendto_server [1110,1123]" dest="identifier: sendto_server [1280,1293]"/>
+  <match src="?: ? [331,332]" dest="?: ? [331,332]"/>
+  <match src="call_expression [424,448]" dest="call_expression [594,618]"/>
+  <match src=",: , [301,302]" dest=",: , [301,302]"/>
+  <match src=",: , [1039,1040]" dest=",: , [1209,1210]"/>
+  <match src=",: , [784,785]" dest=",: , [954,955]"/>
+  <match src="field_expression [570,581]" dest="field_expression [740,751]"/>
+  <match src="}: } [1262,1263]" dest="}: } [1432,1433]"/>
+  <match src="-&gt;: -&gt; [1229,1231]" dest="-&gt;: -&gt; [1399,1401]"/>
+  <match src="identifier: me [1048,1050]" dest="identifier: me [1218,1220]"/>
+  <match src="return_statement [211,220]" dest="return_statement [211,220]"/>
+  <match src="&quot;: &quot; [664,665]" dest="&quot;: &quot; [834,835]"/>
+  <match src="identifier: err_str [424,431]" dest="identifier: err_str [594,601]"/>
+  <match src="field_expression [486,496]" dest="field_expression [656,666]"/>
+  <match src="argument_list [877,980]" dest="argument_list [1047,1150]"/>
+  <match src="identifier: me [303,305]" dest="identifier: me [303,305]"/>
+  <match src="identifier: sptr [714,718]" dest="identifier: sptr [884,888]"/>
+  <match src="=: = [45,46]" dest="=: = [45,46]"/>
+  <match src="null [1124,1128]" dest="null [1294,1298]"/>
+  <match src="parenthesized_expression [122,208]" dest="parenthesized_expression [122,208]"/>
+  <match src="field_identifier: sasl_out [1238,1246]" dest="field_identifier: sasl_out [1408,1416]"/>
+  <match src="-&gt;: -&gt; [231,233]" dest="-&gt;: -&gt; [231,233]"/>
+  <match src="(: ( [747,748]" dest="(: ( [917,918]"/>
+  <match src="binary_expression [608,623]" dest="binary_expression [778,793]"/>
+  <match src=";: ; [509,510]" dest=";: ; [679,680]"/>
+  <match src="identifier: addr [833,837]" dest="identifier: addr [1003,1007]"/>
+  <match src="=: = [693,694]" dest="=: = [863,864]"/>
+  <match src="string_literal [662,665]" dest="string_literal [832,835]"/>
+  <match src="argument_list [270,350]" dest="argument_list [270,350]"/>
+  <match src="identifier: SASL_SERVER [932,943]" dest="identifier: SASL_SERVER [1102,1113]"/>
+  <match src="parenthesized_declarator [8,24]" dest="parenthesized_declarator [8,24]"/>
+  <match src="identifier: sptr [668,672]" dest="identifier: sptr [838,842]"/>
+  <match src="call_expression [277,301]" dest="call_expression [277,301]"/>
+  <match src="=: = [641,642]" dest="=: = [811,812]"/>
+  <match src="field_identifier: name [325,329]" dest="field_identifier: name [325,329]"/>
+  <match src="): ) [728,729]" dest="): ) [898,899]"/>
+  <match src="argument_list [1081,1087]" dest="argument_list [1251,1257]"/>
+  <match src="-&gt;: -&gt; [654,656]" dest="-&gt;: -&gt; [824,826]"/>
+  <match src="=: = [556,557]" dest="=: = [726,727]"/>
+  <match src="-&gt;: -&gt; [525,527]" dest="-&gt;: -&gt; [695,697]"/>
+  <match src="number_literal: 0 [884,885]" dest="number_literal: 0 [1054,1055]"/>
+  <match src="call_expression [814,831]" dest="call_expression [984,1001]"/>
+  <match src=",: , [593,594]" dest=",: , [763,764]"/>
+  <match src="if_statement [604,1222]" dest="if_statement [774,1392]"/>
+  <match src="&quot;: &quot; [662,663]" dest="&quot;: &quot; [832,833]"/>
+  <match src="): ) [391,392]" dest="): ) [561,562]"/>
+  <match src="binary_expression [123,207]" dest="binary_expression [123,207]"/>
+  <match src="(: ( [1205,1206]" dest="(: ( [1375,1376]"/>
+  <match src="call_expression [734,844]" dest="call_expression [904,1014]"/>
+  <match src="identifier: sptr [826,830]" dest="identifier: sptr [996,1000]"/>
+  <match src="argument_list [1005,1097]" dest="argument_list [1175,1267]"/>
+  <match src=",: , [1016,1017]" dest=",: , [1186,1187]"/>
+  <match src="identifier: sptr [521,525]" dest="identifier: sptr [691,695]"/>
+  <match src="!: ! [123,124]" dest="!: ! [123,124]"/>
+  <match src="parenthesized_expression [226,254]" dest="parenthesized_expression [226,254]"/>
+  <match src="*: * [520,521]" dest="*: * [690,691]"/>
+  <match src="): ) [1096,1097]" dest="): ) [1266,1267]"/>
+  <match src="unary_expression [178,207]" dest="unary_expression [178,207]"/>
+  <match src="&quot;: &quot; [335,336]" dest="&quot;: &quot; [335,336]"/>
+  <match src="-&gt;: -&gt; [1236,1238]" dest="-&gt;: -&gt; [1406,1408]"/>
+  <match src="identifier: sptr [570,574]" dest="identifier: sptr [740,744]"/>
+  <match src="field_expression [303,310]" dest="field_expression [303,310]"/>
+  <match src="identifier: ERR_SASLTOOLONG [432,447]" dest="identifier: ERR_SASLTOOLONG [602,617]"/>
+  <match src="): ) [253,254]" dest="): ) [253,254]"/>
+  <match src=",: , [837,838]" dest=",: , [1007,1008]"/>
+  <match src="if_statement [223,368]" dest="if_statement [223,368]"/>
+  <match src="-&gt;: -&gt; [574,576]" dest="-&gt;: -&gt; [744,746]"/>
+  <match src="expression_statement [864,981]" dest="expression_statement [1034,1151]"/>
+  <match src="field_expression [650,658]" dest="field_expression [820,828]"/>
+  <match src="init_declarator [685,729]" dest="init_declarator [855,899]"/>
+  <match src="]: ] [1095,1096]" dest="]: ] [1265,1266]"/>
+  <match src="): ) [329,330]" dest="): ) [329,330]"/>
+  <match src=".: . [925,926]" dest=".: . [1095,1096]"/>
+  <match src="NULL: NULL [595,599]" dest="NULL: NULL [765,769]"/>
+  <match src="field_identifier: local [233,238]" dest="field_identifier: local [233,238]"/>
+  <match src="number_literal: 0 [362,363]" dest="number_literal: 0 [362,363]"/>
+  <match src="||: || [156,158]" dest="||: || [156,158]"/>
+  <match src="argument_list [284,301]" dest="argument_list [284,301]"/>
+  <match src="&quot;: &quot; [760,761]" dest="&quot;: &quot; [930,931]"/>
+  <match src="if: if [849,851]" dest="if: if [1019,1021]"/>
+  <match src="comment: /* Failing to use CAP REQ for sasl is a protocol violation. */ [55,117]" dest="comment: /* Failing to use CAP REQ for sasl is a protocol violation. */ [55,117]"/>
+  <match src="argument_list [431,448]" dest="argument_list [601,618]"/>
+  <match src="field_expression [1225,1246]" dest="field_expression [1395,1416]"/>
+  <match src="(: ( [1081,1082]" dest="(: ( [1251,1252]"/>
+  <match src="(: ( [165,166]" dest="(: ( [165,166]"/>
+  <match src="(: ( [383,384]" dest="(: ( [553,554]"/>
+  <match src=";: ; [497,498]" dest=";: ; [667,668]"/>
+  <match src="&quot;: &quot; [333,334]" dest="&quot;: &quot; [333,334]"/>
+  <match src=";: ; [1097,1098]" dest=";: ; [1267,1268]"/>
+  <match src="call_expression [179,207]" dest="call_expression [179,207]"/>
+  <match src="expression_statement [407,498]" dest="expression_statement [577,668]"/>
+  <match src="(: ( [569,570]" dest="(: ( [739,740]"/>
+  <match src="identifier: parv [1089,1093]" dest="identifier: parv [1259,1263]"/>
+  <match src="number_literal: 400 [395,398]" dest="number_literal: 400 [565,568]"/>
+  <match src="): ) [206,207]" dest="): ) [206,207]"/>
+  <match src="return: return [1252,1258]" dest="return: return [1422,1428]"/>
+  <match src="!: ! [178,179]" dest="!: ! [178,179]"/>
+  <match src="field_expression [339,349]" dest="field_expression [339,349]"/>
+  <match src="): ) [599,600]" dest="): ) [769,770]"/>
+  <match src="(: ( [1183,1184]" dest="(: ( [1353,1354]"/>
+  <match src="field_expression [227,238]" dest="field_expression [227,238]"/>
+  <match src="call_expression [377,392]" dest="call_expression [547,562]"/>
+  <match src="): ) [859,860]" dest="): ) [1029,1030]"/>
+  <match src="subscript_expression [166,173]" dest="subscript_expression [166,173]"/>
+  <match src="parenthesized_expression [607,624]" dest="parenthesized_expression [777,794]"/>
+  <match src=",: , [194,195]" dest=",: , [194,195]"/>
+  <match src="else_clause [1103,1222]" dest="else_clause [1273,1392]"/>
+  <match src="NULL: NULL [619,623]" dest="NULL: NULL [789,793]"/>
+  <match src="conditional_expression [459,496]" dest="conditional_expression [629,666]"/>
+  <match src="identifier: find_client [558,569]" dest="identifier: find_client [728,739]"/>
+  <match src="null [878,882]" dest="null [1048,1052]"/>
+  <match src="{: { [626,627]" dest="{: { [796,797]"/>
+  <match src="call_expression [407,497]" dest="call_expression [577,667]"/>
+  <match src=".: . [794,795]" dest=".: . [964,965]"/>
+  <match src="null [595,599]" dest="null [765,769]"/>
+  <match src="pointer_declarator [685,692]" dest="pointer_declarator [855,862]"/>
+  <match src="number_literal: 0 [1015,1016]" dest="number_literal: 0 [1185,1186]"/>
+  <match src="init_declarator [635,676]" dest="init_declarator [805,846]"/>
+  <match src="identifier: agent_p [37,44]" dest="identifier: agent_p [37,44]"/>
+  <match src="(: ( [649,650]" dest="(: ( [819,820]"/>
+  <match src="null [47,51]" dest="null [47,51]"/>
+  <match src=",: , [962,963]" dest=",: , [1132,1133]"/>
+  <match src="if: if [119,121]" dest="if: if [119,121]"/>
+  <match src="identifier: moddata_client_get [695,713]" dest="identifier: moddata_client_get [865,883]"/>
+  <match src="identifier: sptr [339,343]" dest="identifier: sptr [339,343]"/>
+  <match src="argument_list [417,497]" dest="argument_list [587,667]"/>
+  <match src=";: ; [51,52]" dest=";: ; [51,52]"/>
+  <match src="call_expression [864,980]" dest="call_expression [1034,1150]"/>
+  <match src="string_literal [1018,1039]" dest="string_literal [1188,1209]"/>
+  <match src="declaration [680,730]" dest="declaration [850,900]"/>
+  <match src=",: , [718,719]" dest=",: , [888,889]"/>
+  <match src="(: ( [877,878]" dest="(: ( [1047,1048]"/>
+</matches>
+<actions>
+  <insert-tree tree="if_statement [372,539]" parent="compound_statement [25,1263]" at="5"/>
+</actions>

@@ -1,0 +1,20 @@
+{
+    "id": "61e9103b5725965568e46657f4781dd8f2e5b623_checkCallerIsSystemOrSameApp_0",
+    "func_name": "checkCallerIsSystemOrSameApp",
+    "cve_id": "CVE-2016-3884",
+    "cwe_ids": [
+        "CWE-284"
+    ],
+    "commit_hash": "61e9103b5725965568e46657f4781dd8f2e5b623",
+    "parent_commit_hash": "0813c5aaa9ee870a4bac375e462c296aa28ef6a6",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/61e9103b5725965568e46657f4781dd8f2e5b623",
+    "file_path": "services/core/java/com/android/server/notification/NotificationManagerService.java",
+    "file_name": "NotificationManagerService.java",
+    "commit_date": 1467204180,
+    "commit_msg": "Check uid for notification policy access.\n\nBug: 29421441\nChange-Id: Ia0a7b06112dde1c925ec3232f50bf4d90b17b5e5\n(cherry picked from commit 0cd1b789567b60b963fc7b8935e898ea0e61a617)\n",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

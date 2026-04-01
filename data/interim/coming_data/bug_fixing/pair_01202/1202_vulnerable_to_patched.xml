@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="translation_unit [3,94]" dest="translation_unit [3,27]"/>
+  <match src="call_expression [3,27]" dest="call_expression [3,27]"/>
+  <match src="): ) [26,27]" dest="): ) [26,27]"/>
+  <match src="identifier: ExtensionBookmarksTest [3,25]" dest="identifier: ExtensionBookmarksTest [3,25]"/>
+  <match src="argument_list [25,27]" dest="argument_list [25,27]"/>
+  <match src="(: ( [25,26]" dest="(: ( [25,26]"/>
+</matches>
+<actions>
+  <insert-node tree="expression_statement [3,27]" parent="translation_unit [3,94]" at="0"/>
+  <move-tree tree="call_expression [3,27]" parent="expression_statement [3,27]" at="0"/>
+  <insert-node tree="; [27,27]" parent="expression_statement [3,27]" at="1"/>
+  <delete-node tree=":: : [34,35]"/>
+  <delete-node tree="type_identifier: client_ [36,43]"/>
+  <delete-tree tree="parenthesized_declarator [43,49]"/>
+  <delete-node tree=",: , [49,50]"/>
+  <delete-tree tree="function_declarator [51,63]"/>
+  <delete-node tree=",: , [63,64]"/>
+  <delete-tree tree="function_declarator [65,76]"/>
+  <delete-node tree=",: , [76,77]"/>
+  <delete-tree tree="function_declarator [78,91]"/>
+  <delete-node tree="ERROR [3,91]"/>
+  <delete-tree tree="compound_statement [92,94]"/>
+</actions>

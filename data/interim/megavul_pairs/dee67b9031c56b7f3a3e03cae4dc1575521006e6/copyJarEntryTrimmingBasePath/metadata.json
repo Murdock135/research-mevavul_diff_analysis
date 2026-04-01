@@ -1,0 +1,20 @@
+{
+    "id": "dee67b9031c56b7f3a3e03cae4dc1575521006e6_copyJarEntryTrimmingBasePath_0",
+    "func_name": "copyJarEntryTrimmingBasePath",
+    "cve_id": "CVE-2021-31411",
+    "cwe_ids": [
+        "CWE-379"
+    ],
+    "commit_hash": "dee67b9031c56b7f3a3e03cae4dc1575521006e6",
+    "parent_commit_hash": "7e7aef75768f49510feaca9b7fb12ad0e9e758f2",
+    "repo_name": "vaadin/flow",
+    "git_url": "https://github.com/vaadin/flow/commit/dee67b9031c56b7f3a3e03cae4dc1575521006e6",
+    "file_path": "flow-server/src/main/java/com/vaadin/flow/server/frontend/JarContentsManager.java",
+    "file_name": "JarContentsManager.java",
+    "commit_date": 1618370405,
+    "commit_msg": "Compare content from stream\n\nCompare jar file content and existing\ntarget file content before writing to disk.",
+    "cvss_vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 4.6,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

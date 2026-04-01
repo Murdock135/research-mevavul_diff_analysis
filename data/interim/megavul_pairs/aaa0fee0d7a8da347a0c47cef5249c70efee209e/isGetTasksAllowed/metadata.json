@@ -1,0 +1,20 @@
+{
+    "id": "aaa0fee0d7a8da347a0c47cef5249c70efee209e_isGetTasksAllowed_1",
+    "func_name": "isGetTasksAllowed",
+    "cve_id": "CVE-2015-3833",
+    "cwe_ids": [
+        "CWE-284"
+    ],
+    "commit_hash": "aaa0fee0d7a8da347a0c47cef5249c70efee209e",
+    "parent_commit_hash": "0b98d304c467184602b4c6bce76fda0b0274bc07",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/aaa0fee0d7a8da347a0c47cef5249c70efee209e",
+    "file_path": "services/core/java/com/android/server/am/ActivityManagerService.java",
+    "file_name": "ActivityManagerService.java",
+    "commit_date": 1428361732,
+    "commit_msg": "Lockdown AM.getRunningAppProcesses API with permission.REAL_GET_TASKS\n\n* Applications must now have ...permission.REAL_GET_TASKS to\nbe able to get process information for all applications.\n* Only the process information for the calling application will be\nreturned if the app doesn't have the permission.\n* Privilages apps will temporarily be able to get process information\nfor all applications if they don't have the new permission, but have\ndeprecated ...permission.GET_TASKS.\n\nBug: 20034603\nChange-Id: I67ae9491f65d2280adb6a81593693d499714a216\n(cherry picked from commit 9dbaa54f6834e013a63f18bd51ace554de811d80)\n",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

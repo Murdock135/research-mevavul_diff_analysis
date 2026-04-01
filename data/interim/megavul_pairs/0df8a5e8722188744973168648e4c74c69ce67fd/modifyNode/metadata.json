@@ -1,0 +1,20 @@
+{
+    "id": "0df8a5e8722188744973168648e4c74c69ce67fd_modifyNode_11",
+    "func_name": "modifyNode",
+    "cve_id": "CVE-2018-25097",
+    "cwe_ids": [
+        "CWE-79"
+    ],
+    "commit_hash": "0df8a5e8722188744973168648e4c74c69ce67fd",
+    "parent_commit_hash": "be2dcd2ff34e11d0ed26baa01cd5e2ff20f092b8",
+    "repo_name": "acumos/design-studio",
+    "git_url": "https://github.com/acumos/design-studio/commit/0df8a5e8722188744973168648e4c74c69ce67fd",
+    "file_path": "ds-compositionengine/src/main/java/org/acumos/designstudio/ce/controller/SolutionController.java",
+    "file_name": "SolutionController.java",
+    "commit_date": 1542090847,
+    "commit_msg": "Senitization for CSS Vulnerability\n\nIssue-Id : ACUMOS-1650\nDescription : Senitization for CSS Vulnerability - Design Studio\n\nChange-Id: If8fd4b9b06f884219d93881f7922421870de8e3d\nSigned-off-by: Ramanaiah Pirla <RP00490596@techmahindra.com>",
+    "cvss_vector": "AV:N/AC:L/Au:S/C:N/I:P/A:N",
+    "cvss_base_score": 4.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

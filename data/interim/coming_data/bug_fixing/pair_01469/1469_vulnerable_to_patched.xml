@@ -1,0 +1,143 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="): ) [503,504]" dest="): ) [456,457]"/>
+  <match src="type_identifier: CS_WINKERNEL_MEMBLOCK [404,425]" dest="type_identifier: CS_WINKERNEL_MEMBLOCK [509,530]"/>
+  <match src="null [554,558]" dest="null [640,644]"/>
+  <match src="identifier: CS_WINKERNEL_MEMBLOCK [482,503]" dest="identifier: CS_WINKERNEL_MEMBLOCK [435,456]"/>
+  <match src="field_expression [593,604]" dest="field_expression [680,691]"/>
+  <match src="function_declarator [20,52]" dest="function_declarator [20,52]"/>
+  <match src="{: { [53,54]" dest="{: { [53,54]"/>
+  <match src="abstract_pointer_declarator [426,427]" dest="abstract_pointer_declarator [531,532]"/>
+  <match src="*: * [5,6]" dest="*: * [5,6]"/>
+  <match src="identifier: size [222,226]" dest="identifier: size [66,70]"/>
+  <match src="{: { [543,544]" dest="{: { [628,629]"/>
+  <match src="ERROR [7,19]" dest="ERROR [7,19]"/>
+  <match src="sizeof_expression [475,504]" dest="sizeof_expression [428,457]"/>
+  <match src="identifier: block [593,598]" dest="identifier: block [680,685]"/>
+  <match src="preproc_directive: #pragma [294,301]" dest="preproc_directive: #pragma [76,83]"/>
+  <match src="): ) [51,52]" dest="): ) [51,52]"/>
+  <match src="compound_statement [543,562]" dest="compound_statement [628,649]"/>
+  <match src="identifier: size [578,582]" dest="identifier: size [665,669]"/>
+  <match src="(: ( [481,482]" dest="(: ( [434,435]"/>
+  <match src="identifier: cs_winkernel_malloc [20,39]" dest="identifier: cs_winkernel_malloc [20,39]"/>
+  <match src=";: ; [227,228]" dest=";: ; [71,72]"/>
+  <match src="identifier: size [47,51]" dest="identifier: size [47,51]"/>
+  <match src="primitive_type: void [0,4]" dest="primitive_type: void [0,4]"/>
+  <match src="}: } [561,562]" dest="}: } [648,649]"/>
+  <match src="return_statement [547,559]" dest="return_statement [633,645]"/>
+  <match src="argument_list [449,528]" dest="argument_list [421,476]"/>
+  <match src="identifier: block [564,569]" dest="identifier: block [651,656]"/>
+  <match src="): ) [226,227]" dest="): ) [70,71]"/>
+  <match src="=: = [576,577]" dest="=: = [663,664]"/>
+  <match src=";: ; [558,559]" dest=";: ; [644,645]"/>
+  <match src="if: if [531,533]" dest="if: if [616,618]"/>
+  <match src="identifier: NonPagedPool [454,466]" dest="identifier: size [422,426]"/>
+  <match src="return_statement [586,605]" dest="return_statement [673,692]"/>
+  <match src="-&gt;: -&gt; [569,571]" dest="-&gt;: -&gt; [656,658]"/>
+  <match src="NULL: NULL [554,558]" dest="NULL: NULL [640,644]"/>
+  <match src="call_expression [212,227]" dest="call_expression [56,71]"/>
+  <match src="type_descriptor [404,427]" dest="type_descriptor [509,532]"/>
+  <match src="parameter_list [39,52]" dest="parameter_list [39,52]"/>
+  <match src="expression_statement [212,228]" dest="expression_statement [56,72]"/>
+  <match src="pointer_declarator [5,52]" dest="pointer_declarator [5,52]"/>
+  <match src="comment: // Disallow zero length allocation because they waste pool header space and, [56,132]" dest="comment: // A specially crafted size value can trigger the overflow. [221,280]"/>
+  <match src="(: ( [221,222]" dest="(: ( [65,66]"/>
+  <match src="unary_expression [535,541]" dest="unary_expression [620,626]"/>
+  <match src="}: } [606,607]" dest="}: } [693,694]"/>
+  <match src="if_statement [531,562]" dest="if_statement [616,649]"/>
+  <match src="assignment_expression [564,582]" dest="assignment_expression [651,669]"/>
+  <match src="(: ( [39,40]" dest="(: ( [39,40]"/>
+  <match src="*: * [394,395]" dest="*: * [205,206]"/>
+  <match src="identifier: ExAllocatePoolWithTag [428,449]" dest="identifier: RtlSizeTAdd [410,421]"/>
+  <match src="parenthesized_expression [481,504]" dest="parenthesized_expression [434,457]"/>
+  <match src="): ) [541,542]" dest="): ) [626,627]"/>
+  <match src="field_identifier: data [600,604]" dest="field_identifier: data [687,691]"/>
+  <match src="parameter_declaration [40,51]" dest="parameter_declaration [40,51]"/>
+  <match src="expression_statement [564,583]" dest="expression_statement [651,670]"/>
+  <match src="function_definition [0,607]" dest="function_definition [0,694]"/>
+  <match src="identifier: block [536,541]" dest="identifier: block [621,626]"/>
+  <match src="*: * [426,427]" dest="*: * [531,532]"/>
+  <match src="(: ( [449,450]" dest="(: ( [421,422]"/>
+  <match src="field_identifier: size [571,575]" dest="field_identifier: size [658,662]"/>
+  <match src="identifier: block [395,400]" dest="identifier: block [206,211]"/>
+  <match src="!: ! [535,536]" dest="!: ! [620,621]"/>
+  <match src="primitive_type: size_t [40,46]" dest="primitive_type: size_t [40,46]"/>
+  <match src="identifier: NT_ASSERT [212,221]" dest="identifier: NT_ASSERT [56,65]"/>
+  <match src="field_expression [564,575]" dest="field_expression [651,662]"/>
+  <match src="translation_unit [0,607]" dest="translation_unit [0,694]"/>
+  <match src="sizeof: sizeof [475,481]" dest="sizeof: sizeof [428,434]"/>
+  <match src="): ) [527,528]" dest="): ) [475,476]"/>
+  <match src="comment: // FP; a use of NonPagedPool is required for Windows 7 support [231,293]" dest="comment: // the function returns NULL. [363,392]"/>
+  <match src=",: , [466,467]" dest=",: , [426,427]"/>
+  <match src="-&gt;: -&gt; [598,600]" dest="-&gt;: -&gt; [685,687]"/>
+  <match src="preproc_arg: prefast(suppress : 30030)		// Allocating executable POOL_TYPE memory [302,370]" dest="preproc_arg: prefast(suppress : 30030)		// Allocating executable POOL_TYPE memory [84,152]"/>
+  <match src=";: ; [582,583]" dest=";: ; [669,670]"/>
+  <match src="pointer_declarator [394,400]" dest="pointer_declarator [205,211]"/>
+  <match src="compound_statement [53,607]" dest="compound_statement [53,694]"/>
+  <match src="(: ( [534,535]" dest="(: ( [619,620]"/>
+  <match src=";: ; [604,605]" dest=";: ; [691,692]"/>
+  <match src="argument_list [221,227]" dest="argument_list [65,71]"/>
+  <match src="return: return [586,592]" dest="return: return [673,679]"/>
+  <match src="call_expression [428,528]" dest="call_expression [410,476]"/>
+  <match src="parenthesized_expression [534,542]" dest="parenthesized_expression [619,627]"/>
+  <match src="comment: // in many cases, indicate a potential validation issue in the calling code. [134,210]" dest="comment: // If the sum in a value that overflows or underflows the capacity of the type, [282,361]"/>
+  <match src="identifier: CAPSTONE_API [7,19]" dest="identifier: CAPSTONE_API [7,19]"/>
+  <match src="preproc_call [294,371]" dest="preproc_call [76,153]"/>
+  <match src="return: return [547,553]" dest="return: return [633,639]"/>
+  <match src=",: , [504,505]" dest=",: , [457,458]"/>
+</matches>
+<actions>
+  <move-tree tree="expression_statement [212,228]" parent="compound_statement [53,607]" at="1"/>
+  <move-tree tree="preproc_call [294,371]" parent="compound_statement [53,607]" at="2"/>
+  <insert-tree tree="declaration [154,181]" parent="compound_statement [53,607]" at="3"/>
+  <insert-node tree="declaration [183,219]" parent="compound_statement [53,607]" at="4"/>
+  <update-node tree="comment: // Disallow zero length allocation because they waste pool header space and, [56,132]" label="// A specially crafted size value can trigger the overflow."/>
+  <update-node tree="comment: // in many cases, indicate a potential validation issue in the calling code. [134,210]" label="// If the sum in a value that overflows or underflows the capacity of the type,"/>
+  <update-node tree="comment: // FP; a use of NonPagedPool is required for Windows 7 support [231,293]" label="// the function returns NULL."/>
+  <insert-node tree="if_statement [394,498]" parent="compound_statement [53,607]" at="8"/>
+  <insert-node tree="expression_statement [500,613]" parent="compound_statement [53,607]" at="9"/>
+  <insert-node tree="type_identifier: CS_WINKERNEL_MEMBLOCK [183,204]" parent="declaration [183,219]" at="0"/>
+  <insert-node tree="init_declarator [205,218]" parent="declaration [183,219]" at="1"/>
+  <insert-node tree=";: ; [218,219]" parent="declaration [183,219]" at="2"/>
+  <insert-node tree="if: if [394,396]" parent="if_statement [394,498]" at="0"/>
+  <insert-node tree="parenthesized_expression [397,478]" parent="if_statement [394,498]" at="1"/>
+  <insert-tree tree="compound_statement [479,498]" parent="if_statement [394,498]" at="2"/>
+  <insert-node tree="assignment_expression [500,612]" parent="expression_statement [500,613]" at="0"/>
+  <insert-node tree=";: ; [612,613]" parent="expression_statement [500,613]" at="1"/>
+  <move-tree tree="pointer_declarator [394,400]" parent="init_declarator [205,218]" at="0"/>
+  <insert-node tree="=: = [212,213]" parent="init_declarator [205,218]" at="1"/>
+  <insert-tree tree="null [214,218]" parent="init_declarator [205,218]" at="2"/>
+  <insert-node tree="(: ( [397,398]" parent="parenthesized_expression [397,478]" at="0"/>
+  <insert-node tree="unary_expression [398,477]" parent="parenthesized_expression [397,478]" at="1"/>
+  <insert-node tree="): ) [477,478]" parent="parenthesized_expression [397,478]" at="2"/>
+  <insert-node tree="identifier: block [500,505]" parent="assignment_expression [500,612]" at="0"/>
+  <insert-node tree="=: = [506,507]" parent="assignment_expression [500,612]" at="1"/>
+  <insert-node tree="cast_expression [508,612]" parent="assignment_expression [500,612]" at="2"/>
+  <insert-node tree="!: ! [398,399]" parent="unary_expression [398,477]" at="0"/>
+  <insert-node tree="call_expression [399,477]" parent="unary_expression [398,477]" at="1"/>
+  <insert-node tree="(: ( [508,509]" parent="cast_expression [508,612]" at="0"/>
+  <move-tree tree="type_descriptor [404,427]" parent="cast_expression [508,612]" at="1"/>
+  <insert-node tree="): ) [532,533]" parent="cast_expression [508,612]" at="2"/>
+  <insert-tree tree="call_expression [533,612]" parent="cast_expression [508,612]" at="3"/>
+  <insert-node tree="identifier: NT_SUCCESS [399,409]" parent="call_expression [399,477]" at="0"/>
+  <insert-node tree="argument_list [409,477]" parent="call_expression [399,477]" at="1"/>
+  <insert-node tree="(: ( [409,410]" parent="argument_list [409,477]" at="0"/>
+  <move-tree tree="call_expression [428,528]" parent="argument_list [409,477]" at="1"/>
+  <insert-node tree="): ) [476,477]" parent="argument_list [409,477]" at="2"/>
+  <update-node tree="identifier: ExAllocatePoolWithTag [428,449]" label="RtlSizeTAdd"/>
+  <update-node tree="identifier: NonPagedPool [454,466]" label="size"/>
+  <move-tree tree="sizeof_expression [475,504]" parent="argument_list [449,528]" at="3"/>
+  <insert-tree tree="pointer_expression [459,475]" parent="argument_list [449,528]" at="6"/>
+  <delete-node tree="identifier: size [468,472]"/>
+  <delete-node tree="+: + [473,474]"/>
+  <delete-node tree="binary_expression [468,504]"/>
+  <delete-node tree="identifier: CS_WINKERNEL_POOL_TAG [506,527]"/>
+  <delete-node tree="type_identifier: CS_WINKERNEL_MEMBLOCK [372,393]"/>
+  <delete-node tree="=: = [401,402]"/>
+  <delete-node tree="(: ( [403,404]"/>
+  <delete-node tree="): ) [427,428]"/>
+  <delete-node tree="cast_expression [403,528]"/>
+  <delete-node tree="init_declarator [394,528]"/>
+  <delete-node tree=";: ; [528,529]"/>
+  <delete-node tree="declaration [372,529]"/>
+</actions>

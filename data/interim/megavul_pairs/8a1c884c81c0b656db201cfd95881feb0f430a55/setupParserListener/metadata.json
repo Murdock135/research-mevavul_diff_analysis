@@ -1,0 +1,20 @@
+{
+    "id": "8a1c884c81c0b656db201cfd95881feb0f430a55_setupParserListener_1",
+    "func_name": "setupParserListener",
+    "cve_id": "CVE-2023-28867",
+    "cwe_ids": [
+        "CWE-770"
+    ],
+    "commit_hash": "8a1c884c81c0b656db201cfd95881feb0f430a55",
+    "parent_commit_hash": "4c66935b22ed49b2aedf8d4cfcdc263f8f5994e5",
+    "repo_name": "graphql-java",
+    "git_url": "https://github.com/graphql-java/graphql-java/commit/8a1c884c81c0b656db201cfd95881feb0f430a55",
+    "file_path": "src/main/java/graphql/parser/Parser.java",
+    "file_name": "Parser.java",
+    "commit_date": 1678653082,
+    "commit_msg": "Preventing stack overflow exceptions via limiting the depth of the parser rules",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

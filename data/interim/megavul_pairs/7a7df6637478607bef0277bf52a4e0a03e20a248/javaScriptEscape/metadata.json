@@ -1,0 +1,20 @@
+{
+    "id": "7a7df6637478607bef0277bf52a4e0a03e20a248_javaScriptEscape_0",
+    "func_name": "javaScriptEscape",
+    "cve_id": "CVE-2013-6430",
+    "cwe_ids": [
+        "CWE-79"
+    ],
+    "commit_hash": "7a7df6637478607bef0277bf52a4e0a03e20a248",
+    "parent_commit_hash": "63bff1f068f0c749f938abacba1d38b7d0ca3cf9",
+    "repo_name": "spring-projects/spring-framework",
+    "git_url": "https://github.com/spring-projects/spring-framework/commit/7a7df6637478607bef0277bf52a4e0a03e20a248",
+    "file_path": "org.springframework.web/src/main/java/org/springframework/web/util/JavaScriptUtils.java",
+    "file_name": "JavaScriptUtils.java",
+    "commit_date": 1360899954,
+    "commit_msg": "Update JavaScriptUtils\n\nAdd escaping for <, >, and PS/LS line terminators\n\nIssue: SPR-9983",
+    "cvss_vector": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+    "cvss_base_score": 3.5,
+    "cvss_base_severity": "LOW",
+    "cvss_is_v3": false
+}

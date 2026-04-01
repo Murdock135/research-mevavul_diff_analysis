@@ -1,0 +1,20 @@
+{
+    "id": "ed3f25b7222d4cff471f2b7d22d1150348146957_setPermittedAccessibilityServices_7",
+    "func_name": "setPermittedAccessibilityServices",
+    "cve_id": "CVE-2023-21284",
+    "cwe_ids": [
+        "CWE-20"
+    ],
+    "commit_hash": "ed3f25b7222d4cff471f2b7d22d1150348146957",
+    "parent_commit_hash": "cb6282e8970f4c9db5497889699e68fb2038566e",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/ed3f25b7222d4cff471f2b7d22d1150348146957",
+    "file_path": "services/devicepolicy/java/com/android/server/devicepolicy/DevicePolicyManagerService.java",
+    "file_name": "DevicePolicyManagerService.java",
+    "commit_date": 1680707741,
+    "commit_msg": "Ensure policy has no absurdly long strings\n\nThe following APIs now enforce limits and throw IllegalArgumentException\nwhen limits are violated:\n* DPM.setTrustAgentConfiguration() limits agent packgage name,\n  component name, and strings within configuration bundle.\n* DPM.setPermittedAccessibilityServices() limits package names.\n* DPM.setPermittedInputMethods() limits package names.\n* DPM.setAccountManagementDisabled() limits account name.\n* DPM.setLockTaskPackages() limits package names.\n* DPM.setAffiliationIds() limits id.\n* DPM.transferOwnership() limits strings inside the bundle.\n\nPackage names are limited at 223, because they become directory names\nand it is a filesystem restriction, see FrameworkParsingPackageUtils.\n\nAll other strings are limited at 65535, because longer ones break binary\nXML serializer.\n\nThe following APIs silently truncate strings that are long beyond reason:\n* DPM.setShortSupportMessage() truncates message at 200.\n* DPM.setLongSupportMessage() truncates message at 20000.\n* DPM.setOrganizationName() truncates org name at 200.\n\nBug: 260729089\nTest: atest com.android.server.devicepolicy\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:5dd3e81347e3c841510094fb5effd51fc0fa995b)\nMerged-In: Idcf54e408722f164d16bf2f24a00cd1f5b626d23\nChange-Id: Idcf54e408722f164d16bf2f24a00cd1f5b626d23\n",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+    "cvss_base_score": 5.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": true
+}

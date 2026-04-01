@@ -1,0 +1,20 @@
+{
+    "id": "f59ac954625d0a4f6d34f069a2e26686a7a20aeb_buscarClienteCPF_5",
+    "func_name": "buscarClienteCPF",
+    "cve_id": "CVE-2015-10061",
+    "cwe_ids": [
+        "CWE-89"
+    ],
+    "commit_hash": "f59ac954625d0a4f6d34f069a2e26686a7a20aeb",
+    "parent_commit_hash": "511afa7c36d2b3c6a1cd46f0d804afea81632a59",
+    "repo_name": "evandro-machado/Trabalho-Web2",
+    "git_url": "https://github.com/evandro-machado/Trabalho-Web2/commit/f59ac954625d0a4f6d34f069a2e26686a7a20aeb",
+    "file_path": "src/java/br/com/magazine/dao/ClienteDAO.java",
+    "file_name": "ClienteDAO.java",
+    "commit_date": 1433877320,
+    "commit_msg": "ClienteDAO - alterados statements para utilizar o metodo setString do PreparedStatement para evitar SQL Injection\n- alterados statements para utilizar ilike ao inves de like para pesquisar sem case sensitivity\nBancoDeDados - colocado ponto e virgula apos todas as queries.",
+    "cvss_vector": "AV:A/AC:L/Au:S/C:P/I:P/A:P",
+    "cvss_base_score": 5.2,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

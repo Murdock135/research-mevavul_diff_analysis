@@ -1,0 +1,20 @@
+{
+    "id": "d83285fd2e48fb075780ee95badee6f5a15ea7f8_getSource_0",
+    "func_name": "getSource",
+    "cve_id": "CVE-2021-23463",
+    "cwe_ids": [
+        "CWE-611"
+    ],
+    "commit_hash": "d83285fd2e48fb075780ee95badee6f5a15ea7f8",
+    "parent_commit_hash": "04dc8a82219bfcb3bafb8839bb9692f8bb942af8",
+    "repo_name": "h2database",
+    "git_url": "https://github.com/h2database/h2database/commit/d83285fd2e48fb075780ee95badee6f5a15ea7f8",
+    "file_path": "h2/src/main/org/h2/jdbc/JdbcSQLXML.java",
+    "file_name": "JdbcSQLXML.java",
+    "commit_date": 1635585597,
+    "commit_msg": "fix for #3195 CQLXML XXE vulnerability",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:N/A:P",
+    "cvss_base_score": 6.4,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

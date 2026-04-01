@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="): ) [371,372]" dest="): ) [407,408]"/>
+  <match src="else: else [417,421]" dest="else: else [453,457]"/>
+  <match src="): ) [325,326]" dest="): ) [360,361]"/>
+  <match src="expression_statement [426,438]" dest="expression_statement [462,474]"/>
+  <match src="identifier: tsk [55,58]" dest="identifier: tsk [55,58]"/>
+  <match src="translation_unit [0,475]" dest="translation_unit [0,511]"/>
+  <match src="{: { [60,61]" dest="{: { [60,61]"/>
+  <match src="(: ( [395,396]" dest="(: ( [431,432]"/>
+  <match src="pointer_expression [454,468]" dest="pointer_expression [490,504]"/>
+  <match src="identifier: tm_enable [426,435]" dest="identifier: tm_enable [462,471]"/>
+  <match src="pointer_declarator [54,58]" dest="pointer_declarator [54,58]"/>
+  <match src="struct_specifier [35,53]" dest="struct_specifier [35,53]"/>
+  <match src="identifier: flush_tmregs_to_thread [12,34]" dest="identifier: flush_tmregs_to_thread [12,34]"/>
+  <match src="(: ( [362,363]" dest="(: ( [398,399]"/>
+  <match src="call_expression [426,437]" dest="call_expression [462,473]"/>
+  <match src="function_declarator [12,59]" dest="function_declarator [12,59]"/>
+  <match src="identifier: current [318,325]" dest="identifier: current [353,360]"/>
+  <match src="else_clause [417,473]" dest="else_clause [453,509]"/>
+  <match src="argument_list [362,371]" dest="argument_list [398,407]"/>
+  <match src="struct: struct [35,41]" dest="struct: struct [35,41]"/>
+  <match src="): ) [369,370]" dest="): ) [405,406]"/>
+  <match src="return_statement [330,337]" dest="return_statement [366,373]"/>
+  <match src="storage_class_specifier [0,6]" dest="storage_class_specifier [0,6]"/>
+  <match src="identifier: TM_CAUSE_SIGNAL [396,411]" dest="identifier: TM_CAUSE_SIGNAL [432,447]"/>
+  <match src="): ) [468,469]" dest="): ) [504,505]"/>
+  <match src="parenthesized_expression [455,468]" dest="parenthesized_expression [491,504]"/>
+  <match src="type_identifier: task_struct [42,53]" dest="type_identifier: task_struct [42,53]"/>
+  <match src="primitive_type: void [7,11]" dest="primitive_type: void [7,11]"/>
+  <match src="): ) [370,371]" dest="): ) [406,407]"/>
+  <match src="argument_list [435,437]" dest="argument_list [471,473]"/>
+  <match src="identifier: MSR_TM_SUSPENDED [346,362]" dest="identifier: MSR_TM_SUSPENDED [382,398]"/>
+  <match src="expression_statement [441,470]" dest="expression_statement [477,506]"/>
+  <match src="identifier: tsk [456,459]" dest="identifier: tsk [492,495]"/>
+  <match src="): ) [58,59]" dest="): ) [58,59]"/>
+  <match src="if_statement [342,473]" dest="if_statement [378,509]"/>
+  <match src="parenthesized_expression [345,372]" dest="parenthesized_expression [381,408]"/>
+  <match src="(: ( [368,369]" dest="(: ( [404,405]"/>
+  <match src="identifier: tm_reclaim_current [377,395]" dest="identifier: tm_reclaim_current [413,431]"/>
+  <match src="expression_statement [377,413]" dest="expression_statement [413,449]"/>
+  <match src="&amp;: &amp; [454,455]" dest="&amp;: &amp; [490,491]"/>
+  <match src="argument_list [395,412]" dest="argument_list [431,448]"/>
+  <match src="): ) [467,468]" dest="): ) [503,504]"/>
+  <match src="(: ( [34,35]" dest="(: ( [34,35]"/>
+  <match src="}: } [472,473]" dest="}: } [508,509]"/>
+  <match src="-&gt;: -&gt; [459,461]" dest="-&gt;: -&gt; [495,497]"/>
+  <match src="call_expression [441,469]" dest="call_expression [477,505]"/>
+  <match src="call_expression [346,371]" dest="call_expression [382,407]"/>
+  <match src="comment: 	
+	 * If task is not current, it will have been flushed already to
+	 * it's thread_struct during __switch_to().
+	 *
+	 * A reclaim flushes ALL the state or if not in TM save TM SPRs
+ 	 * in the appropriate thread structures from live.
+ 	 */ [63,303]" dest="comment: 	
+	 * If task is not current, it will have been flushed already to
+	 * it's thread_struct during __switch_to().
+	 *
+	 * A reclaim flushes ALL the state or if not in TM save TM SPRs
+ 	 * in the appropriate thread structures from live.
+ 	 */ [63,303]"/>
+  <match src="call_expression [377,412]" dest="call_expression [413,448]"/>
+  <match src="(: ( [453,454]" dest="(: ( [489,490]"/>
+  <match src="compound_statement [373,416]" dest="compound_statement [409,452]"/>
+  <match src=";: ; [437,438]" dest=";: ; [473,474]"/>
+  <match src="if_statement [307,337]" dest="if_statement [307,373]"/>
+  <match src="(: ( [455,456]" dest="(: ( [491,492]"/>
+  <match src=";: ; [412,413]" dest=";: ; [448,449]"/>
+  <match src="compound_statement [422,473]" dest="compound_statement [458,509]"/>
+  <match src="*: * [54,55]" dest="*: * [54,55]"/>
+  <match src="return: return [330,336]" dest="return: return [366,372]"/>
+  <match src="compound_statement [60,475]" dest="compound_statement [60,511]"/>
+  <match src="parameter_list [34,59]" dest="parameter_list [34,59]"/>
+  <match src="binary_expression [311,325]" dest="binary_expression [346,360]"/>
+  <match src="}: } [474,475]" dest="}: } [510,511]"/>
+  <match src="}: } [415,416]" dest="}: } [451,452]"/>
+  <match src="(: ( [435,436]" dest="(: ( [471,472]"/>
+  <match src="if: if [342,344]" dest="if: if [378,380]"/>
+  <match src="(: ( [345,346]" dest="(: ( [381,382]"/>
+  <match src="identifier: mfmsr [363,368]" dest="identifier: mfmsr [399,404]"/>
+  <match src="function_definition [0,475]" dest="function_definition [0,511]"/>
+  <match src="field_identifier: thread [461,467]" dest="field_identifier: thread [497,503]"/>
+  <match src=";: ; [336,337]" dest=";: ; [372,373]"/>
+  <match src="identifier: tm_save_sprs [441,453]" dest="identifier: tm_save_sprs [477,489]"/>
+  <match src="): ) [411,412]" dest="): ) [447,448]"/>
+  <match src="field_expression [456,467]" dest="field_expression [492,503]"/>
+  <match src="call_expression [363,370]" dest="call_expression [399,406]"/>
+  <match src="argument_list [368,370]" dest="argument_list [404,406]"/>
+  <match src="parenthesized_expression [310,326]" dest="parenthesized_expression [345,361]"/>
+  <match src="(: ( [310,311]" dest="(: ( [345,346]"/>
+  <match src="static: static [0,6]" dest="static: static [0,6]"/>
+  <match src="): ) [436,437]" dest="): ) [472,473]"/>
+  <match src=";: ; [469,470]" dest=";: ; [505,506]"/>
+  <match src="identifier: tsk [311,314]" dest="identifier: tsk [346,349]"/>
+  <match src="argument_list [453,469]" dest="argument_list [489,505]"/>
+  <match src="parameter_declaration [35,58]" dest="parameter_declaration [35,58]"/>
+  <match src="if: if [307,309]" dest="if: if [307,309]"/>
+  <match src="!=: != [315,317]" dest="!=: != [350,352]"/>
+  <match src="{: { [373,374]" dest="{: { [409,410]"/>
+  <match src="{: { [422,423]" dest="{: { [458,459]"/>
+</matches>
+<actions>
+  <insert-node tree="parenthesized_expression [310,362]" parent="if_statement [307,337]" at="1"/>
+  <insert-node tree="(: ( [310,311]" parent="parenthesized_expression [310,362]" at="0"/>
+  <insert-node tree="binary_expression [311,361]" parent="parenthesized_expression [310,362]" at="1"/>
+  <insert-node tree="): ) [361,362]" parent="parenthesized_expression [310,362]" at="2"/>
+  <insert-tree tree="parenthesized_expression [311,341]" parent="binary_expression [311,361]" at="0"/>
+  <insert-node tree="||: || [342,344]" parent="binary_expression [311,361]" at="1"/>
+  <move-tree tree="parenthesized_expression [310,326]" parent="binary_expression [311,361]" at="2"/>
+</actions>

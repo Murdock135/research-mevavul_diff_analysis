@@ -1,0 +1,20 @@
+{
+    "id": "325d67cc80b73f049a5d0cea4917c1f2709a8d86_copyDir_0",
+    "func_name": "copyDir",
+    "cve_id": "CVE-2021-20218",
+    "cwe_ids": [
+        "CWE-22"
+    ],
+    "commit_hash": "325d67cc80b73f049a5d0cea4917c1f2709a8d86",
+    "parent_commit_hash": "613fc1c16fb26e5bd9a49339ae88dfb92b8c77e6",
+    "repo_name": "fabric8io/kubernetes-client",
+    "git_url": "https://github.com/fabric8io/kubernetes-client/commit/325d67cc80b73f049a5d0cea4917c1f2709a8d86",
+    "file_path": "kubernetes-client/src/main/java/io/fabric8/kubernetes/client/dsl/internal/core/v1/PodOperationsImpl.java",
+    "file_name": "PodOperationsImpl.java",
+    "commit_date": 1612334351,
+    "commit_msg": "fix: CVE-2021-20218 vulnerable to a path traversal",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:N/I:P/A:P",
+    "cvss_base_score": 5.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

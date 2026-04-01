@@ -1,0 +1,20 @@
+{
+    "id": "9ea802b5456a36f1115549b645b65c791eff3c2c_setReaderMode_0",
+    "func_name": "setReaderMode",
+    "cve_id": "CVE-2016-3761",
+    "cwe_ids": [
+        "CWE-200"
+    ],
+    "commit_hash": "9ea802b5456a36f1115549b645b65c791eff3c2c",
+    "parent_commit_hash": "8d04aeed70e2b58b1e039875f7f3ef3594e0620f",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/packages/apps/Nfc/+/9ea802b5456a36f1115549b645b65c791eff3c2c",
+    "file_path": "src/com/android/nfc/NfcService.java",
+    "file_name": "NfcService.java",
+    "commit_date": 1463987637,
+    "commit_msg": "Verify setForegroundDispatch caller is in foreground.\n\nBug: 28300969\nChange-Id: Icadfe70cd06f921badd266e7a4efbae15a8c206a\n",
+    "cvss_vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N",
+    "cvss_base_score": 2.1,
+    "cvss_base_severity": "LOW",
+    "cvss_is_v3": false
+}

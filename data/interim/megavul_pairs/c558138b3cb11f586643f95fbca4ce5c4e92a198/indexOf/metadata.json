@@ -1,0 +1,20 @@
+{
+    "id": "c558138b3cb11f586643f95fbca4ce5c4e92a198_indexOf_0",
+    "func_name": "indexOf",
+    "cve_id": "CVE-2021-31684",
+    "cwe_ids": [
+        "CWE-787"
+    ],
+    "commit_hash": "c558138b3cb11f586643f95fbca4ce5c4e92a198",
+    "parent_commit_hash": "4e6596fca7ffb7d9008684f3d0de179c733df158",
+    "repo_name": "netplex/json-smart-v1",
+    "git_url": "https://github.com/netplex/json-smart-v1/commit/c558138b3cb11f586643f95fbca4ce5c4e92a198",
+    "file_path": "json-smart/src/main/java/net/minidev/json/parser/JSONParserByteArray.java",
+    "file_name": "JSONParserByteArray.java",
+    "commit_date": 1618513489,
+    "commit_msg": "Fix out of bound exception",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

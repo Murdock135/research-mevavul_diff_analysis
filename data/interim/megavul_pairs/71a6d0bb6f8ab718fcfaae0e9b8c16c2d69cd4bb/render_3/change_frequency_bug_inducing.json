@@ -1,0 +1,42 @@
+{
+  "frequency": [
+    {
+      "c": "FieldRead",
+      "f": "1"
+    },
+    {
+      "c": "Literal",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "insert-node_Literal_Return",
+      "f": "1"
+    },
+    {
+      "c": "delete-node_FieldRead_Return",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "FieldRead",
+      "f": "0.5"
+    },
+    {
+      "c": "Literal",
+      "f": "0.5"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "insert-node_Literal_Return",
+      "f": "0.5"
+    },
+    {
+      "c": "delete-node_FieldRead_Return",
+      "f": "0.5"
+    }
+  ]
+}

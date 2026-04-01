@@ -1,0 +1,58 @@
+{
+  "frequency": [
+    {
+      "c": "VariableRead",
+      "f": "1"
+    },
+    {
+      "c": "Literal",
+      "f": "1"
+    },
+    {
+      "c": "ConstructorCall",
+      "f": "1"
+    }
+  ],
+  "frequencyParent": [
+    {
+      "c": "delete-node_ConstructorCall_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "insert-node_Literal_Invocation",
+      "f": "1"
+    },
+    {
+      "c": "move-tree_VariableRead_ConstructorCall",
+      "f": "1"
+    }
+  ],
+  "probability": [
+    {
+      "c": "VariableRead",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "Literal",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "ConstructorCall",
+      "f": "0.3333333333333333"
+    }
+  ],
+  "probabilityParent": [
+    {
+      "c": "delete-node_ConstructorCall_Invocation",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "insert-node_Literal_Invocation",
+      "f": "0.3333333333333333"
+    },
+    {
+      "c": "move-tree_VariableRead_ConstructorCall",
+      "f": "0.3333333333333333"
+    }
+  ]
+}

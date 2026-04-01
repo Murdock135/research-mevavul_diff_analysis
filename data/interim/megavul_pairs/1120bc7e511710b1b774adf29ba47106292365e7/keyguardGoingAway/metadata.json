@@ -1,0 +1,20 @@
+{
+    "id": "1120bc7e511710b1b774adf29ba47106292365e7_keyguardGoingAway_0",
+    "func_name": "keyguardGoingAway",
+    "cve_id": "CVE-2023-40094",
+    "cwe_ids": [
+        "CWE-862"
+    ],
+    "commit_hash": "1120bc7e511710b1b774adf29ba47106292365e7",
+    "parent_commit_hash": "d21ffbe8a2eeb2a5e6da7efbb1a0430ba6b022e0",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/1120bc7e511710b1b774adf29ba47106292365e7",
+    "file_path": "services/core/java/com/android/server/wm/ActivityTaskManagerService.java",
+    "file_name": "ActivityTaskManagerService.java",
+    "commit_date": 1690816234,
+    "commit_msg": "Require permission to unlock keyguard\n\nBug: 288896339\nTest: Manual, verify that the app which can be found on the bug can no longer call\nkeyguardGoingAway successfully\n\n\nRequire permission to unlock keyguard\n\nBug: 288896339\nTest: Manual, verify that the app which can be found on the bug can no longer call\nkeyguardGoingAway successfully\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:bd2aa5d309c5bf8e73161975bd5aba7945b25e84)\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:d1930b7eacc7b9094c6c31b9df8b5f5ca704b942)\n(cherry picked from https://googleplex-android-review.googlesource.com/q/commit:41bc7c0042f1dd004179f32376f72a8811d83c6e)\nMerged-In: I7ba7e56f954c8e6f1f734311f735215918975bc6\nChange-Id: I7ba7e56f954c8e6f1f734311f735215918975bc6\n",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_base_score": 7.8,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

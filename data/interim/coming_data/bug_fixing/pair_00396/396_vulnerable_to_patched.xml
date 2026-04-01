@@ -1,0 +1,171 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="number_literal: 1 [164,165]" dest="number_literal: 1 [258,259]"/>
+  <match src="identifier: EINVAL [186,192]" dest="identifier: EINVAL [280,286]"/>
+  <match src="parameter_list [19,41]" dest="parameter_list [19,41]"/>
+  <match src=";: ; [479,480]" dest=";: ; [573,574]"/>
+  <match src="subscript_expression [217,246]" dest="subscript_expression [311,340]"/>
+  <match src="expression_statement [179,193]" dest="expression_statement [273,287]"/>
+  <match src="): ) [128,129]" dest="): ) [128,129]"/>
+  <match src=";: ; [211,212]" dest=";: ; [305,306]"/>
+  <match src="identifier: mutex_unlock [444,456]" dest="identifier: mutex_unlock [538,550]"/>
+  <match src="field_expression [408,416]" dest="field_expression [502,510]"/>
+  <match src="identifier: ncontrollers [256,268]" dest="identifier: ncontrollers [350,362]"/>
+  <match src="identifier: KERN_NOTICE [341,352]" dest="identifier: KERN_NOTICE [435,446]"/>
+  <match src="[: [ [152,153]" dest="[: [ [246,247]"/>
+  <match src="assignment_expression [217,253]" dest="assignment_expression [311,347]"/>
+  <match src="-: - [185,186]" dest="-: - [279,280]"/>
+  <match src="identifier: capi_controller [137,152]" dest="identifier: capi_controller [231,246]"/>
+  <match src="&quot;: &quot; [397,398]" dest="&quot;: &quot; [491,492]"/>
+  <match src="field_identifier: name [423,427]" dest="field_identifier: name [517,521]"/>
+  <match src="(: ( [277,278]" dest="(: ( [371,372]"/>
+  <match src=";: ; [270,271]" dest=";: ; [364,365]"/>
+  <match src="argument_list [70,93]" dest="argument_list [70,93]"/>
+  <match src="identifier: capi_controller_lock [458,478]" dest="identifier: capi_controller_lock [552,572]"/>
+  <match src=",: , [398,399]" dest=",: , [492,493]"/>
+  <match src="[: [ [232,233]" dest="[: [ [326,327]"/>
+  <match src="subscript_expression [137,166]" dest="subscript_expression [231,260]"/>
+  <match src=";: ; [56,57]" dest=";: ; [56,57]"/>
+  <match src="parenthesized_expression [136,174]" dest="parenthesized_expression [230,268]"/>
+  <match src="-&gt;: -&gt; [156,158]" dest="-&gt;: -&gt; [250,252]"/>
+  <match src="compound_statement [175,215]" dest="compound_statement [269,309]"/>
+  <match src="update_expression [256,270]" dest="update_expression [350,364]"/>
+  <match src="identifier: ctr [170,173]" dest="identifier: ctr [264,267]"/>
+  <match src="parenthesized_expression [277,291]" dest="parenthesized_expression [371,385]"/>
+  <match src="pointer_expression [457,478]" dest="pointer_expression [551,572]"/>
+  <match src="{: { [175,176]" dest="{: { [269,270]"/>
+  <match src="identifier: err [490,493]" dest="identifier: err [584,587]"/>
+  <match src="(: ( [340,341]" dest="(: ( [434,435]"/>
+  <match src="): ) [92,93]" dest="): ) [92,93]"/>
+  <match src="identifier: detach_capi_ctr [4,19]" dest="identifier: detach_capi_ctr [4,19]"/>
+  <match src="expression_statement [444,480]" dest="expression_statement [538,574]"/>
+  <match src="call_expression [294,330]" dest="call_expression [388,424]"/>
+  <match src="function_declarator [4,41]" dest="function_declarator [4,41]"/>
+  <match src=";: ; [129,130]" dest=";: ; [129,130]"/>
+  <match src="]: ] [165,166]" dest="]: ] [259,260]"/>
+  <match src="identifier: ctr [408,411]" dest="identifier: ctr [502,505]"/>
+  <match src="identifier: ctr_down [97,105]" dest="identifier: ctr_down [97,105]"/>
+  <match src="-&gt;: -&gt; [281,283]" dest="-&gt;: -&gt; [375,377]"/>
+  <match src="(: ( [311,312]" dest="(: ( [405,406]"/>
+  <match src="}: } [495,496]" dest="}: } [589,590]"/>
+  <match src="): ) [478,479]" dest="): ) [572,573]"/>
+  <match src="number_literal: 1 [244,245]" dest="number_literal: 1 [338,339]"/>
+  <match src="expression_statement [217,254]" dest="expression_statement [311,348]"/>
+  <match src="function_definition [0,496]" dest="function_definition [0,590]"/>
+  <match src="null [325,329]" dest="null [419,423]"/>
+  <match src="(: ( [136,137]" dest="(: ( [230,231]"/>
+  <match src="field_expression [153,161]" dest="field_expression [247,255]"/>
+  <match src="field_identifier: cnr [238,241]" dest="field_identifier: cnr [332,335]"/>
+  <match src="NULL: NULL [249,253]" dest="NULL: NULL [343,347]"/>
+  <match src="identifier: CAPI_CTR_DETACHED [111,128]" dest="identifier: CAPI_CTR_DETACHED [111,128]"/>
+  <match src="if_statement [133,215]" dest="if_statement [227,309]"/>
+  <match src=":: : [441,442]" dest=":: : [535,536]"/>
+  <match src="): ) [427,428]" dest="): ) [521,522]"/>
+  <match src="call_expression [60,93]" dest="call_expression [60,93]"/>
+  <match src="identifier: ctr [153,156]" dest="identifier: ctr [247,250]"/>
+  <match src="translation_unit [0,496]" dest="translation_unit [0,590]"/>
+  <match src="argument_list [456,479]" dest="argument_list [550,573]"/>
+  <match src=";: ; [330,331]" dest=";: ; [424,425]"/>
+  <match src="init_declarator [49,56]" dest="init_declarator [49,56]"/>
+  <match src="expression_statement [60,94]" dest="expression_statement [60,94]"/>
+  <match src="(: ( [19,20]" dest="(: ( [19,20]"/>
+  <match src="identifier: ctr [278,281]" dest="identifier: ctr [372,375]"/>
+  <match src=";: ; [428,429]" dest=";: ; [522,523]"/>
+  <match src="compound_statement [42,496]" dest="compound_statement [42,590]"/>
+  <match src="string_content: kcapi: controller [%03d]: %s unregistered [354,395]" dest="string_content: kcapi: controller [%03d]: %s unregistered [448,489]"/>
+  <match src="field_expression [312,323]" dest="field_expression [406,417]"/>
+  <match src="!=: != [167,169]" dest="!=: != [261,263]"/>
+  <match src="expression_statement [97,130]" dest="expression_statement [97,130]"/>
+  <match src="goto_statement [196,212]" dest="goto_statement [290,306]"/>
+  <match src="]: ] [245,246]" dest="]: ] [339,340]"/>
+  <match src="field_identifier: procfn [317,323]" dest="field_identifier: procfn [411,417]"/>
+  <match src="goto: goto [196,200]" dest="goto: goto [290,294]"/>
+  <match src="concatenated_string [341,398]" dest="concatenated_string [435,492]"/>
+  <match src="-&gt;: -&gt; [411,413]" dest="-&gt;: -&gt; [505,507]"/>
+  <match src=";: ; [93,94]" dest=";: ; [93,94]"/>
+  <match src="identifier: ctr [106,109]" dest="identifier: ctr [106,109]"/>
+  <match src="number_literal: 0 [55,56]" dest="number_literal: 0 [55,56]"/>
+  <match src="return_statement [483,494]" dest="return_statement [577,588]"/>
+  <match src="argument_list [340,428]" dest="argument_list [434,522]"/>
+  <match src="identifier: ctr [418,421]" dest="identifier: ctr [512,515]"/>
+  <match src="identifier: capi_controller [217,232]" dest="identifier: capi_controller [311,326]"/>
+  <match src="{: { [42,43]" dest="{: { [42,43]"/>
+  <match src="identifier: capi_controller_lock [72,92]" dest="identifier: capi_controller_lock [72,92]"/>
+  <match src="primitive_type: int [0,3]" dest="primitive_type: int [0,3]"/>
+  <match src="escape_sequence: \n [395,397]" dest="escape_sequence: \n [489,491]"/>
+  <match src="struct: struct [20,26]" dest="struct: struct [20,26]"/>
+  <match src="&amp;: &amp; [457,458]" dest="&amp;: &amp; [551,552]"/>
+  <match src="statement_identifier: unlock_out [201,211]" dest="statement_identifier: unlock_out [295,305]"/>
+  <match src="): ) [290,291]" dest="): ) [384,385]"/>
+  <match src="(: ( [70,71]" dest="(: ( [70,71]"/>
+  <match src=";: ; [493,494]" dest=";: ; [587,588]"/>
+  <match src="labeled_statement [431,480]" dest="labeled_statement [525,574]"/>
+  <match src="field_identifier: cnr [158,161]" dest="field_identifier: cnr [252,255]"/>
+  <match src="if: if [274,276]" dest="if: if [368,370]"/>
+  <match src="identifier: ctr [233,236]" dest="identifier: ctr [327,330]"/>
+  <match src="field_expression [278,290]" dest="field_expression [372,384]"/>
+  <match src="--: -- [268,270]" dest="--: -- [362,364]"/>
+  <match src="assignment_expression [179,192]" dest="assignment_expression [273,286]"/>
+  <match src="-&gt;: -&gt; [421,423]" dest="-&gt;: -&gt; [515,517]"/>
+  <match src="if_statement [274,331]" dest="if_statement [368,425]"/>
+  <match src="-&gt;: -&gt; [236,238]" dest="-&gt;: -&gt; [330,332]"/>
+  <match src="call_expression [334,428]" dest="call_expression [428,522]"/>
+  <match src="statement_identifier: unlock_out [431,441]" dest="statement_identifier: unlock_out [525,535]"/>
+  <match src="-: - [162,163]" dest="-: - [256,257]"/>
+  <match src="}: } [214,215]" dest="}: } [308,309]"/>
+  <match src="field_identifier: cnr [413,416]" dest="field_identifier: cnr [507,510]"/>
+  <match src="parameter_declaration [20,40]" dest="parameter_declaration [20,40]"/>
+  <match src="struct_specifier [20,35]" dest="struct_specifier [20,35]"/>
+  <match src="null [249,253]" dest="null [343,347]"/>
+  <match src="&quot;: &quot; [353,354]" dest="&quot;: &quot; [447,448]"/>
+  <match src="argument_list [105,129]" dest="argument_list [105,129]"/>
+  <match src="*: * [36,37]" dest="*: * [36,37]"/>
+  <match src="): ) [40,41]" dest="): ) [40,41]"/>
+  <match src="): ) [329,330]" dest="): ) [423,424]"/>
+  <match src="binary_expression [137,173]" dest="binary_expression [231,267]"/>
+  <match src="call_expression [444,479]" dest="call_expression [538,573]"/>
+  <match src="argument_list [311,330]" dest="argument_list [405,424]"/>
+  <match src="binary_expression [233,245]" dest="binary_expression [327,339]"/>
+  <match src="=: = [53,54]" dest="=: = [53,54]"/>
+  <match src="): ) [173,174]" dest="): ) [267,268]"/>
+  <match src="pointer_expression [71,92]" dest="pointer_expression [71,92]"/>
+  <match src="primitive_type: int [45,48]" dest="primitive_type: int [45,48]"/>
+  <match src="return: return [483,489]" dest="return: return [577,583]"/>
+  <match src="NULL: NULL [325,329]" dest="NULL: NULL [419,423]"/>
+  <match src="pointer_declarator [36,40]" dest="pointer_declarator [36,40]"/>
+  <match src="call_expression [97,129]" dest="call_expression [97,129]"/>
+  <match src="expression_statement [294,331]" dest="expression_statement [388,425]"/>
+  <match src=",: , [323,324]" dest=",: , [417,418]"/>
+  <match src=",: , [416,417]" dest=",: , [510,511]"/>
+  <match src=",: , [109,110]" dest=",: , [109,110]"/>
+  <match src="identifier: err [49,52]" dest="identifier: err [49,52]"/>
+  <match src="(: ( [456,457]" dest="(: ( [550,551]"/>
+  <match src="identifier: ctr [37,40]" dest="identifier: ctr [37,40]"/>
+  <match src="identifier: ctr [312,315]" dest="identifier: ctr [406,409]"/>
+  <match src="=: = [183,184]" dest="=: = [277,278]"/>
+  <match src=";: ; [192,193]" dest=";: ; [286,287]"/>
+  <match src="(: ( [105,106]" dest="(: ( [105,106]"/>
+  <match src="string_literal [353,398]" dest="string_literal [447,492]"/>
+  <match src=";: ; [253,254]" dest=";: ; [347,348]"/>
+  <match src="unary_expression [185,192]" dest="unary_expression [279,286]"/>
+  <match src="if: if [133,135]" dest="if: if [227,229]"/>
+  <match src="field_identifier: procent [283,290]" dest="field_identifier: procent [377,384]"/>
+  <match src="-&gt;: -&gt; [315,317]" dest="-&gt;: -&gt; [409,411]"/>
+  <match src="identifier: mutex_lock [60,70]" dest="identifier: mutex_lock [60,70]"/>
+  <match src="identifier: err [179,182]" dest="identifier: err [273,276]"/>
+  <match src="expression_statement [256,271]" dest="expression_statement [350,365]"/>
+  <match src="binary_expression [153,165]" dest="binary_expression [247,259]"/>
+  <match src="field_expression [233,241]" dest="field_expression [327,335]"/>
+  <match src="=: = [247,248]" dest="=: = [341,342]"/>
+  <match src="declaration [45,57]" dest="declaration [45,57]"/>
+  <match src="identifier: printk [334,340]" dest="identifier: printk [428,434]"/>
+  <match src="field_expression [418,427]" dest="field_expression [512,521]"/>
+  <match src="identifier: remove_proc_entry [294,311]" dest="identifier: remove_proc_entry [388,405]"/>
+  <match src="-: - [242,243]" dest="-: - [336,337]"/>
+  <match src="expression_statement [334,429]" dest="expression_statement [428,523]"/>
+  <match src="&amp;: &amp; [71,72]" dest="&amp;: &amp; [71,72]"/>
+  <match src="type_identifier: capi_ctr [27,35]" dest="type_identifier: capi_ctr [27,35]"/>
+</matches>
+<actions>
+  <insert-tree tree="if_statement [133,224]" parent="compound_statement [42,496]" at="4"/>
+</actions>

@@ -1,0 +1,12 @@
+class lookupStreamClass {
+static ObjectStreamClass lookupStreamClass(Class<?> cl) {
+        WeakHashMap<Class<?>, ObjectStreamClass> tlc = getCache();
+        ObjectStreamClass cachedValue = tlc.get(cl);
+        if (cachedValue == null) {
+            cachedValue = createClassDesc(cl);
+            tlc.put(cl, cachedValue);
+        }
+        return cachedValue;
+
+    }
+}

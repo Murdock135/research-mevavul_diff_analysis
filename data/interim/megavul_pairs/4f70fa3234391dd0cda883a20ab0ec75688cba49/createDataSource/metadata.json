@@ -1,0 +1,20 @@
+{
+    "id": "4f70fa3234391dd0cda883a20ab0ec75688cba49_createDataSource_0",
+    "func_name": "createDataSource",
+    "cve_id": "CVE-2022-24818",
+    "cwe_ids": [
+        "CWE-917"
+    ],
+    "commit_hash": "4f70fa3234391dd0cda883a20ab0ec75688cba49",
+    "parent_commit_hash": "8483f1f4cdee174232f0c85393482112ea9f558d",
+    "repo_name": "geotools",
+    "git_url": "https://github.com/geotools/geotools/commit/4f70fa3234391dd0cda883a20ab0ec75688cba49",
+    "file_path": "modules/library/jdbc/src/main/java/org/geotools/jdbc/JDBCJNDIDataStoreFactory.java",
+    "file_name": "JDBCJNDIDataStoreFactory.java",
+    "commit_date": 1649218460,
+    "commit_msg": "[GEOT-7115] Streamline JNDI lookups",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

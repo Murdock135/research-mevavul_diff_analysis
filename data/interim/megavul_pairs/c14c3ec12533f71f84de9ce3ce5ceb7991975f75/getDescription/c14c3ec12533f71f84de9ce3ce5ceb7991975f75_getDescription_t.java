@@ -1,0 +1,13 @@
+class getDescription {
+@Nullable
+	protected String getDescription(InstanceEvent event, Instance instance) {
+		Map<String, Object> root = new HashMap<>();
+		root.put("event", event);
+		root.put("instance", instance);
+		root.put("lastStatus", getLastStatus(event.getInstance()));
+		SimpleEvaluationContext context = SimpleEvaluationContext
+				.forPropertyAccessors(DataBindingPropertyAccessor.forReadOnlyAccess(), new MapAccessor())
+				.withRootObject(root).build();
+		return description.getValue(context, String.class);
+	}
+}

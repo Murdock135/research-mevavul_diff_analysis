@@ -1,0 +1,20 @@
+{
+    "id": "8238ab41d0350fb915797c89d46777b4496b74fd_createContextual_1",
+    "func_name": "createContextual",
+    "cve_id": "CVE-2020-36518",
+    "cwe_ids": [
+        "CWE-787"
+    ],
+    "commit_hash": "8238ab41d0350fb915797c89d46777b4496b74fd",
+    "parent_commit_hash": "f0af53d085eb2aa9f7f6199846cc526068e09977",
+    "repo_name": "FasterXML/jackson-databind",
+    "git_url": "https://github.com/FasterXML/jackson-databind/commit/8238ab41d0350fb915797c89d46777b4496b74fd",
+    "file_path": "src/main/java/com/fasterxml/jackson/databind/deser/std/UntypedObjectDeserializer.java",
+    "file_name": "UntypedObjectDeserializer.java",
+    "commit_date": 1654005825,
+    "commit_msg": "Fix #3473 (re-implementation of #2816 for 2.14)",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

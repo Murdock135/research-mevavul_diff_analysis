@@ -1,0 +1,357 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="goto_statement [1444,1453]" dest="goto_statement [1444,1453]"/>
+  <match src="statement_identifier: err [1449,1452]" dest="statement_identifier: err [1449,1452]"/>
+  <match src="!: ! [1681,1682]" dest="!: ! [1709,1710]"/>
+  <match src="struct_specifier [155,176]" dest="struct_specifier [155,176]"/>
+  <match src="identifier: sink [1474,1478]" dest="identifier: sink [1474,1478]"/>
+  <match src="struct: struct [123,129]" dest="struct: struct [123,129]"/>
+  <match src="pointer_declarator [177,188]" dest="pointer_declarator [177,188]"/>
+  <match src="statement_identifier: err [902,905]" dest="statement_identifier: err [902,905]"/>
+  <match src="identifier: sink_ops [1596,1604]" dest="identifier: sink_ops [1624,1632]"/>
+  <match src="*: * [1092,1093]" dest="*: * [1092,1093]"/>
+  <match src="): ) [1439,1440]" dest="): ) [1439,1440]"/>
+  <match src="(: ( [1141,1142]" dest="(: ( [1141,1142]"/>
+  <match src="*: * [47,48]" dest="*: * [47,48]"/>
+  <match src="*: * [115,116]" dest="*: * [115,116]"/>
+  <match src="assignment_expression [842,881]" dest="assignment_expression [842,881]"/>
+  <match src=",: , [74,75]" dest=",: , [74,75]"/>
+  <match src="(: ( [875,876]" dest="(: ( [875,876]"/>
+  <match src="(: ( [1624,1625]" dest="(: ( [1652,1653]"/>
+  <match src="=: = [847,848]" dest="=: = [847,848]"/>
+  <match src=";: ; [881,882]" dest=";: ; [881,882]"/>
+  <match src="struct_specifier [123,146]" dest="struct_specifier [123,146]"/>
+  <match src="call_expression [1410,1439]" dest="call_expression [1410,1439]"/>
+  <match src="-&gt;: -&gt; [1692,1694]" dest="-&gt;: -&gt; [1720,1722]"/>
+  <match src="type_identifier: coresight_device [1075,1091]" dest="type_identifier: coresight_device [1075,1091]"/>
+  <match src=",: , [40,41]" dest=",: , [40,41]"/>
+  <match src="call_expression [1369,1402]" dest="call_expression [1369,1402]"/>
+  <match src="compound_statement [1064,1456]" dest="compound_statement [1064,1456]"/>
+  <match src="declaration [1068,1099]" dest="declaration [1068,1099]"/>
+  <match src="declaration [105,121]" dest="declaration [105,121]"/>
+  <match src="identifier: cpu [1130,1133]" dest="identifier: cpu [1130,1133]"/>
+  <match src="goto: goto [1498,1502]" dest="goto: goto [1498,1502]"/>
+  <match src="field_expression [1596,1624]" dest="field_expression [1624,1652]"/>
+  <match src="identifier: cpu [1053,1056]" dest="identifier: cpu [1053,1056]"/>
+  <match src="identifier: event_data [920,930]" dest="identifier: event_data [920,930]"/>
+  <match src="primitive_type: bool [76,80]" dest="primitive_type: bool [76,80]"/>
+  <match src="identifier: sink [1397,1401]" dest="identifier: sink [1397,1401]"/>
+  <match src="expression_statement [1751,1776]" dest="expression_statement [1779,1804]"/>
+  <match src="(: ( [887,888]" dest="(: ( [887,888]"/>
+  <match src="): ) [880,881]" dest="): ) [880,881]"/>
+  <match src="identifier: event_data [966,976]" dest="identifier: event_data [966,976]"/>
+  <match src="if: if [1406,1408]" dest="if: if [1406,1408]"/>
+  <match src="-&gt;: -&gt; [1355,1357]" dest="-&gt;: -&gt; [1355,1357]"/>
+  <match src="if: if [242,244]" dest="if: if [242,244]"/>
+  <match src="identifier: sink [1605,1609]" dest="identifier: sink [1633,1637]"/>
+  <match src="comment: 	
+	 * In theory nothing prevent tracers in a trace session from being
+	 * associated with different sinks, nor having a sink per tracer.  But
+	 * until we have HW with this kind of topology we need to assume tracers
+	 * in a trace session are using the same sink.  Therefore go through
+	 * the coresight bus and pick the first enabled sink.
+	 *
+	 * When operated from sysFS users are responsible to enable the sink
+	 * while from perf, the perf tools will do it based on the choice made
+	 * on the cmd line.  As such the &quot;enable_sink&quot; flag in sysFS is reset.
+	 */ [276,840]" dest="comment: 	
+	 * In theory nothing prevent tracers in a trace session from being
+	 * associated with different sinks, nor having a sink per tracer.  But
+	 * until we have HW with this kind of topology we need to assume tracers
+	 * in a trace session are using the same sink.  Therefore go through
+	 * the coresight bus and pick the first enabled sink.
+	 *
+	 * When operated from sysFS users are responsible to enable the sink
+	 * while from perf, the perf tools will do it based on the choice made
+	 * on the cmd line.  As such the &quot;enable_sink&quot; flag in sysFS is reset.
+	 */ [276,840]"/>
+  <match src="): ) [257,258]" dest="): ) [257,258]"/>
+  <match src="call_expression [1596,1610]" dest="call_expression [1624,1638]"/>
+  <match src="field_expression [966,982]" dest="field_expression [966,982]"/>
+  <match src="null [268,272]" dest="null [268,272]"/>
+  <match src=",: , [1056,1057]" dest=",: , [1056,1057]"/>
+  <match src="(: ( [1763,1764]" dest="(: ( [1791,1792]"/>
+  <match src="labeled_statement [1745,1776]" dest="labeled_statement [1773,1804]"/>
+  <match src="goto_statement [1798,1807]" dest="goto_statement [1826,1835]"/>
+  <match src="compound_statement [92,1809]" dest="compound_statement [92,1837]"/>
+  <match src="(: ( [1409,1410]" dest="(: ( [1409,1410]"/>
+  <match src="identifier: sink [842,846]" dest="identifier: sink [842,846]"/>
+  <match src="}: } [1808,1809]" dest="}: } [1836,1837]"/>
+  <match src="identifier: cpu [1434,1437]" dest="identifier: cpu [1434,1437]"/>
+  <match src="argument_list [1763,1775]" dest="argument_list [1791,1803]"/>
+  <match src="pointer_expression [919,936]" dest="pointer_expression [919,936]"/>
+  <match src="identifier: event_data [199,209]" dest="identifier: event_data [199,209]"/>
+  <match src="parameter_declaration [42,54]" dest="parameter_declaration [42,54]"/>
+  <match src="if_statement [242,273]" dest="if_statement [242,273]"/>
+  <match src=";: ; [1402,1403]" dest=";: ; [1402,1403]"/>
+  <match src=";: ; [1098,1099]" dest=";: ; [1098,1099]"/>
+  <match src=";: ; [272,273]" dest=";: ; [272,273]"/>
+  <match src="function_definition [0,1809]" dest="function_definition [0,1837]"/>
+  <match src="goto_statement [1498,1507]" dest="goto_statement [1498,1507]"/>
+  <match src="identifier: alloc_event_data [212,228]" dest="identifier: alloc_event_data [212,228]"/>
+  <match src="(: ( [228,229]" dest="(: ( [228,229]"/>
+  <match src="parenthesized_expression [1463,1494]" dest="parenthesized_expression [1463,1494]"/>
+  <match src="=: = [1367,1368]" dest="=: = [1367,1368]"/>
+  <match src="=: = [1789,1790]" dest="=: = [1817,1818]"/>
+  <match src="expression_statement [1103,1135]" dest="expression_statement [1103,1135]"/>
+  <match src="field_identifier: alloc_buffer [1481,1493]" dest="field_identifier: alloc_buffer [1481,1493]"/>
+  <match src=",: , [1629,1630]" dest=",: , [1657,1658]"/>
+  <match src="&amp;: &amp; [965,966]" dest="&amp;: &amp; [965,966]"/>
+  <match src="field_identifier: snk_config [1579,1589]" dest="field_identifier: snk_config [1607,1617]"/>
+  <match src="type_identifier: etm_event_data [162,176]" dest="type_identifier: etm_event_data [162,176]"/>
+  <match src=",: , [1395,1396]" dest=",: , [1395,1396]"/>
+  <match src="]: ] [1437,1438]" dest="]: ] [1437,1438]"/>
+  <match src="identifier: event_data [1345,1355]" dest="identifier: event_data [1345,1355]"/>
+  <match src="field_identifier: alloc_buffer [1612,1624]" dest="field_identifier: alloc_buffer [1640,1652]"/>
+  <match src=";: ; [982,983]" dest=";: ; [982,983]"/>
+  <match src=":: : [1722,1723]" dest=":: : [1750,1751]"/>
+  <match src="primitive_type: int [62,65]" dest="primitive_type: int [62,65]"/>
+  <match src="unary_expression [888,893]" dest="unary_expression [888,893]"/>
+  <match src="identifier: pages [49,54]" dest="identifier: pages [49,54]"/>
+  <match src="unary_expression [1464,1493]" dest="unary_expression [1464,1493]"/>
+  <match src="; [1063,1063]" dest="; [1063,1063]"/>
+  <match src="&amp;: &amp; [919,920]" dest="&amp;: &amp; [919,920]"/>
+  <match src="argument_list [875,881]" dest="argument_list [875,881]"/>
+  <match src="argument_list [1416,1439]" dest="argument_list [1416,1439]"/>
+  <match src="function_declarator [13,91]" dest="function_declarator [13,91]"/>
+  <match src="): ) [1673,1674]" dest="): ) [1701,1702]"/>
+  <match src="-&gt;: -&gt; [1577,1579]" dest="-&gt;: -&gt; [1605,1607]"/>
+  <match src="(: ( [918,919]" dest="(: ( [918,919]"/>
+  <match src="identifier: cpu [99,102]" dest="identifier: cpu [99,102]"/>
+  <match src="-&gt;: -&gt; [1427,1429]" dest="-&gt;: -&gt; [1427,1429]"/>
+  <match src=";: ; [120,121]" dest=";: ; [120,121]"/>
+  <match src="parameter_declaration [62,74]" dest="parameter_declaration [62,74]"/>
+  <match src="field_identifier: mask [978,982]" dest="field_identifier: mask [978,982]"/>
+  <match src="field_identifier: path [1357,1361]" dest="field_identifier: path [1357,1361]"/>
+  <match src=";: ; [102,103]" dest=";: ; [102,103]"/>
+  <match src="assignment_expression [958,982]" dest="assignment_expression [958,982]"/>
+  <match src=";: ; [1775,1776]" dest=";: ; [1803,1804]"/>
+  <match src="identifier: event_data [247,257]" dest="identifier: event_data [247,257]"/>
+  <match src="(: ( [26,27]" dest="(: ( [26,27]"/>
+  <match src="=: = [189,190]" dest="=: = [189,190]"/>
+  <match src="parenthesized_expression [245,258]" dest="parenthesized_expression [245,258]"/>
+  <match src=";: ; [954,955]" dest=";: ; [954,955]"/>
+  <match src="identifier: sink_ops [1465,1473]" dest="identifier: sink_ops [1465,1473]"/>
+  <match src="expression_statement [1040,1063]" dest="expression_statement [1040,1063]"/>
+  <match src="*: * [147,148]" dest="*: * [147,148]"/>
+  <match src="identifier: cpu [1362,1365]" dest="identifier: cpu [1362,1365]"/>
+  <match src=";: ; [1452,1453]" dest=";: ; [1452,1453]"/>
+  <match src="identifier: mask [116,120]" dest="identifier: mask [116,120]"/>
+  <match src="=: = [1109,1110]" dest="=: = [1109,1110]"/>
+  <match src="statement_identifier: err [1158,1161]" dest="statement_identifier: err [1158,1161]"/>
+  <match src="): ) [90,91]" dest="): ) [90,91]"/>
+  <match src="-&gt;: -&gt; [1610,1612]" dest="-&gt;: -&gt; [1638,1640]"/>
+  <match src="primitive_type: void [42,46]" dest="primitive_type: void [42,46]"/>
+  <match src="call_expression [1596,1674]" dest="call_expression [1624,1702]"/>
+  <match src="subscript_expression [1345,1366]" dest="subscript_expression [1345,1366]"/>
+  <match src="identifier: event_data [1567,1577]" dest="identifier: event_data [1595,1605]"/>
+  <match src="comment: /* Setup the path for each CPU in a trace session */ [986,1038]" dest="comment: /* Setup the path for each CPU in a trace session */ [986,1038]"/>
+  <match src="statement_identifier: out [1803,1806]" dest="statement_identifier: out [1831,1834]"/>
+  <match src="goto: goto [897,901]" dest="goto: goto [897,901]"/>
+  <match src="statement_identifier: out [1719,1722]" dest="statement_identifier: out [1747,1750]"/>
+  <match src="identifier: overwrite [1664,1673]" dest="identifier: overwrite [1692,1701]"/>
+  <match src="): ) [893,894]" dest="): ) [893,894]"/>
+  <match src="identifier: csdev_src [1119,1128]" dest="identifier: csdev_src [1119,1128]"/>
+  <match src="(: ( [1463,1464]" dest="(: ( [1463,1464]"/>
+  <match src=",: , [1641,1642]" dest=",: , [1669,1670]"/>
+  <match src="identifier: event_data [1764,1774]" dest="identifier: event_data [1792,1802]"/>
+  <match src="statement_identifier: err [1503,1506]" dest="statement_identifier: err [1503,1506]"/>
+  <match src="expression_statement [1345,1403]" dest="expression_statement [1345,1403]"/>
+  <match src=";: ; [1806,1807]" dest=";: ; [1834,1835]"/>
+  <match src="identifier: coresight_get_enabled_sink [849,875]" dest="identifier: coresight_get_enabled_sink [849,875]"/>
+  <match src="identifier: sink [889,893]" dest="identifier: sink [889,893]"/>
+  <match src="if: if [1138,1140]" dest="if: if [1138,1140]"/>
+  <match src="!: ! [888,889]" dest="!: ! [888,889]"/>
+  <match src="declaration [123,153]" dest="declaration [123,153]"/>
+  <match src="argument_list [228,239]" dest="argument_list [228,239]"/>
+  <match src="assignment_expression [199,239]" dest="assignment_expression [199,239]"/>
+  <match src="parenthesized_expression [1141,1149]" dest="parenthesized_expression [1141,1149]"/>
+  <match src="goto: goto [1798,1802]" dest="goto: goto [1826,1830]"/>
+  <match src="NULL: NULL [268,272]" dest="NULL: NULL [268,272]"/>
+  <match src="=: = [1590,1591]" dest="=: = [1618,1619]"/>
+  <match src="type_identifier: cpumask_t [105,114]" dest="type_identifier: cpumask_t [105,114]"/>
+  <match src=",: , [936,937]" dest=",: , [936,937]"/>
+  <match src="field_expression [1417,1433]" dest="field_expression [1417,1433]"/>
+  <match src="): ) [1704,1705]" dest="): ) [1732,1733]"/>
+  <match src="argument_list [1389,1402]" dest="argument_list [1389,1402]"/>
+  <match src="parenthesized_expression [887,894]" dest="parenthesized_expression [887,894]"/>
+  <match src="if_statement [1460,1507]" dest="if_statement [1460,1507]"/>
+  <match src="declaration [155,196]" dest="declaration [155,196]"/>
+  <match src="if_statement [1138,1162]" dest="if_statement [1138,1162]"/>
+  <match src="identifier: mask [958,962]" dest="identifier: mask [958,962]"/>
+  <match src="*: * [177,178]" dest="*: * [177,178]"/>
+  <match src="primitive_type: int [95,98]" dest="primitive_type: int [95,98]"/>
+  <match src="parenthesized_expression [1409,1440]" dest="parenthesized_expression [1409,1440]"/>
+  <match src="}: } [1455,1456]" dest="}: } [1455,1456]"/>
+  <match src="comment: 		
+		 * Building a path doesn't enable it, it simply builds a
+		 * list of devices from source to sink that can be
+		 * referenced later when the path is actually needed.
+		 */ [1166,1342]" dest="comment: 		
+		 * Building a path doesn't enable it, it simply builds a
+		 * list of devices from source to sink that can be
+		 * referenced later when the path is actually needed.
+		 */ [1166,1342]"/>
+  <match src="identifier: event_data [1417,1427]" dest="identifier: event_data [1417,1427]"/>
+  <match src="call_expression [1751,1775]" dest="call_expression [1779,1803]"/>
+  <match src="(: ( [1052,1053]" dest="(: ( [1052,1053]"/>
+  <match src="parameter_list [26,91]" dest="parameter_list [26,91]"/>
+  <match src="call_expression [1111,1134]" dest="call_expression [1111,1134]"/>
+  <match src="unary_expression [1142,1148]" dest="unary_expression [1142,1148]"/>
+  <match src="-&gt;: -&gt; [1479,1481]" dest="-&gt;: -&gt; [1479,1481]"/>
+  <match src="if: if [1677,1679]" dest="if: if [1705,1707]"/>
+  <match src="if_statement [1677,1717]" dest="if_statement [1705,1745]"/>
+  <match src="goto_statement [897,906]" dest="goto_statement [897,906]"/>
+  <match src="(: ( [1416,1417]" dest="(: ( [1416,1417]"/>
+  <match src="assignment_expression [1567,1674]" dest="assignment_expression [1595,1702]"/>
+  <match src="identifier: IS_ERR [1410,1416]" dest="identifier: IS_ERR [1410,1416]"/>
+  <match src="pointer_declarator [47,54]" dest="pointer_declarator [47,54]"/>
+  <match src="NULL: NULL [1791,1795]" dest="NULL: NULL [1819,1823]"/>
+  <match src="subscript_expression [1417,1438]" dest="subscript_expression [1417,1438]"/>
+  <match src="null [1791,1795]" dest="null [1819,1823]"/>
+  <match src="): ) [1133,1134]" dest="): ) [1133,1134]"/>
+  <match src="goto: goto [1153,1157]" dest="goto: goto [1153,1157]"/>
+  <match src="call_expression [909,954]" dest="call_expression [909,954]"/>
+  <match src="-&gt;: -&gt; [976,978]" dest="-&gt;: -&gt; [976,978]"/>
+  <match src="return_statement [1725,1743]" dest="return_statement [1753,1771]"/>
+  <match src="static: static [0,6]" dest="static: static [0,6]"/>
+  <match src="): ) [1401,1402]" dest="): ) [1401,1402]"/>
+  <match src="identifier: event_data [1732,1742]" dest="identifier: event_data [1760,1770]"/>
+  <match src=";: ; [1506,1507]" dest=";: ; [1506,1507]"/>
+  <match src="if: if [1460,1462]" dest="if: if [1460,1462]"/>
+  <match src="): ) [1493,1494]" dest="): ) [1493,1494]"/>
+  <match src="struct: struct [155,161]" dest="struct: struct [155,161]"/>
+  <match src="pointer_declarator [1092,1098]" dest="pointer_declarator [1092,1098]"/>
+  <match src="(: ( [1473,1474]" dest="(: ( [1473,1474]"/>
+  <match src="identifier: pages [1636,1641]" dest="identifier: pages [1664,1669]"/>
+  <match src="(: ( [245,246]" dest="(: ( [245,246]"/>
+  <match src="argument_list [918,954]" dest="argument_list [918,954]"/>
+  <match src="goto: goto [1444,1448]" dest="goto: goto [1444,1448]"/>
+  <match src="): ) [1478,1479]" dest="): ) [1478,1479]"/>
+  <match src="identifier: csdev [1390,1395]" dest="identifier: csdev [1390,1395]"/>
+  <match src="identifier: nr_pages [66,74]" dest="identifier: nr_pages [66,74]"/>
+  <match src="identifier: etm_free_aux [1751,1763]" dest="identifier: etm_free_aux [1779,1791]"/>
+  <match src="init_declarator [177,195]" dest="init_declarator [177,195]"/>
+  <match src="call_expression [849,881]" dest="call_expression [849,881]"/>
+  <match src="return_statement [261,273]" dest="return_statement [261,273]"/>
+  <match src="assignment_expression [1345,1402]" dest="assignment_expression [1345,1402]"/>
+  <match src=";: ; [1674,1675]" dest=";: ; [1702,1703]"/>
+  <match src="): ) [1774,1775]" dest="): ) [1802,1803]"/>
+  <match src="assignment_expression [1103,1134]" dest="assignment_expression [1103,1134]"/>
+  <match src=",: , [1128,1129]" dest=",: , [1128,1129]"/>
+  <match src="expression_statement [909,955]" dest="expression_statement [909,955]"/>
+  <match src="expression_statement [842,882]" dest="expression_statement [842,882]"/>
+  <match src="(: ( [1118,1119]" dest="(: ( [1118,1119]"/>
+  <match src="(: ( [1389,1390]" dest="(: ( [1389,1390]"/>
+  <match src=";: ; [1716,1717]" dest=";: ; [1744,1745]"/>
+  <match src="identifier: coresight_build_path [1369,1389]" dest="identifier: coresight_build_path [1369,1389]"/>
+  <match src="statement_identifier: err [1745,1748]" dest="statement_identifier: err [1773,1776]"/>
+  <match src="true: true [876,880]" dest="true: true [876,880]"/>
+  <match src="(: ( [1680,1681]" dest="(: ( [1708,1709]"/>
+  <match src="argument_list [1604,1610]" dest="argument_list [1632,1638]"/>
+  <match src="expression_statement [199,240]" dest="expression_statement [199,240]"/>
+  <match src="argument_list [1052,1063]" dest="argument_list [1052,1063]"/>
+  <match src="argument_list [1473,1479]" dest="argument_list [1473,1479]"/>
+  <match src="identifier: for_each_cpu [1040,1052]" dest="identifier: for_each_cpu [1040,1052]"/>
+  <match src="identifier: per_cpu [1111,1118]" dest="identifier: per_cpu [1111,1118]"/>
+  <match src=",: , [1634,1635]" dest=",: , [1662,1663]"/>
+  <match src="declaration [95,103]" dest="declaration [95,103]"/>
+  <match src="identifier: event_data [1778,1788]" dest="identifier: event_data [1806,1816]"/>
+  <match src=";: ; [152,153]" dest=";: ; [152,153]"/>
+  <match src="pointer_declarator [12,91]" dest="pointer_declarator [12,91]"/>
+  <match src="field_expression [1682,1704]" dest="field_expression [1710,1732]"/>
+  <match src="comment: /* Get the AUX specific data from the sink buffer */ [1512,1564]" dest="comment: /* Get the AUX specific data from the sink buffer */ [1540,1592]"/>
+  <match src="if: if [884,886]" dest="if: if [884,886]"/>
+  <match src=";: ; [1161,1162]" dest=";: ; [1161,1162]"/>
+  <match src="!: ! [1464,1465]" dest="!: ! [1464,1465]"/>
+  <match src="pointer_expression [965,982]" dest="pointer_expression [965,982]"/>
+  <match src="struct_specifier [1068,1091]" dest="struct_specifier [1068,1091]"/>
+  <match src="identifier: etm_setup_aux [13,26]" dest="identifier: etm_setup_aux [13,26]"/>
+  <match src=";: ; [1795,1796]" dest=";: ; [1823,1824]"/>
+  <match src="parenthesized_expression [1680,1705]" dest="parenthesized_expression [1708,1733]"/>
+  <match src="identifier: free_event_data [938,953]" dest="identifier: free_event_data [938,953]"/>
+  <match src="goto: goto [1708,1712]" dest="goto: goto [1736,1740]"/>
+  <match src="identifier: sink [148,152]" dest="identifier: sink [148,152]"/>
+  <match src="identifier: nr_pages [1654,1662]" dest="identifier: nr_pages [1682,1690]"/>
+  <match src="unary_expression [1681,1704]" dest="unary_expression [1709,1732]"/>
+  <match src="field_expression [1465,1493]" dest="field_expression [1465,1493]"/>
+  <match src="pointer_declarator [147,152]" dest="pointer_declarator [147,152]"/>
+  <match src="[: [ [1433,1434]" dest="[: [ [1433,1434]"/>
+  <match src="field_identifier: work [932,936]" dest="field_identifier: work [932,936]"/>
+  <match src="NULL: NULL [191,195]" dest="NULL: NULL [191,195]"/>
+  <match src="): ) [1609,1610]" dest="): ) [1637,1638]"/>
+  <match src="=: = [210,211]" dest="=: = [210,211]"/>
+  <match src="identifier: event_data [1682,1692]" dest="identifier: event_data [1710,1720]"/>
+  <match src="call_expression [1040,1063]" dest="call_expression [1040,1063]"/>
+  <match src="argument_list [1118,1134]" dest="argument_list [1118,1134]"/>
+  <match src="if_statement [1406,1453]" dest="if_statement [1406,1453]"/>
+  <match src="labeled_statement [1719,1743]" dest="labeled_statement [1747,1771]"/>
+  <match src="identifier: csdev [1143,1148]" dest="identifier: csdev [1143,1148]"/>
+  <match src="): ) [953,954]" dest="): ) [953,954]"/>
+  <match src="identifier: event_cpu [229,238]" dest="identifier: event_cpu [229,238]"/>
+  <match src="field_expression [1567,1589]" dest="field_expression [1595,1617]"/>
+  <match src="): ) [1148,1149]" dest="): ) [1148,1149]"/>
+  <match src="pointer_declarator [48,54]" dest="pointer_declarator [48,54]"/>
+  <match src="return: return [1725,1731]" dest="return: return [1753,1759]"/>
+  <match src="translation_unit [0,1809]" dest="translation_unit [0,1837]"/>
+  <match src=":: : [1748,1749]" dest=":: : [1776,1777]"/>
+  <match src="identifier: event_data [178,188]" dest="identifier: event_data [178,188]"/>
+  <match src="pointer_declarator [115,120]" dest="pointer_declarator [115,120]"/>
+  <match src="identifier: mask [1058,1062]" dest="identifier: mask [1058,1062]"/>
+  <match src="call_expression [212,239]" dest="call_expression [212,239]"/>
+  <match src="storage_class_specifier [0,6]" dest="storage_class_specifier [0,6]"/>
+  <match src="goto_statement [1153,1162]" dest="goto_statement [1153,1162]"/>
+  <match src="identifier: event_cpu [31,40]" dest="identifier: event_cpu [31,40]"/>
+  <match src="-&gt;: -&gt; [930,932]" dest="-&gt;: -&gt; [930,932]"/>
+  <match src="field_identifier: path [1429,1433]" dest="field_identifier: path [1429,1433]"/>
+  <match src="type_identifier: coresight_device [130,146]" dest="type_identifier: coresight_device [130,146]"/>
+  <match src="identifier: csdev [1103,1108]" dest="identifier: csdev [1103,1108]"/>
+  <match src=";: ; [1742,1743]" dest=";: ; [1770,1771]"/>
+  <match src="identifier: INIT_WORK [909,918]" dest="identifier: INIT_WORK [909,918]"/>
+  <match src=";: ; [1134,1135]" dest=";: ; [1134,1135]"/>
+  <match src="primitive_type: int [27,30]" dest="primitive_type: int [27,30]"/>
+  <match src="identifier: overwrite [81,90]" dest="identifier: overwrite [81,90]"/>
+  <match src="{: { [92,93]" dest="{: { [92,93]"/>
+  <match src="goto_statement [1708,1717]" dest="goto_statement [1736,1745]"/>
+  <match src="[: [ [1361,1362]" dest="[: [ [1361,1362]"/>
+  <match src="null [191,195]" dest="null [191,195]"/>
+  <match src="(: ( [1604,1605]" dest="(: ( [1632,1633]"/>
+  <match src="struct: struct [1068,1074]" dest="struct: struct [1068,1074]"/>
+  <match src="identifier: sink [1625,1629]" dest="identifier: sink [1653,1657]"/>
+  <match src="*: * [12,13]" dest="*: * [12,13]"/>
+  <match src="call_expression [1465,1479]" dest="call_expression [1465,1479]"/>
+  <match src="field_expression [920,936]" dest="field_expression [920,936]"/>
+  <match src="expression_statement [1778,1796]" dest="expression_statement [1806,1824]"/>
+  <match src="): ) [238,239]" dest="): ) [238,239]"/>
+  <match src="*: * [48,49]" dest="*: * [48,49]"/>
+  <match src=",: , [1662,1663]" dest=",: , [1690,1691]"/>
+  <match src="]: ] [1365,1366]" dest="]: ] [1365,1366]"/>
+  <match src="!: ! [1142,1143]" dest="!: ! [1142,1143]"/>
+  <match src="parameter_declaration [76,90]" dest="parameter_declaration [76,90]"/>
+  <match src="): ) [1062,1063]" dest="): ) [1062,1063]"/>
+  <match src="!: ! [246,247]" dest="!: ! [246,247]"/>
+  <match src="field_identifier: snk_config [1694,1704]" dest="field_identifier: snk_config [1722,1732]"/>
+  <match src="{: { [1064,1065]" dest="{: { [1064,1065]"/>
+  <match src="primitive_type: void [7,11]" dest="primitive_type: void [7,11]"/>
+  <match src="expression_statement [1567,1675]" dest="expression_statement [1595,1703]"/>
+  <match src="parameter_declaration [27,40]" dest="parameter_declaration [27,40]"/>
+  <match src=",: , [54,55]" dest=",: , [54,55]"/>
+  <match src=";: ; [239,240]" dest=";: ; [239,240]"/>
+  <match src="unary_expression [246,257]" dest="unary_expression [246,257]"/>
+  <match src="return: return [261,267]" dest="return: return [261,267]"/>
+  <match src="field_expression [1345,1361]" dest="field_expression [1345,1361]"/>
+  <match src="expression_statement [958,983]" dest="expression_statement [958,983]"/>
+  <match src="identifier: cpu [1631,1634]" dest="identifier: cpu [1659,1662]"/>
+  <match src="identifier: csdev [1093,1098]" dest="identifier: csdev [1093,1098]"/>
+  <match src="assignment_expression [1778,1795]" dest="assignment_expression [1806,1823]"/>
+  <match src="argument_list [1624,1674]" dest="argument_list [1652,1702]"/>
+  <match src="statement_identifier: err [1713,1716]" dest="statement_identifier: err [1741,1744]"/>
+  <match src=";: ; [905,906]" dest=";: ; [905,906]"/>
+  <match src="=: = [963,964]" dest="=: = [963,964]"/>
+  <match src="): ) [1438,1439]" dest="): ) [1438,1439]"/>
+  <match src="if_statement [884,906]" dest="if_statement [884,906]"/>
+  <match src=";: ; [195,196]" dest=";: ; [195,196]"/>
+</matches>
+<actions>
+  <insert-tree tree="expression_statement [1511,1537]" parent="compound_statement [92,1809]" at="16"/>
+</actions>

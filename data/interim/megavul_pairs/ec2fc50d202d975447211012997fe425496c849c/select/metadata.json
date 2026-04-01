@@ -1,0 +1,20 @@
+{
+    "id": "ec2fc50d202d975447211012997fe425496c849c_select_0",
+    "func_name": "select",
+    "cve_id": "CVE-2016-3763",
+    "cwe_ids": [
+        "CWE-20"
+    ],
+    "commit_hash": "ec2fc50d202d975447211012997fe425496c849c",
+    "parent_commit_hash": "e83f0f6a5a6f35323f5367f99c8e287c440f33f5",
+    "repo_name": "android",
+    "git_url": "https://android.googlesource.com/platform/frameworks/base/+/ec2fc50d202d975447211012997fe425496c849c",
+    "file_path": "core/java/android/net/PacProxySelector.java",
+    "file_name": "PacProxySelector.java",
+    "commit_date": 1460731273,
+    "commit_msg": "Don't pass URL path and username/password to PAC scripts\n\nThe URL path could contain credentials that apps don't want exposed\nto a potentially malicious PAC script.\n\nBug: 27593919\nChange-Id: I4bb0362fc91f70ad47c4c7453d77d6f9a1e8eeed\n",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

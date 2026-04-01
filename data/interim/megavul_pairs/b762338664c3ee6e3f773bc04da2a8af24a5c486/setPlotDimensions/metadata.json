@@ -1,0 +1,20 @@
+{
+    "id": "b762338664c3ee6e3f773bc04da2a8af24a5c486_setPlotDimensions_3",
+    "func_name": "setPlotDimensions",
+    "cve_id": "CVE-2020-35476",
+    "cwe_ids": [
+        "CWE-78"
+    ],
+    "commit_hash": "b762338664c3ee6e3f773bc04da2a8af24a5c486",
+    "parent_commit_hash": "5ee2ab3c8ff2e551213fce884a8bbcf051c7e7e9",
+    "repo_name": "OpenTSDB/opentsdb",
+    "git_url": "https://github.com/OpenTSDB/opentsdb/commit/b762338664c3ee6e3f773bc04da2a8af24a5c486",
+    "file_path": "src/tsd/GraphHandler.java",
+    "file_name": "GraphHandler.java",
+    "commit_date": 1620482397,
+    "commit_msg": "Fix remote code execution #2051 by adding regex validators for the\nGnuplot params and introducting the tsd.gnuplot.options.allowlist\nsetting that is a strict matching allow list of o= values from the\nquery string that will be allowed through. By default tihs is empty\nso if folks are using this query param, they'll different graphs\nuntil they add the options they need.",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

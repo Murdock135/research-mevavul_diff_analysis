@@ -1,0 +1,6 @@
+class getIp {
+@Column(name = "ip", nullable = false, length = 130)
+    public String getIp() {
+        return this.ip;
+    }
+}

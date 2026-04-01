@@ -1,0 +1,14 @@
+class getMimeType {
+private String getMimeType(ParsedUri pParsedUri) {
+        if (pParsedUri.getParameter(ConfigKey.CALLBACK.getKeyValue()) != null) {
+            return "text/javascript";
+        } else {
+            String mimeType = pParsedUri.getParameter(ConfigKey.MIME_TYPE.getKeyValue());
+            if (mimeType != null) {
+                return mimeType;
+            }
+            mimeType = configuration.get(ConfigKey.MIME_TYPE);
+            return mimeType != null ? mimeType : ConfigKey.MIME_TYPE.getDefaultValue();
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "id": "c8bf3245a72cace50ee2aae5eee69538c58ce056_doDiagnostics_0",
+    "func_name": "doDiagnostics",
+    "cve_id": "CVE-2019-18213",
+    "cwe_ids": [
+        "CWE-611"
+    ],
+    "commit_hash": "c8bf3245a72cace50ee2aae5eee69538c58ce056",
+    "parent_commit_hash": "56fc4a8effeb7e7477d82461bd00c8cd2322b5be",
+    "repo_name": "eclipse/lemminx",
+    "git_url": "https://github.com/eclipse/lemminx/commit/c8bf3245a72cace50ee2aae5eee69538c58ce056",
+    "file_path": "org.eclipse.lsp4xml/src/main/java/org/eclipse/lsp4xml/extensions/contentmodel/participants/diagnostics/XMLValidator.java",
+    "file_name": "XMLValidator.java",
+    "commit_date": 1570163251,
+    "commit_msg": "Add disallowDocTypeDecl & resolveExternalEntities validation settings.\n\nSigned-off-by: azerr <azerr@redhat.com>",
+    "cvss_vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+    "cvss_base_score": 6.5,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

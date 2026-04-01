@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<matches>
+  <match src="}: } [176,177]" dest="}: } [176,177]"/>
+  <match src="identifier: ForCurrentProcess [207,224]" dest="identifier: IsSmartDeployEnabled [197,217]"/>
+  <match src="field_identifier: HasSwitch [85,94]" dest="field_identifier: HasSwitch [85,94]"/>
+  <match src="identifier: switches [117,125]" dest="identifier: switches [117,125]"/>
+  <match src="identifier: keyboard [107,115]" dest="identifier: keyboard [107,115]"/>
+  <match src="(: ( [81,82]" dest="(: ( [81,82]"/>
+  <match src="identifier: IsSmartVirtualKeyboardEnabled [5,34]" dest="identifier: IsSmartVirtualKeyboardEnabled [5,34]"/>
+  <match src=":: : [115,116]" dest=":: : [115,116]"/>
+  <match src="false: false [166,171]" dest="false: false [166,171]"/>
+  <match src="{: { [152,153]" dest="{: { [152,153]"/>
+  <match src="argument_list [81,83]" dest="argument_list [81,83]"/>
+  <match src="return: return [159,165]" dest="return: return [159,165]"/>
+  <match src="{: { [37,38]" dest="{: { [37,38]"/>
+  <match src=":: : [125,126]" dest=":: : [125,126]"/>
+  <match src="compound_statement [152,177]" dest="compound_statement [152,177]"/>
+  <match src="ERROR [107,127]" dest="ERROR [107,127]"/>
+  <match src="): ) [82,83]" dest="): ) [82,83]"/>
+  <match src=":: : [50,51]" dest=":: : [50,51]"/>
+  <match src="argument_list [224,226]" dest="argument_list [217,219]"/>
+  <match src="if: if [41,43]" dest="if: if [41,43]"/>
+  <match src=";: ; [171,172]" dest=";: ; [171,172]"/>
+  <match src="): ) [35,36]" dest="): ) [35,36]"/>
+  <match src="): ) [225,226]" dest="): ) [218,219]"/>
+  <match src="(: ( [94,95]" dest="(: ( [94,95]"/>
+  <match src="identifier: CommandLine [51,62]" dest="identifier: CommandLine [51,62]"/>
+  <match src="argument_list [94,150]" dest="argument_list [94,150]"/>
+  <match src=":: : [126,127]" dest=":: : [126,127]"/>
+  <match src="return_statement [159,172]" dest="return_statement [159,172]"/>
+  <match src="return_statement [180,295]" dest="return_statement [180,220]"/>
+  <match src="call_expression [207,226]" dest="call_expression [197,219]"/>
+  <match src="call_expression [64,150]" dest="call_expression [64,150]"/>
+  <match src="parenthesized_expression [44,151]" dest="parenthesized_expression [44,151]"/>
+  <match src="identifier: base [45,49]" dest="identifier: base [45,49]"/>
+  <match src="(: ( [34,35]" dest="(: ( [34,35]"/>
+  <match src="ERROR [45,64]" dest="ERROR [45,64]"/>
+  <match src="}: } [297,298]" dest="}: } [222,223]"/>
+  <match src="identifier: kEnableVirtualKeyboard [127,149]" dest="identifier: kEnableVirtualKeyboard [127,149]"/>
+  <match src="identifier: ForCurrentProcess [64,81]" dest="identifier: ForCurrentProcess [64,81]"/>
+  <match src="return: return [180,186]" dest="return: return [180,186]"/>
+  <match src="): ) [149,150]" dest="): ) [149,150]"/>
+  <match src="function_definition [0,298]" dest="function_definition [0,223]"/>
+  <match src=";: ; [294,295]" dest=";: ; [219,220]"/>
+  <match src="call_expression [64,83]" dest="call_expression [64,83]"/>
+  <match src="(: ( [224,225]" dest="(: ( [217,218]"/>
+  <match src="field_expression [64,94]" dest="field_expression [64,94]"/>
+  <match src="if_statement [41,177]" dest="if_statement [41,177]"/>
+  <match src="function_declarator [5,36]" dest="function_declarator [5,36]"/>
+  <match src="): ) [150,151]" dest="): ) [150,151]"/>
+  <match src=":: : [192,193]" dest=":: : [195,196]"/>
+  <match src="translation_unit [0,298]" dest="translation_unit [0,223]"/>
+  <match src="parameter_list [34,36]" dest="parameter_list [34,36]"/>
+  <match src="primitive_type: bool [0,4]" dest="primitive_type: bool [0,4]"/>
+  <match src="identifier: CommandLine [194,205]" dest="identifier: keyboard [187,195]"/>
+  <match src="compound_statement [37,298]" dest="compound_statement [37,223]"/>
+  <match src=":: : [49,50]" dest=":: : [49,50]"/>
+  <match src=":: : [63,64]" dest=":: : [63,64]"/>
+  <match src="(: ( [44,45]" dest="(: ( [44,45]"/>
+  <match src="ERROR [187,207]" dest="ERROR [187,197]"/>
+  <match src=":: : [62,63]" dest=":: : [62,63]"/>
+  <match src=":: : [116,117]" dest=":: : [116,117]"/>
+  <match src=":: : [193,194]" dest=":: : [196,197]"/>
+  <match src="-&gt;: -&gt; [83,85]" dest="-&gt;: -&gt; [83,85]"/>
+</matches>
+<actions>
+  <move-tree tree="identifier: CommandLine [194,205]" parent="ERROR [187,207]" at="0"/>
+  <move-tree tree="call_expression [207,226]" parent="return_statement [180,295]" at="2"/>
+  <update-node tree="identifier: CommandLine [194,205]" label="keyboard"/>
+  <update-node tree="identifier: ForCurrentProcess [207,224]" label="IsSmartDeployEnabled"/>
+  <delete-tree tree="unary_expression [187,192]"/>
+  <delete-node tree=":: : [205,206]"/>
+  <delete-node tree=":: : [206,207]"/>
+  <delete-node tree="-&gt;: -&gt; [226,228]"/>
+  <delete-node tree="field_identifier: HasSwitch [228,237]"/>
+  <delete-node tree="field_expression [207,237]"/>
+  <delete-tree tree="argument_list [237,294]"/>
+  <delete-node tree="call_expression [207,294]"/>
+</actions>

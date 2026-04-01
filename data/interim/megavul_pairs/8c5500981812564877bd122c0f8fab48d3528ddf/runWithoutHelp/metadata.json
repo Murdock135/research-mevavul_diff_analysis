@@ -1,0 +1,20 @@
+{
+    "id": "8c5500981812564877bd122c0f8fab48d3528ddf_runWithoutHelp_0",
+    "func_name": "runWithoutHelp",
+    "cve_id": "CVE-2018-6331",
+    "cwe_ids": [
+        "CWE-502"
+    ],
+    "commit_hash": "8c5500981812564877bd122c0f8fab48d3528ddf",
+    "parent_commit_hash": "8ce226cd2da6ac107d7db9535d6db4a1ac16211a",
+    "repo_name": "facebook/buck",
+    "git_url": "https://github.com/facebook/buck/commit/8c5500981812564877bd122c0f8fab48d3528ddf",
+    "file_path": "src/com/facebook/buck/cli/ParserCacheCommand.java",
+    "file_name": "ParserCacheCommand.java",
+    "commit_date": 1522232640,
+    "commit_msg": "Prevent deserialization of random objects\n\nSummary:\nFixed security issue with buck parser-cache command.\nThis diff prevent deserialization of random objects.\n\nReviewed By: jtorkkola\n\nfbshipit-source-id: 24e8221",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 7.5,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": false
+}

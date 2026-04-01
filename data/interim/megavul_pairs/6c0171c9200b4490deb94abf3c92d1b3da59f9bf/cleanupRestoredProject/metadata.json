@@ -1,0 +1,20 @@
+{
+    "id": "6c0171c9200b4490deb94abf3c92d1b3da59f9bf_cleanupRestoredProject_1",
+    "func_name": "cleanupRestoredProject",
+    "cve_id": "CVE-2019-13623",
+    "cwe_ids": [
+        "CWE-22"
+    ],
+    "commit_hash": "6c0171c9200b4490deb94abf3c92d1b3da59f9bf",
+    "parent_commit_hash": "ac474530f4b76f647512bb5bac2bd65bce1049a8",
+    "repo_name": "NationalSecurityAgency/ghidra",
+    "git_url": "https://github.com/NationalSecurityAgency/ghidra/commit/6c0171c9200b4490deb94abf3c92d1b3da59f9bf",
+    "file_path": "Ghidra/Features/Base/src/main/java/ghidra/app/plugin/core/archive/ArchivePlugin.java",
+    "file_name": "ArchivePlugin.java",
+    "commit_date": 1563265840,
+    "commit_msg": "GT-3001 (#789) fix RestoreTask to safely extract files from zip.\n\nAbstracted guts of GFileSystemExtractAllTask, reused in RestoreTask.\nFixed NPE in RestoreTask if restore was canceled.",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+    "cvss_base_score": 6.8,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

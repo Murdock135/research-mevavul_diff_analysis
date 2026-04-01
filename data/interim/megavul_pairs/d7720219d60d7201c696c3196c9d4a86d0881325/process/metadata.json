@@ -1,0 +1,20 @@
+{
+    "id": "d7720219d60d7201c696c3196c9d4a86d0881325_process_0",
+    "func_name": "process",
+    "cve_id": "CVE-2023-37910",
+    "cwe_ids": [
+        "CWE-862"
+    ],
+    "commit_hash": "d7720219d60d7201c696c3196c9d4a86d0881325",
+    "parent_commit_hash": "1a30c1c199e0760991961b50a7ddb6a1ebf991a0",
+    "repo_name": "xwiki/xwiki-platform",
+    "git_url": "https://github.com/xwiki/xwiki-platform/commit/d7720219d60d7201c696c3196c9d4a86d0881325",
+    "file_path": "xwiki-platform-core/xwiki-platform-attachment/xwiki-platform-attachment-api/src/main/java/org/xwiki/attachment/internal/refactoring/job/MoveAttachmentJob.java",
+    "file_name": "MoveAttachmentJob.java",
+    "commit_date": 1673336585,
+    "commit_msg": "XWIKI-20334: Add rights check to MoveAttachmentJob",
+    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+    "cvss_base_score": 8.1,
+    "cvss_base_severity": "HIGH",
+    "cvss_is_v3": true
+}

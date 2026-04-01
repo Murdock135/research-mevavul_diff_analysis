@@ -1,0 +1,20 @@
+{
+    "id": "60302fae7ef26897b9a0ec0def6281a9425344cf_randomString_0",
+    "func_name": "randomString",
+    "cve_id": "CVE-2021-29481",
+    "cwe_ids": [
+        "CWE-312"
+    ],
+    "commit_hash": "60302fae7ef26897b9a0ec0def6281a9425344cf",
+    "parent_commit_hash": "4aa8d0e529812144330093aabd788ff1ffecbd9a",
+    "repo_name": "ratpack",
+    "git_url": "https://github.com/ratpack/ratpack/commit/60302fae7ef26897b9a0ec0def6281a9425344cf",
+    "file_path": "ratpack-session/src/main/java/ratpack/session/clientside/ClientSideSessionConfig.java",
+    "file_name": "ClientSideSessionConfig.java",
+    "commit_date": 1614966482,
+    "commit_msg": "Use more portable secure random",
+    "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+    "cvss_base_score": 5.0,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}

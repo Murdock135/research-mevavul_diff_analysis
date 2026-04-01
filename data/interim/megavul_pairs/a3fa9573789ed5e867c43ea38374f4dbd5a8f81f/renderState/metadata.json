@@ -1,0 +1,20 @@
+{
+    "id": "a3fa9573789ed5e867c43ea38374f4dbd5a8f81f_renderState_0",
+    "func_name": "renderState",
+    "cve_id": "CVE-2019-17091",
+    "cwe_ids": [
+        "CWE-79"
+    ],
+    "commit_hash": "a3fa9573789ed5e867c43ea38374f4dbd5a8f81f",
+    "parent_commit_hash": "999c87859f0ab6c9ae80041dfff479693ef0eb75",
+    "repo_name": "eclipse-ee4j/mojarra",
+    "git_url": "https://github.com/eclipse-ee4j/mojarra/commit/a3fa9573789ed5e867c43ea38374f4dbd5a8f81f",
+    "file_path": "impl/src/main/java/com/sun/faces/context/PartialViewContextImpl.java",
+    "file_name": "PartialViewContextImpl.java",
+    "commit_date": 1557099522,
+    "commit_msg": "Fixes #4556 : HIGH-LEVEL VULNERABILITY WITHIN MOJARRA JSF V2.2",
+    "cvss_vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+    "cvss_base_score": 4.3,
+    "cvss_base_severity": "MEDIUM",
+    "cvss_is_v3": false
+}
