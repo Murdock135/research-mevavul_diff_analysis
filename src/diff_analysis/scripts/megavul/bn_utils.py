@@ -171,9 +171,9 @@ class BNPipeline:
             model_df = model_df[selected + [self.target_col]]
             logger.info(f"After MI selection: {model_df.shape}")
 
-        # Cast to str so pgmpy infers columns as categorical ('C') not numerical ('N').
-        # MI selection and threshold filters require numeric input, so this must be last.
-        model_df = model_df.astype(str)
+        # Cast to categorical so pgmpy understands these as discrete variables.
+        # This avoids StringDtype (pandas string extension) which pgmpy preprocess_data doesn't handle.
+        model_df = model_df.astype(str).astype("category")
         self.model_df = model_df
         self._df = None  # release raw data; no longer needed
         return self
