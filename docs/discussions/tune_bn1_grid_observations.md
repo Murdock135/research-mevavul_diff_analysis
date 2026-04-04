@@ -37,6 +37,12 @@ structures.
 fixed at None without loss. The relevant hyperparameters are `mi_threshold` and
 `tabu_length`.
 
+### 2.1. `mi100` extra edges are likely neglected
+The edges that appear only in the `mi100` best DAGs but not in `mi50` are best
+understood as neglected or nonessential structure: they do not improve model
+performance, so `mi50` is sufficient and the extra `mi100` edges are likely
+spurious or redundant. (See structure_learning_results.ipynb "Neglected Edges")
+
 ### 3. `tabu_length` has no effect so far
 Configs 1 and 4 (tabu=10 vs tabu=50) are identical. The same local optima are being
 found regardless of tabu list length for mi=50. This may change for larger mi values
