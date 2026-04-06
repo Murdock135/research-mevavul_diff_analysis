@@ -1,8 +1,14 @@
 # MegaVul Diff Analysis
 
-Research project analyzing vulnerability patches from the [MegaVul](https://github.com/Icyrockton/MegaVul) dataset. Extracts AST-level diff features from vulnerable/patched Java function pairs and learns a Bayesian network to understand what code changes are associated with fixing specific vulnerability classes (CWEs).
-
 > **PrimeVul (C/C++) analysis** lives in the sibling repo `../research-primevul_diff_analysis/`.
+
+This project investigates what kinds of code changes fix software vulnerabilities. The starting point is [MegaVul](https://github.com/Icyrockton/MegaVul), a dataset of real-world CVEs where each entry contains a vulnerable Java function and its patched counterpart from the same commit. The central question is: do certain structural code changes — adding a null check, removing a method call, changing a condition — reliably appear in fixes for specific vulnerability classes?
+
+To answer this, we first extract the vulnerable/patched function pairs from MegaVul's JSON and write each pair as two `.java` files on disk. We then run [Coming](https://github.com/SpoonLabs/coming), a Java AST diff tool, on every pair to count how many times each type of AST change appears in the diff. Coming requires a JVM and specific dependencies, so this step runs inside a Docker container. We run Coming twice per pair: once in the natural direction (vulnerable → patched, labelled `is_vul=False`) and once in reverse (patched → vulnerable, labelled `is_vul=True`), which gives us a balanced binary classification dataset where the label reflects whether a given change profile corresponds to a vulnerability being introduced or fixed.
+
+The change counts from Coming are aggregated into a binary feature matrix — each row is one function pair in one direction, each column is one AST change type. This matrix is the input to Phase 2, which requires no Docker. We learn a Bayesian network DAG over the features using hill-climb search with random restarts, fit conditional probability distributions on the learned structure, and generate figures and tables for the paper.
+
+The [Pipeline](#pipeline) section below shows the full flow with the diagram and step-by-step tables. The [Data Layout](#data-layout) section is a reference for where every file lives and which script produces it. For implementation details and architecture notes, see [CLAUDE.md](CLAUDE.md).
 
 ## Prerequisites
 
@@ -108,6 +114,41 @@ uv run python -m megavul_diff_analysis.scripts.megavul.bn1.visualize_bn1 --help
 
 ---
 
+## Data Layout
+
+```
+data/
+├── raw/
+│   └── megavul/                                      # git LFS tracked
+│       └── cve_with_graph_abstract_commit.json       # MegaVul source
+│
+├── interim/                                          # gitignored — regenerate via pipeline
+│   └── megavul/
+│       └── <commit_hash>/<func_name>/
+│           ├── <hash>_<func>_s.java                  # vulnerable function
+│           ├── <hash>_<func>_t.java                  # patched function
+│           ├── metadata.json
+│           ├── change_frequency_bug_fixing.json      # Coming output (vul→patch)
+│           └── change_frequency_bug_inducing.json    # Coming output (patch→vul)
+│
+├── processed/                                        # gitignored — regenerate via pipeline
+│   └── megavul/
+│       ├── megavul_pairs.csv                         # extract.py output
+│       └── feature_matrix.parquet                   # build_feature_matrix.py output
+│
+└── results/                                          # gitignored (except paper/)
+    ├── bn1/                                          # learn_dag_isvul.py + fit_bn1.py
+    │   ├── <stem>_edges.csv
+    │   ├── <stem>_pipeline.pkl
+    │   └── <stem>_fitted.pkl
+    ├── figures/bn1/                                  # visualize_bn1.py
+    ├── tables/bn1/                                   # visualize_bn1.py
+    ├── paper/                                        # git tracked — final outputs
+    └── tune_bn1/                                     # tune_bn1.py (timestamped dirs)
+```
+
+---
+
 ## Documentation
 
-See [CLAUDE.md](CLAUDE.md) for architecture details, data layout, and implementation notes.
+See [CLAUDE.md](CLAUDE.md) for architecture details and implementation notes.
