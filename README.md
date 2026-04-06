@@ -24,6 +24,51 @@ uv sync
 
 The pipeline has two phases. **Phase 1 requires Docker** (Coming tool); Phase 2 does not.
 
+```
+ MegaVul JSON
+      │
+      ▼
+┌─────────────────────────────────────────────────────┐
+│  PHASE 1 — Docker required                          │
+│                                                     │
+│  extract.py  ──►  megavul_pairs.csv                 │
+│                          │                          │
+│                          ▼                          │
+│             create_pairs.py                         │
+│                          │                          │
+│            interim/megavul/<commit>/<func>/         │
+│                    ┌─────┴─────┐                    │
+│                    ▼           ▼                    │
+│          get_diffs.py    get_diffs.py               │
+│          bug_fixing      bug_inducing               │
+│         (vul → patch)   (patch → vul)               │
+│          is_vul=False    is_vul=True                │
+│                    └─────┬─────┘                    │
+│                          ▼                          │
+│            build_feature_matrix.py                  │
+│                          │                          │
+│                 feature_matrix.parquet              │
+└─────────────────────────────────────────────────────┘
+                           │
+                           ▼
+┌─────────────────────────────────────────────────────┐
+│  PHASE 2 — No Docker                                │
+│                                                     │
+│  learn_dag_isvul.py ──► <stem>_pipeline.pkl         │
+│  (or tune_bn1.py for grid search)                   │
+│                          │                          │
+│                          ▼                          │
+│                      fit_bn1.py                     │
+│                          │                          │
+│                  <stem>_fitted.pkl                  │
+│                          │                          │
+│                          ▼                          │
+│                  visualize_bn1.py                   │
+│                          │                          │
+│              figures/, tables/, paper/              │
+└─────────────────────────────────────────────────────┘
+```
+
 ### Phase 1 — Data preparation (Docker required)
 
 Run via `./scripts/_start.sh` then `uv run python pipeline_megavul_docker.py bug_fixing` inside the container, or step by step:
