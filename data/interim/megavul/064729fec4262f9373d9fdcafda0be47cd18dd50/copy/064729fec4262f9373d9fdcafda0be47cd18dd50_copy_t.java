@@ -1,7 +1,0 @@
-class copy {
-public static void copy(InputStream in, OutputStream out, int bufferSize)
-			throws IOException
-	{
-		copy(in, out, bufferSize, 0);
-	}
-}

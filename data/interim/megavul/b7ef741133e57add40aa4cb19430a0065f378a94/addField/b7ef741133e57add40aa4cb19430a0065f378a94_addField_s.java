@@ -1,6 +1,0 @@
-class addField {
-public UpdateSection addField(String field){
-    fieldHierarchy.add(field);
-    return this;
-  }
-}

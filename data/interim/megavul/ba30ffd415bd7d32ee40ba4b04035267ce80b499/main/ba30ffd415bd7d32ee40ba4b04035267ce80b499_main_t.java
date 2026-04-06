@@ -1,9 +1,0 @@
-class main {
-public static void main(final String[] args) {
-        if (args.length != 2) {
-            System.out.println("Bad arguments - provide input and output files.");
-        }
-
-        new Sanitiser(Paths.get(args[0]), Paths.get(args[1]));
-    }
-}

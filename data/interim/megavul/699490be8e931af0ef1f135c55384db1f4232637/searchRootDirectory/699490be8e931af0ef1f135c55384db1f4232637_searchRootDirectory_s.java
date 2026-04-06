@@ -1,8 +1,0 @@
-class searchRootDirectory {
-protected static  RootSearcher searchRootDirectory(Path fPath)
-	throws IOException {
-		RootSearcher rootSearcher = new RootSearcher();
-		Files.walkFileTree(fPath, rootSearcher);
-		return rootSearcher;
-	}
-}

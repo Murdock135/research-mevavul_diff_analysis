@@ -1,8 +1,0 @@
-class shuffle {
-public static byte[] shuffle(short[] input) throws IOException {
-        byte[] output = new byte[input.length * 2];
-        int numProcessed = impl.shuffle(input, 0, 2, input.length * 2, output, 0);
-        assert(numProcessed == input.length * 2);
-        return output;
-    }
-}

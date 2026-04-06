@@ -1,6 +1,0 @@
-class toString {
-public static String toString(InputStream inputStream) {
-    return new Scanner(inputStream, "UTF-8")
-        .useDelimiter("\\A").next();
-  }
-}

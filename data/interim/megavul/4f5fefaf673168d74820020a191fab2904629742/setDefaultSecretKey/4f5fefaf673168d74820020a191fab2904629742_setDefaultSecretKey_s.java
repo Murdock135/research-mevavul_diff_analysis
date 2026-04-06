@@ -1,6 +1,0 @@
-class setDefaultSecretKey {
-public static void setDefaultSecretKey(String secretNowKeyValue) {
-        byte[] secretKeyBytes = DatatypeConverter.parseBase64Binary(secretNowKeyValue);
-        secretKey = Keys.hmacShaKeyFor(secretKeyBytes);
-    }
-}

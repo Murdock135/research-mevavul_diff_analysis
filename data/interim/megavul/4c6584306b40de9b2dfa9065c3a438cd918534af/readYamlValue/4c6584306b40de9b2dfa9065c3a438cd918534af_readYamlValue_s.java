@@ -1,6 +1,0 @@
-class readYamlValue {
-public static <T> T readYamlValue(String contents, Class<T> expectedType) {
-        org.yaml.snakeyaml.Yaml yaml = new org.yaml.snakeyaml.Yaml();
-        return Json.mapper().convertValue(yaml.load(contents), expectedType);
-    }
-}
