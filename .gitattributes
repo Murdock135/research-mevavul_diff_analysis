@@ -1,3 +1,7 @@
 PrimeVul.zip filter=lfs diff=lfs merge=lfs -text
 data/raw/megavul/*.json filter=lfs diff=lfs merge=lfs -text
 data/raw/megavul/*.zip filter=lfs diff=lfs merge=lfs -text
+
+*.ipynb filter=nbstripout
+*.zpln filter=nbstripout
+*.ipynb diff=ipynb
