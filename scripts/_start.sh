@@ -7,4 +7,4 @@ else
     docker compose up -d
 fi
 sleep 2
-docker compose exec primevul-analysis bash
+docker compose exec megavul-analysis bash

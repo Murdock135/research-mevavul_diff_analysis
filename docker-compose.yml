@@ -1,11 +1,10 @@
-# docker-compose.yml
 services:
-  primevul-analysis:
+  megavul-analysis:
     build:
       context: .
       dockerfile: Dockerfile.multistage
-    image: primevul-analysis:latest
-    container_name: primevul-analysis
+    image: megavul-analysis:latest
+    container_name: megavul-analysis
     volumes:
       - .:/app
       - /app/.venv

@@ -1,32 +1,60 @@
-# Setup
-## Prerequisites
-- Install git LFS
-- Install [`uv`](https://docs.astral.sh/uv/)
+# MegaVul Diff Analysis
 
-Then,
-1. Clone the repo
-2. Sync dependencies by running the following 
+Research project analyzing vulnerability patches from the [MegaVul](https://github.com/Icyrockton/MegaVul) dataset. Extracts AST-level diff features from vulnerable/patched Java function pairs and learns a Bayesian network to understand what code changes fix specific vulnerability classes (CWEs).
+
+> **PrimeVul (C/C++) analysis** lives in the sibling repo `../research-primevul_diff_analysis/`.
+
+## Prerequisites
+
+- [Docker](https://docs.docker.com/get-docker/)
+- [uv](https://docs.astral.sh/uv/)
+- git LFS (`git lfs install`)
+
+## Setup
+
 ```bash
+git clone <repo>
+cd research-lm_error_analysis
 uv sync
 ```
-3. Run the scripts as described below.
 
+## Running the Pipeline
 
-| Script Path | Purpose | Configuration Method |
-| :--- | :--- | :--- |
-| `src/diff_analysis/scripts/megavul/bn1/tune_bn1.py` | Runs structure learning on **all** hyperparameter configurations. | Edit **global variables** (block words) within the script. |
-| `src/diff_analysis/scripts/megavul/bn1/learn_dag_isvul.py` | Runs structure learning on a **single** hyperparameter configuration. | Use **CLI arguments** (use `--help` for details). |
-
----
-
-To run the scripts, check the docstrings for help. They are both run with uv as python modules. For example, to run the `tune_bn1.py` script, use the following command:
+The full pipeline requires Docker (Coming tool is only available inside the container).
 
 ```bash
-uv run src.diff_analysis.scripts.megavul.bn1.tune_bn1
+# Start the container
+./scripts/_start.sh
+
+# Inside Docker: run the full pipeline
+uv run python pipeline_megavul_docker.py bug_fixing
+uv run python pipeline_megavul_docker.py bug_inducing
 ```
 
-To run the `learn_dag_isvul.py` script, use the following command:
+Or step by step:
 
 ```bash
-uv run src.diff_analysis.scripts.megavul.bn1.learn_dag_isvul --help
+uv run python -m megavul_diff_analysis.scripts.megavul.extract
+uv run python -m megavul_diff_analysis.scripts.megavul.create_pairs
+uv run python -m megavul_diff_analysis.scripts.megavul.docker.get_diffs bug_fixing   # Docker
+uv run python -m megavul_diff_analysis.scripts.megavul.docker.get_diffs bug_inducing # Docker
+uv run python -m megavul_diff_analysis.scripts.megavul.build_feature_matrix
 ```
+
+## BN Analysis (no Docker required)
+
+| Script | Purpose | Config |
+|---|---|---|
+| `bn1/learn_dag_isvul.py` | Structure learning, single config | CLI args (`--help`) |
+| `bn1/tune_bn1.py` | Grid search over hyperparameters | Edit globals at top of file |
+| `bn1/fit_bn1.py` | Fit CPDs on learned structure | CLI args (`--help`) |
+| `bn1/visualize_bn1.py` | Generate paper figures and tables | CLI args (`--help`) |
+
+```bash
+uv run python -m megavul_diff_analysis.scripts.megavul.bn1.learn_dag_isvul --help
+uv run python -m megavul_diff_analysis.scripts.megavul.bn1.tune_bn1
+```
+
+## Documentation
+
+See [CLAUDE.md](CLAUDE.md) for full architecture, data layout, and implementation notes.
