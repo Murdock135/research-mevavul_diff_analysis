@@ -2,11 +2,21 @@
 
 > **PrimeVul (C/C++) analysis** lives in the sibling repo `../research-primevul_diff_analysis/`.
 
+> **New to this project?** Start with [docs/](docs/README.md) for a guided introduction to the data, the methods, and the reasoning behind the design.
+
+## What this project does
+
 This project investigates what kinds of code changes fix software vulnerabilities. The starting point is [MegaVul](https://github.com/Icyrockton/MegaVul), a dataset of real-world CVEs where each entry contains a vulnerable Java function and its patched counterpart from the same commit. The central question is: do certain structural code changes — adding a null check, removing a method call, changing a condition — reliably appear in fixes for specific vulnerability classes?
+
+## How it works
 
 To answer this, we first extract the vulnerable/patched function pairs from MegaVul's JSON and write each pair as two `.java` files on disk. We then run [Coming](https://github.com/SpoonLabs/coming), a Java AST diff tool, on every pair to count how many times each type of AST change appears in the diff. Coming requires a JVM and specific dependencies, so this step runs inside a Docker container. We run Coming twice per pair: once in the natural direction (vulnerable → patched, labelled `is_vul=False`) and once in reverse (patched → vulnerable, labelled `is_vul=True`), which gives us a balanced binary classification dataset where the label reflects whether a given change profile corresponds to a vulnerability being introduced or fixed.
 
 The change counts from Coming are aggregated into a binary feature matrix — each row is one function pair in one direction, each column is one AST change type. This matrix is the input to Phase 2, which requires no Docker. We learn a Bayesian network DAG over the features using hill-climb search with random restarts, fit conditional probability distributions on the learned structure, and generate figures and tables for the paper.
+
+> For a more comprehensive explanation of the data, design decisions, and analysis — including the reasoning behind the HCS restart strategy and what the grid search revealed — see [docs/](docs/README.md).
+
+## How to read this repo
 
 The [Pipeline](#pipeline) section below shows the full flow with the diagram and step-by-step tables. The [Data Layout](#data-layout) section is a reference for where every file lives and which script produces it. For implementation details and architecture notes, see [CLAUDE.md](CLAUDE.md).
 
