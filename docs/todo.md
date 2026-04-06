@@ -68,3 +68,4 @@ Outputs: `data/results/figures/bn1/`, `data/results/tables/bn1/`
 - [ ] Write `learn_dag_cwe.py` and `fit_bn2.py` under `bn2/`
 - [ ] Write `learn_dag_severity.py` and `fit_bn3.py` under `bn3/`
 - [ ] Shared `visualize_bn.py` base (or parameterize `visualize_bn1.py`) for BN2/BN3 reuse
+- [ ] Add docstrings to all public classes and methods (`MegaVulExtractor`, `MegaVulDataPreparator`, `ComingTool`, `BNPipeline`, `ExperimentTracker`, types); pick and configure a doc generation tool (e.g. `pdoc` or `mkdocs`)
