@@ -6,14 +6,14 @@ on identical data — eliminating any risk of row-filtering mismatch between scr
 
 Typical usage
 -------------
-Structure learning (learn_dag_isvul.py):
+Structure learning (analysis/megavul/bn1/learn_dag_isvul.py):
 
     pipeline = BNPipeline(df, target_col="is_vul")
     pipeline.preprocess(...).learn_structure(...)
     pipeline.save_edges(out_dir, stem)
     pipeline.save_pipeline(out_dir / f"{stem}_pipeline.pkl")
 
-Fitting (fit_bn1.py):
+Fitting (analysis/megavul/bn1/fit_bn1.py):
 
     pipeline = BNPipeline.load(pipeline_file)
     pipeline.fit(...).print_cpd().save_model(out_dir, stem).save_cpd(out_dir, stem)

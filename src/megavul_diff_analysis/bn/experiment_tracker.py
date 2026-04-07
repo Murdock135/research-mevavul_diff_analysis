@@ -24,7 +24,7 @@ Notes
 
 Typical usage
 -------------
-    from megavul_diff_analysis.scripts.megavul.experiment_tracker import ExperimentTracker
+    from megavul_diff_analysis.bn.experiment_tracker import ExperimentTracker
 
     tracker = ExperimentTracker(base_dir, experiment_config)
 

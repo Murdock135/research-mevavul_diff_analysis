@@ -20,7 +20,7 @@ import argparse
 import logging
 from pathlib import Path
 
-from megavul_diff_analysis.scripts.megavul.bn_utils import BNPipeline
+from megavul_diff_analysis.bn.pipeline import BNPipeline
 from megavul_diff_analysis.utils.config_utils import find_project_root
 from megavul_diff_analysis.utils.logging import setup_logging
 

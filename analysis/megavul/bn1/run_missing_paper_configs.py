@@ -9,16 +9,20 @@ Missing configs:
 
 Usage
 -----
-    uv run python -m megavul_diff_analysis.scripts.megavul.bn1.run_missing_paper_configs
+    uv run python analysis/megavul/bn1/run_missing_paper_configs.py
 """
 
 import logging
+import sys
 from multiprocessing import Pool
+from pathlib import Path
 
 import pandas as pd
 import tqdm
 
-from megavul_diff_analysis.scripts.megavul.bn1.tune_bn1 import run_config
+sys.path.insert(0, str(Path(__file__).parent))
+from tune_bn1 import run_config
+
 from megavul_diff_analysis.utils.config_utils import find_project_root
 from megavul_diff_analysis.utils.logging import setup_logging
 

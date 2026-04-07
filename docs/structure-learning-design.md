@@ -61,7 +61,7 @@ def hcs_structure_learning(data, delta, c):
 
 ## Implementation Plan
 
-### 1. `src/diff_analysis/scripts/megavul/bn_utils.py`
+### 1. `src/megavul_diff_analysis/bn/pipeline.py`
 
 **New imports:**
 ```python
@@ -160,7 +160,7 @@ self.edges = list(best_dag.edges())
 
 ---
 
-### 2. `src/diff_analysis/scripts/megavul/bn1/learn_dag_isvul.py`
+### 2. `analysis/megavul/bn1/learn_dag_isvul.py`
 
 Updated CLI args (replacing old `--tabu-length 10 --max-iter 1000`):
 
@@ -182,7 +182,7 @@ def build_stem(method, mi_threshold):
 
 ---
 
-### 3. `src/diff_analysis/scripts/megavul/bn1/tune_bn1.py` *(new)*
+### 3. `analysis/megavul/bn1/tune_bn1.py`
 
 Grid search over preprocessing and structure learning hyperparameters.
 HCS handles restart count adaptively — only tune the "outer" hyperparameters.
@@ -210,24 +210,24 @@ HCS_MAX   = 50
 
 ```bash
 # 1. Smoke-test: should converge in a few restarts with loose c
-uv run python -m diff_analysis.scripts.megavul.bn1.learn_dag_isvul \
+uv run python analysis/megavul/bn1/learn_dag_isvul.py \
   --mi-threshold 50 --hcs-delta 0.05 --hcs-c 0.20 --hcs-max-restarts 10
 
 # 2. Full grid search (~10–30 min)
-uv run python -m diff_analysis.scripts.megavul.bn1.tune_bn1
+uv run python analysis/megavul/bn1/tune_bn1.py
 
 # 3. Inspect results
-head -5 data/results/tune_bn1_grid.csv
+head -5 data/results/tune_bn1/<timestamp>/summary.csv
 
 # 4. Production run with best config + tight HCS
-uv run python -m diff_analysis.scripts.megavul.bn1.learn_dag_isvul \
+uv run python analysis/megavul/bn1/learn_dag_isvul.py \
   --mi-threshold <best> --tabu-length <best> --max-indegree <best> \
   --hcs-delta 0.05 --hcs-c 0.05 --hcs-max-restarts 100
 
 # 5. Fit and visualize as before
-uv run python -m diff_analysis.scripts.megavul.bn1.fit_bn1 \
-  --pipeline-file data/results/<stem>_pipeline.pkl
-uv run python -m diff_analysis.scripts.megavul.bn1.visualize_bn1 \
-  --pipeline-file data/results/<stem>_pipeline.pkl \
-  --model-file data/results/<stem>_fitted.pkl
+uv run python analysis/megavul/bn1/fit_bn1.py \
+  --pipeline-file data/results/bn1/<stem>_pipeline.pkl
+uv run python analysis/megavul/bn1/visualize_bn1.py \
+  --pipeline-file data/results/bn1/<stem>_pipeline.pkl \
+  --model-file data/results/bn1/<stem>_fitted.pkl
 ```

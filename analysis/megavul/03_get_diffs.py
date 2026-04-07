@@ -1,7 +1,8 @@
 """
+NOTE: This script MUST BE run inside a Docker container with Coming installed and configured, as it relies on Coming's command-line interface to compute diffs.
 Usage:
-  python -m megavul_diff_analysis.scripts.megavul.docker.get_diffs bug_fixing
-  python -m megavul_diff_analysis.scripts.megavul.docker.get_diffs bug_inducing
+  python analysis/megavul/03_get_diffs.py bug_fixing
+  python analysis/megavul/03_get_diffs.py bug_inducing
 
 bug_fixing:
 Get diff results from coming tool by treating vulnerable code as source and patched code as target.

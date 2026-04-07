@@ -2,11 +2,11 @@
 
 ## BN1 (code changes → is_vul)
 
-Script: `src/megavul_diff_analysis/scripts/megavul/bn1/visualize_bn1.py`
+Script: `analysis/megavul/bn1/visualize_bn1.py`
 Outputs: `data/results/figures/bn1/`, `data/results/tables/bn1/`
 
-### Methodology (HCS + grid search) — requires bn_utils.py HCS impl
-- [x] Implement HCS random restarts in `bn_utils.py` (store `hcs_history`, `edge_inclusion` on pipeline)
+### Methodology (HCS + grid search)
+- [x] Implement HCS random restarts in `bn/pipeline.py` (store `hcs_history`, `edge_inclusion` on pipeline)
 - [x] Add HCS CLI args to `learn_dag_isvul.py`
 - [x] Create `tune_bn1.py` grid search (27 configs × HCS adaptive restarts)
 - [ ] Re-run structure learning + fitting with best config from grid search

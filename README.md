@@ -91,11 +91,11 @@ Run via `./scripts/_start.sh` then `uv run python pipeline_megavul_docker.py bug
 
 | Step | Script | Input | Output |
 |------|--------|-------|--------|
-| 1 | `extract.py` | `data/raw/megavul/*.json` | `data/processed/megavul/megavul_pairs.csv` |
-| 2 | `create_pairs.py` | `megavul_pairs.csv` | `data/interim/megavul/<commit>/<func>/` |
-| 3 ⚠️ | `docker/get_diffs.py bug_fixing` | pair directories | `change_frequency_bug_fixing.json` per pair |
-| 3 ⚠️ | `docker/get_diffs.py bug_inducing` | pair directories | `change_frequency_bug_inducing.json` per pair |
-| 4 | `build_feature_matrix.py` | pair directories + change JSONs | `data/processed/megavul/feature_matrix.parquet` |
+| 1 | `analysis/megavul/01_extract.py` | `data/raw/megavul/*.json` | `data/processed/megavul/megavul_pairs.csv` |
+| 2 | `analysis/megavul/02_create_pairs.py` | `megavul_pairs.csv` | `data/interim/megavul/<commit>/<func>/` |
+| 3 ⚠️ | `analysis/megavul/03_get_diffs.py bug_fixing` | pair directories | `change_frequency_bug_fixing.json` per pair |
+| 3 ⚠️ | `analysis/megavul/03_get_diffs.py bug_inducing` | pair directories | `change_frequency_bug_inducing.json` per pair |
+| 4 | `analysis/megavul/04_build_feature_matrix.py` | pair directories + change JSONs | `data/processed/megavul/feature_matrix.parquet` |
 
 > ⚠️ Step 3 runs the [Coming](https://github.com/SpoonLabs/coming) AST diff tool, which requires the Docker container.
 >
@@ -105,21 +105,21 @@ Run via `./scripts/_start.sh` then `uv run python pipeline_megavul_docker.py bug
 
 | Step | Script | Purpose | Config |
 |------|--------|---------|--------|
-| 5 | `bn1/learn_dag_isvul.py` | Learn DAG structure via HillClimbSearch + random restarts | CLI args (`--help`) |
-| 5 (alt) | `bn1/tune_bn1.py` | Grid search over MI threshold × tabu length × max indegree | Edit globals at top of file |
-| 6 | `bn1/fit_bn1.py` | Fit conditional probability distributions on learned structure | CLI args (`--help`) |
-| 7 | `bn1/visualize_bn1.py` | Generate paper figures (DAG, heatmaps, MI bar chart) and tables | CLI args (`--help`) |
+| 5 | `analysis/megavul/bn1/learn_dag_isvul.py` | Learn DAG structure via HillClimbSearch + random restarts | CLI args (`--help`) |
+| 5 (alt) | `analysis/megavul/bn1/tune_bn1.py` | Grid search over MI threshold × tabu length × max indegree | Edit globals at top of file |
+| 6 | `analysis/megavul/bn1/fit_bn1.py` | Fit conditional probability distributions on learned structure | CLI args (`--help`) |
+| 7 | `analysis/megavul/bn1/visualize_bn1.py` | Generate paper figures (DAG, heatmaps, MI bar chart) and tables | CLI args (`--help`) |
 
 ```bash
 # Structure learning
-uv run python -m megavul_diff_analysis.scripts.megavul.bn1.learn_dag_isvul --mi-threshold 100 --tabu-length 50
+uv run python analysis/megavul/bn1/learn_dag_isvul.py --mi-threshold 100 --tabu-length 50
 
 # Or grid search
-uv run python -m megavul_diff_analysis.scripts.megavul.bn1.tune_bn1
+uv run python analysis/megavul/bn1/tune_bn1.py
 
 # Fit and visualize
-uv run python -m megavul_diff_analysis.scripts.megavul.bn1.fit_bn1 --pipeline-file data/results/bn1/<stem>_pipeline.pkl
-uv run python -m megavul_diff_analysis.scripts.megavul.bn1.visualize_bn1 --help
+uv run python analysis/megavul/bn1/fit_bn1.py --pipeline-file data/results/bn1/<stem>_pipeline.pkl
+uv run python analysis/megavul/bn1/visualize_bn1.py --help
 ```
 
 ---

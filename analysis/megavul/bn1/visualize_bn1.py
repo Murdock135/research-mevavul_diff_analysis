@@ -32,7 +32,7 @@ import seaborn as sns
 from pgmpy.inference import VariableElimination
 from sklearn.feature_selection import mutual_info_classif
 
-from megavul_diff_analysis.scripts.megavul.bn_utils import META_COLS, BNPipeline
+from megavul_diff_analysis.bn.pipeline import META_COLS, BNPipeline
 from megavul_diff_analysis.utils.config_utils import find_project_root
 from megavul_diff_analysis.utils.logging import setup_logging
 

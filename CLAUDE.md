@@ -23,16 +23,16 @@ uv run python pipeline_megavul_docker.py bug_fixing
 uv run python pipeline_megavul_docker.py bug_inducing
 
 # Or step by step:
-uv run python -m megavul_diff_analysis.scripts.megavul.extract
-uv run python -m megavul_diff_analysis.scripts.megavul.create_pairs
-uv run python -m megavul_diff_analysis.scripts.megavul.docker.get_diffs bug_fixing
-uv run python -m megavul_diff_analysis.scripts.megavul.docker.get_diffs bug_inducing
-uv run python -m megavul_diff_analysis.scripts.megavul.build_feature_matrix
+uv run python analysis/megavul/01_extract.py
+uv run python analysis/megavul/02_create_pairs.py
+uv run python analysis/megavul/03_get_diffs.py bug_fixing
+uv run python analysis/megavul/03_get_diffs.py bug_inducing
+uv run python analysis/megavul/04_build_feature_matrix.py
 
 # BN1 analysis (no Docker required):
-uv run python -m megavul_diff_analysis.scripts.megavul.bn1.learn_dag_isvul
-uv run python -m megavul_diff_analysis.scripts.megavul.bn1.fit_bn1 --pipeline-file <path>
-uv run python -m megavul_diff_analysis.scripts.megavul.bn1.visualize_bn1
+uv run python analysis/megavul/bn1/learn_dag_isvul.py
+uv run python analysis/megavul/bn1/fit_bn1.py --pipeline-file <path>
+uv run python analysis/megavul/bn1/visualize_bn1.py
 ```
 
 Docker internals: container name `megavul-analysis`, Coming JAR at `/opt/coming.jar`, GumTree at `/opt/gumtree`, `JAVA_OPTS=-Xmx4G`. The `.` directory is mounted at `/app`; `.venv` is a separate volume so local edits are immediately reflected inside.
@@ -40,31 +40,31 @@ Docker internals: container name `megavul-analysis`, Coming JAR at `/opt/coming.
 ## Project Structure
 
 ```
-src/megavul_diff_analysis/        # Main Python package
+src/megavul_diff_analysis/        # Main Python package (importable library code)
 ├── datapreparator/
 │   └── megavul.py                # MegaVulExtractor + MegaVulDataPreparator
 ├── difftools/
 │   └── coming_tool.py            # ComingTool (subprocess wrapper for Coming JAR)
-├── scripts/
-│   └── megavul/
-│       ├── extract.py            # Step 1: JSON → megavul_pairs.csv
-│       ├── create_pairs.py       # Step 2: CSV → pair directories
-│       ├── docker/               # ← requires Docker
-│       │   └── get_diffs.py      # Step 3: run Coming on pairs
-│       ├── build_feature_matrix.py  # Step 4: Coming outputs → feature_matrix.parquet
-│       ├── experiment_tracker.py    # Grid search result tracking
-│       ├── bn_utils.py              # BNPipeline + HCS implementation
-│       └── bn1/                  # BN1: code changes → is_vul
-│           ├── learn_dag_isvul.py
-│           ├── fit_bn1.py
-│           ├── tune_bn1.py
-│           ├── visualize_bn1.py
-│           └── run_missing_paper_configs.py
+├── bn/                           # Bayesian network library
+│   ├── pipeline.py               # BNPipeline + HCS implementation
+│   └── experiment_tracker.py     # ExperimentTracker for grid search runs
 ├── types.py                      # Pydantic data models (MegaVul + Coming types)
 └── utils/
     ├── config_utils.py           # find_project_root()
     ├── logging.py
     └── str_utils.py
+
+analysis/megavul/                 # Bespoke analysis scripts (not a package)
+├── 01_extract.py                 # Step 1: JSON → megavul_pairs.csv
+├── 02_create_pairs.py            # Step 2: CSV → pair directories
+├── 03_get_diffs.py               # Step 3: run Coming on pairs  ← requires Docker
+├── 04_build_feature_matrix.py    # Step 4: Coming outputs → feature_matrix.parquet
+└── bn1/                          # BN1: code changes → is_vul
+    ├── learn_dag_isvul.py
+    ├── fit_bn1.py
+    ├── tune_bn1.py
+    ├── visualize_bn1.py
+    └── run_missing_paper_configs.py
 
 pipeline_megavul_docker.py        # Full pipeline (steps 1-3) — run inside Docker
 scripts/                          # Shell scripts (_start.sh, _delete.sh, etc.)
@@ -104,10 +104,10 @@ data/
 
 ### MegaVul (Java, Coming)
 
-1. **`extract.py`** — Reads MegaVul JSON (CVE → commits → files → functions), saves `data/processed/megavul/megavul_pairs.csv`.
-2. **`create_pairs.py`** — Writes pair directories to `data/interim/megavul/<commit_hash>/<func_name>/`. Java snippets are wrapped in a class declaration so Spoon can parse them.
-3. **`docker/get_diffs.py`** *(Docker required)* — Runs Coming on each pair directory, saves `change_frequency_{direction}.json` (`direction` = `bug_fixing` or `bug_inducing`).
-4. **`build_feature_matrix.py`** — Reads all `change_frequency_*.json` files, builds binary feature matrix, saves `data/processed/megavul/feature_matrix.parquet`.
+1. **`01_extract.py`** — Reads MegaVul JSON (CVE → commits → files → functions), saves `data/processed/megavul/megavul_pairs.csv`.
+2. **`02_create_pairs.py`** — Writes pair directories to `data/interim/megavul/<commit_hash>/<func_name>/`. Java snippets are wrapped in a class declaration so Spoon can parse them.
+3. **`03_get_diffs.py`** *(Docker required)* — Runs Coming on each pair directory, saves `change_frequency_{direction}.json` (`direction` = `bug_fixing` or `bug_inducing`).
+4. **`04_build_feature_matrix.py`** — Reads all `change_frequency_*.json` files, builds binary feature matrix, saves `data/processed/megavul/feature_matrix.parquet`.
 
 ### BN1: code changes → is_vul
 
@@ -131,9 +131,10 @@ All data structures are Pydantic `BaseModel`s:
 - `MegaVulExtractor` — Loads nested MegaVul JSON, creates `MegaVCodePair` per function.
 - `MegaVulDataPreparator.write_single_pair()` — Directories named `<commit_hash>/<func_name>` (with numeric suffix for same-name collisions within a commit). Java snippets wrapped in `class <func_name> { ... }` so Spoon produces non-empty ASTs.
 
-### BN Infrastructure ([src/megavul_diff_analysis/scripts/megavul/bn_utils.py](src/megavul_diff_analysis/scripts/megavul/bn_utils.py))
+### BN Infrastructure ([src/megavul_diff_analysis/bn/pipeline.py](src/megavul_diff_analysis/bn/pipeline.py))
 - `BNPipeline` — Stateful pipeline: `preprocess()` → `learn_structure()` → `fit()`. Each method returns `self` for chaining. Intermediate state picklable for reproducibility.
 - HCS random restarts: random DAG initialization, restart loop with configurable δ/c/max_restarts, edge inclusion frequency tracking across restarts.
+- `ExperimentTracker` ([src/megavul_diff_analysis/bn/experiment_tracker.py](src/megavul_diff_analysis/bn/experiment_tracker.py)) — manages directory layout and incremental saves for grid search runs.
 
 ### Project Root Detection
 `find_project_root()` in [`src/megavul_diff_analysis/utils/config_utils.py`](src/megavul_diff_analysis/utils/config_utils.py) walks up from `__file__` to find the directory containing `pyproject.toml`. All scripts use this for absolute paths.

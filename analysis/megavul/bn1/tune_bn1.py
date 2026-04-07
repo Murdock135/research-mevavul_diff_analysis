@@ -8,7 +8,7 @@ all result.json files and builds summary.csv / summary.jsonl.
 
 Usage
 -----
-    uv run python -m megavul_diff_analysis.scripts.megavul.bn1.tune_bn1
+    uv run python analysis/megavul/bn1/tune_bn1.py
 
 Outputs (under data/results/tune_bn1/<timestamp>/)
 ---------------------------------------------------
@@ -33,8 +33,8 @@ import tqdm
 from pgmpy.base import DAG as PgmDAG
 from pgmpy.estimators import BIC as BicScore
 
-from megavul_diff_analysis.scripts.megavul.bn_utils import BNPipeline
-from megavul_diff_analysis.scripts.megavul.experiment_tracker import ExperimentTracker
+from megavul_diff_analysis.bn.pipeline import BNPipeline
+from megavul_diff_analysis.bn.experiment_tracker import ExperimentTracker
 from megavul_diff_analysis.utils.config_utils import find_project_root
 from megavul_diff_analysis.utils.logging import setup_logging
 
@@ -192,7 +192,7 @@ if __name__ == "__main__":
     configs = [dict(zip(keys, combo)) for combo in itertools.product(*GRID.values())]
 
     experiment_config = {
-        "script":    "megavul_diff_analysis.scripts.megavul.bn1.tune_bn1",
+        "script":    "analysis/megavul/bn1/tune_bn1.py",
         "n_workers": N_WORKERS,
         "grid":      GRID,
         "hcs_params": {
