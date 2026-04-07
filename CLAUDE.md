@@ -19,20 +19,20 @@ The full pipeline **must be run inside Docker** — Coming (Java AST diff tool) 
 ./scripts/_start.sh
 
 # Inside Docker — run full pipeline
-uv run python pipeline_megavul_docker.py bug_fixing
-uv run python pipeline_megavul_docker.py bug_inducing
+uv run python scripts/pipeline.py bug_fixing
+uv run python scripts/pipeline.py bug_inducing
 
 # Or step by step:
-uv run python analysis/megavul/01_extract.py
-uv run python analysis/megavul/02_create_pairs.py
-uv run python analysis/megavul/03_get_diffs.py bug_fixing
-uv run python analysis/megavul/03_get_diffs.py bug_inducing
-uv run python analysis/megavul/04_build_feature_matrix.py
+uv run python scripts/01_extract.py
+uv run python scripts/02_create_pairs.py
+uv run python scripts/03_get_diffs.py bug_fixing
+uv run python scripts/03_get_diffs.py bug_inducing
+uv run python scripts/04_build_feature_matrix.py
 
 # BN1 analysis (no Docker required):
-uv run python analysis/megavul/bn1/learn_dag_isvul.py
-uv run python analysis/megavul/bn1/fit_bn1.py --pipeline-file <path>
-uv run python analysis/megavul/bn1/visualize_bn1.py
+uv run python analysis/bn1/learn_dag_isvul.py
+uv run python analysis/bn1/fit_bn1.py --pipeline-file <path>
+uv run python analysis/bn1/visualize_bn1.py
 ```
 
 Docker internals: container name `megavul-analysis`, Coming JAR at `/opt/coming.jar`, GumTree at `/opt/gumtree`, `JAVA_OPTS=-Xmx4G`. The `.` directory is mounted at `/app`; `.venv` is a separate volume so local edits are immediately reflected inside.
@@ -54,11 +54,14 @@ src/megavul_diff_analysis/        # Main Python package (importable library code
     ├── logging.py
     └── str_utils.py
 
-analysis/megavul/                 # Bespoke analysis scripts (not a package)
+scripts/                          # Data pipeline scripts (ETL, step-by-step or all-at-once)
+├── pipeline.py                   # Full pipeline (steps 1-3) — run inside Docker
 ├── 01_extract.py                 # Step 1: JSON → megavul_pairs.csv
 ├── 02_create_pairs.py            # Step 2: CSV → pair directories
 ├── 03_get_diffs.py               # Step 3: run Coming on pairs  ← requires Docker
-├── 04_build_feature_matrix.py    # Step 4: Coming outputs → feature_matrix.parquet
+└── 04_build_feature_matrix.py    # Step 4: Coming outputs → feature_matrix.parquet
+
+analysis/                         # Research analysis scripts
 └── bn1/                          # BN1: code changes → is_vul
     ├── learn_dag_isvul.py
     ├── fit_bn1.py
@@ -66,8 +69,7 @@ analysis/megavul/                 # Bespoke analysis scripts (not a package)
     ├── visualize_bn1.py
     └── run_missing_paper_configs.py
 
-pipeline_megavul_docker.py        # Full pipeline (steps 1-3) — run inside Docker
-scripts/                          # Shell scripts (_start.sh, _delete.sh, etc.)
+bin/                              # Shell scripts (_start.sh, _delete.sh, etc.)
 ```
 
 ## Data Layout
@@ -104,17 +106,17 @@ data/
 
 ### MegaVul (Java, Coming)
 
-1. **`01_extract.py`** — Reads MegaVul JSON (CVE → commits → files → functions), saves `data/processed/megavul/megavul_pairs.csv`.
-2. **`02_create_pairs.py`** — Writes pair directories to `data/interim/megavul/<commit_hash>/<func_name>/`. Java snippets are wrapped in a class declaration so Spoon can parse them.
-3. **`03_get_diffs.py`** *(Docker required)* — Runs Coming on each pair directory, saves `change_frequency_{direction}.json` (`direction` = `bug_fixing` or `bug_inducing`).
-4. **`04_build_feature_matrix.py`** — Reads all `change_frequency_*.json` files, builds binary feature matrix, saves `data/processed/megavul/feature_matrix.parquet`.
+1. **`scripts/01_extract.py`** — Reads MegaVul JSON (CVE → commits → files → functions), saves `data/processed/megavul/megavul_pairs.csv`.
+2. **`scripts/02_create_pairs.py`** — Writes pair directories to `data/interim/megavul/<commit_hash>/<func_name>/`. Java snippets are wrapped in a class declaration so Spoon can parse them.
+3. **`scripts/03_get_diffs.py`** *(Docker required)* — Runs Coming on each pair directory, saves `change_frequency_{direction}.json` (`direction` = `bug_fixing` or `bug_inducing`).
+4. **`scripts/04_build_feature_matrix.py`** — Reads all `change_frequency_*.json` files, builds binary feature matrix, saves `data/processed/megavul/feature_matrix.parquet`.
 
 ### BN1: code changes → is_vul
 
-5. **`bn1/learn_dag_isvul.py`** — Loads `feature_matrix.parquet`, runs HillClimbSearch with HCS random restarts, saves edges + pipeline snapshot to `data/results/bn1/`.
-6. **`bn1/fit_bn1.py`** — Loads pipeline snapshot, fits CPDs with BDeu prior, saves fitted model.
-7. **`bn1/tune_bn1.py`** — Grid search over MI threshold × tabu length × max indegree. Outputs to `data/results/tune_bn1/<timestamp>/`.
-8. **`bn1/visualize_bn1.py`** — Generates paper figures (DAG, heatmaps, MI bar chart) and tables. Outputs to `data/results/figures/bn1/` and `data/results/tables/bn1/`.
+5. **`analysis/bn1/learn_dag_isvul.py`** — Loads `feature_matrix.parquet`, runs HillClimbSearch with HCS random restarts, saves edges + pipeline snapshot to `data/results/bn1/`.
+6. **`analysis/bn1/fit_bn1.py`** — Loads pipeline snapshot, fits CPDs with BDeu prior, saves fitted model.
+7. **`analysis/bn1/tune_bn1.py`** — Grid search over MI threshold × tabu length × max indegree. Outputs to `data/results/tune_bn1/<timestamp>/`.
+8. **`analysis/bn1/visualize_bn1.py`** — Generates paper figures (DAG, heatmaps, MI bar chart) and tables. Outputs to `data/results/figures/bn1/` and `data/results/tables/bn1/`.
 
 ## Key Architecture
 

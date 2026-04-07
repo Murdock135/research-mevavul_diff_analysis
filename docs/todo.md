@@ -2,7 +2,7 @@
 
 ## BN1 (code changes → is_vul)
 
-Script: `analysis/megavul/bn1/visualize_bn1.py`
+Script: `analysis/bn1/visualize_bn1.py`
 Outputs: `data/results/figures/bn1/`, `data/results/tables/bn1/`
 
 ### Methodology (HCS + grid search)

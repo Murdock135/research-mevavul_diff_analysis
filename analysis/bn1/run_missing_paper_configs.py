@@ -9,7 +9,7 @@ Missing configs:
 
 Usage
 -----
-    uv run python analysis/megavul/bn1/run_missing_paper_configs.py
+    uv run python analysis/bn1/run_missing_paper_configs.py
 """
 
 import logging

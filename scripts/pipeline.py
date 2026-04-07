@@ -2,8 +2,8 @@
 MegaVul analysis pipeline — steps 1–3 (requires Docker / Coming tool).
 
 Usage:
-  uv run python pipeline_megavul_docker.py bug_fixing
-  uv run python pipeline_megavul_docker.py bug_inducing
+  uv run python scripts/pipeline.py bug_fixing
+  uv run python scripts/pipeline.py bug_inducing
 
 Steps:
   1. Extract code pairs from MegaVul JSON → data/processed/megavul/megavul_pairs.csv
@@ -11,8 +11,8 @@ Steps:
   3. Run Coming on all pairs → .../change_frequency_{direction}.json
 
 Run step 3 individually:
-  uv run python -m megavul_diff_analysis.scripts.megavul.docker.get_diffs bug_fixing
-  uv run python -m megavul_diff_analysis.scripts.megavul.docker.get_diffs bug_inducing
+  uv run python scripts/03_get_diffs.py bug_fixing
+  uv run python scripts/03_get_diffs.py bug_inducing
 """
 
 from megavul_diff_analysis.datapreparator.megavul import MegaVulExtractor, MegaVulDataPreparator

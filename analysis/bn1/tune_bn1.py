@@ -8,7 +8,7 @@ all result.json files and builds summary.csv / summary.jsonl.
 
 Usage
 -----
-    uv run python analysis/megavul/bn1/tune_bn1.py
+    uv run python analysis/bn1/tune_bn1.py
 
 Outputs (under data/results/tune_bn1/<timestamp>/)
 ---------------------------------------------------
@@ -192,7 +192,7 @@ if __name__ == "__main__":
     configs = [dict(zip(keys, combo)) for combo in itertools.product(*GRID.values())]
 
     experiment_config = {
-        "script":    "analysis/megavul/bn1/tune_bn1.py",
+        "script":    "analysis/bn1/tune_bn1.py",
         "n_workers": N_WORKERS,
         "grid":      GRID,
         "hcs_params": {
