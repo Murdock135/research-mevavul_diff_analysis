@@ -161,4 +161,5 @@ data/
 
 ## Documentation
 
-See [CLAUDE.md](CLAUDE.md) for architecture details and implementation notes.
+- Start at [docs/](docs/README.md)
+- For implementation details and architecture notes, see [CLAUDE.md](CLAUDE.md).
