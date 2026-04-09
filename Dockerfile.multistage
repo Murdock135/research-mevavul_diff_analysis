@@ -54,6 +54,7 @@ RUN chmod +x /usr/local/bin/coming
 RUN chmod +x /usr/local/bin/gumtree
 
 # Copy python source code and dependency files
+# TODO: Copy the entire source code into the container
 COPY pyproject.toml uv.lock* ./
 COPY src/ ./src/
 COPY README.md ./
