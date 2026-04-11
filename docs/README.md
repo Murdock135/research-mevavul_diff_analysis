@@ -41,4 +41,5 @@ The [metrics reference](metrics-reference.md) defines every metric that appears 
 | [discussions/grid-search-observations.md](discussions/grid-search-observations.md) | Empirical findings from the 27-config grid search; justification for the final configuration |
 | [planned-analyses.md](planned-analyses.md) | Analyses planned for the paper, organized by data source; early interpretable findings |
 | [metrics-reference.md](metrics-reference.md) | Definitions of every metric reported in the results notebooks |
+| [cpds-json-format.md](cpds-json-format.md) | Schema and loading recipes for the `_cpds.json` output of `fit_bn1.py` |
 | [todo.md](todo.md) | Open tasks: figures, tables, BN2/BN3 variants, infrastructure |

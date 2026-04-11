@@ -423,13 +423,54 @@ class BNPipeline:
         print(self.bn.get_cpds(node))
         return self
 
-    def save_cpd(self, out_dir: Path, stem: str, node: str | None = None) -> "BNPipeline":
+    def save_cpd(self, out_dir: Path, stem: str) -> "BNPipeline":
+        """Save CPDs for all nodes as human-readable text (<stem>_cpds.txt)."""
         assert self.bn is not None, "Run fit() before save_cpd()"
-        node = node or self.target_col
-        if node not in self.bn.nodes():
-            logger.warning(f"{node!r} not found in BN nodes.")
-            return self
-        cpd_path = out_dir / f"{stem}_cpd_{node}.txt"
-        cpd_path.write_text(str(self.bn.get_cpds(node)))
-        logger.info(f"Saved CPD → {cpd_path}")
+        cpd_path = out_dir / f"{stem}_cpds.txt"
+        lines = []
+        for cpd in self.bn.get_cpds():
+            lines.append(f"CPD for {cpd.variable}:\n")
+            lines.append(str(cpd))
+            lines.append("\n")
+        cpd_path.write_text("\n".join(lines))
+        logger.info(f"Saved CPDs ({len(self.bn.get_cpds())} nodes) → {cpd_path}")
+        return self
+
+    def save_cpd_json(self, out_dir: Path, stem: str) -> "BNPipeline":
+        """Save CPDs for all nodes as structured JSON (<stem>_cpds.json).
+
+        Each entry contains:
+          variable    : node name
+          parents     : list of parent node names
+          state_names : dict mapping each variable to its possible states
+          table       : list of records; each record has one key per parent
+                        (parent state assignment) plus one key per node state
+                        (e.g. "is_vul=0", "is_vul=1") with the probability value
+        """
+        import itertools
+        assert self.bn is not None, "Run fit() before save_cpd_json()"
+        cpds = []
+        for cpd in self.bn.get_cpds():
+            parents      = cpd.variables[1:]
+            node_states  = cpd.state_names[cpd.variable]
+            vals         = cpd.get_values()   # shape: (n_node_states, n_parent_combos)
+            parent_state_lists = [cpd.state_names[p] for p in parents]
+            table = []
+            for i, combo in enumerate(itertools.product(*parent_state_lists)):
+                record = {p: s for p, s in zip(parents, combo)}
+                record.update({
+                    f"{cpd.variable}={s}": round(float(vals[j, i]), 8)
+                    for j, s in enumerate(node_states)
+                })
+                table.append(record)
+            cpds.append({
+                "variable":    cpd.variable,
+                "parents":     parents,
+                "state_names": cpd.state_names,
+                "table":       table,
+            })
+        cpd_path = out_dir / f"{stem}_cpds.json"
+        with open(cpd_path, "w") as f:
+            json.dump(cpds, f, indent=2)
+        logger.info(f"Saved CPDs ({len(cpds)} nodes) → {cpd_path}")
         return self
