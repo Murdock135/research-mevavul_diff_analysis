@@ -1,0 +1,1815 @@
+[
+  {
+    "variable": "delete-node_If_Block",
+    "parents": [
+      "delete-node_Invocation_Block",
+      "is_vul"
+    ],
+    "state_names": {
+      "delete-node_If_Block": [
+        "0",
+        "1"
+      ],
+      "delete-node_Invocation_Block": [
+        "0",
+        "1"
+      ],
+      "is_vul": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "delete-node_Invocation_Block": "0",
+        "is_vul": "0",
+        "delete-node_If_Block=0": 0.95759583,
+        "delete-node_If_Block=1": 0.04240417
+      },
+      {
+        "delete-node_Invocation_Block": "0",
+        "is_vul": "1",
+        "delete-node_If_Block=0": 0.76982748,
+        "delete-node_If_Block=1": 0.23017252
+      },
+      {
+        "delete-node_Invocation_Block": "1",
+        "is_vul": "0",
+        "delete-node_If_Block=0": 0.90525328,
+        "delete-node_If_Block=1": 0.09474672
+      },
+      {
+        "delete-node_Invocation_Block": "1",
+        "is_vul": "1",
+        "delete-node_If_Block=0": 0.93442136,
+        "delete-node_If_Block=1": 0.06557864
+      }
+    ]
+  },
+  {
+    "variable": "delete-node_LocalVariable_Block",
+    "parents": [
+      "delete-node_If_Block",
+      "delete-node_Invocation_Block",
+      "insert-node_LocalVariable_Block"
+    ],
+    "state_names": {
+      "delete-node_LocalVariable_Block": [
+        "0",
+        "1"
+      ],
+      "delete-node_If_Block": [
+        "0",
+        "1"
+      ],
+      "delete-node_Invocation_Block": [
+        "0",
+        "1"
+      ],
+      "insert-node_LocalVariable_Block": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "delete-node_If_Block": "0",
+        "delete-node_Invocation_Block": "0",
+        "insert-node_LocalVariable_Block": "0",
+        "delete-node_LocalVariable_Block=0": 0.96209386,
+        "delete-node_LocalVariable_Block=1": 0.03790614
+      },
+      {
+        "delete-node_If_Block": "0",
+        "delete-node_Invocation_Block": "0",
+        "insert-node_LocalVariable_Block": "1",
+        "delete-node_LocalVariable_Block=0": 0.88323353,
+        "delete-node_LocalVariable_Block=1": 0.11676647
+      },
+      {
+        "delete-node_If_Block": "0",
+        "delete-node_Invocation_Block": "1",
+        "insert-node_LocalVariable_Block": "0",
+        "delete-node_LocalVariable_Block=0": 0.80262091,
+        "delete-node_LocalVariable_Block=1": 0.19737909
+      },
+      {
+        "delete-node_If_Block": "0",
+        "delete-node_Invocation_Block": "1",
+        "insert-node_LocalVariable_Block": "1",
+        "delete-node_LocalVariable_Block=0": 0.66464891,
+        "delete-node_LocalVariable_Block=1": 0.33535109
+      },
+      {
+        "delete-node_If_Block": "1",
+        "delete-node_Invocation_Block": "0",
+        "insert-node_LocalVariable_Block": "0",
+        "delete-node_LocalVariable_Block=0": 0.67033632,
+        "delete-node_LocalVariable_Block=1": 0.32966368
+      },
+      {
+        "delete-node_If_Block": "1",
+        "delete-node_Invocation_Block": "0",
+        "insert-node_LocalVariable_Block": "1",
+        "delete-node_LocalVariable_Block=0": 0.43277311,
+        "delete-node_LocalVariable_Block=1": 0.56722689
+      },
+      {
+        "delete-node_If_Block": "1",
+        "delete-node_Invocation_Block": "1",
+        "insert-node_LocalVariable_Block": "0",
+        "delete-node_LocalVariable_Block=0": 0.5,
+        "delete-node_LocalVariable_Block=1": 0.5
+      },
+      {
+        "delete-node_If_Block": "1",
+        "delete-node_Invocation_Block": "1",
+        "insert-node_LocalVariable_Block": "1",
+        "delete-node_LocalVariable_Block=0": 0.17213115,
+        "delete-node_LocalVariable_Block=1": 0.82786885
+      }
+    ]
+  },
+  {
+    "variable": "delete-node_VariableRead_Invocation",
+    "parents": [
+      "delete-node_LocalVariable_Block",
+      "delete-node_Parameter_Method"
+    ],
+    "state_names": {
+      "delete-node_VariableRead_Invocation": [
+        "0",
+        "1"
+      ],
+      "delete-node_LocalVariable_Block": [
+        "0",
+        "1"
+      ],
+      "delete-node_Parameter_Method": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "delete-node_LocalVariable_Block": "0",
+        "delete-node_Parameter_Method": "0",
+        "delete-node_VariableRead_Invocation=0": 0.99218069,
+        "delete-node_VariableRead_Invocation=1": 0.00781931
+      },
+      {
+        "delete-node_LocalVariable_Block": "0",
+        "delete-node_Parameter_Method": "1",
+        "delete-node_VariableRead_Invocation=0": 0.69217082,
+        "delete-node_VariableRead_Invocation=1": 0.30782918
+      },
+      {
+        "delete-node_LocalVariable_Block": "1",
+        "delete-node_Parameter_Method": "0",
+        "delete-node_VariableRead_Invocation=0": 0.80209933,
+        "delete-node_VariableRead_Invocation=1": 0.19790067
+      },
+      {
+        "delete-node_LocalVariable_Block": "1",
+        "delete-node_Parameter_Method": "1",
+        "delete-node_VariableRead_Invocation=0": 0.94897959,
+        "delete-node_VariableRead_Invocation=1": 0.05102041
+      }
+    ]
+  },
+  {
+    "variable": "move-tree_BinaryOperator_LocalVariable",
+    "parents": [
+      "delete-node_LocalVariable_Block"
+    ],
+    "state_names": {
+      "move-tree_BinaryOperator_LocalVariable": [
+        "0",
+        "1"
+      ],
+      "delete-node_LocalVariable_Block": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "delete-node_LocalVariable_Block": "0",
+        "move-tree_BinaryOperator_LocalVariable=0": 0.99902757,
+        "move-tree_BinaryOperator_LocalVariable=1": 0.00097243
+      },
+      {
+        "delete-node_LocalVariable_Block": "1",
+        "move-tree_BinaryOperator_LocalVariable=0": 0.96553447,
+        "move-tree_BinaryOperator_LocalVariable=1": 0.03446553
+      }
+    ]
+  },
+  {
+    "variable": "delete-node_Assignment_Block",
+    "parents": [
+      "delete-node_LocalVariable_Block",
+      "insert-node_Assignment_Block"
+    ],
+    "state_names": {
+      "delete-node_Assignment_Block": [
+        "0",
+        "1"
+      ],
+      "delete-node_LocalVariable_Block": [
+        "0",
+        "1"
+      ],
+      "insert-node_Assignment_Block": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "delete-node_LocalVariable_Block": "0",
+        "insert-node_Assignment_Block": "0",
+        "delete-node_Assignment_Block=0": 0.97983515,
+        "delete-node_Assignment_Block=1": 0.02016485
+      },
+      {
+        "delete-node_LocalVariable_Block": "0",
+        "insert-node_Assignment_Block": "1",
+        "delete-node_Assignment_Block=0": 0.89034205,
+        "delete-node_Assignment_Block=1": 0.10965795
+      },
+      {
+        "delete-node_LocalVariable_Block": "1",
+        "insert-node_Assignment_Block": "0",
+        "delete-node_Assignment_Block=0": 0.9192368,
+        "delete-node_Assignment_Block=1": 0.0807632
+      },
+      {
+        "delete-node_LocalVariable_Block": "1",
+        "insert-node_Assignment_Block": "1",
+        "delete-node_Assignment_Block=0": 0.70224719,
+        "delete-node_Assignment_Block=1": 0.29775281
+      }
+    ]
+  },
+  {
+    "variable": "move-tree_VariableRead_BinaryOperator",
+    "parents": [
+      "delete-node_LocalVariable_Block",
+      "insert-node_LocalVariable_Block"
+    ],
+    "state_names": {
+      "move-tree_VariableRead_BinaryOperator": [
+        "0",
+        "1"
+      ],
+      "delete-node_LocalVariable_Block": [
+        "0",
+        "1"
+      ],
+      "insert-node_LocalVariable_Block": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "delete-node_LocalVariable_Block": "0",
+        "insert-node_LocalVariable_Block": "0",
+        "move-tree_VariableRead_BinaryOperator=0": 0.98773722,
+        "move-tree_VariableRead_BinaryOperator=1": 0.01226278
+      },
+      {
+        "delete-node_LocalVariable_Block": "0",
+        "insert-node_LocalVariable_Block": "1",
+        "move-tree_VariableRead_BinaryOperator=0": 0.97624923,
+        "move-tree_VariableRead_BinaryOperator=1": 0.02375077
+      },
+      {
+        "delete-node_LocalVariable_Block": "1",
+        "insert-node_LocalVariable_Block": "0",
+        "move-tree_VariableRead_BinaryOperator=0": 0.96884639,
+        "move-tree_VariableRead_BinaryOperator=1": 0.03115361
+      },
+      {
+        "delete-node_LocalVariable_Block": "1",
+        "insert-node_LocalVariable_Block": "1",
+        "move-tree_VariableRead_BinaryOperator=0": 0.79396325,
+        "move-tree_VariableRead_BinaryOperator=1": 0.20603675
+      }
+    ]
+  },
+  {
+    "variable": "insert-node_If_Block",
+    "parents": [
+      "insert-node_LocalVariable_Block"
+    ],
+    "state_names": {
+      "insert-node_If_Block": [
+        "0",
+        "1"
+      ],
+      "insert-node_LocalVariable_Block": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "insert-node_LocalVariable_Block": "0",
+        "insert-node_If_Block=0": 0.91391145,
+        "insert-node_If_Block=1": 0.08608855
+      },
+      {
+        "insert-node_LocalVariable_Block": "1",
+        "insert-node_If_Block=0": 0.56193806,
+        "insert-node_If_Block=1": 0.43806194
+      }
+    ]
+  },
+  {
+    "variable": "is_vul",
+    "parents": [
+      "insert-node_Assignment_Block",
+      "insert-node_If_Block",
+      "insert-node_Invocation_Block"
+    ],
+    "state_names": {
+      "is_vul": [
+        "0",
+        "1"
+      ],
+      "insert-node_Assignment_Block": [
+        "0",
+        "1"
+      ],
+      "insert-node_If_Block": [
+        "0",
+        "1"
+      ],
+      "insert-node_Invocation_Block": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "insert-node_Assignment_Block": "0",
+        "insert-node_If_Block": "0",
+        "insert-node_Invocation_Block": "0",
+        "is_vul=0": 0.40757416,
+        "is_vul=1": 0.59242584
+      },
+      {
+        "insert-node_Assignment_Block": "0",
+        "insert-node_If_Block": "0",
+        "insert-node_Invocation_Block": "1",
+        "is_vul=0": 0.76472878,
+        "is_vul=1": 0.23527122
+      },
+      {
+        "insert-node_Assignment_Block": "0",
+        "insert-node_If_Block": "1",
+        "insert-node_Invocation_Block": "0",
+        "is_vul=0": 0.84170383,
+        "is_vul=1": 0.15829617
+      },
+      {
+        "insert-node_Assignment_Block": "0",
+        "insert-node_If_Block": "1",
+        "insert-node_Invocation_Block": "1",
+        "is_vul=0": 0.83201581,
+        "is_vul=1": 0.16798419
+      },
+      {
+        "insert-node_Assignment_Block": "1",
+        "insert-node_If_Block": "0",
+        "insert-node_Invocation_Block": "0",
+        "is_vul=0": 0.67689016,
+        "is_vul=1": 0.32310984
+      },
+      {
+        "insert-node_Assignment_Block": "1",
+        "insert-node_If_Block": "0",
+        "insert-node_Invocation_Block": "1",
+        "is_vul=0": 0.77149321,
+        "is_vul=1": 0.22850679
+      },
+      {
+        "insert-node_Assignment_Block": "1",
+        "insert-node_If_Block": "1",
+        "insert-node_Invocation_Block": "0",
+        "is_vul=0": 0.45939086,
+        "is_vul=1": 0.54060914
+      },
+      {
+        "insert-node_Assignment_Block": "1",
+        "insert-node_If_Block": "1",
+        "insert-node_Invocation_Block": "1",
+        "is_vul=0": 0.19811321,
+        "is_vul=1": 0.80188679
+      }
+    ]
+  },
+  {
+    "variable": "insert-node_Invocation_Block",
+    "parents": [
+      "insert-node_If_Block",
+      "insert-node_LocalVariable_Block"
+    ],
+    "state_names": {
+      "insert-node_Invocation_Block": [
+        "0",
+        "1"
+      ],
+      "insert-node_If_Block": [
+        "0",
+        "1"
+      ],
+      "insert-node_LocalVariable_Block": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "insert-node_If_Block": "0",
+        "insert-node_LocalVariable_Block": "0",
+        "insert-node_Invocation_Block=0": 0.89944921,
+        "insert-node_Invocation_Block=1": 0.10055079
+      },
+      {
+        "insert-node_If_Block": "0",
+        "insert-node_LocalVariable_Block": "1",
+        "insert-node_Invocation_Block=0": 0.61733333,
+        "insert-node_Invocation_Block=1": 0.38266667
+      },
+      {
+        "insert-node_If_Block": "1",
+        "insert-node_LocalVariable_Block": "0",
+        "insert-node_Invocation_Block=0": 0.95581395,
+        "insert-node_Invocation_Block=1": 0.04418605
+      },
+      {
+        "insert-node_If_Block": "1",
+        "insert-node_LocalVariable_Block": "1",
+        "insert-node_Invocation_Block=0": 0.9013683,
+        "insert-node_Invocation_Block=1": 0.0986317
+      }
+    ]
+  },
+  {
+    "variable": "delete-node_Invocation_LocalVariable",
+    "parents": [
+      "is_vul"
+    ],
+    "state_names": {
+      "delete-node_Invocation_LocalVariable": [
+        "0",
+        "1"
+      ],
+      "is_vul": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "is_vul": "0",
+        "delete-node_Invocation_LocalVariable=0": 0.9970232,
+        "delete-node_Invocation_LocalVariable=1": 0.0029768
+      },
+      {
+        "is_vul": "1",
+        "delete-node_Invocation_LocalVariable=0": 0.97526175,
+        "delete-node_Invocation_LocalVariable=1": 0.02473825
+      }
+    ]
+  },
+  {
+    "variable": "delete-node_Parameter_Method",
+    "parents": [
+      "is_vul"
+    ],
+    "state_names": {
+      "delete-node_Parameter_Method": [
+        "0",
+        "1"
+      ],
+      "is_vul": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "is_vul": "0",
+        "delete-node_Parameter_Method=0": 0.99291727,
+        "delete-node_Parameter_Method=1": 0.00708273
+      },
+      {
+        "is_vul": "1",
+        "delete-node_Parameter_Method=0": 0.97320879,
+        "delete-node_Parameter_Method=1": 0.02679121
+      }
+    ]
+  },
+  {
+    "variable": "insert-node_Invocation_LocalVariable",
+    "parents": [
+      "is_vul"
+    ],
+    "state_names": {
+      "insert-node_Invocation_LocalVariable": [
+        "0",
+        "1"
+      ],
+      "is_vul": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "is_vul": "0",
+        "insert-node_Invocation_LocalVariable=0": 0.97526175,
+        "insert-node_Invocation_LocalVariable=1": 0.02473825
+      },
+      {
+        "is_vul": "1",
+        "insert-node_Invocation_LocalVariable=0": 0.9970232,
+        "insert-node_Invocation_LocalVariable=1": 0.0029768
+      }
+    ]
+  },
+  {
+    "variable": "insert-node_Parameter_Method",
+    "parents": [
+      "is_vul"
+    ],
+    "state_names": {
+      "insert-node_Parameter_Method": [
+        "0",
+        "1"
+      ],
+      "is_vul": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "is_vul": "0",
+        "insert-node_Parameter_Method=0": 0.97279819,
+        "insert-node_Parameter_Method=1": 0.02720181
+      },
+      {
+        "is_vul": "1",
+        "insert-node_Parameter_Method=0": 0.99332786,
+        "insert-node_Parameter_Method=1": 0.00667214
+      }
+    ]
+  },
+  {
+    "variable": "insert-node_FieldRead_ConstructorCall",
+    "parents": [
+      "is_vul"
+    ],
+    "state_names": {
+      "insert-node_FieldRead_ConstructorCall": [
+        "0",
+        "1"
+      ],
+      "is_vul": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "is_vul": "0",
+        "insert-node_FieldRead_ConstructorCall=0": 0.9908643,
+        "insert-node_FieldRead_ConstructorCall=1": 0.0091357
+      },
+      {
+        "is_vul": "1",
+        "insert-node_FieldRead_ConstructorCall=0": 0.99907617,
+        "insert-node_FieldRead_ConstructorCall=1": 0.00092383
+      }
+    ]
+  },
+  {
+    "variable": "delete-node_BinaryOperator_If",
+    "parents": [
+      "is_vul",
+      "move-tree_VariableRead_BinaryOperator"
+    ],
+    "state_names": {
+      "delete-node_BinaryOperator_If": [
+        "0",
+        "1"
+      ],
+      "is_vul": [
+        "0",
+        "1"
+      ],
+      "move-tree_VariableRead_BinaryOperator": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "is_vul": "0",
+        "move-tree_VariableRead_BinaryOperator": "0",
+        "delete-node_BinaryOperator_If=0": 0.99131305,
+        "delete-node_BinaryOperator_If=1": 0.00868695
+      },
+      {
+        "is_vul": "0",
+        "move-tree_VariableRead_BinaryOperator": "1",
+        "delete-node_BinaryOperator_If=0": 0.9244898,
+        "delete-node_BinaryOperator_If=1": 0.0755102
+      },
+      {
+        "is_vul": "1",
+        "move-tree_VariableRead_BinaryOperator": "0",
+        "delete-node_BinaryOperator_If=0": 0.97355844,
+        "delete-node_BinaryOperator_If=1": 0.02644156
+      },
+      {
+        "is_vul": "1",
+        "move-tree_VariableRead_BinaryOperator": "1",
+        "delete-node_BinaryOperator_If=0": 0.80769231,
+        "delete-node_BinaryOperator_If=1": 0.19230769
+      }
+    ]
+  },
+  {
+    "variable": "delete-node_Invocation_Invocation",
+    "parents": [
+      "insert-node_VariableRead_Invocation",
+      "is_vul"
+    ],
+    "state_names": {
+      "delete-node_Invocation_Invocation": [
+        "0",
+        "1"
+      ],
+      "insert-node_VariableRead_Invocation": [
+        "0",
+        "1"
+      ],
+      "is_vul": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "insert-node_VariableRead_Invocation": "0",
+        "is_vul": "0",
+        "delete-node_Invocation_Invocation=0": 0.98162913,
+        "delete-node_Invocation_Invocation=1": 0.01837087
+      },
+      {
+        "insert-node_VariableRead_Invocation": "0",
+        "is_vul": "1",
+        "delete-node_Invocation_Invocation=0": 0.94926478,
+        "delete-node_Invocation_Invocation=1": 0.05073522
+      },
+      {
+        "insert-node_VariableRead_Invocation": "1",
+        "is_vul": "0",
+        "delete-node_Invocation_Invocation=0": 0.88177874,
+        "delete-node_Invocation_Invocation=1": 0.11822126
+      },
+      {
+        "insert-node_VariableRead_Invocation": "1",
+        "is_vul": "1",
+        "delete-node_Invocation_Invocation=0": 0.85294118,
+        "delete-node_Invocation_Invocation=1": 0.14705882
+      }
+    ]
+  },
+  {
+    "variable": "insert-node_Annotation_Method",
+    "parents": [
+      "delete-node_Annotation_Method",
+      "is_vul"
+    ],
+    "state_names": {
+      "insert-node_Annotation_Method": [
+        "0",
+        "1"
+      ],
+      "delete-node_Annotation_Method": [
+        "0",
+        "1"
+      ],
+      "is_vul": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "delete-node_Annotation_Method": "0",
+        "is_vul": "0",
+        "insert-node_Annotation_Method=0": 0.97947896,
+        "insert-node_Annotation_Method=1": 0.02052104
+      },
+      {
+        "delete-node_Annotation_Method": "0",
+        "is_vul": "1",
+        "insert-node_Annotation_Method=0": 0.99511606,
+        "insert-node_Annotation_Method=1": 0.00488394
+      },
+      {
+        "delete-node_Annotation_Method": "1",
+        "is_vul": "0",
+        "insert-node_Annotation_Method=0": 0.67391304,
+        "insert-node_Annotation_Method=1": 0.32608696
+      },
+      {
+        "delete-node_Annotation_Method": "1",
+        "is_vul": "1",
+        "insert-node_Annotation_Method=0": 0.89819005,
+        "insert-node_Annotation_Method=1": 0.10180995
+      }
+    ]
+  },
+  {
+    "variable": "delete-node_Block_If",
+    "parents": [
+      "is_vul"
+    ],
+    "state_names": {
+      "delete-node_Block_If": [
+        "0",
+        "1"
+      ],
+      "is_vul": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "is_vul": "0",
+        "delete-node_Block_If=0": 0.99579142,
+        "delete-node_Block_If=1": 0.00420858
+      },
+      {
+        "is_vul": "1",
+        "delete-node_Block_If=0": 0.98306303,
+        "delete-node_Block_If=1": 0.01693697
+      }
+    ]
+  },
+  {
+    "variable": "insert-node_Invocation_Invocation",
+    "parents": [
+      "delete-node_VariableRead_Invocation",
+      "is_vul"
+    ],
+    "state_names": {
+      "insert-node_Invocation_Invocation": [
+        "0",
+        "1"
+      ],
+      "delete-node_VariableRead_Invocation": [
+        "0",
+        "1"
+      ],
+      "is_vul": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "delete-node_VariableRead_Invocation": "0",
+        "is_vul": "0",
+        "insert-node_Invocation_Invocation=0": 0.9475962,
+        "insert-node_Invocation_Invocation=1": 0.0524038
+      },
+      {
+        "delete-node_VariableRead_Invocation": "0",
+        "is_vul": "1",
+        "insert-node_Invocation_Invocation=0": 0.98077544,
+        "insert-node_Invocation_Invocation=1": 0.01922456
+      },
+      {
+        "delete-node_VariableRead_Invocation": "1",
+        "is_vul": "0",
+        "insert-node_Invocation_Invocation=0": 0.85294118,
+        "insert-node_Invocation_Invocation=1": 0.14705882
+      },
+      {
+        "delete-node_VariableRead_Invocation": "1",
+        "is_vul": "1",
+        "insert-node_Invocation_Invocation=0": 0.88949672,
+        "insert-node_Invocation_Invocation=1": 0.11050328
+      }
+    ]
+  },
+  {
+    "variable": "insert-node_BinaryOperator_If",
+    "parents": [
+      "is_vul"
+    ],
+    "state_names": {
+      "insert-node_BinaryOperator_If": [
+        "0",
+        "1"
+      ],
+      "is_vul": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "is_vul": "0",
+        "insert-node_BinaryOperator_If=0": 0.97485116,
+        "insert-node_BinaryOperator_If=1": 0.02514884
+      },
+      {
+        "is_vul": "1",
+        "insert-node_BinaryOperator_If=0": 0.99045371,
+        "insert-node_BinaryOperator_If=1": 0.00954629
+      }
+    ]
+  },
+  {
+    "variable": "delete-node_Invocation_ConstructorCall",
+    "parents": [
+      "is_vul"
+    ],
+    "state_names": {
+      "delete-node_Invocation_ConstructorCall": [
+        "0",
+        "1"
+      ],
+      "is_vul": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "is_vul": "0",
+        "delete-node_Invocation_ConstructorCall=0": 0.99907617,
+        "delete-node_Invocation_ConstructorCall=1": 0.00092383
+      },
+      {
+        "is_vul": "1",
+        "delete-node_Invocation_ConstructorCall=0": 0.99250667,
+        "delete-node_Invocation_ConstructorCall=1": 0.00749333
+      }
+    ]
+  },
+  {
+    "variable": "insert-node_Invocation_ConstructorCall",
+    "parents": [
+      "is_vul"
+    ],
+    "state_names": {
+      "insert-node_Invocation_ConstructorCall": [
+        "0",
+        "1"
+      ],
+      "is_vul": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "is_vul": "0",
+        "insert-node_Invocation_ConstructorCall=0": 0.99250667,
+        "insert-node_Invocation_ConstructorCall=1": 0.00749333
+      },
+      {
+        "is_vul": "1",
+        "insert-node_Invocation_ConstructorCall=0": 0.99907617,
+        "insert-node_Invocation_ConstructorCall=1": 0.00092383
+      }
+    ]
+  },
+  {
+    "variable": "delete-node_FieldRead_ConstructorCall",
+    "parents": [
+      "is_vul"
+    ],
+    "state_names": {
+      "delete-node_FieldRead_ConstructorCall": [
+        "0",
+        "1"
+      ],
+      "is_vul": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "is_vul": "0",
+        "delete-node_FieldRead_ConstructorCall=0": 0.99866557,
+        "delete-node_FieldRead_ConstructorCall=1": 0.00133443
+      },
+      {
+        "is_vul": "1",
+        "delete-node_FieldRead_ConstructorCall=0": 0.99127489,
+        "delete-node_FieldRead_ConstructorCall=1": 0.00872511
+      }
+    ]
+  },
+  {
+    "variable": "insert-node_Block_If",
+    "parents": [
+      "delete-node_Block_If",
+      "is_vul"
+    ],
+    "state_names": {
+      "insert-node_Block_If": [
+        "0",
+        "1"
+      ],
+      "delete-node_Block_If": [
+        "0",
+        "1"
+      ],
+      "is_vul": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "delete-node_Block_If": "0",
+        "is_vul": "0",
+        "insert-node_Block_If=0": 0.98572312,
+        "insert-node_Block_If=1": 0.01427688
+      },
+      {
+        "delete-node_Block_If": "0",
+        "is_vul": "1",
+        "insert-node_Block_If=0": 0.99681529,
+        "insert-node_Block_If=1": 0.00318471
+      },
+      {
+        "delete-node_Block_If": "1",
+        "is_vul": "0",
+        "insert-node_Block_If=0": 0.64634146,
+        "insert-node_Block_If=1": 0.35365854
+      },
+      {
+        "delete-node_Block_If": "1",
+        "is_vul": "1",
+        "insert-node_Block_If=0": 0.91212121,
+        "insert-node_Block_If=1": 0.08787879
+      }
+    ]
+  },
+  {
+    "variable": "insert-node_Annotation_Parameter",
+    "parents": [
+      "is_vul"
+    ],
+    "state_names": {
+      "insert-node_Annotation_Parameter": [
+        "0",
+        "1"
+      ],
+      "is_vul": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "is_vul": "0",
+        "insert-node_Annotation_Parameter=0": 0.99538083,
+        "insert-node_Annotation_Parameter=1": 0.00461917
+      },
+      {
+        "is_vul": "1",
+        "insert-node_Annotation_Parameter=0": 0.99948676,
+        "insert-node_Annotation_Parameter=1": 0.00051324
+      }
+    ]
+  },
+  {
+    "variable": "delete-node_Annotation_Parameter",
+    "parents": [
+      "is_vul"
+    ],
+    "state_names": {
+      "delete-node_Annotation_Parameter": [
+        "0",
+        "1"
+      ],
+      "is_vul": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "is_vul": "0",
+        "delete-node_Annotation_Parameter=0": 0.99948676,
+        "delete-node_Annotation_Parameter=1": 0.00051324
+      },
+      {
+        "is_vul": "1",
+        "delete-node_Annotation_Parameter=0": 0.99538083,
+        "delete-node_Annotation_Parameter=1": 0.00461917
+      }
+    ]
+  },
+  {
+    "variable": "delete-node_TypeAccess_Invocation",
+    "parents": [
+      "is_vul"
+    ],
+    "state_names": {
+      "delete-node_TypeAccess_Invocation": [
+        "0",
+        "1"
+      ],
+      "is_vul": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "is_vul": "0",
+        "delete-node_TypeAccess_Invocation=0": 0.99250667,
+        "delete-node_TypeAccess_Invocation=1": 0.00749333
+      },
+      {
+        "is_vul": "1",
+        "delete-node_TypeAccess_Invocation=0": 0.98142065,
+        "delete-node_TypeAccess_Invocation=1": 0.01857935
+      }
+    ]
+  },
+  {
+    "variable": "insert-node_TypeAccess_Invocation",
+    "parents": [
+      "is_vul"
+    ],
+    "state_names": {
+      "insert-node_TypeAccess_Invocation": [
+        "0",
+        "1"
+      ],
+      "is_vul": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "is_vul": "0",
+        "insert-node_TypeAccess_Invocation=0": 0.98142065,
+        "insert-node_TypeAccess_Invocation=1": 0.01857935
+      },
+      {
+        "is_vul": "1",
+        "insert-node_TypeAccess_Invocation=0": 0.99250667,
+        "insert-node_TypeAccess_Invocation=1": 0.00749333
+      }
+    ]
+  },
+  {
+    "variable": "insert-node_TypeReference_Invocation",
+    "parents": [
+      "is_vul"
+    ],
+    "state_names": {
+      "insert-node_TypeReference_Invocation": [
+        "0",
+        "1"
+      ],
+      "is_vul": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "is_vul": "0",
+        "insert-node_TypeReference_Invocation=0": 0.99948676,
+        "insert-node_TypeReference_Invocation=1": 0.00051324
+      },
+      {
+        "is_vul": "1",
+        "insert-node_TypeReference_Invocation=0": 0.99579142,
+        "insert-node_TypeReference_Invocation=1": 0.00420858
+      }
+    ]
+  },
+  {
+    "variable": "delete-node_TypeReference_Invocation",
+    "parents": [
+      "is_vul"
+    ],
+    "state_names": {
+      "delete-node_TypeReference_Invocation": [
+        "0",
+        "1"
+      ],
+      "is_vul": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "is_vul": "0",
+        "delete-node_TypeReference_Invocation=0": 0.99579142,
+        "delete-node_TypeReference_Invocation=1": 0.00420858
+      },
+      {
+        "is_vul": "1",
+        "delete-node_TypeReference_Invocation=0": 0.99948676,
+        "delete-node_TypeReference_Invocation=1": 0.00051324
+      }
+    ]
+  },
+  {
+    "variable": "insert-node_VirtualElement_Annotation",
+    "parents": [
+      "is_vul"
+    ],
+    "state_names": {
+      "insert-node_VirtualElement_Annotation": [
+        "0",
+        "1"
+      ],
+      "is_vul": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "is_vul": "0",
+        "insert-node_VirtualElement_Annotation=0": 0.99579142,
+        "insert-node_VirtualElement_Annotation=1": 0.00420858
+      },
+      {
+        "is_vul": "1",
+        "insert-node_VirtualElement_Annotation=0": 0.99948676,
+        "insert-node_VirtualElement_Annotation=1": 0.00051324
+      }
+    ]
+  },
+  {
+    "variable": "delete-node_VirtualElement_Annotation",
+    "parents": [
+      "is_vul"
+    ],
+    "state_names": {
+      "delete-node_VirtualElement_Annotation": [
+        "0",
+        "1"
+      ],
+      "is_vul": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "is_vul": "0",
+        "delete-node_VirtualElement_Annotation=0": 0.99948676,
+        "delete-node_VirtualElement_Annotation=1": 0.00051324
+      },
+      {
+        "is_vul": "1",
+        "delete-node_VirtualElement_Annotation=0": 0.99579142,
+        "delete-node_VirtualElement_Annotation=1": 0.00420858
+      }
+    ]
+  },
+  {
+    "variable": "delete-node_Annotation_Method",
+    "parents": [
+      "is_vul"
+    ],
+    "state_names": {
+      "delete-node_Annotation_Method": [
+        "0",
+        "1"
+      ],
+      "is_vul": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "is_vul": "0",
+        "delete-node_Annotation_Method=0": 0.99291727,
+        "delete-node_Annotation_Method=1": 0.00708273
+      },
+      {
+        "is_vul": "1",
+        "delete-node_Annotation_Method=0": 0.97731472,
+        "delete-node_Annotation_Method=1": 0.02268528
+      }
+    ]
+  },
+  {
+    "variable": "delete-node_Invocation_Block",
+    "parents": [
+      "delete-node_ConstructorCall_LocalVariable",
+      "is_vul"
+    ],
+    "state_names": {
+      "delete-node_Invocation_Block": [
+        "0",
+        "1"
+      ],
+      "delete-node_ConstructorCall_LocalVariable": [
+        "0",
+        "1"
+      ],
+      "is_vul": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "delete-node_ConstructorCall_LocalVariable": "0",
+        "is_vul": "0",
+        "delete-node_Invocation_Block=0": 0.9484861,
+        "delete-node_Invocation_Block=1": 0.0515139
+      },
+      {
+        "delete-node_ConstructorCall_LocalVariable": "0",
+        "is_vul": "1",
+        "delete-node_Invocation_Block=0": 0.82754546,
+        "delete-node_Invocation_Block=1": 0.17245454
+      },
+      {
+        "delete-node_ConstructorCall_LocalVariable": "1",
+        "is_vul": "0",
+        "delete-node_Invocation_Block=0": 0.46923077,
+        "delete-node_Invocation_Block=1": 0.53076923
+      },
+      {
+        "delete-node_ConstructorCall_LocalVariable": "1",
+        "is_vul": "1",
+        "delete-node_Invocation_Block=0": 0.27777778,
+        "delete-node_Invocation_Block=1": 0.72222222
+      }
+    ]
+  },
+  {
+    "variable": "delete-node_Catch_Try",
+    "parents": [
+      "is_vul"
+    ],
+    "state_names": {
+      "delete-node_Catch_Try": [
+        "0",
+        "1"
+      ],
+      "is_vul": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "is_vul": "0",
+        "delete-node_Catch_Try=0": 0.99784439,
+        "delete-node_Catch_Try=1": 0.00215561
+      },
+      {
+        "is_vul": "1",
+        "delete-node_Catch_Try=0": 0.99209608,
+        "delete-node_Catch_Try=1": 0.00790392
+      }
+    ]
+  },
+  {
+    "variable": "delete-node_Invocation_BinaryOperator",
+    "parents": [
+      "is_vul"
+    ],
+    "state_names": {
+      "delete-node_Invocation_BinaryOperator": [
+        "0",
+        "1"
+      ],
+      "is_vul": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "is_vul": "0",
+        "delete-node_Invocation_BinaryOperator=0": 0.99620201,
+        "delete-node_Invocation_BinaryOperator=1": 0.00379799
+      },
+      {
+        "is_vul": "1",
+        "delete-node_Invocation_BinaryOperator=0": 0.98922193,
+        "delete-node_Invocation_BinaryOperator=1": 0.01077807
+      }
+    ]
+  },
+  {
+    "variable": "insert-node_ConstructorCall_LocalVariable",
+    "parents": [
+      "delete-node_Invocation_LocalVariable",
+      "insert-node_Invocation_Block"
+    ],
+    "state_names": {
+      "insert-node_ConstructorCall_LocalVariable": [
+        "0",
+        "1"
+      ],
+      "delete-node_Invocation_LocalVariable": [
+        "0",
+        "1"
+      ],
+      "insert-node_Invocation_Block": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "delete-node_Invocation_LocalVariable": "0",
+        "insert-node_Invocation_Block": "0",
+        "insert-node_ConstructorCall_LocalVariable=0": 0.99915071,
+        "insert-node_ConstructorCall_LocalVariable=1": 0.00084929
+      },
+      {
+        "delete-node_Invocation_LocalVariable": "0",
+        "insert-node_Invocation_Block": "1",
+        "insert-node_ConstructorCall_LocalVariable=0": 0.99883232,
+        "insert-node_ConstructorCall_LocalVariable=1": 0.00116768
+      },
+      {
+        "delete-node_Invocation_LocalVariable": "1",
+        "insert-node_Invocation_Block": "0",
+        "insert-node_ConstructorCall_LocalVariable=0": 0.89819005,
+        "insert-node_ConstructorCall_LocalVariable=1": 0.10180995
+      },
+      {
+        "delete-node_Invocation_LocalVariable": "1",
+        "insert-node_Invocation_Block": "1",
+        "insert-node_ConstructorCall_LocalVariable=0": 0.21428571,
+        "insert-node_ConstructorCall_LocalVariable=1": 0.78571429
+      }
+    ]
+  },
+  {
+    "variable": "insert-node_LocalVariable_Block",
+    "parents": [],
+    "state_names": {
+      "insert-node_LocalVariable_Block": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "insert-node_LocalVariable_Block=0": 0.89724902,
+        "insert-node_LocalVariable_Block=1": 0.10275098
+      }
+    ]
+  },
+  {
+    "variable": "insert-node_VariableRead_Invocation",
+    "parents": [
+      "insert-node_LocalVariable_Block",
+      "insert-node_Parameter_Method"
+    ],
+    "state_names": {
+      "insert-node_VariableRead_Invocation": [
+        "0",
+        "1"
+      ],
+      "insert-node_LocalVariable_Block": [
+        "0",
+        "1"
+      ],
+      "insert-node_Parameter_Method": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "insert-node_LocalVariable_Block": "0",
+        "insert-node_Parameter_Method": "0",
+        "insert-node_VariableRead_Invocation=0": 0.99195001,
+        "insert-node_VariableRead_Invocation=1": 0.00804999
+      },
+      {
+        "insert-node_LocalVariable_Block": "0",
+        "insert-node_Parameter_Method": "1",
+        "insert-node_VariableRead_Invocation=0": 0.68772563,
+        "insert-node_VariableRead_Invocation=1": 0.31227437
+      },
+      {
+        "insert-node_LocalVariable_Block": "1",
+        "insert-node_Parameter_Method": "0",
+        "insert-node_VariableRead_Invocation=0": 0.80169318,
+        "insert-node_VariableRead_Invocation=1": 0.19830682
+      },
+      {
+        "insert-node_LocalVariable_Block": "1",
+        "insert-node_Parameter_Method": "1",
+        "insert-node_VariableRead_Invocation=0": 0.95283019,
+        "insert-node_VariableRead_Invocation=1": 0.04716981
+      }
+    ]
+  },
+  {
+    "variable": "insert-node_Assignment_Block",
+    "parents": [
+      "insert-node_LocalVariable_Block"
+    ],
+    "state_names": {
+      "insert-node_Assignment_Block": [
+        "0",
+        "1"
+      ],
+      "insert-node_LocalVariable_Block": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "insert-node_LocalVariable_Block": "0",
+        "insert-node_Assignment_Block=0": 0.97660451,
+        "insert-node_Assignment_Block=1": 0.02339549
+      },
+      {
+        "insert-node_LocalVariable_Block": "1",
+        "insert-node_Assignment_Block=0": 0.91158841,
+        "insert-node_Assignment_Block=1": 0.08841159
+      }
+    ]
+  },
+  {
+    "variable": "insert-node_Catch_Try",
+    "parents": [
+      "insert-node_LocalVariable_Block"
+    ],
+    "state_names": {
+      "insert-node_Catch_Try": [
+        "0",
+        "1"
+      ],
+      "insert-node_LocalVariable_Block": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "insert-node_LocalVariable_Block": "0",
+        "insert-node_Catch_Try=0": 0.99628189,
+        "insert-node_Catch_Try=1": 0.00371811
+      },
+      {
+        "insert-node_LocalVariable_Block": "1",
+        "insert-node_Catch_Try=0": 0.97952048,
+        "insert-node_Catch_Try=1": 0.02047952
+      }
+    ]
+  },
+  {
+    "variable": "move-tree_BinaryOperator_Assignment",
+    "parents": [
+      "delete-node_Assignment_Block"
+    ],
+    "state_names": {
+      "move-tree_BinaryOperator_Assignment": [
+        "0",
+        "1"
+      ],
+      "delete-node_Assignment_Block": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "delete-node_Assignment_Block": "0",
+        "move-tree_BinaryOperator_Assignment=0": 0.99973553,
+        "move-tree_BinaryOperator_Assignment=1": 0.00026447
+      },
+      {
+        "delete-node_Assignment_Block": "1",
+        "move-tree_BinaryOperator_Assignment=0": 0.93598616,
+        "move-tree_BinaryOperator_Assignment=1": 0.06401384
+      }
+    ]
+  },
+  {
+    "variable": "delete-node_ConstructorCall_LocalVariable",
+    "parents": [
+      "insert-node_Invocation_LocalVariable"
+    ],
+    "state_names": {
+      "delete-node_ConstructorCall_LocalVariable": [
+        "0",
+        "1"
+      ],
+      "insert-node_Invocation_LocalVariable": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "insert-node_Invocation_LocalVariable": "0",
+        "delete-node_ConstructorCall_LocalVariable=0": 0.99932341,
+        "delete-node_ConstructorCall_LocalVariable=1": 0.00067659
+      },
+      {
+        "insert-node_Invocation_LocalVariable": "1",
+        "delete-node_ConstructorCall_LocalVariable=0": 0.77407407,
+        "delete-node_ConstructorCall_LocalVariable=1": 0.22592593
+      }
+    ]
+  },
+  {
+    "variable": "update-node_TypeAccess_ThisAccess",
+    "parents": [
+      "delete-node_Invocation_LocalVariable"
+    ],
+    "state_names": {
+      "update-node_TypeAccess_ThisAccess": [
+        "0",
+        "1"
+      ],
+      "delete-node_Invocation_LocalVariable": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "delete-node_Invocation_LocalVariable": "0",
+        "update-node_TypeAccess_ThisAccess=0": 0.98225252,
+        "update-node_TypeAccess_ThisAccess=1": 0.01774748
+      },
+      {
+        "delete-node_Invocation_LocalVariable": "1",
+        "update-node_TypeAccess_ThisAccess=0": 0.87777778,
+        "update-node_TypeAccess_ThisAccess=1": 0.12222222
+      }
+    ]
+  },
+  {
+    "variable": "insert-node_ConstructorCall_Invocation",
+    "parents": [
+      "delete-node_Invocation_Invocation"
+    ],
+    "state_names": {
+      "insert-node_ConstructorCall_Invocation": [
+        "0",
+        "1"
+      ],
+      "delete-node_Invocation_Invocation": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "delete-node_Invocation_Invocation": "0",
+        "insert-node_ConstructorCall_Invocation=0": 0.99653333,
+        "insert-node_ConstructorCall_Invocation=1": 0.00346667
+      },
+      {
+        "delete-node_Invocation_Invocation": "1",
+        "insert-node_ConstructorCall_Invocation=0": 0.9386921,
+        "insert-node_ConstructorCall_Invocation=1": 0.0613079
+      }
+    ]
+  },
+  {
+    "variable": "delete-node_Invocation_Return",
+    "parents": [
+      "delete-node_Invocation_Invocation",
+      "insert-node_ConstructorCall_Invocation"
+    ],
+    "state_names": {
+      "delete-node_Invocation_Return": [
+        "0",
+        "1"
+      ],
+      "delete-node_Invocation_Invocation": [
+        "0",
+        "1"
+      ],
+      "insert-node_ConstructorCall_Invocation": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "delete-node_Invocation_Invocation": "0",
+        "insert-node_ConstructorCall_Invocation": "0",
+        "delete-node_Invocation_Return=0": 0.99322986,
+        "delete-node_Invocation_Return=1": 0.00677014
+      },
+      {
+        "delete-node_Invocation_Invocation": "0",
+        "insert-node_ConstructorCall_Invocation": "1",
+        "delete-node_Invocation_Return=0": 0.96153846,
+        "delete-node_Invocation_Return=1": 0.03846154
+      },
+      {
+        "delete-node_Invocation_Invocation": "1",
+        "insert-node_ConstructorCall_Invocation": "0",
+        "delete-node_Invocation_Return=0": 0.99637155,
+        "delete-node_Invocation_Return=1": 0.00362845
+      },
+      {
+        "delete-node_Invocation_Invocation": "1",
+        "insert-node_ConstructorCall_Invocation": "1",
+        "delete-node_Invocation_Return=0": 0.05555556,
+        "delete-node_Invocation_Return=1": 0.94444444
+      }
+    ]
+  },
+  {
+    "variable": "insert-node_Invocation_Return",
+    "parents": [
+      "delete-node_ConstructorCall_Invocation",
+      "insert-node_Invocation_Invocation"
+    ],
+    "state_names": {
+      "insert-node_Invocation_Return": [
+        "0",
+        "1"
+      ],
+      "delete-node_ConstructorCall_Invocation": [
+        "0",
+        "1"
+      ],
+      "insert-node_Invocation_Invocation": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "delete-node_ConstructorCall_Invocation": "0",
+        "insert-node_Invocation_Invocation": "0",
+        "insert-node_Invocation_Return=0": 0.99365122,
+        "insert-node_Invocation_Return=1": 0.00634878
+      },
+      {
+        "delete-node_ConstructorCall_Invocation": "0",
+        "insert-node_Invocation_Invocation": "1",
+        "insert-node_Invocation_Return=0": 0.99647391,
+        "insert-node_Invocation_Return=1": 0.00352609
+      },
+      {
+        "delete-node_ConstructorCall_Invocation": "1",
+        "insert-node_Invocation_Invocation": "0",
+        "insert-node_Invocation_Return=0": 0.96153846,
+        "insert-node_Invocation_Return=1": 0.03846154
+      },
+      {
+        "delete-node_ConstructorCall_Invocation": "1",
+        "insert-node_Invocation_Invocation": "1",
+        "insert-node_Invocation_Return=0": 0.05555556,
+        "insert-node_Invocation_Return=1": 0.94444444
+      }
+    ]
+  },
+  {
+    "variable": "delete-node_ConstructorCall_Invocation",
+    "parents": [
+      "insert-node_Invocation_Invocation"
+    ],
+    "state_names": {
+      "delete-node_ConstructorCall_Invocation": [
+        "0",
+        "1"
+      ],
+      "insert-node_Invocation_Invocation": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "insert-node_Invocation_Invocation": "0",
+        "delete-node_ConstructorCall_Invocation=0": 0.99652963,
+        "delete-node_ConstructorCall_Invocation=1": 0.00347037
+      },
+      {
+        "insert-node_Invocation_Invocation": "1",
+        "delete-node_ConstructorCall_Invocation=0": 0.9403183,
+        "delete-node_ConstructorCall_Invocation=1": 0.0596817
+      }
+    ]
+  },
+  {
+    "variable": "delete-node_FieldRead_Return",
+    "parents": [
+      "insert-node_Invocation_Return"
+    ],
+    "state_names": {
+      "delete-node_FieldRead_Return": [
+        "0",
+        "1"
+      ],
+      "insert-node_Invocation_Return": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "insert-node_Invocation_Return": "0",
+        "delete-node_FieldRead_Return=0": 0.99870587,
+        "delete-node_FieldRead_Return=1": 0.00129413
+      },
+      {
+        "insert-node_Invocation_Return": "1",
+        "delete-node_FieldRead_Return=0": 0.92168675,
+        "delete-node_FieldRead_Return=1": 0.07831325
+      }
+    ]
+  },
+  {
+    "variable": "insert-node_FieldRead_Return",
+    "parents": [
+      "delete-node_Invocation_Return"
+    ],
+    "state_names": {
+      "insert-node_FieldRead_Return": [
+        "0",
+        "1"
+      ],
+      "delete-node_Invocation_Return": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "delete-node_Invocation_Return": "0",
+        "insert-node_FieldRead_Return=0": 0.99870533,
+        "insert-node_FieldRead_Return=1": 0.00129467
+      },
+      {
+        "delete-node_Invocation_Return": "1",
+        "insert-node_FieldRead_Return=0": 0.92528736,
+        "insert-node_FieldRead_Return=1": 0.07471264
+      }
+    ]
+  },
+  {
+    "variable": "move-tree_UnaryOperator_BinaryOperator",
+    "parents": [
+      "delete-node_BinaryOperator_If"
+    ],
+    "state_names": {
+      "move-tree_UnaryOperator_BinaryOperator": [
+        "0",
+        "1"
+      ],
+      "delete-node_BinaryOperator_If": [
+        "0",
+        "1"
+      ]
+    },
+    "table": [
+      {
+        "delete-node_BinaryOperator_If": "0",
+        "move-tree_UnaryOperator_BinaryOperator=0": 0.99931959,
+        "move-tree_UnaryOperator_BinaryOperator=1": 0.00068041
+      },
+      {
+        "delete-node_BinaryOperator_If": "1",
+        "move-tree_UnaryOperator_BinaryOperator=0": 0.88095238,
+        "move-tree_UnaryOperator_BinaryOperator=1": 0.11904762
+      }
+    ]
+  }
+]
