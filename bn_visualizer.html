@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bayesian Network Visualizer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: 'Inter', system-ui, sans-serif;
+      background: #101317;
+      color: #e5e9f0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      overflow: hidden;
+      background: radial-gradient(circle at top left, rgba(62, 75, 96, .26), transparent 24%),
+                  linear-gradient(180deg, #11151a 0%, #091117 100%);
+    }
+
+    .app-shell {
+      display: grid;
+      grid-template-columns: minmax(0, 1.7fr) 440px;
+      min-height: 100vh;
+      gap: 1px;
+      background: #12171d;
+    }
+
+    .graph-panel {
+      position: relative;
+      background: #11151a;
+      padding: 20px 20px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .graph-toolbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      padding: 0 6px;
+    }
+
+    .graph-toolbar h1 {
+      margin: 0;
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      color: #f8fafc;
+    }
+
+    .graph-toolbar p {
+      margin: 0;
+      font-size: 0.92rem;
+      color: #a8b0c5;
+    }
+
+    .layout-buttons {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .layout-button {
+      border: 1px solid rgba(255,255,255,0.14);
+      background: rgba(255,255,255,0.04);
+      color: #f8fafc;
+      border-radius: 999px;
+      padding: 10px 14px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: background 0.2s ease, transform 0.15s ease;
+    }
+
+    .layout-button:hover {
+      background: rgba(255,255,255,0.09);
+      transform: translateY(-1px);
+    }
+
+    #cy {
+      flex: 1;
+      min-height: 0;
+      border-radius: 24px;
+      background: linear-gradient(180deg, rgba(15,21,28,0.96), rgba(10,14,18,0.96));
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,0.04), 0 18px 70px rgba(0,0,0,0.22);
+      overflow: hidden;
+    }
+
+    .detail-panel {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      padding: 24px;
+      background: #0d1116;
+      border-left: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .panel-heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 12px;
+    }
+
+    .panel-heading h2 {
+      margin: 0;
+      font-size: 1.05rem;
+      color: #f5f7fb;
+    }
+
+    .summary-card {
+      background: rgba(255,255,255,0.02);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 18px;
+      padding: 18px;
+      display: grid;
+      gap: 12px;
+    }
+
+    .summary-card strong {
+      color: #f8fafc;
+      font-weight: 600;
+    }
+
+    .summary-card small {
+      color: #9bb1d1;
+    }
+
+    .cpd-title {
+      margin: 0;
+      font-size: 0.98rem;
+      font-weight: 600;
+      color: #f8fafc;
+    }
+
+    .cpd-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      color: #9bb1d1;
+      font-size: 0.88rem;
+    }
+
+    .cpd-table-wrapper {
+      overflow-x: auto;
+      border-radius: 16px;
+      background: rgba(255,255,255,0.02);
+      border: 1px solid rgba(255,255,255,0.06);
+      padding: 14px;
+    }
+
+    table.cpd-table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 100%;
+    }
+
+    table.cpd-table th,
+    table.cpd-table td {
+      padding: 10px 12px;
+      text-align: left;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      font-size: 0.85rem;
+      white-space: nowrap;
+    }
+
+    table.cpd-table th {
+      color: #cfd8ea;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+    }
+
+    table.cpd-table td {
+      color: #e8eef8;
+    }
+
+    .empty-state {
+      border-radius: 18px;
+      padding: 22px;
+      background: rgba(68, 76, 92, 0.16);
+      color: #b0bbc8;
+      line-height: 1.7;
+    }
+
+    .panel-footer {
+      margin-top: auto;
+      padding-top: 8px;
+      color: #6c7a95;
+      font-size: 0.84rem;
+      border-top: 1px solid rgba(255,255,255,0.04);
+    }
+
+    @media (max-width: 1100px) {
+      .app-shell {
+        grid-template-columns: 1fr;
+      }
+      .detail-panel {
+        min-height: 360px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app-shell">
+    <section class="graph-panel">
+      <div class="graph-toolbar">
+        <div>
+          <h1>Bayesian Network Explorer</h1>
+          <p>Click any node to inspect its CPD and dependencies.</p>
+        </div>
+        <div class="layout-buttons">
+          <button class="layout-button" id="layout-cose">Cose</button>
+          <button class="layout-button" id="layout-breadthfirst">Breadthfirst</button>
+          <button class="layout-button" id="layout-reset">Reset</button>
+        </div>
+      </div>
+      <div id="cy"></div>
+    </section>
+
+    <aside class="detail-panel" id="detailPanel">
+      <div class="panel-heading">
+        <div>
+          <h2 id="selectedNodeTitle">Select a node</h2>
+          <div class="cpd-meta" id="selectedNodeMeta"></div>
+        </div>
+      </div>
+
+      <div class="summary-card" id="dependencySummary">
+        <div class="cpd-title">Node dependencies</div>
+        <p id="dependencyText">Click a node to reveal its parents and children.</p>
+      </div>
+
+      <div class="cpd-table-wrapper" id="cpdTableContainer">
+        <div class="empty-state" id="emptyState">
+          The CPD panel updates when you select a node from the graph. Start by clicking any node on the left.
+        </div>
+      </div>
+
+      <div class="panel-footer">
+        JSON path: <code id="jsonPathLabel">data/results/bn1/bn1_hillclimb_mi50_tabu10_hcs/bn1_hillclimb_mi50_tabu10_hcs_cpds.json</code><br />
+        Serve over HTTP, e.g. <code>python -m http.server 8000</code> from the repo root.
+      </div>
+    </aside>
+  </div>
+
+  <script src="./cytoscape.min.js"></script>
+  <script>
+    function loadScript(src) {
+      return new Promise((resolve, reject) => {
+        const s = document.createElement('script');
+        s.src = src;
+        s.async = false;
+        s.onload = () => resolve(src);
+        s.onerror = () => reject(new Error(`Failed to load ${src}`));
+        document.head.appendChild(s);
+      });
+    }
+
+    async function initCytoscape() {
+      const urls = [
+        './cytoscape.min.js',
+        'https://cdn.jsdelivr.net/npm/cytoscape/dist/cytoscape.min.js',
+        'https://unpkg.com/cytoscape/dist/cytoscape.min.js',
+        'https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.27.0/cytoscape.min.js',
+        './node_modules/cytoscape/dist/cytoscape.min.js'
+      ];
+      const attemptedUrls = [];
+
+      for (const url of urls) {
+        if (window.cytoscape || window.Cytoscape) {
+          break;
+        }
+        attemptedUrls.push(url);
+        try {
+          await loadScript(url);
+        } catch (error) {
+          console.warn(error.message);
+        }
+      }
+
+      if (!window.cytoscape && window.Cytoscape) {
+        window.cytoscape = window.Cytoscape;
+      }
+
+      if (!window.cytoscape) {
+        const detailTitle = document.getElementById('selectedNodeTitle');
+        const cpdTableContainer = document.getElementById('cpdTableContainer');
+        detailTitle.textContent = 'Unable to load Cytoscape';
+        cpdTableContainer.innerHTML = `
+          <div class="empty-state">
+            Cytoscape failed to load from the following locations:<br />
+            <code>${attemptedUrls.join('<br />')}</code><br />
+            If you are offline, download <code>cytoscape.min.js</code> into this directory and refresh.
+          </div>
+        `;
+        return;
+      }
+
+      initializeApp();
+    }
+
+    function initializeApp() {
+      const dataPath = "data/results/bn1/bn1_hillclimb_mi50_tabu10_hcs/bn1_hillclimb_mi50_tabu10_hcs_cpds.json";
+      const jsonPathLabel = document.getElementById('jsonPathLabel');
+    jsonPathLabel.textContent = dataPath;
+
+    const detailTitle = document.getElementById('selectedNodeTitle');
+    const detailMeta = document.getElementById('selectedNodeMeta');
+    const dependencyText = document.getElementById('dependencyText');
+    const cpdTableContainer = document.getElementById('cpdTableContainer');
+    const emptyState = document.getElementById('emptyState');
+
+    let cy;
+    let cpdIndex = new Map();
+
+    const layoutOptions = {
+      cose: {
+        name: 'cose',
+        idealEdgeLength: 110,
+        nodeRepulsion: 4500,
+        gravity: 0.12,
+        numIter: 1200,
+        tile: true,
+        animate: 'end',
+        randomize: false,
+      },
+      breadthfirst: {
+        name: 'breadthfirst',
+        directed: true,
+        padding: 30,
+        spacingFactor: 1.3,
+        animate: 'end',
+        circle: false,
+      }
+    };
+
+    function loadCpdData() {
+      fetch(dataPath)
+        .then(response => {
+          if (!response.ok) {
+            throw new Error(`Unable to load JSON from ${dataPath}. ${response.status} ${response.statusText}`);
+          }
+          return response.json();
+        })
+        .then(parseCpdJson)
+        .catch(error => {
+          console.error(error);
+          detailTitle.textContent = 'Unable to load data';
+          cpdTableContainer.innerHTML = `<div class="empty-state">${error.message}</div>`;
+        });
+    }
+
+    function parseCpdJson(cpds) {
+      if (!Array.isArray(cpds)) {
+        throw new Error('CPD JSON must be an array of node entries.');
+      }
+
+      const nodeRecords = cpds.map(entry => {
+        const id = String(entry.variable);
+        cpdIndex.set(id, entry);
+        return {
+          data: {
+            id,
+            label: id,
+            parents: Array.isArray(entry.parents) ? entry.parents : [],
+            stateNames: entry.state_names || {},
+            table: Array.isArray(entry.table) ? entry.table : [],
+          }
+        };
+      });
+
+      const edges = [];
+      const seen = new Set();
+
+      cpds.forEach(entry => {
+        const child = String(entry.variable);
+        if (!Array.isArray(entry.parents)) {
+          return;
+        }
+        entry.parents.forEach(parent => {
+          const source = String(parent);
+          const target = child;
+          const edgeId = `${source}->${target}`;
+          if (!seen.has(edgeId)) {
+            seen.add(edgeId);
+            edges.push({ data: { id: edgeId, source, target } });
+          }
+        });
+      });
+
+      initializeCytoscape(nodeRecords, edges);
+      if (nodeRecords.length) {
+        selectNode(nodeRecords[0].data.id);
+      }
+    }
+
+    function initializeCytoscape(nodes, edges) {
+      cy = cytoscape({
+        container: document.getElementById('cy'),
+        elements: { nodes, edges },
+        style: [
+          {
+            selector: 'node',
+            style: {
+              shape: 'round-rectangle',
+              'background-fill': 'linear-gradient',
+              'background-gradient-stop-colors': '#4d6b92 #2a3244',
+              'background-gradient-direction': 'to-bottom-right',
+              'border-width': 1,
+              'border-color': '#5b6d84',
+              label: 'data(label)',
+              color: '#f8fafc',
+              'text-wrap': 'wrap',
+              'text-max-width': 100,
+              'font-size': 12,
+              'font-family': 'Inter, sans-serif',
+              'text-valign': 'center',
+              'text-halign': 'center',
+              'padding': '16px',
+              width: 'label',
+              'min-width': 110,
+              'height': 'label',
+              'min-height': 44,
+              'text-margin-y': 0,
+              'transition-property': 'background-color, border-color, width, height, opacity',
+              'transition-duration': '200ms',
+            }
+          },
+          {
+            selector: 'edge',
+            style: {
+              width: 2.5,
+              'line-color': '#5f7bb4',
+              'target-arrow-color': '#5f7bb4',
+              'target-arrow-shape': 'triangle',
+              'curve-style': 'bezier',
+              'control-point-step-size': 40,
+              'arrow-scale': 1.1,
+              'line-cap': 'round',
+              'target-arrow-fill': 'filled',
+              opacity: 0.85,
+            }
+          },
+          {
+            selector: '.focused',
+            style: {
+              'background-gradient-stop-colors': '#84c9ff #3c78d8',
+              'border-color': '#7cc5ff',
+              'border-width': 2,
+              'line-color': '#84c9ff',
+              'target-arrow-color': '#84c9ff',
+              'transition-duration': '150ms',
+              opacity: 1,
+            }
+          },
+          {
+            selector: '.neighbor',
+            style: {
+              'background-color': '#27384f',
+              'border-color': '#82b6ff',
+              'border-width': 1.5,
+              opacity: 0.98,
+            }
+          },
+          {
+            selector: '.dimmed',
+            style: {
+              opacity: 0.14,
+            }
+          }
+        ],
+        layout: layoutOptions.cose,
+      });
+
+      cy.on('tap', 'node', event => {
+        const node = event.target;
+        selectNode(node.id());
+      });
+
+      cy.on('tap', event => {
+        if (event.target === cy) {
+          clearSelection();
+        }
+      });
+
+      document.getElementById('layout-cose').addEventListener('click', () => runLayout('cose'));
+      document.getElementById('layout-breadthfirst').addEventListener('click', () => runLayout('breadthfirst'));
+      document.getElementById('layout-reset').addEventListener('click', () => {
+        cy.elements().removeClass(['focused', 'neighbor', 'dimmed']);
+        runLayout('cose');
+      });
+    }
+
+    function runLayout(name) {
+      const layout = cy.layout(layoutOptions[name]);
+      layout.run();
+    }
+
+    function clearSelection() {
+      cy.elements().removeClass(['focused', 'neighbor', 'dimmed']);
+      detailTitle.textContent = 'Select a node';
+      detailMeta.innerHTML = '';
+      dependencyText.textContent = 'Click a node to reveal its parents and children.';
+      cpdTableContainer.innerHTML = '';
+      cpdTableContainer.appendChild(emptyState);
+      emptyState.style.display = 'block';
+    }
+
+    function selectNode(nodeId) {
+      if (!cy) {
+        return;
+      }
+      const selected = cy.getElementById(nodeId);
+      if (!selected) {
+        return;
+      }
+      const incoming = selected.incomers('node');
+      const outgoing = selected.outgoers('node');
+      const incomingEdges = selected.incomers('edge');
+      const outgoingEdges = selected.outgoers('edge');
+
+      cy.elements().addClass('dimmed');
+      selected.removeClass('dimmed').addClass('focused');
+      incoming.removeClass('dimmed').addClass('neighbor');
+      outgoing.removeClass('dimmed').addClass('neighbor');
+      incomingEdges.removeClass('dimmed').addClass('focused');
+      outgoingEdges.removeClass('dimmed').addClass('focused');
+
+      detailTitle.textContent = selected.data('label');
+      const parentList = selected.data('parents');
+      const parentCount = parentList.length;
+      const childCount = outgoing.length;
+      detailMeta.innerHTML = `
+        <span>Parents: ${parentCount}</span>
+        <span>Children: ${childCount}</span>
+      `;
+
+      dependencyText.innerHTML = generateDependencyText(parentList, outgoing);
+      renderCpdPanel(nodeId);
+    }
+
+    function generateDependencyText(parents, children) {
+      const parentNames = parents.length ? parents.join(', ') : 'None';
+      const childNames = children.length ? children.map(child => child.id()).join(', ') : 'None';
+      return `
+        <strong>Parents:</strong> ${parentNames}<br />
+        <strong>Children:</strong> ${childNames}
+      `;
+    }
+
+    function renderCpdPanel(nodeId) {
+      const cpd = cpdIndex.get(nodeId);
+      if (!cpd) {
+        cpdTableContainer.innerHTML = `<div class="empty-state">No CPD entry found for ${nodeId}.</div>`;
+        return;
+      }
+
+      const header = document.createElement('div');
+      header.innerHTML = `
+        <p class="cpd-title">CPD for <strong>${nodeId}</strong></p>
+      `;
+      const stateNames = cpd.state_names || {};
+      const variableStates = stateNames[nodeId] || [];
+      const parentStates = cpd.parents.map(parent => `${parent} (${(stateNames[parent] || []).join(', ')})`).join(', ') || 'None';
+
+      const summary = document.createElement('div');
+      summary.className = 'summary-card';
+      summary.innerHTML = `
+        <div><strong>States</strong> ${variableStates.join(', ')}</div>
+        <div><strong>Parents</strong> ${parentStates}</div>
+        <div><strong>Rows</strong> ${cpd.table.length}</div>
+      `;
+
+      const table = document.createElement('table');
+      table.className = 'cpd-table';
+
+      const headerRow = document.createElement('tr');
+      const columns = getTableColumns(cpd);
+      columns.forEach(col => {
+        const th = document.createElement('th');
+        th.textContent = col;
+        headerRow.appendChild(th);
+      });
+      table.appendChild(headerRow);
+
+      cpd.table.forEach(row => {
+        const tr = document.createElement('tr');
+        columns.forEach(col => {
+          const td = document.createElement('td');
+          td.textContent = row[col] ?? '-';
+          tr.appendChild(td);
+        });
+        table.appendChild(tr);
+      });
+
+      cpdTableContainer.innerHTML = '';
+      cpdTableContainer.appendChild(header);
+      cpdTableContainer.appendChild(summary);
+      cpdTableContainer.appendChild(table);
+    }
+
+    function getTableColumns(cpd) {
+      const parentColumns = Array.isArray(cpd.parents) ? [...cpd.parents] : [];
+      const probabilityColumns = Object.keys(cpd.table[0] || {}).filter(key => !parentColumns.includes(key));
+      return [...parentColumns, ...probabilityColumns];
+    }
+
+    loadCpdData();
+    }
+
+    initCytoscape();
+  </script>
+</body>
+</html>

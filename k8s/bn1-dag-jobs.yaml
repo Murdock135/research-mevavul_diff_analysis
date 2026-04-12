@@ -1,0 +1,676 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: bn1-dag-mi150-tabu10-indegnone
+  namespace: gp-engine-mizzou-diff-analysis
+spec:
+  backoffLimit: 1
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: bn1-dag-mi150-tabu10-indegnone-ctr
+          image: python:3.13-slim
+          command:
+            - /bin/bash
+            - -lc
+            - |
+              set -e
+              cd /workspace
+              python analysis/bn1/learn_dag_isvul.py
+              --method hillclimb
+              --scoring-method bic-d
+              --mi-threshold 150
+              --tabu-length 10
+              --hcs-delta 0.05
+              --hcs-c 0.05
+              --hcs-max-restarts 50
+              --output-dir results/tune_bn1/150_tabu10_indegnone
+          volumeMounts:
+            - name: workspace
+              mountPath: /workspace
+      volumes:
+        - name: workspace
+          persistentVolumeClaim:
+            claimName: diff-analysis
+
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: bn1-dag-mi150-tabu10-indeg3
+  namespace: gp-engine-mizzou-diff-analysis
+spec:
+  backoffLimit: 1
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: bn1-dag-mi150-tabu10-indeg3-ctr
+          image: python:3.13-slim
+          command:
+            - /bin/bash
+            - -lc
+            - |
+              set -e
+              cd /workspace
+              python analysis/bn1/learn_dag_isvul.py
+              --method hillclimb
+              --scoring-method bic-d
+              --mi-threshold 150
+              --tabu-length 10
+              --hcs-delta 0.05
+              --hcs-c 0.05
+              --hcs-max-restarts 50
+              --output-dir results/tune_bn1/150_tabu10_indeg3
+              --max-indegree 3
+          volumeMounts:
+            - name: workspace
+              mountPath: /workspace
+      volumes:
+        - name: workspace
+          persistentVolumeClaim:
+            claimName: diff-analysis
+
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: bn1-dag-mi150-tabu10-indeg5
+  namespace: gp-engine-mizzou-diff-analysis
+spec:
+  backoffLimit: 1
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: bn1-dag-mi150-tabu10-indeg5-ctr
+          image: python:3.13-slim
+          command:
+            - /bin/bash
+            - -lc
+            - |
+              set -e
+              cd /workspace
+              python analysis/bn1/learn_dag_isvul.py
+              --method hillclimb
+              --scoring-method bic-d
+              --mi-threshold 150
+              --tabu-length 10
+              --hcs-delta 0.05
+              --hcs-c 0.05
+              --hcs-max-restarts 50
+              --output-dir results/tune_bn1/150_tabu10_indeg5
+              --max-indegree 5
+          volumeMounts:
+            - name: workspace
+              mountPath: /workspace
+      volumes:
+        - name: workspace
+          persistentVolumeClaim:
+            claimName: diff-analysis
+
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: bn1-dag-mi150-tabu50-indegnone
+  namespace: gp-engine-mizzou-diff-analysis
+spec:
+  backoffLimit: 1
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: bn1-dag-mi150-tabu50-indegnone-ctr
+          image: python:3.13-slim
+          command:
+            - /bin/bash
+            - -lc
+            - |
+              set -e
+              cd /workspace
+              python analysis/bn1/learn_dag_isvul.py
+              --method hillclimb
+              --scoring-method bic-d
+              --mi-threshold 150
+              --tabu-length 50
+              --hcs-delta 0.05
+              --hcs-c 0.05
+              --hcs-max-restarts 50
+              --output-dir results/tune_bn1/150_tabu50_indegnone
+          volumeMounts:
+            - name: workspace
+              mountPath: /workspace
+      volumes:
+        - name: workspace
+          persistentVolumeClaim:
+            claimName: diff-analysis
+
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: bn1-dag-mi150-tabu50-indeg3
+  namespace: gp-engine-mizzou-diff-analysis
+spec:
+  backoffLimit: 1
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: bn1-dag-mi150-tabu50-indeg3-ctr
+          image: python:3.13-slim
+          command:
+            - /bin/bash
+            - -lc
+            - |
+              set -e
+              cd /workspace
+              python analysis/bn1/learn_dag_isvul.py
+              --method hillclimb
+              --scoring-method bic-d
+              --mi-threshold 150
+              --tabu-length 50
+              --hcs-delta 0.05
+              --hcs-c 0.05
+              --hcs-max-restarts 50
+              --output-dir results/tune_bn1/150_tabu50_indeg3
+              --max-indegree 3
+          volumeMounts:
+            - name: workspace
+              mountPath: /workspace
+      volumes:
+        - name: workspace
+          persistentVolumeClaim:
+            claimName: diff-analysis
+
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: bn1-dag-mi150-tabu50-indeg5
+  namespace: gp-engine-mizzou-diff-analysis
+spec:
+  backoffLimit: 1
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: bn1-dag-mi150-tabu50-indeg5-ctr
+          image: python:3.13-slim
+          command:
+            - /bin/bash
+            - -lc
+            - |
+              set -e
+              cd /workspace
+              python analysis/bn1/learn_dag_isvul.py
+              --method hillclimb
+              --scoring-method bic-d
+              --mi-threshold 150
+              --tabu-length 50
+              --hcs-delta 0.05
+              --hcs-c 0.05
+              --hcs-max-restarts 50
+              --output-dir results/tune_bn1/150_tabu50_indeg5
+              --max-indegree 5
+          volumeMounts:
+            - name: workspace
+              mountPath: /workspace
+      volumes:
+        - name: workspace
+          persistentVolumeClaim:
+            claimName: diff-analysis
+
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: bn1-dag-mi150-tabu100-indegnone
+  namespace: gp-engine-mizzou-diff-analysis
+spec:
+  backoffLimit: 1
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: bn1-dag-mi150-tabu100-indegnone-ctr
+          image: python:3.13-slim
+          command:
+            - /bin/bash
+            - -lc
+            - |
+              set -e
+              cd /workspace
+              python analysis/bn1/learn_dag_isvul.py
+              --method hillclimb
+              --scoring-method bic-d
+              --mi-threshold 150
+              --tabu-length 100
+              --hcs-delta 0.05
+              --hcs-c 0.05
+              --hcs-max-restarts 50
+              --output-dir results/tune_bn1/150_tabu100_indegnone
+          volumeMounts:
+            - name: workspace
+              mountPath: /workspace
+      volumes:
+        - name: workspace
+          persistentVolumeClaim:
+            claimName: diff-analysis
+
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: bn1-dag-mi150-tabu100-indeg3
+  namespace: gp-engine-mizzou-diff-analysis
+spec:
+  backoffLimit: 1
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: bn1-dag-mi150-tabu100-indeg3-ctr
+          image: python:3.13-slim
+          command:
+            - /bin/bash
+            - -lc
+            - |
+              set -e
+              cd /workspace
+              python analysis/bn1/learn_dag_isvul.py
+              --method hillclimb
+              --scoring-method bic-d
+              --mi-threshold 150
+              --tabu-length 100
+              --hcs-delta 0.05
+              --hcs-c 0.05
+              --hcs-max-restarts 50
+              --output-dir results/tune_bn1/150_tabu100_indeg3
+              --max-indegree 3
+          volumeMounts:
+            - name: workspace
+              mountPath: /workspace
+      volumes:
+        - name: workspace
+          persistentVolumeClaim:
+            claimName: diff-analysis
+
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: bn1-dag-mi150-tabu100-indeg5
+  namespace: gp-engine-mizzou-diff-analysis
+spec:
+  backoffLimit: 1
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: bn1-dag-mi150-tabu100-indeg5-ctr
+          image: python:3.13-slim
+          command:
+            - /bin/bash
+            - -lc
+            - |
+              set -e
+              cd /workspace
+              python analysis/bn1/learn_dag_isvul.py
+              --method hillclimb
+              --scoring-method bic-d
+              --mi-threshold 150
+              --tabu-length 100
+              --hcs-delta 0.05
+              --hcs-c 0.05
+              --hcs-max-restarts 50
+              --output-dir results/tune_bn1/150_tabu100_indeg5
+              --max-indegree 5
+          volumeMounts:
+            - name: workspace
+              mountPath: /workspace
+      volumes:
+        - name: workspace
+          persistentVolumeClaim:
+            claimName: diff-analysis
+
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: bn1-dag-mi200-tabu10-indegnone
+  namespace: gp-engine-mizzou-diff-analysis
+spec:
+  backoffLimit: 1
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: bn1-dag-mi200-tabu10-indegnone-ctr
+          image: python:3.13-slim
+          command:
+            - /bin/bash
+            - -lc
+            - |
+              set -e
+              cd /workspace
+              python analysis/bn1/learn_dag_isvul.py
+              --method hillclimb
+              --scoring-method bic-d
+              --mi-threshold 200
+              --tabu-length 10
+              --hcs-delta 0.05
+              --hcs-c 0.05
+              --hcs-max-restarts 50
+              --output-dir results/tune_bn1/200_tabu10_indegnone
+          volumeMounts:
+            - name: workspace
+              mountPath: /workspace
+      volumes:
+        - name: workspace
+          persistentVolumeClaim:
+            claimName: diff-analysis
+
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: bn1-dag-mi200-tabu10-indeg3
+  namespace: gp-engine-mizzou-diff-analysis
+spec:
+  backoffLimit: 1
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: bn1-dag-mi200-tabu10-indeg3-ctr
+          image: python:3.13-slim
+          command:
+            - /bin/bash
+            - -lc
+            - |
+              set -e
+              cd /workspace
+              python analysis/bn1/learn_dag_isvul.py
+              --method hillclimb
+              --scoring-method bic-d
+              --mi-threshold 200
+              --tabu-length 10
+              --hcs-delta 0.05
+              --hcs-c 0.05
+              --hcs-max-restarts 50
+              --output-dir results/tune_bn1/200_tabu10_indeg3
+              --max-indegree 3
+          volumeMounts:
+            - name: workspace
+              mountPath: /workspace
+      volumes:
+        - name: workspace
+          persistentVolumeClaim:
+            claimName: diff-analysis
+
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: bn1-dag-mi200-tabu10-indeg5
+  namespace: gp-engine-mizzou-diff-analysis
+spec:
+  backoffLimit: 1
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: bn1-dag-mi200-tabu10-indeg5-ctr
+          image: python:3.13-slim
+          command:
+            - /bin/bash
+            - -lc
+            - |
+              set -e
+              cd /workspace
+              python analysis/bn1/learn_dag_isvul.py
+              --method hillclimb
+              --scoring-method bic-d
+              --mi-threshold 200
+              --tabu-length 10
+              --hcs-delta 0.05
+              --hcs-c 0.05
+              --hcs-max-restarts 50
+              --output-dir results/tune_bn1/200_tabu10_indeg5
+              --max-indegree 5
+          volumeMounts:
+            - name: workspace
+              mountPath: /workspace
+      volumes:
+        - name: workspace
+          persistentVolumeClaim:
+            claimName: diff-analysis
+
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: bn1-dag-mi200-tabu50-indegnone
+  namespace: gp-engine-mizzou-diff-analysis
+spec:
+  backoffLimit: 1
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: bn1-dag-mi200-tabu50-indegnone-ctr
+          image: python:3.13-slim
+          command:
+            - /bin/bash
+            - -lc
+            - |
+              set -e
+              cd /workspace
+              python analysis/bn1/learn_dag_isvul.py
+              --method hillclimb
+              --scoring-method bic-d
+              --mi-threshold 200
+              --tabu-length 50
+              --hcs-delta 0.05
+              --hcs-c 0.05
+              --hcs-max-restarts 50
+              --output-dir results/tune_bn1/200_tabu50_indegnone
+          volumeMounts:
+            - name: workspace
+              mountPath: /workspace
+      volumes:
+        - name: workspace
+          persistentVolumeClaim:
+            claimName: diff-analysis
+
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: bn1-dag-mi200-tabu50-indeg3
+  namespace: gp-engine-mizzou-diff-analysis
+spec:
+  backoffLimit: 1
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: bn1-dag-mi200-tabu50-indeg3-ctr
+          image: python:3.13-slim
+          command:
+            - /bin/bash
+            - -lc
+            - |
+              set -e
+              cd /workspace
+              python analysis/bn1/learn_dag_isvul.py
+              --method hillclimb
+              --scoring-method bic-d
+              --mi-threshold 200
+              --tabu-length 50
+              --hcs-delta 0.05
+              --hcs-c 0.05
+              --hcs-max-restarts 50
+              --output-dir results/tune_bn1/200_tabu50_indeg3
+              --max-indegree 3
+          volumeMounts:
+            - name: workspace
+              mountPath: /workspace
+      volumes:
+        - name: workspace
+          persistentVolumeClaim:
+            claimName: diff-analysis
+
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: bn1-dag-mi200-tabu50-indeg5
+  namespace: gp-engine-mizzou-diff-analysis
+spec:
+  backoffLimit: 1
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: bn1-dag-mi200-tabu50-indeg5-ctr
+          image: python:3.13-slim
+          command:
+            - /bin/bash
+            - -lc
+            - |
+              set -e
+              cd /workspace
+              python analysis/bn1/learn_dag_isvul.py
+              --method hillclimb
+              --scoring-method bic-d
+              --mi-threshold 200
+              --tabu-length 50
+              --hcs-delta 0.05
+              --hcs-c 0.05
+              --hcs-max-restarts 50
+              --output-dir results/tune_bn1/200_tabu50_indeg5
+              --max-indegree 5
+          volumeMounts:
+            - name: workspace
+              mountPath: /workspace
+      volumes:
+        - name: workspace
+          persistentVolumeClaim:
+            claimName: diff-analysis
+
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: bn1-dag-mi200-tabu100-indegnone
+  namespace: gp-engine-mizzou-diff-analysis
+spec:
+  backoffLimit: 1
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: bn1-dag-mi200-tabu100-indegnone-ctr
+          image: python:3.13-slim
+          command:
+            - /bin/bash
+            - -lc
+            - |
+              set -e
+              cd /workspace
+              python analysis/bn1/learn_dag_isvul.py
+              --method hillclimb
+              --scoring-method bic-d
+              --mi-threshold 200
+              --tabu-length 100
+              --hcs-delta 0.05
+              --hcs-c 0.05
+              --hcs-max-restarts 50
+              --output-dir results/tune_bn1/200_tabu100_indegnone
+          volumeMounts:
+            - name: workspace
+              mountPath: /workspace
+      volumes:
+        - name: workspace
+          persistentVolumeClaim:
+            claimName: diff-analysis
+
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: bn1-dag-mi200-tabu100-indeg3
+  namespace: gp-engine-mizzou-diff-analysis
+spec:
+  backoffLimit: 1
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: bn1-dag-mi200-tabu100-indeg3-ctr
+          image: python:3.13-slim
+          command:
+            - /bin/bash
+            - -lc
+            - |
+              set -e
+              cd /workspace
+              python analysis/bn1/learn_dag_isvul.py
+              --method hillclimb
+              --scoring-method bic-d
+              --mi-threshold 200
+              --tabu-length 100
+              --hcs-delta 0.05
+              --hcs-c 0.05
+              --hcs-max-restarts 50
+              --output-dir results/tune_bn1/200_tabu100_indeg3
+              --max-indegree 3
+          volumeMounts:
+            - name: workspace
+              mountPath: /workspace
+      volumes:
+        - name: workspace
+          persistentVolumeClaim:
+            claimName: diff-analysis
+
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: bn1-dag-mi200-tabu100-indeg5
+  namespace: gp-engine-mizzou-diff-analysis
+spec:
+  backoffLimit: 1
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: bn1-dag-mi200-tabu100-indeg5-ctr
+          image: python:3.13-slim
+          command:
+            - /bin/bash
+            - -lc
+            - |
+              set -e
+              cd /workspace
+              python analysis/bn1/learn_dag_isvul.py
+              --method hillclimb
+              --scoring-method bic-d
+              --mi-threshold 200
+              --tabu-length 100
+              --hcs-delta 0.05
+              --hcs-c 0.05
+              --hcs-max-restarts 50
+              --output-dir results/tune_bn1/200_tabu100_indeg5
+              --max-indegree 5
+          volumeMounts:
+            - name: workspace
+              mountPath: /workspace
+      volumes:
+        - name: workspace
+          persistentVolumeClaim:
+            claimName: diff-analysis
