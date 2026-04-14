@@ -1,0 +1,74 @@
+[
+  {
+    "source": "delete-node_If_Block",
+    "target": "delete-node_LocalVariable_Block"
+  },
+  {
+    "source": "delete-node_If_Block",
+    "target": "is_vul"
+  },
+  {
+    "source": "delete-node_If_Block",
+    "target": "insert-node_VariableRead_Invocation"
+  },
+  {
+    "source": "insert-node_If_Block",
+    "target": "is_vul"
+  },
+  {
+    "source": "insert-node_If_Block",
+    "target": "insert-node_Invocation_Block"
+  },
+  {
+    "source": "insert-node_If_Block",
+    "target": "delete-node_VariableRead_Invocation"
+  },
+  {
+    "source": "delete-node_Invocation_Block",
+    "target": "is_vul"
+  },
+  {
+    "source": "delete-node_Invocation_Block",
+    "target": "delete-node_LocalVariable_Block"
+  },
+  {
+    "source": "delete-node_Invocation_Block",
+    "target": "insert-node_If_Block"
+  },
+  {
+    "source": "delete-node_Invocation_Block",
+    "target": "delete-node_If_Block"
+  },
+  {
+    "source": "insert-node_LocalVariable_Block",
+    "target": "insert-node_If_Block"
+  },
+  {
+    "source": "insert-node_LocalVariable_Block",
+    "target": "insert-node_Invocation_Block"
+  },
+  {
+    "source": "delete-node_LocalVariable_Block",
+    "target": "delete-node_VariableRead_Invocation"
+  },
+  {
+    "source": "delete-node_LocalVariable_Block",
+    "target": "insert-node_LocalVariable_Block"
+  },
+  {
+    "source": "insert-node_VariableRead_Invocation",
+    "target": "insert-node_LocalVariable_Block"
+  },
+  {
+    "source": "is_vul",
+    "target": "insert-node_Invocation_Block"
+  },
+  {
+    "source": "is_vul",
+    "target": "insert-node_Invocation_LocalVariable"
+  },
+  {
+    "source": "is_vul",
+    "target": "delete-node_Invocation_LocalVariable"
+  }
+]
