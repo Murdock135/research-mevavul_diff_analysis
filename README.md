@@ -14,6 +14,13 @@ To answer this, we first extract the vulnerable/patched function pairs from Mega
 
 The change counts from Coming are aggregated into a binary feature matrix — each row is one function pair in one direction, each column is one AST change type. This matrix is the input to Phase 2, which requires no Docker. We learn a Bayesian network DAG over the features using hill-climb search with random restarts, fit conditional probability distributions on the learned structure, and generate figures and tables for the paper.
 
+We have visualized the best DAG and the CPDs of its nodes using the script([bn_visualizer.html](bn_visualizer.html)) You can run a simple HTTP server to view it in your browser:
+
+```bash
+python -m http.server 8000
+# then open http://localhost:8000/bn_visualizer.html
+```
+
 > For a more comprehensive explanation of the data, design decisions, and analysis — including the reasoning behind the HCS restart strategy and what the grid search revealed — see [docs/](docs/README.md).
 
 ## How to read this repo
