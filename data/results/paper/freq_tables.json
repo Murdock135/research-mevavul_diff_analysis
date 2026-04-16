@@ -1,0 +1,366 @@
+{
+  "mi50": [
+    {
+      "experiment": "mi50",
+      "edge": "is_vul -> delete-node_Catch_Try",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi50",
+      "edge": "insert-node_LocalVariable_Block -> insert-node_Assignment_Block",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi50",
+      "edge": "delete-node_Assignment_Block -> move-tree_BinaryOperator_Assignment",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi50",
+      "edge": "insert-node_LocalVariable_Block -> insert-node_If_Block",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi50",
+      "edge": "is_vul -> delete-node_TypeReference_Invocation",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi50",
+      "edge": "insert-node_LocalVariable_Block -> insert-node_VariableRead_Invocation",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi50",
+      "edge": "delete-node_Invocation_Invocation -> delete-node_Invocation_Return",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi50",
+      "edge": "is_vul -> delete-node_If_Block",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi50",
+      "edge": "delete-node_LocalVariable_Block -> move-tree_BinaryOperator_LocalVariable",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi50",
+      "edge": "insert-node_Invocation_Block -> insert-node_ConstructorCall_LocalVariable",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi50",
+      "edge": "delete-node_LocalVariable_Block -> delete-node_VariableRead_Invocation",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi50",
+      "edge": "delete-node_LocalVariable_Block -> move-tree_VariableRead_BinaryOperator",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi50",
+      "edge": "insert-node_Invocation_Return -> delete-node_FieldRead_Return",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi50",
+      "edge": "is_vul -> insert-node_Invocation_LocalVariable",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi50",
+      "edge": "is_vul -> insert-node_FieldRead_ConstructorCall",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi50",
+      "edge": "is_vul -> insert-node_VirtualElement_Annotation",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi50",
+      "edge": "is_vul -> delete-node_Annotation_Method",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi50",
+      "edge": "delete-node_Invocation_Invocation -> insert-node_ConstructorCall_Invocation",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi50",
+      "edge": "is_vul -> delete-node_Invocation_LocalVariable",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi50",
+      "edge": "insert-node_Invocation_LocalVariable -> delete-node_ConstructorCall_LocalVariable",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi50",
+      "edge": "insert-node_LocalVariable_Block -> delete-node_LocalVariable_Block",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi50",
+      "edge": "insert-node_Assignment_Block -> delete-node_Assignment_Block",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi50",
+      "edge": "insert-node_LocalVariable_Block -> insert-node_Invocation_Block",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi50",
+      "edge": "is_vul -> delete-node_Annotation_Parameter",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi50",
+      "edge": "is_vul -> insert-node_Annotation_Method",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi50",
+      "edge": "is_vul -> delete-node_Block_If",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi50",
+      "edge": "delete-node_LocalVariable_Block -> delete-node_Assignment_Block",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi50",
+      "edge": "delete-node_VariableRead_Invocation -> insert-node_Invocation_Invocation",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi50",
+      "edge": "delete-node_Invocation_LocalVariable -> insert-node_ConstructorCall_LocalVariable",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi50",
+      "edge": "is_vul -> delete-node_Invocation_ConstructorCall",
+      "frequency": 9,
+      "pct_configs": 1.0
+    }
+  ],
+  "mi100": [
+    {
+      "experiment": "mi100",
+      "edge": "is_vul -> delete-node_Catch_Try",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi100",
+      "edge": "insert-node_LocalVariable_Block -> insert-node_VariableRead_Invocation",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi100",
+      "edge": "insert-node_LocalVariable_Block -> move-tree_ConstructorCall_Throw",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi100",
+      "edge": "delete-node_LocalVariable_Block -> move-tree_BinaryOperator_LocalVariable",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi100",
+      "edge": "delete-node_Invocation_Return -> insert-node_Literal_Return",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi100",
+      "edge": "insert-node_Invocation_Block -> insert-node_LocalVariable_Block",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi100",
+      "edge": "insert-node_Invocation_Block -> insert-node_If_Block",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi100",
+      "edge": "is_vul -> insert-node_Invocation_LocalVariable",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi100",
+      "edge": "delete-node_LocalVariable_Block -> delete-node_ForEach_Block",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi100",
+      "edge": "delete-node_BinaryOperator_Return -> move-tree_UnaryOperator_BinaryOperator",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi100",
+      "edge": "delete-node_LocalVariable_Block -> delete-node_VariableRead_BinaryOperator",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi100",
+      "edge": "insert-node_Literal_Invocation -> delete-node_TypeAccess_Invocation",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi100",
+      "edge": "is_vul -> delete-node_Invocation_LocalVariable",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi100",
+      "edge": "insert-node_Invocation_LocalVariable -> delete-node_ConstructorCall_LocalVariable",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi100",
+      "edge": "insert-node_TypeAccess_Invocation -> delete-node_Literal_Invocation",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi100",
+      "edge": "is_vul -> delete-node_Annotation_Parameter",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi100",
+      "edge": "delete-node_VariableRead_Invocation -> insert-node_Invocation_Invocation",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi100",
+      "edge": "delete-node_Invocation_LocalVariable -> insert-node_ConstructorCall_LocalVariable",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi100",
+      "edge": "is_vul -> delete-node_Invocation_BinaryOperator",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi100",
+      "edge": "move-tree_Invocation_OperatorAssignment -> update-node_Invocation_OperatorAssignment",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi100",
+      "edge": "insert-node_Invocation_Return -> delete-node_Literal_Return",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi100",
+      "edge": "is_vul -> insert-node_Parameter_Method",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi100",
+      "edge": "delete-node_LocalVariable_Block -> move-tree_ConstructorCall_LocalVariable",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi100",
+      "edge": "delete-node_FieldRead_ExecutableReferenceExpression -> insert-node_ThisAccess_ExecutableReferenceExpression",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi100",
+      "edge": "is_vul -> insert-node_Annotation_Parameter",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi100",
+      "edge": "delete-node_If_Block -> insert-node_Literal_Invocation",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi100",
+      "edge": "move-tree_ConstructorCall_LocalVariable -> delete-node_LocalVariable_TryWithResource",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi100",
+      "edge": "insert-node_Invocation_If -> delete-node_BinaryOperator_If",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi100",
+      "edge": "insert-node_ConstructorCall_LocalVariable -> insert-node_Invocation_Block",
+      "frequency": 9,
+      "pct_configs": 1.0
+    },
+    {
+      "experiment": "mi100",
+      "edge": "is_vul -> delete-node_Invocation_Invocation",
+      "frequency": 9,
+      "pct_configs": 1.0
+    }
+  ]
+}
