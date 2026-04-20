@@ -1,0 +1,9 @@
+label_num,node,P(state=1 | is_vul=0),P(state=1 | is_vul=1),abs_delta,impact_direction
+1,delete-node_If_Block,0.0526425513195262,0.1981661131301272,0.1455235618106009,higher when is_vul=1
+2,delete-node_Invocation_Block,0.0520192023150951,0.1761050581572568,0.1240858558421617,higher when is_vul=1
+3,delete-node_LocalVariable_Block,0.0709074311373384,0.1310744359606128,0.0601670048232744,higher when is_vul=1
+4,insert-node_Invocation_Invocation,0.0583968509353336,0.0258074597793833,0.0325893911559503,lower when is_vul=1
+5,delete-node_Invocation_Invocation,0.0188947370240833,0.0495693196798487,0.0306745826557653,higher when is_vul=1
+6,delete-node_BinaryOperator_If,0.0113291538996741,0.0358737096772183,0.0245445557775441,higher when is_vul=1
+7,insert-node_Invocation_LocalVariable,0.0261532545051352,0.0030541330107444,0.0230991214943908,lower when is_vul=1
+8,insert-node_Parameter_Method,0.0276158932302735,0.0066259763880373,0.0209899168422361,lower when is_vul=1

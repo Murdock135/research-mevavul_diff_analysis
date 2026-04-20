@@ -1,0 +1,82 @@
+[
+  {
+    "edge": "delete-node_Assignment_Block -> move-tree_BinaryOperator_Assignment",
+    "frequency": 8
+  },
+  {
+    "edge": "delete-node_If_Block -> delete-node_LocalVariable_Block",
+    "frequency": 8
+  },
+  {
+    "edge": "delete-node_Invocation_Block -> delete-node_LocalVariable_Block",
+    "frequency": 8
+  },
+  {
+    "edge": "insert-node_Assignment_Block -> delete-node_Assignment_Block",
+    "frequency": 8
+  },
+  {
+    "edge": "insert-node_Assignment_Block -> is_vul",
+    "frequency": 8
+  },
+  {
+    "edge": "insert-node_If_Block -> insert-node_Invocation_Block",
+    "frequency": 8
+  },
+  {
+    "edge": "insert-node_If_Block -> is_vul",
+    "frequency": 8
+  },
+  {
+    "edge": "insert-node_Invocation_Block -> insert-node_ConstructorCall_LocalVariable",
+    "frequency": 8
+  },
+  {
+    "edge": "insert-node_Invocation_Block -> is_vul",
+    "frequency": 8
+  },
+  {
+    "edge": "insert-node_LocalVariable_Block -> delete-node_LocalVariable_Block",
+    "frequency": 8
+  },
+  {
+    "edge": "insert-node_LocalVariable_Block -> insert-node_If_Block",
+    "frequency": 8
+  },
+  {
+    "edge": "insert-node_LocalVariable_Block -> insert-node_Invocation_Block",
+    "frequency": 8
+  },
+  {
+    "edge": "is_vul -> delete-node_If_Block",
+    "frequency": 8
+  },
+  {
+    "edge": "is_vul -> delete-node_Invocation_Block",
+    "frequency": 8
+  },
+  {
+    "edge": "is_vul -> insert-node_Block_If",
+    "frequency": 8
+  },
+  {
+    "edge": "move-tree_VariableRead_BinaryOperator -> delete-node_BinaryOperator_If",
+    "frequency": 8
+  },
+  {
+    "edge": "insert-node_ConstructorCall_Invocation -> delete-node_Invocation_Return",
+    "frequency": 7
+  },
+  {
+    "edge": "delete-node_ConstructorCall_LocalVariable -> delete-node_Invocation_Block",
+    "frequency": 6
+  },
+  {
+    "edge": "delete-node_If_Block -> delete-node_Invocation_Block",
+    "frequency": 2
+  },
+  {
+    "edge": "insert-node_If_Block -> delete-node_If_Block",
+    "frequency": 2
+  }
+]

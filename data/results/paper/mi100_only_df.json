@@ -1,0 +1,266 @@
+[
+  {
+    "edge": "delete-node_Assignment_Block -> is_vul",
+    "frequency": 9
+  },
+  {
+    "edge": "delete-node_BinaryOperator_Return -> move-tree_UnaryOperator_BinaryOperator",
+    "frequency": 9
+  },
+  {
+    "edge": "delete-node_FieldRead_ExecutableReferenceExpression -> insert-node_ThisAccess_ExecutableReferenceExpression",
+    "frequency": 9
+  },
+  {
+    "edge": "delete-node_ForEach_Block -> update-node_Invocation_ForEach",
+    "frequency": 9
+  },
+  {
+    "edge": "delete-node_If_Block -> delete-node_VariableRead_If",
+    "frequency": 9
+  },
+  {
+    "edge": "delete-node_If_Block -> insert-node_Literal_Invocation",
+    "frequency": 9
+  },
+  {
+    "edge": "delete-node_If_Block -> is_vul",
+    "frequency": 9
+  },
+  {
+    "edge": "delete-node_If_Block -> move-tree_BinaryOperator_If",
+    "frequency": 9
+  },
+  {
+    "edge": "delete-node_Invocation_Block -> is_vul",
+    "frequency": 9
+  },
+  {
+    "edge": "delete-node_Invocation_Block -> move-tree_BinaryOperator_Assignment",
+    "frequency": 9
+  },
+  {
+    "edge": "delete-node_Invocation_Return -> insert-node_Literal_Return",
+    "frequency": 9
+  },
+  {
+    "edge": "delete-node_Literal_Return -> insert-node_FieldRead_Return",
+    "frequency": 9
+  },
+  {
+    "edge": "delete-node_LocalVariable_Block -> delete-node_ForEach_Block",
+    "frequency": 9
+  },
+  {
+    "edge": "delete-node_LocalVariable_Block -> delete-node_If_Block",
+    "frequency": 9
+  },
+  {
+    "edge": "delete-node_LocalVariable_Block -> delete-node_Invocation_Block",
+    "frequency": 9
+  },
+  {
+    "edge": "delete-node_LocalVariable_Block -> delete-node_VariableRead_BinaryOperator",
+    "frequency": 9
+  },
+  {
+    "edge": "delete-node_LocalVariable_Block -> insert-node_LocalVariable_Block",
+    "frequency": 9
+  },
+  {
+    "edge": "delete-node_LocalVariable_Block -> move-tree_ConstructorCall_LocalVariable",
+    "frequency": 9
+  },
+  {
+    "edge": "delete-node_LocalVariable_TryWithResource -> delete-node_Block_If",
+    "frequency": 9
+  },
+  {
+    "edge": "delete-node_LocalVariable_TryWithResource -> move-tree_BinaryOperator_ConstructorCall",
+    "frequency": 9
+  },
+  {
+    "edge": "delete-node_LocalVariable_TryWithResource -> move-tree_Literal_NewArray",
+    "frequency": 9
+  },
+  {
+    "edge": "delete-node_ThisAccess_ExecutableReferenceExpression -> insert-node_FieldRead_ExecutableReferenceExpression",
+    "frequency": 9
+  },
+  {
+    "edge": "delete-node_Try_Block -> delete-node_LocalVariable_Block",
+    "frequency": 9
+  },
+  {
+    "edge": "delete-node_VariableRead_Invocation -> insert-node_TypeAccess_ThisAccess",
+    "frequency": 9
+  },
+  {
+    "edge": "insert-node_BinaryOperator_If -> move-tree_BinaryOperator_If",
+    "frequency": 9
+  },
+  {
+    "edge": "insert-node_BinaryOperator_If -> move-tree_UnaryOperator_If",
+    "frequency": 9
+  },
+  {
+    "edge": "insert-node_ConstructorCall_LocalVariable -> insert-node_Invocation_Block",
+    "frequency": 9
+  },
+  {
+    "edge": "insert-node_If_Block -> insert-node_LocalVariable_Block",
+    "frequency": 9
+  },
+  {
+    "edge": "insert-node_If_Block -> move-tree_BinaryOperator_If",
+    "frequency": 9
+  },
+  {
+    "edge": "insert-node_If_Block -> move-tree_VariableRead_Conditional",
+    "frequency": 9
+  },
+  {
+    "edge": "insert-node_Invocation_BinaryOperator -> delete-node_VariableRead_BinaryOperator",
+    "frequency": 9
+  },
+  {
+    "edge": "insert-node_Invocation_Block -> delete-node_BinaryOperator_LocalVariable",
+    "frequency": 9
+  },
+  {
+    "edge": "insert-node_Invocation_Block -> insert-node_If_Block",
+    "frequency": 9
+  },
+  {
+    "edge": "insert-node_Invocation_Block -> insert-node_LocalVariable_Block",
+    "frequency": 9
+  },
+  {
+    "edge": "insert-node_Invocation_If -> delete-node_BinaryOperator_If",
+    "frequency": 9
+  },
+  {
+    "edge": "insert-node_Invocation_If -> move-tree_BinaryOperator_ConstructorCall",
+    "frequency": 9
+  },
+  {
+    "edge": "insert-node_Invocation_Invocation -> insert-node_LocalVariable_TryWithResource",
+    "frequency": 9
+  },
+  {
+    "edge": "insert-node_Invocation_Return -> delete-node_Literal_Return",
+    "frequency": 9
+  },
+  {
+    "edge": "insert-node_Literal_Invocation -> delete-node_TypeAccess_Invocation",
+    "frequency": 9
+  },
+  {
+    "edge": "insert-node_Literal_Invocation -> insert-node_If_Block",
+    "frequency": 9
+  },
+  {
+    "edge": "insert-node_Literal_Return -> delete-node_FieldRead_Return",
+    "frequency": 9
+  },
+  {
+    "edge": "insert-node_LocalVariable_Block -> insert-node_ForEach_Block",
+    "frequency": 9
+  },
+  {
+    "edge": "insert-node_LocalVariable_Block -> insert-node_Try_Block",
+    "frequency": 9
+  },
+  {
+    "edge": "insert-node_LocalVariable_Block -> insert-node_VariableRead_BinaryOperator",
+    "frequency": 9
+  },
+  {
+    "edge": "insert-node_LocalVariable_Block -> move-tree_ConstructorCall_Throw",
+    "frequency": 9
+  },
+  {
+    "edge": "insert-node_LocalVariable_TryWithResource -> insert-node_Block_If",
+    "frequency": 9
+  },
+  {
+    "edge": "insert-node_TypeAccess_Invocation -> delete-node_Literal_Invocation",
+    "frequency": 9
+  },
+  {
+    "edge": "insert-node_VariableRead_BinaryOperator -> delete-node_Invocation_BinaryOperator",
+    "frequency": 9
+  },
+  {
+    "edge": "insert-node_VariableRead_Invocation -> delete-node_TypeAccess_ThisAccess",
+    "frequency": 9
+  },
+  {
+    "edge": "insert-node_VariableRead_Invocation -> move-tree_BinaryOperator_Invocation",
+    "frequency": 9
+  },
+  {
+    "edge": "is_vul -> delete-node_BinaryOperator_Return",
+    "frequency": 9
+  },
+  {
+    "edge": "is_vul -> delete-node_Literal_Invocation",
+    "frequency": 9
+  },
+  {
+    "edge": "is_vul -> insert-node_If_Block",
+    "frequency": 9
+  },
+  {
+    "edge": "is_vul -> insert-node_Invocation_Block",
+    "frequency": 9
+  },
+  {
+    "edge": "move-tree_BinaryOperator_Assignment -> delete-node_Assignment_Block",
+    "frequency": 9
+  },
+  {
+    "edge": "move-tree_BinaryOperator_Invocation -> insert-node_Assignment_Block",
+    "frequency": 9
+  },
+  {
+    "edge": "move-tree_BinaryOperator_LocalVariable -> insert-node_BinaryOperator_LocalVariable",
+    "frequency": 9
+  },
+  {
+    "edge": "move-tree_BinaryOperator_Return -> insert-node_BinaryOperator_Return",
+    "frequency": 9
+  },
+  {
+    "edge": "move-tree_ConstructorCall_LocalVariable -> delete-node_LocalVariable_TryWithResource",
+    "frequency": 9
+  },
+  {
+    "edge": "move-tree_ConstructorCall_LocalVariable -> move-tree_Invocation_OperatorAssignment",
+    "frequency": 9
+  },
+  {
+    "edge": "move-tree_Invocation_OperatorAssignment -> update-node_Invocation_OperatorAssignment",
+    "frequency": 9
+  },
+  {
+    "edge": "move-tree_VariableRead_BinaryOperator -> insert-node_Invocation_BinaryOperator",
+    "frequency": 9
+  },
+  {
+    "edge": "move-tree_VariableRead_BinaryOperator -> insert-node_Invocation_If",
+    "frequency": 9
+  },
+  {
+    "edge": "move-tree_VariableRead_Conditional -> update-node_VariableRead_Conditional",
+    "frequency": 9
+  },
+  {
+    "edge": "update-node_VariableRead_Conditional -> insert-node_Invocation_Conditional",
+    "frequency": 9
+  },
+  {
+    "edge": "insert-node_Literal_Invocation -> delete-node_ConstructorCall_Invocation",
+    "frequency": 7
+  }
+]
