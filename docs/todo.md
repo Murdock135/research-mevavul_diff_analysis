@@ -23,7 +23,7 @@ Outputs: `data/results/figures/bn1/`, `data/results/tables/bn1/`
 - [x] **F1** — DAG visualization: full DAG + ego graph — *regenerate with best-config pipeline*
 - [x] **F2** — P(is_vul=1) heatmap over all 8 parent state combinations
 - [x] **F3** — MI bar chart, top-20 features colored by action type
-- [ ] **F4** — HCS convergence curve: `cn` vs. restart `n`, dashed line at threshold `c`; one curve per run
+- [x] **F4** — HCS convergence curve: `cn` vs. restart `n`, dashed line at threshold `c`; one curve per run
 - [ ] **F5** — Edge stability / inclusion frequency: bar chart of edges appearing in ≥1 restart, colored by action type, edges incident on `is_vul` highlighted
 
 ---
@@ -60,6 +60,26 @@ Outputs: `data/results/figures/bn1/`, `data/results/tables/bn1/`
 
 - [ ] **F6** — Feature overlap across targets: UpSet plot or Venn diagram of parent feature sets
 - [ ] **F7** — Side-by-side edge stability comparison across BN1/BN2/BN3
+
+---
+
+## Evaluation
+
+### Primary: fixed-structure 5-fold CV (within MegaVul)
+- [ ] Implement 5-fold CV over CPD parameters with DAG structure fixed (no re-running Coming or structure learning)
+  - Split 4,866 samples into 5 folds; for each fold, call `BayesianNetwork.fit()` on 4 folds, predict `is_vul` via Variable Elimination on the held-out fold
+  - Report AUC, F1, accuracy averaged across folds
+  - **Note**: structure was learned on all data; this measures parameter generalisation only. Acknowledge MI leakage in paper: *"Feature selection was performed on the full dataset prior to evaluation; predictive performance estimates may be optimistic."*
+  - Compare against logistic regression and naive Bayes baselines on same folds
+
+### External validity: SARD
+- [ ] Download NIST SARD Java samples (Juliet test suite); filter to CWEs overlapping MegaVul top-4 (CWE-79, CWE-611, CWE-22, CWE-89)
+- [ ] Construct (bad, good) function pairs using the same pair-directory format as MegaVul (`02_create_pairs.py` or equivalent); apply same class-wrapping
+- [ ] Run Coming on SARD pairs inside Docker (same `03_get_diffs.py` pipeline)
+- [ ] Build feature matrix for SARD samples; apply same 70-feature vocabulary from MegaVul MI selection
+- [ ] Predict `is_vul` using fitted MegaVul BN; report AUC, F1
+- [ ] **Note**: SARD Juliet samples are synthetic/algorithmically generated — expect distribution shift from real CVE patches; frame as external validity experiment, not primary evaluation
+- [ ] Check CWE coverage and parse failure rate for SARD samples
 
 ---
 
